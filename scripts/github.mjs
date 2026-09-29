@@ -31,7 +31,7 @@ async function gh(path, opts = {}) {
 }
 function git(msg) {
   try {
-    execSync(`git add ${D} && (git diff --cached --quiet || git commit -qm "${msg}") && git pull -q --rebase --autostash; git push -q`, { stdio: "inherit", shell: "/bin/bash" });
+    execSync(`git add ${D} && (git diff --cached --quiet || git commit -qm "${msg}") && git pull -q --rebase --autostash origin main; git push -q origin HEAD:main`, { stdio: "inherit", shell: "/bin/bash" });
   } catch (e) { console.warn(e.message); }
 }
 function estado(ag, est, msg) {
