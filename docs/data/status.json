@@ -14,9 +14,19 @@
       "estado": "pronto",
       "msg": "7 slides",
       "em": "2026-09-29T15:36:20.756Z"
+    },
+    "editor": {
+      "estado": "a trabalhar",
+      "msg": "Textos finais",
+      "em": "2026-09-29T15:36:22.580Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-29T15:36:22.580Z",
+      "agente": "editor",
+      "msg": "Textos finais"
+    },
     {
       "em": "2026-09-29T15:36:20.756Z",
       "agente": "design",
@@ -48,5 +58,5 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-29T15:36:20.756Z"
+  "actualizado": "2026-09-29T15:36:22.580Z"
 }
