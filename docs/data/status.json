@@ -4,9 +4,19 @@
       "estado": "pronto",
       "msg": "5 itens novos",
       "em": "2026-09-29T15:35:55.624Z"
+    },
+    "analise": {
+      "estado": "a trabalhar",
+      "msg": "PESTAL e impacto",
+      "em": "2026-09-29T15:35:57.519Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-29T15:35:57.519Z",
+      "agente": "analise",
+      "msg": "PESTAL e impacto"
+    },
     {
       "em": "2026-09-29T15:35:55.624Z",
       "agente": "fontes",
@@ -18,5 +28,5 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-29T15:35:55.624Z"
+  "actualizado": "2026-09-29T15:35:57.519Z"
 }
