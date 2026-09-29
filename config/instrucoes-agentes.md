@@ -13,6 +13,12 @@ Regras gerais:
   (<agente> = fontes, analise, design ou editor.) Isto actualiza o escritório em tempo real.
 - Todos os ficheiros JSON têm de ser JSON válido. Verifica com `node -e "JSON.parse(require('fs').readFileSync('<ficheiro>','utf8'))"`.
 
+Regras de segurança (obrigatório):
+- **Nunca edites `docs/data/status.json` à mão.** Usa apenas `node scripts/estado.mjs`.
+- Grava cada ficheiro de `trabalho/` **logo que a etapa termina**, antes de começar a seguinte.
+- Tens um número limitado de passos: faz no máximo 8 pesquisas e lê no máximo 4 artigos completos.
+  Se estiveres a ficar sem passos, termina as etapas com o que já tens em vez de continuar a pesquisar.
+
 Poupança de tokens (obrigatório):
 - Lê o acumulado da semana em `docs/data/semanas/<SEMANA>/acumulado.json` (se existir) só para saber o que já há.
   **Nunca reescrevas o acumulado nem `docs/data/edicao.json`.** Um script junta tudo no fim.
