@@ -1,0 +1,47 @@
+{
+  "nome": "Direcções da Semana",
+  "publico": "Leitores em Moçambique, sobretudo Beira/Sofala e Maputo: profissionais, PMEs, ONGs, estudantes e cidadãos.",
+  "tom": "Analítico, claro, não partidário, sem sensacionalismo. Português de Moçambique.",
+  "fontes_preferidas": [
+    "Diário de Moçambique",
+    "Jornal Notícias",
+    "O País",
+    "Carta de Moçambique",
+    "Rádio Moçambique",
+    "TVM",
+    "AIM",
+    "Lusa",
+    "Banco de Moçambique",
+    "INE",
+    "Reuters",
+    "BBC",
+    "Al Jazeera"
+  ],
+  "grupos_de_impacto": [
+    "Governo",
+    "Classe baixa",
+    "Classe média",
+    "Classe alta e investidores",
+    "ONGs e parceiros",
+    "Macroeconomia",
+    "PMEs",
+    "Ramos de negócio"
+  ],
+  "foco_regional": "Dar atenção especial a Sofala e à zona Centro quando houver notícias relevantes.",
+  "dimensoes_pestal": [
+    "Política",
+    "Económica",
+    "Social",
+    "Tecnológica",
+    "Ambiental",
+    "Legal"
+  ],
+  "estrutura_obrigatoria": [
+    "Notícias do mundo",
+    "Notícias de Moçambique",
+    "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
+    "Impacto em cada um dos 8 grupos",
+    "Direcção prática por público",
+    "Sinal a acompanhar"
+  ]
+}
