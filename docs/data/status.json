@@ -11,12 +11,17 @@
       "em": "2026-09-29T15:36:15.084Z"
     },
     "design": {
-      "estado": "a trabalhar",
-      "msg": "Carrossel",
-      "em": "2026-09-29T15:36:17.017Z"
+      "estado": "pronto",
+      "msg": "7 slides",
+      "em": "2026-09-29T15:36:20.756Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-29T15:36:20.756Z",
+      "agente": "design",
+      "msg": "7 slides"
+    },
     {
       "em": "2026-09-29T15:36:17.017Z",
       "agente": "design",
@@ -43,5 +48,5 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-29T15:36:17.017Z"
+  "actualizado": "2026-09-29T15:36:20.756Z"
 }
