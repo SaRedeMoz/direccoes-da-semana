@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { execSync } from "node:child_process";
 
-const ler = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : d);
+const ler = (p, d) => { try { return existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : d; } catch (e) { console.warn(`Aviso: ${p} tem JSON inválido (${e.message}); a usar valor por defeito.`); return d; } };
 const gravar = (p, o) => { mkdirSync(p.split("/").slice(0, -1).join("/"), { recursive: true }); writeFileSync(p, JSON.stringify(o, null, 2)); };
 
 const ent = ler("docs/data/entrada.json", null);
@@ -27,7 +27,24 @@ for (const k of ["analise", "design", "textos"]) {
   const v = ler(`${W}/${k}.json`, null);
   if (v) acum[k] = v;
 }
-if (!acum.textos) { console.error("O editor não produziu trabalho/textos.json"); process.exit(1); }
+const faltam = ["fontes", "analise", "design", "textos"].filter((k) => !existsSync(`${W}/${k}.json`));
+if (faltam.length) {
+  // Guarda o trabalho parcial para não o perder, e falha com uma mensagem clara
+  gravar(ACUM, acum);
+  const S0 = "docs/data/status.json";
+  const s0 = ler(S0, { estagios: {}, log: [] });
+  const nomes = { fontes: "fontes", analise: "analise", design: "design", textos: "editor" };
+  const ag = nomes[faltam[0]];
+  const em0 = new Date().toISOString();
+  s0.estagios = s0.estagios || {};
+  s0.estagios[ag] = { estado: "erro", msg: "Não terminou (limite de passos ou de uso)", em: em0 };
+  s0.log = [{ em: em0, agente: ag, msg: "Não terminou: faltam " + faltam.join(", ") }, ...(s0.log || [])].slice(0, 40);
+  s0.actualizado = em0;
+  gravar(S0, s0);
+  try { execSync(`git add docs/data && (git diff --cached --quiet || git commit -qm "trabalho parcial") && git pull -q --rebase --autostash origin main; git push -q origin HEAD:main`, { stdio: "inherit", shell: "/bin/bash" }); } catch {}
+  console.error(`Os agentes não terminaram. Ficheiros em falta em trabalho/: ${faltam.join(", ")}. Veja o fim do registo do passo "Agentes (Claude)".`);
+  process.exit(1);
+}
 
 // Verificação automática das direcções editoriais
 const LINHA = ler("config/linha-editorial.json", {});

@@ -4,7 +4,9 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { execSync } from "node:child_process";
 const [, , ag, est, msg] = process.argv;
 const P = "docs/data/status.json";
-const s = existsSync(P) ? JSON.parse(readFileSync(P, "utf8")) : { estagios: {}, log: [] };
+let s; try { s = existsSync(P) ? JSON.parse(readFileSync(P, "utf8")) : null; } catch { s = null; }
+if (!s || typeof s !== "object") s = { estagios: {}, log: [] };
+s.estagios = s.estagios || {};
 const em = new Date().toISOString();
 s.actualizado = em;
 s.estagios[ag] = { estado: est, msg, em };

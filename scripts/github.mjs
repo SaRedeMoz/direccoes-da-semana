@@ -19,7 +19,7 @@ function semanaISO(d) {
   return `${t.getUTCFullYear()}-S${String(n).padStart(2, "0")}`;
 }
 const SEMANA = semanaISO(maputo);
-const ler = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : d);
+const ler = (p, d) => { try { return existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : d; } catch (e) { console.warn(`Aviso: ${p} tem JSON inválido (${e.message}); a usar valor por defeito.`); return d; } };
 const gravar = (p, o) => { mkdirSync(p.split("/").slice(0, -1).join("/"), { recursive: true }); writeFileSync(p, JSON.stringify(o, null, 2)); };
 const saida = (k, v) => process.env.GITHUB_OUTPUT && appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`);
 
