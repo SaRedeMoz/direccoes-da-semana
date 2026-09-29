@@ -11,5 +11,5 @@ s.estagios[ag] = { estado: est, msg, em };
 s.log = [{ em, agente: ag, msg }, ...(s.log || [])].slice(0, 40);
 writeFileSync(P, JSON.stringify(s, null, 2));
 try {
-  execSync(`git add docs/data && (git diff --cached --quiet || git commit -qm "${ag}: ${est}") && git pull -q --rebase --autostash; git push -q`, { stdio: "inherit", shell: "/bin/bash" });
+  execSync(`git add docs/data && (git diff --cached --quiet || git commit -qm "${ag}: ${est}") && git pull -q --rebase --autostash origin main; git push -q origin HEAD:main`, { stdio: "inherit", shell: "/bin/bash" });
 } catch (e) { console.warn(e.message); }
