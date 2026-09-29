@@ -16,12 +16,17 @@
       "em": "2026-09-29T15:36:20.756Z"
     },
     "editor": {
-      "estado": "a trabalhar",
-      "msg": "Textos finais",
-      "em": "2026-09-29T15:36:22.580Z"
+      "estado": "pronto",
+      "msg": "Textos finais gravados",
+      "em": "2026-09-29T15:36:52.232Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-29T15:36:52.232Z",
+      "agente": "editor",
+      "msg": "Textos finais gravados"
+    },
     {
       "em": "2026-09-29T15:36:22.580Z",
       "agente": "editor",
@@ -58,5 +63,5 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-29T15:36:22.580Z"
+  "actualizado": "2026-09-29T15:36:52.232Z"
 }
