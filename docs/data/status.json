@@ -17,11 +17,16 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos finais gravados",
-      "em": "2026-09-29T15:36:52.232Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-09-29T15:37:00.035Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-29T15:37:00.035Z",
+      "agente": "editor",
+      "msg": "Edição versão 1 montada"
+    },
     {
       "em": "2026-09-29T15:36:52.232Z",
       "agente": "editor",
@@ -63,5 +68,5 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-29T15:36:52.232Z"
+  "actualizado": "2026-09-29T15:37:00.035Z"
 }
