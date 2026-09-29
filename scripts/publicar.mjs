@@ -59,5 +59,5 @@ s.actualizado = em;
 s.estagios.editor = { estado: "pronto", msg: "Textos finais prontos", em };
 s.log = [{ em, agente: "editor", msg: `Edição versão ${acum.versao} montada` }, ...(s.log || [])].slice(0, 40);
 gravar(S, s);
-execSync(`git add docs/data && (git diff --cached --quiet || git commit -qm "edição v${acum.versao}") && git pull -q --rebase --autostash; git push -q`, { stdio: "inherit", shell: "/bin/bash" });
+execSync(`git add docs/data && (git diff --cached --quiet || git commit -qm "edição v${acum.versao}") && git pull -q --rebase --autostash origin main; git push -q origin HEAD:main`, { stdio: "inherit", shell: "/bin/bash" });
 console.log(`Edição ${ent.semana} v${acum.versao}: ${acum.itens.length} notícias.`);
