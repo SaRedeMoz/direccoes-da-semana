@@ -1,17 +1,22 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "Pesquisa das notícias do dia",
-      "em": "2026-09-29T15:35:03.439Z"
+      "estado": "pronto",
+      "msg": "5 itens novos",
+      "em": "2026-09-29T15:35:55.624Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-29T15:35:55.624Z",
+      "agente": "fontes",
+      "msg": "5 itens novos"
+    },
     {
       "em": "2026-09-29T15:35:03.439Z",
       "agente": "fontes",
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-29T15:35:03.439Z"
+  "actualizado": "2026-09-29T15:35:55.624Z"
 }
