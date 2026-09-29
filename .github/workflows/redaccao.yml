@@ -1,0 +1,78 @@
+name: Redacção diária
+
+on:
+  schedule:
+    # 00:00 UTC = 02:00 em Moçambique (CAT, UTC+2). O GitHub pode atrasar alguns minutos.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: redaccao
+  cancel-in-progress: false
+
+jobs:
+  redaccao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    if: >
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issue_comment' &&
+        startsWith(github.event.comment.body, '/rever') &&
+        github.event.comment.user.login == github.repository_owner) ||
+      (github.event_name == 'issues' && github.event.label.name == 'aprovado')
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      EVENTO: ${{ github.event_name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Configurar git
+        run: |
+          git config user.name "redaccao-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # 1) Sem custo: abre a conversa da semana e junta as suas notícias e sugestões
+      - name: Preparar
+        id: preparar
+        run: node scripts/github.mjs preparar
+
+      # 2) Os agentes — usa a SUA subscrição Claude (sem API paga)
+      - name: Agentes (Claude)
+        if: steps.preparar.outputs.modo != 'aprovar'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Lê e segue à letra o ficheiro config/instrucoes-agentes.md.
+            Modo desta ronda: ${{ steps.preparar.outputs.modo }}.
+            Data de hoje (Maputo): ${{ steps.preparar.outputs.hoje }}. Semana: ${{ steps.preparar.outputs.semana }}.
+          claude_args: >-
+            --max-turns 80
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Bash(git:*),Bash(node:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*)"
+
+      # 3) Sem custo: junta o trabalho dos agentes na edição
+      - name: Montar edição
+        if: steps.preparar.outputs.modo != 'aprovar'
+        run: node scripts/publicar.mjs
+
+      # 4) Sem custo: envia-lhe o email (comentário na Issue) ou regista a aprovação
+      - name: Notificar
+        if: success()
+        run: node scripts/github.mjs ${{ steps.preparar.outputs.modo == 'aprovar' && 'aprovar' || 'notificar' }}
+      - name: Avisar falha
+        if: failure()
+        run: node scripts/github.mjs falha
