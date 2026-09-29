@@ -9,9 +9,19 @@
       "estado": "pronto",
       "msg": "PESTAL e impacto feitos",
       "em": "2026-09-29T15:36:15.084Z"
+    },
+    "design": {
+      "estado": "a trabalhar",
+      "msg": "Carrossel",
+      "em": "2026-09-29T15:36:17.017Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-29T15:36:17.017Z",
+      "agente": "design",
+      "msg": "Carrossel"
+    },
     {
       "em": "2026-09-29T15:36:15.084Z",
       "agente": "analise",
@@ -33,5 +43,5 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-29T15:36:15.084Z"
+  "actualizado": "2026-09-29T15:36:17.017Z"
 }
