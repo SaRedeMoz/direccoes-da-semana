@@ -61,8 +61,8 @@ jobs:
             Modo desta ronda: ${{ steps.preparar.outputs.modo }}.
             Data de hoje (Maputo): ${{ steps.preparar.outputs.hoje }}. Semana: ${{ steps.preparar.outputs.semana }}.
           claude_args: >-
-                        --max-turns 120
-            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash"
+            --max-turns 120
+            --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Bash(git:*),Bash(node:*),Bash(cat:*),Bash(ls:*),Bash(mkdir:*)"
 
       # 3) Sem custo: junta o trabalho dos agentes na edição
       - name: Montar edição
