@@ -16,9 +16,9 @@
       "em": "2026-09-30T22:08:32.132Z"
     },
     "editor": {
-      "estado": "a trabalhar",
-      "msg": "Corrigir texto de ganhos e perdas",
-      "em": "2026-09-30T22:08:33.280Z"
+      "estado": "pronto",
+      "msg": "Textos revistos",
+      "em": "2026-09-30T22:08:34.485Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-09-30T22:08:34.485Z",
+      "agente": "editor",
+      "msg": "Textos revistos"
+    },
     {
       "em": "2026-09-30T22:08:33.280Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-09-30T02:47:46.367Z",
       "agente": "fontes",
       "msg": "0 novas, 1 actualização (Brent)"
-    },
-    {
-      "em": "2026-09-30T02:47:20.976Z",
-      "agente": "fontes",
-      "msg": "A pesquisar notícias de 29-30 Set"
     }
   ],
-  "actualizado": "2026-09-30T22:08:33.280Z",
+  "actualizado": "2026-09-30T22:08:34.485Z",
   "semana": "2026-S40",
   "dia": "2026-10-01",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1"
