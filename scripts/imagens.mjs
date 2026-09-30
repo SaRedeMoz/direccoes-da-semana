@@ -163,8 +163,8 @@ function moldeC(W, H, i, n, titulo, corpo) {
   .topo{position:absolute;left:80px;right:80px;top:${story ? 130 : 80}px;display:flex;justify-content:space-between;align-items:center}
   .topo .m{font-weight:500;font-size:28px;letter-spacing:.04em}
   .pill{width:150px;height:62px;border:2px solid rgba(255,255,255,.85);border-radius:40px;display:flex;align-items:center;justify-content:center;padding:0 30px;color:#fff}
-  h1{position:absolute;left:80px;right:80px;top:${story ? 300 : 210}px;font-weight:500;font-size:${story ? 104 : 92}px;line-height:1.02;text-transform:uppercase;letter-spacing:-.01em}
-  .corpo{position:absolute;left:80px;right:80px;top:${story ? 620 : 440}px;bottom:${story ? 200 : 130}px}
+  h1{position:absolute;left:80px;right:80px;top:${story ? 280 : 170}px;font-weight:500;font-size:${story ? 96 : 78}px;line-height:1.02;text-transform:uppercase;letter-spacing:-.01em}
+  .corpo{position:absolute;left:80px;right:80px;top:${story ? 560 : 360}px;bottom:${story ? 180 : 110}px}
   .pe{position:absolute;left:80px;right:80px;bottom:${story ? 110 : 60}px;display:flex;justify-content:space-between;font-size:24px;color:#9aa39e}
   .g{color:#00D26A;font-weight:700}
   .row{display:flex;align-items:center;gap:22px;margin-bottom:${story ? 30 : 20}px}
@@ -183,24 +183,49 @@ function moldeC(W, H, i, n, titulo, corpo) {
 function slidesAnalise() {
   const out = [];
   const pest = an.pestal || [];
-  if (pest.length) out.push({ titulo: "Oportunidades<br>e ameaças", corpo: (W, H) => {
-    const max = Math.max(1, ...pest.map((p) => Math.max((p.oportunidades || []).length, (p.ameacas || []).length)));
-    const bw = W - 160 - 250;
-    return `<div class="row" style="gap:30px;margin-bottom:30px;font-size:24px"><span><b class="g">■</b> Oportunidades</span><span><b style="color:#5b6660">■</b> Ameaças</span></div>` +
-      pest.slice(0, 6).map((p) => { const o = (p.oportunidades || []).length, a = (p.ameacas || []).length;
-        return `<div style="display:grid;grid-template-columns:230px 1fr;align-items:center;margin-bottom:${H > 1500 ? 44 : 26}px">
-          <span style="font-size:28px;font-weight:500">${esc(corta(p.dimensao, 14))}</span>
-          <span><span style="display:block;height:22px;border-radius:12px;background:#00D26A;width:${Math.max(18, (o / max) * bw)}px;margin-bottom:8px"></span>
-          <span style="display:block;height:22px;border-radius:12px;background:#5b6660;width:${Math.max(18, (a / max) * bw)}px"></span></span></div>`; }).join("") +
-      (an.sintese ? `<div style="margin-top:20px"><div class="g" style="font-size:28px">LEITURA:</div><div style="font-size:27px;color:#cfd6d2;margin-top:6px;line-height:1.35">${esc(corta(an.sintese, 180))}</div></div>` : "");
-  }});
+  // Oportunidades e ameaças em lista de pontos, duas dimensões por página (três páginas)
+  const txt = (i) => typeof i === "string" ? i : (i?.texto || "");
+  const orig = (i) => typeof i === "object" && i?.origem ? (i.origem === "externa" ? "externa" : "interna") : "";
+  const pontos = (p) => {
+    const o = (p.oportunidades || []).map((i) => [txt(i), orig(i)]).filter((x) => x[0]);
+    const a = (p.ameacas || []).map((i) => [txt(i), orig(i)]).filter((x) => x[0]);
+    if (!o.length && p.principal_oportunidade) o.push([p.principal_oportunidade, ""]);
+    if (!a.length && p.principal_ameaca) a.push([p.principal_ameaca, ""]);
+    return [o.slice(0, 3), a.slice(0, 3)];
+  };
+  const pares = [];
+  for (let i = 0; i < Math.min(pest.length, 6); i += 2) pares.push(pest.slice(i, i + 2));
+  pares.forEach((par) => out.push({ titulo: "Oportunidades<br>e ameaças", corpo: (W, H) => {
+    // versão limpa: cabeçalhos das colunas uma só vez, pontos em texto simples, sem marcadores nem linhas
+    const story = H > 1500, f = story ? 34 : 30, gap = story ? 22 : 16;
+    const col = (lista, cor) => lista.length
+      ? lista.map(([t]) => `<div style="font-size:${f}px;line-height:1.22;margin-bottom:${gap}px;color:${cor}">${esc(corta(t, 60))}</div>`).join("")
+      : `<div style="font-size:${f}px;color:#4f5a55">Sem destaque</div>`;
+    const bloco = (p) => { const [o, a] = pontos(p);
+      return `<div style="margin-bottom:${story ? 70 : 44}px">
+        <div style="font-size:${story ? 22 : 19}px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8c968f;margin-bottom:${story ? 18 : 14}px">${esc(limpaT(p.dimensao))}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px"><div>${col(o, "#FFFFFF")}</div><div>${col(a, "#FFFFFF")}</div></div></div>`; };
+    return `<div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-bottom:${story ? 56 : 36}px;font-size:${story ? 24 : 21}px;font-weight:700;letter-spacing:.1em">
+        <span style="color:#00D26A">OPORTUNIDADES</span><span style="color:#B9C2BD">AMEAÇAS</span></div>${par.map(bloco).join("")}`;
+  }}));
+  // Quem ganha, quem perde: saldo de -2 a +2, com a razão principal
   const imp = an.impacto || [];
-  if (imp.length) out.push({ titulo: "Quem ganha,<br>quem perde", corpo: (W, H) =>
-    imp.slice(0, 8).map((x) => { const e = x.efeito === "positivo" ? ["GANHA", "#00D26A", "#031"] : x.efeito === "negativo" ? ["PERDE", "transparent", "#fff"] : ["MISTO", "#1c3a2a", "#9ff0c4"];
-      return `<div style="display:grid;grid-template-columns:1fr 170px;align-items:center;gap:20px;padding:${H > 1500 ? 22 : 13}px 0;border-bottom:1px solid rgba(255,255,255,.12)">
-        <span><span style="display:block;font-size:30px;font-weight:700">${esc(corta(x.grupo, 34))}</span>
-        ${H > 1500 ? `<span style="display:block;font-size:24px;color:#aab3ae;margin-top:4px">${esc(corta(x.explicacao, 90))}</span>` : ""}</span>
-        <span style="text-align:center;font-weight:700;font-size:24px;letter-spacing:.06em;padding:10px 0;border-radius:40px;border:2px solid #00D26A;background:${e[1]};color:${e[2]}">${e[0]}</span></div>`; }).join("") });
+  const NIV = { "-2": "PERDE MUITO", "-1": "PERDE", "0": "EQUILIBRADO", "1": "GANHA", "2": "GANHA MUITO" };
+  const saldo = (x) => Number.isFinite(+x.saldo) && x.saldo !== null && x.saldo !== "" ? Math.max(-2, Math.min(2, Math.round(+x.saldo))) : x.efeito === "positivo" ? 1 : x.efeito === "negativo" ? -1 : 0;
+  if (imp.length) out.push({ titulo: "Quem ganha,<br>quem perde", corpo: (W, H) => {
+    const story = H > 1500, q = story ? 30 : 26;
+    const escala = (v) => [-2, -1, 0, 1, 2].map((k) => {
+      const on = v === 0 ? k === 0 : (v > 0 ? k > 0 && k <= v : k < 0 && k >= v);
+      const cor = v > 0 ? "#00D26A" : v < 0 ? "#E4E9E6" : "#6E7A74";
+      return `<span style="display:inline-block;width:${q}px;height:${q * 0.62}px;border-radius:4px;margin-left:5px;border:2px solid ${k === 0 ? "rgba(255,255,255,.55)" : "rgba(255,255,255,.22)"};background:${on ? cor : "transparent"}"></span>`; }).join("");
+    const linhas = imp.slice(0, 8).map((x) => { const v = saldo(x);
+      return `<div style="display:grid;grid-template-columns:1fr auto;align-items:center;gap:18px;padding:${story ? 20 : 11}px 0;border-bottom:1px solid rgba(255,255,255,.12)">
+        <span><span style="display:block;font-size:${story ? 29 : 25}px;font-weight:700">${esc(corta(x.grupo, 30))}</span>
+        <span style="display:block;font-size:${story ? 22 : 19}px;color:#aab3ae;margin-top:2px">${esc(corta(x.porque || x.explicacao, 58))}</span></span>
+        <span style="text-align:right"><span style="display:block">${escala(v)}</span>
+        <span style="display:block;font-size:${story ? 19 : 16}px;font-weight:700;letter-spacing:.05em;margin-top:6px;color:${v > 0 ? "#00D26A" : v < 0 ? "#E4E9E6" : "#9aa39e"}">${NIV[v]}</span></span></div>`; }).join("");
+    return linhas + `<div style="font-size:${story ? 21 : 18}px;color:#9aa39e;margin-top:${story ? 20 : 10}px">Escala da semana: do centro para a direita ganha, para a esquerda perde.</div>`;
+  }});
   const dir = an.direccao || [];
   if (dir.length) out.push({ titulo: "Direcção", corpo: (W, H) =>
     dir.slice(0, H > 1500 ? 6 : 5).map((d) => `<div class="cap"><div class="row" style="margin:0"><span class="ch">${CHEV}</span>

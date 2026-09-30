@@ -75,6 +75,10 @@ for (const dm of LINHA.dimensoes_pestal || []) if (!dims.some((x) => x.startsWit
 const grs = (acum.analise?.impacto || []).map((x) => (x.grupo || "").toLowerCase());
 for (const g of LINHA.grupos_de_impacto || []) if (!grs.some((x) => x.includes(g.toLowerCase().split(" ")[0]) && (g.split(" ").length < 2 || x.includes(g.toLowerCase().split(" ")[1])))) falhas.push(`Impacto sem o grupo ${g}`);
 if (!acum.textos.analise_completa) falhas.push("Falta a versão longa (análise completa)");
+const imp = acum.analise?.impacto || [];
+if (imp.some((x) => x.saldo === undefined)) falhas.push("Impacto sem saldo (-2 a +2) em algum grupo");
+if (imp.filter((x) => +x.saldo === 0).length > 2) falhas.push("Mais de 2 grupos em equilibrado: o analista deve escolher um lado");
+if ((acum.analise?.pestal || []).some((x) => x.peso_oportunidade === undefined || x.peso_ameaca === undefined)) falhas.push("PESTAL sem pesos (0 a 3) em alguma dimensão");
 for (const c of acum.textos.conformidade || []) if (c.ok === false) falhas.push(`Auto-verificação: ${c.criterio}`);
 acum.textos.verificar = [...(acum.textos.verificar || []), ...falhas.map((f) => "⚠️ " + f)];
 acum.falhas_conformidade = falhas;
