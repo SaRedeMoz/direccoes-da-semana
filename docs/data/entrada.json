@@ -1,13 +1,9 @@
 {
-  "modo": "diario",
+  "modo": "rever",
   "hoje": "2026-09-30",
   "semana": "2026-S40",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1",
   "noticias_do_aprovador": [],
-  "sugestoes_novas": [
-    "/aprovar"
-  ],
-  "ids_comentarios": [
-    5893693902
-  ]
+  "sugestoes_novas": [],
+  "ids_comentarios": []
 }
