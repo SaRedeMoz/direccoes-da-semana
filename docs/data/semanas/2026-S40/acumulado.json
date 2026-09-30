@@ -62,21 +62,21 @@
   "sugestoes_semana": [
     "/aprovar"
   ],
-  "versao": 3,
+  "versao": 4,
   "lacunas": [
     "Sofala/Centro: porto da Beira, sem data confirmada",
-    "Segurança em Cabo Delgado: sem notícia datada de 29 e 30 de Setembro",
+    "Segurança em Cabo Delgado: sem notícia datada",
     "Preços dos combustíveis em Moçambique: sem decisão recente datada",
     "Câmbio e reservas cambiais"
   ],
   "analise": {
     "destaques": {
       "mundo": [
-        "Brent volta a ceder a 29 Set (cerca de 104 a 106 dólares), depois de ter passado os 107 a 28 Set; o impasse EUA-Irão e o Estreito de Ormuz mantêm o risco elevado."
+        "Brent volta a ceder a 29 de Setembro, para cerca de 104 a 106 dólares, depois de passar os 107 a 28. O impasse EUA-Irão e o Estreito de Ormuz mantêm o risco elevado."
       ],
       "nacional": [
-        "Inflação anual desce para 6,45% em Agosto (7,48% em Julho).",
-        "Presidente Chapo em visita de Estado ao Botswana: portos, energia e corredores.",
+        "Inflação anual desce para 6,45% em Agosto, contra 7,48% em Julho.",
+        "Presidente Chapo em visita de Estado ao Botswana, com portos, energia e corredores na agenda.",
         "Missão da ONU sobre direitos humanos e clima decorre até 2 de Outubro.",
         "Dívida do Município de Pemba passa os 800 milhões de meticais (confiança baixa)."
       ]
@@ -86,133 +86,173 @@
         "dimensao": "Política",
         "oportunidades": [
           {
-            "texto": "A visita ao Botswana pode abrir cooperação em corredores e portos, com a Beira como candidata natural.",
+            "texto": "Corredores e portos com o Botswana",
             "origem": "externa"
           }
         ],
         "ameacas": [
           {
-            "texto": "Os acordos podem ficar por implementar se faltar capacidade de execução.",
+            "texto": "Acordos sem capacidade de execução",
             "origem": "interna"
           }
-        ]
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 1,
+        "principal_oportunidade": "Corredores e portos com o Botswana",
+        "principal_ameaca": "Acordos sem capacidade de execução"
       },
       {
         "dimensao": "Económica",
         "oportunidades": [
           {
-            "texto": "A inflação em queda alivia o custo de vida e o crédito.",
+            "texto": "Inflação em queda, 6,45%",
             "origem": "interna"
           }
         ],
         "ameacas": [
           {
-            "texto": "Mesmo com o recuo de dia 29, o petróleo em torno de 105 dólares pode reverter o alívio dos preços através dos combustíveis.",
+            "texto": "Petróleo acima de 100 dólares",
             "origem": "externa"
           }
-        ]
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Inflação em queda, 6,45%",
+        "principal_ameaca": "Petróleo acima de 100 dólares"
       },
       {
         "dimensao": "Social",
         "oportunidades": [
           {
-            "texto": "Preços de alimentos mais estáveis ajudam as famílias de menor rendimento.",
+            "texto": "Alimentos com preços mais estáveis",
             "origem": "interna"
           }
         ],
         "ameacas": [
           {
-            "texto": "Uma nova subida dos combustíveis encarece o transporte e os alimentos.",
+            "texto": "Transporte e alimentos mais caros",
             "origem": "externa"
           }
-        ]
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Alimentos com preços mais estáveis",
+        "principal_ameaca": "Transporte e alimentos mais caros"
       },
       {
         "dimensao": "Tecnológica",
         "oportunidades": [
           {
-            "texto": "A cooperação regional em energia e corredores pode atrair investimento em infra-estruturas.",
+            "texto": "Investimento regional em energia",
             "origem": "externa"
           }
         ],
         "ameacas": [
           {
-            "texto": "Dependência de combustíveis importados expõe a logística a choques de preço.",
+            "texto": "Logística dependente de combustível importado",
             "origem": "interna"
           }
-        ]
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 1,
+        "principal_oportunidade": "Investimento regional em energia",
+        "principal_ameaca": "Logística dependente de combustível importado"
       },
       {
         "dimensao": "Ambiental",
         "oportunidades": [
           {
-            "texto": "A missão da ONU pode facilitar apoio técnico e financeiro para adaptação climática.",
+            "texto": "Apoio da ONU à adaptação climática",
             "origem": "externa"
           }
         ],
         "ameacas": [
           {
-            "texto": "Vulnerabilidade a eventos climáticos, sobretudo no Centro, continua a pesar sobre as comunidades.",
+            "texto": "Vulnerabilidade climática no Centro",
             "origem": "interna"
           }
-        ]
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Apoio da ONU à adaptação climática",
+        "principal_ameaca": "Vulnerabilidade climática no Centro"
       },
       {
         "dimensao": "Legal",
         "oportunidades": [
           {
-            "texto": "Maior escrutínio sobre direitos humanos pode reforçar a previsibilidade institucional.",
+            "texto": "Escrutínio reforça previsibilidade institucional",
             "origem": "externa"
           }
         ],
         "ameacas": [
           {
-            "texto": "O endividamento municipal, como o de Pemba, pode limitar serviços e pagamentos a fornecedores.",
+            "texto": "Dívida municipal limita serviços",
             "origem": "interna"
           }
-        ]
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 1,
+        "principal_oportunidade": "Escrutínio reforça previsibilidade institucional",
+        "principal_ameaca": "Dívida municipal limita serviços"
       }
     ],
     "impacto": [
       {
         "grupo": "Governo",
-        "efeito": "misto",
-        "explicacao": "Ganha com a inflação mais baixa e com a diplomacia económica, mas enfrenta pressão dos combustíveis e das finanças municipais."
+        "saldo": 1,
+        "porque": "inflação mais baixa e diplomacia económica",
+        "efeito": "positivo",
+        "explicacao": "Ganha com a inflação mais baixa e com a visita ao Botswana, mas enfrenta a pressão dos combustíveis e das finanças municipais."
       },
       {
         "grupo": "Classe baixa",
-        "efeito": "misto",
-        "explicacao": "Alimentos mais estáveis ajudam, mas uma subida dos combustíveis pode repercutir-se no transporte e nos preços."
+        "saldo": -1,
+        "porque": "combustível e transporte podem encarecer os alimentos",
+        "efeito": "negativo",
+        "explicacao": "Alimentos mais estáveis ajudam, mas uma subida dos combustíveis chega depressa ao transporte e ao preço da comida."
       },
       {
         "grupo": "Classe média",
+        "saldo": 0,
+        "porque": "inflação baixa compensa transporte mais caro",
         "efeito": "misto",
-        "explicacao": "Menor inflação protege o poder de compra, mas o transporte pode voltar a encarecer."
+        "explicacao": "O poder de compra fica protegido pela inflação menor, mas o transporte pode voltar a encarecer."
       },
       {
         "grupo": "Classe alta e investidores",
-        "efeito": "misto",
-        "explicacao": "Abertura de corredores regionais é positiva; a incerteza global e a dívida pública pedem prudência."
+        "saldo": 1,
+        "porque": "corredores regionais abrem oportunidades de investimento",
+        "efeito": "positivo",
+        "explicacao": "Portos e corredores são positivos. A incerteza global e a dívida pública pedem prudência."
       },
       {
         "grupo": "ONGs e parceiros",
-        "efeito": "misto",
-        "explicacao": "A missão da ONU dá visibilidade ao clima e aos direitos humanos, mas custos logísticos podem subir."
+        "saldo": 1,
+        "porque": "missão da ONU dá visibilidade ao clima",
+        "efeito": "positivo",
+        "explicacao": "A missão da ONU dá visibilidade ao clima e aos direitos humanos. Os custos logísticos podem subir."
       },
       {
         "grupo": "Macroeconomia",
-        "efeito": "misto",
-        "explicacao": "A inflação desce, mas o petróleo, ainda acima de 100 dólares, é risco para preços, importações e contas externas."
+        "saldo": -1,
+        "porque": "petróleo acima de 100 dólares pesa nas importações",
+        "efeito": "negativo",
+        "explicacao": "A inflação desce, mas o petróleo caro é risco para preços, importações e contas externas."
       },
       {
         "grupo": "PMEs",
-        "efeito": "misto",
+        "saldo": -1,
+        "porque": "transporte e energia mais caros pesam nos custos",
+        "efeito": "negativo",
         "explicacao": "Preços estáveis ajudam a planear, mas os custos de transporte e energia são o principal risco."
       },
       {
         "grupo": "Ramos de negócio",
+        "saldo": 0,
+        "porque": "logística ganha, transportes e distribuição perdem",
         "efeito": "misto",
-        "explicacao": "Ganham logística e portos, se os corredores avançarem; perdem transportes e comércio de distribuição, expostos ao preço dos combustíveis."
+        "explicacao": "Ganham a logística e os portos, se os corredores avançarem. Perdem os transportes e a distribuição, expostos ao preço dos combustíveis."
       }
     ],
     "direccao": [
@@ -230,16 +270,16 @@
       },
       {
         "publico": "Investidores",
-        "accao": "Seguir os anúncios da visita ao Botswana, sobretudo sobre portos e corredores, e a evolução da dívida pública."
+        "accao": "Seguir os anúncios da visita ao Botswana sobre portos e corredores, e a evolução da dívida pública."
       },
       {
         "publico": "Autarquias",
         "accao": "Publicar e acompanhar as contas para reforçar a confiança de fornecedores e cidadãos."
       }
     ],
-    "sinal": "Preço do petróleo e reflexo nos combustíveis em Moçambique.",
-    "sintese": "A inflação desacelera, o que dá algum alívio às famílias e às empresas. O petróleo continua acima de 100 dólares, com um recuo a 29 de Setembro, e é o principal risco externo para os transportes. A cooperação regional e a agenda climática abrem oportunidades, mas dependem de execução.",
-    "o_que_mudou_hoje": "O Brent recuou de mais de 107 para cerca de 104 a 106 dólares a 29 de Setembro. Sem outras notícias novas confirmadas, o resto da edição mantém-se, com o texto revisto."
+    "sinal": "Preço do petróleo e o seu reflexo nos combustíveis em Moçambique.",
+    "sintese": "A inflação desacelera, o que dá algum alívio às famílias e às empresas. O petróleo continua acima de 100 dólares, apesar do recuo de 29 de Setembro, e é o principal risco externo para os transportes. A cooperação regional e a agenda climática abrem oportunidades, mas dependem de execução.",
+    "o_que_mudou_hoje": "Modo de revisão: não houve pesquisa nem sugestões novas. A análise foi reformulada com pesos por dimensão e saldo por grupo; as notícias mantêm-se."
   },
   "design": {
     "slides": [
@@ -287,10 +327,10 @@
     ]
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, S40*\n\nEdição de 30 de Setembro de 2026.\n\n*MUNDO*\nO petróleo Brent passou os 107 dólares a 28 de Setembro, com as conversações entre os EUA e o Irão num impasse e dúvidas sobre o Estreito de Ormuz. A 29 recuou para valores entre 104 e 106 dólares, conforme a fonte, mas continua alto. Moçambique importa combustíveis, por isso o movimento pode chegar ao transporte e aos preços.\n\n*MOÇAMBIQUE*\nA inflação anual desceu para 6,45% em Agosto, contra 7,48% em Julho. Os preços recuaram 0,28% no mês.\n\nO Presidente Chapo iniciou a 28 de Setembro uma visita de Estado de três dias ao Botswana, com portos, energia e corredores em foco.\n\nUma missão da ONU sobre direitos humanos e clima está no país até 2 de Outubro.\n\n*QUEM GANHA E QUEM PERDE*\nGanham as famílias e as PMEs com preços mais estáveis, e a logística, se os corredores avançarem. Perdem os transportes e a distribuição, se os combustíveis subirem.\n\n*DIRECÇÃO*\nFamílias: planeiem o orçamento de transporte. PMEs: revejam custos e negociem com fornecedores antes de eventuais subidas. Investidores: sigam os anúncios do Botswana sobre portos e corredores.\n\n*PRÓXIMA SEMANA*\nFica a avaliação preliminar da ONU e a evolução do preço dos combustíveis.\n\nPartilhe esta edição com quem toma decisões consigo.",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, S40*\n\nEdição de 1 de Outubro de 2026.\n\n*MUNDO*\nO petróleo Brent passou os 107 dólares a 28 de Setembro, com as conversações entre os EUA e o Irão num impasse e dúvidas sobre o Estreito de Ormuz. A 29 recuou para valores entre 104 e 106 dólares, conforme a fonte, mas continua alto. Moçambique importa combustíveis, por isso o movimento pode chegar ao transporte e aos preços.\n\n*MOÇAMBIQUE*\nA inflação anual desceu para 6,45% em Agosto, contra 7,48% em Julho. Os preços recuaram 0,28% no mês.\n\nO Presidente Chapo iniciou a 28 de Setembro uma visita de Estado de três dias ao Botswana, com portos, energia e corredores em foco.\n\nUma missão da ONU sobre direitos humanos e clima está no país até 2 de Outubro.\n\n*QUEM GANHA E QUEM PERDE*\nGanham as famílias e as PMEs com preços mais estáveis, e a logística, se os corredores avançarem. Perdem os transportes e a distribuição, se os combustíveis subirem.\n\n*DIRECÇÃO*\nFamílias: planeiem o orçamento de transporte. PMEs: revejam custos e negociem com fornecedores antes de eventuais subidas. Investidores: sigam os anúncios do Botswana sobre portos e corredores.\n\n*PRÓXIMA SEMANA*\nFica a avaliação preliminar da ONU e a evolução do preço dos combustíveis.\n\nPartilhe esta edição com quem toma decisões consigo.",
     "linkedin": "Direcções da Semana, S40: o que os decisores em Moçambique devem reter.\n\nA inflação abrandou, mas o alívio depende do petróleo. A taxa anual desceu para 6,45% em Agosto, contra 7,48% em Julho, e os preços recuaram 0,28% no mês. Isto ajuda o planeamento de curto prazo de famílias e empresas.\n\nO Brent passou os 107 dólares a 28 de Setembro e recuou para cerca de 104 a 106 a 29, com o impasse nas conversações EUA-Irão por pano de fundo. Para uma economia que importa combustíveis, o efeito pode chegar ao transporte e aos alimentos.\n\nA visita de Estado do Presidente Chapo ao Botswana põe portos, energia e corredores na agenda. Pode favorecer a logística regional, incluindo a Beira e o Centro, se houver execução. Decorre também até 2 de Outubro uma missão da ONU sobre direitos humanos e clima.\n\nDirecção\nPMEs: rever custos de transporte e negociar preços com fornecedores antes de eventuais subidas. Investidores: acompanhar os anúncios sobre portos e corredores. ONGs e parceiros: alinhar propostas de adaptação climática com a avaliação preliminar da ONU.\n\nConclusão: enquanto o Brent se mantiver acima de 100 dólares, o preço dos combustíveis em Moçambique é a variável a vigiar.\n\n#Moçambique #Economia #Combustíveis",
     "instagram": "Direcções da Semana, S40. A inflação abrandou para 6,45% em Agosto e o petróleo recuou para perto de 105 dólares, mas continua alto e é o principal risco para os combustíveis. O Presidente visitou o Botswana e a ONU tem uma missão sobre clima no país até 2 de Outubro. O sinal da semana é o preço do petróleo. #Moçambique #Economia #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, S40 (30 de Setembro de 2026)\n\n## Resumo da semana\nA inflação abrandou em Moçambique, o que dá algum fôlego a famílias e empresas. No exterior, o petróleo continua acima de 100 dólares e é o principal risco para essa melhoria, embora tenha recuado a 29 de Setembro face ao dia anterior. A visita ao Botswana e a agenda climática da ONU trazem oportunidades que dependem de execução. A ronda de hoje não encontrou notícias novas confirmadas.\n\n## Mundo\nO Brent passou os 107 dólares por barril a 28 de Setembro, com uma subida superior a 3%, segundo agregadores que citam agências. A causa apontada é o impasse nas conversações entre os EUA e o Irão e a incerteza sobre o Estreito de Ormuz. A 29 de Setembro o preço recuou, com valores entre cerca de 104 e 106 dólares conforme a fonte e a hora. Para Moçambique, importador de combustíveis, um petróleo a este nível tende a pressionar o transporte, a energia e, por arrasto, os alimentos.\n\n## Moçambique\nInflação: a taxa anual desceu para 6,45% em Agosto, contra 7,48% em Julho, e os preços recuaram 0,28% no mês. A travagem veio sobretudo dos alimentos e bebidas não alcoólicas e do vestuário e calçado.\n\nDiplomacia económica: o Presidente Chapo iniciou a 28 de Setembro uma visita de Estado de três dias ao Botswana. A imprensa destaca portos, energia e corredores, temas com interesse para a Beira e para o Centro.\n\nClima e direitos humanos: uma missão da ONU está no país de 21 de Setembro a 2 de Outubro, com avaliação preliminar prevista para a semana seguinte.\n\nFinanças locais: a dívida do Município de Pemba ultrapassa 800 milhões de meticais, segundo o Club of Mozambique. O dado ainda não foi confirmado.\n\nSofala e Centro: há referências à modernização do porto da Beira e a uma entidade única de coordenação, mas sem datas confirmadas. Ficam para as próximas rondas.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Cooperação em corredores e portos com o Botswana (ext.) | Acordos por executar (int.) |\n| Económica | Inflação em queda (int.) | Petróleo acima de 100 dólares reverte o alívio (ext.) |\n| Social | Alimentos mais estáveis (int.) | Transporte e alimentos mais caros se os combustíveis subirem (ext.) |\n| Tecnológica | Investimento em energia e infra-estruturas regionais (ext.) | Dependência de combustíveis importados (int.) |\n| Ambiental | Apoio à adaptação climática via ONU (ext.) | Vulnerabilidade climática, sobretudo no Centro (int.) |\n| Legal | Maior escrutínio reforça a previsibilidade (ext.) | Endividamento municipal limita serviços e pagamentos (int.) |\n\n## Quem ganha, quem perde\nGoverno: efeito misto. Ganha com a inflação mais baixa e a diplomacia económica, mas enfrenta a pressão dos combustíveis e das finanças municipais.\n\nClasse baixa: efeito misto. Alimentos mais estáveis ajudam, mas uma subida dos combustíveis repercute-se no transporte.\n\nClasse média: efeito misto. O poder de compra fica protegido, mas o transporte pode encarecer.\n\nClasse alta e investidores: efeito misto. Os corredores regionais são positivos, a incerteza global pede prudência.\n\nONGs e parceiros: efeito misto. Mais visibilidade para clima e direitos humanos, com custos logísticos que podem subir.\n\nMacroeconomia: efeito misto. A inflação desce, mas o petróleo acima de 100 dólares é risco para preços e importações.\n\nPMEs: efeito misto. Preços estáveis ajudam a planear, mas transporte e energia são o principal risco.\n\nRamos de negócio: ganham a logística e os portos, se os corredores avançarem. Perdem os transportes e a distribuição, expostos ao preço dos combustíveis.\n\n## Direcção\nFamílias: planear o orçamento de transporte. PMEs: rever custos de transporte e negociar com fornecedores. ONGs e parceiros: acompanhar a avaliação preliminar da ONU e alinhar propostas de adaptação. Investidores: seguir os anúncios do Botswana e a dívida pública. Autarquias: publicar contas para reforçar a confiança.\n\n## Sinal a acompanhar\nO preço do petróleo e o seu reflexo nos combustíveis em Moçambique.\n\n## Fontes\n- [O País: Inflação anual desacelera para 6,45% em Agosto](https://opais.co.mz/inflacao-anual-desacelera-para-645-em-agosto/)\n- [Club of Mozambique: Chapo no Botswana](https://clubofmozambique.com/news/ports-energy-and-corridors-could-take-mozambique-botswana-ties-to-a-new-level-as-chapo-visits/)\n- [Fortune: Preço do petróleo a 28 de Setembro](https://fortune.com/article/price-of-oil-09-28-2026/)\n- [Fortune: Preço do petróleo a 29 de Setembro](https://fortune.com/article/price-of-oil-09-29-2026/)\n- [Club of Mozambique: Missão da ONU](https://clubofmozambique.com/news/mozambique-un-announces-assessment-plan-on-human-rights-amid-growing-climate-challenges/)\n- [Club of Mozambique: Dívida de Pemba](https://clubofmozambique.com/news/mozambique-debt-of-pemba-municipality-exceeds-800-million-meticais/)",
+    "analise_completa": "# Direcções da Semana, S40 (1 de Outubro de 2026)\n\n## Resumo da semana\nA inflação abrandou em Moçambique, o que dá algum fôlego a famílias e empresas. No exterior, o petróleo continua acima de 100 dólares e é o principal risco para essa melhoria, embora tenha recuado a 29 de Setembro face ao dia anterior. A visita ao Botswana e a agenda climática da ONU trazem oportunidades que dependem de execução. Esta edição é uma revisão: não entraram notícias novas.\n\n## Mundo\nO Brent passou os 107 dólares por barril a 28 de Setembro, com uma subida superior a 3%, segundo agregadores que citam agências. A causa apontada é o impasse nas conversações entre os EUA e o Irão e a incerteza sobre o Estreito de Ormuz. A 29 de Setembro o preço recuou, com valores entre cerca de 104 e 106 dólares conforme a fonte e a hora. Para Moçambique, importador de combustíveis, um petróleo a este nível tende a pressionar o transporte, a energia e, por arrasto, os alimentos.\n\n## Moçambique\nInflação: a taxa anual desceu para 6,45% em Agosto, contra 7,48% em Julho, e os preços recuaram 0,28% no mês. A travagem veio sobretudo dos alimentos e bebidas não alcoólicas e do vestuário e calçado.\n\nDiplomacia económica: o Presidente Chapo iniciou a 28 de Setembro uma visita de Estado de três dias ao Botswana. A imprensa destaca portos, energia e corredores, temas com interesse para a Beira e para o Centro.\n\nClima e direitos humanos: uma missão da ONU está no país de 21 de Setembro a 2 de Outubro, com avaliação preliminar prevista para a semana seguinte.\n\nFinanças locais: a dívida do Município de Pemba ultrapassa 800 milhões de meticais, segundo o Club of Mozambique. O dado ainda não foi confirmado.\n\nSofala e Centro: há referências à modernização do porto da Beira e a uma entidade única de coordenação, mas sem datas confirmadas. Ficam para as próximas rondas.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Cooperação em corredores e portos com o Botswana (ext.) | Acordos por executar (int.) |\n| Económica | Inflação em queda (int.) | Petróleo acima de 100 dólares reverte o alívio (ext.) |\n| Social | Alimentos mais estáveis (int.) | Transporte e alimentos mais caros se os combustíveis subirem (ext.) |\n| Tecnológica | Investimento em energia e infra-estruturas regionais (ext.) | Dependência de combustíveis importados (int.) |\n| Ambiental | Apoio à adaptação climática via ONU (ext.) | Vulnerabilidade climática, sobretudo no Centro (int.) |\n| Legal | Maior escrutínio reforça a previsibilidade (ext.) | Endividamento municipal limita serviços e pagamentos (int.) |\n\n## Quem ganha, quem perde\nGoverno: ganha ligeiramente. Ganha com a inflação mais baixa e a diplomacia económica, mas enfrenta a pressão dos combustíveis e das finanças municipais.\n\nClasse baixa: perde ligeiramente. Alimentos mais estáveis ajudam, mas uma subida dos combustíveis repercute-se no transporte.\n\nClasse média: equilibrado. O poder de compra fica protegido, mas o transporte pode encarecer.\n\nClasse alta e investidores: ganha ligeiramente. Os corredores regionais são positivos, a incerteza global pede prudência.\n\nONGs e parceiros: ganha ligeiramente. Mais visibilidade para clima e direitos humanos, com custos logísticos que podem subir.\n\nMacroeconomia: perde ligeiramente. A inflação desce, mas o petróleo acima de 100 dólares é risco para preços e importações.\n\nPMEs: perdem ligeiramente. Preços estáveis ajudam a planear, mas transporte e energia são o principal risco.\n\nRamos de negócio: equilibrado. Ganham a logística e os portos, se os corredores avançarem. Perdem os transportes e a distribuição, expostos ao preço dos combustíveis.\n\n## Direcção\nFamílias: planear o orçamento de transporte. PMEs: rever custos de transporte e negociar com fornecedores. ONGs e parceiros: acompanhar a avaliação preliminar da ONU e alinhar propostas de adaptação. Investidores: seguir os anúncios do Botswana e a dívida pública. Autarquias: publicar contas para reforçar a confiança.\n\n## Sinal a acompanhar\nO preço do petróleo e o seu reflexo nos combustíveis em Moçambique.\n\n## Fontes\n- [O País: Inflação anual desacelera para 6,45% em Agosto](https://opais.co.mz/inflacao-anual-desacelera-para-645-em-agosto/)\n- [Club of Mozambique: Chapo no Botswana](https://clubofmozambique.com/news/ports-energy-and-corridors-could-take-mozambique-botswana-ties-to-a-new-level-as-chapo-visits/)\n- [Fortune: Preço do petróleo a 28 de Setembro](https://fortune.com/article/price-of-oil-09-28-2026/)\n- [Fortune: Preço do petróleo a 29 de Setembro](https://fortune.com/article/price-of-oil-09-29-2026/)\n- [Club of Mozambique: Missão da ONU](https://clubofmozambique.com/news/mozambique-un-announces-assessment-plan-on-human-rights-amid-growing-climate-challenges/)\n- [Club of Mozambique: Dívida de Pemba](https://clubofmozambique.com/news/mozambique-debt-of-pemba-municipality-exceeds-800-million-meticais/)",
     "verificar": [
       "Brent: acima de 107 dólares a 28 Set e cerca de 104 a 106 dólares a 29 Set (agregadores, varia com a hora)",
       "Inflação de 6,45% em Agosto e 7,48% em Julho",
