@@ -53,8 +53,9 @@ No modo `rever`, põe em `novas` apenas as `noticias_do_aprovador` (se houver), 
 Melhora a análise anterior com as notícias novas e as sugestões. Grava em `trabalho/analise.json` com o formato:
 ```
 {"destaques":{"mundo":[string],"nacional":[string]},
- "pestal":[{"dimensao":string,"oportunidades":[{"texto":string,"origem":"externa"|"interna"}],"ameacas":[{"texto":string,"origem":"externa"|"interna"}]}],
- "impacto":[{"grupo":string,"efeito":"positivo"|"negativo"|"misto","explicacao":string}],
+ "pestal":[{"dimensao":string,"oportunidades":[{"texto":string,"origem":"externa"|"interna"}],"ameacas":[{"texto":string,"origem":"externa"|"interna"}],
+   "peso_oportunidade":0-3,"peso_ameaca":0-3,"principal_oportunidade":string (máx. 7 palavras),"principal_ameaca":string (máx. 7 palavras)}],
+ "impacto":[{"grupo":string,"saldo":-2|-1|0|1|2,"porque":string (máx. 9 palavras),"efeito":"positivo"|"negativo"|"misto","explicacao":string}],
  "direccao":[{"publico":string,"accao":string}],
  "sinal":string,"sintese":string (3 frases),"o_que_mudou_hoje":string}
 ```
@@ -65,6 +66,14 @@ Obrigatório (é verificado automaticamente):
   Classe alta e investidores; ONGs e parceiros; Macroeconomia; PMEs; Ramos de negócio
   (em "Ramos de negócio", indica quais ganham e quais perdem).
 - `direccao` tem pelo menos 4 públicos diferentes.
+- Oportunidades e ameaças são **pontos, não frases**: 1 a 3 por lado, cada um com no máximo 6 palavras,
+  começando pelo essencial (ex.: "Petróleo acima de 100 dólares", "Financiamento FCID para PMEs").
+- Pesos PESTAL: 0 = nada relevante esta semana, 1 = fraco, 2 = moderado, 3 = forte. Mede a **importância para Moçambique
+  nesta semana**, não o número de itens. Uma só ameaça grave (ex.: petróleo acima de 100 dólares) vale 3.
+- Saldo de cada grupo, na semana: -2 perde muito, -1 perde, 0 equilibrado, 1 ganha, 2 ganha muito.
+  Decide o saldo líquido: pesa o que ganha contra o que perde e escolhe um lado. Usa 0 só quando os dois lados se
+  anulam de facto, e no máximo em 2 dos 8 grupos. `efeito` segue o saldo (positivo se >0, negativo se <0, misto se 0).
+- `porque`: a razão principal do saldo, concreta, ex.: "combustível e cereais mais caros".
 
 ## 3. Design
 As imagens são geradas automaticamente a partir deste ficheiro: capa no estilo azul-petróleo, uma imagem por notícia
