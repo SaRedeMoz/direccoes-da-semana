@@ -2,31 +2,36 @@
   "estagios": {
     "fontes": {
       "estado": "pronto",
-      "msg": "Modo rever: sem notícias novas do aprovador",
-      "em": "2026-09-30T22:04:54.072Z"
+      "msg": "A preparar a revisão…",
+      "em": "2026-09-30T22:07:53.425Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "Análise revista com pesos e saldos",
-      "em": "2026-09-30T22:05:15.368Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-09-30T22:07:53.425Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "Capa e 4 notícias",
-      "em": "2026-09-30T22:05:23.233Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-09-30T22:07:53.425Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-09-30T22:05:40.706Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-09-30T22:07:53.425Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "À espera da sua aprovação",
-      "em": "2026-09-30T22:06:29.029Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-09-30T22:07:53.425Z"
     }
   },
   "log": [
+    {
+      "em": "2026-09-30T22:07:53.425Z",
+      "agente": "fontes",
+      "msg": "A preparar a revisão…"
+    },
     {
       "em": "2026-09-30T22:06:29.029Z",
       "agente": "aprovacao",
@@ -221,14 +226,9 @@
       "em": "2026-09-29T15:36:17.017Z",
       "agente": "design",
       "msg": "Carrossel"
-    },
-    {
-      "em": "2026-09-29T15:36:15.084Z",
-      "agente": "analise",
-      "msg": "PESTAL e impacto feitos"
     }
   ],
-  "actualizado": "2026-09-30T22:06:29.029Z",
+  "actualizado": "2026-09-30T22:07:53.425Z",
   "semana": "2026-S40",
   "dia": "2026-10-01",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1"
