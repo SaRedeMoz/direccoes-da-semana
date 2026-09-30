@@ -84,6 +84,8 @@ async function notificar() {
   s.issueUrl = issue.html_url; gravar(`${D}/status.json`, s); git("redacção: edição pronta");
   await gh(`/issues/${issue.number}/comments`, { method: "POST", body: JSON.stringify({ body:
     `@${OWNER} Edição pronta (versão ${ed.versao || "?"} da semana).\n\n**O que mudou:** ${ed.analise?.o_que_mudou_hoje || "—"}\n\n**Direcções editoriais:** ${(ed.falhas_conformidade || []).length ? "⚠️ " + ed.falhas_conformidade.join("; ") : "✅ todas cumpridas"}\n\n**Dúvidas da equipa:**\n${l(t.duvidas)}\n\n**Confirmar antes de publicar:**\n${l(t.verificar)}\n\nEscritório: ${PAGE}\n\n` +
+    (ed.imagens?.slides?.length ? `**Imagens prontas a publicar** (toque para abrir e guardar):\n\n` + [ed.imagens.capa, ...ed.imagens.slides].filter(Boolean).map((p) => `<img src="https://raw.githubusercontent.com/${REPO}/main/docs/${p}" width="150">`).join(" ") +
+      `\n\nStories 9:16: ${PAGE}#imagens\n\nCarrossel do LinkedIn (PDF): https://raw.githubusercontent.com/${REPO}/main/docs/${ed.imagens.pdf || ""}\n\n` : "") +
     `<details><summary>Análise completa</summary>\n\n${t.analise_completa || ""}\n</details>\n\n<details><summary>WhatsApp</summary>\n\n${t.whatsapp || ""}\n</details>\n\n<details><summary>LinkedIn</summary>\n\n${t.linkedin || ""}\n</details>\n\n<details><summary>Instagram</summary>\n\n${t.instagram || ""}\n</details>\n\n` +
     `Responda com sugestões, **Notícia: …**, **/rever**, ou adicione a etiqueta **aprovado**.` }) });
 }

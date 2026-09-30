@@ -46,6 +46,27 @@ if (faltam.length) {
   process.exit(1);
 }
 
+// Limpeza automática de marcas típicas de IA (travessões, emojis, setas, símbolos)
+function limpaIA(t) {
+  if (typeof t !== "string") return t;
+  return t
+    .replace(/(\d{1,2}(?:\s+de)?\s+\p{L}+)\s*[–—]\s*(\d{1,2})/gu, "$1 a $2")   // intervalos de datas
+    .replace(/(\d)\s*[–—]\s*(\d)/g, "$1 a $2")                                   // intervalos de números
+    .replace(/\s*[—–]\s*/g, ", ")                                                  // travessões como pontuação
+    .replace(/[\p{Extended_Pictographic}\u2190-\u21FF\u2700-\u27BF\uFE0F\u200D\u20E3]/gu, "") // emojis e setas
+    .replace(/^[ \t]*[•▪►]\s*/gm, "- ")
+    .replace(/,\s*,/g, ",").replace(/ ,/g, ",").replace(/[ \t]{2,}/g, " ").replace(/^[ \t]+/gm, (m) => m.replace(/ +/, ""))
+    .replace(/\n{3,}/g, "\n\n").trim();
+}
+function limpaIA_obj(o) {
+  if (typeof o === "string") return limpaIA(o);
+  if (Array.isArray(o)) return o.map(limpaIA_obj);
+  if (o && typeof o === "object") { const r = {}; for (const [k, v] of Object.entries(o)) r[k] = ["url", "imagem_termos", "tom"].includes(k) ? v : limpaIA_obj(v); return r; }
+  return o;
+}
+if (acum.textos) { const { conformidade, ...resto } = acum.textos; acum.textos = { ...limpaIA_obj(resto), conformidade }; }
+if (acum.design) acum.design = limpaIA_obj(acum.design);
+
 // Verificação automática das direcções editoriais
 const LINHA = ler("config/linha-editorial.json", {});
 const falhas = [];

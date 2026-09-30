@@ -8,6 +8,17 @@ Regras gerais:
 - Português de Moçambique. Tom analítico, claro, não partidário, sem sensacionalismo.
 - Nunca inventes factos, números, nomes ou citações. Resumos sempre por palavras tuas (não copies parágrafos de artigos).
 - As sugestões do aprovador são obrigatórias.
+
+Escrita humana, sem marcas de IA (obrigatório em tudo o que for publicado):
+- Escreve como um jornalista moçambicano experiente: frases simples, directas, com factos concretos.
+- Proibido: travessões (— ou –) como pontuação; usa vírgula, ponto ou dois pontos. Nos intervalos de datas escreve
+  "28 de Setembro a 4 de Outubro".
+- Proibido: emojis, setas (→, ➡️), símbolos de lista como ✅ 🟢 🔴, e negrito em excesso.
+- Proibido: expressões feitas de IA, como "não é apenas X, é Y", "vale a pena", "em suma", "em última análise",
+  "navegar", "panorama", "paisagem", "crucial", "fundamental", "desbloquear", "mergulhar", "no centro de",
+  "num mundo em que", "é importante notar", "em resumo", "sem dúvida".
+- Evita listas de três por hábito, perguntas retóricas no fim e frases de efeito. Termina com uma conclusão concreta.
+- Não comeces textos com o nome da série seguido de símbolos; usa um título simples.
 - Antes de começar cada etapa, corre: `node scripts/estado.mjs <agente> "a trabalhar" "<o que vais fazer>"`
   e quando acabares: `node scripts/estado.mjs <agente> "pronto" "<resultado curto>"`.
   (<agente> = fontes, analise, design ou editor.) Isto actualiza o escritório em tempo real.
@@ -56,14 +67,25 @@ Obrigatório (é verificado automaticamente):
 - `direccao` tem pelo menos 4 públicos diferentes.
 
 ## 3. Design
-Carrossel de Instagram, 6–8 slides quadrados. Grava em `trabalho/design.json` com o formato:
-`{"slides":[{"titulo" (máx. 6 palavras),"texto" (máx. 25 palavras),"emoji","tom":"neutro"|"alerta"|"oportunidade"}],"legenda" (máx. 60 palavras),"hashtags":[5-8]}`.
-Slide 1 = capa com o nome da série e o período; último = sinal a acompanhar e convite a seguir.
+As imagens são geradas automaticamente a partir deste ficheiro: capa no estilo azul-petróleo, uma imagem por notícia
+no estilo telejornal vermelho, e os slides de análise (PESTAL, quem ganha e quem perde, direcção, sinal) no estilo
+preto e verde, criados a partir de `analise.json`. Por isso aqui só escreves a capa e as notícias.
+Grava em `trabalho/design.json`:
+`{"slides":[capa, 4 a 6 notícias],"destaques_capa":[3 frases, máx. 8 palavras cada],"legenda" (máx. 60 palavras),"hashtags":[2-3]}`
+- Cada slide: `{"titulo" (máx. 7 palavras),"texto" (1 a 2 frases, máx. 30 palavras),"tom":"alerta"|"oportunidade"|"neutro","imagem_termos": string}`.
+- O slide 1 é a capa: `titulo` "Direcções da Semana", `texto` vazio, `imagem_termos` de uma paisagem de Moçambique.
+- Não repitas nas notícias o que vai nos slides de análise.
+- `imagem_termos`: 2 a 4 palavras **em inglês** para procurar uma fotografia documental livre de direitos no
+  Wikimedia Commons (lugares, objectos, paisagens: ex. "Beira port Mozambique", "oil tanker", "maize market Africa",
+  "Gorongosa National Park"). Evita rostos de pessoas identificáveis e evita termos que só dariam logótipos.
+  Deixa `""` quando uma imagem não ajudar (o slide usa então um fundo gráfico).
+- **Nunca** uses fotografias de sites de notícias: têm direitos de autor. O script só usa imagens do Wikimedia Commons
+  com licença livre e põe o crédito do autor na imagem.
 
 ## 4. Editor
 Grava em `trabalho/textos.json` um objecto com:
-- `whatsapp`: 180–260 palavras, *negrito* e _itálico_ do WhatsApp, emojis moderados; secções Mundo, Moçambique, Quem ganha/quem perde, Direcção, Próxima semana; termina com convite a partilhar.
-- `linkedin`: 200–300 palavras, 3 ideias-chave numeradas, secção "Direcção", termina com uma pergunta aos leitores e 4–5 hashtags.
+- `whatsapp`: 180 a 260 palavras, sem emojis; títulos de secção em *MAIÚSCULAS* com o negrito do WhatsApp; secções Mundo, Moçambique, Quem ganha e quem perde, Direcção, Próxima semana; parágrafos curtos em vez de listas com símbolos; termina com uma frase simples a pedir que partilhem.
+- `linkedin`: 200 a 300 palavras, sem emojis, parágrafos curtos, uma secção "Direcção", termina com uma conclusão concreta (sem pergunta forçada) e no máximo 3 hashtags.
 - `instagram`: legenda final.
 - `analise_completa`: versão longa (600–1000 palavras), para arquivo, site ou newsletter, com as secções:
   Resumo da semana; Mundo; Moçambique; PESTAL (tabela Markdown: Dimensão | Oportunidades | Ameaças, com (ext.)/(int.));
