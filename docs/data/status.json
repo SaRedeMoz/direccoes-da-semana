@@ -6,9 +6,9 @@
       "em": "2026-09-30T14:14:52.669Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "a limpar o estilo da análise anterior",
-      "em": "2026-09-30T14:14:54.560Z"
+      "estado": "pronto",
+      "msg": "Análise revista, 6 dimensões e 8 grupos",
+      "em": "2026-09-30T14:14:56.255Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-09-30T14:14:56.255Z",
+      "agente": "analise",
+      "msg": "Análise revista, 6 dimensões e 8 grupos"
+    },
     {
       "em": "2026-09-30T14:14:54.560Z",
       "agente": "analise",
@@ -153,7 +158,7 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-30T14:14:54.560Z",
+  "actualizado": "2026-09-30T14:14:56.255Z",
   "semana": "2026-S40",
   "dia": "2026-09-30",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1"
