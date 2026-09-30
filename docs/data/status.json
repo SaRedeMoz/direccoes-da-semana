@@ -11,9 +11,9 @@
       "em": "2026-09-30T02:48:02.364Z"
     },
     "design": {
-      "estado": "a trabalhar",
-      "msg": "A ajustar o carrossel",
-      "em": "2026-09-30T02:48:03.845Z"
+      "estado": "pronto",
+      "msg": "7 slides",
+      "em": "2026-09-30T02:48:07.809Z"
     },
     "editor": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-09-30T02:48:07.809Z",
+      "agente": "design",
+      "msg": "7 slides"
+    },
     {
       "em": "2026-09-30T02:48:03.845Z",
       "agente": "design",
@@ -108,7 +113,7 @@
       "msg": "Pesquisa das notícias do dia"
     }
   ],
-  "actualizado": "2026-09-30T02:48:03.845Z",
+  "actualizado": "2026-09-30T02:48:07.809Z",
   "semana": "2026-S40",
   "dia": "2026-09-30",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1"
