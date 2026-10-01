@@ -1,7 +1,7 @@
 {
   "semana": "2026-S40",
   "dia": "2026-10-01",
-  "versao": 7,
+  "versao": 8,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1",
   "falhas_conformidade": [],
@@ -302,7 +302,7 @@
     ],
     "sinal": "Preços dos combustíveis em Outubro e o efeito do novo regime de reservas no crédito às empresas.",
     "sintese": "O Banco de Moçambique manteve a taxa MIMO em 9,25% e abriu crédito mais barato a empresas que substituam importações ou exportem. A inflação desce, mas o banco avisa para os riscos do clima e dos combustíveis. O petróleo recuou face a dia 28, mas continua perto de 100 dólares.",
-    "o_que_mudou_hoje": "Decisão do Banco de Moçambique de 30 de Setembro: taxa MIMO mantida e novo regime de reservas obrigatórias. Brent abaixo dos 107 dólares, com valores divergentes entre fontes."
+    "o_que_mudou_hoje": "Sem notícias novas nesta ronda de revisão. Mantém-se a decisão do Banco de Moçambique de 30 de Setembro (taxa MIMO em 9,25% e novo regime de reservas obrigatórias) e o Brent abaixo dos 107 dólares de dia 28, com valores divergentes entre fontes."
   },
   "design": {
     "slides": [
@@ -401,44 +401,5 @@
         "nota": "Petróleo e combustíveis."
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Weyham / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Jcornelius / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: United Kingdom Hydrographic Office / Wikimedia Commons, Public domain"
-    ],
-    "v": 1790823346256
   }
 }

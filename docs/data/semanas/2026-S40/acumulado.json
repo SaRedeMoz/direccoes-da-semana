@@ -73,7 +73,7 @@
   "sugestoes_semana": [
     "/aprovar"
   ],
-  "versao": 7,
+  "versao": 8,
   "lacunas": [
     "Sofala/Centro: porto da Beira e importação de cereais, sem artigo verificado",
     "Segurança em Cabo Delgado: sem notícia datada verificada",
@@ -303,7 +303,7 @@
     ],
     "sinal": "Preços dos combustíveis em Outubro e o efeito do novo regime de reservas no crédito às empresas.",
     "sintese": "O Banco de Moçambique manteve a taxa MIMO em 9,25% e abriu crédito mais barato a empresas que substituam importações ou exportem. A inflação desce, mas o banco avisa para os riscos do clima e dos combustíveis. O petróleo recuou face a dia 28, mas continua perto de 100 dólares.",
-    "o_que_mudou_hoje": "Decisão do Banco de Moçambique de 30 de Setembro: taxa MIMO mantida e novo regime de reservas obrigatórias. Brent abaixo dos 107 dólares, com valores divergentes entre fontes."
+    "o_que_mudou_hoje": "Sem notícias novas nesta ronda de revisão. Mantém-se a decisão do Banco de Moçambique de 30 de Setembro (taxa MIMO em 9,25% e novo regime de reservas obrigatórias) e o Brent abaixo dos 107 dólares de dia 28, com valores divergentes entre fontes."
   },
   "design": {
     "slides": [
