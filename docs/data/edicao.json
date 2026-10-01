@@ -401,5 +401,44 @@
         "nota": "Petróleo e combustíveis."
       }
     ]
+  },
+  "imagens": {
+    "slides": [
+      "data/imagens/feed/slide-01.png",
+      "data/imagens/feed/slide-02.png",
+      "data/imagens/feed/slide-03.png",
+      "data/imagens/feed/slide-04.png",
+      "data/imagens/feed/slide-05.png",
+      "data/imagens/feed/slide-06.png",
+      "data/imagens/feed/slide-07.png",
+      "data/imagens/feed/slide-08.png",
+      "data/imagens/feed/slide-09.png",
+      "data/imagens/feed/slide-10.png",
+      "data/imagens/feed/slide-11.png",
+      "data/imagens/feed/slide-12.png"
+    ],
+    "stories": [
+      "data/imagens/story/slide-01.png",
+      "data/imagens/story/slide-02.png",
+      "data/imagens/story/slide-03.png",
+      "data/imagens/story/slide-04.png",
+      "data/imagens/story/slide-05.png",
+      "data/imagens/story/slide-06.png",
+      "data/imagens/story/slide-07.png",
+      "data/imagens/story/slide-08.png",
+      "data/imagens/story/slide-09.png",
+      "data/imagens/story/slide-10.png",
+      "data/imagens/story/slide-11.png",
+      "data/imagens/story/slide-12.png"
+    ],
+    "capa": "data/imagens/capa-linkedin.png",
+    "pdf": "data/imagens/linkedin-carrossel.pdf",
+    "creditos": [
+      "Foto: Weyham / Wikimedia Commons, CC BY-SA 4.0",
+      "Foto: Jcornelius / Wikimedia Commons, CC BY-SA 4.0",
+      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
+      "Foto: United Kingdom Hydrographic Office / Wikimedia Commons, Public domain"
+    ],
+    "v": 1790823346256
   }
 }
