@@ -1,9 +1,13 @@
 {
-  "modo": "rever",
-  "hoje": "2026-10-01",
+  "modo": "diario",
+  "hoje": "2026-10-02",
   "semana": "2026-S40",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1",
   "noticias_do_aprovador": [],
-  "sugestoes_novas": [],
-  "ids_comentarios": []
+  "sugestoes_novas": [
+    "esponda com sugestões, Notícias para linkedin reduzir resumir o texto\n Direcções da Semana, S40: o que os decisores em Moçambique devem reter.\n\nO Banco de Moçambique manteve a taxa MIMO em 9,25% a 30 de Setembro e mudou, por 18 meses, o regime de reservas obrigatórias. A medida visa facilitar crédito a empresas que substituam importações ou aumentem exportações. O banco cita como riscos o clima e os preços internacionais de combustíveis e alimentos.\n\nA inflação anual desceu para 6,45% em Agosto, contra 7,48% em Julho, e o PIB cresceu 1,7% no segundo trimestre. O alívio depende do petróleo: o Brent passou os 107 dólares a 28 de Setembro e recuou a 30, com valores entre cerca de 97 e 103 conforme a fonte.\n\nA visita de Estado do Presidente Chapo ao Botswana põe portos, energia e corredores na agenda, com interesse para a Beira e o Centro se houver execução. A missão da ONU sobre clima e direitos humanos decorre até 2 de Outubro.\n\nDirecção\nPMEs: perguntar à banca como o novo regime afecta o crédito e rever custos de transporte. Investidores: acompanhar os anúncios sobre portos e corredores. ONGs e parceiros: alinhar propostas de adaptação com a avaliação da ONU.\n\nConclusão: o crédito mais direccionado ajuda quem importa menos ou exporta mais, mas o preço dos combustíveis continua a ser a variável a vigiar.\n\n#Moçambique #Economia #Combustíveis"
+  ],
+  "ids_comentarios": [
+    5927188133
+  ]
 }

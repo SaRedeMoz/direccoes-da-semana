@@ -1,32 +1,37 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "pronto",
-      "msg": "rever: sem notícias novas",
-      "em": "2026-10-01T07:44:34.355Z"
+      "estado": "a trabalhar",
+      "msg": "A começar a pesquisa do dia…",
+      "em": "2026-10-02T02:55:38.970Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "Análise mantida",
-      "em": "2026-10-01T07:44:35.679Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-02T02:55:38.970Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "Design mantido",
-      "em": "2026-10-01T07:44:37.384Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-02T02:55:38.970Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-10-01T07:44:44.149Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-02T02:55:38.970Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "À espera da sua aprovação",
-      "em": "2026-10-01T07:45:34.061Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-10-02T02:55:38.970Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-02T02:55:38.970Z",
+      "agente": "fontes",
+      "msg": "A começar a pesquisa do dia…"
+    },
     {
       "em": "2026-10-01T07:45:34.061Z",
       "agente": "aprovacao",
@@ -221,15 +226,10 @@
       "em": "2026-09-30T22:05:40.706Z",
       "agente": "editor",
       "msg": "Edição versão 4 montada"
-    },
-    {
-      "em": "2026-09-30T22:05:33.607Z",
-      "agente": "editor",
-      "msg": "Textos revistos, conformidade ok"
     }
   ],
-  "actualizado": "2026-10-01T07:45:34.061Z",
+  "actualizado": "2026-10-02T02:55:38.970Z",
   "semana": "2026-S40",
-  "dia": "2026-10-01",
+  "dia": "2026-10-02",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1"
 }
