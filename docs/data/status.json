@@ -1,32 +1,37 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "pronto",
-      "msg": "ronda diária de 3 de Outubro concluída",
-      "em": "2026-10-03T02:42:46.684Z"
+      "estado": "a trabalhar",
+      "msg": "A começar a pesquisa do dia…",
+      "em": "2026-10-04T03:13:21.522Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "ronda diária de 3 de Outubro concluída",
-      "em": "2026-10-03T02:42:48.236Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-04T03:13:21.522Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "ronda diária de 3 de Outubro concluída",
-      "em": "2026-10-03T02:42:49.688Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-04T03:13:21.522Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-10-03T02:43:00.450Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-04T03:13:21.522Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "À espera da sua aprovação",
-      "em": "2026-10-03T02:44:00.848Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-10-04T03:13:21.522Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-04T03:13:21.522Z",
+      "agente": "fontes",
+      "msg": "A começar a pesquisa do dia…"
+    },
     {
       "em": "2026-10-03T02:44:00.848Z",
       "agente": "aprovacao",
@@ -221,15 +226,10 @@
       "em": "2026-09-30T22:15:21.512Z",
       "agente": "analise",
       "msg": "Análise mantida e revista"
-    },
-    {
-      "em": "2026-09-30T22:15:19.975Z",
-      "agente": "fontes",
-      "msg": "Sem novidades nesta ronda de revisão"
     }
   ],
-  "actualizado": "2026-10-03T02:44:00.848Z",
+  "actualizado": "2026-10-04T03:13:21.522Z",
   "semana": "2026-S40",
-  "dia": "2026-10-03",
+  "dia": "2026-10-04",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/1"
 }
