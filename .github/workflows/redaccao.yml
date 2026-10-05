@@ -27,13 +27,14 @@ jobs:
       github.event_name == 'schedule' ||
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issue_comment' &&
-        startsWith(github.event.comment.body, '/rever') &&
+        (startsWith(github.event.comment.body, '/rever') || startsWith(github.event.comment.body, '/trocar') || startsWith(github.event.comment.body, '/incluir')) &&
         github.event.comment.user.login == github.repository_owner) ||
       (github.event_name == 'issues' && github.event.label.name == 'aprovado')
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       EVENTO: ${{ github.event_name }}
+      COMENTARIO: ${{ github.event.comment.body }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -51,7 +52,7 @@ jobs:
 
       # 2) Os agentes — usa a SUA subscrição Claude (sem API paga)
       - name: Agentes (Claude)
-        if: steps.preparar.outputs.modo != 'aprovar'
+        if: steps.preparar.outputs.modo == 'diario' || steps.preparar.outputs.modo == 'rever'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -66,7 +67,7 @@ jobs:
 
       # 3) Sem custo: junta o trabalho dos agentes na edição
       - name: Montar edição
-        if: steps.preparar.outputs.modo != 'aprovar'
+        if: steps.preparar.outputs.modo == 'diario' || steps.preparar.outputs.modo == 'rever'
         run: node scripts/publicar.mjs
 
       # 4) Sem custo: gera as imagens dos posts (assinatura S.A REDES no rodapé)
@@ -79,7 +80,15 @@ jobs:
           sudo apt-get install -y fonts-noto-color-emoji
           node scripts/imagens.mjs
 
-      # 5) Sem custo: envia-lhe o email (comentário na Issue) ou regista a aprovação
+      # 5) Sem custo: quando aprova a edição, gera o Reel (vídeo 9:16) a partir das stories
+      - name: Vídeo (Reel)
+        if: steps.preparar.outputs.modo == 'aprovar'
+        continue-on-error: true
+        run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          node scripts/video.mjs
+
+      # 6) Sem custo: envia-lhe o email (comentário na Issue) ou regista a aprovação
       - name: Notificar
         if: success()
         run: node scripts/github.mjs ${{ steps.preparar.outputs.modo == 'aprovar' && 'aprovar' || 'notificar' }}
