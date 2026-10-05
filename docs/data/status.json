@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "modo rever, sem notícias novas",
-      "em": "2026-10-05T10:59:17.905Z"
+      "estado": "pronto",
+      "msg": "sem notícias novas",
+      "em": "2026-10-05T10:59:32.768Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-05T10:59:32.768Z",
+      "agente": "fontes",
+      "msg": "sem notícias novas"
+    },
     {
       "em": "2026-10-05T10:59:17.905Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-01T07:45:34.061Z",
       "agente": "aprovacao",
       "msg": "À espera da sua aprovação"
-    },
-    {
-      "em": "2026-10-01T07:44:44.149Z",
-      "agente": "editor",
-      "msg": "Edição versão 8 montada"
     }
   ],
-  "actualizado": "2026-10-05T10:59:17.905Z",
+  "actualizado": "2026-10-05T10:59:32.768Z",
   "semana": "2026-S41",
   "dia": "2026-10-05",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
