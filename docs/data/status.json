@@ -6,9 +6,9 @@
       "em": "2026-10-05T02:48:59.848Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "PESTAL e impacto",
-      "em": "2026-10-05T02:49:01.075Z"
+      "estado": "pronto",
+      "msg": "PESTAL e 8 grupos",
+      "em": "2026-10-05T02:49:22.602Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-05T02:49:22.602Z",
+      "agente": "analise",
+      "msg": "PESTAL e 8 grupos"
+    },
     {
       "em": "2026-10-05T02:49:01.075Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-01T02:54:55.625Z",
       "agente": "editor",
       "msg": "Edição versão 7 montada"
-    },
-    {
-      "em": "2026-10-01T02:54:46.968Z",
-      "agente": "editor",
-      "msg": "textos gravados"
     }
   ],
-  "actualizado": "2026-10-05T02:49:01.075Z",
+  "actualizado": "2026-10-05T02:49:22.602Z",
   "semana": "2026-S41",
   "dia": "2026-10-05",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
