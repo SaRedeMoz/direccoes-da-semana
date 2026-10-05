@@ -31,6 +31,8 @@ https://github.com/apps/claude
 | Acrescentar notícia local (ex.: Diário de Moçambique) | Comentário a começar por `Notícia:` |
 | Dar sugestão | Comentário normal (entra na próxima ronda) |
 | Rever já | Comentário `/rever` |
+| Trocar uma frase ou palavra (sem gastar o Claude) | `/trocar "texto antigo" por "texto novo"` (pode pôr várias linhas) |
+| Pôr na edição uma notícia que ficou de fora | Ver o número em "Todas as notícias" no escritório e comentar `/incluir 12` |
 | Aprovar | Etiqueta `aprovado` |
 
 ## Custos e limites

@@ -54,17 +54,20 @@ async function issueDaSemana() {
 
 async function preparar() {
   const issue = await issueDaSemana();
-  const modo = EVENTO === "issues" ? "aprovar" : EVENTO === "issue_comment" ? "rever" : "diario";
+  const COM = (process.env.COMENTARIO || "").trim();
+  const modo = EVENTO === "issues" ? "aprovar" : EVENTO === "issue_comment" ? (COM.startsWith("/trocar") ? "editar" : "rever") : "diario";
   saida("modo", modo); saida("hoje", hoje); saida("semana", SEMANA); saida("issue", issue.number);
   if (modo === "aprovar") return;
+  if (modo === "editar") return editar(COM, issue);
   const acum = ler(`${D}/semanas/${SEMANA}/acumulado.json`, { itens: [], processados: [] });
   const coms = (await gh(`/issues/${issue.number}/comments?per_page=100`)).filter((c) => c.user.login === OWNER);
-  const novos = coms.filter((c) => !(acum.processados || []).includes(c.id) && !c.body.trim().startsWith("/rever"));
+  const novos = coms.filter((c) => !(acum.processados || []).includes(c.id) && !/^\/(rever|trocar)/.test(c.body.trim()));
   const eNoticia = (t) => /^not[ií]cia\s*:/i.test(t.trim());
   gravar(`${D}/entrada.json`, {
     modo, hoje, semana: SEMANA, issue: issue.html_url,
     noticias_do_aprovador: novos.filter((c) => eNoticia(c.body)).map((c) => c.body.trim().replace(/^not[ií]cia\s*:/i, "").trim()),
-    sugestoes_novas: novos.filter((c) => !eNoticia(c.body)).map((c) => c.body.trim()),
+    sugestoes_novas: novos.filter((c) => !eNoticia(c.body) && !/^\/incluir/i.test(c.body.trim())).map((c) => c.body.trim()),
+    incluir_itens: [...new Set([...(acum.incluir_itens || []), ...novos.filter((c) => /^\/incluir/i.test(c.body.trim())).flatMap((c) => (c.body.match(/\d+/g) || []).map(Number))])],
     ids_comentarios: novos.map((c) => c.id),
   });
   const s = estado("fontes", modo === "diario" ? "a trabalhar" : "pronto", modo === "diario" ? "A começar a pesquisa do dia…" : "A preparar a revisão…");
@@ -72,6 +75,27 @@ async function preparar() {
   s.estagios.aprovacao = { estado: "parado", msg: "Sem edição nova ainda", em: s.actualizado };
   s.issueUrl = issue.html_url;
   gravar(`${D}/status.json`, s); git("redacção: início da ronda");
+}
+
+// /trocar "texto antigo" por "texto novo"  (pode repetir várias linhas no mesmo comentário)
+async function editar(com, issue) {
+  const pares = [...com.matchAll(/["“”']([^"“”']+)["“”']\s+por\s+["“”']([^"“”']*)["“”']/gi)].map((m) => [m[1], m[2]]);
+  const ed = ler(`${D}/edicao.json`, {});
+  const A = `${D}/semanas/${ed.semana}/acumulado.json`, acum = ler(A, null);
+  let n = 0;
+  const troca = (v) => {
+    if (typeof v === "string") { let r = v; for (const [a, b] of pares) { const k = r.split(a).length - 1; if (k) { n += k; r = r.split(a).join(b); } } return r; }
+    if (Array.isArray(v)) return v.map(troca);
+    if (v && typeof v === "object") { const o = {}; for (const [k, x] of Object.entries(v)) o[k] = ["url", "imagem_termos", "tom", "imagens"].includes(k) ? x : troca(x); return o; }
+    return v;
+  };
+  for (const k of ["textos", "design", "analise"]) { ed[k] = troca(ed[k]); if (acum) acum[k] = ed[k]; }
+  gravar(`${D}/edicao.json`, ed); if (acum) gravar(A, acum);
+  const s = estado("editor", "pronto", n ? `${n} alteração(ões) feitas à mão` : "Texto a trocar não encontrado");
+  s.issueUrl = issue.html_url; gravar(`${D}/status.json`, s); git("edição: troca de texto");
+  if (!n) await gh(`/issues/${issue.number}/comments`, { method: "POST", body: JSON.stringify({ body:
+    `@${OWNER} Não encontrei o texto a trocar. Copie a frase exactamente como está na edição e use: /trocar "texto antigo" por "texto novo"` }) });
+  saida("trocas", n);
 }
 
 async function notificar() {
@@ -96,7 +120,8 @@ async function aprovar() {
   gravar(`${D}/edicao.json`, ed);
   const s = estado("aprovacao", "aprovado", "Edição aprovada. Pronta a publicar."); s.issueUrl = issue.html_url;
   gravar(`${D}/status.json`, s); git("redacção: aprovada");
-  await gh(`/issues/${issue.number}/comments`, { method: "POST", body: JSON.stringify({ body: `✅ Aprovada (versão ${ed.versao || "?"}). Textos no escritório: ${PAGE}` }) });
+  const reel = ed.imagens?.reel ? `\n\n**Reel (vídeo 9:16, ${ed.imagens.reel_duracao || "?"} s):** https://raw.githubusercontent.com/${REPO}/main/docs/${ed.imagens.reel}\nDescarregue no telemóvel, publique como Reel e escolha uma música na biblioteca do Instagram.` : "";
+  await gh(`/issues/${issue.number}/comments`, { method: "POST", body: JSON.stringify({ body: `@${OWNER} ✅ Aprovada (versão ${ed.versao || "?"}). Textos e imagens no escritório: ${PAGE}${reel}` }) });
 }
 
 async function falha() {

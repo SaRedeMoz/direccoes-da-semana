@@ -98,7 +98,17 @@ h1{margin:0;font-size:clamp(1.6rem,6vw,2.5rem);font-weight:800;letter-spacing:-.
     <div class="gallery" id="gallery"></div>
     <h3 style="margin:14px 0 8px;font-size:1rem">Stories 9:16</h3>
     <div class="gallery" id="galStory"></div>
-    <div class="row"><a class="btn" id="pdfBtn" href="#" target="_blank" rel="noopener">Carrossel do LinkedIn (PDF)</a></div>
+    <div class="row">
+      <button class="btn gold" data-partilhar="feed">Partilhar carrossel</button>
+      <button class="btn gold" data-partilhar="story">Partilhar stories</button>
+      <button class="btn" data-partilhar="pdf">Partilhar PDF (LinkedIn)</button>
+      <a class="btn" id="pdfBtn" href="#" target="_blank" rel="noopener">Abrir PDF</a>
+    </div>
+    <p class="sub" id="shareNota">No telemóvel, "Partilhar" abre a lista de apps: escolha WhatsApp, Instagram, LinkedIn ou Facebook.</p>
+    <div id="reelBox" class="hidden"><h3 style="margin:18px 0 8px;font-size:1rem">Reel (vídeo 9:16)</h3>
+      <video id="reel" controls playsinline preload="metadata" style="width:220px;max-width:100%;border-radius:12px;display:block"></video>
+      <div class="row"><button class="btn gold" data-partilhar="reel">Partilhar o Reel</button><a class="btn" id="reelBtn" href="#" download>Descarregar o vídeo</a></div>
+      <p class="sub">Publique como Reel e escolha uma música na biblioteca do Instagram.</p></div>
   </div>
 
   <div class="card">
@@ -109,10 +119,17 @@ h1{margin:0;font-size:clamp(1.6rem,6vw,2.5rem);font-weight:800;letter-spacing:-.
       <button role="tab" data-t="linkedin" aria-selected="false">LinkedIn</button>
       <button role="tab" data-t="completa" aria-selected="false">Análise completa</button>
       <button role="tab" data-t="analise" aria-selected="false">Quem ganha/perde</button>
-      <button role="tab" data-t="fontes" aria-selected="false">Fontes</button>
+      <button role="tab" data-t="fontes" aria-selected="false">Todas as notícias</button>
     </div>
     <div class="txt" id="txt">Ainda sem edição.</div>
-    <div class="row"><button class="btn" id="copy">Copiar texto</button></div>
+    <div class="row">
+      <button class="btn gold" id="shareTxt">Partilhar</button>
+      <a class="btn" id="waTxt" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn" id="liTxt" href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" id="fbTxt" href="#" target="_blank" rel="noopener">Facebook</a>
+      <button class="btn" id="copy">Copiar texto</button>
+    </div>
+    <p class="sub" id="shareAviso"></p>
   </div>
 </div>
 
@@ -312,7 +329,8 @@ function painel(){
   $("galCard").classList.toggle("hidden",!(im&&im.slides&&im.slides.length));
   if(im&&im.slides){const v=im.v||edicao.versao||"";const g=(l)=>(l||[]).filter(Boolean).map(p=>`<a href="${esc(p)}?v=${v}" target="_blank" rel="noopener"><img src="${esc(p)}?v=${v}" alt="Imagem do post" loading="lazy"></a>`).join("");
     $("gallery").innerHTML=g([...im.slides,im.capa]);$("galStory").innerHTML=g(im.stories);
-    $("pdfBtn").classList.toggle("hidden",!im.pdf);if(im.pdf)$("pdfBtn").href=im.pdf+"?v="+v;}
+    $("pdfBtn").classList.toggle("hidden",!im.pdf);if(im.pdf)$("pdfBtn").href=im.pdf+"?v="+v;
+    $("reelBox").classList.toggle("hidden",!im.reel);if(im.reel){const u=im.reel+"?v="+v;if($("reel").getAttribute("src")!==u)$("reel").src=u;$("reelBtn").href=u;}}
   texto();actualizar3D();
 }
 function texto(){
@@ -324,10 +342,59 @@ function texto(){
   if(tab==="analise"&&edicao&&edicao.analise){const a=edicao.analise;
     out=`${a.sintese||""}\n\nO que mudou hoje: ${a.o_que_mudou_hoje||"—"}\n\nQUEM GANHA / QUEM PERDE\n`+(a.impacto||[]).map(i=>`${i.efeito==="positivo"?"🟢":i.efeito==="negativo"?"🔴":"🟡"} ${i.grupo}: ${i.explicacao}`).join("\n")+
     `\n\nDIRECÇÃO\n`+(a.direccao||[]).map(d=>`• ${d.publico}: ${d.accao}`).join("\n")+`\n\nSinal a acompanhar: ${a.sinal||"—"}`;}
-  if(tab==="fontes"&&edicao)out=(edicao.itens||[]).map(i=>`[${i.ambito==="mundo"?"Mundo":"Moçambique"}] ${i.titulo}\n${i.resumo}\n${i.fonte}${i.url?" — "+i.url:""} (${i.data||""})`).join("\n\n");
+  if(tab==="fontes"&&edicao){const it=[...(edicao.itens||[])].sort((a,b)=>(b.na_edicao?1:0)-(a.na_edicao?1:0));
+    out=`Para pôr uma notícia na edição, comente na conversa da semana: /incluir e o número (ex.: /incluir 12)\n\n`+it.map(i=>`N.º ${i.n||"?"}  ${i.na_edicao?"[NA EDIÇÃO]":"[fora]"}  ${i.ambito==="mundo"?"Mundo":"Moçambique"}\n${i.titulo}\n${i.resumo}\n${i.fonte||""}${i.url?", "+i.url:""} ${i.data?"("+i.data+")":""}`).join("\n\n");}
   $("txt").textContent=out||"Ainda sem edição.";
+  if(typeof actualizarLinks==="function")actualizarLinks();
 }
 document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{tab=b.dataset.t;document.querySelectorAll(".tabs button").forEach(x=>x.setAttribute("aria-selected",String(x===b)));texto()}));
+/* ---------- Partilha ---------- */
+const SITE = location.href.split("#")[0].split("?")[0];
+function aviso(t){$("shareAviso").textContent=t;if(t)setTimeout(()=>$("shareAviso").textContent="",6000);}
+function textoActual(){return $("txt").textContent||"";}
+function actualizarLinks(){
+  const t=textoActual();
+  $("waTxt").href="https://wa.me/?text="+encodeURIComponent(t);
+  $("liTxt").href="https://www.linkedin.com/feed/?shareActive=true&text="+encodeURIComponent(t);
+  $("fbTxt").href="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(SITE);
+}
+$("liTxt").addEventListener("click",()=>{try{navigator.clipboard.writeText(textoActual())}catch(_){}});
+$("fbTxt").addEventListener("click",()=>{try{navigator.clipboard.writeText(textoActual());aviso("Texto copiado: cole-o na publicação do Facebook.")}catch(_){}});
+$("shareTxt").addEventListener("click",async()=>{
+  const t=textoActual();
+  if(navigator.share){try{await navigator.share({text:t});}catch(_){} return;}
+  try{await navigator.clipboard.writeText(t);aviso("Texto copiado. Abra a rede social e cole.")}catch(_){aviso("Use os botões ao lado ou copie o texto.")}
+});
+async function ficheiros(lista){
+  const fs=[];
+  for(const [url,nome] of lista){const r=await fetch(url);if(!r.ok)continue;const b=await r.blob();fs.push(new File([b],nome,{type:b.type||"image/png"}));}
+  return fs;
+}
+document.querySelectorAll("[data-partilhar]").forEach(btn=>btn.addEventListener("click",async()=>{
+  const im=edicao&&edicao.imagens; if(!im)return;
+  const tipo=btn.dataset.partilhar, v=im.v||"";
+  let lista=[];
+  if(tipo==="feed")lista=(im.slides||[]).map((p,i)=>[p+"?v="+v,`direccoes-${String(i+1).padStart(2,"0")}.png`]);
+  if(tipo==="story")lista=(im.stories||[]).map((p,i)=>[p+"?v="+v,`direccoes-story-${String(i+1).padStart(2,"0")}.png`]);
+  if(tipo==="pdf"&&im.pdf)lista=[[im.pdf+"?v="+v,"direccoes-da-semana.pdf"]];
+  if(tipo==="reel"&&im.reel)lista=[[im.reel+"?v="+v,"direccoes-da-semana-reel.mp4"]];
+  if(!lista.length)return;
+  const antes=btn.textContent;btn.textContent="A preparar…";btn.disabled=true;
+  try{
+    const fs=await ficheiros(lista);
+    const legenda=(edicao.textos&&(tipo==="pdf"?edicao.textos.linkedin:edicao.textos.instagram))||"";
+    if(navigator.canShare&&navigator.canShare({files:fs})){
+      try{await navigator.share({files:fs,text:legenda});}catch(_){}
+    }else{
+      // computador: descarrega os ficheiros e copia a legenda
+      for(const f of fs){const a=document.createElement("a");a.href=URL.createObjectURL(f);a.download=f.name;document.body.appendChild(a);a.click();a.remove();await new Promise(r=>setTimeout(r,350));}
+      try{await navigator.clipboard.writeText(legenda)}catch(_){}
+      $("shareNota").textContent="Ficheiros descarregados e legenda copiada. No telemóvel, este botão abre directamente a lista de apps.";
+    }
+  }catch(_){$("shareNota").textContent="Não foi possível preparar os ficheiros. Tente de novo.";}
+  btn.textContent=antes;btn.disabled=false;
+}));
+
 $("copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("txt").textContent);$("copy").textContent="Copiado"}catch(_){const r=document.createRange();r.selectNodeContents($("txt"));const s=getSelection();s.removeAllRanges();s.addRange(r);$("copy").textContent="Seleccionado"}setTimeout(()=>$("copy").textContent="Copiar texto",2000)});
 
 /* ================= Dados ================= */

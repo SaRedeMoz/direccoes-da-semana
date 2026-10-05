@@ -84,6 +84,10 @@ Grava em `trabalho/design.json`:
 - Cada slide: `{"titulo" (máx. 7 palavras),"texto" (1 a 2 frases, máx. 30 palavras),"tom":"alerta"|"oportunidade"|"neutro","imagem_termos": string}`.
 - O slide 1 é a capa: `titulo` "Direcções da Semana", `texto` vazio, `imagem_termos` de uma paisagem de Moçambique.
 - Não repitas nas notícias o que vai nos slides de análise.
+- Cada notícia do acumulado tem um número `n`. Acrescenta a `design.json` o campo `"fontes_usadas":[n, ...]` com os números
+  das notícias que entraram nos slides.
+- Se `entrada.json` tiver `incluir_itens` (números escolhidos pelo aprovador com `/incluir`), essas notícias **têm de entrar**
+  como slides de notícia e nos textos do editor, mesmo que tenhas de tirar outra.
 - `imagem_termos`: 2 a 4 palavras **em inglês** para procurar uma fotografia documental livre de direitos no
   Wikimedia Commons (lugares, objectos, paisagens: ex. "Beira port Mozambique", "oil tanker", "maize market Africa",
   "Gorongosa National Park"). Evita rostos de pessoas identificáveis e evita termos que só dariam logótipos.

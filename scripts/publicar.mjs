@@ -14,7 +14,9 @@ const acum = ler(ACUM, { itens: [], processados: [], sugestoes_semana: [], versa
 // Fontes: novas notícias + actualizações
 const f = ler(`${W}/fontes.json`, { novas: [], actualizacoes: [], lacunas: acum.lacunas || [] });
 const vistos = new Set(acum.itens.map((i) => (i.titulo || "").toLowerCase()));
-for (const n of f.novas || []) if (!vistos.has((n.titulo || "").toLowerCase())) acum.itens.push({ ...n, recolhida: ent.hoje });
+acum.proximo_n = acum.proximo_n || (acum.itens.reduce((m, i) => Math.max(m, i.n || 0), 0) + 1);
+for (const i of acum.itens) if (!i.n) i.n = acum.proximo_n++;
+for (const n of f.novas || []) if (!vistos.has((n.titulo || "").toLowerCase())) acum.itens.push({ ...n, n: acum.proximo_n++, recolhida: ent.hoje });
 for (const u of f.actualizacoes || []) {
   const it = acum.itens.find((i) => i.titulo === u.titulo_existente);
   if (it) it.resumo += ` Actualização (${ent.hoje}): ${u.novidade}`;
@@ -83,13 +85,14 @@ for (const c of acum.textos.conformidade || []) if (c.ok === false) falhas.push(
 acum.textos.verificar = [...(acum.textos.verificar || []), ...falhas.map((f) => "⚠️ " + f)];
 acum.falhas_conformidade = falhas;
 
+acum.incluir_itens = ent.incluir_itens || acum.incluir_itens || [];
 acum.sugestoes_semana = [...(acum.sugestoes_semana || []), ...(ent.sugestoes_novas || [])];
 acum.processados = [...(acum.processados || []), ...(ent.ids_comentarios || [])];
 acum.versao = (acum.versao || 0) + 1;
 gravar(ACUM, acum);
 
 const ed = { semana: ent.semana, dia: ent.hoje, versao: acum.versao, aprovada: false, issue: ent.issue, falhas_conformidade: acum.falhas_conformidade,
-  itens: acum.itens, lacunas: acum.lacunas, analise: acum.analise, design: acum.design, textos: acum.textos };
+  itens: acum.itens.map((i) => ({ ...i, na_edicao: (acum.design?.fontes_usadas || []).includes(i.n) })), lacunas: acum.lacunas, analise: acum.analise, design: acum.design, textos: acum.textos };
 gravar("docs/data/edicao.json", ed);
 gravar(`docs/data/semanas/${ent.semana}/dia-${ent.hoje}.json`, ed);
 
