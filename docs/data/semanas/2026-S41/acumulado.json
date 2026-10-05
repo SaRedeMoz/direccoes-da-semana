@@ -1,10 +1,4 @@
 {
-  "semana": "2026-S41",
-  "dia": "2026-10-05",
-  "versao": 1,
-  "aprovada": false,
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2",
-  "falhas_conformidade": [],
   "itens": [
     {
       "titulo": "Chapo diz que o desenvolvimento económico é a nova fronteira da paz",
@@ -73,6 +67,9 @@
       "recolhida": "2026-10-05"
     }
   ],
+  "processados": [],
+  "sugestoes_semana": [],
+  "versao": 1,
   "lacunas": [
     "Preços internos dos combustíveis em Outubro",
     "Notícias de Sofala e da zona Centro",
@@ -389,5 +386,6 @@
         "nota": "Petróleo e preços internos"
       }
     ]
-  }
+  },
+  "falhas_conformidade": []
 }
