@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "Pesquisar notícias de 5 e 6 de Outubro",
-      "em": "2026-10-06T03:39:36.052Z"
+      "estado": "pronto",
+      "msg": "3 novas, 1 actualização",
+      "em": "2026-10-06T03:40:10.780Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-06T03:40:10.780Z",
+      "agente": "fontes",
+      "msg": "3 novas, 1 actualização"
+    },
     {
       "em": "2026-10-06T03:39:36.052Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-02T02:58:00.865Z",
       "agente": "aprovacao",
       "msg": "1 dúvida(s) para si"
-    },
-    {
-      "em": "2026-10-02T02:57:00.891Z",
-      "agente": "editor",
-      "msg": "Edição versão 9 montada"
     }
   ],
-  "actualizado": "2026-10-06T03:39:36.052Z",
+  "actualizado": "2026-10-06T03:40:10.780Z",
   "semana": "2026-S41",
   "dia": "2026-10-06",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
