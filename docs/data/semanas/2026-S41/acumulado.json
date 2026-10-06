@@ -14,7 +14,7 @@
     },
     {
       "titulo": "Petróleo perto de 108 dólares e combustíveis em máximos na região",
-      "resumo": "O Brent negoceia a cerca de 107,8 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho.",
+      "resumo": "O Brent negoceia a cerca de 107,8 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho. Actualização (2026-10-06): A 5 de Outubro o Brent recuou para 101,31 dólares (Trading Economics), menos 0,92% num dia e 54,7% acima de há um ano. O Irão mantém o Estreito de Ormuz fechado enquanto Washington não aceitar as suas condições.",
       "ambito": "mundo",
       "dimensao": "Económica",
       "fonte": "IOL / AutoTrader",
@@ -71,27 +71,68 @@
       "confianca": "baixa",
       "recolhida": "2026-10-05",
       "n": 6
+    },
+    {
+      "titulo": "Tribunal Administrativo envia ao Parlamento o parecer sobre a Conta Geral do Estado de 2025",
+      "resumo": "O Plenário aprovou o relatório e parecer a 29 de Setembro e a entrega à Assembleia da República foi feita a 30. Segundo o Club of Mozambique, a conta confirma uma contracção económica de 0,52% em 2025.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "fonte": "AIM / Club of Mozambique",
+      "url": "https://aimnews.org/2026/10/01/tribunal-administrativo-submete-a-ar-parecer-sobre-conta-geral-do-estado/",
+      "data": "2026-10-01",
+      "confianca": "media",
+      "n": 7,
+      "recolhida": "2026-10-06"
+    },
+    {
+      "titulo": "Governo altera regulamentos fiscais, incluindo o imposto dos pequenos contribuintes",
+      "resumo": "O Conselho de Ministros aprovou alterações a regulamentos fiscais para reforçar a eficiência da cobrança. Entre elas está o regulamento do Imposto Simplificado para Pequenos Contribuintes.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/09/29/governo-introduz-alteracoes-nos-regulamentos-fiscais-para-reforcar-eficiencia-tributaria/",
+      "data": "2026-09-29",
+      "confianca": "media",
+      "n": 8,
+      "recolhida": "2026-10-06"
+    },
+    {
+      "titulo": "Chuva forte e trovoada previstas para Sofala, Manica, Gaza e Inhambane",
+      "resumo": "A previsão de 5 de Outubro apontava chuva forte e trovoada em quatro províncias, entre elas Sofala. Em Gorongosa, o tribunal distrital recebe cerca de nove casos por semana de crimes contra a fauna e a flora.",
+      "ambito": "nacional",
+      "dimensao": "Ambiental",
+      "fonte": "Rádio Moçambique",
+      "url": "https://www.rm.co.mz/",
+      "data": "2026-10-05",
+      "confianca": "baixa",
+      "n": 9,
+      "recolhida": "2026-10-06"
     }
   ],
-  "processados": [],
-  "sugestoes_semana": [],
-  "versao": 2,
+  "processados": [
+    5993130024,
+    5993197430
+  ],
+  "sugestoes_semana": [
+    "/aprovado",
+    "aprovado"
+  ],
+  "versao": 3,
   "lacunas": [
-    "Preços internos dos combustíveis em Outubro",
-    "Notícias de Sofala e da zona Centro",
+    "Preços internos dos combustíveis em Outubro (último preço encontrado: gasóleo a 116,25 meticais, sem data confirmada)",
     "Câmbio e divisas",
     "Segurança em Cabo Delgado"
   ],
   "analise": {
     "destaques": {
       "mundo": [
-        "Brent perto de 108 dólares, com tensão EUA e Irão",
+        "Brent recua para 101 dólares, mas Ormuz continua fechado",
         "Petróleo caro ameaça travar a descida dos juros em África"
       ],
       "nacional": [
         "Chapo põe o desenvolvimento económico como nova fronteira da paz",
-        "El Niño pode afectar 5,3 milhões de pessoas",
-        "Confiança empresarial recupera pela primeira vez em quase dois anos"
+        "Parecer do Tribunal Administrativo sobre a Conta Geral do Estado de 2025 está no Parlamento",
+        "El Niño pode afectar 5,3 milhões de pessoas"
       ]
     },
     "pestal": [
@@ -124,7 +165,7 @@
         ],
         "ameacas": [
           {
-            "texto": "Petróleo perto de 108 dólares",
+            "texto": "Petróleo acima de 100 dólares",
             "origem": "externa"
           },
           {
@@ -135,7 +176,7 @@
         "peso_oportunidade": 1,
         "peso_ameaca": 3,
         "principal_oportunidade": "Confiança empresarial a recuperar",
-        "principal_ameaca": "Petróleo perto de 108 dólares"
+        "principal_ameaca": "Petróleo acima de 100 dólares"
       },
       {
         "dimensao": "Social",
@@ -187,6 +228,10 @@
           {
             "texto": "El Niño: 5,3 milhões em risco",
             "origem": "externa"
+          },
+          {
+            "texto": "Chuva forte prevista em Sofala",
+            "origem": "externa"
           }
         ],
         "peso_oportunidade": 1,
@@ -200,17 +245,25 @@
           {
             "texto": "Visita da ONU sobre clima e direitos",
             "origem": "externa"
+          },
+          {
+            "texto": "Regulamento fiscal para pequenos contribuintes",
+            "origem": "interna"
           }
         ],
         "ameacas": [
           {
             "texto": "Recomendações da ONU sem prazo",
             "origem": "interna"
+          },
+          {
+            "texto": "Economia contraiu 0,52% em 2025",
+            "origem": "interna"
           }
         ],
-        "peso_oportunidade": 1,
+        "peso_oportunidade": 2,
         "peso_ameaca": 1,
-        "principal_oportunidade": "Visita da ONU sobre clima e direitos",
+        "principal_oportunidade": "Regulamento fiscal para pequenos contribuintes",
         "principal_ameaca": "Recomendações da ONU sem prazo"
       }
     ],
@@ -255,14 +308,14 @@
         "saldo": -1,
         "porque": "petróleo caro e custo do El Niño",
         "efeito": "negativo",
-        "explicacao": "Importar combustível mais caro e gastar com a seca pesam nas contas externas e públicas."
+        "explicacao": "Combustível mais caro e a seca pesam nas contas externas e públicas, e a Conta Geral de 2025 mostra uma contracção de 0,52%."
       },
       {
         "grupo": "PMEs",
         "saldo": -1,
         "porque": "crédito caro e custos de transporte",
         "efeito": "negativo",
-        "explicacao": "Apesar da confiança a subir, os juros altos e o gasóleo apertam as margens."
+        "explicacao": "Os juros altos e o gasóleo apertam as margens. O novo regulamento do imposto simplificado pode mudar a carga fiscal dos pequenos negócios, por confirmar."
       },
       {
         "grupo": "Ramos de negócio",
@@ -294,9 +347,9 @@
         "accao": "Acompanhar medidas concretas de industrialização antes de comprometer capital."
       }
     ],
-    "sinal": "Preço do petróleo e do gasóleo, e a decisão do Governo sobre os preços internos dos combustíveis.",
-    "sintese": "O petróleo perto de 108 dólares e o El Niño são as duas pressões da semana sobre as famílias e as contas públicas. Em sentido contrário, a confiança dos empresários recuperou e o Presidente fez do emprego a prioridade da paz. Falta ver se o discurso se traduz em medidas.",
-    "o_que_mudou_hoje": "Revisão da edição: sem notícias novas. Textos limpos de afirmações sem fonte."
+    "sinal": "Preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis e o debate da Conta Geral do Estado no Parlamento.",
+    "sintese": "O petróleo acima de 100 dólares e o El Niño continuam a ser as duas pressões da semana sobre as famílias e as contas públicas. A Conta Geral de 2025 confirma uma economia que encolheu 0,52%. Em sentido contrário, a confiança dos empresários recuperou e o Presidente fez do emprego a prioridade da paz.",
+    "o_que_mudou_hoje": "O Brent desceu para 101 dólares, mas o Irão mantém Ormuz fechado. O Tribunal Administrativo entregou ao Parlamento o parecer sobre a Conta Geral do Estado e o Governo alterou regulamentos fiscais."
   },
   "design": {
     "slides": [
@@ -313,8 +366,8 @@
         "imagem_termos": "Xai-Xai Mozambique"
       },
       {
-        "titulo": "Petróleo perto de 108 dólares",
-        "texto": "A tensão entre EUA e Irão empurra o Brent para cerca de 107,8 dólares e os combustíveis para máximos na região.",
+        "titulo": "Petróleo acima de 100 dólares",
+        "texto": "O Brent recuou para 101 dólares a 5 de Outubro, mas o Irão mantém o Estreito de Ormuz fechado e os combustíveis seguem caros.",
         "tom": "alerta",
         "imagem_termos": "oil tanker"
       },
@@ -335,14 +388,20 @@
         "texto": "Pela primeira vez em quase dois anos, a confiança dos empresários subiu. A taxa de referência mantém-se em 15,5%.",
         "tom": "oportunidade",
         "imagem_termos": "Maputo city skyline"
+      },
+      {
+        "titulo": "Conta Geral de 2025 está no Parlamento",
+        "texto": "O Tribunal Administrativo enviou o parecer à Assembleia da República. Segundo o Club of Mozambique, a economia contraiu 0,52% em 2025.",
+        "tom": "neutro",
+        "imagem_termos": "Maputo City Hall"
       }
     ],
     "destaques_capa": [
-      "Petróleo perto de 108 dólares",
+      "Petróleo acima de 100 dólares",
       "El Niño ameaça 5,3 milhões",
-      "Confiança empresarial recupera"
+      "Conta Geral de 2025 no Parlamento"
     ],
-    "legenda": "Esta semana: o petróleo caro e o El Niño pressionam famílias e contas públicas, enquanto a confiança dos empresários recupera. Chapo liga a paz ao emprego. Veja quem ganha, quem perde e o que fazer.",
+    "legenda": "O petróleo acima de 100 dólares e o El Niño pressionam famílias e contas públicas. A Conta Geral de 2025 chegou ao Parlamento e a confiança dos empresários recupera. Veja quem ganha, quem perde e o que fazer.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesDaSemana"
@@ -352,19 +411,21 @@
       2,
       3,
       4,
-      6
+      6,
+      7
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\nO petróleo Brent negoceia perto de 108 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz. Na África do Sul, os combustíveis deverão subir a 7 de Outubro para valores acima dos máximos de Junho. A Reuters diz que vários países africanos podem ter de parar a descida dos juros.\n\n*MOÇAMBIQUE*\nA 4 de Outubro, em Xai-Xai, o Presidente Daniel Chapo disse que o desenvolvimento económico é a nova fronteira da paz. Quer emprego, produção e respostas para a juventude, com mineração, petróleo e indústria como prioridades.\n\nO El Niño pode afectar 5,3 milhões de pessoas. Três distritos já estão no nível máximo de vulnerabilidade e a insegurança alimentar subiu 55%. Do lado positivo, a confiança dos empresários subiu pela primeira vez em quase dois anos.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem sobretudo as famílias de baixa renda, que pagam mais pela comida e pelo transporte. Também perdem o Governo, a classe média, as PMEs e a macroeconomia. Ganham investidores, ONGs e parceiros, e os ramos de energia e mineração.\n\n*DIRECÇÃO*\nFamílias: guardar reservas de alimentos básicos. PMEs: rever custos de transporte e negociar prazos com fornecedores. Governo e parceiros: dar prioridade aos três distritos mais vulneráveis.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o preço do petróleo e se o Governo mexe nos preços internos dos combustíveis.\n\nSe esta leitura foi útil, partilhe com quem decide em casa ou na empresa.",
-    "linkedin": "Esta semana, duas pressões e um sinal positivo marcam a economia moçambicana.\n\nA primeira pressão vem de fora. O petróleo Brent está perto de 108 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz. Na África do Sul, os combustíveis deverão subir a 7 de Outubro acima dos máximos de Junho. A Reuters relata avisos de que o petróleo caro pode parar a descida dos juros no Gana, Quénia, Zâmbia e Nigéria. O gasóleo mais caro pesa no transporte de alimentos por estrada.\n\nA segunda pressão é o clima. O El Niño pode afectar 5,3 milhões de pessoas, com três distritos no nível máximo de vulnerabilidade e insegurança alimentar 55% mais alta. O custo para o Estado foi estimado em 267 milhões de euros.\n\nO sinal positivo é a confiança empresarial, que subiu pela primeira vez em quase dois anos. A taxa de referência continua em 15,5%, o que mantém o crédito caro para as PMEs. A 4 de Outubro, em Xai-Xai, o Presidente Daniel Chapo ligou a paz ao emprego e à produção, com mineração, petróleo e industrialização como prioridades.\n\nDirecção\n\nPara as PMEs: rever custos de transporte e negociar prazos com fornecedores. Para investidores: esperar por medidas concretas de industrialização antes de comprometer capital. Para o Governo e parceiros: concentrar a resposta nos três distritos mais vulneráveis.\n\nOs discursos sobre emprego só pesam quando chegam ao orçamento e ao crédito. Até lá, o petróleo e a seca decidem o custo de vida.\n\n#Moçambique #Economia #DirecçõesDaSemana",
-    "instagram": "Esta semana: o petróleo perto de 108 dólares e o El Niño pressionam famílias e contas públicas, enquanto a confiança dos empresários recupera. Chapo liga a paz ao emprego. Veja quem ganha, quem perde e o que fazer.\n\n#Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, 2026-S41\n\n## Resumo da semana\nO petróleo perto de 108 dólares e o El Niño são as duas pressões desta semana sobre as famílias e as contas públicas. Em sentido contrário, a confiança dos empresários recuperou pela primeira vez em quase dois anos e o Presidente Daniel Chapo fez do emprego a prioridade da paz. Falta ver se o discurso se traduz em medidas. Esta é a primeira edição da semana e será melhorada nos próximos dias.\n\n## Mundo\nO Brent negoceia a cerca de 107,8 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no transporte pelo Estreito de Ormuz. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho. Segundo a Reuters, responsáveis de vários países africanos avisam que o petróleo caro pode parar ou inverter a descida dos juros no Gana, Quénia, Zâmbia e Nigéria. Os preços dos alimentos ainda estão estáveis, mas o gasóleo pesa no transporte por estrada.\n\n## Moçambique\nA 4 de Outubro, em Xai-Xai, no 34.º aniversário do Acordo Geral de Paz, o Presidente Daniel Chapo defendeu que o desenvolvimento económico é a nova fronteira da paz. Pediu emprego, produção e melhores condições de vida, e apontou a mineração, o petróleo e a industrialização como prioridades, além de respostas às aspirações da juventude.\n\nNo clima, o El Niño pode afectar 5,3 milhões de pessoas. Três distritos estão no nível máximo de vulnerabilidade, a insegurança alimentar subiu 55%, para 1,84 milhões de pessoas, e o custo para o Estado foi estimado em 267 milhões de euros. A relatora especial da ONU para os direitos humanos e as alterações climáticas concluiu a 2 de Outubro uma visita de duas semanas ao país.\n\nNa economia, a confiança dos empresários subiu e a taxa de referência manteve-se em 15,50%. Esta informação vem de uma fonte de confiança baixa e deve ser confirmada.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.) | Expectativas da juventude por cumprir (int.) |\n| Económica | Confiança empresarial a recuperar (int.) | Petróleo perto de 108 dólares (ext.); juros altos, referência a 15,5% (int.) |\n| Social | Agenda de emprego para jovens (int.) | Insegurança alimentar em alta (int.) |\n| Tecnológica | Industrialização como prioridade declarada (int.) | Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.) | El Niño: 5,3 milhões em risco (ext.) |\n| Legal | Visita da ONU sobre clima e direitos (ext.) | Recomendações da ONU sem prazo (int.) |\n\n## Quem ganha, quem perde\nGoverno: perde, porque a seca e o combustível aumentam a despesa.\nClasse baixa: perde muito, com comida e transporte mais caros.\nClasse média: perde, com transporte caro e juros altos.\nClasse alta e investidores: ganha, com a confiança empresarial a recuperar.\nONGs e parceiros: ganha em atenção e procura de apoio, por causa do clima e da crise alimentar.\nMacroeconomia: perde, com petróleo caro e o custo do El Niño.\nPMEs: perde, com crédito caro e custos de transporte.\nRamos de negócio: efeito misto. Ganham energia, mineração e petróleo. Perdem transportes, agricultura e comércio de alimentos.\n\n## Direcção\nGoverno: preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\nFamílias: guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\nPMEs: rever custos de transporte e negociar prazos com fornecedores antes do fim do ano.\nONGs e parceiros: concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\nInvestidores: acompanhar medidas concretas de industrialização antes de comprometer capital.\n\n## Sinal a acompanhar\nO preço do petróleo e do gasóleo, e a decisão do Governo sobre os preços internos dos combustíveis.\n\n## Fontes\n- AIM: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/\n- IOL: https://iol.co.za/business/economy/2026-09-29-cloned-fuel-price-pain-deepens-as-projected-october-petrol-and-diesel-hikes-grow/\n- Reuters, via BusinessDay: https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- Observador, com Lusa: https://observador.pt/2026/09/22/el-nino-pode-afetar-53-milhoes-de-pessoas-e-custar-267-milhoes-de-euros-ao-estado-mocambicano/\n- OHCHR: https://www.ohchr.org/en/statements-and-speeches/2026/10/end-mission-statement-country-visit-mozambique\n- Trading Economics: https://tradingeconomics.com/mozambique/news",
+    "whatsapp": "*MUNDO*\nO petróleo Brent recuou a 5 de Outubro para cerca de 101 dólares por barril, mas continua 54% acima de há um ano. O Irão diz que o Estreito de Ormuz fica fechado enquanto Washington não aceitar as suas condições. A Reuters relata avisos de que o petróleo caro pode travar a descida dos juros em vários países africanos.\n\n*MOÇAMBIQUE*\nA 4 de Outubro, em Xai-Xai, o Presidente Daniel Chapo disse que o desenvolvimento económico é a nova fronteira da paz, com mineração, petróleo e indústria como prioridades.\n\nO Tribunal Administrativo enviou ao Parlamento o parecer sobre a Conta Geral do Estado de 2025, que segundo o Club of Mozambique confirma uma contracção de 0,52% da economia. O Governo também alterou regulamentos fiscais, incluindo o imposto dos pequenos contribuintes.\n\nO El Niño pode afectar 5,3 milhões de pessoas, com três distritos no nível máximo de vulnerabilidade.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem sobretudo as famílias de baixa renda, com comida e transporte mais caros. Também perdem o Governo, a classe média, as PMEs e a macroeconomia. Ganham investidores, ONGs e parceiros, e os ramos de energia e mineração.\n\n*DIRECÇÃO*\nFamílias: guardar reservas de alimentos básicos. PMEs: rever custos de transporte e ler o novo regulamento fiscal. Governo e parceiros: dar prioridade aos três distritos mais vulneráveis.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o petróleo, os preços internos dos combustíveis e o debate da Conta Geral no Parlamento.\n\nSe esta leitura foi útil, partilhe com quem decide em casa ou na empresa.",
+    "linkedin": "Esta semana, duas pressões e um sinal positivo marcam a economia moçambicana.\n\nA primeira pressão vem de fora. O petróleo Brent recuou a 5 de Outubro para cerca de 101 dólares por barril, mas continua mais de 50% acima de há um ano. O Irão mantém o Estreito de Ormuz fechado enquanto Washington não aceitar as suas condições. A Reuters relata avisos de que o petróleo caro pode parar a descida dos juros no Gana, Quénia, Zâmbia e Nigéria, e o gasóleo pesa no transporte de alimentos por estrada.\n\nA segunda pressão é o clima. O El Niño pode afectar 5,3 milhões de pessoas, com três distritos no nível máximo de vulnerabilidade e insegurança alimentar 55% mais alta.\n\nNas contas públicas, o Tribunal Administrativo entregou ao Parlamento o parecer sobre a Conta Geral do Estado de 2025, que segundo o Club of Mozambique confirma uma contracção de 0,52%. O Governo alterou ainda regulamentos fiscais, incluindo o do imposto dos pequenos contribuintes.\n\nO sinal positivo é a confiança empresarial, que subiu pela primeira vez em quase dois anos, embora a taxa de referência continue em 15,5%. A 4 de Outubro, o Presidente Daniel Chapo ligou a paz ao emprego e à produção.\n\nDirecção\n\nPara as PMEs: rever custos de transporte e ler o novo regulamento fiscal. Para investidores: esperar por medidas concretas de industrialização antes de comprometer capital. Para o Governo e parceiros: concentrar a resposta nos três distritos mais vulneráveis.\n\nOs discursos sobre emprego só pesam quando chegam ao orçamento e ao crédito. Até lá, o petróleo e a seca decidem o custo de vida.\n\n#Moçambique #Economia #DirecçõesDaSemana",
+    "instagram": "O petróleo acima de 100 dólares e o El Niño pressionam famílias e contas públicas. A Conta Geral de 2025 chegou ao Parlamento e a confiança dos empresários recupera. Veja quem ganha, quem perde e o que fazer.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Direcções da Semana, 2026-S41\n\n## Resumo da semana\nO petróleo acima de 100 dólares e o El Niño são as duas pressões desta semana sobre as famílias e as contas públicas. Em sentido contrário, a confiança dos empresários recuperou pela primeira vez em quase dois anos e o Presidente Daniel Chapo fez do emprego a prioridade da paz. Falta ver se o discurso se traduz em medidas. A edição é melhorada todos os dias.\n\n## Mundo\nO Brent negociava a cerca de 107,8 dólares por barril no início da semana e recuou a 5 de Outubro para 101,31 dólares, ainda 54,7% acima de há um ano. Pesa a tensão entre os EUA e o Irão e o Estreito de Ormuz, que o Irão mantém fechado enquanto Washington não aceitar as suas condições. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho. Segundo a Reuters, responsáveis de vários países africanos avisam que o petróleo caro pode parar ou inverter a descida dos juros no Gana, Quénia, Zâmbia e Nigéria. Os preços dos alimentos ainda estão estáveis, mas o gasóleo pesa no transporte por estrada.\n\n## Moçambique\nA 4 de Outubro, em Xai-Xai, no 34.º aniversário do Acordo Geral de Paz, o Presidente Daniel Chapo defendeu que o desenvolvimento económico é a nova fronteira da paz. Pediu emprego, produção e melhores condições de vida, e apontou a mineração, o petróleo e a industrialização como prioridades, além de respostas às aspirações da juventude.\n\nNo clima, o El Niño pode afectar 5,3 milhões de pessoas. Três distritos estão no nível máximo de vulnerabilidade, a insegurança alimentar subiu 55%, para 1,84 milhões de pessoas, e o custo para o Estado foi estimado em 267 milhões de euros. A relatora especial da ONU para os direitos humanos e as alterações climáticas concluiu a 2 de Outubro uma visita de duas semanas ao país.\n\nO Tribunal Administrativo enviou à Assembleia da República, a 30 de Setembro, o relatório e parecer sobre a Conta Geral do Estado de 2025, aprovado em plenário a 29. Segundo o Club of Mozambique, a conta confirma uma contracção económica de 0,52%. O Governo também aprovou alterações a regulamentos fiscais, incluindo o do Imposto Simplificado para Pequenos Contribuintes.\n\nNa economia, a confiança dos empresários subiu e a taxa de referência manteve-se em 15,50%. Esta informação vem de uma fonte de confiança baixa e deve ser confirmada.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.) | Expectativas da juventude por cumprir (int.) |\n| Económica | Confiança empresarial a recuperar (int.) | Petróleo acima de 100 dólares (ext.); juros altos, referência a 15,5% (int.) |\n| Social | Agenda de emprego para jovens (int.) | Insegurança alimentar em alta (int.) |\n| Tecnológica | Industrialização como prioridade declarada (int.) | Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.) | El Niño: 5,3 milhões em risco (ext.); chuva forte prevista em Sofala (ext.) |\n| Legal | Visita da ONU sobre clima e direitos (ext.); regulamento fiscal para pequenos contribuintes (int.) | Recomendações da ONU sem prazo (int.); economia contraiu 0,52% em 2025 (int.) |\n\n## Quem ganha, quem perde\nGoverno: perde, porque a seca e o combustível aumentam a despesa.\nClasse baixa: perde muito, com comida e transporte mais caros.\nClasse média: perde, com transporte caro e juros altos.\nClasse alta e investidores: ganha, com a confiança empresarial a recuperar.\nONGs e parceiros: ganha em atenção e procura de apoio, por causa do clima e da crise alimentar.\nMacroeconomia: perde, com petróleo caro, o custo do El Niño e a contracção de 0,52% em 2025.\nPMEs: perde, com crédito caro e custos de transporte.\nRamos de negócio: efeito misto. Ganham energia, mineração e petróleo. Perdem transportes, agricultura e comércio de alimentos.\n\n## Direcção\nGoverno: preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\nFamílias: guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\nPMEs: rever custos de transporte e negociar prazos com fornecedores antes do fim do ano.\nONGs e parceiros: concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\nInvestidores: acompanhar medidas concretas de industrialização antes de comprometer capital.\n\n## Sinal a acompanhar\nO preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis e o debate da Conta Geral do Estado no Parlamento.\n\n## Fontes\n- AIM: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/\n- IOL: https://iol.co.za/business/economy/2026-09-29-cloned-fuel-price-pain-deepens-as-projected-october-petrol-and-diesel-hikes-grow/\n- Reuters, via BusinessDay: https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- Observador, com Lusa: https://observador.pt/2026/09/22/el-nino-pode-afetar-53-milhoes-de-pessoas-e-custar-267-milhoes-de-euros-ao-estado-mocambicano/\n- OHCHR: https://www.ohchr.org/en/statements-and-speeches/2026/10/end-mission-statement-country-visit-mozambique\n- AIM, Conta Geral do Estado: https://aimnews.org/2026/10/01/tribunal-administrativo-submete-a-ar-parecer-sobre-conta-geral-do-estado/\n- AIM, regulamentos fiscais: https://aimnews.org/2026/09/29/governo-introduz-alteracoes-nos-regulamentos-fiscais-para-reforcar-eficiencia-tributaria/\n- Trading Economics: https://tradingeconomics.com/mozambique/news",
     "verificar": [
-      "Brent a 107,8 dólares e subida dos combustíveis na África do Sul a 7 de Outubro",
-      "El Niño: 5,3 milhões, 1,84 milhões, 55% e 267 milhões de euros (notícias de 11 e 22 de Setembro)",
-      "Taxa de referência de 15,50% e recuperação da confiança empresarial (fonte de confiança baixa)",
-      "34.º aniversário do Acordo Geral de Paz"
+      "Brent a 101,31 dólares a 5 de Outubro (Trading Economics) contra 107,8 dólares citados antes",
+      "Contracção de 0,52% em 2025 (Club of Mozambique, via resumo de pesquisa)",
+      "Conteúdo das alterações ao regulamento do imposto simplificado",
+      "El Niño: 5,3 milhões, 1,84 milhões, 55% e 267 milhões de euros",
+      "Taxa de referência de 15,50% e recuperação da confiança empresarial (fonte de confiança baixa)"
     ],
     "duvidas": [],
     "conformidade": [
@@ -401,6 +462,6 @@
     ]
   },
   "falhas_conformidade": [],
-  "proximo_n": 7,
+  "proximo_n": 10,
   "incluir_itens": []
 }
