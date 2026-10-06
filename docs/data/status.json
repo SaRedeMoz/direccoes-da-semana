@@ -6,9 +6,9 @@
       "em": "2026-10-06T03:40:10.780Z"
     },
     "analise": {
-      "estado": "parado",
-      "msg": "À espera da sua vez",
-      "em": "2026-10-06T03:39:12.742Z"
+      "estado": "a trabalhar",
+      "msg": "Actualizar PESTAL e impacto",
+      "em": "2026-10-06T03:40:12.036Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-06T03:40:12.036Z",
+      "agente": "analise",
+      "msg": "Actualizar PESTAL e impacto"
+    },
     {
       "em": "2026-10-06T03:40:10.780Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-03T02:41:25.985Z",
       "agente": "fontes",
       "msg": "A começar a pesquisa do dia…"
-    },
-    {
-      "em": "2026-10-02T02:58:00.865Z",
-      "agente": "aprovacao",
-      "msg": "1 dúvida(s) para si"
     }
   ],
-  "actualizado": "2026-10-06T03:40:10.780Z",
+  "actualizado": "2026-10-06T03:40:12.036Z",
   "semana": "2026-S41",
   "dia": "2026-10-06",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
