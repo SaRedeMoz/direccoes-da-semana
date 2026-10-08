@@ -14,7 +14,7 @@
     },
     {
       "titulo": "Petróleo perto de 108 dólares e combustíveis em máximos na região",
-      "resumo": "O Brent negoceia a cerca de 107,8 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho. Actualização (2026-10-06): A 5 de Outubro o Brent recuou para 101,31 dólares (Trading Economics), menos 0,92% num dia e 54,7% acima de há um ano. O Irão mantém o Estreito de Ormuz fechado enquanto Washington não aceitar as suas condições.",
+      "resumo": "O Brent negoceia a cerca de 107,8 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho. Actualização (2026-10-06): A 5 de Outubro o Brent recuou para 101,31 dólares (Trading Economics), menos 0,92% num dia e 54,7% acima de há um ano. O Irão mantém o Estreito de Ormuz fechado enquanto Washington não aceitar as suas condições. Actualização (2026-10-08): Não encontrei cotação do Brent de 7 ou 8 de Outubro. Agregadores indicam que os preços internos em Moçambique estão inalterados desde o aumento de 9 de Maio, com a gasolina a cerca de 93,8 meticais e o gasóleo a cerca de 116 por litro (confiança baixa).",
       "ambito": "mundo",
       "dimensao": "Económica",
       "fonte": "IOL / AutoTrader",
@@ -134,7 +134,7 @@
     },
     {
       "titulo": "Chapo inicia visita oficial ao Congo",
-      "resumo": "O Presidente Daniel Chapo começou a 5 de Outubro uma visita oficial ao Congo. No dia seguinte, a Primeira-Dama defendeu a cooperação médica entre os dois países.",
+      "resumo": "O Presidente Daniel Chapo começou a 5 de Outubro uma visita oficial ao Congo. No dia seguinte, a Primeira-Dama defendeu a cooperação médica entre os dois países. Actualização (2026-10-08): A AIM de 7 de Outubro diz que o Presidente concluiu a visita ao Congo com um balanço positivo.",
       "ambito": "nacional",
       "dimensao": "Política",
       "fonte": "AIM",
@@ -155,6 +155,66 @@
       "confianca": "media",
       "n": 13,
       "recolhida": "2026-10-07"
+    },
+    {
+      "titulo": "Crescimento do PIB revisto em baixa para 0,9%",
+      "resumo": "A AIM informa que o crescimento do PIB de Moçambique foi revisto em baixa para 0,9%, contra os 2,8% que o Governo projectava. Cheias, choques económicos e outros factores continuam a pressionar a actividade.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/10/07/crescimento-do-pib-revisto-em-baixa-para-09-por-cento/",
+      "data": "2026-10-07",
+      "confianca": "media",
+      "n": 14,
+      "recolhida": "2026-10-08"
+    },
+    {
+      "titulo": "Banco de Moçambique e CTA criam mecanismo para dar crédito às empresas",
+      "resumo": "Num encontro a 7 de Outubro, o banco central anunciou um regime de 18 meses que deixa os bancos deduzir das reservas obrigatórias o valor de novos créditos a empresas que substituam importações ou aumentem exportações. A CTA aceitou a medida, mas quer critérios claros e acesso efectivo das PMEs.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/10/07/bm-e-cta-retomam-dialogo-colocando-credito-as-empresas-no-topo-da-agenda/",
+      "data": "2026-10-07",
+      "confianca": "alta",
+      "n": 15,
+      "recolhida": "2026-10-08"
+    },
+    {
+      "titulo": "Receitas do gás do Rovuma somam 252,8 milhões de dólares em 2022-2025",
+      "resumo": "Segundo Estrela Charles, do Comité de Supervisão do Fundo Soberano, o país arrecadou cerca de 252,8 milhões de dólares com o gás do Rovuma entre 2022 e 2025, sobretudo do projecto Coral Sul. Os dados foram dados numa conferência na UP-Maputo.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/10/07/gas-de-rovuma-receitas-2022-25-mocambique-arrecada-aproximadamente-253-milhoes-de-dolares/",
+      "data": "2026-10-07",
+      "confianca": "alta",
+      "n": 16,
+      "recolhida": "2026-10-08"
+    },
+    {
+      "titulo": "Governo defende responsabilização criminal no contrabando de caju",
+      "resumo": "O Governo quer que os contrabandistas de castanha de caju respondam criminalmente. A AIM publicou a notícia a 7 de Outubro.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/10/07/contrabando-da-castanha-de-caju-governo-defende-responsabilizacao-criminal/",
+      "data": "2026-10-07",
+      "confianca": "media",
+      "n": 17,
+      "recolhida": "2026-10-08"
+    },
+    {
+      "titulo": "Bélgica garante apoio a Moçambique para financiamento climático",
+      "resumo": "O Governo da Bélgica comprometeu-se a apoiar Moçambique na captação de financiamento para o clima, segundo a AIM de 7 de Outubro.",
+      "ambito": "nacional",
+      "dimensao": "Ambiental",
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/10/07/mocambique-governo-da-belgica-garante-apoio-a-mobilizacao-de-financiamento-climatico/",
+      "data": "2026-10-07",
+      "confianca": "media",
+      "n": 18,
+      "recolhida": "2026-10-08"
     }
   ],
   "processados": [
@@ -165,9 +225,10 @@
     "/aprovado",
     "aprovado"
   ],
-  "versao": 4,
+  "versao": 5,
   "lacunas": [
-    "Preços internos dos combustíveis em Outubro",
+    "Cotação do Brent de 7 e 8 de Outubro",
+    "Preços internos dos combustíveis em Outubro (sem comunicado oficial encontrado)",
     "Câmbio e divisas",
     "Segurança em Cabo Delgado (sem notícia confirmada de Outubro de 2026)"
   ],
@@ -178,9 +239,9 @@
         "Petróleo caro ameaça travar a descida dos juros em África"
       ],
       "nacional": [
-        "Moçambique e Tanzânia reúnem comissão de defesa e segurança",
-        "Governo quer incubar mil empreendedores do agronegócio por ano",
-        "Chapo põe o desenvolvimento económico como nova fronteira da paz",
+        "Crescimento do PIB revisto em baixa para 0,9%",
+        "Banco de Moçambique abre crédito às empresas que exportam",
+        "Receitas do gás do Rovuma somam 252,8 milhões de dólares",
         "El Niño pode afectar 5,3 milhões de pessoas"
       ]
     },
@@ -216,6 +277,10 @@
         "dimensao": "Económica",
         "oportunidades": [
           {
+            "texto": "Crédito às empresas que exportam",
+            "origem": "interna"
+          },
+          {
             "texto": "Confiança empresarial a recuperar",
             "origem": "interna"
           },
@@ -230,13 +295,17 @@
             "origem": "externa"
           },
           {
+            "texto": "PIB revisto para 0,9%",
+            "origem": "interna"
+          },
+          {
             "texto": "Juros altos, referência a 15,5%",
             "origem": "interna"
           }
         ],
-        "peso_oportunidade": 1,
+        "peso_oportunidade": 2,
         "peso_ameaca": 3,
-        "principal_oportunidade": "Confiança empresarial a recuperar",
+        "principal_oportunidade": "Crédito às empresas que exportam",
         "principal_ameaca": "Petróleo acima de 100 dólares"
       },
       {
@@ -283,6 +352,10 @@
           {
             "texto": "Atenção internacional ao clima",
             "origem": "externa"
+          },
+          {
+            "texto": "Apoio belga a financiamento climático",
+            "origem": "externa"
           }
         ],
         "ameacas": [
@@ -309,6 +382,10 @@
           },
           {
             "texto": "Regulamento fiscal para pequenos contribuintes",
+            "origem": "interna"
+          },
+          {
+            "texto": "Responsabilização criminal no caju",
             "origem": "interna"
           }
         ],
@@ -355,7 +432,7 @@
         "saldo": 1,
         "porque": "confiança empresarial a recuperar",
         "efeito": "positivo",
-        "explicacao": "A recuperação da confiança e as prioridades em mineração e petróleo dão sinais favoráveis."
+        "explicacao": "A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco."
       },
       {
         "grupo": "ONGs e parceiros",
@@ -367,16 +444,16 @@
       {
         "grupo": "Macroeconomia",
         "saldo": -1,
-        "porque": "petróleo caro e custo do El Niño",
+        "porque": "PIB revisto em baixa e petróleo caro",
         "efeito": "negativo",
-        "explicacao": "Combustível mais caro e a seca pesam nas contas externas e públicas, e a Conta Geral de 2025 mostra uma contracção de 0,52%."
+        "explicacao": "O crescimento foi revisto para 0,9%, contra 2,8% projectados pelo Governo. O petróleo caro e o custo do El Niño agravam as contas, e a Conta Geral de 2025 mostra uma contracção de 0,52%. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno."
       },
       {
         "grupo": "PMEs",
         "saldo": -1,
         "porque": "crédito caro e custos de transporte",
         "efeito": "negativo",
-        "explicacao": "Os juros altos e o gasóleo apertam as margens. O novo regulamento do imposto simplificado pode mudar a carga fiscal dos pequenos negócios, por confirmar. O programa de incubação do agronegócio abre apoio a pequenos empresários do campo, com o GAPI como financiador."
+        "explicacao": "Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar."
       },
       {
         "grupo": "Ramos de negócio",
@@ -397,7 +474,7 @@
       },
       {
         "publico": "PMEs",
-        "accao": "Rever custos de transporte e, no agronegócio, acompanhar o programa de incubação e o apoio do GAPI."
+        "accao": "Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Rever também custos de transporte e acompanhar a incubação no agronegócio."
       },
       {
         "publico": "ONGs e parceiros",
@@ -408,9 +485,9 @@
         "accao": "Acompanhar medidas concretas de industrialização antes de comprometer capital."
       }
     ],
-    "sinal": "Preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento e as conclusões da reunião ministerial Moçambique e Tanzânia, a 7 de Outubro.",
-    "sintese": "O petróleo acima de 100 dólares e o El Niño continuam a ser as duas pressões da semana sobre as famílias e as contas públicas. A Conta Geral de 2025 confirma uma economia que encolheu 0,52%. Em sentido contrário, a confiança dos empresários recuperou e o Governo anunciou um programa para incubar mil empreendedores do agronegócio por ano.",
-    "o_que_mudou_hoje": "Moçambique e Tanzânia abriram em Dar es Salaam a comissão conjunta de defesa e segurança, com reunião ministerial a 7 de Outubro. O Governo anunciou a incubação de mil empreendedores do agronegócio por ano, e a Ordem dos Advogados avisou que a paz exige instituições credíveis."
+    "sinal": "Preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento e a data de início e os critérios de acesso ao novo regime de crédito do Banco de Moçambique.",
+    "sintese": "O petróleo acima de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, o Banco de Moçambique anunciou crédito para empresas que exportam ou substituem importações, e a confiança dos empresários recuperou. O que decide o efeito é saber se as PMEs conseguem aceder a esse crédito.",
+    "o_que_mudou_hoje": "A AIM noticiou a revisão do crescimento do PIB para 0,9%, contra 2,8% projectados. O Banco de Moçambique e a CTA retomaram o diálogo e o banco central apresentou um regime de 18 meses para dar crédito a empresas que exportam ou substituem importações. O Presidente Chapo terminou a visita ao Congo."
   },
   "design": {
     "slides": [
@@ -427,42 +504,36 @@
         "imagem_termos": "oil tanker"
       },
       {
+        "titulo": "PIB revisto em baixa para 0,9%",
+        "texto": "O Governo projectava 2,8%. Cheias e choques económicos continuam a pesar na actividade, segundo a AIM.",
+        "tom": "alerta",
+        "imagem_termos": "Maputo city skyline"
+      },
+      {
+        "titulo": "Crédito para quem exporta",
+        "texto": "O Banco de Moçambique deixa os bancos deduzir das reservas obrigatórias os novos créditos a empresas que exportam ou substituem importações. O regime dura 18 meses.",
+        "tom": "oportunidade",
+        "imagem_termos": "Maputo port containers"
+      },
+      {
         "titulo": "El Niño ameaça 5,3 milhões",
         "texto": "Três distritos estão no nível máximo de vulnerabilidade e a insegurança alimentar subiu 55%.",
         "tom": "alerta",
         "imagem_termos": "drought maize Africa"
       },
       {
-        "titulo": "Confiança empresarial recupera",
-        "texto": "Pela primeira vez em quase dois anos, a confiança dos empresários subiu. A taxa de referência mantém-se em 15,5%.",
-        "tom": "oportunidade",
-        "imagem_termos": "Maputo city skyline"
-      },
-      {
-        "titulo": "Conta Geral de 2025 está no Parlamento",
-        "texto": "O Tribunal Administrativo enviou o parecer à Assembleia da República. Segundo o Club of Mozambique, a economia contraiu 0,52% em 2025.",
-        "tom": "neutro",
-        "imagem_termos": "Maputo City Hall"
-      },
-      {
         "titulo": "Mil empreendedores agrícolas por ano",
         "texto": "O Governo quer incubar pelo menos mil empreendedores do agronegócio por ano, com apoio financeiro do GAPI.",
         "tom": "oportunidade",
         "imagem_termos": "farm Mozambique"
-      },
-      {
-        "titulo": "Defesa e segurança com a Tanzânia",
-        "texto": "Em Dar es Salaam, os dois países abriram a comissão conjunta de defesa. A reunião ministerial está marcada para 7 de Outubro.",
-        "tom": "neutro",
-        "imagem_termos": "Dar es Salaam"
       }
     ],
     "destaques_capa": [
-      "Petróleo acima de 100 dólares",
-      "El Niño ameaça 5,3 milhões",
-      "Mil empreendedores agrícolas por ano"
+      "PIB revisto em baixa para 0,9%",
+      "Crédito para quem exporta",
+      "Petróleo acima de 100 dólares"
     ],
-    "legenda": "O petróleo acima de 100 dólares e o El Niño pressionam famílias e contas públicas. Em sentido contrário, a confiança dos empresários recupera e o Governo quer incubar mil empreendedores do agronegócio por ano. Veja quem ganha, quem perde e o que fazer.",
+    "legenda": "O crescimento foi revisto em baixa para 0,9% e o petróleo continua acima de 100 dólares. Em sentido contrário, o Banco de Moçambique abre crédito às empresas que exportam ou substituem importações. Veja quem ganha, quem perde e o que fazer.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesDaSemana"
@@ -470,62 +541,58 @@
     "fontes_usadas": [
       2,
       4,
-      6,
-      7,
-      10,
-      11
+      11,
+      14,
+      15
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\nO petróleo Brent recuou a 5 de Outubro para cerca de 101 dólares por barril, mas continua 54% acima de há um ano. O Irão diz que o Estreito de Ormuz fica fechado enquanto Washington não aceitar as suas condições. A Reuters relata avisos de que o petróleo caro pode travar a descida dos juros em vários países africanos.\n\n*MOÇAMBIQUE*\nEm Dar es Salaam, Moçambique e Tanzânia abriram a 6 de Outubro a comissão conjunta de defesa e segurança, com reunião ministerial marcada para 7 de Outubro.\n\nO Governo quer incubar pelo menos mil empreendedores do agronegócio por ano, com apoio financeiro do GAPI.\n\nO Tribunal Administrativo enviou ao Parlamento o parecer sobre a Conta Geral do Estado de 2025, que segundo o Club of Mozambique confirma uma contracção de 0,52% da economia. O El Niño pode afectar 5,3 milhões de pessoas.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem sobretudo as famílias de baixa renda, com comida e transporte mais caros. Também perdem o Governo, a classe média, as PMEs e a macroeconomia. Ganham investidores, ONGs e parceiros, e os ramos de energia e mineração.\n\n*DIRECÇÃO*\nFamílias: guardar reservas de alimentos básicos. PMEs: rever custos de transporte. Quem trabalha no agronegócio: acompanhar o programa de incubação. Governo e parceiros: dar prioridade aos três distritos mais vulneráveis.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o petróleo, os preços internos dos combustíveis, o debate da Conta Geral no Parlamento e a reunião ministerial com a Tanzânia.\n\nSe esta leitura foi útil, partilhe com quem decide em casa ou na empresa.",
-    "linkedin": "Esta semana, duas pressões e dois sinais positivos marcam a economia moçambicana.\n\nA primeira pressão vem de fora. O petróleo Brent recuou a 5 de Outubro para cerca de 101 dólares por barril, mas continua mais de 50% acima de há um ano. O Irão mantém o Estreito de Ormuz fechado enquanto Washington não aceitar as suas condições. A Reuters relata avisos de que o petróleo caro pode parar a descida dos juros no Gana, Quénia, Zâmbia e Nigéria, e o gasóleo pesa no transporte de alimentos por estrada.\n\nA segunda é o clima. O El Niño pode afectar 5,3 milhões de pessoas, com três distritos no nível máximo de vulnerabilidade e insegurança alimentar 55% mais alta. Nas contas públicas, o Tribunal Administrativo entregou ao Parlamento o parecer sobre a Conta Geral do Estado de 2025, que segundo o Club of Mozambique confirma uma contracção de 0,52%.\n\nOs sinais positivos: a confiança empresarial subiu pela primeira vez em quase dois anos, embora a taxa de referência continue em 15,5%, e o Governo quer incubar pelo menos mil empreendedores do agronegócio por ano, com o GAPI a financiar. Em Dar es Salaam, Moçambique e Tanzânia abriram a comissão conjunta de defesa e segurança.\n\nDirecção\n\nPara as PMEs: rever custos de transporte e, no agronegócio, acompanhar o programa de incubação. Para investidores: esperar por medidas concretas de industrialização antes de comprometer capital. Para o Governo e parceiros: concentrar a resposta nos três distritos mais vulneráveis.\n\nO programa agrícola só terá peso se chegar ao crédito e ao terreno. Até lá, o petróleo e a seca decidem o custo de vida.\n\n#Moçambique #Economia #DirecçõesDaSemana",
-    "instagram": "O petróleo acima de 100 dólares e o El Niño pressionam famílias e contas públicas. Em sentido contrário, a confiança dos empresários recupera e o Governo quer incubar mil empreendedores do agronegócio por ano. Veja quem ganha, quem perde e o que fazer.\n\n#Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, 2026-S41\n\n## Resumo da semana\nO petróleo acima de 100 dólares e o El Niño são as duas pressões desta semana sobre as famílias e as contas públicas. Em sentido contrário, a confiança dos empresários recuperou pela primeira vez em quase dois anos, o Presidente Daniel Chapo fez do emprego a prioridade da paz e o Governo anunciou um programa de incubação para o agronegócio. Falta ver se o discurso se traduz em medidas. A edição é melhorada todos os dias.\n\n## Mundo\nO Brent negociava a cerca de 107,8 dólares por barril no início da semana e recuou a 5 de Outubro para 101,31 dólares, ainda 54,7% acima de há um ano. Pesa a tensão entre os EUA e o Irão e o Estreito de Ormuz, que o Irão mantém fechado enquanto Washington não aceitar as suas condições. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho. Segundo a Reuters, responsáveis de vários países africanos avisam que o petróleo caro pode parar ou inverter a descida dos juros no Gana, Quénia, Zâmbia e Nigéria. Os preços dos alimentos ainda estão estáveis, mas o gasóleo pesa no transporte por estrada.\n\n## Moçambique\nA 4 de Outubro, em Xai-Xai, no 34.º aniversário do Acordo Geral de Paz, o Presidente Daniel Chapo defendeu que o desenvolvimento económico é a nova fronteira da paz. Pediu emprego, produção e melhores condições de vida, e apontou a mineração, o petróleo e a industrialização como prioridades, além de respostas às aspirações da juventude.\n\nA 5 de Outubro, o Presidente iniciou uma visita oficial ao Congo. A 6 de Outubro, peritos de Moçambique e Tanzânia abriram em Dar es Salaam a VII Sessão da Comissão Conjunta Permanente de Defesa e Segurança, para avaliar decisões anteriores e definir respostas conjuntas aos desafios da região, com reunião ministerial prevista para 7 de Outubro. No mesmo dia, o Governo anunciou que quer incubar pelo menos mil empreendedores do agronegócio por ano, num programa coordenado pelo Ministério da Agricultura, com apoio financeiro do GAPI, que já financiou mais de 400 operações no primeiro ano de cooperação. A Ordem dos Advogados avisou que a paz exige instituições credíveis e respeito pela Constituição.\n\nNo clima, o El Niño pode afectar 5,3 milhões de pessoas. Três distritos estão no nível máximo de vulnerabilidade, a insegurança alimentar subiu 55%, para 1,84 milhões de pessoas, e o custo para o Estado foi estimado em 267 milhões de euros. A relatora especial da ONU para os direitos humanos e as alterações climáticas concluiu a 2 de Outubro uma visita de duas semanas ao país.\n\nO Tribunal Administrativo enviou à Assembleia da República, a 30 de Setembro, o relatório e parecer sobre a Conta Geral do Estado de 2025, aprovado em plenário a 29. Segundo o Club of Mozambique, a conta confirma uma contracção económica de 0,52%. O Governo também aprovou alterações a regulamentos fiscais, incluindo o do Imposto Simplificado para Pequenos Contribuintes.\n\nNa economia, a confiança dos empresários subiu e a taxa de referência manteve-se em 15,50%. Esta informação vem de uma fonte de confiança baixa e deve ser confirmada.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); paz exige instituições credíveis (int.) |\n| Económica | Confiança empresarial a recuperar (int.); incubação de mil agro-empresários (int.) | Petróleo acima de 100 dólares (ext.); juros altos, referência a 15,5% (int.) |\n| Social | Agenda de emprego para jovens (int.) | Insegurança alimentar em alta (int.) |\n| Tecnológica | Industrialização como prioridade declarada (int.) | Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.) | El Niño: 5,3 milhões em risco (ext.); chuva forte prevista em Sofala (ext.) |\n| Legal | Visita da ONU sobre clima e direitos (ext.); regulamento fiscal para pequenos contribuintes (int.) | Recomendações da ONU sem prazo (int.); economia contraiu 0,52% em 2025 (int.) |\n\n## Quem ganha, quem perde\nGoverno: perde, porque a seca e o combustível aumentam a despesa.\nClasse baixa: perde muito, com comida e transporte mais caros.\nClasse média: perde, com transporte caro e juros altos.\nClasse alta e investidores: ganha, com a confiança empresarial a recuperar.\nONGs e parceiros: ganha em atenção e procura de apoio, por causa do clima e da crise alimentar.\nMacroeconomia: perde, com petróleo caro, o custo do El Niño e a contracção de 0,52% em 2025.\nPMEs: perde, com crédito caro e custos de transporte, embora o agronegócio possa ganhar com a incubação.\nRamos de negócio: efeito misto. Ganham energia, mineração e petróleo. Perdem transportes, agricultura e comércio de alimentos.\n\n## Direcção\nGoverno: preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\nFamílias: guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\nPMEs: rever custos de transporte e, no agronegócio, acompanhar o programa de incubação e o apoio do GAPI.\nONGs e parceiros: concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\nInvestidores: acompanhar medidas concretas de industrialização antes de comprometer capital.\n\n## Sinal a acompanhar\nO preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis o debate da Conta Geral do Estado no Parlamento e as conclusões da reunião ministerial entre Moçambique e Tanzânia, a 7 de Outubro.\n\n## Fontes\n- AIM: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/\n- IOL: https://iol.co.za/business/economy/2026-09-29-cloned-fuel-price-pain-deepens-as-projected-october-petrol-and-diesel-hikes-grow/\n- Reuters, via BusinessDay: https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- Observador, com Lusa: https://observador.pt/2026/09/22/el-nino-pode-afetar-53-milhoes-de-pessoas-e-custar-267-milhoes-de-euros-ao-estado-mocambicano/\n- OHCHR: https://www.ohchr.org/en/statements-and-speeches/2026/10/end-mission-statement-country-visit-mozambique\n- AIM, Conta Geral do Estado: https://aimnews.org/2026/10/01/tribunal-administrativo-submete-a-ar-parecer-sobre-conta-geral-do-estado/\n- AIM, regulamentos fiscais: https://aimnews.org/2026/09/29/governo-introduz-alteracoes-nos-regulamentos-fiscais-para-reforcar-eficiencia-tributaria/\n- AIM, comissão com a Tanzânia: https://aimnews.org/2026/10/06/mocambique-e-tanzania-procuram-respostas-conjuntas-para-os-desafios-de-seguranca/\n- AIM, incubação no agronegócio: https://aimnews.org/2026/10/06/56924/\n- AIM, visita ao Congo: https://aimnews.org/2026/10/05/chapo-inicia-visita-oficial-ao-congo/\n- AIM, Ordem dos Advogados: https://aimnews.org/2026/10/05/oam-adverte-que-a-paz-exige-instituicoes-crediveis-e-respeito-pela-constituicao/\n- Trading Economics: https://tradingeconomics.com/mozambique/news",
+    "whatsapp": "*MUNDO*\nO petróleo Brent recuou a 5 de Outubro para cerca de 101 dólares por barril, mas continua 54% acima de há um ano. O Irão diz que o Estreito de Ormuz fica fechado enquanto Washington não aceitar as suas condições.\n\n*MOÇAMBIQUE*\nA AIM noticiou a 7 de Outubro que o crescimento do PIB foi revisto em baixa para 0,9%, contra 2,8% projectados pelo Governo. Cheias e choques económicos continuam a pesar.\n\nNo mesmo dia, o Banco de Moçambique apresentou à CTA um regime de 18 meses que deixa os bancos deduzir das reservas obrigatórias os novos créditos a empresas que exportam ou substituem importações. A CTA aceita a medida, mas quer critérios claros e acesso real das PMEs.\n\nO Governo quer ainda incubar mil empreendedores do agronegócio por ano, e o El Niño pode afectar 5,3 milhões de pessoas.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem sobretudo as famílias de baixa renda, com comida e transporte mais caros. Também perdem o Governo, a classe média, as PMEs e a macroeconomia. Ganham investidores, ONGs e parceiros. \n\n*DIRECÇÃO*\nFamílias: guardar reservas de alimentos básicos. PMEs que exportam: perguntar ao banco pelo novo regime de crédito. Governo e parceiros: dar prioridade aos três distritos mais vulneráveis ao El Niño.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o petróleo, os combustíveis e os critérios do novo crédito.\n\nSe esta leitura foi útil, partilhe com quem decide em casa ou na empresa.",
+    "linkedin": "O crescimento económico de Moçambique foi revisto em baixa para 0,9%, contra 2,8% projectados pelo Governo, segundo a AIM de 7 de Outubro. Cheias e choques económicos continuam a pesar.\n\nDe fora vem outra pressão. O Brent recuou a 5 de Outubro para cerca de 101 dólares, mais de 50% acima de há um ano, e o Irão mantém o Estreito de Ormuz fechado. A Reuters relata que o petróleo caro pode travar a descida dos juros em vários países africanos. Em casa, o El Niño pode afectar 5,3 milhões de pessoas e a Conta Geral do Estado de 2025 confirma, segundo o Club of Mozambique, uma contracção de 0,52%.\n\nHá uma resposta concreta. O Banco de Moçambique apresentou à CTA um regime de 18 meses que deixa os bancos deduzir das reservas obrigatórias o valor de novos créditos a empresas que substituam importações ou aumentem exportações. A CTA aceita a medida, mas condiciona o efeito a critérios claros e ao acesso das PMEs.\n\nDirecção\n\nPara as PMEs que exportam ou substituem importações: perguntar ao banco como aceder ao regime e rever custos de transporte. Para investidores: esperar por medidas concretas de industrialização antes de comprometer capital. Para o Governo e parceiros: concentrar a resposta ao El Niño nos três distritos mais vulneráveis.\n\nO crédito novo só ajuda se chegar às PMEs. Os critérios de acesso, ainda por publicar, dirão quanto vale a medida.\n\n#Moçambique #Economia #DirecçõesDaSemana",
+    "instagram": "O crescimento foi revisto em baixa para 0,9% e o petróleo continua acima de 100 dólares. Em sentido contrário, o Banco de Moçambique abre crédito às empresas que exportam ou substituem importações. Veja quem ganha, quem perde e o que fazer.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Direcções da Semana, 2026-S41\n\n## Resumo da semana\nO petróleo acima de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, o Banco de Moçambique anunciou crédito para empresas que exportam ou substituem importações, e a confiança dos empresários recuperou. O que decide o efeito é saber se as PMEs conseguem aceder a esse crédito. A edição é melhorada todos os dias.\n\n## Mundo\nO Brent negociava a cerca de 107,8 dólares por barril no início da semana e recuou a 5 de Outubro para 101,31 dólares, ainda 54,7% acima de há um ano. Pesa a tensão entre os EUA e o Irão e o Estreito de Ormuz, que o Irão mantém fechado enquanto Washington não aceitar as suas condições. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro. Segundo a Reuters, responsáveis de vários países africanos avisam que o petróleo caro pode parar ou inverter a descida dos juros no Gana, Quénia, Zâmbia e Nigéria. Não encontrei cotação do Brent de 7 ou 8 de Outubro.\n\n## Moçambique\nA 4 de Outubro, em Xai-Xai, o Presidente Daniel Chapo defendeu que o desenvolvimento económico é a nova fronteira da paz, com emprego, produção e atenção à juventude. A 7 de Outubro terminou a visita oficial ao Congo, que a AIM descreve como positiva.\n\nNa economia, a AIM noticiou a 7 de Outubro que o crescimento do PIB foi revisto em baixa para 0,9%, contra 2,8% projectados pelo Governo, por causa de cheias, choques económicos e outros factores. O texto não indica a que ano se refere o valor. No mesmo dia, o Banco de Moçambique e a CTA retomaram o diálogo. O banco central apresentou um regime de 18 meses que permite aos bancos deduzir das reservas obrigatórias o valor de novos créditos a empresas que substituam importações ou aumentem exportações. A CTA acolheu a medida, mas quer critérios de elegibilidade claros e acesso efectivo das PMEs. A confiança dos empresários subiu e a taxa de referência manteve-se em 15,50%, segundo uma fonte de confiança baixa.\n\nEntre 2022 e 2025, o país arrecadou cerca de 252,8 milhões de dólares com o gás do Rovuma, sobretudo do projecto Coral Sul, segundo Estrela Charles, do Comité de Supervisão do Fundo Soberano. O Governo quer incubar pelo menos mil empreendedores do agronegócio por ano, com apoio do GAPI.\n\nNo clima, o El Niño pode afectar 5,3 milhões de pessoas, com três distritos no nível máximo de vulnerabilidade e insegurança alimentar 55% mais alta. O Tribunal Administrativo enviou ao Parlamento o parecer sobre a Conta Geral do Estado de 2025, que segundo o Club of Mozambique confirma uma contracção de 0,52%. O Governo defende ainda responsabilização criminal no contrabando de caju.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); Paz exige instituições credíveis (int.) |\n| Económica | Crédito às empresas que exportam (int.); Confiança empresarial a recuperar (int.); Incubação de mil agro-empresários (int.) | Petróleo acima de 100 dólares (ext.); PIB revisto para 0,9% (int.); Juros altos, referência a 15,5% (int.) |\n| Social | Agenda de emprego para jovens (int.) | Insegurança alimentar em alta (int.) |\n| Tecnológica | Industrialização como prioridade declarada (int.) | Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Visita da ONU sobre clima e direitos (ext.); Regulamento fiscal para pequenos contribuintes (int.); Responsabilização criminal no caju (int.) | Recomendações da ONU sem prazo (int.); Economia contraiu 0,52% em 2025 (int.) |\n\n## Quem ganha, quem perde\nGoverno: perde. O El Niño foi estimado em 267 milhões de euros para o Estado, e o petróleo caro pressiona subsídios e transportes.\nClasse baixa: perde muito. A insegurança alimentar subiu 55% e o gasóleo encarece o transporte de alimentos.\nClasse média: perde. Combustível e crédito a 15,5% de referência reduzem o rendimento disponível.\nClasse alta e investidores: ganha. A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco.\nONGs e parceiros: ganha. A visita da ONU e a crise alimentar aumentam a atenção e o financiamento para respostas humanitárias.\nMacroeconomia: perde. O crescimento foi revisto para 0,9%, contra 2,8% projectados pelo Governo. O petróleo caro e o custo do El Niño agravam as contas, e a Conta Geral de 2025 mostra uma contracção de 0,52%. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno.\nPMEs: perde. Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar.\nRamos de negócio: efeito misto. Ganham energia, mineração e petróleo, com a agenda do Governo. Perdem transportes, agricultura e comércio de alimentos, expostos ao gasóleo e à seca.\n\n## Direcção\nGoverno: Preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\nPMEs: Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Rever também custos de transporte e acompanhar a incubação no agronegócio.\nONGs e parceiros: Concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\nInvestidores: Acompanhar medidas concretas de industrialização antes de comprometer capital.\n\n## Sinal a acompanhar\nPreço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento e a data de início e os critérios de acesso ao novo regime de crédito do Banco de Moçambique.\n\n## Fontes\n- AIM: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/\n- IOL / AutoTrader: https://iol.co.za/business/economy/2026-09-29-cloned-fuel-price-pain-deepens-as-projected-october-petrol-and-diesel-hikes-grow/\n- Reuters (via BusinessDay): https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- Observador / Lusa: https://observador.pt/2026/09/22/el-nino-pode-afetar-53-milhoes-de-pessoas-e-custar-267-milhoes-de-euros-ao-estado-mocambicano/\n- OHCHR: https://www.ohchr.org/en/statements-and-speeches/2026/10/end-mission-statement-country-visit-mozambique\n- Trading Economics: https://tradingeconomics.com/mozambique/news\n- AIM / Club of Mozambique: https://aimnews.org/2026/10/01/tribunal-administrativo-submete-a-ar-parecer-sobre-conta-geral-do-estado/\n- AIM: https://aimnews.org/2026/09/29/governo-introduz-alteracoes-nos-regulamentos-fiscais-para-reforcar-eficiencia-tributaria/\n- Rádio Moçambique: https://www.rm.co.mz/\n- AIM: https://aimnews.org/2026/10/06/mocambique-e-tanzania-procuram-respostas-conjuntas-para-os-desafios-de-seguranca/\n- AIM: https://aimnews.org/2026/10/06/56924/\n- AIM: https://aimnews.org/2026/10/05/chapo-inicia-visita-oficial-ao-congo/\n- AIM: https://aimnews.org/2026/10/05/oam-adverte-que-a-paz-exige-instituicoes-crediveis-e-respeito-pela-constituicao/\n- AIM, PIB: https://aimnews.org/2026/10/07/crescimento-do-pib-revisto-em-baixa-para-09-por-cento/\n- AIM, Banco de Moçambique e CTA: https://aimnews.org/2026/10/07/bm-e-cta-retomam-dialogo-colocando-credito-as-empresas-no-topo-da-agenda/\n- AIM, gás do Rovuma: https://aimnews.org/2026/10/07/gas-de-rovuma-receitas-2022-25-mocambique-arrecada-aproximadamente-253-milhoes-de-dolares/\n- AIM, reservas obrigatórias: https://aimnews.org/2026/10/07/banco-de-mocambique-partilha-informacao-sobre-novo-regime-de-reservas-obrigatorias/\n- AIM, visita ao Congo: https://aimnews.org/2026/10/07/chapo-termina-visita-ao-congo-com-desempenho-positivo/",
     "verificar": [
-      "Brent a 101,31 dólares a 5 de Outubro (Trading Economics) contra 107,8 dólares citados antes",
-      "Contracção de 0,52% em 2025 (Club of Mozambique, via resumo de pesquisa)",
-      "Conteúdo das alterações ao regulamento do imposto simplificado",
-      "El Niño: 5,3 milhões, 1,84 milhões, 55% e 267 milhões de euros",
-      "Taxa de referência de 15,50% e recuperação da confiança empresarial (fonte de confiança baixa)",
-      "Programa de incubação do agronegócio: lançamento em 2026, mil empreendedores por ano e papel do GAPI",
-      "Comissão conjunta com a Tanzânia: datas de 6 e 7 de Outubro",
-      "Visita do Presidente ao Congo e aviso da OAM: só havia o título e um resumo curto"
+      "PIB revisto para 0,9%: a AIM não diz o ano nem quem fez a revisão",
+      "Regime de reservas obrigatórias: data de início e critérios ainda não publicados",
+      "Preços internos dos combustíveis: valores vêm de agregadores, sem comunicado oficial",
+      "Taxa de referência de 15,5%: fonte de confiança baixa",
+      "Receitas do gás do Rovuma de 252,8 milhões de dólares, 2022 a 2025"
     ],
     "duvidas": [],
     "conformidade": [
       {
         "criterio": "Notícias do mundo",
         "ok": true,
-        "nota": "Petróleo e juros em África"
+        "nota": "presente na análise completa"
       },
       {
         "criterio": "Notícias de Moçambique",
         "ok": true,
-        "nota": "Chapo, El Niño, confiança empresarial"
+        "nota": "presente na análise completa"
       },
       {
         "criterio": "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
         "ok": true,
-        "nota": "6 dimensões marcadas"
+        "nota": "presente na análise completa"
       },
       {
         "criterio": "Impacto em cada um dos 8 grupos",
         "ok": true,
-        "nota": "8 grupos"
+        "nota": "presente na análise completa"
       },
       {
         "criterio": "Direcção prática por público",
         "ok": true,
-        "nota": "5 públicos"
+        "nota": "presente na análise completa"
       },
       {
         "criterio": "Sinal a acompanhar",
         "ok": true,
-        "nota": "Petróleo e preços internos"
+        "nota": "presente na análise completa"
       }
     ]
   },
   "falhas_conformidade": [],
-  "proximo_n": 14,
+  "proximo_n": 19,
   "incluir_itens": []
 }
