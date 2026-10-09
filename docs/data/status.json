@@ -6,9 +6,9 @@
       "em": "2026-10-09T03:28:28.472Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "integrar aviso sobre bloqueio de contas",
-      "em": "2026-10-09T03:28:48.485Z"
+      "estado": "pronto",
+      "msg": "ok",
+      "em": "2026-10-09T03:28:53.380Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-09T03:28:53.380Z",
+      "agente": "analise",
+      "msg": "ok"
+    },
     {
       "em": "2026-10-09T03:28:48.485Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-05T10:59:43.412Z",
       "agente": "editor",
       "msg": "Edição versão 2 montada"
-    },
-    {
-      "em": "2026-10-05T10:59:37.126Z",
-      "agente": "editor",
-      "msg": "textos revistos"
     }
   ],
-  "actualizado": "2026-10-09T03:28:48.485Z",
+  "actualizado": "2026-10-09T03:28:53.380Z",
   "semana": "2026-S41",
   "dia": "2026-10-09",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
