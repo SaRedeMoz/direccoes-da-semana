@@ -21,12 +21,17 @@
       "em": "2026-10-09T08:56:35.014Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-10-09T08:55:27.343Z"
+      "estado": "à espera",
+      "msg": "À espera da sua aprovação",
+      "em": "2026-10-09T08:57:19.905Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-09T08:57:19.905Z",
+      "agente": "aprovacao",
+      "msg": "À espera da sua aprovação"
+    },
     {
       "em": "2026-10-09T08:56:35.014Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-07T03:05:53.341Z",
       "agente": "fontes",
       "msg": "A começar a pesquisa do dia…"
-    },
-    {
-      "em": "2026-10-06T03:41:55.417Z",
-      "agente": "aprovacao",
-      "msg": "À espera da sua aprovação"
     }
   ],
-  "actualizado": "2026-10-09T08:56:35.014Z",
+  "actualizado": "2026-10-09T08:57:19.905Z",
   "semana": "2026-S41",
   "dia": "2026-10-09",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
