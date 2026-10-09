@@ -692,6 +692,8 @@
       "Foto: Companhia de Moçambique / Wikimedia Commons, Public domain",
       "Foto: Jcornelius / Wikimedia Commons, CC BY-SA 4.0"
     ],
-    "v": 1791536237013
+    "v": 1791536237013,
+    "reel": "data/imagens/reel.mp4",
+    "reel_duracao": 56
   }
 }
