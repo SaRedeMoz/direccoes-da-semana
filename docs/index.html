@@ -370,8 +370,9 @@ $("shareTxt").addEventListener("click",async()=>{
 async function paraJpeg(blob, nome, q){
   try{
     const bmp=await createImageBitmap(blob);
-    const c=document.createElement("canvas"); c.width=bmp.width; c.height=bmp.height;
-    c.getContext("2d").drawImage(bmp,0,0);
+    const k=Math.min(1,1080/bmp.width), c=document.createElement("canvas");
+    c.width=Math.round(bmp.width*k); c.height=Math.round(bmp.height*k);
+    const g=c.getContext("2d"); g.fillStyle="#fff"; g.fillRect(0,0,c.width,c.height); g.drawImage(bmp,0,0,c.width,c.height);
     const jb=await new Promise(r=>c.toBlob(r,"image/jpeg",q));
     return new File([jb],nome.replace(/\.png$/i,".jpg"),{type:"image/jpeg"});
   }catch(_){return new File([blob],nome,{type:blob.type||"image/png"});}
@@ -386,7 +387,7 @@ async function ficheiros(lista, q=0.82){
 }
 async function tentarPartilhar(fs, legenda){
   if(!(navigator.canShare&&navigator.canShare({files:fs}))) return "nao";
-  try{ await navigator.share(legenda?{files:fs,text:legenda}:{files:fs}); return "ok"; }
+  try{ await navigator.share({files:fs}); return "ok"; }
   catch(e){ if(e&&e.name==="AbortError") return "cancelado"; if(e&&e.name==="NotAllowedError") return "toque"; return "grande"; }
 }
 // Prepara as imagens antes do toque: a partilha abre logo, sem esperar
@@ -409,19 +410,27 @@ function preparar(tipo){
 let preparadoV=null;
 function prepararTudo(){const v=edicao&&edicao.imagens&&edicao.imagens.v;if(!v||v===preparadoV)return;preparadoV=v;["feed","story"].forEach(preparar);}
 // Se for demasiado grande, mostra botões para partilhar por partes (cada partilha precisa de um toque)
-function partes(fs, legenda, tamanho=4){
-  const nota=$("shareNota"); nota.innerHTML="O telemóvel não aceita todas de uma vez. Partilhe por partes, pela ordem:<br>";
+function descarregarTodos(fs){return (async()=>{for(const f of fs){const x=document.createElement("a");x.href=URL.createObjectURL(f);x.download=f.name;document.body.appendChild(x);x.click();x.remove();await new Promise(z=>setTimeout(z,350));}})();}
+function partes(fs, legenda, tamanho=3){
+  const nota=$("shareNota");
+  nota.innerHTML='<b>O telemóvel não aceita todas as imagens de uma vez.</b> Toque em cada parte, pela ordem. A legenda já está copiada: cole-a na publicação.<br>';
   for(let i=0;i<fs.length;i+=tamanho){
     const grupo=fs.slice(i,i+tamanho), n=i/tamanho+1;
     const b=document.createElement("button"); b.className="btn gold"; b.style.margin="8px 8px 0 0";
-    b.textContent=`Parte ${n} (imagens ${i+1} a ${i+grupo.length})`;
-    b.addEventListener("click",async()=>{const r=await tentarPartilhar(grupo, n===1?legenda:""); if(r==="ok"){b.textContent=`Parte ${n} partilhada`;b.disabled=true;}});
+    b.textContent=`Parte ${n}: imagens ${i+1} a ${i+grupo.length}`;
+    b.addEventListener("click",async()=>{const r=await tentarPartilhar(grupo);
+      if(r==="ok"){b.textContent=`Parte ${n} partilhada`;b.disabled=true;}
+      else if(r==="grande"||r==="nao"){await descarregarTodos(grupo);b.textContent=`Parte ${n} descarregada`;}});
     nota.appendChild(b);
   }
+  const d=document.createElement("button"); d.className="btn"; d.style.margin="8px 8px 0 0";
+  d.textContent="Descarregar todas para a galeria"; d.addEventListener("click",()=>descarregarTodos(fs)); nota.appendChild(d);
+  nota.scrollIntoView({behavior:"smooth",block:"center"});
 }
 document.querySelectorAll("[data-partilhar]").forEach(btn=>btn.addEventListener("click",async()=>{
   const tipo=btn.dataset.partilhar, prom=preparar(tipo); if(!prom)return;
   const legenda=(edicao.textos&&(tipo==="pdf"?edicao.textos.linkedin:edicao.textos.instagram))||"";
+  try{ if(legenda) navigator.clipboard.writeText(legenda).catch(()=>{}); }catch(_){}
   const antes=btn.textContent;btn.textContent="A preparar…";btn.disabled=true;
   try{
     const fs=await prom;
@@ -429,10 +438,10 @@ document.querySelectorAll("[data-partilhar]").forEach(btn=>btn.addEventListener(
     else{
       const r=await tentarPartilhar(fs, legenda);
       if(r==="toque") $("shareNota").textContent="Imagens prontas. Carregue de novo no botão para abrir a partilha.";
-      if(r==="grande"){ if(fs.length>1) partes(fs, legenda, 3); else $("shareNota").textContent="O ficheiro é grande demais para partilhar daqui. Descarregue-o e partilhe a partir da galeria."; }
+      if(r==="ok") $("shareNota").textContent=legenda?"Partilhado. A legenda está copiada: cole-a na publicação.":"Partilhado.";
+      if(r==="grande"){ if(fs.length>1) partes(fs, legenda, 3); else { await descarregarTodos(fs); $("shareNota").textContent="O ficheiro é grande demais para partilhar daqui. Foi descarregado: partilhe-o a partir da galeria."; } }
       if(r==="nao"){
-        for(const f of fs){const x=document.createElement("a");x.href=URL.createObjectURL(f);x.download=f.name;document.body.appendChild(x);x.click();x.remove();await new Promise(z=>setTimeout(z,350));}
-        try{await navigator.clipboard.writeText(legenda)}catch(_){}
+        await descarregarTodos(fs);
         $("shareNota").textContent="Ficheiros descarregados e legenda copiada. No telemóvel, este botão abre directamente a lista de apps.";
       }
     }
