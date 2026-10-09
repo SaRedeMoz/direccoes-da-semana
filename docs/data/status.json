@@ -2,31 +2,36 @@
   "estagios": {
     "fontes": {
       "estado": "pronto",
-      "msg": "1 item novo",
-      "em": "2026-10-09T03:28:28.472Z"
+      "msg": "A preparar a revisão…",
+      "em": "2026-10-09T08:55:27.343Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "ok",
-      "em": "2026-10-09T03:28:53.380Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-09T08:55:27.343Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "ok",
-      "em": "2026-10-09T03:28:54.656Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-09T08:55:27.343Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-10-09T03:29:02.485Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-09T08:55:27.343Z"
     },
     "aprovacao": {
-      "estado": "aprovado",
-      "msg": "Edição aprovada. Pronta a publicar.",
-      "em": "2026-10-09T08:29:49.306Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-10-09T08:55:27.343Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-09T08:55:27.343Z",
+      "agente": "fontes",
+      "msg": "A preparar a revisão…"
+    },
     {
       "em": "2026-10-09T08:29:49.306Z",
       "agente": "aprovacao",
@@ -221,14 +226,9 @@
       "em": "2026-10-06T03:40:21.381Z",
       "agente": "analise",
       "msg": "PESTAL e impacto actualizados"
-    },
-    {
-      "em": "2026-10-06T03:40:12.036Z",
-      "agente": "analise",
-      "msg": "Actualizar PESTAL e impacto"
     }
   ],
-  "actualizado": "2026-10-09T08:29:49.306Z",
+  "actualizado": "2026-10-09T08:55:27.343Z",
   "semana": "2026-S41",
   "dia": "2026-10-09",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
