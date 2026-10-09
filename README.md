@@ -33,7 +33,7 @@ https://github.com/apps/claude
 | Rever já | Comentário `/rever` |
 | Trocar uma frase ou palavra (sem gastar o Claude) | `/trocar "texto antigo" por "texto novo"` (pode pôr várias linhas) |
 | Pôr na edição uma notícia que ficou de fora | Ver o número em "Todas as notícias" no escritório e comentar `/incluir 12` |
-| Aprovar | Etiqueta `aprovado` |
+| Aprovar | Comentário `aprovado` (ou `/aprovar`), ou a etiqueta `aprovado` |
 
 ## Custos e limites
 
@@ -46,3 +46,43 @@ https://github.com/apps/claude
 - Hora: `.github/workflows/redaccao.yml`, `cron: "0 0 * * *"` = 2h de Maputo (para 3h use `"0 1 * * *"`).
 - Linha editorial, fontes e grupos de impacto: `config/linha-editorial.json`.
 - Como cada agente trabalha: `config/instrucoes-agentes.md`.
+
+## Kit da semana e Google Drive
+
+Quando aprova a edição (etiqueta `aprovado`), o sistema cria o **kit da semana**:
+
+```
+Direccoes-2026-S40.zip
+  0-LEIA-ME.txt
+  1-STORIES (WhatsApp, Instagram, Facebook)   S40-story-01-capa.jpg ...
+  2-FEED (Instagram e Facebook)               S40-feed-01-capa.jpg ... legenda-instagram.txt, texto-facebook.txt
+  3-LINKEDIN                                  S40-Direccoes-da-Semana.pdf, S40-capa-linkedin.jpg, texto-linkedin.txt
+  4-TEXTOS                                    whatsapp-canal.txt, analise-completa.txt
+  5-REEL                                      S40-reel.mp4
+```
+
+- Descarrega-se no escritório ("Kit da semana"), que guarda também as edições anteriores.
+- Um `/trocar` numa edição já aprovada actualiza o kit.
+
+### Ligar o Google Drive (opcional, uma vez, no computador)
+
+1. Instale o rclone: https://rclone.org/downloads (no Windows também `winget install Rclone.Rclone`).
+2. No terminal, escreva `rclone config` e responda:
+   - `n` (novo), nome: **gdrive**
+   - tipo de armazenamento: **drive** (Google Drive)
+   - client_id e client_secret: deixe vazio (Enter)
+   - scope: escolha **drive.file** (o rclone só mexe nos ficheiros que ele próprio cria)
+   - o resto: Enter / `n`, até perguntar se quer autorizar no browser: `y`. Entre com a sua conta Google.
+   - shared drive: `n`; confirme com `y` e saia com `q`.
+3. Escreva `rclone config show` e copie **todo** o texto que aparece.
+4. No GitHub: Settings → Secrets and variables → Actions → New repository secret →
+   nome **RCLONE_CONF**, valor: o texto copiado.
+
+A partir daí, cada edição aprovada aparece no Drive em `Direccoes da Semana/2026-S40/`.
+
+### Do Drive para a galeria do telemóvel
+
+- **Android:** instale a app *Autosync for Google Drive* (MetaCtrl). Crie uma ligação entre a pasta do Drive
+  `Direccoes da Semana` e uma pasta do telemóvel, por exemplo `Pictures/Direccoes`, com o método
+  **"Só descarregar"**. Cada semana nova aparece sozinha na galeria.
+- **iPhone:** abra a pasta na app Ficheiros (Drive) e use "Guardar imagens" para as pôr na galeria.

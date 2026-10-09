@@ -277,6 +277,9 @@ const fotos = [];
 for (const s of noticias) fotos.push(await fotoLivre(s.imagem_termos));
 const analise = slidesAnalise();
 const total = 1 + noticias.length + analise.length;
+// Nome curto do tipo de cada slide (usado nos nomes dos ficheiros do kit de publicação)
+const ROTULO = { "Oportunidades<br>e ameaças": "oportunidades", "Quem ganha,<br>quem perde": "quem-ganha", "Direcção": "direccao", "A acompanhar": "sinal" };
+const tipos = ["capa", ...noticias.map(() => "noticia"), ...analise.map((a) => ROTULO[a.titulo] || "analise")];
 
 const formatos = [{ nome: "feed", W: 1080, H: 1350 }, { nome: "story", W: 1080, H: 1920 }];
 const saida = { feed: [], story: [], creditos: [fotoCapa, ...fotos].filter(Boolean).map((f) => f.credito) };
@@ -302,7 +305,7 @@ await browser.close();
 const arq = `docs/data/semanas/${ed.semana}/imagens-${ed.dia}`;
 rmSync(arq, { recursive: true, force: true });
 cpSync(DIR, arq, { recursive: true });
-ed.imagens = { slides: saida.feed, stories: saida.story, capa: saida.capa, pdf: saida.pdf, creditos: saida.creditos, v: Date.now() };
+ed.imagens = { slides: saida.feed, stories: saida.story, tipos, capa: saida.capa, pdf: saida.pdf, creditos: saida.creditos, v: Date.now() };
 writeFileSync(ED, JSON.stringify(ed, null, 2));
 const diaF = `docs/data/semanas/${ed.semana}/dia-${ed.dia}.json`;
 if (existsSync(diaF)) writeFileSync(diaF, JSON.stringify(ed, null, 2));

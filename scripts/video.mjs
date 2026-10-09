@@ -7,6 +7,7 @@ import { execFileSync, execSync } from "node:child_process";
 const ED = "docs/data/edicao.json";
 if (!existsSync(ED)) { console.log("Sem edição."); process.exit(0); }
 const ed = JSON.parse(readFileSync(ED, "utf8"));
+if (process.argv.includes("--se-aprovada") && !ed.aprovada) { console.log("Edição não aprovada: sem Reel."); process.exit(0); }
 const stories = (ed.imagens?.stories || []).map((p) => "docs/" + p).filter((p) => existsSync(p));
 if (stories.length < 2) { console.log("Sem imagens story suficientes para o vídeo."); process.exit(0); }
 

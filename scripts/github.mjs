@@ -49,19 +49,26 @@ async function issueDaSemana() {
   if (ja) return ja;
   for (const [name, color] of [["edicao", "1F6F6A"], ["aprovado", "C8912E"]]) { try { await gh(`/labels`, { method: "POST", body: JSON.stringify({ name, color }) }); } catch {} }
   return gh(`/issues`, { method: "POST", body: JSON.stringify({ title: titulo, labels: ["edicao"], body:
-    `Conversa da semana **${SEMANA}**.\n\n- **Notícia:** … para acrescentar uma notícia (texto ou link)\n- Comentário normal = sugestão para a próxima ronda\n- **/rever** para refazer já com as suas sugestões\n- Etiqueta **aprovado** para aprovar\n\nEscritório: ${PAGE}` }) });
+    `Conversa da semana **${SEMANA}**.\n\n- **Notícia:** … para acrescentar uma notícia (texto ou link)\n- Comentário normal = sugestão para a próxima ronda\n- **/rever** para refazer já com as suas sugestões\n- Comentário **aprovado** para aprovar\n\nEscritório: ${PAGE}` }) });
 }
 
 async function preparar() {
   const issue = await issueDaSemana();
   const COM = (process.env.COMENTARIO || "").trim();
-  const modo = EVENTO === "issues" ? "aprovar" : EVENTO === "issue_comment" ? (COM.startsWith("/trocar") ? "editar" : "rever") : "diario";
+  const eAprovar = /^\/?aprova(r|do|da)\b/i.test(COM);
+  const modo = EVENTO === "issues" ? "aprovar" : EVENTO === "issue_comment" ? (eAprovar ? "aprovar" : COM.startsWith("/trocar") ? "editar" : "rever") : "diario";
+  // Reacção imediata ao comentário, para saber que o pedido foi recebido
+  if (process.env.COMENTARIO_ID) { try { await gh(`/issues/comments/${process.env.COMENTARIO_ID}/reactions`, { method: "POST", body: JSON.stringify({ content: "eyes" }) }); } catch {} }
+  if (EVENTO === "issue_comment") {
+    const msg = { aprovar: "Recebido. A aprovar a edição e a preparar o Reel e o kit da semana (cerca de 5 minutos).", editar: "Recebido. A trocar o texto e a refazer as imagens (cerca de 5 minutos).", rever: "Recebido. Os agentes estão a rever a edição (10 a 25 minutos)." }[modo];
+    try { await gh(`/issues/${issue.number}/comments`, { method: "POST", body: JSON.stringify({ body: msg }) }); } catch {}
+  }
   saida("modo", modo); saida("hoje", hoje); saida("semana", SEMANA); saida("issue", issue.number);
   if (modo === "aprovar") return;
   if (modo === "editar") return editar(COM, issue);
   const acum = ler(`${D}/semanas/${SEMANA}/acumulado.json`, { itens: [], processados: [] });
   const coms = (await gh(`/issues/${issue.number}/comments?per_page=100`)).filter((c) => c.user.login === OWNER);
-  const novos = coms.filter((c) => !(acum.processados || []).includes(c.id) && !/^\/(rever|trocar)/.test(c.body.trim()));
+  const novos = coms.filter((c) => !(acum.processados || []).includes(c.id) && !/^\/(rever|trocar)/.test(c.body.trim()) && !/^\/?aprova(r|do|da)\b/i.test(c.body.trim()));
   const eNoticia = (t) => /^not[ií]cia\s*:/i.test(t.trim());
   gravar(`${D}/entrada.json`, {
     modo, hoje, semana: SEMANA, issue: issue.html_url,
@@ -111,7 +118,7 @@ async function notificar() {
     (ed.imagens?.slides?.length ? `**Imagens prontas a publicar** (toque para abrir e guardar):\n\n` + [ed.imagens.capa, ...ed.imagens.slides].filter(Boolean).map((p) => `<img src="https://raw.githubusercontent.com/${REPO}/main/docs/${p}" width="150">`).join(" ") +
       `\n\nStories 9:16: ${PAGE}#imagens\n\nCarrossel do LinkedIn (PDF): https://raw.githubusercontent.com/${REPO}/main/docs/${ed.imagens.pdf || ""}\n\n` : "") +
     `<details><summary>Análise completa</summary>\n\n${t.analise_completa || ""}\n</details>\n\n<details><summary>WhatsApp</summary>\n\n${t.whatsapp || ""}\n</details>\n\n<details><summary>LinkedIn</summary>\n\n${t.linkedin || ""}\n</details>\n\n<details><summary>Instagram</summary>\n\n${t.instagram || ""}\n</details>\n\n` +
-    `Responda com sugestões, **Notícia: …**, **/rever**, ou adicione a etiqueta **aprovado**.` }) });
+    `Responda com sugestões, **Notícia: …**, **/rever**, ou escreva **aprovado** para aprovar.` }) });
 }
 
 async function aprovar() {
@@ -121,7 +128,7 @@ async function aprovar() {
   const s = estado("aprovacao", "aprovado", "Edição aprovada. Pronta a publicar."); s.issueUrl = issue.html_url;
   gravar(`${D}/status.json`, s); git("redacção: aprovada");
   const reel = ed.imagens?.reel ? `\n\n**Reel (vídeo 9:16, ${ed.imagens.reel_duracao || "?"} s):** https://raw.githubusercontent.com/${REPO}/main/docs/${ed.imagens.reel}\nDescarregue no telemóvel, publique como Reel e escolha uma música na biblioteca do Instagram.` : "";
-  await gh(`/issues/${issue.number}/comments`, { method: "POST", body: JSON.stringify({ body: `@${OWNER} ✅ Aprovada (versão ${ed.versao || "?"}). Textos e imagens no escritório: ${PAGE}${reel}` }) });
+  await gh(`/issues/${issue.number}/comments`, { method: "POST", body: JSON.stringify({ body: `@${OWNER} ✅ Aprovada (versão ${ed.versao || "?"}). Textos e imagens no escritório: ${PAGE}${reel}\n\n**Kit da semana (um ZIP com tudo, por rede social):** ${PAGE}data/kits/Direccoes-${ed.semana}.zip\n(se o Google Drive estiver ligado, a pasta "Direccoes da Semana/${ed.semana}" é actualizada em poucos minutos)` }) });
 }
 
 async function falha() {

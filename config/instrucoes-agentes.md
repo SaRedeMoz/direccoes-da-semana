@@ -100,6 +100,7 @@ Grava em `trabalho/textos.json` um objecto com:
 - `whatsapp`: 180 a 260 palavras, sem emojis; títulos de secção em *MAIÚSCULAS* com o negrito do WhatsApp; secções Mundo, Moçambique, Quem ganha e quem perde, Direcção, Próxima semana; parágrafos curtos em vez de listas com símbolos; termina com uma frase simples a pedir que partilhem.
 - `linkedin`: 200 a 300 palavras, sem emojis, parágrafos curtos, uma secção "Direcção", termina com uma conclusão concreta (sem pergunta forçada) e no máximo 3 hashtags.
 - `instagram`: legenda final.
+- `facebook`: 120 a 220 palavras, tom próximo e claro, parágrafos curtos, sem emojis, no máximo 2 hashtags; termina com a direcção principal da semana.
 - `analise_completa`: versão longa (600–1000 palavras), para arquivo, site ou newsletter, com as secções:
   Resumo da semana; Mundo; Moçambique; PESTAL (tabela Markdown: Dimensão | Oportunidades | Ameaças, com (ext.)/(int.));
   Quem ganha, quem perde (os 8 grupos); Direcção; Sinal a acompanhar; Fontes (lista com links).

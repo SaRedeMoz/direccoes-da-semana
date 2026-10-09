@@ -91,6 +91,15 @@ h1{margin:0;font-size:clamp(1.6rem,6vw,2.5rem);font-weight:800;letter-spacing:-.
     </div>
   </div>
 
+  <div class="card" id="kitCard"><a id="kit"></a>
+    <h2>Kit da semana</h2>
+    <p class="sub" id="kitEstado">O kit fica pronto quando aprovar a edição.</p>
+    <div class="row"><a class="btn gold hidden" id="kitBtn" href="#" download>Descarregar kit da semana</a></div>
+    <p class="sub">Um ZIP com tudo, por rede: 1-STORIES (WhatsApp, Instagram, Facebook), 2-FEED (Instagram e Facebook), 3-LINKEDIN (PDF), 4-TEXTOS e 5-REEL. No telemóvel, abra-o na app Ficheiros e escolha "Extrair".</p>
+    <h3 style="margin:16px 0 6px;font-size:1rem">Edições anteriores</h3>
+    <ul class="log" id="kitLista"><li><span></span><div class="sub">Ainda sem edições aprovadas.</div></li></ul>
+  </div>
+
   <div class="card" id="galCard"><a id="imagens"></a>
     <h2>Imagens prontas a publicar</h2>
     <p class="sub">Toque numa imagem para a abrir em tamanho real e guardar.</p>
@@ -325,6 +334,9 @@ function painel(){
   const url=(status&&status.issueUrl)||(edicao&&edicao.issue);$("issueBtn").classList.toggle("hidden",!url);if(url)$("issueBtn").href=url;
   const cores={fontes:"var(--fontes)",analise:"var(--analise)",design:"var(--design)",editor:"var(--editor)",aprovacao:"var(--voce)"};
   $("log").innerHTML=((status&&status.log)||[]).map(l=>`<li><span class="d" style="background:${cores[l.agente]||"#888"}"></span><div>${esc(l.msg)}<time>${new Date(l.em).toLocaleString("pt-PT",{weekday:"short",hour:"2-digit",minute:"2-digit"})}</time></div></li>`).join("")||`<li><span></span><div class="sub">A equipa ainda não começou.</div></li>`;
+  if(edicao&&edicao.kit){$("kitBtn").classList.remove("hidden");$("kitBtn").href=edicao.kit+"?v="+((edicao.imagens&&edicao.imagens.v)||"");$("kitEstado").textContent=`Kit da semana ${edicao.semana||""}, versão ${edicao.versao||""}, pronto a publicar.`;}
+  else{$("kitBtn").classList.add("hidden");$("kitEstado").textContent=edicao&&edicao.aprovada?"A preparar o kit, volte daqui a poucos minutos.":"O kit fica pronto quando aprovar a edição.";}
+  carregarKits();
   const im=edicao&&edicao.imagens;
   $("galCard").classList.toggle("hidden",!(im&&im.slides&&im.slides.length));
   if(im&&im.slides){const v=im.v||edicao.versao||"";const g=(l)=>(l||[]).filter(Boolean).map(p=>`<a href="${esc(p)}?v=${v}" target="_blank" rel="noopener"><img src="${esc(p)}?v=${v}" alt="Imagem do post" loading="lazy"></a>`).join("");
@@ -450,6 +462,14 @@ document.querySelectorAll("[data-partilhar]").forEach(btn=>btn.addEventListener(
 }));
 
 $("copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("txt").textContent);$("copy").textContent="Copiado"}catch(_){const r=document.createRange();r.selectNodeContents($("txt"));const s=getSelection();s.removeAllRanges();s.addRange(r);$("copy").textContent="Seleccionado"}setTimeout(()=>$("copy").textContent="Copiar texto",2000)});
+
+let kitsCarregados=false;
+async function carregarKits(){
+  if(kitsCarregados||demo)return;kitsCarregados=true;
+  try{const k=await fetch("data/kits/kits.json?t="+Date.now()).then(r=>r.ok?r.json():[]);
+    if(k.length)$("kitLista").innerHTML=k.map(x=>`<li><span class="d" style="background:var(--fontes)"></span><div><a href="${esc(x.zip)}" download>Semana ${esc(String(x.semana).split("-S")[1]||x.semana)} de ${esc(String(x.semana).slice(0,4))}</a><time>Versão ${esc(x.versao)}, ${esc(x.mb)} MB</time></div></li>`).join("");
+  }catch(_){}
+}
 
 /* ================= Dados ================= */
 async function carregar(){
