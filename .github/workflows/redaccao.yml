@@ -27,7 +27,7 @@ jobs:
       github.event_name == 'schedule' ||
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issue_comment' &&
-        (startsWith(github.event.comment.body, '/rever') || startsWith(github.event.comment.body, '/trocar') || startsWith(github.event.comment.body, '/incluir')) &&
+        (startsWith(github.event.comment.body, '/rever') || startsWith(github.event.comment.body, '/trocar') || startsWith(github.event.comment.body, '/incluir') || startsWith(github.event.comment.body, '/aprovar') || startsWith(github.event.comment.body, 'aprovad')) &&
         github.event.comment.user.login == github.repository_owner) ||
       (github.event_name == 'issues' && github.event.label.name == 'aprovado')
     env:
@@ -35,6 +35,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       EVENTO: ${{ github.event_name }}
       COMENTARIO: ${{ github.event.comment.body }}
+      COMENTARIO_ID: ${{ github.event.comment.id }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -82,16 +83,37 @@ jobs:
 
       # 5) Sem custo: quando aprova a edição, gera o Reel (vídeo 9:16) a partir das stories
       - name: Vídeo (Reel)
-        if: steps.preparar.outputs.modo == 'aprovar'
+        if: steps.preparar.outputs.modo == 'aprovar' || steps.preparar.outputs.modo == 'editar'
         continue-on-error: true
         run: |
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
-          node scripts/video.mjs
+          node scripts/video.mjs ${{ steps.preparar.outputs.modo == 'editar' && '--se-aprovada' || '' }}
 
       # 6) Sem custo: envia-lhe o email (comentário na Issue) ou regista a aprovação
       - name: Notificar
         if: success()
         run: node scripts/github.mjs ${{ steps.preparar.outputs.modo == 'aprovar' && 'aprovar' || 'notificar' }}
+      # 7) Sem custo: kit de publicação (uma pasta por rede social + ZIP único) da edição aprovada
+      - name: Kit da semana
+        id: kit
+        if: success() && (steps.preparar.outputs.modo == 'aprovar' || steps.preparar.outputs.modo == 'editar')
+        continue-on-error: true
+        run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          node scripts/kit.mjs
+
+      # 8) Opcional: envia a pasta da semana para o Google Drive (só se o segredo RCLONE_CONF existir)
+      - name: Google Drive
+        if: steps.kit.outputs.pasta != ''
+        continue-on-error: true
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          if [ -z "$RCLONE_CONF" ]; then echo "Google Drive não configurado: segredo RCLONE_CONF em falta."; exit 0; fi
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          mkdir -p ~/.config/rclone && printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          rclone sync "publicar/${{ steps.kit.outputs.pasta }}" "gdrive:Direccoes da Semana/${{ steps.kit.outputs.pasta }}" --drive-use-trash=false -v
+
       - name: Avisar falha
         if: failure()
         run: node scripts/github.mjs falha
