@@ -21,12 +21,17 @@
       "em": "2026-10-10T03:09:39.645Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-10-10T03:07:19.532Z"
+      "estado": "à espera",
+      "msg": "À espera da sua aprovação",
+      "em": "2026-10-10T03:10:33.100Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-10T03:10:33.100Z",
+      "agente": "aprovacao",
+      "msg": "À espera da sua aprovação"
+    },
     {
       "em": "2026-10-10T03:09:39.645Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-08T03:22:07.457Z",
       "agente": "fontes",
       "msg": "pesquisar notícias de 7 e 8 de Outubro"
-    },
-    {
-      "em": "2026-10-08T03:21:35.827Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
     }
   ],
-  "actualizado": "2026-10-10T03:09:39.645Z",
+  "actualizado": "2026-10-10T03:10:33.100Z",
   "semana": "2026-S41",
   "dia": "2026-10-10",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
