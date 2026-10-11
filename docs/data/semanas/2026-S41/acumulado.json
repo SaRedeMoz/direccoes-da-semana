@@ -285,11 +285,11 @@
     "/aprovado",
     "aprovado"
   ],
-  "versao": 8,
+  "versao": 9,
   "lacunas": [
-    "Cotação do Brent de 7 a 9 de Outubro não encontrada",
-    "Notícias de Sofala e da Beira",
-    "Preços dos combustíveis em Moçambique"
+    "Cotação do Brent de 7 a 11 de Outubro não encontrada",
+    "Notícias de Sofala e da Beira de Outubro",
+    "Preços actuais dos combustíveis em Moçambique, a confirmar na ARENE"
   ],
   "analise": {
     "destaques": {
@@ -567,7 +567,7 @@
     ],
     "sinal": "Preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento, os critérios do novo regime de crédito e os prazos de bloqueio de contas.",
     "sintese": "O petróleo acima de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a SLB abriu uma fábrica em Pemba. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo.",
-    "o_que_mudou_hoje": "A SLB abriu em Pemba uma fábrica para operações offshore e a AMER avisou que as ligações fora da rede caíram para 122 mil. A associação dos bancos diz que o bloqueio de contas é preventivo e deve ser comunicado às autoridades. Moçambique e Tanzânia adoptaram medidas conjuntas de segurança."
+    "o_que_mudou_hoje": "A pesquisa de 10 e 11 de Outubro não encontrou notícias novas e verificáveis sobre Moçambique. A análise mantém-se, com o petróleo acima de 100 dólares, o El Niño e o PIB revisto para 0,9% como pressões principais."
   },
   "design": {
     "slides": [

@@ -1,7 +1,7 @@
 {
   "semana": "2026-S41",
-  "dia": "2026-10-10",
-  "versao": 8,
+  "dia": "2026-10-11",
+  "versao": 9,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2",
   "falhas_conformidade": [],
@@ -307,9 +307,9 @@
     }
   ],
   "lacunas": [
-    "Cotação do Brent de 7 a 9 de Outubro não encontrada",
-    "Notícias de Sofala e da Beira",
-    "Preços dos combustíveis em Moçambique"
+    "Cotação do Brent de 7 a 11 de Outubro não encontrada",
+    "Notícias de Sofala e da Beira de Outubro",
+    "Preços actuais dos combustíveis em Moçambique, a confirmar na ARENE"
   ],
   "analise": {
     "destaques": {
@@ -587,7 +587,7 @@
     ],
     "sinal": "Preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento, os critérios do novo regime de crédito e os prazos de bloqueio de contas.",
     "sintese": "O petróleo acima de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a SLB abriu uma fábrica em Pemba. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo.",
-    "o_que_mudou_hoje": "A SLB abriu em Pemba uma fábrica para operações offshore e a AMER avisou que as ligações fora da rede caíram para 122 mil. A associação dos bancos diz que o bloqueio de contas é preventivo e deve ser comunicado às autoridades. Moçambique e Tanzânia adoptaram medidas conjuntas de segurança."
+    "o_que_mudou_hoje": "A pesquisa de 10 e 11 de Outubro não encontrou notícias novas e verificáveis sobre Moçambique. A análise mantém-se, com o petróleo acima de 100 dólares, o El Niño e o PIB revisto para 0,9% como pressões principais."
   },
   "design": {
     "slides": [
@@ -704,60 +704,5 @@
         "nota": "presente na análise completa"
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png",
-      "data/imagens/feed/slide-13.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png",
-      "data/imagens/story/slide-13.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Hannahlongole / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Jcornelius / Wikimedia Commons, CC BY-SA 4.0"
-    ],
-    "v": 1791601828253
   }
 }
