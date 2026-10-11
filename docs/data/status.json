@@ -1,32 +1,37 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "pronto",
-      "msg": "4 novas, 2 actualizações",
-      "em": "2026-10-10T03:08:27.237Z"
+      "estado": "a trabalhar",
+      "msg": "A começar a pesquisa do dia…",
+      "em": "2026-10-11T02:39:09.138Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "análise actualizada",
-      "em": "2026-10-10T03:08:43.265Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-11T02:39:09.138Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "SLB entra nos slides",
-      "em": "2026-10-10T03:08:52.303Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-11T02:39:09.138Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-10-10T03:09:39.645Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-11T02:39:09.138Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "À espera da sua aprovação",
-      "em": "2026-10-10T03:10:33.100Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-10-11T02:39:09.138Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-11T02:39:09.138Z",
+      "agente": "fontes",
+      "msg": "A começar a pesquisa do dia…"
+    },
     {
       "em": "2026-10-10T03:10:33.100Z",
       "agente": "aprovacao",
@@ -221,15 +226,10 @@
       "em": "2026-10-08T03:23:09.518Z",
       "agente": "fontes",
       "msg": "5 notícias novas de 7 de Outubro"
-    },
-    {
-      "em": "2026-10-08T03:22:07.457Z",
-      "agente": "fontes",
-      "msg": "pesquisar notícias de 7 e 8 de Outubro"
     }
   ],
-  "actualizado": "2026-10-10T03:10:33.100Z",
+  "actualizado": "2026-10-11T02:39:09.138Z",
   "semana": "2026-S41",
-  "dia": "2026-10-10",
+  "dia": "2026-10-11",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
 }
