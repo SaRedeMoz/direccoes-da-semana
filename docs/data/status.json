@@ -2,8 +2,8 @@
   "estagios": {
     "fontes": {
       "estado": "a trabalhar",
-      "msg": "A começar a pesquisa do dia…",
-      "em": "2026-10-11T02:39:09.138Z"
+      "msg": "pesquisar notícias de 10 e 11 de Outubro",
+      "em": "2026-10-11T02:39:32.550Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-11T02:39:32.550Z",
+      "agente": "fontes",
+      "msg": "pesquisar notícias de 10 e 11 de Outubro"
+    },
     {
       "em": "2026-10-11T02:39:09.138Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-08T03:23:11.017Z",
       "agente": "analise",
       "msg": "actualizar análise com PIB e crédito"
-    },
-    {
-      "em": "2026-10-08T03:23:09.518Z",
-      "agente": "fontes",
-      "msg": "5 notícias novas de 7 de Outubro"
     }
   ],
-  "actualizado": "2026-10-11T02:39:09.138Z",
+  "actualizado": "2026-10-11T02:39:32.550Z",
   "semana": "2026-S41",
   "dia": "2026-10-11",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2"
