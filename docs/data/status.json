@@ -6,9 +6,9 @@
       "em": "2026-10-12T03:04:02.917Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "a actualizar PESTAL e impacto",
-      "em": "2026-10-12T03:04:04.224Z"
+      "estado": "pronto",
+      "msg": "análise actualizada com Brent a 104 e itens de 9 e 10 de Outubro",
+      "em": "2026-10-12T03:04:15.413Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-12T03:04:15.413Z",
+      "agente": "analise",
+      "msg": "análise actualizada com Brent a 104 e itens de 9 e 10 de Outubro"
+    },
     {
       "em": "2026-10-12T03:04:04.224Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-09T03:28:48.485Z",
       "agente": "analise",
       "msg": "integrar aviso sobre bloqueio de contas"
-    },
-    {
-      "em": "2026-10-09T03:28:28.472Z",
-      "agente": "fontes",
-      "msg": "1 item novo"
     }
   ],
-  "actualizado": "2026-10-12T03:04:04.224Z",
+  "actualizado": "2026-10-12T03:04:15.413Z",
   "semana": "2026-S42",
   "dia": "2026-10-12",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3"
