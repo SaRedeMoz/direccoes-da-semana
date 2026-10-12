@@ -2,7 +2,7 @@
   "semana": "2026-S42",
   "dia": "2026-10-12",
   "versao": 1,
-  "aprovada": false,
+  "aprovada": true,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
   "falhas_conformidade": [],
   "itens": [
@@ -515,5 +515,6 @@
     "v": 1791774341822,
     "reel": "data/imagens/reel.mp4",
     "reel_duracao": 48
-  }
+  },
+  "aprovadaEm": "2026-10-12T08:09:15.923Z"
 }
