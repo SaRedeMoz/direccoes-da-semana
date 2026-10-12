@@ -512,6 +512,8 @@
       "Foto: Aciarium / Wikimedia Commons, CC BY-SA 4.0",
       "Foto: Andrew Moore from Johannesburg, South Africa / Wikimedia Commons, CC BY-SA 2.0"
     ],
-    "v": 1791774341822
+    "v": 1791774341822,
+    "reel": "data/imagens/reel.mp4",
+    "reel_duracao": 48
   }
 }
