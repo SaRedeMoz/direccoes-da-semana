@@ -1,5 +1,12 @@
 [
   {
+    "semana": "2026-S42",
+    "versao": 1,
+    "aprovada": "2026-10-12T08:09:15.923Z",
+    "zip": "data/kits/Direccoes-2026-S42.zip",
+    "mb": 19.8
+  },
+  {
     "semana": "2026-S41",
     "versao": 7,
     "aprovada": "2026-10-09T09:03:23.622Z",

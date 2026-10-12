@@ -516,5 +516,6 @@
     "reel": "data/imagens/reel.mp4",
     "reel_duracao": 48
   },
-  "aprovadaEm": "2026-10-12T08:09:15.923Z"
+  "aprovadaEm": "2026-10-12T08:09:15.923Z",
+  "kit": "data/kits/Direccoes-2026-S42.zip"
 }
