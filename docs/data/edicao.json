@@ -1,327 +1,94 @@
 {
-  "semana": "2026-S41",
-  "dia": "2026-10-11",
-  "versao": 9,
+  "semana": "2026-S42",
+  "dia": "2026-10-12",
+  "versao": 1,
   "aprovada": false,
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/2",
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
   "falhas_conformidade": [],
   "itens": [
     {
-      "titulo": "Chapo diz que o desenvolvimento económico é a nova fronteira da paz",
-      "resumo": "Em Xai-Xai, a 4 de Outubro, no 34.º aniversário do Acordo Geral de Paz, o Presidente Daniel Chapo defendeu que a estabilidade deve dar emprego, produção e melhores condições de vida. Apontou a mineração, o petróleo e a industrialização como prioridades e pediu respostas às aspirações da juventude.",
-      "ambito": "nacional",
-      "dimensao": "Política",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/",
-      "data": "2026-10-04",
-      "confianca": "alta",
-      "recolhida": "2026-10-05",
+      "titulo": "Brent fecha a semana perto de 104 dólares",
+      "resumo": "O Brent subiu para cerca de 104,4 dólares por barril a 9 de Outubro, segundo o Trading Economics, e o contrato de futuros fechou em 104,72, acima dos 102,25 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz continuam a sustentar o preço.",
+      "ambito": "mundo",
+      "dimensao": "Económica",
+      "fonte": "Trading Economics / Investing.com",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "data": "2026-10-09",
+      "confianca": "media",
       "n": 1,
-      "na_edicao": false
+      "recolhida": "2026-10-12",
+      "na_edicao": true
     },
     {
-      "titulo": "Petróleo perto de 108 dólares e combustíveis em máximos na região",
-      "resumo": "O Brent negoceia a cerca de 107,8 dólares por barril, com a tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz. Na África do Sul, a gasolina e o gasóleo deverão subir mais de 2,80 rands por litro a 7 de Outubro, acima dos máximos de Junho. Actualização (2026-10-06): A 5 de Outubro o Brent recuou para 101,31 dólares (Trading Economics), menos 0,92% num dia e 54,7% acima de há um ano. O Irão mantém o Estreito de Ormuz fechado enquanto Washington não aceitar as suas condições. Actualização (2026-10-08): Não encontrei cotação do Brent de 7 ou 8 de Outubro. Agregadores indicam que os preços internos em Moçambique estão inalterados desde o aumento de 9 de Maio, com a gasolina a cerca de 93,8 meticais e o gasóleo a cerca de 116 por litro (confiança baixa). Actualização (2026-10-09): Não encontrei cotação do Brent de 7 ou 8 de Outubro. A Fitch manteve a 6 de Outubro a previsão de 87 dólares em média para 2026.",
-      "ambito": "mundo",
-      "dimensao": "Económica",
-      "fonte": "IOL / AutoTrader",
-      "url": "https://iol.co.za/business/economy/2026-09-29-cloned-fuel-price-pain-deepens-as-projected-october-petrol-and-diesel-hikes-grow/",
-      "data": "2026-10-03",
+      "titulo": "Chapo pede à polícia firmeza contra criminosos, com respeito pelos direitos humanos",
+      "resumo": "A 10 de Outubro, o Presidente Daniel Chapo pediu uma actuação firme da polícia contra os criminosos, sem os colocar acima da lei e sem dispensar o respeito pelos direitos humanos.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "fonte": "Lusa",
+      "url": "https://www.lusa.pt/lusofonia/mozambique",
+      "data": "2026-10-10",
       "confianca": "media",
-      "recolhida": "2026-10-05",
       "n": 2,
+      "recolhida": "2026-10-12",
       "na_edicao": true
     },
     {
-      "titulo": "Choque petrolífero ameaça travar a descida da inflação em África",
-      "resumo": "Segundo a Reuters, responsáveis de vários países avisam que o petróleo caro pode parar ou inverter a descida dos juros no Gana, Quénia, Zâmbia e Nigéria. Os preços dos alimentos ainda estão estáveis, mas o gasóleo pesa no transporte por estrada.",
-      "ambito": "mundo",
-      "dimensao": "Económica",
-      "fonte": "Reuters (via BusinessDay)",
-      "url": "https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/",
-      "data": "2026-10-03",
-      "confianca": "media",
-      "recolhida": "2026-10-05",
-      "n": 3,
-      "na_edicao": false
-    },
-    {
-      "titulo": "El Niño pode afectar 5,3 milhões de pessoas em Moçambique",
-      "resumo": "Três distritos já estão no nível máximo de vulnerabilidade por causa do El Niño. A insegurança alimentar subiu 55%, para 1,84 milhões de pessoas, e o custo para o Estado foi estimado em 267 milhões de euros.",
-      "ambito": "nacional",
-      "dimensao": "Ambiental",
-      "fonte": "Observador / Lusa",
-      "url": "https://observador.pt/2026/09/22/el-nino-pode-afetar-53-milhoes-de-pessoas-e-custar-267-milhoes-de-euros-ao-estado-mocambicano/",
-      "data": "2026-09-22",
-      "confianca": "media",
-      "recolhida": "2026-10-05",
-      "n": 4,
-      "na_edicao": true
-    },
-    {
-      "titulo": "Relatora da ONU conclui visita a Moçambique sobre clima",
-      "resumo": "A relatora especial da ONU para os direitos humanos e as alterações climáticas esteve no país de 21 de Setembro a 2 de Outubro. Moçambique emite cerca de 0,14% dos gases com efeito de estufa, mas está entre os países mais vulneráveis.",
-      "ambito": "nacional",
-      "dimensao": "Ambiental",
-      "fonte": "OHCHR",
-      "url": "https://www.ohchr.org/en/statements-and-speeches/2026/10/end-mission-statement-country-visit-mozambique",
-      "data": "2026-10-02",
-      "confianca": "alta",
-      "recolhida": "2026-10-05",
-      "n": 5,
-      "na_edicao": false
-    },
-    {
-      "titulo": "Confiança empresarial recupera e taxa de referência fica em 15,5%",
-      "resumo": "A confiança dos empresários moçambicanos subiu pela primeira vez em quase dois anos. A taxa de juro de referência manteve-se em 15,50% em Outubro.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "fonte": "Trading Economics",
-      "url": "https://tradingeconomics.com/mozambique/news",
-      "data": "2026-10-03",
-      "confianca": "baixa",
-      "recolhida": "2026-10-05",
-      "n": 6,
-      "na_edicao": false
-    },
-    {
-      "titulo": "Tribunal Administrativo envia ao Parlamento o parecer sobre a Conta Geral do Estado de 2025",
-      "resumo": "O Plenário aprovou o relatório e parecer a 29 de Setembro e a entrega à Assembleia da República foi feita a 30. Segundo o Club of Mozambique, a conta confirma uma contracção económica de 0,52% em 2025.",
-      "ambito": "nacional",
-      "dimensao": "Legal",
-      "fonte": "AIM / Club of Mozambique",
-      "url": "https://aimnews.org/2026/10/01/tribunal-administrativo-submete-a-ar-parecer-sobre-conta-geral-do-estado/",
-      "data": "2026-10-01",
-      "confianca": "media",
-      "n": 7,
-      "recolhida": "2026-10-06",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Governo altera regulamentos fiscais, incluindo o imposto dos pequenos contribuintes",
-      "resumo": "O Conselho de Ministros aprovou alterações a regulamentos fiscais para reforçar a eficiência da cobrança. Entre elas está o regulamento do Imposto Simplificado para Pequenos Contribuintes.",
-      "ambito": "nacional",
-      "dimensao": "Legal",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/09/29/governo-introduz-alteracoes-nos-regulamentos-fiscais-para-reforcar-eficiencia-tributaria/",
-      "data": "2026-09-29",
-      "confianca": "media",
-      "n": 8,
-      "recolhida": "2026-10-06",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Chuva forte e trovoada previstas para Sofala, Manica, Gaza e Inhambane",
-      "resumo": "A previsão de 5 de Outubro apontava chuva forte e trovoada em quatro províncias, entre elas Sofala. Em Gorongosa, o tribunal distrital recebe cerca de nove casos por semana de crimes contra a fauna e a flora.",
-      "ambito": "nacional",
-      "dimensao": "Ambiental",
-      "fonte": "Rádio Moçambique",
-      "url": "https://www.rm.co.mz/",
-      "data": "2026-10-05",
-      "confianca": "baixa",
-      "n": 9,
-      "recolhida": "2026-10-06",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Moçambique e Tanzânia reúnem comissão conjunta de defesa e segurança",
-      "resumo": "Peritos dos dois países iniciaram a 6 de Outubro, em Dar es Salaam, a VII Sessão da Comissão Conjunta Permanente de Defesa e Segurança. O objectivo é avaliar decisões anteriores e definir respostas conjuntas aos desafios da região, com reunião ministerial prevista para 7 de Outubro. Actualização (2026-10-10): A 9 de Outubro a AIM noticiou que os dois países adoptaram medidas conjuntas contra ameaças de segurança, reforçando a cooperação em defesa.",
-      "ambito": "nacional",
-      "dimensao": "Política",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/06/mocambique-e-tanzania-procuram-respostas-conjuntas-para-os-desafios-de-seguranca/",
-      "data": "2026-10-06",
-      "confianca": "alta",
-      "n": 10,
-      "recolhida": "2026-10-07",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Governo quer incubar mil empreendedores do agronegócio por ano",
-      "resumo": "O Ministério da Agricultura coordena um programa, a lançar em 2026, para incubar pelo menos mil empreendedores do agronegócio por ano, com o sector privado e associações. O GAPI apoia financeiramente e já financiou mais de 400 operações no primeiro ano de cooperação.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/06/56924/",
-      "data": "2026-10-06",
-      "confianca": "alta",
-      "n": 11,
-      "recolhida": "2026-10-07",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Chapo inicia visita oficial ao Congo",
-      "resumo": "O Presidente Daniel Chapo começou a 5 de Outubro uma visita oficial ao Congo. No dia seguinte, a Primeira-Dama defendeu a cooperação médica entre os dois países. Actualização (2026-10-08): A AIM de 7 de Outubro diz que o Presidente concluiu a visita ao Congo com um balanço positivo.",
-      "ambito": "nacional",
-      "dimensao": "Política",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/05/chapo-inicia-visita-oficial-ao-congo/",
-      "data": "2026-10-05",
-      "confianca": "media",
-      "n": 12,
-      "recolhida": "2026-10-07",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Ordem dos Advogados avisa que a paz exige instituições credíveis",
-      "resumo": "A OAM adverte que a paz duradoura depende de instituições credíveis e do respeito pela Constituição. O aviso surge poucos dias depois do aniversário do Acordo Geral de Paz.",
-      "ambito": "nacional",
-      "dimensao": "Legal",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/05/oam-adverte-que-a-paz-exige-instituicoes-crediveis-e-respeito-pela-constituicao/",
-      "data": "2026-10-05",
-      "confianca": "media",
-      "n": 13,
-      "recolhida": "2026-10-07",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Crescimento do PIB revisto em baixa para 0,9%",
-      "resumo": "A AIM informa que o crescimento do PIB de Moçambique foi revisto em baixa para 0,9%, contra os 2,8% que o Governo projectava. Cheias, choques económicos e outros factores continuam a pressionar a actividade.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/07/crescimento-do-pib-revisto-em-baixa-para-09-por-cento/",
-      "data": "2026-10-07",
-      "confianca": "media",
-      "n": 14,
-      "recolhida": "2026-10-08",
-      "na_edicao": true
-    },
-    {
-      "titulo": "Banco de Moçambique e CTA criam mecanismo para dar crédito às empresas",
-      "resumo": "Num encontro a 7 de Outubro, o banco central anunciou um regime de 18 meses que deixa os bancos deduzir das reservas obrigatórias o valor de novos créditos a empresas que substituam importações ou aumentem exportações. A CTA aceitou a medida, mas quer critérios claros e acesso efectivo das PMEs.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/07/bm-e-cta-retomam-dialogo-colocando-credito-as-empresas-no-topo-da-agenda/",
-      "data": "2026-10-07",
-      "confianca": "alta",
-      "n": 15,
-      "recolhida": "2026-10-08",
-      "na_edicao": true
-    },
-    {
-      "titulo": "Receitas do gás do Rovuma somam 252,8 milhões de dólares em 2022-2025",
-      "resumo": "Segundo Estrela Charles, do Comité de Supervisão do Fundo Soberano, o país arrecadou cerca de 252,8 milhões de dólares com o gás do Rovuma entre 2022 e 2025, sobretudo do projecto Coral Sul. Os dados foram dados numa conferência na UP-Maputo.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/07/gas-de-rovuma-receitas-2022-25-mocambique-arrecada-aproximadamente-253-milhoes-de-dolares/",
-      "data": "2026-10-07",
-      "confianca": "alta",
-      "n": 16,
-      "recolhida": "2026-10-08",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Governo defende responsabilização criminal no contrabando de caju",
-      "resumo": "O Governo quer que os contrabandistas de castanha de caju respondam criminalmente. A AIM publicou a notícia a 7 de Outubro.",
-      "ambito": "nacional",
-      "dimensao": "Legal",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/07/contrabando-da-castanha-de-caju-governo-defende-responsabilizacao-criminal/",
-      "data": "2026-10-07",
-      "confianca": "media",
-      "n": 17,
-      "recolhida": "2026-10-08",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Bélgica garante apoio a Moçambique para financiamento climático",
-      "resumo": "O Governo da Bélgica comprometeu-se a apoiar Moçambique na captação de financiamento para o clima, segundo a AIM de 7 de Outubro.",
-      "ambito": "nacional",
-      "dimensao": "Ambiental",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/07/mocambique-governo-da-belgica-garante-apoio-a-mobilizacao-de-financiamento-climatico/",
-      "data": "2026-10-07",
-      "confianca": "media",
-      "n": 18,
-      "recolhida": "2026-10-08",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Banco de Moçambique permite aos bancos bloquear contas por suspeita",
-      "resumo": "Um aviso de 29 de Setembro, baseado nas Leis 27/2022 e 3/2024, deixa os bancos bloquear contas e congelar saldos por suspeita de fraude ou branqueamento de capitais. Comentadores da STV e o CDD dizem que só um juiz o deve autorizar e que faltam prazos; segundo o Rio Times, o banco central ainda não respondeu. Actualização (2026-10-10): A 9 de Outubro a Associação Moçambicana de Bancos disse que o bloqueio é uma medida estritamente preventiva, que os bancos só o podem fazer perante transacções suspeitas definidas por lei e que cada bloqueio deve ser comunicado ao GIFiM, à Procuradoria e ao Banco de Moçambique. A duração segue os prazos da investigação legal.",
-      "ambito": "nacional",
-      "dimensao": "Legal",
-      "fonte": "Rio Times / O País",
-      "url": "https://www.riotimesonline.com/mozambique-bank-account-freezes-2026/",
-      "data": "2026-10-06",
-      "confianca": "media",
-      "n": 19,
-      "recolhida": "2026-10-09",
-      "na_edicao": true
-    },
-    {
-      "titulo": "SLB inaugura em Pemba fábrica de fluidos para operações offshore",
-      "resumo": "A SLB abriu a 9 de Outubro, em Pemba, uma unidade de sistemas de fluidos com capacidade inicial de 21 mil barris. A construção criou mais de 100 empregos, 80% ocupados por moçambicanos.",
+      "titulo": "Transportes quer parcerias com a Índia em mobilidade urbana e caminhos de ferro",
+      "resumo": "O Ministério dos Transportes e Logística anunciou a 10 de Outubro que pretende explorar parcerias com a Índia na mobilidade urbana e na modernização ferroviária.",
       "ambito": "nacional",
       "dimensao": "Tecnológica",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/09/mocambique-slb-inaugura-nova-fabrica-para-reforcar-operacoes-offshore/",
-      "data": "2026-10-09",
-      "confianca": "alta",
-      "n": 20,
-      "recolhida": "2026-10-10",
+      "fonte": "Lusa",
+      "url": "https://www.lusa.pt/lusofonia/mozambique",
+      "data": "2026-10-10",
+      "confianca": "media",
+      "n": 3,
+      "recolhida": "2026-10-12",
       "na_edicao": true
     },
     {
-      "titulo": "Ligações de energia fora da rede caem para 122 mil",
-      "resumo": "A AMER avisa que as ligações fora da rede ficaram em 122 mil, quando o acesso universal exige 180 mil a 200 mil por ano. A electrificação chegou a 66,4% em 2025, com 89% nas cidades e 30% no campo.",
+      "titulo": "EDM vai investir mais de 19 milhões de euros numa subestação em Tete",
+      "resumo": "A Electricidade de Moçambique vai aplicar mais de 19 milhões de euros numa subestação em Tete, segundo a Lusa de 9 de Outubro. O valor e o calendário devem ser confirmados.",
       "ambito": "nacional",
-      "dimensao": "Social",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/09/amer-alerta-para-queda-das-ligacoes-fora-da-rede/",
-      "data": "2026-10-09",
-      "confianca": "alta",
-      "n": 21,
-      "recolhida": "2026-10-10",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Governo quer recuperar regadios e equipamentos agrícolas parados",
-      "resumo": "O Governo planeia reabilitar sistemas de rega e máquinas agrícolas inoperacionais. Os pormenores de calendário e financiamento não constam do resumo consultado.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/09/governo-quer-recuperar-regadios-e-equipamentos-agricolas-inoperacionais/",
+      "dimensao": "Tecnológica",
+      "fonte": "Lusa",
+      "url": "https://www.lusa.pt/lusofonia/mozambique",
       "data": "2026-10-09",
       "confianca": "media",
-      "n": 22,
-      "recolhida": "2026-10-10",
-      "na_edicao": false
+      "n": 4,
+      "recolhida": "2026-10-12",
+      "na_edicao": true
     },
     {
-      "titulo": "Governo reitera o combate à corrupção como prioridade na Administração Pública",
-      "resumo": "O Governo reafirmou que a luta contra a corrupção continua a ser prioridade na Administração Pública. A notícia não indica medidas novas nem prazos.",
+      "titulo": "Anamola contesta o desbloqueio das contas de Venâncio Mondlane",
+      "resumo": "A 9 de Outubro, o partido Anamola contestou o desbloqueio das contas bancárias de Venâncio Mondlane. A Lusa não detalha na listagem os fundamentos da contestação.",
       "ambito": "nacional",
       "dimensao": "Legal",
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/10/09/administracao-publica-governo-reitera-prioridade-no-combate-a-corrupcao/",
+      "fonte": "Lusa",
+      "url": "https://www.lusa.pt/lusofonia/mozambique",
       "data": "2026-10-09",
-      "confianca": "media",
-      "n": 23,
-      "recolhida": "2026-10-10",
+      "confianca": "baixa",
+      "n": 5,
+      "recolhida": "2026-10-12",
       "na_edicao": false
     }
   ],
   "lacunas": [
-    "Cotação do Brent de 7 a 11 de Outubro não encontrada",
-    "Notícias de Sofala e da Beira de Outubro",
-    "Preços actuais dos combustíveis em Moçambique, a confirmar na ARENE"
+    "Sofala e zona Centro: sem notícias datadas de 10 a 12 de Outubro",
+    "Preços internos dos combustíveis em Moçambique",
+    "Cabo Delgado e segurança",
+    "Previsão da época chuvosa 2026/27"
   ],
   "analise": {
     "destaques": {
       "mundo": [
-        "Brent recua para 101 dólares, mas Ormuz continua fechado",
+        "Brent fecha a semana perto de 104 dólares",
         "Petróleo caro ameaça travar a descida dos juros em África"
       ],
       "nacional": [
+        "Chapo pede firmeza policial com respeito pelos direitos humanos",
+        "Transportes quer parcerias com a Índia",
+        "EDM prepara subestação de 19 milhões de euros em Tete",
         "Crescimento do PIB revisto em baixa para 0,9%",
-        "SLB inaugura fábrica offshore em Pemba",
-        "Ligações de energia fora da rede caem para 122 mil",
-        "Banco de Moçambique abre crédito às empresas que exportam",
         "El Niño pode afectar 5,3 milhões de pessoas"
       ]
     },
@@ -345,6 +112,10 @@
           },
           {
             "texto": "Paz exige instituições credíveis",
+            "origem": "interna"
+          },
+          {
+            "texto": "Contestação sobre contas de Mondlane",
             "origem": "interna"
           }
         ],
@@ -371,7 +142,7 @@
         ],
         "ameacas": [
           {
-            "texto": "Petróleo acima de 100 dólares",
+            "texto": "Petróleo perto de 104 dólares",
             "origem": "externa"
           },
           {
@@ -386,7 +157,7 @@
         "peso_oportunidade": 2,
         "peso_ameaca": 3,
         "principal_oportunidade": "Crédito às empresas que exportam",
-        "principal_ameaca": "Petróleo acima de 100 dólares"
+        "principal_ameaca": "Petróleo perto de 104 dólares"
       },
       {
         "dimensao": "Social",
@@ -420,6 +191,10 @@
           },
           {
             "texto": "Industrialização como prioridade declarada",
+            "origem": "interna"
+          },
+          {
+            "texto": "Subestação da EDM em Tete",
             "origem": "interna"
           }
         ],
@@ -483,7 +258,7 @@
         ],
         "ameacas": [
           {
-            "texto": "Prazos de bloqueio de contas pouco claros",
+            "texto": "Contas de Mondlane em disputa",
             "origem": "interna"
           },
           {
@@ -494,7 +269,7 @@
         "peso_oportunidade": 2,
         "peso_ameaca": 2,
         "principal_oportunidade": "Regulamento fiscal para pequenos contribuintes",
-        "principal_ameaca": "Prazos de bloqueio de contas pouco claros"
+        "principal_ameaca": "Contas de Mondlane em disputa"
       }
     ],
     "impacto": [
@@ -538,7 +313,7 @@
         "saldo": -1,
         "porque": "PIB revisto em baixa e petróleo caro",
         "efeito": "negativo",
-        "explicacao": "O crescimento foi revisto para 0,9%, contra 2,8% projectados pelo Governo. O petróleo caro e o custo do El Niño agravam as contas, e a Conta Geral de 2025 mostra uma contracção de 0,52%. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno."
+        "explicacao": "O crescimento foi revisto para 0,9%, contra 2,8% projectados pelo Governo. O Brent, perto de 104 dólares a 9 de Outubro, e o custo do El Niño agravam as contas, e a Conta Geral de 2025 mostra uma contracção de 0,52%. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno."
       },
       {
         "grupo": "PMEs",
@@ -583,11 +358,15 @@
       {
         "publico": "Famílias rurais",
         "accao": "Comparar preços de sistemas solares e perguntar por prestadores registados na ARENE antes de comprar."
+      },
+      {
+        "publico": "Operadores de energia e transportes",
+        "accao": "Acompanhar o investimento da EDM em Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos."
       }
     ],
-    "sinal": "Preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento, os critérios do novo regime de crédito e os prazos de bloqueio de contas.",
-    "sintese": "O petróleo acima de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a SLB abriu uma fábrica em Pemba. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo.",
-    "o_que_mudou_hoje": "A pesquisa de 10 e 11 de Outubro não encontrou notícias novas e verificáveis sobre Moçambique. A análise mantém-se, com o petróleo acima de 100 dólares, o El Niño e o PIB revisto para 0,9% como pressões principais."
+    "sinal": "Preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento, os critérios do novo regime de crédito e a disputa sobre as contas de Venâncio Mondlane.",
+    "sintese": "O petróleo perto de 104 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a EDM prepara investimento em Tete. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo.",
+    "o_que_mudou_hoje": "O Brent fechou a semana perto de 104 dólares, acima dos 102 de 2 de Outubro. Chapo pediu firmeza à polícia, a EDM anunciou a subestação de Tete e o Anamola contestou o desbloqueio das contas de Mondlane. Os dados de 10 de Outubro vêm da Lusa e devem ser confirmados."
   },
   "design": {
     "slides": [
@@ -598,166 +377,91 @@
         "imagem_termos": "Mozambique coast landscape"
       },
       {
-        "titulo": "Petróleo acima de 100 dólares",
-        "texto": "O Brent recuou para 101 dólares a 5 de Outubro, mas o Irão mantém o Estreito de Ormuz fechado e os combustíveis seguem caros.",
+        "titulo": "Brent perto de 104 dólares",
+        "texto": "O petróleo fechou a semana acima dos 102 dólares de 2 de Outubro. A tensão no Estreito de Ormuz mantém os combustíveis caros.",
         "tom": "alerta",
         "imagem_termos": "oil tanker"
       },
       {
-        "titulo": "PIB revisto em baixa para 0,9%",
-        "texto": "O Governo projectava 2,8%. Cheias e choques económicos continuam a pesar na actividade, segundo a AIM.",
-        "tom": "alerta",
-        "imagem_termos": "Maputo city skyline"
+        "titulo": "Chapo pede firmeza à polícia",
+        "texto": "O Presidente quer actuação dura contra criminosos, mas sem pôr ninguém acima da lei e com respeito pelos direitos humanos.",
+        "tom": "neutro",
+        "imagem_termos": "Maputo city street"
       },
       {
-        "titulo": "Crédito para quem exporta",
-        "texto": "O Banco de Moçambique deixa os bancos deduzir das reservas obrigatórias os novos créditos a empresas que exportam ou substituem importações. O regime dura 18 meses.",
+        "titulo": "EDM investe em Tete",
+        "texto": "A empresa vai aplicar mais de 19 milhões de euros numa subestação. O calendário ainda não é conhecido.",
         "tom": "oportunidade",
-        "imagem_termos": "Maputo port containers"
+        "imagem_termos": "electrical substation"
       },
       {
-        "titulo": "El Niño ameaça 5,3 milhões",
-        "texto": "Três distritos estão no nível máximo de vulnerabilidade e a insegurança alimentar subiu 55%.",
-        "tom": "alerta",
-        "imagem_termos": "drought maize Africa"
-      },
-      {
-        "titulo": "SLB abre fábrica em Pemba",
-        "texto": "A unidade de fluidos offshore tem capacidade para 21 mil barris. A obra criou mais de 100 empregos, 80% de moçambicanos.",
+        "titulo": "Índia no comboio e no autocarro",
+        "texto": "O Ministério dos Transportes quer parcerias com a Índia na mobilidade urbana e nos caminhos de ferro.",
         "tom": "oportunidade",
-        "imagem_termos": "Pemba Mozambique harbour"
-      },
-      {
-        "titulo": "Bancos podem bloquear contas",
-        "texto": "Um aviso de 29 de Setembro permite bloquear contas por suspeita de fraude. Os bancos dizem que é preventivo, e os críticos pedem prazos claros.",
-        "tom": "alerta",
-        "imagem_termos": "Maputo bank building"
+        "imagem_termos": "Mozambique railway Beira"
       }
     ],
     "destaques_capa": [
-      "PIB revisto em baixa para 0,9%",
-      "Crédito para quem exporta",
-      "SLB abre fábrica em Pemba"
+      "Brent perto de 104 dólares",
+      "EDM investe em Tete",
+      "Chapo pede firmeza à polícia"
     ],
-    "legenda": "O crescimento foi revisto em baixa para 0,9% e o petróleo continua acima de 100 dólares. Em sentido contrário, o Banco de Moçambique abre crédito às empresas que exportam ou substituem importações. Veja quem ganha, quem perde e o que fazer.",
+    "legenda": "O petróleo fechou a semana perto de 104 dólares e continua a pesar nos combustíveis e nos preços. Em Tete, a EDM prepara uma subestação de mais de 19 milhões de euros. Veja quem ganha, quem perde e o que fazer.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesDaSemana"
     ],
     "fontes_usadas": [
+      1,
       2,
-      4,
-      14,
-      15,
-      19,
-      20
+      3,
+      4
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\nO petróleo Brent recuou a 5 de Outubro para cerca de 101 dólares, ainda 54% acima de há um ano. O Irão mantém o Estreito de Ormuz fechado.\n\n*MOÇAMBIQUE*\nO PIB foi revisto em baixa para 0,9%, contra 2,8% projectados pelo Governo, segundo a AIM de 7 de Outubro.\n\nO Banco de Moçambique apresentou um regime de 18 meses que deixa os bancos deduzir das reservas obrigatórias os novos créditos a empresas que exportam ou substituem importações.\n\nA 9 de Outubro a SLB inaugurou em Pemba uma fábrica para operações offshore, com mais de 100 empregos na obra. No mesmo dia, a AMER avisou que as ligações de energia fora da rede caíram para 122 mil.\n\nOs bancos dizem que o bloqueio de contas por suspeita é preventivo. Os críticos pedem prazos claros. O El Niño pode afectar 5,3 milhões de pessoas.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem sobretudo as famílias de baixa renda, com comida e transporte mais caros. Também perdem o Governo, a classe média e as PMEs.\n\n*DIRECÇÃO*\nFamílias: guardar reservas de alimentos básicos. PMEs que exportam: perguntar ao banco pelo novo crédito. Quem tem conta de salário: manter os dados actualizados. Governo e parceiros: dar prioridade aos três distritos mais vulneráveis ao El Niño.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o petróleo, os combustíveis e os critérios do novo crédito.\n\nSe esta leitura foi útil, partilhe com quem decide em casa ou na empresa.",
-    "linkedin": "O crescimento económico de Moçambique foi revisto em baixa para 0,9%, contra 2,8% projectados pelo Governo, segundo a AIM de 7 de Outubro.\n\nDe fora vem outra pressão. O Brent recuou a 5 de Outubro para cerca de 101 dólares, mais de 50% acima de há um ano, e o Irão mantém o Estreito de Ormuz fechado. Em casa, o El Niño pode afectar 5,3 milhões de pessoas.\n\nHá uma resposta concreta. O Banco de Moçambique apresentou à CTA um regime de 18 meses que deixa os bancos deduzir das reservas obrigatórias o valor de novos créditos a empresas que substituam importações ou aumentem exportações. A CTA quer critérios claros e acesso das PMEs.\n\nA 9 de Outubro a SLB inaugurou em Pemba uma fábrica de fluidos para operações offshore, com capacidade inicial de 21 mil barris. No mesmo dia, a AMER avisou que as ligações de energia fora da rede caíram para 122 mil, quando o acesso universal pede 180 mil a 200 mil por ano.\n\nNo plano legal, os bancos dizem que o bloqueio de contas por suspeita, previsto no aviso de 29 de Setembro, é preventivo. Os críticos continuam a pedir prazos.\n\nDirecção\n\nPMEs que exportam ou substituem importações: perguntar ao banco como aceder ao regime. Investidores: esperar por medidas concretas de industrialização. Governo e parceiros: concentrar a resposta ao El Niño nos três distritos mais vulneráveis.\n\nO crédito novo só ajuda se chegar às PMEs. Os critérios de acesso, ainda por publicar, dirão quanto vale a medida.\n\n#Moçambique #Economia #DirecçõesDaSemana",
-    "instagram": "O crescimento foi revisto em baixa para 0,9% e o petróleo continua acima de 100 dólares. Em sentido contrário, o Banco de Moçambique abre crédito às empresas que exportam ou substituem importações. A SLB abriu uma fábrica em Pemba. Veja quem ganha, quem perde e o que fazer.\n\n#Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, 2026-S41\n\n## Resumo da semana\nO petróleo acima de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. O Banco de Moçambique anunciou crédito para empresas que exportam ou substituem importações, e a confiança dos empresários recuperou. A SLB abriu uma fábrica em Pemba. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo.\n\n## Mundo\nO Brent chegou a 107,8 dólares por barril no início da semana e recuou a 5 de Outubro para 101,31 dólares, ainda 54,7% acima de há um ano. Pesam a tensão entre os EUA e o Irão e o Estreito de Ormuz, que o Irão mantém fechado enquanto Washington não aceitar as suas condições. Segundo a Reuters, o petróleo caro pode travar a descida dos juros no Gana, Quénia, Zâmbia e Nigéria. Não encontrei cotação do Brent de 7 ou 8 de Outubro.\n\n## Moçambique\nA 4 de Outubro, em Xai-Xai, o Presidente Daniel Chapo defendeu que o desenvolvimento económico é a nova fronteira da paz, com emprego, produção e atenção à juventude.\n\nA AIM noticiou a 7 de Outubro que o PIB foi revisto em baixa para 0,9%, contra 2,8% projectados pelo Governo. O texto não indica o ano a que o valor se refere. No mesmo dia, o Banco de Moçambique apresentou à CTA um regime de 18 meses que permite deduzir das reservas obrigatórias os novos créditos a empresas que substituam importações ou aumentem exportações. A CTA acolheu a medida, mas quer critérios claros e acesso efectivo das PMEs.\n\nA 9 de Outubro a SLB inaugurou em Pemba uma fábrica de sistemas de fluidos para operações offshore, com capacidade inicial de 21 mil barris. A obra criou mais de 100 empregos, 80% ocupados por moçambicanos. No mesmo dia, a AMER avisou que as ligações fora da rede caíram para 122 mil, quando o acesso universal exige 180 mil a 200 mil por ano. A electrificação chegou a 66,4% em 2025, com 89% nas cidades e 30% no campo. O Governo quer ainda recuperar regadios e equipamentos agrícolas parados e reafirmou o combate à corrupção na Administração Pública, sem medidas novas anunciadas.\n\nEntre 2022 e 2025, o gás do Rovuma rendeu cerca de 252,8 milhões de dólares, sobretudo do projecto Coral Sul. O Governo quer incubar pelo menos mil empreendedores do agronegócio por ano, com apoio do GAPI.\n\nO El Niño pode afectar 5,3 milhões de pessoas, com três distritos no nível máximo de vulnerabilidade. O parecer do Tribunal Administrativo sobre a Conta Geral do Estado de 2025 aponta, segundo o Club of Mozambique, uma contracção de 0,52%.\n\nA 29 de Setembro, o Banco de Moçambique publicou um aviso que deixa os bancos bloquear contas por suspeita de fraude, branqueamento ou financiamento do terrorismo. Segundo o Rio Times, que cita O País, comentadores e o CDD criticam a falta de prazos e o papel dos tribunais. A 9 de Outubro a Associação Moçambicana de Bancos disse que o bloqueio é estritamente preventivo, que só se aplica a transacções suspeitas definidas por lei e que cada caso é comunicado ao GIFiM, à Procuradoria e ao Banco de Moçambique. A duração segue os prazos da investigação. Não há números públicos de contas bloqueadas.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); Paz exige instituições credíveis (int.) |\n| Económica | Crédito às empresas que exportam (int.); Recuperação de regadios parados (int.); Incubação de mil agro-empresários (int.) | Petróleo acima de 100 dólares (ext.); PIB revisto para 0,9% (int.); Juros altos, referência a 15,5% (int.) |\n| Social | Agenda de emprego para jovens (int.) | Insegurança alimentar em alta (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Regulamento fiscal para pequenos contribuintes (int.); Combate à corrupção reafirmado (int.); Responsabilização criminal no caju (int.) | Prazos de bloqueio de contas pouco claros (int.); Economia contraiu 0,52% em 2025 (int.) |\n\n## Quem ganha, quem perde\nGoverno: perde. O El Niño custa ao Estado cerca de 267 milhões de euros e o petróleo caro pressiona os subsídios.\nClasse baixa: perde muito. A insegurança alimentar subiu 55% e o gasóleo encarece o transporte de alimentos.\nClasse média: perde. Combustível e juros altos reduzem o rendimento. Os bancos dizem que o bloqueio de contas é preventivo, mas os prazos continuam por esclarecer.\nClasse alta e investidores: ganha. A confiança recuperou e o crédito a quem exporta abre espaço, apesar do PIB mais fraco.\nONGs e parceiros: ganha. A visita da ONU e a crise alimentar trazem mais atenção e financiamento, e a queda das ligações fora da rede abre espaço para apoio.\nMacroeconomia: perde. Crescimento de 0,9% contra 2,8% projectados, petróleo caro e custo do El Niño. O gás do Rovuma é um alívio pequeno.\nPMEs: perde. Juros altos e gasóleo apertam as margens. O novo crédito só ajuda se o acesso for real.\nRamos de negócio: efeito misto. Ganham energia, mineração e petróleo, com a fábrica da SLB em Pemba. Perdem transportes, agricultura e comércio de alimentos.\n\n## Direcção\nGoverno: Preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\nPMEs: Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Quem trabalha com energia, equipamento ou serviços offshore deve contactar a SLB em Pemba sobre fornecimento local.\nONGs e parceiros: Concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\nInvestidores: Acompanhar medidas concretas de industrialização antes de comprometer capital.\nTrabalhadores e clientes dos bancos: Manter os dados actualizados e guardar comprovativos. Em caso de bloqueio, pedir ao banco a comunicação formal e o prazo.\nFamílias rurais: Comparar preços de sistemas solares e perguntar por prestadores registados na ARENE antes de comprar.\n\n## Sinal a acompanhar\nO preço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento, os critérios de acesso ao novo crédito e os prazos de bloqueio de contas.\n\n## Fontes\n- AIM: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/\n- IOL / AutoTrader: https://iol.co.za/business/economy/2026-09-29-cloned-fuel-price-pain-deepens-as-projected-october-petrol-and-diesel-hikes-grow/\n- Reuters (via BusinessDay): https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- Observador / Lusa: https://observador.pt/2026/09/22/el-nino-pode-afetar-53-milhoes-de-pessoas-e-custar-267-milhoes-de-euros-ao-estado-mocambicano/\n- OHCHR: https://www.ohchr.org/en/statements-and-speeches/2026/10/end-mission-statement-country-visit-mozambique\n- Trading Economics: https://tradingeconomics.com/mozambique/news\n- AIM / Club of Mozambique: https://aimnews.org/2026/10/01/tribunal-administrativo-submete-a-ar-parecer-sobre-conta-geral-do-estado/\n- AIM: https://aimnews.org/2026/09/29/governo-introduz-alteracoes-nos-regulamentos-fiscais-para-reforcar-eficiencia-tributaria/\n- Rádio Moçambique: https://www.rm.co.mz/\n- AIM: https://aimnews.org/2026/10/06/mocambique-e-tanzania-procuram-respostas-conjuntas-para-os-desafios-de-seguranca/\n- AIM: https://aimnews.org/2026/10/06/56924/\n- AIM: https://aimnews.org/2026/10/05/chapo-inicia-visita-oficial-ao-congo/\n- AIM: https://aimnews.org/2026/10/05/oam-adverte-que-a-paz-exige-instituicoes-crediveis-e-respeito-pela-constituicao/\n- AIM, PIB: https://aimnews.org/2026/10/07/crescimento-do-pib-revisto-em-baixa-para-09-por-cento/\n- AIM, Banco de Moçambique e CTA: https://aimnews.org/2026/10/07/bm-e-cta-retomam-dialogo-colocando-credito-as-empresas-no-topo-da-agenda/\n- AIM, gás do Rovuma: https://aimnews.org/2026/10/07/gas-de-rovuma-receitas-2022-25-mocambique-arrecada-aproximadamente-253-milhoes-de-dolares/\n- AIM, reservas obrigatórias: https://aimnews.org/2026/10/07/banco-de-mocambique-partilha-informacao-sobre-novo-regime-de-reservas-obrigatorias/\n- Rio Times, bloqueio de contas: https://www.riotimesonline.com/mozambique-bank-account-freezes-2026/\n- AIM, visita ao Congo: https://aimnews.org/2026/10/07/chapo-termina-visita-ao-congo-com-desempenho-positivo/\n- AIM, SLB em Pemba: https://aimnews.org/2026/10/09/mocambique-slb-inaugura-nova-fabrica-para-reforcar-operacoes-offshore/\n- AIM, AMER: https://aimnews.org/2026/10/09/amer-alerta-para-queda-das-ligacoes-fora-da-rede/\n- AIM, regadios: https://aimnews.org/2026/10/09/governo-quer-recuperar-regadios-e-equipamentos-agricolas-inoperacionais/\n- AIM, corrupção: https://aimnews.org/2026/10/09/administracao-publica-governo-reitera-prioridade-no-combate-a-corrupcao/\n- AIM, AMB e bloqueio de contas: https://aimnews.org/2026/10/09/blocking-bank-accounts-based-on-suspected-fraud-is-preventive-measure/\n- AIM, Tanzânia: https://aimnews.org/2026/10/09/mozambique-and-tanzania-adopt-joint-measures-against-security-threats/",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 12 de Outubro*\n\n*MUNDO*\nO Brent fechou a semana perto de 104 dólares por barril, acima dos 102 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz mantêm o preço alto. Responsáveis de vários países africanos avisam que o petróleo caro pode travar a descida dos juros.\n\n*MOÇAMBIQUE*\nO Presidente Daniel Chapo pediu à polícia uma actuação firme contra criminosos, com respeito pelos direitos humanos. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O Ministério dos Transportes quer parcerias com a Índia na mobilidade urbana e nos caminhos de ferro. O crescimento da economia foi revisto em baixa para 0,9%.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem as famílias de baixa renda, porque o transporte e a comida ficam mais caros. A classe média e as PMEs sofrem com o gasóleo e com juros altos. Ganham os investidores, com a confiança empresarial a recuperar, e as ONGs, com mais atenção ao clima e à fome. O Governo perde margem nas contas, com o El Niño e o petróleo.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços e guardar reservas de alimentos básicos. As PMEs que exportam devem perguntar ao banco pelo novo regime de crédito. Os investidores devem esperar por medidas concretas antes de comprometer capital.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o preço do petróleo, a decisão sobre os combustíveis internos e a disputa sobre as contas de Venâncio Mondlane.\n\nSe achou útil, partilhe com quem decide em casa ou na empresa.",
+    "linkedin": "Petróleo perto de 104 dólares e crescimento de 0,9%: o que muda para Moçambique\n\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos cerca de 102 de 2 de Outubro. A tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz sustentam o preço. Em África, responsáveis de vários países avisam que o petróleo caro pode travar a descida dos juros.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O El Niño pode afectar 5,3 milhões de pessoas e o gasóleo encarece o transporte de alimentos. Do lado positivo, o Banco de Moçambique abriu crédito para empresas que exportam ou substituem importações, a confiança empresarial recuperou e a EDM prepara uma subestação de mais de 19 milhões de euros em Tete. O Ministério dos Transportes também quer parcerias com a Índia nos caminhos de ferro e na mobilidade urbana.\n\nQuem ganha: investidores e sectores ligados a energia, mineração e petróleo. Quem perde: famílias de baixa renda, classe média, PMEs, transportes e comércio de alimentos. O Governo perde margem nas contas.\n\nDirecção\n\nGestores de PMEs que exportam devem perguntar ao banco pelo novo regime de crédito e pelos critérios de acesso. Operadores de energia e transportes devem acompanhar o projecto de Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos. Investidores devem esperar por medidas concretas de industrialização antes de comprometer capital.\n\nSinal a acompanhar: o preço do gasóleo e a decisão do Governo sobre os preços internos dos combustíveis. Se o Brent se mantiver acima de 100 dólares, o custo de transporte vai continuar a pressionar as margens.\n\n#Moçambique #Economia #PMEs",
+    "instagram": "O petróleo fechou a semana perto de 104 dólares e continua a pesar nos combustíveis e nos preços. Em Tete, a EDM prepara uma subestação de mais de 19 milhões de euros. Veja quem ganha, quem perde e o que fazer. #Moçambique #DirecçõesDaSemana",
+    "facebook": "Direcções da Semana, 12 de Outubro\n\nO petróleo fechou a semana perto de 104 dólares por barril. Isto pesa no preço do transporte e, mais tarde, no preço da comida.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete, e o Ministério dos Transportes quer parcerias com a Índia nos caminhos de ferro.\n\nQuem mais sente a subida dos combustíveis são as famílias de baixa renda e as pequenas empresas. Os investidores têm razões para mais confiança, porque o sector empresarial está a recuperar e há crédito novo para quem exporta.\n\nO que fazer: comparar preços antes de comprar em quantidade, guardar reservas de alimentos básicos e, se tem uma empresa que exporta, perguntar ao banco pelo novo regime de crédito.\n\nA direcção principal da semana: planear com cautela e acompanhar o preço do gasóleo.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Direcções da Semana, 12 de Outubro de 2026\n\n## Resumo da semana\nO petróleo perto de 104 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a EDM prepara investimento em Tete. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo. Os dados de 10 de Outubro vêm da Lusa e devem ser confirmados.\n\n## Mundo\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril (Trading Economics indica 104,43 e o contrato de futuros fechou em 104,72), acima dos 102,25 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz continuam a sustentar o preço. Em África, responsáveis de vários países avisam que o petróleo caro pode travar a descida dos juros no Gana, Quénia, Zâmbia e Nigéria.\n\n## Moçambique\nO Presidente Daniel Chapo pediu à polícia, a 10 de Outubro, uma actuação firme contra criminosos, sem os pôr acima da lei e com respeito pelos direitos humanos. O Ministério dos Transportes e Logística anunciou que quer explorar parcerias com a Índia na mobilidade urbana e na modernização ferroviária. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O partido Anamola contestou, a 9 de Outubro, o desbloqueio das contas bancárias de Venâncio Mondlane. Mantêm-se o PIB revisto para 0,9% e o risco do El Niño para 5,3 milhões de pessoas.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); Paz exige instituições credíveis (int.); Contestação sobre contas de Mondlane (int.) |\n| Económica | Crédito às empresas que exportam (int.); Recuperação de regadios parados (int.); Incubação de mil agro-empresários (int.) | Petróleo perto de 104 dólares (ext.); PIB revisto para 0,9% (int.); Juros altos, referência a 15,5% (int.) |\n| Social | Agenda de emprego para jovens (int.) | Insegurança alimentar em alta (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.); Subestação da EDM em Tete (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Regulamento fiscal para pequenos contribuintes (int.); Combate à corrupção reafirmado (int.); Responsabilização criminal no caju (int.) | Contas de Mondlane em disputa (int.); Economia contraiu 0,52% em 2025 (int.) |\n\n## Quem ganha, quem perde\nGoverno (negativo): O El Niño foi estimado em 267 milhões de euros para o Estado, e o petróleo caro pressiona subsídios e transportes.\n\nClasse baixa (negativo): A insegurança alimentar subiu 55% e o gasóleo encarece o transporte de alimentos.\n\nClasse média (negativo): Combustível e crédito a 15,5% de referência reduzem o rendimento disponível. A AMB diz que o bloqueio de contas é preventivo e deve ser comunicado às autoridades, mas os prazos continuam por esclarecer.\n\nClasse alta e investidores (positivo): A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco.\n\nONGs e parceiros (positivo): A visita da ONU e a crise alimentar aumentam a atenção e o financiamento para respostas humanitárias. A AMER mostra uma lacuna no acesso à energia fora da rede, onde há espaço para apoio.\n\nMacroeconomia (negativo): O crescimento foi revisto para 0,9%, contra 2,8% projectados pelo Governo. O Brent, perto de 104 dólares a 9 de Outubro, e o custo do El Niño agravam as contas, e a Conta Geral de 2025 mostra uma contracção de 0,52%. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno.\n\nPMEs (negativo): Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar.\n\nRamos de negócio (misto): Ganham energia, mineração e petróleo, com a fábrica da SLB em Pemba e a agenda do Governo. Perdem transportes, agricultura e comércio de alimentos, expostos ao gasóleo e à seca.\n\n## Direcção\nGoverno: Preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\n\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\n\nPMEs: Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Quem trabalha com energia, equipamento ou serviços offshore deve contactar a SLB em Pemba sobre fornecimento local.\n\nONGs e parceiros: Concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\n\nInvestidores: Acompanhar medidas concretas de industrialização antes de comprometer capital.\n\nTrabalhadores e clientes dos bancos: Manter os dados actualizados e guardar comprovativos. Em caso de bloqueio, pedir ao banco a comunicação formal e o prazo.\n\nFamílias rurais: Comparar preços de sistemas solares e perguntar por prestadores registados na ARENE antes de comprar.\n\nOperadores de energia e transportes: Acompanhar o investimento da EDM em Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos.\n\n## Sinal a acompanhar\nPreço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento, os critérios do novo regime de crédito e a disputa sobre as contas de Venâncio Mondlane.\n\n## Fontes\n- Trading Economics, Brent: https://tradingeconomics.com/commodity/brent-crude-oil\n- Lusa, Moçambique (notícias de 9 e 10 de Outubro): https://www.lusa.pt/lusofonia/mozambique\n- BusinessDay, petróleo e inflação em África: https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- AIM, Moçambique: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/",
     "verificar": [
-      "PIB revisto para 0,9%: a AIM não diz o ano nem quem fez a revisão",
-      "Regime de reservas obrigatórias: data de início e critérios ainda não publicados",
-      "Preços internos dos combustíveis: valores vêm de agregadores, sem comunicado oficial",
-      "Taxa de referência de 15,5%: fonte de confiança baixa",
-      "Receitas do gás do Rovuma de 252,8 milhões de dólares, 2022 a 2025",
-      "Aviso de 29 de Setembro sobre bloqueio de contas: texto do aviso lido só em segunda mão (Rio Times, citando O País)",
-      "Críticas de Alberto da Cruz, Vicente Manjate e Adriano Nuvunga: confirmar nas fontes originais",
-      "SLB em Pemba: capacidade de 21 mil barris, mais de 100 empregos e 80% de moçambicanos, segundo a AIM de 9 de Outubro",
-      "AMER: 122 mil ligações fora da rede e meta de 180 mil a 200 mil por ano; electrificação de 66,4% em 2025",
-      "AMB: o artigo da AIM é contraditório sobre quem fixa a duração do bloqueio"
+      "Brent: 104,43 (Trading Economics) e 104,72 (futuros) a 9 de Outubro; existe uma série spot muito mais alta (125,44 a 6 de Outubro) que não foi usada",
+      "Notícias de 9 e 10 de Outubro vêm só da listagem da Lusa, sem ler os artigos",
+      "Valor da subestação da EDM em Tete (mais de 19 milhões de euros) e calendário",
+      "Fundamentos da contestação do Anamola sobre as contas de Venâncio Mondlane"
     ],
     "duvidas": [],
-    "facebook": "O crescimento da economia moçambicana foi revisto em baixa para 0,9%, contra os 2,8% que o Governo projectava, segundo a AIM de 7 de Outubro.\n\nLá fora, o petróleo Brent recuou a 5 de Outubro para cerca de 101 dólares, mas o Irão mantém o Estreito de Ormuz fechado e os combustíveis continuam caros. Para as famílias, isso quer dizer comida e transporte mais caros. Em casa, o El Niño pode afectar 5,3 milhões de pessoas.\n\nHá uma medida a favor das empresas. O Banco de Moçambique apresentou um regime de 18 meses que deixa os bancos deduzir das reservas obrigatórias os novos créditos a empresas que exportam ou substituem importações. A CTA quer critérios claros para que as PMEs também tenham acesso.\n\nEm Pemba, a SLB abriu uma fábrica para operações offshore. Fora da rede, as ligações de energia caíram para 122 mil, bem abaixo do que o país precisa.\n\nQuem tem conta de salário deve manter os dados actualizados no banco, porque um aviso de 29 de Setembro permite bloquear contas por suspeita de fraude, e os bancos dizem que a medida é preventiva. Os prazos continuam por esclarecer.\n\nDirecção da semana: as PMEs que exportam devem perguntar ao banco pelo novo crédito, e as famílias devem guardar reservas de alimentos básicos.\n\n#Moçambique #DirecçõesDaSemana",
     "conformidade": [
       {
         "criterio": "Notícias do mundo",
         "ok": true,
-        "nota": "presente na análise completa"
+        "nota": "Presente na análise completa."
       },
       {
         "criterio": "Notícias de Moçambique",
         "ok": true,
-        "nota": "presente na análise completa"
+        "nota": "Presente na análise completa."
       },
       {
         "criterio": "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
         "ok": true,
-        "nota": "presente na análise completa"
+        "nota": "Presente na análise completa."
       },
       {
         "criterio": "Impacto em cada um dos 8 grupos",
         "ok": true,
-        "nota": "presente na análise completa"
+        "nota": "Presente na análise completa."
       },
       {
         "criterio": "Direcção prática por público",
         "ok": true,
-        "nota": "presente na análise completa"
+        "nota": "Presente na análise completa."
       },
       {
         "criterio": "Sinal a acompanhar",
         "ok": true,
-        "nota": "presente na análise completa"
+        "nota": "Presente na análise completa."
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png",
-      "data/imagens/feed/slide-13.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png",
-      "data/imagens/story/slide-13.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Hannahlongole / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Jcornelius / Wikimedia Commons, CC BY-SA 4.0"
-    ],
-    "v": 1791686463186
   }
 }
