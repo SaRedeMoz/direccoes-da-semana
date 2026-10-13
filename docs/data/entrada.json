@@ -1,10 +1,16 @@
 {
   "modo": "diario",
-  "hoje": "2026-10-12",
+  "hoje": "2026-10-13",
   "semana": "2026-S42",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
   "noticias_do_aprovador": [],
-  "sugestoes_novas": [],
+  "sugestoes_novas": [
+    "Lista de noticias",
+    "Sugestões listas de noticia"
+  ],
   "incluir_itens": [],
-  "ids_comentarios": []
+  "ids_comentarios": [
+    6120227566,
+    6120276810
+  ]
 }
