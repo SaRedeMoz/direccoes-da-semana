@@ -1,7 +1,7 @@
 {
   "semana": "2026-S42",
-  "dia": "2026-10-13",
-  "versao": 2,
+  "dia": "2026-10-14",
+  "versao": 3,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
   "falhas_conformidade": [],
@@ -99,10 +99,10 @@
     }
   ],
   "lacunas": [
+    "Preços oficiais dos combustíveis em Outubro",
     "Sofala e zona Centro: sem notícias datadas de Outubro",
-    "Preços oficiais dos combustíveis em Outubro (Arene)",
-    "Escassez de combustível: Chapo falou a 3 de Outubro em dificuldades localizadas",
-    "Cabo Delgado e segurança"
+    "Fecho do Brent a 12 e 13 de Outubro",
+    "Missão do FMI prevista para Novembro, por confirmar"
   ],
   "analise": {
     "destaques": {
@@ -398,7 +398,7 @@
     ],
     "sinal": "Preço do petróleo e do gasóleo, a escassez localizada de combustível, a decisão sobre os preços internos, o fim da amnistia de armas em Dezembro, o debate da Conta Geral do Estado e a disputa sobre as contas de Venâncio Mondlane.",
     "sintese": "O petróleo perto de 104 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a EDM prepara investimento em Tete. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo.",
-    "o_que_mudou_hoje": "Chapo anunciou que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. O PMI de Setembro caiu para 50,2, mas a confiança das empresas está no nível mais alto desde 2017. Não houve confirmação do fecho do Brent a 12 de Outubro. As fontes de 12 de Outubro são secundárias e devem ser confirmadas."
+    "o_que_mudou_hoje": "A pesquisa de 14 de Outubro não encontrou notícias novas confirmadas sobre Moçambique. A análise mantém-se. O fecho do Brent a 12 e 13 de Outubro continua por confirmar, e o preço de referência é de cerca de 104 dólares a 9 de Outubro."
   },
   "design": {
     "slides": [
@@ -465,7 +465,7 @@
     ]
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, 13 de Outubro*\n\n*MUNDO*\nO Brent fechou a semana perto de 104 dólares por barril, acima dos 102 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz mantêm o preço alto.\n\n*MOÇAMBIQUE*\nO Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O Ministério dos Transportes quer parcerias com a Índia. O crescimento da economia foi revisto em baixa para 0,9%. O PMI caiu para 50,2 em Setembro, mas a confiança das empresas é a mais alta desde 2017.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem as famílias de baixa renda, porque o transporte e a comida ficam mais caros. A classe média e as PMEs sofrem com o gasóleo e com juros altos. Ganham os investidores, com a confiança empresarial a recuperar, e as ONGs, com mais atenção ao clima e à fome.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços e guardar reservas de alimentos básicos. As PMEs que exportam devem perguntar ao banco pelo novo regime de crédito.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o preço do petróleo, a decisão sobre os combustíveis internos e o fim da amnistia de armas e a disputa sobre as contas de Venâncio Mondlane.\n\nSe achou útil, partilhe com quem decide em casa ou na empresa.",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 14 de Outubro*\n\n*MUNDO*\nO Brent fechou a semana perto de 104 dólares por barril, acima dos 102 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz mantêm o preço alto.\n\n*MOÇAMBIQUE*\nO Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O Ministério dos Transportes quer parcerias com a Índia. O crescimento da economia foi revisto em baixa para 0,9%. O PMI caiu para 50,2 em Setembro, mas a confiança das empresas é a mais alta desde 2017.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem as famílias de baixa renda, porque o transporte e a comida ficam mais caros. A classe média e as PMEs sofrem com o gasóleo e com juros altos. Ganham os investidores, com a confiança empresarial a recuperar, e as ONGs, com mais atenção ao clima e à fome.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços e guardar reservas de alimentos básicos. As PMEs que exportam devem perguntar ao banco pelo novo regime de crédito.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o preço do petróleo, a decisão sobre os combustíveis internos e o fim da amnistia de armas e a disputa sobre as contas de Venâncio Mondlane.\n\nSe achou útil, partilhe com quem decide em casa ou na empresa.",
     "linkedin": "Petróleo perto de 104 dólares e crescimento de 0,9%: o que muda para Moçambique\n\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos cerca de 102 de 2 de Outubro. A tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz sustentam o preço.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O El Niño pode afectar 5,3 milhões de pessoas e o gasóleo encarece o transporte de alimentos. Do lado positivo, a confiança das empresas está no nível mais alto desde 2017, apesar de o PMI ter caído para 50,2 em Setembro. Também o Banco de Moçambique abriu crédito para empresas que exportam ou substituem importações, a confiança empresarial recuperou e a EDM prepara uma subestação de mais de 19 milhões de euros em Tete. O Ministério dos Transportes também quer parcerias com a Índia nos caminhos de ferro e na mobilidade urbana.\n\nQuem ganha: investidores e sectores ligados a energia, mineração e petróleo. Quem perde: famílias de baixa renda, classe média, PMEs, transportes e comércio de alimentos.\n\nDirecção\n\nGestores de PMEs que exportam devem perguntar ao banco pelo novo regime de crédito e pelos critérios de acesso. Operadores de energia e transportes devem acompanhar o projecto de Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos. Investidores devem esperar por medidas concretas de industrialização antes de comprometer capital.\n\nSinal a acompanhar: o preço do gasóleo e a decisão do Governo sobre os preços internos dos combustíveis. Se o Brent se mantiver acima de 100 dólares, o custo de transporte vai continuar a pressionar as margens.\n\n#Moçambique #Economia #PMEs",
     "instagram": "O petróleo continua perto de 104 dólares e pesa nos preços. Chapo anuncia recolha de armas ilegais depois da amnistia, e a confiança das empresas está no nível mais alto desde 2017. Veja quem ganha, quem perde e o que fazer. #Moçambique #DirecçõesDaSemana",
     "facebook": "Direcções da Semana, 13 de Outubro\n\nO petróleo fechou a semana perto de 104 dólares por barril. Isto pesa no preço do transporte e, mais tarde, no preço da comida.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou a recolha forçada de armas ilegais depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete, e o Ministério dos Transportes quer parcerias com a Índia nos caminhos de ferro.\n\nQuem mais sente a subida dos combustíveis são as famílias de baixa renda e as pequenas empresas. Os investidores têm razões para mais confiança, porque o sector empresarial está a recuperar e há crédito novo para quem exporta.\n\nO que fazer: comparar preços antes de comprar em quantidade, guardar reservas de alimentos básicos e, se tem uma empresa que exporta, perguntar ao banco pelo novo regime de crédito.\n\nA direcção principal da semana: planear com cautela e acompanhar o preço do gasóleo.\n\n#Moçambique #DirecçõesDaSemana",
@@ -477,7 +477,8 @@
       "Fundamentos da contestação do Anamola sobre as contas de Venâncio Mondlane",
       "Armas ilegais e amnistia até Dezembro: fonte secundária (Voice of Nigeria), confirmar com a AIM ou a Lusa",
       "PMI de 50,2 em Setembro e confiança no máximo desde 2017: confirmar no Standard Bank",
-      "Fecho do Brent a 12 de Outubro não confirmado"
+      "Fecho do Brent a 12 de Outubro não confirmado",
+      "Fecho do Brent a 12 e 13 de Outubro, ainda não confirmado"
     ],
     "duvidas": [
       "As sugestões 'Lista de noticias' e 'Sugestões listas de noticia' não são claras. Acrescentei uma secção 'Lista de notícias' na análise completa. Era isto que pretendia, ou quer a lista também no WhatsApp e no LinkedIn?"
@@ -514,63 +515,5 @@
         "nota": "Presente na análise completa."
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png",
-      "data/imagens/feed/slide-13.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png",
-      "data/imagens/story/slide-13.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Claus Wonnemann / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Cornelius Kibelka from Berlin, Germany / Wikimedia Commons, CC BY-SA 2.0",
-      "Foto: Aciarium / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Andrew Moore from Johannesburg, South Africa / Wikimedia Commons, CC BY-SA 2.0",
-      "Foto: Photos mainly by H. Graumann and I. Piedade Pó, void of copy / Wikimedia Commons, Public domain"
-    ],
-    "v": 1791865244848
   }
 }
