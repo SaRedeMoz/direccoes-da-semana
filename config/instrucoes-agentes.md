@@ -129,7 +129,7 @@ As imagens são geradas automaticamente a partir deste ficheiro: capa no estilo 
 no estilo telejornal vermelho, e os slides de análise (PESTAL, quem ganha e quem perde, direcção, sinal) no estilo
 preto e verde, criados a partir de `analise.json`. Por isso aqui só escreves a capa e as notícias.
 Grava em `trabalho/design.json`:
-`{"slides":[capa, 4 a 6 notícias],"destaques_capa":[3 frases, máx. 8 palavras cada],"legenda" (máx. 60 palavras),"hashtags":[2-3]}`
+`{"slides":[capa, 4 a 6 notícias],"manchete":string (título da edição para o escritório, máx. 10 palavras, ex.: "Petróleo caro, armas recolhidas e uma lei para o conteúdo local"),"destaques_capa":[3 frases, máx. 8 palavras cada],"legenda" (máx. 60 palavras),"hashtags":[2-3]}`
 - Cada slide: `{"titulo" (máx. 7 palavras),"texto" (1 a 2 frases, máx. 30 palavras),"tom":"alerta"|"oportunidade"|"neutro","imagem_termos": string}`.
 - O slide 1 é a capa: `titulo` "Direcções da Semana", `texto` vazio, `imagem_termos` de uma paisagem de Moçambique.
 - Não repitas nas notícias o que vai nos slides de análise.
@@ -213,7 +213,8 @@ preenchido, o assunto é esse. Não repitas o assunto dos últimos 3 posts do di
  "textos":{"whatsapp":string (250 a 350 palavras, com os três cenários e a conta),"instagram":string (máx. 70 palavras),
            "facebook":string (180 a 260 palavras),"linkedin":string (250 a 350 palavras, tom profissional)}}
 ```
-As probabilidades somam 100. No modo `rever`, refaz o post do dia de hoje aplicando as sugestões do aprovador.
+As probabilidades somam 100. No modo `rever`, refaz o post do dia de hoje aplicando as sugestões do aprovador;
+se ainda não houver post do dia de hoje (`docs/data/dia.json` com outra data), faz o post completo, com as pesquisas a que tens direito.
 
 ### 5b. "O Seu Bolso" (`post_do_dia` = "bolso", às quartas)
 Para a classe média e a classe baixa. **Não é a análise de uma semana**: é o que a memória mostra ao longo das
@@ -231,7 +232,8 @@ semanas. Usa as tendências de 4 e 12 semanas de `memoria/resumo.json`, os temas
 ```
 - As direcções são práticas e gerais, para famílias e pequenos negócios, e não aconselhamento financeiro individual.
   Nada de recomendar produtos financeiros, bancos ou investimentos concretos.
-- Se a memória ainda tiver poucos dados (menos de 3 semanas), diz isso no `resumo` e usa o que houver.
+- Se a memória ainda tiver poucos dados (menos de 3 semanas), diz isso no `resumo` e usa o que houver. Nesse caso
+  podes fazer até 6 pesquisas para encontrar os preços actuais nas três capitais e regista-os em `trabalho/memoria.json`.
 - **Por região.** O quadro compara as três capitais regionais (Maputo, Beira, Nampula). Em `comparar` escolhe 2 a 4
   indicadores com `por_regiao` (ex.: "chapa", "milho", "arroz", "inflacao"); as imagens buscam os valores à memória.
   Em `regioes` explica, para cada capital, o que mais pesa ali e a direcção própria dessa região (as causas diferem:

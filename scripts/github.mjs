@@ -23,7 +23,7 @@ const SEMANA = semanaISO(maputo);
 const DIAS = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"];
 const DIA_SEMANA = DIAS[maputo.getUTCDay()];
 // Segunda, terça, quinta e sexta: Direcção do Dia. Quarta: O Seu Bolso. Fim de semana: só a edição semanal.
-const POST_DO_DIA = { quarta: "bolso", sabado: "nenhum", domingo: "nenhum" }[DIA_SEMANA] || "dia";
+let POST_DO_DIA = { quarta: "bolso", sabado: "nenhum", domingo: "nenhum" }[DIA_SEMANA] || "dia";
 // Que aprovar: "aprovado dia", "aprovado semana", "aprovado tudo"; sem nada, aprova o último que foi enviado.
 function alvoDe(com) {
   const m = com.match(/^\/?aprova(?:r|do|da)\b[\s,:]*(?:(?:a|o|os)\s+)?(dia|bolso|post|semana|semanal|edi[cç][aã]o|tudo|ambos|dois)?/i);
@@ -71,7 +71,11 @@ async function preparar() {
   const issue = await issueDaSemana();
   const COM = (process.env.COMENTARIO || "").trim();
   const eAprovar = /^\/?aprova(r|do|da)\b/i.test(COM);
-  const modo = EVENTO === "issues" ? "aprovar" : EVENTO === "issue_comment" ? (eAprovar ? "aprovar" : COM.startsWith("/trocar") ? "editar" : "rever") : "diario";
+  const eTrocar = /^\/?trocar\b/i.test(COM);
+  // "rever bolso" ou "rever dia" força o tipo de post de hoje (útil para testar fora do dia)
+  const forca = COM.match(/^\/?(?:rever|revê|refazer)\b[\s,:]*(bolso|dia)\b/i);
+  if (forca) POST_DO_DIA = forca[1].toLowerCase();
+  const modo = EVENTO === "issues" ? "aprovar" : EVENTO === "issue_comment" ? (eAprovar ? "aprovar" : eTrocar ? "editar" : "rever") : "diario";
   const alvo = EVENTO === "issues" ? "semana" : eAprovar ? alvoDe(COM) : "";
   const NOME_ALVO = { dia: "o post do dia", semana: "a edição da semana", tudo: "o post do dia e a edição da semana" }[alvo];
   // Reacção imediata ao comentário, para saber que o pedido foi recebido
@@ -86,7 +90,7 @@ async function preparar() {
   if (modo === "editar") return editar(COM, issue);
   const acum = ler(`${D}/semanas/${SEMANA}/acumulado.json`, { itens: [], processados: [] });
   const coms = (await gh(`/issues/${issue.number}/comments?per_page=100`)).filter((c) => c.user.login === OWNER);
-  const novos = coms.filter((c) => !(acum.processados || []).includes(c.id) && !/^\/(rever|trocar)/.test(c.body.trim()) && !/^\/?aprova(r|do|da)\b/i.test(c.body.trim()));
+  const novos = coms.filter((c) => !(acum.processados || []).includes(c.id) && !/^\/?(rever|revê|refazer|trocar)\b/i.test(c.body.trim()) && !/^\/?aprova(r|do|da)\b/i.test(c.body.trim()));
   const eNoticia = (t) => /^not[ií]cia\s*:/i.test(t.trim());
   const eTema = (t) => /^tema\s*:/i.test(t.trim());
   // Fontes do dia: as categorias de sempre + as que rodam neste dia da semana
@@ -101,8 +105,8 @@ async function preparar() {
     tema_pedido: temaCom ? temaCom.body.trim().replace(/^tema\s*:/i, "").trim() : "",
     ultimos_temas_dia: ler(`${D}/dias/lista.json`, []).slice(0, 5).map((x) => `${x.data} (${x.tipo}): ${x.tema || ""}`),
     noticias_do_aprovador: novos.filter((c) => eNoticia(c.body)).map((c) => c.body.trim().replace(/^not[ií]cia\s*:/i, "").trim()),
-    sugestoes_novas: novos.filter((c) => !eNoticia(c.body) && !eTema(c.body) && !/^\/incluir/i.test(c.body.trim())).map((c) => c.body.trim()),
-    incluir_itens: [...new Set([...(acum.incluir_itens || []), ...novos.filter((c) => /^\/incluir/i.test(c.body.trim())).flatMap((c) => (c.body.match(/\d+/g) || []).map(Number))])],
+    sugestoes_novas: novos.filter((c) => !eNoticia(c.body) && !eTema(c.body) && !/^\/?incluir\b/i.test(c.body.trim())).map((c) => c.body.trim()),
+    incluir_itens: [...new Set([...(acum.incluir_itens || []), ...novos.filter((c) => /^\/?incluir\b/i.test(c.body.trim())).flatMap((c) => (c.body.match(/\d+/g) || []).map(Number))])],
     ids_comentarios: novos.map((c) => c.id),
   });
   const s = estado("fontes", modo === "diario" ? "a trabalhar" : "pronto", modo === "diario" ? "A começar a pesquisa do dia…" : "A preparar a revisão…");
@@ -157,7 +161,7 @@ async function notificar() {
   const issue = await issueDaSemana();
   const ed = ler(`${D}/edicao.json`, {});
   const dia = ler(`${D}/dia.json`, null);
-  const temDia = !!(dia && dia.data === hoje && POST_DO_DIA !== "nenhum");
+  const temDia = !!(dia && dia.data === hoje);
   const t = ed.textos || {};
   const l = (a) => (a && a.length ? a.map((x) => `- ${x}`).join("\n") : "- (nada)");
   const duv = (t.duvidas || []).length;

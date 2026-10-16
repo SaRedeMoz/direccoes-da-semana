@@ -4,7 +4,10 @@ Todos os dias às 2h da madrugada (Maputo) quatro agentes preparam a edição: *
 A edição é aprimorada ao longo da semana. Quando fica pronta, recebe um email do GitHub.
 Os agentes usam a **sua subscrição Claude (Pro)**. Não é preciso API paga.
 
-- Escritório: `https://SEU-UTILIZADOR.github.io/NOME-DO-REPO/`
+- Escritório: `https://SEU-UTILIZADOR.github.io/NOME-DO-REPO/`, uma app com cinco páginas e menu em baixo no telemóvel:
+  **Início** (estado, mesas da redacção, a sua mesa), **Semana** (a edição para ler e pré-visualizar em cada rede),
+  **Dia** (post do dia), **Publicar** (partilha por canal e kits) e **Memória** (preços por região e direcções verificadas).
+  O escritório em 3D abre a partir do Início.
 - Conversa da semana: uma *Issue* por semana (é daí que vêm os emails).
 
 ## Montar (uma vez só)
@@ -30,7 +33,8 @@ https://github.com/apps/claude
 |---|---|
 | Acrescentar notícia local (ex.: Diário de Moçambique) | Comentário a começar por `Notícia:` |
 | Dar sugestão | Comentário normal (entra na próxima ronda) |
-| Rever já | Comentário `/rever` |
+| Rever já | Comentário `rever` (com ou sem barra) |
+| Ver já o post do dia ou O Seu Bolso, noutro dia | Comentário `rever dia` ou `rever bolso` |
 | Trocar uma frase ou palavra (sem gastar o Claude) | `/trocar "texto antigo" por "texto novo"` (pode pôr várias linhas) |
 | Pôr na edição uma notícia que ficou de fora | Ver o número em "Todas as notícias" no escritório e comentar `/incluir 12` |
 | Escolher o assunto do próximo post do dia | Comentário `Tema: preço do arroz na Beira` |
