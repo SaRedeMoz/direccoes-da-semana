@@ -6,9 +6,9 @@
       "em": "2026-10-16T02:02:22.204Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "integrar lei do conteúdo local e orçamento 2027",
-      "em": "2026-10-16T02:02:23.456Z"
+      "estado": "pronto",
+      "msg": "análise actualizada",
+      "em": "2026-10-16T02:02:38.390Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-16T02:02:38.390Z",
+      "agente": "analise",
+      "msg": "análise actualizada"
+    },
     {
       "em": "2026-10-16T02:02:23.456Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-12T03:03:26.135Z",
       "agente": "fontes",
       "msg": "a pesquisar notícias de 10 e 11 de Outubro"
-    },
-    {
-      "em": "2026-10-12T03:03:04.418Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
     }
   ],
-  "actualizado": "2026-10-16T02:02:23.456Z",
+  "actualizado": "2026-10-16T02:02:38.390Z",
   "semana": "2026-S42",
   "dia": "2026-10-16",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3"
