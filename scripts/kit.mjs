@@ -4,6 +4,59 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, copyFileSync, statSync } from "node:fs";
 import { execFileSync, execSync } from "node:child_process";
 
+// Kit do post do dia: node scripts/kit.mjs --dia
+if (process.argv.includes("--dia")) {
+  const DJ = "docs/data/dia.json";
+  if (!existsSync(DJ)) { console.log("Sem post do dia."); process.exit(0); }
+  const dia = JSON.parse(readFileSync(DJ, "utf8"));
+  if (!dia.aprovada) { console.log("Post do dia ainda não aprovado: sem kit."); process.exit(0); }
+  const im = dia.imagens || {}, t = dia.textos || {};
+  const bolso = dia.tipo === "bolso";
+  const NOME = `${dia.data}-${bolso ? "O-Seu-Bolso" : "Direccao-do-Dia"}`;
+  const B = `publicar/dias/${NOME}`;
+  rmSync(B, { recursive: true, force: true });
+  const P = { stories: "1-STORIES (WhatsApp, Instagram, Facebook)", feed: "2-FEED (Instagram e Facebook)", linkedin: "3-LINKEDIN", textos: "4-TEXTOS" };
+  for (const p of Object.values(P)) mkdirSync(`${B}/${p}`, { recursive: true });
+  const jpg = (src, dst) => execFileSync("ffmpeg", ["-v", "error", "-y", "-i", src, "-q:v", "3", dst]);
+  const txt = (p, c) => writeFileSync(p, String(c || "").trim() + "\n");
+  const nome = (i) => `${String(i + 1).padStart(2, "0")}-${(im.tipos || [])[i] || "slide"}`;
+  const D8 = dia.data.slice(5).replace("-", "");
+  (im.stories || []).forEach((p, i) => existsSync("docs/" + p) && jpg("docs/" + p, `${B}/${P.stories}/${D8}-story-${nome(i)}.jpg`));
+  (im.slides || []).forEach((p, i) => existsSync("docs/" + p) && jpg("docs/" + p, `${B}/${P.feed}/${D8}-feed-${nome(i)}.jpg`));
+  txt(`${B}/${P.feed}/legenda-instagram.txt`, t.instagram);
+  txt(`${B}/${P.feed}/texto-facebook.txt`, t.facebook || t.linkedin);
+  if (im.pdf && existsSync("docs/" + im.pdf)) copyFileSync("docs/" + im.pdf, `${B}/${P.linkedin}/${D8}-${bolso ? "O-Seu-Bolso" : "Direccao-do-Dia"}.pdf`);
+  txt(`${B}/${P.linkedin}/texto-linkedin.txt`, t.linkedin);
+  txt(`${B}/${P.textos}/whatsapp-canal.txt`, t.whatsapp);
+  const fts = (dia.fontes || []).map((f) => `- ${f.fonte || f}${f.url ? " " + f.url : ""}`).join("\n") || "- (nada)";
+  txt(`${B}/0-LEIA-ME.txt`, `${bolso ? "O SEU BOLSO" : "DIRECÇÃO DO DIA"}, ${dia.data}
+${bolso ? "Para a classe média e a classe baixa." : `Assunto: ${dia.tema || ""}`}
+Versão ${dia.versao || 1}, aprovada em ${(dia.aprovadaEm || "").slice(0, 10)}. Por S.A REDES.
+
+${P.stories}: imagens 9:16 pela ordem, para os Status do WhatsApp e os stories.
+${P.feed}: imagens 4:5 para o carrossel do Instagram e do Facebook, com legenda e texto.
+${P.linkedin}: o PDF publica-se como documento (aparece como carrossel).
+${P.textos}: texto para o canal do WhatsApp.
+
+FONTES
+${fts}
+`);
+  const ZIPDIR = "docs/data/kits"; mkdirSync(ZIPDIR, { recursive: true });
+  const zipNome = `Direccoes-${NOME}.zip`;
+  rmSync(`${ZIPDIR}/${zipNome}`, { force: true });
+  execSync(`cd publicar/dias && zip -qr "../../${ZIPDIR}/${zipNome}" "${NOME}"`, { shell: "/bin/bash" });
+  const KJ = `${ZIPDIR}/kits.json`;
+  const kits = existsSync(KJ) ? JSON.parse(readFileSync(KJ, "utf8")) : [];
+  const reg = { dia: dia.data, tipo: dia.tipo, tema: bolso ? "O Seu Bolso" : dia.tema || "", versao: dia.versao, aprovada: dia.aprovadaEm, zip: `data/kits/${zipNome}`, mb: +(statSync(`${ZIPDIR}/${zipNome}`).size / 1e6).toFixed(1) };
+  writeFileSync(KJ, JSON.stringify([reg, ...kits.filter((k) => k.dia !== dia.data)], null, 2));
+  dia.kit = reg.zip; writeFileSync(DJ, JSON.stringify(dia, null, 2));
+  if (existsSync(`docs/data/dias/${dia.data}.json`)) writeFileSync(`docs/data/dias/${dia.data}.json`, JSON.stringify(dia, null, 2));
+  if (process.env.GITHUB_OUTPUT) writeFileSync(process.env.GITHUB_OUTPUT, `pasta_dia=${NOME}\n`, { flag: "a" });
+  if (!process.argv.includes("--sem-commit")) execSync(`git add docs/data && (git diff --cached --quiet || git commit -qm "kit ${NOME}") && git pull -q --rebase --autostash origin main; git push -q origin HEAD:main`, { stdio: "inherit", shell: "/bin/bash" });
+  console.log(`Kit ${zipNome} criado (${reg.mb} MB).`);
+  process.exit(0);
+}
+
 const ED = "docs/data/edicao.json";
 if (!existsSync(ED)) { console.log("Sem edição."); process.exit(0); }
 const ed = JSON.parse(readFileSync(ED, "utf8"));
@@ -84,7 +137,7 @@ execSync(`cd publicar && zip -qr "../${ZIPDIR}/${zipNome}" "${NOME}"`, { shell: 
 const KJ = `${ZIPDIR}/kits.json`;
 const kits = existsSync(KJ) ? JSON.parse(readFileSync(KJ, "utf8")) : [];
 const reg = { semana: ed.semana, versao: ed.versao, aprovada: ed.aprovadaEm, zip: `data/kits/${zipNome}`, mb: +(statSync(`${ZIPDIR}/${zipNome}`).size / 1e6).toFixed(1) };
-writeFileSync(KJ, JSON.stringify([reg, ...kits.filter((k) => k.semana !== ed.semana)], null, 2));
+writeFileSync(KJ, JSON.stringify([reg, ...kits.filter((k) => k.dia || k.semana !== ed.semana)], null, 2));
 ed.kit = reg.zip; writeFileSync(ED, JSON.stringify(ed, null, 2));
 if (process.env.GITHUB_OUTPUT) writeFileSync(process.env.GITHUB_OUTPUT, `pasta=${NOME}\n`, { flag: "a" });
 execSync(`git add docs/data && (git diff --cached --quiet || git commit -qm "kit ${NOME}") && git pull -q --rebase --autostash origin main; git push -q origin HEAD:main`, { stdio: "inherit", shell: "/bin/bash" });

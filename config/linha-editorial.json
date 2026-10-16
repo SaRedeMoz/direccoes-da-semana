@@ -2,21 +2,7 @@
   "nome": "Direcções da Semana",
   "publico": "Leitores em Moçambique, sobretudo Beira/Sofala e Maputo: profissionais, PMEs, ONGs, estudantes e cidadãos.",
   "tom": "Analítico, claro, não partidário, sem sensacionalismo. Português de Moçambique.",
-  "fontes_preferidas": [
-    "Diário de Moçambique",
-    "Jornal Notícias",
-    "O País",
-    "Carta de Moçambique",
-    "Rádio Moçambique",
-    "TVM",
-    "AIM",
-    "Lusa",
-    "Banco de Moçambique",
-    "INE",
-    "Reuters",
-    "BBC",
-    "Al Jazeera"
-  ],
+  "fontes_preferidas": "Ver config/fontes.json (lista completa por categoria).",
   "grupos_de_impacto": [
     "Governo",
     "Classe baixa",
@@ -40,8 +26,27 @@
     "Notícias do mundo",
     "Notícias de Moçambique",
     "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
+    "Canais de transmissão: como os acontecimentos principais chegam ao bolso",
+    "Três cenários (melhora, fica igual, piora) com probabilidade e sinal",
+    "Riscos com probabilidade e impacto",
+    "Horizonte: imediato, 3 meses, 1 ano",
+    "Vulnerabilidade por grupo",
     "Impacto em cada um dos 8 grupos",
     "Direcção prática por público",
-    "Sinal a acompanhar"
-  ]
+    "Sinal a acompanhar",
+    "Grau de confiança e fontes por categoria",
+    "Ligação à memória: o que mudou face às semanas anteriores"
+  ],
+  "proposito": "Mostrar como os acontecimentos afectam as diferentes facetas da vida em Moçambique e dar a direcção certa a seguir, com memória do que já se viu.",
+  "posts_diarios": {
+    "dias": [
+      "segunda",
+      "terca",
+      "quarta",
+      "quinta",
+      "sexta"
+    ],
+    "quarta": "O Seu Bolso (classe média e baixa)",
+    "outros": "Direcção do Dia (um assunto a fundo)"
+  }
 }

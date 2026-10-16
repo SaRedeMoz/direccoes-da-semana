@@ -59,6 +59,12 @@ h1{margin:0;font-size:clamp(1.6rem,6vw,2.5rem);font-weight:800;letter-spacing:-.
 .gallery{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
 .gallery a{flex:0 0 auto;scroll-snap-align:start}
 .gallery img{height:260px;border-radius:12px;display:block;border:1px solid var(--line)}
+.mem{font-size:.92rem}
+.mem .i{display:grid;grid-template-columns:1fr auto;gap:4px 14px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.mem .i:first-child{border-top:0}
+.mem .v{font-variant-numeric:tabular-nums}
+.mem .t{grid-column:1/-1;color:var(--muted);font-size:.85rem}
+.mem svg{display:block}
 .duv{border-left:4px solid var(--analise);padding:6px 10px;margin:8px 0;background:var(--bg);border-radius:0 10px 10px 0}
 .pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.8rem;font-weight:600}
 .pill.ok{background:var(--ok);color:#fff}.pill.wait{background:var(--analise);color:#1b1404}
@@ -91,12 +97,44 @@ h1{margin:0;font-size:clamp(1.6rem,6vw,2.5rem);font-weight:800;letter-spacing:-.
     </div>
   </div>
 
+  <div class="card hidden" id="diaCard"><a id="dia"></a>
+    <h2 id="diaTitulo">Post do dia</h2>
+    <p class="sub" id="diaEstado">—</p>
+    <h3 style="margin:14px 0 8px;font-size:1rem">Feed 4:5</h3>
+    <div class="gallery" id="diaFeed"></div>
+    <h3 style="margin:14px 0 8px;font-size:1rem">Stories 9:16</h3>
+    <div class="gallery" id="diaStory"></div>
+    <div class="row">
+      <button class="btn gold" data-partilhar="dia-feed">Partilhar carrossel</button>
+      <button class="btn gold" data-partilhar="dia-story">Partilhar stories</button>
+      <button class="btn" data-partilhar="dia-pdf">Partilhar PDF (LinkedIn)</button>
+      <a class="btn gold hidden" id="diaKit" href="#" download>Descarregar kit do dia</a>
+    </div>
+    <p class="sub" id="shareNotaDia"></p>
+    <div class="tabs" role="tablist" id="diaTabs" style="margin-top:12px">
+      <button role="tab" data-d="whatsapp" aria-selected="true">WhatsApp</button>
+      <button role="tab" data-d="instagram" aria-selected="false">Instagram</button>
+      <button role="tab" data-d="facebook" aria-selected="false">Facebook</button>
+      <button role="tab" data-d="linkedin" aria-selected="false">LinkedIn</button>
+    </div>
+    <div class="txt" id="diaTxt"></div>
+    <div class="row"><button class="btn" id="diaCopy">Copiar texto</button></div>
+    <p class="sub">Aprovar: na conversa da semana, escreva <b>aprovado</b> (post do dia), <b>aprovado semana</b> ou <b>aprovado tudo</b>. Para escolher o assunto de amanhã: <b>Tema: …</b></p>
+  </div>
+
+  <div class="card hidden" id="memCard"><a id="memoria"></a>
+    <h2>Memória da redacção</h2>
+    <p class="sub" id="memSub">O que a equipa regista semana a semana, para a análise não recomeçar do zero.</p>
+    <div class="mem" id="memTabela"></div>
+    <p class="sub" id="memBalanco"></p>
+  </div>
+
   <div class="card" id="kitCard"><a id="kit"></a>
-    <h2>Kit da semana</h2>
+    <h2>Kits para publicar</h2>
     <p class="sub" id="kitEstado">O kit fica pronto quando aprovar a edição.</p>
     <div class="row"><a class="btn gold hidden" id="kitBtn" href="#" download>Descarregar kit da semana</a></div>
     <p class="sub">Um ZIP com tudo, por rede: 1-STORIES (WhatsApp, Instagram, Facebook), 2-FEED (Instagram e Facebook), 3-LINKEDIN (PDF), 4-TEXTOS e 5-REEL. No telemóvel, abra-o na app Ficheiros e escolha "Extrair".</p>
-    <h3 style="margin:16px 0 6px;font-size:1rem">Edições anteriores</h3>
+    <h3 style="margin:16px 0 6px;font-size:1rem">Kits anteriores (semana e posts do dia)</h3>
     <ul class="log" id="kitLista"><li><span></span><div class="sub">Ainda sem edições aprovadas.</div></li></ul>
   </div>
 
@@ -149,7 +187,7 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const reduz=matchMedia("(prefers-reduced-motion: reduce)").matches;
-let status=null,edicao=null,tab="whatsapp",demo=false;
+let status=null,edicao=null,tab="whatsapp",demo=false,dia=null,memoria=null,tabDia="whatsapp",NOTA="shareNota";
 
 /* ================= 3D ================= */
 const AG=[
@@ -405,6 +443,14 @@ async function tentarPartilhar(fs, legenda){
 // Prepara as imagens antes do toque: a partilha abre logo, sem esperar
 const preparados={};
 function listaDe(tipo){
+  if(tipo.startsWith("dia-")){
+    const im=dia&&dia.imagens; if(!im)return [];
+    const v=im.v||"", base=dia.tipo==="bolso"?"o-seu-bolso":"direccao-do-dia", t=tipo.slice(4);
+    if(t==="feed")return (im.slides||[]).map((p,i)=>[p+"?v="+v,`${base}-${String(i+1).padStart(2,"0")}.png`]);
+    if(t==="story")return (im.stories||[]).map((p,i)=>[p+"?v="+v,`${base}-story-${String(i+1).padStart(2,"0")}.png`]);
+    if(t==="pdf"&&im.pdf)return [[im.pdf+"?v="+v,`${base}.pdf`]];
+    return [];
+  }
   const im=edicao&&edicao.imagens; if(!im)return [];
   const v=im.v||"";
   if(tipo==="feed")return (im.slides||[]).map((p,i)=>[p+"?v="+v,`direccoes-${String(i+1).padStart(2,"0")}.png`]);
@@ -424,7 +470,7 @@ function prepararTudo(){const v=edicao&&edicao.imagens&&edicao.imagens.v;if(!v||
 // Se for demasiado grande, mostra botões para partilhar por partes (cada partilha precisa de um toque)
 function descarregarTodos(fs){return (async()=>{for(const f of fs){const x=document.createElement("a");x.href=URL.createObjectURL(f);x.download=f.name;document.body.appendChild(x);x.click();x.remove();await new Promise(z=>setTimeout(z,350));}})();}
 function partes(fs, legenda, tamanho=3){
-  const nota=$("shareNota");
+  const nota=$(NOTA);
   nota.innerHTML='<b>O telemóvel não aceita todas as imagens de uma vez.</b> Toque em cada parte, pela ordem. A legenda já está copiada: cole-a na publicação.<br>';
   for(let i=0;i<fs.length;i+=tamanho){
     const grupo=fs.slice(i,i+tamanho), n=i/tamanho+1;
@@ -441,33 +487,82 @@ function partes(fs, legenda, tamanho=3){
 }
 document.querySelectorAll("[data-partilhar]").forEach(btn=>btn.addEventListener("click",async()=>{
   const tipo=btn.dataset.partilhar, prom=preparar(tipo); if(!prom)return;
-  const legenda=(edicao.textos&&(tipo==="pdf"?edicao.textos.linkedin:edicao.textos.instagram))||"";
+  const eDia=tipo.startsWith("dia-"); NOTA=eDia?"shareNotaDia":"shareNota";
+  const tx=eDia?(dia&&dia.textos):(edicao&&edicao.textos);
+  const legenda=(tx&&(/pdf$/.test(tipo)?tx.linkedin:tx.instagram))||"";
   try{ if(legenda) navigator.clipboard.writeText(legenda).catch(()=>{}); }catch(_){}
   const antes=btn.textContent;btn.textContent="A preparar…";btn.disabled=true;
   try{
     const fs=await prom;
-    if(!fs.length){$("shareNota").textContent="Não foi possível preparar os ficheiros. Tente de novo.";}
+    if(!fs.length){$(NOTA).textContent="Não foi possível preparar os ficheiros. Tente de novo.";}
     else{
       const r=await tentarPartilhar(fs, legenda);
-      if(r==="toque") $("shareNota").textContent="Imagens prontas. Carregue de novo no botão para abrir a partilha.";
-      if(r==="ok") $("shareNota").textContent=legenda?"Partilhado. A legenda está copiada: cole-a na publicação.":"Partilhado.";
-      if(r==="grande"){ if(fs.length>1) partes(fs, legenda, 3); else { await descarregarTodos(fs); $("shareNota").textContent="O ficheiro é grande demais para partilhar daqui. Foi descarregado: partilhe-o a partir da galeria."; } }
+      if(r==="toque") $(NOTA).textContent="Imagens prontas. Carregue de novo no botão para abrir a partilha.";
+      if(r==="ok") $(NOTA).textContent=legenda?"Partilhado. A legenda está copiada: cole-a na publicação.":"Partilhado.";
+      if(r==="grande"){ if(fs.length>1) partes(fs, legenda, 3); else { await descarregarTodos(fs); $(NOTA).textContent="O ficheiro é grande demais para partilhar daqui. Foi descarregado: partilhe-o a partir da galeria."; } }
       if(r==="nao"){
         await descarregarTodos(fs);
-        $("shareNota").textContent="Ficheiros descarregados e legenda copiada. No telemóvel, este botão abre directamente a lista de apps.";
+        $(NOTA).textContent="Ficheiros descarregados e legenda copiada. No telemóvel, este botão abre directamente a lista de apps.";
       }
     }
-  }catch(_){$("shareNota").textContent="Não foi possível preparar os ficheiros. Tente de novo.";}
+  }catch(_){$(NOTA).textContent="Não foi possível preparar os ficheiros. Tente de novo.";}
   btn.textContent=antes;btn.disabled=false;
 }));
 
 $("copy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("txt").textContent);$("copy").textContent="Copiado"}catch(_){const r=document.createRange();r.selectNodeContents($("txt"));const s=getSelection();s.removeAllRanges();s.addRange(r);$("copy").textContent="Seleccionado"}setTimeout(()=>$("copy").textContent="Copiar texto",2000)});
 
+/* ================= Post do dia ================= */
+let diaV=null;
+function painelDia(){
+  if(!dia||!dia.imagens){$("diaCard").classList.add("hidden");return;}
+  $("diaCard").classList.remove("hidden");
+  const bolso=dia.tipo==="bolso";
+  $("diaTitulo").textContent=bolso?"O Seu Bolso":"Direcção do Dia";
+  const ap=dia.aprovada?`<span class="pill ok">Aprovado</span>`:`<span class="pill wait">À espera da sua aprovação</span>`;
+  $("diaEstado").innerHTML=`${esc(dia.data)}, versão ${esc(dia.versao||1)}. ${esc(bolso?"Para a classe média e a classe baixa.":(dia.tema||""))} ${ap}`;
+  if(dia.imagens.v!==diaV){diaV=dia.imagens.v;const v=dia.imagens.v||"";
+    const g=(l)=>(l||[]).map(p=>`<a href="${esc(p)}?v=${v}" target="_blank" rel="noopener"><img src="${esc(p)}?v=${v}" alt="" loading="lazy"></a>`).join("");
+    $("diaFeed").innerHTML=g(dia.imagens.slides);$("diaStory").innerHTML=g(dia.imagens.stories);
+    ["dia-feed","dia-story"].forEach(preparar);}
+  const k=$("diaKit"); if(dia.kit){k.href=dia.kit;k.classList.remove("hidden");}else k.classList.add("hidden");
+  $("diaTxt").textContent=(dia.textos&&dia.textos[tabDia])||"Sem texto.";
+}
+document.querySelectorAll("#diaTabs button").forEach(b=>b.addEventListener("click",()=>{tabDia=b.dataset.d;
+  document.querySelectorAll("#diaTabs button").forEach(x=>x.setAttribute("aria-selected",x===b?"true":"false"));painelDia();}));
+$("diaCopy").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("diaTxt").textContent);$("diaCopy").textContent="Copiado"}catch(_){}setTimeout(()=>$("diaCopy").textContent="Copiar texto",2000)});
+
+/* ================= Memória ================= */
+const nf=(v,c)=>v===null||v===undefined||isNaN(+v)?"":(+v).toLocaleString("pt-PT",{maximumFractionDigits:c??(Math.abs(+v)>=100?0:Math.abs(+v)>=10?1:2)});
+const varTxt=v=>v===null||v===undefined?"sem dados":`${v>0?"sobe":v<0?"desce":"igual"}${v?" "+nf(Math.abs(v),1)+"%":""}`;
+function mini(pts){
+  const vs=(pts||[]).map(p=>+p[1]).filter(Number.isFinite); if(vs.length<2)return "";
+  let lo=Math.min(...vs),hi=Math.max(...vs);const meio=(hi+lo)/2,min=Math.abs(meio)*.08||1;if(hi-lo<min){lo=meio-min/2;hi=meio+min/2;}
+  const w=110,h=30,x=k=>2+k*(w-4)/(vs.length-1),y=v=>2+(1-(v-lo)/(hi-lo))*(h-4);
+  const d=vs.map((v,k)=>`${k?"L":"M"}${x(k).toFixed(1)} ${y(v).toFixed(1)}`).join(" ");
+  return `<svg width="${w}" height="${h}" aria-hidden="true"><path d="${d}" fill="none" stroke="var(--fontes)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${x(vs.length-1)}" cy="${y(vs.at(-1))}" r="3.5" fill="var(--fontes)" stroke="var(--card)" stroke-width="2"/></svg>`;
+}
+function painelMemoria(){
+  const ind=(memoria&&memoria.indicadores||[]).filter(i=>i.ultimo);
+  if(!memoria||(!ind.length&&!(memoria.temas_activos||[]).length)){$("memCard").classList.add("hidden");return;}
+  $("memCard").classList.remove("hidden");
+  // Agrupa: nacionais primeiro, depois Maputo (Sul), Beira (Centro) e Nampula (Norte)
+  const ORD={"":0,maputo:1,beira:2,nampula:3},NOME_R={"":"Nacional",maputo:"Maputo (Sul)",beira:"Beira (Centro)",nampula:"Nampula (Norte)"};
+  ind.sort((a,b)=>(ORD[a.regiao||""]??9)-(ORD[b.regiao||""]??9));
+  let grupoAnt=null;
+  $("memTabela").innerHTML=ind.map(i=>{const g=i.regiao||"";const cab=g!==grupoAnt?`<h3 style="margin:14px 0 2px;font-size:.95rem">${esc(NOME_R[g]||g)}</h3>`:"";grupoAnt=g;return cab+`<div class="i" title="${esc(i.ultimo.fonte||"")}"><div>${esc(i.nome)}<div class="v"><b>${esc(nf(i.ultimo.valor))}</b> <span class="sub">${esc(i.unidade||"")}</span></div></div>${mini(i.ultimos)}
+    <div class="t">4 semanas: ${esc(varTxt(i.variacao_4_semanas_pct))}. 12 semanas: ${esc(varTxt(i.variacao_12_semanas_pct))}. Último registo ${esc(i.ultimo.data)}${i.ultimo.fonte?", "+esc(i.ultimo.fonte):""}.</div></div>`;}).join("");
+  const b=memoria.balanco_direccoes||{}, tot=Object.values(b).reduce((a,x)=>a+x,0);
+  const temas=(memoria.temas_activos||[]).map(t=>t.nome).slice(0,8).join(", ");
+  $("memBalanco").innerHTML=(tot?`Direcções dadas: ${tot}. Confirmadas ${b.confirmada||0}, em parte ${b.parcial||0}, não confirmadas ${b.nao_confirmada||0}, por verificar ${b.pendente||0}.`:"")+(temas?`<br>Assuntos em curso: ${esc(temas)}.`:"")+` <span class="sub">Actualizado em ${esc(memoria.actualizado||"")}.</span>`;
+}
+
 let kitsCarregados=false;
 async function carregarKits(){
   if(kitsCarregados||demo)return;kitsCarregados=true;
   try{const k=await fetch("data/kits/kits.json?t="+Date.now()).then(r=>r.ok?r.json():[]);
-    if(k.length)$("kitLista").innerHTML=k.map(x=>`<li><span class="d" style="background:var(--fontes)"></span><div><a href="${esc(x.zip)}" download>Semana ${esc(String(x.semana).split("-S")[1]||x.semana)} de ${esc(String(x.semana).slice(0,4))}</a><time>Versão ${esc(x.versao)}, ${esc(x.mb)} MB</time></div></li>`).join("");
+    if(k.length)$("kitLista").innerHTML=k.map(x=>x.dia
+      ? `<li><span class="d" style="background:var(--analise)"></span><div><a href="${esc(x.zip)}" download>${x.tipo==="bolso"?"O Seu Bolso":"Direcção do Dia"}, ${esc(x.dia)}</a><time>${esc(x.tipo==="bolso"?"":x.tema)} Versão ${esc(x.versao)}, ${esc(x.mb)} MB</time></div></li>`
+      : `<li><span class="d" style="background:var(--fontes)"></span><div><a href="${esc(x.zip)}" download>Semana ${esc(String(x.semana).split("-S")[1]||x.semana)} de ${esc(String(x.semana).slice(0,4))}</a><time>Versão ${esc(x.versao)}, ${esc(x.mb)} MB</time></div></li>`).join("");
   }catch(_){}
 }
 
@@ -478,6 +573,8 @@ async function carregar(){
     const [s,e]=await Promise.all([fetch("data/status.json"+q).then(r=>r.ok?r.json():null),fetch("data/edicao.json"+q).then(r=>r.ok?r.json():null)]);
     if(!s||!s.estagios||!Object.keys(s.estagios).length)return iniciarDemo();
     status=s;edicao=e;painel();
+    const [d,m]=await Promise.all([fetch("data/dia.json"+q).then(r=>r.ok?r.json():null).catch(()=>null),fetch("data/memoria.json"+q).then(r=>r.ok?r.json():null).catch(()=>null)]);
+    dia=d;memoria=m;painelDia();painelMemoria();
   }catch(_){iniciarDemo()}
 }
 function iniciarDemo(){

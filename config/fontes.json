@@ -1,0 +1,372 @@
+{
+  "nota": "Lista de fontes por categoria. As categorias com \"sempre\": true são consultadas em todas as rondas; as outras rodam pelos dias da semana (ver \"rotacao\"). Pode acrescentar ou tirar fontes à vontade.",
+  "categorias": {
+    "oficiais": {
+      "nome": "Dados oficiais",
+      "sempre": true,
+      "fontes": [
+        {
+          "nome": "Banco de Moçambique (câmbio, taxa MIMO, conjuntura)",
+          "url": "https://www.bancomoc.mz"
+        },
+        {
+          "nome": "INE (inflação, índice de preços)",
+          "url": "https://www.ine.gov.mz"
+        },
+        {
+          "nome": "ARENE (preços dos combustíveis)",
+          "url": "https://www.arene.gov.mz"
+        },
+        {
+          "nome": "Ministério da Economia e Finanças",
+          "url": "https://www.mef.gov.mz"
+        },
+        {
+          "nome": "INGD (gestão de desastres)",
+          "url": "https://www.ingd.gov.mz"
+        },
+        {
+          "nome": "INAM (meteorologia)",
+          "url": "https://www.inam.gov.mz"
+        },
+        {
+          "nome": "Boletim da República",
+          "url": "https://www.inm.gov.mz"
+        }
+      ]
+    },
+    "precos": {
+      "nome": "Preços e segurança alimentar",
+      "sempre": true,
+      "fontes": [
+        {
+          "nome": "FEWS NET Moçambique (preços de alimentos nos mercados)",
+          "url": "https://fews.net/southern-africa/mozambique"
+        },
+        {
+          "nome": "PMA / WFP Moçambique",
+          "url": "https://www.wfp.org/countries/mozambique"
+        },
+        {
+          "nome": "FAO (índice de preços dos alimentos)",
+          "url": "https://www.fao.org/worldfoodsituation"
+        },
+        {
+          "nome": "Trading Economics (petróleo, milho, trigo, câmbio)",
+          "url": "https://tradingeconomics.com"
+        }
+      ]
+    },
+    "imprensa_nacional": {
+      "nome": "Imprensa nacional",
+      "sempre": true,
+      "fontes": [
+        {
+          "nome": "Jornal Notícias",
+          "url": "https://jornalnoticias.co.mz"
+        },
+        {
+          "nome": "O País",
+          "url": "https://opais.co.mz"
+        },
+        {
+          "nome": "Carta de Moçambique",
+          "url": "https://cartamz.com"
+        },
+        {
+          "nome": "Diário de Moçambique (Beira)",
+          "url": "https://diariodemocambique.co.mz"
+        },
+        {
+          "nome": "AIM, Agência de Informação de Moçambique",
+          "url": "https://aimnews.org"
+        },
+        {
+          "nome": "Rádio Moçambique",
+          "url": "https://www.rm.co.mz"
+        },
+        {
+          "nome": "TVM",
+          "url": "https://www.tvm.co.mz"
+        },
+        {
+          "nome": "STV / O País",
+          "url": "https://opais.co.mz"
+        },
+        {
+          "nome": "Savana",
+          "url": "https://www.savana.co.mz"
+        },
+        {
+          "nome": "Lusa (Moçambique)",
+          "url": "https://www.lusa.pt"
+        }
+      ]
+    },
+    "imprensa_economica": {
+      "nome": "Imprensa económica e em inglês sobre Moçambique",
+      "fontes": [
+        {
+          "nome": "Diário Económico",
+          "url": "https://www.diarioeconomico.co.mz"
+        },
+        {
+          "nome": "O.Económico",
+          "url": "https://www.oeconomico.com"
+        },
+        {
+          "nome": "Zitamar News",
+          "url": "https://www.zitamar.com"
+        },
+        {
+          "nome": "Club of Mozambique",
+          "url": "https://clubofmozambique.com"
+        },
+        {
+          "nome": "Macauhub",
+          "url": "https://macauhub.com.mo"
+        }
+      ]
+    },
+    "analise_independente": {
+      "nome": "Análise independente",
+      "fontes": [
+        {
+          "nome": "CIP, Centro de Integridade Pública",
+          "url": "https://www.cipmoz.org"
+        },
+        {
+          "nome": "OMR, Observatório do Meio Rural",
+          "url": "https://omrmz.org"
+        },
+        {
+          "nome": "IESE",
+          "url": "https://www.iese.ac.mz"
+        },
+        {
+          "nome": "Fórum de Monitoria do Orçamento",
+          "url": "https://fmo.org.mz"
+        }
+      ]
+    },
+    "humanitario": {
+      "nome": "Humanitário e segurança",
+      "fontes": [
+        {
+          "nome": "ReliefWeb / OCHA Moçambique",
+          "url": "https://reliefweb.int/country/moz"
+        },
+        {
+          "nome": "ACLED (conflito em Cabo Delgado)",
+          "url": "https://acleddata.com"
+        },
+        {
+          "nome": "UNICEF Moçambique",
+          "url": "https://www.unicef.org/mozambique"
+        }
+      ]
+    },
+    "regional": {
+      "nome": "Regional (SADC e vizinhos)",
+      "fontes": [
+        {
+          "nome": "SADC",
+          "url": "https://www.sadc.int"
+        },
+        {
+          "nome": "Business Day / News24 (África do Sul)",
+          "url": "https://www.news24.com"
+        },
+        {
+          "nome": "The Herald (Zimbabwe)",
+          "url": "https://www.herald.co.zw"
+        },
+        {
+          "nome": "Nyasa Times (Malawi)",
+          "url": "https://www.nyasatimes.com"
+        },
+        {
+          "nome": "The Citizen (Tanzânia)",
+          "url": "https://www.thecitizen.co.tz"
+        }
+      ]
+    },
+    "internacional": {
+      "nome": "Internacional e instituições",
+      "fontes": [
+        {
+          "nome": "Reuters (África e matérias-primas)",
+          "url": "https://www.reuters.com/world/africa"
+        },
+        {
+          "nome": "BBC África",
+          "url": "https://www.bbc.com/news/world/africa"
+        },
+        {
+          "nome": "Al Jazeera",
+          "url": "https://www.aljazeera.com"
+        },
+        {
+          "nome": "FMI (Moçambique)",
+          "url": "https://www.imf.org/en/Countries/MOZ"
+        },
+        {
+          "nome": "Banco Mundial (Moçambique)",
+          "url": "https://www.worldbank.org/en/country/mozambique"
+        },
+        {
+          "nome": "Banco Africano de Desenvolvimento",
+          "url": "https://www.afdb.org"
+        }
+      ]
+    }
+  },
+  "rotacao": {
+    "segunda": [
+      "imprensa_economica",
+      "internacional"
+    ],
+    "terca": [
+      "analise_independente",
+      "regional"
+    ],
+    "quarta": [
+      "imprensa_economica",
+      "humanitario"
+    ],
+    "quinta": [
+      "internacional",
+      "analise_independente"
+    ],
+    "sexta": [
+      "regional",
+      "humanitario"
+    ],
+    "sabado": [
+      "imprensa_economica",
+      "analise_independente",
+      "internacional"
+    ],
+    "domingo": [
+      "regional",
+      "humanitario"
+    ]
+  },
+  "indicadores_do_bolso": [
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "fonte_sugerida": "ARENE (preço nacional)"
+    },
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "fonte_sugerida": "ARENE (preço nacional)"
+    },
+    {
+      "id": "gas_cozinha",
+      "nome": "Gás de cozinha",
+      "unidade": "MT/kg",
+      "fonte_sugerida": "ARENE"
+    },
+    {
+      "id": "chapa",
+      "nome": "Chapa urbano",
+      "unidade": "MT/viagem",
+      "por_regiao": true,
+      "fonte_sugerida": "municípios, imprensa local"
+    },
+    {
+      "id": "milho",
+      "nome": "Milho em grão",
+      "unidade": "MT/kg",
+      "por_regiao": true,
+      "fonte_sugerida": "FEWS NET, PMA, SIMA"
+    },
+    {
+      "id": "arroz",
+      "nome": "Arroz",
+      "unidade": "MT/kg",
+      "por_regiao": true,
+      "fonte_sugerida": "FEWS NET, INE"
+    },
+    {
+      "id": "oleo",
+      "nome": "Óleo alimentar",
+      "unidade": "MT/litro",
+      "por_regiao": true,
+      "fonte_sugerida": "FEWS NET, imprensa local"
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "por_regiao": true,
+      "tambem_nacional": true,
+      "fonte_sugerida": "INE (publica por cidade, perto do dia 10 de cada mês)"
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "fonte_sugerida": "Banco de Moçambique"
+    },
+    {
+      "id": "mimo",
+      "nome": "Taxa MIMO",
+      "unidade": "%",
+      "fonte_sugerida": "Banco de Moçambique"
+    },
+    {
+      "id": "prime_rate",
+      "nome": "Prime rate (crédito bancário)",
+      "unidade": "%",
+      "fonte_sugerida": "Banco de Moçambique"
+    },
+    {
+      "id": "brent",
+      "nome": "Petróleo Brent",
+      "unidade": "USD/barril",
+      "fonte_sugerida": "Trading Economics, Reuters"
+    }
+  ],
+  "regioes": [
+    {
+      "id": "maputo",
+      "nome": "Maputo",
+      "zona": "Sul",
+      "fontes_locais": [
+        "Jornal Notícias",
+        "O País",
+        "Rádio Moçambique (Maputo)",
+        "FEWS NET (mercado de Maputo)",
+        "INE (índice da Cidade de Maputo)"
+      ]
+    },
+    {
+      "id": "beira",
+      "nome": "Beira",
+      "zona": "Centro",
+      "fontes_locais": [
+        "Diário de Moçambique",
+        "Rádio Moçambique (Sofala)",
+        "FEWS NET (mercado da Beira)",
+        "INE (índice da Beira)"
+      ]
+    },
+    {
+      "id": "nampula",
+      "nome": "Nampula",
+      "zona": "Norte",
+      "fontes_locais": [
+        "Wamphula Fax",
+        "Rádio Moçambique (Nampula)",
+        "FEWS NET (mercado de Nampula)",
+        "INE (índice de Nampula)"
+      ]
+    }
+  ],
+  "nota_regioes": "Indicadores com \"por_regiao\": true seguem-se nas três capitais regionais. O id na memória é <id>_<regiao>, por exemplo chapa_nampula."
+}

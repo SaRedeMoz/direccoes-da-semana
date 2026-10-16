@@ -33,7 +33,45 @@ https://github.com/apps/claude
 | Rever já | Comentário `/rever` |
 | Trocar uma frase ou palavra (sem gastar o Claude) | `/trocar "texto antigo" por "texto novo"` (pode pôr várias linhas) |
 | Pôr na edição uma notícia que ficou de fora | Ver o número em "Todas as notícias" no escritório e comentar `/incluir 12` |
-| Aprovar | Comentário `aprovado` (ou `/aprovar`), ou a etiqueta `aprovado` |
+| Escolher o assunto do próximo post do dia | Comentário `Tema: preço do arroz na Beira` |
+| Aprovar o post do dia | Comentário `aprovado` (aprova o último que recebeu por email) ou `aprovado dia` |
+| Aprovar a edição da semana | Comentário `aprovado semana`, ou a etiqueta `aprovado` |
+| Aprovar os dois | Comentário `aprovado tudo` |
+
+## Posts diários
+
+De segunda a sexta, além de aprimorar a edição da semana, a redacção prepara um post do dia:
+
+| Dia | Post |
+|---|---|
+| Segunda, terça, quinta, sexta | **Direcção do Dia**: um só assunto investigado a fundo, em cerca de 14 imagens. O facto, como chegámos aqui e o precedente, como chega ao bolso, a conta com números, três cenários (cada um com gatilho, números, prazo, quem ganha e perde, e o que fazer), os sinais com limiar e data para saber qual vem aí, quem é afectado, direcção para agora e se piorar, o que pode estar errado e o grau de confiança. |
+| Quarta | **O Seu Bolso**: para a classe média e a classe baixa. Preços acompanhados semana a semana (combustível, chapa, milho, arroz, câmbio, juros), o que mudou, o que fazer por área, e revisão das direcções anteriores. |
+| Sábado e domingo | Só a edição da semana (bom momento para a aprovar com `aprovado semana`). |
+
+O email desses dias mostra primeiro o post do dia; a edição da semana vem em baixo, fechada.
+Cada post do dia tem o seu kit (`Direccoes-2026-10-14-O-Seu-Bolso.zip`), no escritório e, se ligado, no
+Google Drive em `Direccoes da Semana/Posts do dia/`.
+
+## Memória da redacção (pasta `memoria/`)
+
+A análise não recomeça do zero: a cada ronda os agentes registam
+
+- `indicadores.json`: os valores dos indicadores do bolso, com data e fonte (séries que crescem semana a semana);
+- `temas.json`: os assuntos em curso e o seu historial;
+- `direccoes.json`: as direcções dadas e, mais tarde, se se confirmaram;
+- `licoes.md`: o que a equipa aprendeu;
+- `resumo.json`: versão curta que os agentes lêem (poupa uso do Claude). Aparece também no escritório, em "Memória da redacção".
+
+Não apague esta pasta: é o arquivo que dá valor ao "O Seu Bolso".
+
+## Fontes e métodos de análise
+
+- `config/fontes.json`: fontes por categoria. Oficiais, preços e imprensa nacional são consultadas todos os dias;
+  as outras (económica, análise independente, humanitária, regional, internacional) rodam pelos dias da semana.
+  Pode acrescentar fontes à vontade.
+- Além do PESTAL, cada edição tem: canais de transmissão (como chega ao bolso), três cenários com probabilidade,
+  riscos (probabilidade e impacto), horizonte (imediato, 3 meses, 1 ano), vulnerabilidade por grupo,
+  grau de confiança e ligação à memória.
 
 ## Custos e limites
 
@@ -44,12 +82,12 @@ https://github.com/apps/claude
 ## Ajustes
 
 - Hora: `.github/workflows/redaccao.yml`, `cron: "0 0 * * *"` = 2h de Maputo (para 3h use `"0 1 * * *"`).
-- Linha editorial, fontes e grupos de impacto: `config/linha-editorial.json`.
+- Linha editorial e grupos de impacto: `config/linha-editorial.json`. Fontes e indicadores do bolso: `config/fontes.json`.
 - Como cada agente trabalha: `config/instrucoes-agentes.md`.
 
 ## Kit da semana e Google Drive
 
-Quando aprova a edição (etiqueta `aprovado`), o sistema cria o **kit da semana**:
+Quando aprova a edição (`aprovado semana` ou etiqueta `aprovado`), o sistema cria o **kit da semana**:
 
 ```
 Direccoes-2026-S40.zip
