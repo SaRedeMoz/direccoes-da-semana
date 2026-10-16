@@ -1,5 +1,14 @@
 [
   {
+    "dia": "2026-10-16",
+    "tipo": "dia",
+    "tema": "Gasóleo a 116 meticais e o preço do chapa",
+    "versao": 1,
+    "aprovada": "2026-10-16T21:36:03.895Z",
+    "zip": "data/kits/Direccoes-2026-10-16-Direccao-do-Dia.zip",
+    "mb": 9.6
+  },
+  {
     "semana": "2026-S42",
     "versao": 1,
     "aprovada": "2026-10-12T08:09:15.923Z",
