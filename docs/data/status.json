@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "pesquisar notícias de 15 e 16 de Outubro",
-      "em": "2026-10-16T02:01:51.029Z"
+      "estado": "pronto",
+      "msg": "4 notícias novas",
+      "em": "2026-10-16T02:02:22.204Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-16T02:02:22.204Z",
+      "agente": "fontes",
+      "msg": "4 notícias novas"
+    },
     {
       "em": "2026-10-16T02:01:51.029Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-11T02:41:06.309Z",
       "agente": "aprovacao",
       "msg": "À espera da sua aprovação"
-    },
-    {
-      "em": "2026-10-11T02:40:11.500Z",
-      "agente": "editor",
-      "msg": "Edição versão 9 montada"
     }
   ],
-  "actualizado": "2026-10-16T02:01:51.029Z",
+  "actualizado": "2026-10-16T02:02:22.204Z",
   "semana": "2026-S42",
   "dia": "2026-10-16",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3"
