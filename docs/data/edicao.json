@@ -1,14 +1,14 @@
 {
   "semana": "2026-S42",
-  "dia": "2026-10-15",
-  "versao": 4,
+  "dia": "2026-10-16",
+  "versao": 5,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
   "falhas_conformidade": [],
   "itens": [
     {
       "titulo": "Brent fecha a semana perto de 104 dólares",
-      "resumo": "O Brent subiu para cerca de 104,4 dólares por barril a 9 de Outubro, segundo o Trading Economics, e o contrato de futuros fechou em 104,72, acima dos 102,25 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz continuam a sustentar o preço. Actualização (2026-10-13): Não foi possível confirmar o fecho de 12 de Outubro; mercados de previsão apontam para valores perto de 100 dólares.",
+      "resumo": "O Brent subiu para cerca de 104,4 dólares por barril a 9 de Outubro, segundo o Trading Economics, e o contrato de futuros fechou em 104,72, acima dos 102,25 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz continuam a sustentar o preço. Actualização (2026-10-13): Não foi possível confirmar o fecho de 12 de Outubro; mercados de previsão apontam para valores perto de 100 dólares. Actualização (2026-10-16): A pesquisa de 16 de Outubro não confirmou o fecho do Brent de 15 de Outubro; mercados de previsão apontam para cerca de 100 dólares a 16 de Outubro.",
       "ambito": "mundo",
       "dimensao": "Económica",
       "fonte": "Trading Economics / Investing.com",
@@ -30,7 +30,7 @@
       "confianca": "media",
       "n": 2,
       "recolhida": "2026-10-12",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "Transportes quer parcerias com a Índia em mobilidade urbana e caminhos de ferro",
@@ -43,7 +43,7 @@
       "confianca": "media",
       "n": 3,
       "recolhida": "2026-10-12",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "EDM vai investir mais de 19 milhões de euros numa subestação em Tete",
@@ -96,13 +96,65 @@
       "n": 7,
       "recolhida": "2026-10-13",
       "na_edicao": true
+    },
+    {
+      "titulo": "Parlamento aprova a Lei do Conteúdo Local e o Governo aprova o regulamento",
+      "resumo": "A Lei 9/2026 do Conteúdo Local foi aprovada por unanimidade no Parlamento. O Conselho de Ministros aprovou o regulamento de aplicação e o estatuto da Autoridade do Conteúdo Local.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-advances-economic-growth-through-historic-local-content-framework/",
+      "data": "2026-10-15",
+      "confianca": "media",
+      "n": 8,
+      "recolhida": "2026-10-16",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Chapo defende maior acesso dos cidadãos ao mercado de capitais",
+      "resumo": "Nos 28 anos da Bolsa de Valores de Moçambique, o Presidente Daniel Chapo disse que alargar o acesso ao mercado de capitais é necessário para que mais cidadãos possuam negócios e criem riqueza. Na ocasião foi cotada a MECTS, a primeira empresa regida pelo regime jurídico das parcerias público-privadas.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "fonte": "allAfrica",
+      "url": "https://allafrica.com/stories/202610150327.html",
+      "data": "2026-10-15",
+      "confianca": "media",
+      "n": 9,
+      "recolhida": "2026-10-16",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Quadro orçamental de 2027 prevê défice menor e crescimento modesto",
+      "resumo": "Segundo notícias de 14 de Outubro, o quadro do Orçamento de 2027 aponta para um défice mais estreito e crescimento modesto, com receitas do Estado de 427,8 mil milhões de meticais. Os números devem ser confirmados no documento oficial.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/",
+      "data": "2026-10-14",
+      "confianca": "baixa",
+      "n": 10,
+      "recolhida": "2026-10-16",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Chapo pede aos trabalhadores compromisso com o desenvolvimento nos 50 anos da OTM-CS",
+      "resumo": "Na terça-feira, em Maputo, o Presidente Daniel Chapo desafiou o sector laboral a renovar o compromisso com o desenvolvimento nacional, na celebração dos 50 anos da central sindical OTM-CS.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-chapo-challenges-labour-sector-to-renew-commitment-to-national-development/",
+      "data": "2026-10-13",
+      "confianca": "media",
+      "n": 11,
+      "recolhida": "2026-10-16",
+      "na_edicao": false
     }
   ],
   "lacunas": [
-    "Preços oficiais dos combustíveis em Outubro (só há agregador não oficial, gasóleo cerca de 116 meticais por litro a 4 de Outubro)",
+    "Fecho oficial do Brent depois de 9 de Outubro",
+    "Preços oficiais dos combustíveis em Outubro",
     "Sofala e zona Centro: sem notícias datadas de Outubro",
-    "Fecho do Brent a 12, 13 e 14 de Outubro",
-    "Missão do FMI prevista para Novembro, por confirmar"
+    "Confirmação oficial dos números do Orçamento de 2027"
   ],
   "analise": {
     "destaques": {
@@ -111,13 +163,14 @@
         "Petróleo caro ameaça travar a descida dos juros em África"
       ],
       "nacional": [
+        "Lei do Conteúdo Local aprovada, com regulamento",
+        "Chapo defende mais acesso ao mercado de capitais",
         "Chapo anuncia recolha de armas ilegais depois da amnistia",
         "Chapo pede firmeza policial com respeito pelos direitos humanos",
         "Transportes quer parcerias com a Índia",
         "EDM prepara subestação de 19 milhões de euros em Tete",
         "Crescimento do PIB revisto em baixa para 0,9%",
-        "El Niño pode afectar 5,3 milhões de pessoas",
-        "PMI desce para 50,2, confiança empresarial em máximo desde 2017"
+        "El Niño pode afectar 5,3 milhões de pessoas"
       ]
     },
     "pestal": [
@@ -160,7 +213,7 @@
             "origem": "interna"
           },
           {
-            "texto": "Recuperação de regadios parados",
+            "texto": "Acesso alargado ao mercado de capitais",
             "origem": "interna"
           },
           {
@@ -170,7 +223,7 @@
         ],
         "ameacas": [
           {
-            "texto": "Petróleo perto de 104 dólares",
+            "texto": "Petróleo perto de 100 dólares",
             "origem": "externa"
           },
           {
@@ -185,13 +238,17 @@
         "peso_oportunidade": 2,
         "peso_ameaca": 3,
         "principal_oportunidade": "Crédito às empresas que exportam",
-        "principal_ameaca": "Petróleo perto de 104 dólares"
+        "principal_ameaca": "Petróleo perto de 100 dólares"
       },
       {
         "dimensao": "Social",
         "oportunidades": [
           {
             "texto": "Agenda de emprego para jovens",
+            "origem": "interna"
+          },
+          {
+            "texto": "Compromisso laboral nos 50 anos da OTM",
             "origem": "interna"
           }
         ],
@@ -272,15 +329,15 @@
         "dimensao": "Legal",
         "oportunidades": [
           {
+            "texto": "Lei do Conteúdo Local aprovada",
+            "origem": "interna"
+          },
+          {
             "texto": "Regulamento fiscal para pequenos contribuintes",
             "origem": "interna"
           },
           {
             "texto": "Combate à corrupção reafirmado",
-            "origem": "interna"
-          },
-          {
-            "texto": "Recolha de armas ilegais em Dezembro",
             "origem": "interna"
           }
         ],
@@ -296,7 +353,7 @@
         ],
         "peso_oportunidade": 2,
         "peso_ameaca": 2,
-        "principal_oportunidade": "Regulamento fiscal para pequenos contribuintes",
+        "principal_oportunidade": "Lei do Conteúdo Local aprovada",
         "principal_ameaca": "Contas de Mondlane em disputa"
       }
     ],
@@ -327,7 +384,7 @@
         "saldo": 1,
         "porque": "confiança empresarial a recuperar",
         "efeito": "positivo",
-        "explicacao": "A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco."
+        "explicacao": "A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco. A abertura da bolsa a mais cidadãos e a cotação da MECTS dão nova liquidez ao mercado."
       },
       {
         "grupo": "ONGs e parceiros",
@@ -348,14 +405,14 @@
         "saldo": -1,
         "porque": "crédito caro e custos de transporte",
         "efeito": "negativo",
-        "explicacao": "Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar."
+        "explicacao": "Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar. A Lei do Conteúdo Local pode abrir contratos a fornecedores nacionais, se o regulamento tiver regras claras para empresas pequenas."
       },
       {
         "grupo": "Ramos de negócio",
         "saldo": 0,
         "porque": "ganham energia, mineração e petróleo; perdem transportes",
         "efeito": "misto",
-        "explicacao": "Ganham energia, mineração e petróleo, com a fábrica da SLB em Pemba e a agenda do Governo. Perdem transportes, agricultura e comércio de alimentos, expostos ao gasóleo e à seca."
+        "explicacao": "Ganham energia, mineração e petróleo, com a fábrica da SLB em Pemba e a agenda do Governo. Perdem transportes, agricultura e comércio de alimentos, expostos ao gasóleo e à seca. O conteúdo local favorece também os fornecedores nacionais de serviços ao gás e à mineração."
       }
     ],
     "direccao": [
@@ -369,7 +426,7 @@
       },
       {
         "publico": "PMEs",
-        "accao": "Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Quem trabalha com energia, equipamento ou serviços offshore deve contactar a SLB em Pemba sobre fornecimento local."
+        "accao": "Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Quem trabalha com energia, equipamento ou serviços offshore deve contactar a SLB em Pemba sobre fornecimento local. Fornecedores de serviços devem ler o regulamento do Conteúdo Local e registar-se junto da nova Autoridade quando esta abrir."
       },
       {
         "publico": "ONGs e parceiros",
@@ -396,9 +453,9 @@
         "accao": "Quem detém armas sem registo deve entregá-las dentro do prazo da amnistia, que termina em Dezembro."
       }
     ],
-    "sinal": "Preço do petróleo e do gasóleo, a escassez localizada de combustível, a decisão sobre os preços internos, o fim da amnistia de armas em Dezembro, o debate da Conta Geral do Estado e a disputa sobre as contas de Venâncio Mondlane.",
-    "sintese": "O petróleo perto de 104 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a EDM prepara investimento em Tete. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo.",
-    "o_que_mudou_hoje": "A pesquisa de 15 de Outubro não encontrou notícias novas confirmadas sobre Moçambique nem o fecho do Brent depois de 9 de Outubro. A análise mantém-se. Os valores dos combustíveis em Outubro só aparecem num agregador não oficial e ficam por confirmar."
+    "sinal": "Regulamento do Conteúdo Local na prática, preço do petróleo e do gasóleo, fim da amnistia de armas em Dezembro, números oficiais do Orçamento de 2027 e a disputa sobre as contas de Venâncio Mondlane.",
+    "sintese": "O petróleo perto de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, o Parlamento aprovou a Lei do Conteúdo Local, a confiança empresarial recuperou e o Presidente defende mais acesso ao mercado de capitais. O efeito depende de as PMEs entrarem nas cadeias de fornecimento e de a energia chegar ao campo.",
+    "o_que_mudou_hoje": "Entraram a aprovação da Lei do Conteúdo Local e do seu regulamento, o discurso de Chapo na Bolsa de Valores e os primeiros números do quadro orçamental de 2027. O fecho do Brent depois de 9 de Outubro continua por confirmar, com mercados de previsão a apontar para cerca de 100 dólares."
   },
   "design": {
     "slides": [
@@ -415,12 +472,6 @@
         "imagem_termos": "oil tanker"
       },
       {
-        "titulo": "Chapo pede firmeza à polícia",
-        "texto": "O Presidente quer actuação dura contra criminosos, mas sem pôr ninguém acima da lei e com respeito pelos direitos humanos.",
-        "tom": "neutro",
-        "imagem_termos": "Maputo city street"
-      },
-      {
         "titulo": "Armas ilegais serão recolhidas",
         "texto": "Chapo diz que, depois da amnistia que termina em Dezembro, a polícia vai recolher à força as armas sem registo.",
         "tom": "neutro",
@@ -433,10 +484,16 @@
         "imagem_termos": "electrical substation"
       },
       {
-        "titulo": "Índia no comboio e no autocarro",
-        "texto": "O Ministério dos Transportes quer parcerias com a Índia na mobilidade urbana e nos caminhos de ferro.",
+        "titulo": "Lei do Conteúdo Local aprovada",
+        "texto": "O Parlamento aprovou a lei por unanimidade e o Governo aprovou o regulamento e o estatuto da Autoridade do Conteúdo Local.",
         "tom": "oportunidade",
-        "imagem_termos": "Mozambique railway Beira"
+        "imagem_termos": "Mozambique gas port"
+      },
+      {
+        "titulo": "Bolsa aberta a mais cidadãos",
+        "texto": "Chapo defende maior acesso ao mercado de capitais. A MECTS, primeira empresa de parceria público-privada, foi cotada.",
+        "tom": "oportunidade",
+        "imagem_termos": "stock exchange building"
       },
       {
         "titulo": "Confiança sobe, actividade desce",
@@ -446,30 +503,30 @@
       }
     ],
     "destaques_capa": [
-      "Brent perto de 104 dólares",
-      "Armas ilegais: recolha em Dezembro",
-      "EDM investe em Tete"
+      "Lei do Conteúdo Local aprovada",
+      "Brent perto de 100 dólares",
+      "Armas ilegais: recolha em Dezembro"
     ],
-    "legenda": "O petróleo continua perto de 104 dólares e pesa nos preços. Chapo anuncia recolha de armas ilegais depois da amnistia, e a confiança das empresas está no nível mais alto desde 2017. Veja quem ganha, quem perde e o que fazer.",
+    "legenda": "O Parlamento aprovou a Lei do Conteúdo Local, o petróleo continua perto de 100 dólares e Chapo anuncia recolha de armas ilegais depois da amnistia. Veja quem ganha, quem perde e o que fazer.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesDaSemana"
     ],
     "fontes_usadas": [
       1,
-      2,
-      3,
-      4,
       6,
+      4,
+      8,
+      9,
       7
     ]
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, 15 de Outubro*\n\n*MUNDO*\nO Brent fechou a semana perto de 104 dólares por barril, acima dos 102 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz mantêm o preço alto.\n\n*MOÇAMBIQUE*\nO Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O Ministério dos Transportes quer parcerias com a Índia. O crescimento da economia foi revisto em baixa para 0,9%. O PMI caiu para 50,2 em Setembro, mas a confiança das empresas é a mais alta desde 2017.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem as famílias de baixa renda, porque o transporte e a comida ficam mais caros. A classe média e as PMEs sofrem com o gasóleo e com juros altos. Ganham os investidores, com a confiança empresarial a recuperar, e as ONGs, com mais atenção ao clima e à fome.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços e guardar reservas de alimentos básicos. As PMEs que exportam devem perguntar ao banco pelo novo regime de crédito.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o preço do petróleo, a decisão sobre os combustíveis internos e o fim da amnistia de armas e a disputa sobre as contas de Venâncio Mondlane.\n\nSe achou útil, partilhe com quem decide em casa ou na empresa.",
-    "linkedin": "Petróleo perto de 104 dólares e crescimento de 0,9%: o que muda para Moçambique\n\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos cerca de 102 de 2 de Outubro. A tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz sustentam o preço.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O El Niño pode afectar 5,3 milhões de pessoas e o gasóleo encarece o transporte de alimentos. Do lado positivo, a confiança das empresas está no nível mais alto desde 2017, apesar de o PMI ter caído para 50,2 em Setembro. Também o Banco de Moçambique abriu crédito para empresas que exportam ou substituem importações, a confiança empresarial recuperou e a EDM prepara uma subestação de mais de 19 milhões de euros em Tete. O Ministério dos Transportes também quer parcerias com a Índia nos caminhos de ferro e na mobilidade urbana.\n\nQuem ganha: investidores e sectores ligados a energia, mineração e petróleo. Quem perde: famílias de baixa renda, classe média, PMEs, transportes e comércio de alimentos.\n\nDirecção\n\nGestores de PMEs que exportam devem perguntar ao banco pelo novo regime de crédito e pelos critérios de acesso. Operadores de energia e transportes devem acompanhar o projecto de Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos. Investidores devem esperar por medidas concretas de industrialização antes de comprometer capital.\n\nSinal a acompanhar: o preço do gasóleo e a decisão do Governo sobre os preços internos dos combustíveis. Se o Brent se mantiver acima de 100 dólares, o custo de transporte vai continuar a pressionar as margens.\n\n#Moçambique #Economia #PMEs",
-    "instagram": "O petróleo continua perto de 104 dólares e pesa nos preços. Chapo anuncia recolha de armas ilegais depois da amnistia, e a confiança das empresas está no nível mais alto desde 2017. Veja quem ganha, quem perde e o que fazer. #Moçambique #DirecçõesDaSemana",
-    "facebook": "Direcções da Semana, 15 de Outubro\n\nO petróleo fechou a semana perto de 104 dólares por barril. Isto pesa no preço do transporte e, mais tarde, no preço da comida.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou a recolha forçada de armas ilegais depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete, e o Ministério dos Transportes quer parcerias com a Índia nos caminhos de ferro.\n\nQuem mais sente a subida dos combustíveis são as famílias de baixa renda e as pequenas empresas. Os investidores têm razões para mais confiança, porque o sector empresarial está a recuperar e há crédito novo para quem exporta.\n\nO que fazer: comparar preços antes de comprar em quantidade, guardar reservas de alimentos básicos e, se tem uma empresa que exporta, perguntar ao banco pelo novo regime de crédito.\n\nA direcção principal da semana: planear com cautela e acompanhar o preço do gasóleo.\n\n#Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, 15 de Outubro de 2026\n\n## Resumo da semana\nO petróleo perto de 104 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, há crédito novo para quem exporta, a confiança empresarial recuperou e a EDM prepara investimento em Tete. O efeito depende de as PMEs conseguirem aceder ao crédito e de a energia chegar ao campo. Os dados de 10 de Outubro vêm da Lusa e devem ser confirmados.\n\n## Mundo\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril (Trading Economics indica 104,43 e o contrato de futuros fechou em 104,72), acima dos 102,25 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz continuam a sustentar o preço. Em África, responsáveis de vários países avisam que o petróleo caro pode travar a descida dos juros no Gana, Quénia, Zâmbia e Nigéria.\n\n## Moçambique\nO Presidente Daniel Chapo pediu à polícia, a 10 de Outubro, uma actuação firme contra criminosos, sem os pôr acima da lei e com respeito pelos direitos humanos. O Ministério dos Transportes e Logística anunciou que quer explorar parcerias com a Índia na mobilidade urbana e na modernização ferroviária. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O partido Anamola contestou, a 9 de Outubro, o desbloqueio das contas bancárias de Venâncio Mondlane. O Presidente Daniel Chapo anunciou ainda que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. O PMI do Standard Bank caiu para 50,2 em Setembro, a primeira descida desde Maio, mas a confiança para o próximo ano é a mais alta desde 2017. Mantêm-se o PIB revisto para 0,9% e o risco do El Niño para 5,3 milhões de pessoas.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); Paz exige instituições credíveis (int.); Contestação sobre contas de Mondlane (int.) |\n| Económica | Crédito às empresas que exportam (int.); Recuperação de regadios parados (int.); Incubação de mil agro-empresários (int.) | Petróleo perto de 104 dólares (ext.); PIB revisto para 0,9% (int.); Juros altos, referência a 15,5% (int.) |\n| Social | Agenda de emprego para jovens (int.) | Insegurança alimentar em alta (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.); Subestação da EDM em Tete (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Regulamento fiscal para pequenos contribuintes (int.); Combate à corrupção reafirmado (int.); Responsabilização criminal no caju (int.) | Contas de Mondlane em disputa (int.); Economia contraiu 0,52% em 2025 (int.) |\n\n## Quem ganha, quem perde\nGoverno (negativo): O El Niño foi estimado em 267 milhões de euros para o Estado, e o petróleo caro pressiona subsídios e transportes.\n\nClasse baixa (negativo): A insegurança alimentar subiu 55% e o gasóleo encarece o transporte de alimentos.\n\nClasse média (negativo): Combustível e crédito a 15,5% de referência reduzem o rendimento disponível. A AMB diz que o bloqueio de contas é preventivo e deve ser comunicado às autoridades, mas os prazos continuam por esclarecer.\n\nClasse alta e investidores (positivo): A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco.\n\nONGs e parceiros (positivo): A visita da ONU e a crise alimentar aumentam a atenção e o financiamento para respostas humanitárias. A AMER mostra uma lacuna no acesso à energia fora da rede, onde há espaço para apoio.\n\nMacroeconomia (negativo): O crescimento foi revisto para 0,9%, contra 2,8% projectados pelo Governo. O Brent, perto de 104 dólares a 9 de Outubro, e o custo do El Niño agravam as contas, e a Conta Geral de 2025 mostra uma contracção de 0,52%. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno.\n\nPMEs (negativo): Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar.\n\nRamos de negócio (misto): Ganham energia, mineração e petróleo, com a fábrica da SLB em Pemba e a agenda do Governo. Perdem transportes, agricultura e comércio de alimentos, expostos ao gasóleo e à seca.\n\n## Direcção\nGoverno: Preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\n\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\n\nPMEs: Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Quem trabalha com energia, equipamento ou serviços offshore deve contactar a SLB em Pemba sobre fornecimento local.\n\nONGs e parceiros: Concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\n\nInvestidores: Acompanhar medidas concretas de industrialização antes de comprometer capital.\n\nTrabalhadores e clientes dos bancos: Manter os dados actualizados e guardar comprovativos. Em caso de bloqueio, pedir ao banco a comunicação formal e o prazo.\n\nFamílias rurais: Comparar preços de sistemas solares e perguntar por prestadores registados na ARENE antes de comprar.\n\nOperadores de energia e transportes: Acompanhar o investimento da EDM em Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos.\n\n## Sinal a acompanhar\nPreço do petróleo e do gasóleo, a decisão do Governo sobre os preços internos dos combustíveis, o debate da Conta Geral do Estado no Parlamento, os critérios do novo regime de crédito e a disputa sobre as contas de Venâncio Mondlane.\n\n## Lista de notícias\n- 2026-10-09, Brent fecha a semana perto de 104 dólares (Trading Economics / Investing.com)\n- 2026-10-10, Chapo pede à polícia firmeza contra criminosos, com respeito pelos direitos humanos (Lusa)\n- 2026-10-10, Transportes quer parcerias com a Índia em mobilidade urbana e caminhos de ferro (Lusa)\n- 2026-10-09, EDM vai investir mais de 19 milhões de euros numa subestação em Tete (Lusa)\n- 2026-10-09, Anamola contesta o desbloqueio das contas de Venâncio Mondlane (Lusa)\n- 2026-10-12, Chapo anuncia recolha forçada de armas ilegais depois da amnistia (Voice of Nigeria)\n- 2026-10-06, Actividade empresarial desce em Setembro, mas a confiança é a mais alta desde 2017 (Investing.com)\n\n## Fontes\n- Trading Economics, Brent: https://tradingeconomics.com/commodity/brent-crude-oil\n- Lusa, Moçambique (notícias de 9 e 10 de Outubro): https://www.lusa.pt/lusofonia/mozambique\n- BusinessDay, petróleo e inflação em África: https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- AIM, Moçambique: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/\n- Voice of Nigeria, armas ilegais: https://von.gov.ng/mozambique-president-warns-of-crackdown-on-illegal-firearms\n- Investing.com, PMI de Moçambique: https://ca.investing.com/news/stock-market-news/mozambique-business-activity-falls-in-september-as-pmi-drops-93CH-4866971",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 16 de Outubro*\n\n*MUNDO*\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos 102 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz mantêm o preço alto.\n\n*MOÇAMBIQUE*\nO Presidente Daniel Chapo anunciou que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O Parlamento aprovou por unanimidade a Lei do Conteúdo Local, e o Governo aprovou o regulamento. Chapo defendeu mais acesso dos cidadãos ao mercado de capitais. O crescimento foi revisto em baixa para 0,9%.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem as famílias de baixa renda, a classe média e as PMEs, por causa do gasóleo e dos juros altos. Ganham os investidores e as ONGs.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços e guardar reservas de alimentos básicos. As PMEs que exportam devem perguntar ao banco pelo novo regime de crédito, e as que prestam serviços devem ler o regulamento do Conteúdo Local.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o preço do petróleo, a decisão sobre os combustíveis internos e o regulamento do Conteúdo Local, o fim da amnistia de armas e a disputa sobre as contas de Venâncio Mondlane.\n\nSe achou útil, partilhe com quem decide em casa ou na empresa.",
+    "linkedin": "Petróleo perto de 104 dólares e crescimento de 0,9%: o que muda para Moçambique\n\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos cerca de 102 de 2 de Outubro. A tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz sustentam o preço.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O El Niño pode afectar 5,3 milhões de pessoas. Do lado positivo, o Parlamento aprovou por unanimidade a Lei do Conteúdo Local e o Governo aprovou o regulamento, o que pode abrir contratos a fornecedores nacionais. Também a confiança das empresas está no nível mais alto desde 2017, apesar de o PMI ter caído para 50,2 em Setembro. Também o Banco de Moçambique abriu crédito para empresas que exportam ou substituem importações, a confiança empresarial recuperou e a EDM prepara uma subestação de mais de 19 milhões de euros em Tete.\n\nQuem ganha: investidores e sectores ligados a energia, mineração e petróleo. Quem perde: famílias de baixa renda, classe média, PMEs, transportes e comércio de alimentos.\n\nDirecção\n\nFornecedores de serviços devem ler o regulamento do Conteúdo Local. Gestores de PMEs que exportam devem perguntar ao banco pelo novo regime de crédito e pelos critérios de acesso. Investidores devem esperar por medidas concretas de industrialização antes de comprometer capital.\n\nSinal a acompanhar: a aplicação do Conteúdo Local, o preço do gasóleo e a decisão do Governo sobre os preços internos dos combustíveis. Se o Brent se mantiver acima de 100 dólares, o custo de transporte vai continuar a pressionar as margens.\n\n#Moçambique #Economia #PMEs",
+    "instagram": "O Parlamento aprovou a Lei do Conteúdo Local, o petróleo continua perto de 100 dólares e Chapo anuncia recolha de armas ilegais depois da amnistia. Veja quem ganha, quem perde e o que fazer. #Moçambique #DirecçõesDaSemana",
+    "facebook": "Direcções da Semana, 16 de Outubro\n\nO petróleo fechou a semana perto de 104 dólares por barril. Isto pesa no preço do transporte e, mais tarde, no preço da comida.\n\nEm Moçambique, o crescimento da economia foi revisto em baixa para 0,9%. O Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou a recolha forçada de armas ilegais depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete, e o Ministério dos Transportes quer parcerias com a Índia nos caminhos de ferro.\n\nQuem mais sente a subida dos combustíveis são as famílias de baixa renda e as pequenas empresas. O Parlamento aprovou a Lei do Conteúdo Local, que deve dar mais espaço a fornecedores moçambicanos. Os investidores têm razões para mais confiança, porque o sector empresarial está a recuperar e há crédito novo para quem exporta.\n\nO que fazer: comparar preços antes de comprar em quantidade, guardar reservas de alimentos básicos e, se tem uma empresa que exporta, perguntar ao banco pelo novo regime de crédito.\n\nA direcção principal da semana: planear com cautela e acompanhar o preço do gasóleo.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Direcções da Semana, 16 de Outubro de 2026\n\n## Resumo da semana\nO petróleo perto de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o crescimento foi revisto em baixa para 0,9%. Em sentido contrário, o Parlamento aprovou a Lei do Conteúdo Local, a confiança empresarial recuperou e o Presidente defende mais acesso ao mercado de capitais. O efeito depende de as PMEs entrarem nas cadeias de fornecimento e de a energia chegar ao campo. Os dados de 10 de Outubro vêm da Lusa e devem ser confirmados.\n\n## Mundo\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril (Trading Economics indica 104,43 e o contrato de futuros fechou em 104,72), acima dos 102,25 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz continuam a sustentar o preço. A 16 de Outubro, mercados de previsão apontam para cerca de 100 dólares, mas o fecho não foi confirmado. Em África, responsáveis de vários países avisam que o petróleo caro pode travar a descida dos juros no Gana, Quénia, Zâmbia e Nigéria.\n\n## Moçambique\nO Presidente Daniel Chapo pediu à polícia, a 10 de Outubro, uma actuação firme contra criminosos, sem os pôr acima da lei e com respeito pelos direitos humanos. O Ministério dos Transportes e Logística anunciou que quer explorar parcerias com a Índia na mobilidade urbana e na modernização ferroviária. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete. O partido Anamola contestou, a 9 de Outubro, o desbloqueio das contas bancárias de Venâncio Mondlane. O Presidente Daniel Chapo anunciou ainda que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. O PMI do Standard Bank caiu para 50,2 em Setembro, a primeira descida desde Maio, mas a confiança para o próximo ano é a mais alta desde 2017. A 15 de Outubro, o Parlamento aprovou por unanimidade a Lei 9/2026 do Conteúdo Local, e o Conselho de Ministros aprovou o regulamento e o estatuto da Autoridade do Conteúdo Local. Na Bolsa de Valores, nos seus 28 anos, o Presidente defendeu maior acesso dos cidadãos ao mercado de capitais e foi cotada a MECTS, a primeira empresa regida pelo regime das parcerias público-privadas. Notícias de 14 de Outubro apontam para um défice menor e crescimento modesto no quadro do Orçamento de 2027, com receitas de 427,8 mil milhões de meticais, por confirmar. Chapo falou também aos 50 anos da OTM-CS, pedindo compromisso dos trabalhadores. Mantêm-se o PIB revisto para 0,9% e o risco do El Niño para 5,3 milhões de pessoas.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); Paz exige instituições credíveis (int.); Contestação sobre contas de Mondlane (int.) |\n| Económica | Crédito às empresas que exportam (int.); Acesso alargado ao mercado de capitais (int.); Confiança empresarial no máximo desde 2017 (int.) | Petróleo perto de 100 dólares (ext.); PIB revisto para 0,9% (int.); PMI desce para 50,2 (int.) |\n| Social | Agenda de emprego para jovens (int.); Compromisso laboral nos 50 anos da OTM (int.) | Insegurança alimentar em alta (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.); Subestação da EDM em Tete (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Lei do Conteúdo Local aprovada (int.); Regulamento fiscal para pequenos contribuintes (int.); Combate à corrupção reafirmado (int.) | Contas de Mondlane em disputa (int.); Economia contraiu 0,52% em 2025 (int.) |\n\n## Quem ganha, quem perde\nGoverno (negativo): O El Niño foi estimado em 267 milhões de euros para o Estado, e o petróleo caro pressiona subsídios e transportes.\n\nClasse baixa (negativo): A insegurança alimentar subiu 55% e o gasóleo encarece o transporte de alimentos.\n\nClasse média (negativo): Combustível e crédito a 15,5% de referência reduzem o rendimento disponível. A AMB diz que o bloqueio de contas é preventivo e deve ser comunicado às autoridades, mas os prazos continuam por esclarecer.\n\nClasse alta e investidores (positivo): A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco. A abertura da bolsa a mais cidadãos e a cotação da MECTS dão nova liquidez ao mercado.\n\nONGs e parceiros (positivo): A visita da ONU e a crise alimentar aumentam a atenção e o financiamento para respostas humanitárias. A AMER mostra uma lacuna no acesso à energia fora da rede, onde há espaço para apoio.\n\nMacroeconomia (negativo): O crescimento foi revisto para 0,9%, contra 2,8% projectados pelo Governo. O Brent, perto de 104 dólares a 9 de Outubro, e o custo do El Niño agravam as contas, e a Conta Geral de 2025 mostra uma contracção de 0,52%. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno.\n\nPMEs (negativo): Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar. A Lei do Conteúdo Local pode abrir contratos a fornecedores nacionais, se o regulamento tiver regras claras para empresas pequenas.\n\nRamos de negócio (misto): Ganham energia, mineração e petróleo, com a fábrica da SLB em Pemba e a agenda do Governo. Perdem transportes, agricultura e comércio de alimentos, expostos ao gasóleo e à seca. O conteúdo local favorece também os fornecedores nacionais de serviços ao gás e à mineração.\n\n## Direcção\nGoverno: Preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\n\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\n\nPMEs: Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Quem trabalha com energia, equipamento ou serviços offshore deve contactar a SLB em Pemba sobre fornecimento local. Fornecedores de serviços devem ler o regulamento do Conteúdo Local e registar-se junto da nova Autoridade quando esta abrir.\n\nONGs e parceiros: Concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade.\n\nInvestidores: Acompanhar medidas concretas de industrialização antes de comprometer capital.\n\nTrabalhadores e clientes dos bancos: Manter os dados actualizados e guardar comprovativos. Em caso de bloqueio, pedir ao banco a comunicação formal e o prazo.\n\nFamílias rurais: Comparar preços de sistemas solares e perguntar por prestadores registados na ARENE antes de comprar.\n\nOperadores de energia e transportes: Acompanhar o investimento da EDM em Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos.\n\nEmpresas e comerciantes: Quem detém armas sem registo deve entregá-las dentro do prazo da amnistia, que termina em Dezembro.\n\n## Sinal a acompanhar\nRegulamento do Conteúdo Local na prática, preço do petróleo e do gasóleo, fim da amnistia de armas em Dezembro, números oficiais do Orçamento de 2027 e a disputa sobre as contas de Venâncio Mondlane.\n\n## Lista de notícias\n- 2026-10-15, Parlamento aprova a Lei do Conteúdo Local e o Governo aprova o regulamento (Club of Mozambique)\n- 2026-10-15, Chapo defende maior acesso dos cidadãos ao mercado de capitais (allAfrica)\n- 2026-10-14, Quadro orçamental de 2027 prevê défice menor e crescimento modesto (Club of Mozambique)\n- 2026-10-13, Chapo pede aos trabalhadores compromisso com o desenvolvimento nos 50 anos da OTM-CS (Club of Mozambique)\n- 2026-10-09, Brent fecha a semana perto de 104 dólares (Trading Economics / Investing.com)\n- 2026-10-10, Chapo pede à polícia firmeza contra criminosos, com respeito pelos direitos humanos (Lusa)\n- 2026-10-10, Transportes quer parcerias com a Índia em mobilidade urbana e caminhos de ferro (Lusa)\n- 2026-10-09, EDM vai investir mais de 19 milhões de euros numa subestação em Tete (Lusa)\n- 2026-10-09, Anamola contesta o desbloqueio das contas de Venâncio Mondlane (Lusa)\n- 2026-10-12, Chapo anuncia recolha forçada de armas ilegais depois da amnistia (Voice of Nigeria)\n- 2026-10-06, Actividade empresarial desce em Setembro, mas a confiança é a mais alta desde 2017 (Investing.com)\n\n## Fontes\n- Club of Mozambique, Conteúdo Local: https://clubofmozambique.com/news/mozambique-advances-economic-growth-through-historic-local-content-framework/\n- allAfrica, mercado de capitais: https://allafrica.com/stories/202610150327.html\n- Club of Mozambique, OTM-CS: https://clubofmozambique.com/news/mozambique-chapo-challenges-labour-sector-to-renew-commitment-to-national-development/\n- Trading Economics, Brent: https://tradingeconomics.com/commodity/brent-crude-oil\n- Lusa, Moçambique (notícias de 9 e 10 de Outubro): https://www.lusa.pt/lusofonia/mozambique\n- BusinessDay, petróleo e inflação em África: https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/\n- AIM, Moçambique: https://aimnews.org/2026/10/04/pr-aponta-desenvolvimento-economico-como-nova-fronteira-da-paz-em-mocambique/\n- Voice of Nigeria, armas ilegais: https://von.gov.ng/mozambique-president-warns-of-crackdown-on-illegal-firearms\n- Investing.com, PMI de Moçambique: https://ca.investing.com/news/stock-market-news/mozambique-business-activity-falls-in-september-as-pmi-drops-93CH-4866971",
     "verificar": [
       "Brent: 104,43 (Trading Economics) e 104,72 (futuros) a 9 de Outubro; existe uma série spot muito mais alta (125,44 a 6 de Outubro) que não foi usada",
       "Notícias de 9 e 10 de Outubro vêm só da listagem da Lusa, sem ler os artigos",
@@ -477,12 +534,11 @@
       "Fundamentos da contestação do Anamola sobre as contas de Venâncio Mondlane",
       "Armas ilegais e amnistia até Dezembro: fonte secundária (Voice of Nigeria), confirmar com a AIM ou a Lusa",
       "PMI de 50,2 em Setembro e confiança no máximo desde 2017: confirmar no Standard Bank",
-      "Fecho do Brent a 12 de Outubro não confirmado",
-      "Fecho do Brent a 12 e 13 de Outubro, ainda não confirmado"
+      "Lei 9/2026 do Conteúdo Local e regulamento: confirmar data e conteúdo na AIM ou no Boletim da República",
+      "Números do Orçamento de 2027 (receitas de 427,8 mil milhões de meticais, défice menor): confirmar no documento oficial",
+      "Brent a cerca de 100 dólares a 16 de Outubro vem de mercados de previsão, não de um fecho oficial"
     ],
-    "duvidas": [
-      "As sugestões 'Lista de noticias' e 'Sugestões listas de noticia' não são claras. Acrescentei uma secção 'Lista de notícias' na análise completa. Era isto que pretendia, ou quer a lista também no WhatsApp e no LinkedIn?"
-    ],
+    "duvidas": [],
     "conformidade": [
       {
         "criterio": "Notícias do mundo",
@@ -515,63 +571,5 @@
         "nota": "Presente na análise completa."
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png",
-      "data/imagens/feed/slide-13.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png",
-      "data/imagens/story/slide-13.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Claus Wonnemann / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Cornelius Kibelka from Berlin, Germany / Wikimedia Commons, CC BY-SA 2.0",
-      "Foto: Aciarium / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Andrew Moore from Johannesburg, South Africa / Wikimedia Commons, CC BY-SA 2.0",
-      "Foto: Photos mainly by H. Graumann and I. Piedade Pó, void of copy / Wikimedia Commons, Public domain"
-    ],
-    "v": 1792030379015
   }
 }

@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "textos actualizados",
-      "em": "2026-10-16T02:03:05.659Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-16T02:03:12.885Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-16T02:03:12.885Z",
+      "agente": "editor",
+      "msg": "Edição versão 5 montada"
+    },
     {
       "em": "2026-10-16T02:03:05.659Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-12T03:04:16.762Z",
       "agente": "design",
       "msg": "a rever slides"
-    },
-    {
-      "em": "2026-10-12T03:04:15.413Z",
-      "agente": "analise",
-      "msg": "análise actualizada com Brent a 104 e itens de 9 e 10 de Outubro"
     }
   ],
-  "actualizado": "2026-10-16T02:03:05.659Z",
+  "actualizado": "2026-10-16T02:03:12.885Z",
   "semana": "2026-S42",
   "dia": "2026-10-16",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3"
