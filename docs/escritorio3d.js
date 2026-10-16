@@ -1,6 +1,6 @@
 // Escritório 3D (abre só quando pedido, para a página carregar depressa no telemóvel)
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js";
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 const reduz = matchMedia("(prefers-reduced-motion: reduce)").matches;
 let status = null, STAGE = null;
 const $ = (id) => (id === "stage" ? STAGE : document.getElementById(id));
