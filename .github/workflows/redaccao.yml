@@ -27,7 +27,7 @@ jobs:
       github.event_name == 'schedule' ||
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'issue_comment' &&
-        (startsWith(github.event.comment.body, '/rever') || startsWith(github.event.comment.body, '/trocar') || startsWith(github.event.comment.body, '/incluir') || startsWith(github.event.comment.body, '/aprovar') || startsWith(github.event.comment.body, 'aprovad')) &&
+        (startsWith(github.event.comment.body, '/') || startsWith(github.event.comment.body, 'rever') || startsWith(github.event.comment.body, 'revê') || startsWith(github.event.comment.body, 'refazer') || startsWith(github.event.comment.body, 'trocar') || startsWith(github.event.comment.body, 'incluir') || startsWith(github.event.comment.body, 'aprovad') || startsWith(github.event.comment.body, 'aprovar')) &&
         github.event.comment.user.login == github.repository_owner) ||
       (github.event_name == 'issues' && github.event.label.name == 'aprovado')
     env:
