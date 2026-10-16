@@ -1,0 +1,267 @@
+{
+  "actualizado": "2026-10-16",
+  "indicadores": [
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "base": "gasolina",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "base": "gasoleo",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "gas_cozinha",
+      "nome": "Gás de cozinha",
+      "unidade": "MT/kg",
+      "base": "gas_cozinha",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "chapa_maputo",
+      "nome": "Chapa urbano (Maputo)",
+      "unidade": "MT/viagem",
+      "base": "chapa",
+      "regiao": "maputo",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "chapa_beira",
+      "nome": "Chapa urbano (Beira)",
+      "unidade": "MT/viagem",
+      "base": "chapa",
+      "regiao": "beira",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "chapa_nampula",
+      "nome": "Chapa urbano (Nampula)",
+      "unidade": "MT/viagem",
+      "base": "chapa",
+      "regiao": "nampula",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "milho_maputo",
+      "nome": "Milho em grão (Maputo)",
+      "unidade": "MT/kg",
+      "base": "milho",
+      "regiao": "maputo",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "milho_beira",
+      "nome": "Milho em grão (Beira)",
+      "unidade": "MT/kg",
+      "base": "milho",
+      "regiao": "beira",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "milho_nampula",
+      "nome": "Milho em grão (Nampula)",
+      "unidade": "MT/kg",
+      "base": "milho",
+      "regiao": "nampula",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "arroz_maputo",
+      "nome": "Arroz (Maputo)",
+      "unidade": "MT/kg",
+      "base": "arroz",
+      "regiao": "maputo",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "arroz_beira",
+      "nome": "Arroz (Beira)",
+      "unidade": "MT/kg",
+      "base": "arroz",
+      "regiao": "beira",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "arroz_nampula",
+      "nome": "Arroz (Nampula)",
+      "unidade": "MT/kg",
+      "base": "arroz",
+      "regiao": "nampula",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "oleo_maputo",
+      "nome": "Óleo alimentar (Maputo)",
+      "unidade": "MT/litro",
+      "base": "oleo",
+      "regiao": "maputo",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "oleo_beira",
+      "nome": "Óleo alimentar (Beira)",
+      "unidade": "MT/litro",
+      "base": "oleo",
+      "regiao": "beira",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "oleo_nampula",
+      "nome": "Óleo alimentar (Nampula)",
+      "unidade": "MT/litro",
+      "base": "oleo",
+      "regiao": "nampula",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "base": "inflacao",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "inflacao_maputo",
+      "nome": "Inflação anual (Maputo)",
+      "unidade": "%",
+      "base": "inflacao",
+      "regiao": "maputo",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "inflacao_beira",
+      "nome": "Inflação anual (Beira)",
+      "unidade": "%",
+      "base": "inflacao",
+      "regiao": "beira",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "inflacao_nampula",
+      "nome": "Inflação anual (Nampula)",
+      "unidade": "%",
+      "base": "inflacao",
+      "regiao": "nampula",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "base": "usd_mzn",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "mimo",
+      "nome": "Taxa MIMO",
+      "unidade": "%",
+      "base": "mimo",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "prime_rate",
+      "nome": "Prime rate (crédito bancário)",
+      "unidade": "%",
+      "base": "prime_rate",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    },
+    {
+      "id": "brent",
+      "nome": "Petróleo Brent",
+      "unidade": "USD/barril",
+      "base": "brent",
+      "regiao": "",
+      "ultimo": null,
+      "variacao_4_semanas_pct": null,
+      "variacao_12_semanas_pct": null,
+      "ultimos": []
+    }
+  ],
+  "temas_activos": [],
+  "direccoes_a_verificar": [],
+  "balanco_direccoes": {
+    "confirmada": 0,
+    "parcial": 0,
+    "nao_confirmada": 0,
+    "pendente": 0
+  },
+  "ultimas_licoes": []
+}
