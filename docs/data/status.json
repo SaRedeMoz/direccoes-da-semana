@@ -16,9 +16,9 @@
       "em": "2026-10-16T02:02:39.825Z"
     },
     "editor": {
-      "estado": "parado",
-      "msg": "À espera da sua vez",
-      "em": "2026-10-16T02:01:27.457Z"
+      "estado": "a trabalhar",
+      "msg": "actualizar textos",
+      "em": "2026-10-16T02:02:40.943Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-16T02:02:40.943Z",
+      "agente": "editor",
+      "msg": "actualizar textos"
+    },
     {
       "em": "2026-10-16T02:02:39.825Z",
       "agente": "design",
@@ -221,14 +226,9 @@
       "em": "2026-10-12T03:04:04.224Z",
       "agente": "analise",
       "msg": "a actualizar PESTAL e impacto"
-    },
-    {
-      "em": "2026-10-12T03:04:02.917Z",
-      "agente": "fontes",
-      "msg": "5 itens novos, 8 pesquisas feitas"
     }
   ],
-  "actualizado": "2026-10-16T02:02:39.825Z",
+  "actualizado": "2026-10-16T02:02:40.943Z",
   "semana": "2026-S42",
   "dia": "2026-10-16",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3"
