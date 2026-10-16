@@ -9,6 +9,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
 <style>
 :root{
   --bg:#E3E8E2;--card:#FFFFFF;--soft:#F3F5F1;--ink:#16223A;--muted:#5B6677;--line:#D3DAD3;
@@ -538,6 +544,7 @@ $("ver3d").addEventListener("click",async()=>{
   const st=$("stage"),b=$("ver3d");
   if(!st.classList.contains("hidden")){st.classList.add("hidden");b.textContent="Ver o escritório em 3D";return;}
   st.classList.remove("hidden");b.textContent="Esconder o escritório 3D";
+  setTimeout(()=>st.scrollIntoView({behavior:"smooth",block:"center"}),50);
   if(!esc3d){try{esc3d=await import("./escritorio3d.js");esc3d.iniciar(st,status);}catch(_){st.innerHTML='<div class="nogl">Não foi possível abrir o escritório 3D neste aparelho.</div>';}}
 });
 
