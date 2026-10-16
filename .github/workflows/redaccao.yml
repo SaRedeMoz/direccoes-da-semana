@@ -62,8 +62,9 @@ jobs:
             Lê e segue à letra o ficheiro config/instrucoes-agentes.md.
             Modo desta ronda: ${{ steps.preparar.outputs.modo }}.
             Data de hoje (Maputo): ${{ steps.preparar.outputs.hoje }}. Semana: ${{ steps.preparar.outputs.semana }}.
+            Post do dia: ${{ steps.preparar.outputs.post_do_dia }}.
           claude_args: >-
-            --max-turns 120
+            --max-turns 180
             --allowedTools "WebSearch,WebFetch,Read,Write,Edit,Glob,Grep,Bash"
 
       # 3) Sem custo: junta o trabalho dos agentes na edição
@@ -71,7 +72,7 @@ jobs:
         if: steps.preparar.outputs.modo == 'diario' || steps.preparar.outputs.modo == 'rever'
         run: node scripts/publicar.mjs
 
-      # 4) Sem custo: gera as imagens dos posts (assinatura S.A REDES no rodapé)
+      # 4) Sem custo: gera as imagens da edição da semana e do post do dia
       - name: Imagens dos posts
         if: steps.preparar.outputs.modo != 'aprovar'
         continue-on-error: true
@@ -79,11 +80,12 @@ jobs:
           npm install --no-save playwright@1
           npx playwright install --with-deps chromium
           sudo apt-get install -y fonts-noto-color-emoji
-          node scripts/imagens.mjs
+          node scripts/imagens.mjs || echo "Imagens da semana falharam"
+          node scripts/dia.mjs --se-hoje
 
-      # 5) Sem custo: quando aprova a edição, gera o Reel (vídeo 9:16) a partir das stories
+      # 5) Sem custo: quando aprova a edição da semana, gera o Reel (vídeo 9:16) a partir das stories
       - name: Vídeo (Reel)
-        if: steps.preparar.outputs.modo == 'aprovar' || steps.preparar.outputs.modo == 'editar'
+        if: (steps.preparar.outputs.modo == 'aprovar' && steps.preparar.outputs.alvo != 'dia') || steps.preparar.outputs.modo == 'editar'
         continue-on-error: true
         run: |
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
@@ -93,18 +95,21 @@ jobs:
       - name: Notificar
         if: success()
         run: node scripts/github.mjs ${{ steps.preparar.outputs.modo == 'aprovar' && 'aprovar' || 'notificar' }}
-      # 7) Sem custo: kit de publicação (uma pasta por rede social + ZIP único) da edição aprovada
-      - name: Kit da semana
+      # 7) Sem custo: kits de publicação (uma pasta por rede social + ZIP único) do que foi aprovado
+      - name: Kits (semana e dia)
         id: kit
         if: success() && (steps.preparar.outputs.modo == 'aprovar' || steps.preparar.outputs.modo == 'editar')
         continue-on-error: true
+        env:
+          ALVO: ${{ steps.preparar.outputs.alvo }}
         run: |
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
-          node scripts/kit.mjs
+          if [ "$ALVO" != "dia" ]; then node scripts/kit.mjs; fi
+          if [ "$ALVO" = "dia" ] || [ "$ALVO" = "tudo" ] || [ -z "$ALVO" ]; then node scripts/kit.mjs --dia; fi
 
-      # 8) Opcional: envia a pasta da semana para o Google Drive (só se o segredo RCLONE_CONF existir)
+      # 8) Opcional: envia as pastas para o Google Drive (só se o segredo RCLONE_CONF existir)
       - name: Google Drive
-        if: steps.kit.outputs.pasta != ''
+        if: steps.kit.outputs.pasta != '' || steps.kit.outputs.pasta_dia != ''
         continue-on-error: true
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
@@ -112,7 +117,9 @@ jobs:
           if [ -z "$RCLONE_CONF" ]; then echo "Google Drive não configurado: segredo RCLONE_CONF em falta."; exit 0; fi
           curl -fsSL https://rclone.org/install.sh | sudo bash
           mkdir -p ~/.config/rclone && printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
-          rclone sync "publicar/${{ steps.kit.outputs.pasta }}" "gdrive:Direccoes da Semana/${{ steps.kit.outputs.pasta }}" --drive-use-trash=false -v
+          PASTA="${{ steps.kit.outputs.pasta }}"; PASTA_DIA="${{ steps.kit.outputs.pasta_dia }}"
+          if [ -n "$PASTA" ]; then rclone sync "publicar/$PASTA" "gdrive:Direccoes da Semana/$PASTA" --drive-use-trash=false -v; fi
+          if [ -n "$PASTA_DIA" ]; then rclone sync "publicar/dias/$PASTA_DIA" "gdrive:Direccoes da Semana/Posts do dia/$PASTA_DIA" --drive-use-trash=false -v; fi
 
       - name: Avisar falha
         if: failure()
