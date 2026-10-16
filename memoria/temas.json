@@ -1,0 +1,44 @@
+[
+  {
+    "id": "combustivel",
+    "nome": "Combustíveis e transporte",
+    "estado": "activo",
+    "inicio": "2026-10-16",
+    "historial": [
+      {
+        "data": "2026-10-16",
+        "semana": "2026-S42",
+        "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio e o Brent anda perto de 104 dólares. Houve filas nos postos no fim de Setembro e as regras provisórias de importação vão até 31 de Dezembro.",
+        "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
+      }
+    ]
+  },
+  {
+    "id": "el_nino",
+    "nome": "El Niño e segurança alimentar",
+    "estado": "activo",
+    "inicio": "2026-10-16",
+    "historial": [
+      {
+        "data": "2026-10-16",
+        "semana": "2026-S42",
+        "resumo": "O El Niño pode afectar 5,3 milhões de pessoas e a insegurança alimentar está em alta. O custo para o Estado foi estimado em 267 milhões de euros.",
+        "direccao": "Concentrar a ajuda nas zonas de vulnerabilidade máxima e guardar reservas de básicos."
+      }
+    ]
+  },
+  {
+    "id": "conteudo_local",
+    "nome": "Lei do Conteúdo Local",
+    "estado": "activo",
+    "inicio": "2026-10-16",
+    "historial": [
+      {
+        "data": "2026-10-16",
+        "semana": "2026-S42",
+        "resumo": "O Parlamento aprovou a Lei 9/2026 por unanimidade e o Governo aprovou o regulamento e o estatuto da Autoridade. O efeito para as PMEs depende das regras de acesso.",
+        "direccao": "Fornecedores devem ler o regulamento e registar-se quando a Autoridade abrir."
+      }
+    ]
+  }
+]

@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos revistos e post do dia gravado",
-      "em": "2026-10-16T10:35:03.596Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-16T10:35:12.444Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-16T10:35:12.444Z",
+      "agente": "editor",
+      "msg": "Edição versão 6 montada"
+    },
+    {
+      "em": "2026-10-16T10:35:12.444Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Gasóleo a 116 meticais e o preço do chapa"
+    },
     {
       "em": "2026-10-16T10:35:03.596Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-10-13T04:20:50.306Z",
       "agente": "aprovacao",
       "msg": "1 dúvida(s) para si"
-    },
-    {
-      "em": "2026-10-13T04:19:53.397Z",
-      "agente": "editor",
-      "msg": "Edição versão 2 montada"
-    },
-    {
-      "em": "2026-10-13T04:19:45.857Z",
-      "agente": "editor",
-      "msg": "textos de 13 de Outubro gravados"
     }
   ],
-  "actualizado": "2026-10-16T10:35:03.596Z",
+  "actualizado": "2026-10-16T10:35:12.444Z",
   "semana": "2026-S42",
   "dia": "2026-10-16",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3"

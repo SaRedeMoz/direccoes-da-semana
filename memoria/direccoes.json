@@ -1,0 +1,38 @@
+[
+  {
+    "id": "D1",
+    "data": "2026-10-16",
+    "semana": "2026-S42",
+    "publico": "Famílias",
+    "accao": "Planear viagens, comparar preços e guardar recibos de tarifas novas.",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-16",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D2",
+    "data": "2026-10-16",
+    "semana": "2026-S42",
+    "publico": "Transportadores",
+    "accao": "Licenciar a viatura e confirmar a inscrição no subsídio.",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-16",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D3",
+    "data": "2026-10-16",
+    "semana": "2026-S42",
+    "publico": "PMEs",
+    "accao": "Ler o regulamento do Conteúdo Local e perguntar ao banco pelo regime de crédito a quem exporta.",
+    "tema": "conteudo_local",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-15",
+    "resultado": "pendente",
+    "nota": ""
+  }
+]

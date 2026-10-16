@@ -1,0 +1,263 @@
+{
+  "tipo": "dia",
+  "tema": "Gasóleo a 116 meticais e o preço do chapa",
+  "pergunta": "O gasóleo caro vai encarecer o chapa e a comida?",
+  "facto": {
+    "texto": "Desde 7 de Maio, o gasóleo custa 116,25 meticais por litro, contra 79,88 antes, uma subida de 45,5%. A gasolina subiu 12,1%, para 93,69. O Brent esteve perto de 104 dólares a 9 de Outubro e houve filas nos postos no fim de Setembro.",
+    "numeros": [
+      {
+        "valor": "+45,5%",
+        "legenda": "gasóleo desde 7 de Maio"
+      },
+      {
+        "valor": "116,25 MT",
+        "legenda": "litro de gasóleo"
+      },
+      {
+        "valor": "104 USD",
+        "legenda": "Brent a 9 de Outubro"
+      }
+    ],
+    "fonte": "Lusa via Notícias ao Minuto (6 de Maio de 2026); Trading Economics (9 de Outubro de 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "7 Mai",
+      "texto": "Gasóleo sobe 45,5% e gasolina 12,1%",
+      "futuro": false
+    },
+    {
+      "data": "Mai",
+      "texto": "Transportadores param; Governo anuncia subsídio por três meses",
+      "futuro": false
+    },
+    {
+      "data": "Jun",
+      "texto": "Pagos 110,2 milhões de meticais a semicoletivos, referentes a Maio",
+      "futuro": false
+    },
+    {
+      "data": "Fim Set",
+      "texto": "Filas nos postos em Maputo e outras províncias",
+      "futuro": false
+    },
+    {
+      "data": "9 Out",
+      "texto": "Brent perto de 104 dólares por barril",
+      "futuro": false
+    },
+    {
+      "data": "31 Dez",
+      "texto": "Terminam as regras provisórias de importação",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Maio de 2026",
+    "o_que_aconteceu": "Depois da subida de 7 de Maio, centenas de transportadores pararam, o Governo criou um subsídio inicial de três meses e a inflação anual passou de 4,41% em Abril para cerca de 7,2% em Maio.",
+    "licao": "Um choque no gasóleo chega depressa aos preços e obriga o Estado a amortecer.",
+    "fonte": "Lusa; Forbes África Lusófona; Millennium BIM"
+  },
+  "porque_importa": "O gasóleo move o chapa, os camiões de comida e as máquinas agrícolas. Quando sobe, o efeito chega ao bolso em semanas, primeiro no transporte e depois na comida. O subsídio foi anunciado para três meses iniciais e não encontrámos confirmação de renovação.",
+  "canal": {
+    "passos": [
+      "Brent perto de 104 dólares",
+      "Gasóleo a 116,25 meticais",
+      "Chapa e camiões gastam mais",
+      "Tarifas e comida sobem"
+    ],
+    "quem_sente": "Famílias de baixa renda e transportadores"
+  },
+  "conta": {
+    "titulo": "Quanto custa a subida a um chapa",
+    "pressupostos": "Chapa de 200 km por dia a 8 km/l, 26 dias, 300 passageiros; família: 2 adultos, 2 viagens, 22 dias.",
+    "barras": [
+      {
+        "rotulo": "Custo extra por mês",
+        "valor": 23641,
+        "texto": "23 641 MT/mês"
+      },
+      {
+        "rotulo": "Subsídio de referência",
+        "valor": 35470,
+        "texto": "35 470 MT"
+      }
+    ],
+    "unidade": "meticais",
+    "conclusao": "Sem subsídio, cada viagem custaria cerca de 3 MT a mais; uma família com dois adultos pagaria mais 267 MT por mês."
+  },
+  "cenarios": [
+    {
+      "nome": "Petróleo cede, abastecimento normaliza",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "O Brent está perto de 104 dólares e a tensão no Estreito de Ormuz persiste; cair abaixo de 90 exige acalmia rápida.",
+      "gatilho": "Brent fecha abaixo de 90 dólares durante duas semanas seguidas",
+      "o_que_acontece": "A pressão sobre as divisas e as importações alivia, as filas acabam e o gasóleo fica em 116,25 sem novo ajuste.",
+      "numeros": "Brent entre 80 e 90 dólares; gasóleo estável a 116,25 MT/litro",
+      "quando": "até Janeiro de 2027",
+      "ganha": "Famílias, chapas e comerciantes",
+      "perde": "Nenhum grupo de forma directa",
+      "se_acontecer": "Manter as tarifas actuais e repor reservas de caixa antes da campanha agrícola."
+    },
+    {
+      "nome": "Preço parado, abastecimento irregular",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "O preço manteve-se desde 7 de Maio apesar do Brent alto, o que mostra inércia, mas as filas de Setembro mostram fragilidade.",
+      "gatilho": "A ARENE não publica revisão e as filas ficam pontuais até Dezembro",
+      "o_que_acontece": "O preço fica em 116,25, mas as falhas pontuais fazem perder horas em filas e obrigam a racionar viagens e entregas.",
+      "numeros": "Gasóleo a 116,25 MT/litro; Brent entre 95 e 105 dólares",
+      "quando": "até 31 de Dezembro de 2026",
+      "ganha": "Quem consegue abastecer cedo",
+      "perde": "Transportadores com tarifa travada",
+      "se_acontecer": "Planear rotas e compras com antecedência e guardar o recibo do subsídio."
+    },
+    {
+      "nome": "Revisão de preços e tarifas novas",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "O banco central admite dificuldades de divisas, houve filas no fim de Setembro e o Brent segue acima de 100 dólares.",
+      "gatilho": "A ARENE anuncia revisão ou o Brent fecha acima de 110 dólares",
+      "o_que_acontece": "O Governo ajusta o gasóleo, os transportadores pedem tarifas novas e o preço dos alimentos acompanha o transporte.",
+      "numeros": "Estimativa da redacção: gasóleo entre 125 e 140 MT/litro",
+      "quando": "Novembro de 2026 a Fevereiro de 2027",
+      "ganha": "Importadores e o Tesouro",
+      "perde": "Famílias de baixa renda e chapas",
+      "se_acontecer": "Cortar viagens não essenciais, comprar alimentos básicos em quantidade moderada e guardar recibos."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Fecho semanal do Brent",
+      "limiar": "Acima de 110 dólares duas semanas seguidas",
+      "quando": "até 30 de Novembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Fecho semanal do Brent",
+      "limiar": "Abaixo de 90 dólares duas semanas seguidas",
+      "quando": "até 30 de Novembro de 2026",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Comunicado da ARENE sobre preços",
+      "limiar": "Qualquer revisão do gasóleo acima de 116,25 MT",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Subsídio aos semicoletivos",
+      "limiar": "Anúncio oficial de que continua",
+      "quando": "até 30 de Novembro de 2026",
+      "aponta_para": "fica_igual"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "comida e transporte mais caros"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "transporte e juros pesam no salário"
+    },
+    {
+      "grupo": "Transportadores de chapa",
+      "saldo": -1,
+      "porque": "custo alto e tarifa travada"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": -1,
+      "porque": "gasóleo aperta o custo de entrega"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "o subsídio custa dinheiro público"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias",
+      "agora": "Compare preços, planeie as viagens e guarde o recibo de qualquer tarifa nova.",
+      "se_piorar": "Reduza viagens não essenciais e compre alimentos básicos em quantidade moderada."
+    },
+    {
+      "publico": "Transportadores",
+      "agora": "Licencie a viatura e confirme que está na base de dados do subsídio.",
+      "se_piorar": "Negoceie a tarifa com a associação antes de subir o preço sozinho."
+    },
+    {
+      "publico": "PMEs",
+      "agora": "Calcule quanto o gasóleo pesa na entrega e renegoceie prazos.",
+      "se_piorar": "Reveja preços de entrega e agrupe cargas."
+    },
+    {
+      "publico": "Governo e ARENE",
+      "agora": "Dizer publicamente se o subsídio continua e até quando.",
+      "se_piorar": "Publicar a revisão com antecedência e com números."
+    }
+  ],
+  "visao_contraria": "O preço do gasóleo está parado há cinco meses com o Brent perto de 100 dólares, e o subsídio amorteceu a tarifa. O aperto pode ser mais de abastecimento do que de preço.",
+  "nao_sabemos": [
+    "Se o subsídio aos semicoletivos foi renovado depois dos três meses iniciais.",
+    "Preço do gasóleo em Outubro: sem confirmação da ARENE, usa-se o de 7 de Maio.",
+    "Brent depois de 9 de Outubro: só há mercados de previsão, perto de 100 dólares."
+  ],
+  "sinal": "Brent acima de 110 dólares ou anúncio de revisão da ARENE",
+  "confianca": "media",
+  "base_confianca": "Preços de Maio via Lusa, sem confirmação da ARENE para Outubro; só um precedente comparável este ano",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA, 16 de Outubro*\n\n*O gasóleo caro vai encarecer o chapa e a comida?*\n\nDesde 7 de Maio, o gasóleo custa 116,25 meticais por litro, contra 79,88 antes: mais 45,5%. A gasolina subiu 12,1%, para 93,69. O Brent esteve perto de 104 dólares a 9 de Outubro e houve filas nos postos no fim de Setembro.\n\n*O QUE JÁ ACONTECEU*\nEm Maio, os transportadores pararam, o Governo criou um subsídio inicial de três meses aos semicoletivos e a inflação anual subiu de 4,41% em Abril para cerca de 7,2% em Maio. Não encontrámos confirmação de que o subsídio foi renovado.\n\n*A CONTA*\nUm chapa que anda 200 km por dia, com 8 km por litro, gasta mais 909 meticais por dia, cerca de 23 641 por mês. Com 300 passageiros por dia, são cerca de 3 meticais a mais por viagem. Uma família com dois adultos, duas viagens por dia, paga mais 267 meticais por mês só no transporte. A comida mais cara vem a seguir.\n\n*TRÊS CENÁRIOS ATÉ JANEIRO*\nMelhora, 20%: o Brent cai abaixo de 90 dólares e o abastecimento normaliza.\nFica igual, 45%: o preço fica em 116,25, mas as falhas pontuais continuam. O preço está parado desde Maio, o que mostra inércia, mas as filas de Setembro mostram fragilidade.\nPiora, 35%: o Brent passa 110 dólares ou o abastecimento falha, o Governo revê o preço e os chapas pedem tarifas novas. Estimativa nossa: gasóleo entre 125 e 140 meticais.\n\n*DIRECÇÃO*\nFamílias: comparem preços, planeiem as viagens e guardem o recibo de qualquer tarifa nova. Transportadores: licenciem a viatura e confirmem que estão na base do subsídio. PMEs: calculem quanto o gasóleo pesa na entrega. Se o cenário mau se confirmar, reduzam viagens não essenciais.\n\n*A OUTRA VISÃO*\nO preço está parado há cinco meses com o Brent perto de 100 dólares. O aperto pode ser mais de abastecimento do que de preço.\n\nSinal a seguir: Brent acima de 110 dólares ou anúncio de revisão da ARENE. Partilhe com quem decide as compras e o transporte lá em casa.",
+    "instagram": "O gasóleo custa 116,25 meticais desde 7 de Maio, mais 45,5%. Um chapa gasta cerca de 23 641 meticais a mais por mês, perto de 3 meticais por viagem. Três cenários até Janeiro: melhora 20%, igual 45%, piora 35%. O sinal a seguir: Brent acima de 110 dólares ou revisão da ARENE. #Moçambique #DirecçãoDoDia",
+    "facebook": "Direcção do Dia, 16 de Outubro\n\nO gasóleo caro vai encarecer o chapa e a comida?\n\nDesde 7 de Maio, o gasóleo custa 116,25 meticais por litro, contra 79,88 antes. A gasolina custa 93,69. O Brent esteve perto de 104 dólares a 9 de Outubro e houve filas nos postos no fim de Setembro.\n\nEm Maio, depois da subida, os transportadores pararam e o Governo criou um subsídio inicial de três meses aos semicoletivos. A inflação anual passou de 4,41% em Abril para cerca de 7,2% em Maio. Não sabemos se o subsídio foi renovado.\n\nA conta, com pressupostos nossos: um chapa de 200 km por dia gasta mais 909 meticais por dia. Com 300 passageiros, são cerca de 3 meticais a mais por viagem. Uma família com dois adultos paga mais cerca de 267 meticais por mês.\n\nAté Janeiro, vemos 45% de probabilidade de o preço ficar igual, 35% de piorar, com nova revisão e tarifas mais altas, e 20% de melhorar, se o Brent cair abaixo de 90 dólares.\n\nO que fazer: comparar preços, planear viagens e guardar o recibo de qualquer tarifa nova. Se piorar, reduzir viagens não essenciais.\n\nA direcção principal: acompanhar o Brent e o anúncio da ARENE antes de fazer compras grandes.\n\n#Moçambique #DirecçãoDoDia",
+    "linkedin": "Gasóleo a 116,25 meticais: o que isso custa a um chapa e a uma família\n\nDesde 7 de Maio, o gasóleo administrado subiu 45,5%, de 79,88 para 116,25 meticais por litro. A gasolina subiu 12,1%, para 93,69. O Brent esteve perto de 104 dólares a 9 de Outubro e houve filas nos postos em Maputo e noutras províncias no fim de Setembro. O Ministério das Finanças fixou regras provisórias de importação até 31 de Dezembro.\n\nPrecedente: em Maio, depois da subida, os transportadores pararam e o Governo criou um subsídio inicial de três meses. A inflação anual passou de 4,41% em Abril para cerca de 7,2% em Maio, segundo o Millennium BIM. É o único caso comparável deste ano e serve de taxa de base, por isso as probabilidades abaixo são estimativas da redacção.\n\nA conta, com pressupostos explícitos: 200 km por dia, 8 km por litro, 26 dias por mês e 300 passageiros por dia. O custo extra é de 909 meticais por dia, cerca de 23 641 por mês, ou perto de 3 meticais por viagem. Uma família de dois adultos, com duas viagens por dia, paga mais cerca de 267 meticais por mês no transporte.\n\nCenários até Janeiro de 2027: melhora, 20%, com o Brent abaixo de 90 dólares; fica igual, 45%, com o preço parado desde Maio e falhas pontuais; piora, 35%, com Brent acima de 110 dólares ou nova falha de abastecimento, revisão de preços e tarifas novas.\n\nDirecção\nTransportadores: licenciar a viatura e confirmar a inscrição no subsídio. PMEs: medir quanto o gasóleo pesa no custo de entrega e renegociar prazos. Famílias: planear viagens e guardar recibos. Governo: dizer publicamente se o subsídio continua e até quando.\n\nA outra visão: o preço está parado há cinco meses e o problema pode ser mais de abastecimento do que de preço. O sinal a seguir é o Brent acima de 110 dólares ou um anúncio de revisão da ARENE até 31 de Dezembro.\n\n#Moçambique #Economia"
+  },
+  "fontes": [
+    {
+      "fonte": "Notícias ao Minuto (Lusa), subida dos combustíveis",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+      "data": "2026-05-06"
+    },
+    {
+      "fonte": "RTP, subsídio aos transportes",
+      "url": "https://www.rtp.pt/noticias/economia/mocambique-vai-subsidiar-transportes-para-evitar-subida-de-tarifas_n1739942",
+      "data": "Maio de 2026"
+    },
+    {
+      "fonte": "RTP, importação de combustíveis até final do ano",
+      "url": "https://www.rtp.pt/noticias/economia/governo-mocambicano-flexibiliza-importacao-de-combustiveis-ate-final-do-ano_n1771539",
+      "data": "fim de Setembro de 2026"
+    },
+    {
+      "fonte": "Lusa, pagamento do subsídio",
+      "url": "https://www.aman-alliance.org/Home/ContentDetail/104172",
+      "data": "2026-06-17"
+    },
+    {
+      "fonte": "Forbes África Lusófona, inflação de Abril",
+      "url": "https://forbesafricalusofona.com/?p=172023",
+      "data": "2026-05"
+    },
+    {
+      "fonte": "Millennium BIM, relatórios de inflação (Maio: 7,2%)",
+      "url": "https://millenniumbim.co.mz/media/d3bma0bo/inflacao-julho-2026-1.pdf",
+      "data": "2026-08-18"
+    },
+    {
+      "fonte": "Trading Economics, Brent",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "data": "2026-10-09"
+    }
+  ],
+  "data": "2026-10-16",
+  "dia_semana": "sexta",
+  "semana": "2026-S42",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

@@ -1,0 +1,195 @@
+{
+  "gasolina": {
+    "nome": "Gasolina",
+    "unidade": "MT/litro",
+    "base": "gasolina",
+    "regiao": "",
+    "serie": [
+      {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      }
+    ]
+  },
+  "gasoleo": {
+    "nome": "Gasóleo",
+    "unidade": "MT/litro",
+    "base": "gasoleo",
+    "regiao": "",
+    "serie": [
+      {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      }
+    ]
+  },
+  "gas_cozinha": {
+    "nome": "Gás de cozinha",
+    "unidade": "MT/kg",
+    "base": "gas_cozinha",
+    "regiao": "",
+    "serie": [
+      {
+        "data": "2026-05-07",
+        "valor": 87.82,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "MT/kg; era 86,05"
+      }
+    ]
+  },
+  "chapa_maputo": {
+    "nome": "Chapa urbano (Maputo)",
+    "unidade": "MT/viagem",
+    "base": "chapa",
+    "regiao": "maputo",
+    "serie": []
+  },
+  "chapa_beira": {
+    "nome": "Chapa urbano (Beira)",
+    "unidade": "MT/viagem",
+    "base": "chapa",
+    "regiao": "beira",
+    "serie": []
+  },
+  "chapa_nampula": {
+    "nome": "Chapa urbano (Nampula)",
+    "unidade": "MT/viagem",
+    "base": "chapa",
+    "regiao": "nampula",
+    "serie": []
+  },
+  "milho_maputo": {
+    "nome": "Milho em grão (Maputo)",
+    "unidade": "MT/kg",
+    "base": "milho",
+    "regiao": "maputo",
+    "serie": []
+  },
+  "milho_beira": {
+    "nome": "Milho em grão (Beira)",
+    "unidade": "MT/kg",
+    "base": "milho",
+    "regiao": "beira",
+    "serie": []
+  },
+  "milho_nampula": {
+    "nome": "Milho em grão (Nampula)",
+    "unidade": "MT/kg",
+    "base": "milho",
+    "regiao": "nampula",
+    "serie": []
+  },
+  "arroz_maputo": {
+    "nome": "Arroz (Maputo)",
+    "unidade": "MT/kg",
+    "base": "arroz",
+    "regiao": "maputo",
+    "serie": []
+  },
+  "arroz_beira": {
+    "nome": "Arroz (Beira)",
+    "unidade": "MT/kg",
+    "base": "arroz",
+    "regiao": "beira",
+    "serie": []
+  },
+  "arroz_nampula": {
+    "nome": "Arroz (Nampula)",
+    "unidade": "MT/kg",
+    "base": "arroz",
+    "regiao": "nampula",
+    "serie": []
+  },
+  "oleo_maputo": {
+    "nome": "Óleo alimentar (Maputo)",
+    "unidade": "MT/litro",
+    "base": "oleo",
+    "regiao": "maputo",
+    "serie": []
+  },
+  "oleo_beira": {
+    "nome": "Óleo alimentar (Beira)",
+    "unidade": "MT/litro",
+    "base": "oleo",
+    "regiao": "beira",
+    "serie": []
+  },
+  "oleo_nampula": {
+    "nome": "Óleo alimentar (Nampula)",
+    "unidade": "MT/litro",
+    "base": "oleo",
+    "regiao": "nampula",
+    "serie": []
+  },
+  "inflacao": {
+    "nome": "Inflação anual",
+    "unidade": "%",
+    "base": "inflacao",
+    "regiao": "",
+    "serie": []
+  },
+  "inflacao_maputo": {
+    "nome": "Inflação anual (Maputo)",
+    "unidade": "%",
+    "base": "inflacao",
+    "regiao": "maputo",
+    "serie": []
+  },
+  "inflacao_beira": {
+    "nome": "Inflação anual (Beira)",
+    "unidade": "%",
+    "base": "inflacao",
+    "regiao": "beira",
+    "serie": []
+  },
+  "inflacao_nampula": {
+    "nome": "Inflação anual (Nampula)",
+    "unidade": "%",
+    "base": "inflacao",
+    "regiao": "nampula",
+    "serie": []
+  },
+  "usd_mzn": {
+    "nome": "Câmbio dólar/metical",
+    "unidade": "MT por USD",
+    "base": "usd_mzn",
+    "regiao": "",
+    "serie": []
+  },
+  "mimo": {
+    "nome": "Taxa MIMO",
+    "unidade": "%",
+    "base": "mimo",
+    "regiao": "",
+    "serie": []
+  },
+  "prime_rate": {
+    "nome": "Prime rate (crédito bancário)",
+    "unidade": "%",
+    "base": "prime_rate",
+    "regiao": "",
+    "serie": []
+  },
+  "brent": {
+    "nome": "Petróleo Brent",
+    "unidade": "USD/barril",
+    "base": "brent",
+    "regiao": "",
+    "serie": [
+      {
+        "data": "2026-10-09",
+        "valor": 104.43,
+        "fonte": "Trading Economics",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+        "nota": "Futuros fecharam em 104,72; depois de 9 de Outubro sem fecho confirmado"
+      }
+    ]
+  }
+}

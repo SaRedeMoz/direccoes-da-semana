@@ -7,10 +7,21 @@
       "unidade": "MT/litro",
       "base": "gasolina",
       "regiao": "",
-      "ultimo": null,
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
-      "ultimos": []
+      "ultimos": [
+        [
+          "2026-05-07",
+          93.69
+        ]
+      ]
     },
     {
       "id": "gasoleo",
@@ -18,10 +29,21 @@
       "unidade": "MT/litro",
       "base": "gasoleo",
       "regiao": "",
-      "ultimo": null,
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
-      "ultimos": []
+      "ultimos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
     },
     {
       "id": "gas_cozinha",
@@ -29,10 +51,21 @@
       "unidade": "MT/kg",
       "base": "gas_cozinha",
       "regiao": "",
-      "ultimo": null,
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 87.82,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "MT/kg; era 86,05"
+      },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
-      "ultimos": []
+      "ultimos": [
+        [
+          "2026-05-07",
+          87.82
+        ]
+      ]
     },
     {
       "id": "chapa_maputo",
@@ -249,19 +282,72 @@
       "unidade": "USD/barril",
       "base": "brent",
       "regiao": "",
-      "ultimo": null,
+      "ultimo": {
+        "data": "2026-10-09",
+        "valor": 104.43,
+        "fonte": "Trading Economics",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+        "nota": "Futuros fecharam em 104,72; depois de 9 de Outubro sem fecho confirmado"
+      },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
-      "ultimos": []
+      "ultimos": [
+        [
+          "2026-10-09",
+          104.43
+        ]
+      ]
     }
   ],
-  "temas_activos": [],
+  "temas_activos": [
+    {
+      "id": "combustivel",
+      "nome": "Combustíveis e transporte",
+      "desde": "2026-10-16",
+      "ultimos": [
+        {
+          "data": "2026-10-16",
+          "semana": "2026-S42",
+          "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio e o Brent anda perto de 104 dólares. Houve filas nos postos no fim de Setembro e as regras provisórias de importação vão até 31 de Dezembro.",
+          "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
+        }
+      ]
+    },
+    {
+      "id": "el_nino",
+      "nome": "El Niño e segurança alimentar",
+      "desde": "2026-10-16",
+      "ultimos": [
+        {
+          "data": "2026-10-16",
+          "semana": "2026-S42",
+          "resumo": "O El Niño pode afectar 5,3 milhões de pessoas e a insegurança alimentar está em alta. O custo para o Estado foi estimado em 267 milhões de euros.",
+          "direccao": "Concentrar a ajuda nas zonas de vulnerabilidade máxima e guardar reservas de básicos."
+        }
+      ]
+    },
+    {
+      "id": "conteudo_local",
+      "nome": "Lei do Conteúdo Local",
+      "desde": "2026-10-16",
+      "ultimos": [
+        {
+          "data": "2026-10-16",
+          "semana": "2026-S42",
+          "resumo": "O Parlamento aprovou a Lei 9/2026 por unanimidade e o Governo aprovou o regulamento e o estatuto da Autoridade. O efeito para as PMEs depende das regras de acesso.",
+          "direccao": "Fornecedores devem ler o regulamento e registar-se quando a Autoridade abrir."
+        }
+      ]
+    }
+  ],
   "direccoes_a_verificar": [],
   "balanco_direccoes": {
     "confirmada": 0,
     "parcial": 0,
     "nao_confirmada": 0,
-    "pendente": 0
+    "pendente": 3
   },
-  "ultimas_licoes": []
+  "ultimas_licoes": [
+    "- 2026-10-16 (2026-S42): O fecho do Brent depois de 9 de Outubro não foi confirmado por fonte fiável: usar o Trading Economics ou o ICE e não mercados de previsão."
+  ]
 }
