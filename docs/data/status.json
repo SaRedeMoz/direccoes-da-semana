@@ -6,9 +6,9 @@
       "em": "2026-10-16T10:29:47.373Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "A completar a análise: canais, cenários, riscos, horizonte, vulnerabilidade",
-      "em": "2026-10-16T10:32:03.492Z"
+      "estado": "pronto",
+      "msg": "Análise completada",
+      "em": "2026-10-16T10:32:41.307Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-16T10:32:41.307Z",
+      "agente": "analise",
+      "msg": "Análise completada"
+    },
     {
       "em": "2026-10-16T10:32:03.492Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-12T03:05:45.744Z",
       "agente": "aprovacao",
       "msg": "À espera da sua aprovação"
-    },
-    {
-      "em": "2026-10-12T03:05:00.920Z",
-      "agente": "editor",
-      "msg": "Edição versão 1 montada"
     }
   ],
-  "actualizado": "2026-10-16T10:32:03.492Z",
+  "actualizado": "2026-10-16T10:32:41.307Z",
   "semana": "2026-S42",
   "dia": "2026-10-16",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3"
