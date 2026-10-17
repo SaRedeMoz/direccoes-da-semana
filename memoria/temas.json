@@ -10,6 +10,12 @@
         "semana": "2026-S42",
         "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio e o Brent anda perto de 104 dólares. Houve filas nos postos no fim de Setembro e as regras provisórias de importação vão até 31 de Dezembro.",
         "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
+      },
+      {
+        "data": "2026-10-17",
+        "semana": "2026-S42",
+        "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio, sem revisão publicada, e o Brent anda perto de 100 dólares. O fecho de 16 de Outubro não foi confirmado.",
+        "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
       }
     ]
   },
@@ -24,6 +30,12 @@
         "semana": "2026-S42",
         "resumo": "O El Niño pode afectar 5,3 milhões de pessoas e a insegurança alimentar está em alta. O custo para o Estado foi estimado em 267 milhões de euros.",
         "direccao": "Concentrar a ajuda nas zonas de vulnerabilidade máxima e guardar reservas de básicos."
+      },
+      {
+        "data": "2026-10-17",
+        "semana": "2026-S42",
+        "resumo": "A AGRA conta 1,84 milhões de pessoas em insegurança alimentar grave em Setembro, menos 48% que em Agosto. O risco de um El Niño forte e o preço dos fertilizantes ameaçam a campanha.",
+        "direccao": "Guardar reservas de básicos e concentrar a ajuda nas zonas de crise até Janeiro de 2027."
       }
     ]
   },
@@ -38,6 +50,26 @@
         "semana": "2026-S42",
         "resumo": "O Parlamento aprovou a Lei 9/2026 por unanimidade e o Governo aprovou o regulamento e o estatuto da Autoridade. O efeito para as PMEs depende das regras de acesso.",
         "direccao": "Fornecedores devem ler o regulamento e registar-se quando a Autoridade abrir."
+      },
+      {
+        "data": "2026-10-17",
+        "semana": "2026-S42",
+        "resumo": "O Parlamento aprovou a Lei 9/2026 e o Governo aprovou o regulamento. O efeito para as PMEs depende das regras de acesso.",
+        "direccao": "Fornecedores devem ler o regulamento e registar-se quando a Autoridade abrir."
+      }
+    ]
+  },
+  {
+    "id": "orcamento_2027",
+    "nome": "Orçamento de 2027",
+    "estado": "activo",
+    "inicio": "2026-10-17",
+    "historial": [
+      {
+        "data": "2026-10-17",
+        "semana": "2026-S42",
+        "resumo": "A proposta prevê crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB. Ainda falta ser submetida e debatida no Parlamento.",
+        "direccao": "Acompanhar o debate e os apoios previstos, como o FDEL de 1,5 mil milhões de meticais."
       }
     ]
   }
