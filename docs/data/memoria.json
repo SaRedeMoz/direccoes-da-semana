@@ -333,8 +333,8 @@
         {
           "data": "2026-10-17",
           "semana": "2026-S42",
-          "resumo": "A AGRA conta 1,84 milhões de pessoas em insegurança alimentar grave em Setembro, menos 48% que em Agosto. O risco de um El Niño forte e o preço dos fertilizantes ameaçam a campanha.",
-          "direccao": "Guardar reservas de básicos e concentrar a ajuda nas zonas de crise até Janeiro de 2027."
+          "resumo": "A AGRA conta 1,84 milhões de pessoas em insegurança alimentar grave em Setembro, menos 48% que em Agosto. O milho está 15,6% mais barato que há um ano, mas a ureia custa mais 41,5% e o El Niño forte é esperado entre Novembro e Abril.",
+          "direccao": "Guardar reservas de básicos e comprar insumos agrícolas cedo, antes de a chuva se confirmar."
         }
       ]
     },
@@ -376,10 +376,11 @@
     "confirmada": 0,
     "parcial": 0,
     "nao_confirmada": 0,
-    "pendente": 3
+    "pendente": 6
   },
   "ultimas_licoes": [
     "- 2026-10-16 (2026-S42): O fecho do Brent depois de 9 de Outubro não foi confirmado por fonte fiável: usar o Trading Economics ou o ICE e não mercados de previsão.",
-    "- 2026-10-17 (2026-S42): Os mercados de previsão não substituem o fecho oficial do Brent: continuar a procurar o Trading Economics ou o ICE."
+    "- 2026-10-17 (2026-S42): Os mercados de previsão não substituem o fecho oficial do Brent: continuar a procurar o Trading Economics ou o ICE.",
+    "- 2026-10-17 (2026-S42): Para o preço do milho por cidade só há dados antigos ou de farinha: ir directamente ao SIMA e à FEWS NET para os quadros do bolso."
   ]
 }

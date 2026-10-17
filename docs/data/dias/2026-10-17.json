@@ -1,0 +1,259 @@
+{
+  "tipo": "dia",
+  "tema": "Milho barato hoje e o risco do El Niño",
+  "pergunta": "O milho está barato. O El Niño vai mudar isso?",
+  "facto": {
+    "texto": "Em Setembro, o milho em grão custava menos 15,6% e o arroz menos 27,6% do que um ano antes. A ureia custa mais 41,5% e o NPK mais 22,3%. O Instituto de Meteorologia prevê um El Niño forte entre Novembro de 2026 e Abril de 2027.",
+    "numeros": [
+      {
+        "valor": "-15,6%",
+        "legenda": "milho face a Setembro de 2025"
+      },
+      {
+        "valor": "+41,5%",
+        "legenda": "ureia face a há um ano"
+      },
+      {
+        "valor": "1,84 M",
+        "legenda": "em insegurança grave"
+      }
+    ],
+    "fonte": "AGRA, Food Security Monitor, via Lusa (16 de Outubro de 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Mai",
+      "texto": "Preços do milho no Sul 25% a 60% acima da média de cinco anos",
+      "futuro": false
+    },
+    {
+      "data": "Set",
+      "texto": "Governo garante 125 milhões de dólares e prepara restrições à água",
+      "futuro": false
+    },
+    {
+      "data": "Set",
+      "texto": "Milho 15,6% abaixo de há um ano; ureia 41,5% acima",
+      "futuro": false
+    },
+    {
+      "data": "Out a Dez",
+      "texto": "SADC prevê chuva abaixo do normal",
+      "futuro": true
+    },
+    {
+      "data": "31 Dez",
+      "texto": "Teste da chuva acumulada no Sul e no Centro",
+      "futuro": true
+    },
+    {
+      "data": "Jan",
+      "texto": "Provável início da fase de crise alimentar nalguns distritos",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "2015/16",
+    "o_que_aconteceu": "Com El Niño forte, a chuva de Outubro a Dezembro ficou abaixo de 50% da média no Sul e no Centro. Em Janeiro de 2016 o milho custava mais 106% do que um ano antes.",
+    "licao": "O preço subiu antes do esperado e ficou alto muitos meses.",
+    "fonte": "FEWS NET, Mozambique Food Security Outlook, Fevereiro de 2016"
+  },
+  "porque_importa": "O milho e o arroz pesam mais no orçamento das famílias pobres do que qualquer outro gasto. O preço baixo de hoje dá uma margem para guardar reservas, mas o adubo caro e a chuva incerta ameaçam a próxima colheita.",
+  "canal": {
+    "passos": [
+      "Chuva tardia no Sul",
+      "Sementeira atrasada ou perdida",
+      "Colheita menor em Abril",
+      "Milho mais caro no mercado",
+      "Família gasta mais em comida"
+    ],
+    "quem_sente": "Famílias pobres e pequenos agricultores do Sul e do Centro"
+  },
+  "conta": {
+    "titulo": "Uma família que compra 50 kg de milho",
+    "pressupostos": "Preço de 30 MT/kg, pressuposto nosso; subidas de 34% e 106% vêm do precedente de 2015/16.",
+    "barras": [
+      {
+        "rotulo": "Preço de hoje",
+        "valor": 1500,
+        "texto": "1 500 MT/mês"
+      },
+      {
+        "rotulo": "Mais 34%",
+        "valor": 2010,
+        "texto": "2 010 MT/mês"
+      },
+      {
+        "rotulo": "Mais 106%",
+        "valor": 3090,
+        "texto": "3 090 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "No pior caso do precedente, a mesma farinha custa 1 590 MT a mais por mês."
+  },
+  "cenarios": [
+    {
+      "nome": "Seca no Sul e no Centro",
+      "tipo": "piora",
+      "probabilidade": 40,
+      "porque_probabilidade": "Um precedente verificado correu mal, e o El Niño de hoje é descrito como forte, mas o milho parte de um nível baixo.",
+      "gatilho": "Chuva de Novembro e Dezembro abaixo de 50% da média no Sul e no Centro",
+      "o_que_acontece": "A sementeira falha, a colheita de Abril encolhe e os comerciantes sobem preços cedo para cobrir o risco.",
+      "numeros": "Milho sobe 30% a 100% face a Setembro de 2026",
+      "quando": "até Março de 2027",
+      "ganha": "Quem tem stock de milho",
+      "perde": "Famílias pobres e agricultores sem reserva",
+      "se_acontecer": "Gastar a reserva primeiro, pedir ajuda cedo e evitar vender gado ou terra."
+    },
+    {
+      "nome": "O Norte compensa",
+      "tipo": "fica_igual",
+      "probabilidade": 42,
+      "porque_probabilidade": "O Instituto de Meteorologia prevê chuva acima da média no Norte e há stocks de uma boa campanha anterior.",
+      "gatilho": "Chuva do Sul e Centro entre 50% e 90% da média até 31 de Dezembro",
+      "o_que_acontece": "O milho do Norte segue para Sul pelo mercado, o que limita a subida, mas o transporte caro encarece o grão.",
+      "numeros": "Milho sobe 10% a 25% face a Setembro de 2026",
+      "quando": "até Março de 2027",
+      "ganha": "Produtores do Norte e transportadores",
+      "perde": "Consumidores do Sul, pelo transporte",
+      "se_acontecer": "Comprar milho do Norte em grupo e fixar o preço do transporte com antecedência."
+    },
+    {
+      "nome": "Chuva a tempo",
+      "tipo": "melhora",
+      "probabilidade": 18,
+      "porque_probabilidade": "Nem todos os El Niños falham no Sul, mas a previsão actual aponta chuva tardia e abaixo da média.",
+      "gatilho": "Chuva acumulada acima de 90% da média no Sul e no Centro até 31 de Dezembro",
+      "o_que_acontece": "A sementeira corre dentro do calendário e a colheita de Abril sai normal, por isso o preço não reage.",
+      "numeros": "Milho varia menos de 10% face a Setembro de 2026",
+      "quando": "até Abril de 2027",
+      "ganha": "Famílias e agricultores",
+      "perde": "Quem comprou stock a esperar subida",
+      "se_acontecer": "Manter a reserva normal e plantar com o calendário habitual."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Chuva acumulada no Sul e no Centro",
+      "limiar": "Abaixo de 50% da média",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Preço do milho em Maputo",
+      "limiar": "Mais de 30% acima de Setembro",
+      "quando": "até 31 de Janeiro de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Preço da ureia nas lojas agrícolas",
+      "limiar": "Acima de +41,5% de há um ano",
+      "quando": "até 15 de Novembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Chuva acumulada no Sul e no Centro",
+      "limiar": "Acima de 90% da média",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "melhora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "Comida pesa mais no orçamento"
+    },
+    {
+      "grupo": "Pequenos agricultores do Sul e Centro",
+      "saldo": -2,
+      "porque": "Adubo caro e chuva tardia"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "Comida e transporte mais caros"
+    },
+    {
+      "grupo": "Produtores do Norte",
+      "saldo": 1,
+      "porque": "Mais chuva e mais procura"
+    },
+    {
+      "grupo": "Comerciantes de cereais",
+      "saldo": 1,
+      "porque": "Margem maior se o preço subir"
+    },
+    {
+      "grupo": "ONGs e parceiros",
+      "saldo": 0,
+      "porque": "Mais procura de ajuda, mas fundos curtos"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias",
+      "agora": "Guardar uma reserva de milho e farinha para dois meses enquanto o preço está abaixo do de há um ano.",
+      "se_piorar": "Comprar em grupo e reduzir outras despesas."
+    },
+    {
+      "publico": "Pequenos agricultores",
+      "agora": "Comprar semente e adubo cedo e semear em duas datas para repartir o risco da chuva.",
+      "se_piorar": "Reservar a semente e dar prioridade a culturas resistentes à seca."
+    },
+    {
+      "publico": "ONGs e parceiros",
+      "agora": "Pôr alimentos no Sul e no Centro antes de Dezembro, onde a chuva falha primeiro.",
+      "se_piorar": "Alargar a assistência para além dos 343 773 previstos."
+    },
+    {
+      "publico": "Retalhistas e PMEs",
+      "agora": "Fixar contratos de compra de milho a preço combinado para o primeiro trimestre.",
+      "se_piorar": "Repartir o stock por clientes habituais."
+    }
+  ],
+  "visao_contraria": "O milho está 15,6% abaixo de há um ano, o Norte pode ter chuva acima da média e o Governo já garantiu 125 milhões de dólares. O El Niño não garante seca no Sul.",
+  "nao_sabemos": [
+    "Os preços actuais do milho em grão por cidade: só temos a variação anual.",
+    "Quanto milho existe em stock nos armazéns e nas famílias.",
+    "O preço de 30 MT/kg é um pressuposto, não um dado oficial."
+  ],
+  "sinal": "Chuva acumulada no Sul e no Centro até 31 de Dezembro e preço do milho em Maputo.",
+  "confianca": "media",
+  "base_confianca": "Variação de preços e fertilizantes da AGRA; precedente da FEWS NET; previsão da meteorologia e probabilidades são estimativa da redacção.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA, 17 de Outubro*\n\n*O milho está barato. Vai continuar?*\n\nEm Setembro o milho em grão custava menos 15,6% do que um ano antes e o arroz menos 27,6%, segundo a AGRA. Mas a ureia custa mais 41,5% e o NPK mais 22,3%, e o Instituto de Meteorologia espera um El Niño forte entre Novembro e Abril, com menos chuva no Sul e no Centro.\n\n*O que já aconteceu*\nEm 2015/16, com um El Niño forte, a chuva ficou abaixo de metade da média no Sul e no Centro. Em Janeiro de 2016 o milho custava mais 106% do que um ano antes, e em Maputo subiu 82% só de Dezembro para Janeiro (FEWS NET).\n\n*TRÊS CAMINHOS*\n*Piora, 40%:* a chuva de Novembro e Dezembro fica abaixo de metade da média. O milho sobe entre 30% e 100% até Março de 2027. Perdem famílias pobres e quem compra para revender.\n*Fica igual, 42%:* a chuva chega tarde, mas o Norte, com chuva acima da média, compensa. O milho sobe entre 10% e 25%.\n*Melhora, 18%:* as chuvas chegam a tempo, apesar do El Niño. O preço fica dentro de 10% do de hoje.\n\n*A CONTA*\nUma família que compra 50 kg de milho por mês a 30 meticais paga 1 500. Com mais 34% paga 2 010. Com mais 106% paga 3 090. O preço de 30 meticais é um pressuposto nosso, não um dado oficial.\n\n*DIRECÇÃO*\nFamílias: guardar reserva para dois meses agora. Agricultores: comprar semente e adubo cedo e semear em duas datas. ONGs: pôr alimentos no Sul e no Centro antes de Dezembro.\n\n*SINAL*\nChuva acumulada abaixo de 50% da média no Sul e no Centro até 31 de Dezembro aponta para o caminho da piora.\n\nSe achou útil, partilhe com quem compra a comida lá em casa.",
+    "instagram": "O milho está 15,6% mais barato do que há um ano, mas a ureia subiu 41,5% e o El Niño forte chega em Novembro. Em 2015/16 o milho chegou a custar mais 106%. Veja os três caminhos e a conta para a sua família. #Moçambique #DirecçõesDaSemana",
+    "facebook": "Direcção do Dia, 17 de Outubro\n\nO milho está barato. Vai continuar assim?\n\nSegundo a AGRA, em Setembro o milho em grão custava menos 15,6% do que um ano antes e o arroz menos 27,6%. O problema está no campo: a ureia custa mais 41,5% e o NPK mais 22,3%, e o Instituto de Meteorologia espera um El Niño forte entre Novembro e Abril, com menos chuva no Sul e no Centro.\n\nEm 2015/16 houve algo parecido. A chuva ficou abaixo de metade da média e, em Janeiro de 2016, o milho custava mais 106% do que um ano antes.\n\nVemos três caminhos. Se a chuva de Novembro e Dezembro falhar no Sul e no Centro, o milho pode subir entre 30% e 100% até Março, e damos a isso 40%. Se a chuva chegar tarde mas o Norte compensar, a subida fica entre 10% e 25%, com 42%. Se a chuva chegar a tempo, o preço fica estável, com 18%.\n\nUma família que compra 50 kg por mês a 30 meticais gasta 1 500. Com mais 34% gasta 2 010, e com mais 106% gasta 3 090. O preço de 30 meticais é um pressuposto nosso.\n\nA direcção: guardar uma reserva de milho para dois meses enquanto está barato e, quem planta, comprar semente e adubo já.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "Milho barato hoje, risco de milho caro em 2027\n\nEm Setembro, o milho em grão custava menos 15,6% do que um ano antes e o arroz menos 27,6%, segundo o Food Security Monitor da AGRA. Em sentido contrário, a ureia subiu 41,5% e o NPK 22,3%. O Instituto de Meteorologia prevê um El Niño forte entre Novembro de 2026 e Abril de 2027, com menos chuva no Sul e no Centro e mais chuva no Norte.\n\nO precedente é 2015/16. Segundo a FEWS NET, a chuva de Outubro a Dezembro ficou abaixo de 50% da média em grandes áreas do Sul e do Centro, e em Janeiro de 2016 o milho custava mais 106% do que um ano antes, com Maputo a subir 82% de Dezembro para Janeiro.\n\nOs caminhos para 2027, com a nossa estimativa. Piora, 40%: a chuva de Novembro e Dezembro falha no Sul e no Centro e o milho sobe entre 30% e 100% até Março. Fica igual, 42%: a chuva chega tarde, o Norte compensa e a subida fica entre 10% e 25%. Melhora, 18%: a chuva chega a tempo e o preço fica dentro de 10% do actual. Partimos de um precedente verificado, por isso a incerteza é grande.\n\nPara um agregado que compra 50 kg por mês a 30 meticais (pressuposto nosso), a despesa passa de 1 500 para 2 010 com mais 34%, e para 3 090 com mais 106%.\n\nDirecção\nFamílias: reserva para dois meses agora. Agricultores: semente e adubo cedo, e sementeira em duas datas. Parceiros: alimentos pré-posicionados no Sul e no Centro antes de Dezembro. Retalhistas: contratos de compra a preço fixo para o primeiro trimestre.\n\nO sinal a seguir é a chuva acumulada no Sul e no Centro até 31 de Dezembro: abaixo de 50% da média, o caminho é o da piora.\n\n#Moçambique #SegurançaAlimentar"
+  },
+  "fontes": [
+    {
+      "fonte": "AGRA via Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/mundo/3067851/1-84-milhoes-de-mocambicanos-em-inseguranca-alimentar-grave",
+      "data": "2026-10-16"
+    },
+    {
+      "fonte": "FEWS NET, Mozambique Food Security Outlook, Fevereiro de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/food-security-outlook/february-2016",
+      "data": "2016-02"
+    },
+    {
+      "fonte": "AllAfrica, restrições à água e plano de contingência",
+      "url": "https://allafrica.com/stories/202609210066.html",
+      "data": "2026-09-21"
+    },
+    {
+      "fonte": "Lusa via AMAN, previsão do El Niño e preços do milho",
+      "url": "https://aman-alliance.org/Home/ContentDetail/105607",
+      "data": "2026-07-08"
+    }
+  ],
+  "data": "2026-10-17",
+  "dia_semana": "sabado",
+  "semana": "2026-S42",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

@@ -34,5 +34,41 @@
     "verificar_em": "2027-01-15",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D4",
+    "data": "2026-10-17",
+    "semana": "2026-S42",
+    "publico": "Famílias",
+    "accao": "Comprar uma reserva de milho e farinha para dois meses enquanto o preço está abaixo do de há um ano.",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D5",
+    "data": "2026-10-17",
+    "semana": "2026-S42",
+    "publico": "Pequenos agricultores",
+    "accao": "Comprar sementes e adubo cedo e semear em duas datas para repartir o risco da chuva tardia.",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D6",
+    "data": "2026-10-17",
+    "semana": "2026-S42",
+    "publico": "ONGs e parceiros",
+    "accao": "Pré-posicionar alimentos no Sul e no Centro antes de Dezembro.",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-15",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]
