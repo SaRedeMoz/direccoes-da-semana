@@ -6,9 +6,9 @@
       "em": "2026-10-17T01:57:15.602Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "A melhorar a análise com o PESOE 2027 e a segurança alimentar",
-      "em": "2026-10-17T01:57:30.866Z"
+      "estado": "pronto",
+      "msg": "Análise e memória actualizadas",
+      "em": "2026-10-17T01:58:19.389Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-17T01:58:19.389Z",
+      "agente": "analise",
+      "msg": "Análise e memória actualizadas"
+    },
     {
       "em": "2026-10-17T01:57:30.866Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-14T02:31:04.548Z",
       "agente": "editor",
       "msg": "textos mantidos, data actualizada"
-    },
-    {
-      "em": "2026-10-14T02:31:03.024Z",
-      "agente": "design",
-      "msg": "slides mantidos"
     }
   ],
-  "actualizado": "2026-10-17T01:57:30.866Z",
+  "actualizado": "2026-10-17T01:58:19.389Z",
   "semana": "2026-S42",
   "dia": "2026-10-17",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
