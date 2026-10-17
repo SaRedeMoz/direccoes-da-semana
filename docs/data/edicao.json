@@ -857,5 +857,63 @@
         "nota": "Memória ainda vazia: comparação com a edição anterior, dito de forma explícita."
       }
     ]
+  },
+  "imagens": {
+    "slides": [
+      "data/imagens/feed/slide-01.png",
+      "data/imagens/feed/slide-02.png",
+      "data/imagens/feed/slide-03.png",
+      "data/imagens/feed/slide-04.png",
+      "data/imagens/feed/slide-05.png",
+      "data/imagens/feed/slide-06.png",
+      "data/imagens/feed/slide-07.png",
+      "data/imagens/feed/slide-08.png",
+      "data/imagens/feed/slide-09.png",
+      "data/imagens/feed/slide-10.png",
+      "data/imagens/feed/slide-11.png",
+      "data/imagens/feed/slide-12.png",
+      "data/imagens/feed/slide-13.png"
+    ],
+    "stories": [
+      "data/imagens/story/slide-01.png",
+      "data/imagens/story/slide-02.png",
+      "data/imagens/story/slide-03.png",
+      "data/imagens/story/slide-04.png",
+      "data/imagens/story/slide-05.png",
+      "data/imagens/story/slide-06.png",
+      "data/imagens/story/slide-07.png",
+      "data/imagens/story/slide-08.png",
+      "data/imagens/story/slide-09.png",
+      "data/imagens/story/slide-10.png",
+      "data/imagens/story/slide-11.png",
+      "data/imagens/story/slide-12.png",
+      "data/imagens/story/slide-13.png"
+    ],
+    "tipos": [
+      "capa",
+      "noticia",
+      "noticia",
+      "noticia",
+      "noticia",
+      "noticia",
+      "noticia",
+      "oportunidades",
+      "oportunidades",
+      "oportunidades",
+      "quem-ganha",
+      "direccao",
+      "sinal"
+    ],
+    "capa": "data/imagens/capa-linkedin.png",
+    "pdf": "data/imagens/linkedin-carrossel.pdf",
+    "creditos": [
+      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
+      "Foto: krugergirl26 from Boston, MA / Wikimedia Commons, CC BY 2.0",
+      "Foto: Collins Musonda / Wikimedia Commons, CC BY-SA 4.0",
+      "Foto: Cornelius Kibelka from Berlin, Germany / Wikimedia Commons, CC BY-SA 2.0",
+      "Foto: Ton Rulkens from Mozambique / Wikimedia Commons, CC BY-SA 2.0",
+      "Foto: Jakub Hałun / Wikimedia Commons, CC BY 4.0"
+    ],
+    "v": 1792238115457
   }
 }
