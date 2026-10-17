@@ -1,19 +1,22 @@
 {
-  "modo": "rever",
-  "hoje": "2026-10-16",
+  "modo": "diario",
+  "hoje": "2026-10-17",
   "semana": "2026-S42",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
-  "dia_semana": "sexta",
-  "post_do_dia": "dia",
+  "dia_semana": "sabado",
+  "post_do_dia": "nenhum",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "analise_independente",
+    "internacional"
   ],
   "tema_pedido": "",
-  "ultimos_temas_dia": [],
+  "ultimos_temas_dia": [
+    "2026-10-16 (dia): Gasóleo a 116 meticais e o preço do chapa"
+  ],
   "noticias_do_aprovador": [],
   "sugestoes_novas": [],
   "incluir_itens": [],
