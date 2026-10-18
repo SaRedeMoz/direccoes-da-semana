@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos actualizados",
-      "em": "2026-10-18T01:56:56.220Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-18T01:57:03.805Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-18T01:57:03.805Z",
+      "agente": "editor",
+      "msg": "Edição versão 9 montada"
+    },
     {
       "em": "2026-10-18T01:56:56.220Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-16T10:32:03.492Z",
       "agente": "analise",
       "msg": "A completar a análise: canais, cenários, riscos, horizonte, vulnerabilidade"
-    },
-    {
-      "em": "2026-10-16T10:30:20.790Z",
-      "agente": "analise",
-      "msg": "A rever a análise com a memória"
     }
   ],
-  "actualizado": "2026-10-18T01:56:56.220Z",
+  "actualizado": "2026-10-18T01:57:03.805Z",
   "semana": "2026-S42",
   "dia": "2026-10-18",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",

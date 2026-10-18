@@ -205,10 +205,21 @@
       "unidade": "%",
       "base": "inflacao",
       "regiao": "",
-      "ultimo": null,
+      "ultimo": {
+        "data": "2026-10-09",
+        "valor": 6.31,
+        "fonte": "Trading Economics (INE)",
+        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
+      },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
-      "ultimos": []
+      "ultimos": [
+        [
+          "2026-10-09",
+          6.31
+        ]
+      ]
     },
     {
       "id": "inflacao_maputo",
@@ -316,6 +327,12 @@
           "semana": "2026-S42",
           "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio, sem revisão publicada, e o Brent anda perto de 100 dólares. O fecho de 16 de Outubro não foi confirmado.",
           "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
+        },
+        {
+          "data": "2026-10-18",
+          "semana": "2026-S42",
+          "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio, sem revisão publicada. O fecho do Brent depois de 9 de Outubro não foi confirmado.",
+          "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
         }
       ]
     },
@@ -369,6 +386,32 @@
           "direccao": "Acompanhar o debate e os apoios previstos, como o FDEL de 1,5 mil milhões de meticais."
         }
       ]
+    },
+    {
+      "id": "inflacao_precos",
+      "nome": "Inflação e preços",
+      "desde": "2026-10-18",
+      "ultimos": [
+        {
+          "data": "2026-10-18",
+          "semana": "2026-S42",
+          "resumo": "A inflação anual desceu para 6,31% em Setembro, o terceiro mês seguido de queda. Os alimentos estão a 8,69% e os transportes a 14,77% em Agosto.",
+          "direccao": "Comparar preços e acompanhar a inflação de Outubro, que sai perto do dia 10 de Novembro."
+        }
+      ]
+    },
+    {
+      "id": "politica_2029",
+      "nome": "Calendário político",
+      "desde": "2026-10-18",
+      "ultimos": [
+        {
+          "data": "2026-10-18",
+          "semana": "2026-S42",
+          "resumo": "A Frelimo vai apoiar a recandidatura de Chapo em 2029, segundo a Lusa. O julgamento de Mondlane está marcado para 17 de Novembro, sem transmissão em directo.",
+          "direccao": "Acompanhar o julgamento e o clima político antes de decisões de investimento."
+        }
+      ]
     }
   ],
   "direccoes_a_verificar": [],
@@ -381,6 +424,7 @@
   "ultimas_licoes": [
     "- 2026-10-16 (2026-S42): O fecho do Brent depois de 9 de Outubro não foi confirmado por fonte fiável: usar o Trading Economics ou o ICE e não mercados de previsão.",
     "- 2026-10-17 (2026-S42): Os mercados de previsão não substituem o fecho oficial do Brent: continuar a procurar o Trading Economics ou o ICE.",
-    "- 2026-10-17 (2026-S42): Para o preço do milho por cidade só há dados antigos ou de farinha: ir directamente ao SIMA e à FEWS NET para os quadros do bolso."
+    "- 2026-10-17 (2026-S42): Para o preço do milho por cidade só há dados antigos ou de farinha: ir directamente ao SIMA e à FEWS NET para os quadros do bolso.",
+    "- 2026-10-18 (2026-S42): Nesta ronda regional e humanitário não deram notícias das últimas 48 horas: a pesquisa web devolve sobretudo material de Julho e Agosto, por isso convém ir directamente ao ReliefWeb e ao SADC."
   ]
 }

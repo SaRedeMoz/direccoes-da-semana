@@ -16,6 +16,12 @@
         "semana": "2026-S42",
         "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio, sem revisão publicada, e o Brent anda perto de 100 dólares. O fecho de 16 de Outubro não foi confirmado.",
         "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
+      },
+      {
+        "data": "2026-10-18",
+        "semana": "2026-S42",
+        "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio, sem revisão publicada. O fecho do Brent depois de 9 de Outubro não foi confirmado.",
+        "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
       }
     ]
   },
@@ -70,6 +76,34 @@
         "semana": "2026-S42",
         "resumo": "A proposta prevê crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB. Ainda falta ser submetida e debatida no Parlamento.",
         "direccao": "Acompanhar o debate e os apoios previstos, como o FDEL de 1,5 mil milhões de meticais."
+      }
+    ]
+  },
+  {
+    "id": "inflacao_precos",
+    "nome": "Inflação e preços",
+    "estado": "activo",
+    "inicio": "2026-10-18",
+    "historial": [
+      {
+        "data": "2026-10-18",
+        "semana": "2026-S42",
+        "resumo": "A inflação anual desceu para 6,31% em Setembro, o terceiro mês seguido de queda. Os alimentos estão a 8,69% e os transportes a 14,77% em Agosto.",
+        "direccao": "Comparar preços e acompanhar a inflação de Outubro, que sai perto do dia 10 de Novembro."
+      }
+    ]
+  },
+  {
+    "id": "politica_2029",
+    "nome": "Calendário político",
+    "estado": "activo",
+    "inicio": "2026-10-18",
+    "historial": [
+      {
+        "data": "2026-10-18",
+        "semana": "2026-S42",
+        "resumo": "A Frelimo vai apoiar a recandidatura de Chapo em 2029, segundo a Lusa. O julgamento de Mondlane está marcado para 17 de Novembro, sem transmissão em directo.",
+        "direccao": "Acompanhar o julgamento e o clima político antes de decisões de investimento."
       }
     ]
   }

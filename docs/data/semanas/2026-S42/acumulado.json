@@ -183,6 +183,45 @@
       "confianca": "baixa",
       "n": 15,
       "recolhida": "2026-10-17"
+    },
+    {
+      "titulo": "Frelimo anuncia apoio à candidatura de Chapo à Presidência em 2029",
+      "resumo": "A Lusa noticiou a 17 de Outubro que a Frelimo vai apoiar a candidatura de Daniel Chapo nas eleições previstas para 2029. O texto completo não estava acessível, por isso os motivos apresentados pelo partido ficam por confirmar.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa",
+      "url": "https://www.lusa.pt/lusofonia/article/2026-10-17/47959553/mo%C3%A7ambicana-frelimo-anuncia-apoio-%C3%A0-candidatura-de-chapo-a-presid%C3%AAncia-em-2029",
+      "data": "2026-10-17",
+      "confianca": "media",
+      "n": 16,
+      "recolhida": "2026-10-18"
+    },
+    {
+      "titulo": "Inflação anual desce para 6,31% em Setembro",
+      "resumo": "A inflação anual foi de 6,31% em Setembro, contra 6,45% em Agosto, o terceiro mês seguido de desaceleração. A inflação de alimentos e bebidas recuou para 8,69%, e o índice de preços subiu 0,16% no mês.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "oficiais",
+      "fonte": "Trading Economics (dados do INE)",
+      "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+      "data": "2026-10-09",
+      "confianca": "media",
+      "n": 17,
+      "recolhida": "2026-10-18"
+    },
+    {
+      "titulo": "Tribunal Supremo recusa transmissão em directo do julgamento de Mondlane",
+      "resumo": "Um despacho de 12 de Outubro da Secção Criminal do Tribunal Supremo rejeitou o recurso de Venâncio Mondlane e não autoriza a transmissão em directo. O julgamento está marcado para 17 de Novembro, em Maputo, e a imprensa pode acompanhá-lo e fazer registo escrito.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/tribunal-mocambicano-rejeita-recurso-de-venancio-mondlane-para-transmissao-de-julgamento_n1771613",
+      "data": "2026-10-12",
+      "confianca": "media",
+      "n": 18,
+      "recolhida": "2026-10-18"
     }
   ],
   "processados": [
@@ -193,9 +232,14 @@
     "Lista de noticias",
     "Sugestões listas de noticia"
   ],
-  "versao": 8,
-  "proximo_n": 16,
-  "lacunas": [],
+  "versao": 9,
+  "proximo_n": 19,
+  "lacunas": [
+    "Preços do chapa, milho, arroz e óleo por cidade (Maputo, Beira, Nampula) sem dado recente",
+    "Fecho do Brent depois de 9 de Outubro por confirmar",
+    "Câmbio e taxa MIMO de Outubro sem fonte",
+    "Nada de novo encontrado em regional e humanitário nas últimas 48 horas"
+  ],
   "analise": {
     "destaques": {
       "mundo": [
@@ -203,6 +247,8 @@
         "Petróleo caro ameaça travar a descida dos juros em África"
       ],
       "nacional": [
+        "Frelimo apoia recandidatura de Chapo em 2029",
+        "Inflação desce para 6,31% em Setembro",
         "Orçamento de 2027 prevê crescimento de 1,6% e défice de 4,6%",
         "Lei do Conteúdo Local aprovada, com regulamento",
         "Chapo defende mais acesso ao mercado de capitais",
@@ -226,6 +272,10 @@
           {
             "texto": "Cooperação de segurança com Tanzânia",
             "origem": "externa"
+          },
+          {
+            "texto": "Frelimo unida em torno de Chapo",
+            "origem": "interna"
           }
         ],
         "ameacas": [
@@ -238,7 +288,7 @@
             "origem": "interna"
           },
           {
-            "texto": "Contestação sobre contas de Mondlane",
+            "texto": "Julgamento de Mondlane a 17 de Novembro",
             "origem": "interna"
           }
         ],
@@ -255,7 +305,7 @@
             "origem": "interna"
           },
           {
-            "texto": "Acesso alargado ao mercado de capitais",
+            "texto": "Inflação desce para 6,31%",
             "origem": "interna"
           },
           {
@@ -389,7 +439,7 @@
         ],
         "ameacas": [
           {
-            "texto": "Contas de Mondlane em disputa",
+            "texto": "Julgamento sem transmissão em directo",
             "origem": "interna"
           },
           {
@@ -416,7 +466,7 @@
         "saldo": -2,
         "porque": "comida e transporte mais caros",
         "efeito": "negativo",
-        "explicacao": "A insegurança alimentar grave caiu 48% em Setembro, mas atinge ainda 1,84 milhões de pessoas, e o gasóleo encarece o transporte de alimentos. Os fertilizantes subiram muito, o que ameaça a próxima campanha."
+        "explicacao": "A insegurança alimentar grave caiu 48% em Setembro, mas atinge ainda 1,84 milhões de pessoas, e o gasóleo encarece o transporte de alimentos. Os fertilizantes subiram muito, o que ameaça a próxima campanha. A inflação de alimentos recuou para 8,69% em Setembro, ainda alta para quem gasta quase tudo em comida."
       },
       {
         "grupo": "Classe média",
@@ -444,7 +494,7 @@
         "saldo": -1,
         "porque": "PIB revisto em baixa e petróleo caro",
         "efeito": "negativo",
-        "explicacao": "O crescimento de 2026 foi revisto para 0,6% e o de 2027 está projectado em 1,6%, com inflação de 7% e défice de 4,6% do PIB. O Brent perto de 100 dólares e o custo do El Niño agravam as contas. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno."
+        "explicacao": "O crescimento de 2026 foi revisto para 0,6% e o de 2027 está projectado em 1,6%, com inflação de 7% e défice de 4,6% do PIB. O Brent perto de 100 dólares e o custo do El Niño agravam as contas. O gás do Rovuma rendeu 252,8 milhões de dólares entre 2022 e 2025, um alívio pequeno. A inflação anual desceu para 6,31% em Setembro, o terceiro mês seguido de desaceleração, o que dá algum alívio."
       },
       {
         "grupo": "PMEs",
@@ -503,9 +553,9 @@
         "accao": "Confirmar com a compradora o preço de referência de 48 meticais por quilo antes de vender a campanha."
       }
     ],
-    "sinal": "Regulamento do Conteúdo Local na prática, preço do petróleo e do gasóleo, fim da amnistia de armas em Dezembro, proposta de Orçamento de 2027 no Parlamento e preços dos fertilizantes antes da campanha agrícola.",
+    "sinal": "Regulamento do Conteúdo Local na prática, preço do petróleo e do gasóleo, fim da amnistia de armas em Dezembro, proposta de Orçamento de 2027 no Parlamento e preços dos fertilizantes antes da campanha agrícola. Também o julgamento de Mondlane a 17 de Novembro e a inflação de Outubro.",
     "sintese": "O petróleo perto de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o Governo reviu o crescimento de 2026 para 0,6%. Em sentido contrário, a insegurança alimentar grave desceu 48% em Setembro, o Parlamento aprovou a Lei do Conteúdo Local e a confiança empresarial recuperou. O efeito depende de as PMEs entrarem nas cadeias de fornecimento e de os fertilizantes e a energia chegarem ao campo.",
-    "o_que_mudou_hoje": "Sem notícias novas nesta revisão. Fica a leitura de sexta-feira: o Orçamento de 2027 com crescimento de 1,6% e défice de 4,6% do PIB, a fome grave a descer para 1,84 milhões de pessoas e os fertilizantes mais caros (ureia mais 41,5% em Setembro, face a um ano antes) a pesar na campanha agrícola. O fecho do Brent de 16 de Outubro continua por confirmar.",
+    "o_que_mudou_hoje": "Três novidades. A Lusa noticia que a Frelimo vai apoiar a recandidatura de Chapo em 2029. A inflação anual desceu para 6,31% em Setembro (6,45% em Agosto), com os alimentos a 8,69%. O Tribunal Supremo recusou a transmissão em directo do julgamento de Mondlane, marcado para 17 de Novembro. O gasóleo continua a 116,25 meticais e o fecho do Brent depois de 9 de Outubro segue por confirmar.",
     "canais": [
       {
         "choque": "Petróleo acima de 100 dólares",
@@ -587,10 +637,10 @@
         "nota": "A lei só ajuda pequenas empresas se o regulamento as incluir."
       },
       {
-        "risco": "Tensão política em torno das contas de Mondlane",
+        "risco": "Tensão política antes do julgamento de Mondlane",
         "probabilidade": 1,
         "impacto": 2,
-        "nota": "A contestação do Anamola é recente e os fundamentos não são conhecidos."
+        "nota": "O julgamento está marcado para 17 de Novembro e o Tribunal Supremo recusou a transmissão em directo."
       }
     ],
     "horizonte": {
@@ -632,9 +682,9 @@
     ],
     "confianca": {
       "grau": "media",
-      "base": "Lusa, AGRA, Club of Mozambique e Investing.com; poucos dados oficiais, o fecho do Brent por confirmar e divergência no crescimento de 2026 (0,6% ou 0,9%); categorias imprensa_economica e internacional sem pesquisa nova nesta revisão"
+      "base": "Lusa, AGRA, Club of Mozambique, Trading Economics e RTP; poucos dados oficiais, o fecho do Brent por confirmar e divergência no crescimento de 2026 (0,6% ou 0,9%); nesta ronda regional e humanitário não deram notícias novas"
     },
-    "continuidade": "Face a ontem, o Orçamento de 2027 passou de números por confirmar a uma proposta com metas publicadas, e a leitura da fome melhorou em Setembro, embora o risco do El Niño se mantenha. Os temas combustível, El Niño e Conteúdo Local continuam activos na memória e o gasóleo segue a 116,25 meticais, sem revisão publicada."
+    "continuidade": "Face a ontem, entram a inflação de Setembro, que confirma um alívio de preços em termos gerais, e o calendário político: apoio da Frelimo a Chapo e julgamento de Mondlane em Novembro. Os temas combustível, El Niño, Conteúdo Local e Orçamento de 2027 continuam activos e o gasóleo segue a 116,25 meticais."
   },
   "design": {
     "slides": [
@@ -669,24 +719,24 @@
         "imagem_termos": "Maputo police"
       },
       {
+        "titulo": "Inflação desce para 6,31%",
+        "texto": "A inflação anual foi de 6,31% em Setembro, contra 6,45% em Agosto. Os alimentos subiram 8,69% num ano.",
+        "tom": "oportunidade",
+        "imagem_termos": "market Mozambique"
+      },
+      {
         "titulo": "Lei do Conteúdo Local aprovada",
         "texto": "O Parlamento aprovou a lei por unanimidade e o Governo aprovou o regulamento e o estatuto da Autoridade do Conteúdo Local.",
         "tom": "oportunidade",
         "imagem_termos": "Mozambique gas port"
-      },
-      {
-        "titulo": "Bolsa aberta a mais cidadãos",
-        "texto": "Chapo defende maior acesso ao mercado de capitais. A MECTS, primeira empresa de parceria público-privada, foi cotada.",
-        "tom": "oportunidade",
-        "imagem_termos": "stock exchange building"
       }
     ],
     "destaques_capa": [
       "Orçamento de 2027 projecta 1,6%",
-      "Fome grave desce 48% em Setembro",
+      "Inflação desce para 6,31%",
       "Lei do Conteúdo Local aprovada"
     ],
-    "legenda": "O Orçamento de 2027 projecta crescimento de 1,6%, a fome grave desceu 48% em Setembro e o Parlamento aprovou a Lei do Conteúdo Local. Veja quem ganha, quem perde e o que fazer.",
+    "legenda": "O Orçamento de 2027 projecta crescimento de 1,6%, a inflação desceu para 6,31% e o Parlamento aprovou a Lei do Conteúdo Local. Veja quem ganha, quem perde e o que fazer.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesDaSemana"
@@ -695,20 +745,21 @@
       1,
       6,
       8,
-      9,
       7,
       10,
       12,
-      13
+      13,
+      16,
+      17
     ],
-    "manchete": "Orçamento de 2027 projecta 1,6%, fome desce e petróleo continua caro"
+    "manchete": "Orçamento de 2027 projecta 1,6%, inflação desce e petróleo continua caro"
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, 17 de Outubro*\n\n*MUNDO*\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos 102 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz mantêm o preço alto.\n\n*MOÇAMBIQUE*\nO Presidente Daniel Chapo anunciou que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. O Parlamento aprovou por unanimidade a Lei do Conteúdo Local, e o Governo aprovou o regulamento. Chapo defendeu mais acesso dos cidadãos ao mercado de capitais. O Governo propõe para 2027 crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB, e reviu o crescimento de 2026 para 0,6%. A AGRA diz que 1,84 milhões de pessoas estavam em insegurança alimentar grave em Setembro, menos 48% que em Agosto.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem as famílias de baixa renda, a classe média e as PMEs, por causa do gasóleo e dos juros altos. Ganham os investidores e as ONGs.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços e guardar reservas de alimentos básicos. As PMEs que exportam devem perguntar ao banco pelo novo regime de crédito, e as que prestam serviços devem ler o regulamento do Conteúdo Local.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o preço do petróleo e do gasóleo, o regulamento do Conteúdo Local, o debate do Orçamento de 2027 no Parlamento, os preços dos fertilizantes e o fim da amnistia de armas.\n\nSe achou útil, partilhe com quem decide em casa ou na empresa.",
-    "linkedin": "Petróleo perto de 100 dólares e crescimento de 1,6% em 2027: o que muda para Moçambique\n\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos cerca de 102 de 2 de Outubro. A tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz sustentam o preço.\n\nEm Moçambique, a proposta de Orçamento de 2027 prevê crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB; o crescimento de 2026 foi revisto para 0,6%. Segundo a AGRA, a insegurança alimentar grave desceu 48% em Setembro, para 1,84 milhões de pessoas, mas o risco de um El Niño forte mantém-se. O El Niño pode afectar 5,3 milhões de pessoas. Do lado positivo, o Parlamento aprovou por unanimidade a Lei do Conteúdo Local e o Governo aprovou o regulamento, o que pode abrir contratos a fornecedores nacionais. Também a confiança das empresas está no nível mais alto desde 2017, apesar de o PMI ter caído para 50,2 em Setembro. O Banco de Moçambique abriu crédito para empresas que exportam ou substituem importações.\n\nQuem ganha: investidores e sectores ligados a energia, mineração e petróleo. Quem perde: famílias de baixa renda, classe média, PMEs, transportes e comércio de alimentos.\n\nDirecção\n\nFornecedores de serviços devem ler o regulamento do Conteúdo Local. Gestores de PMEs que exportam devem perguntar ao banco pelo novo regime de crédito e pelos critérios de acesso. Investidores devem esperar por medidas concretas de industrialização antes de comprometer capital.\n\nSinal a acompanhar: a aplicação do Conteúdo Local, o preço do gasóleo e o debate do Orçamento de 2027. Se o Brent se mantiver acima de 100 dólares, o custo de transporte vai continuar a pressionar as margens.\n\n#Moçambique #Economia #PMEs",
-    "instagram": "O Orçamento de 2027 projecta crescimento de 1,6%, a fome grave desceu 48% em Setembro e o Parlamento aprovou a Lei do Conteúdo Local. Veja quem ganha, quem perde e o que fazer. #Moçambique #DirecçõesDaSemana",
-    "facebook": "Direcções da Semana, 17 de Outubro\n\nO petróleo fechou a semana perto de 104 dólares por barril. Isto pesa no preço do transporte e, mais tarde, no preço da comida.\n\nEm Moçambique, o Governo propõe para 2027 crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB, e reviu o crescimento de 2026 para 0,6%. A insegurança alimentar grave desceu 48% em Setembro, para 1,84 milhões de pessoas. O Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou a recolha forçada de armas ilegais depois da amnistia, que termina em Dezembro. A EDM vai investir mais de 19 milhões de euros numa subestação em Tete.\n\nQuem mais sente a subida dos combustíveis são as famílias de baixa renda e as pequenas empresas. O Parlamento aprovou a Lei do Conteúdo Local, que deve dar mais espaço a fornecedores moçambicanos. Os investidores têm razões para mais confiança, porque o sector empresarial está a recuperar e há crédito novo para quem exporta.\n\nO que fazer: comparar preços antes de comprar em quantidade, guardar reservas de alimentos básicos e, se tem uma empresa que exporta, perguntar ao banco pelo novo regime de crédito.\n\nA direcção principal da semana: planear com cautela e acompanhar o preço do gasóleo.\n\n#Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, 17 de Outubro de 2026\n\n## Resumo da semana\nO petróleo perto de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o Governo reviu o crescimento de 2026 para 0,6%. Em sentido contrário, a insegurança alimentar grave desceu 48% em Setembro, o Parlamento aprovou a Lei do Conteúdo Local e a confiança empresarial recuperou. O efeito depende de as PMEs entrarem nas cadeias de fornecimento e de os fertilizantes e a energia chegarem ao campo.\n\n## O que mudou face às semanas anteriores\nFace a ontem, o Orçamento de 2027 passou de números por confirmar a uma proposta com metas publicadas, e a leitura da fome melhorou em Setembro, embora o risco do El Niño se mantenha. Os temas combustível, El Niño e Conteúdo Local continuam activos na memória e o gasóleo segue a 116,25 meticais, sem revisão publicada.\n\n## Mundo\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares, acima dos 102,25 de 2 de Outubro, com a tensão entre os EUA e o Irão a sustentar o preço.\n\n## Moçambique\nA proposta de Orçamento de 2027 prevê crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, com receitas de 427 mil milhões de meticais e despesa de 511 mil milhões. A AGRA conta 1,84 milhões de pessoas em insegurança alimentar grave em Setembro, menos 48% que em Agosto, mas a ureia custa mais 41,5% do que há um ano. O Governo admitiu ser urgente travar abusos em Cabo Delgado.\n\nO Parlamento aprovou a Lei 9/2026 do Conteúdo Local e o Governo aprovou o regulamento. Chapo anunciou a recolha forçada de armas ilegais depois da amnistia de Dezembro. O PMI caiu para 50,2, mas a confiança empresarial é a mais alta desde 2017.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); Direitos humanos em Cabo Delgado (int.) |\n| Económica | Crédito às empresas que exportam (int.); Acesso alargado ao mercado de capitais (int.); Défice menor em 2027: 4,6% (int.) | Petróleo perto de 100 dólares (ext.); PIB revisto para 0,6% (int.); Inflação de 7% prevista em 2027 (int.) |\n| Social | Agenda de emprego para jovens (int.); Compromisso laboral nos 50 anos da OTM (int.); Insegurança alimentar desce 48% (int.) | 1,84 milhões em insegurança grave (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Lei do Conteúdo Local aprovada (int.); Regulamento fiscal para pequenos contribuintes (int.) | Contas de Mondlane em disputa (int.); Economia contraiu 0,52% em 2025 (int.) |\n\n## Como chega ao seu bolso\nPetróleo acima de 100 dólares: Brent acima de 100 dólares, Gasóleo importado mais caro, Chapa e carga custam mais, Comida chega mais cara. Prazo: semanas.\n\nCrescimento fraco e crédito caro: PIB revisto para 0,6%, Crédito continua caro, PMEs adiam investimento, Menos emprego novo. Prazo: meses.\n\nEl Niño: Chuva abaixo do normal, Colheita de milho menor, Alimentos básicos mais caros, Insegurança alimentar sobe. Prazo: meses.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | O Brent desce abaixo de 90 dólares, o abastecimento normaliza e o Governo não volta a mexer nos preços do gasóleo. | Brent abaixo de 90 dólares durante duas semanas |\n| Fica igual | 45% | O Brent fica entre 95 e 105 dólares, o gasóleo mantém-se a 116,25 meticais e há filas pontuais nos postos. | Sem nova revisão de preços da ARENE até Dezembro |\n| Piora | 35% | O Brent passa os 110 dólares ou o abastecimento falha de novo; o Governo revê preços e os transportadores pedem tarifas novas. | Filas prolongadas ou anúncio de revisão de preços |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Brent acima de 110 dólares | média | alto |\n| Nova falha no abastecimento de combustíveis | média | alto |\n| Seca do El Niño na campanha agrícola | média | alto |\n| Regulamento do Conteúdo Local sem regras para PMEs | média | médio |\n| Tensão política em torno das contas de Mondlane | baixa | médio |\n\n## Horizonte\nImediato: petróleo perto de 100 dólares e gasóleo a 116,25 meticais desde Maio.\n\nTrês meses: fim da amnistia de armas em Dezembro, regras provisórias de importação a caducar a 31 de Dezembro e início da campanha agrícola com El Niño.\n\nUm ano: Orçamento de 2027 em execução e regulamento do Conteúdo Local a ser testado.\n\n## Quem está mais exposto\nClasse baixa: exposição 3, margem 1.\n\nClasse média: exposição 2, margem 2.\n\nTrabalhadores informais e agricultores: exposição 3, margem 1.\n\nPMEs: exposição 2, margem 2.\n\n## Quem ganha, quem perde\nGoverno (negativo): seca e combustível aumentam a despesa.\n\nClasse baixa (negativo): comida e transporte mais caros, apesar de a fome grave ter descido 48%.\n\nClasse média (negativo): transporte caro e juros altos.\n\nClasse alta e investidores (positivo): confiança empresarial a recuperar.\n\nONGs e parceiros (positivo): mais procura e atenção ao clima.\n\nMacroeconomia (negativo): PIB revisto em baixa e petróleo caro.\n\nPMEs (negativo): crédito caro e custos de transporte.\n\nRamos de negócio (misto): ganham energia, mineração e petróleo; perdem transportes.\n\n## Direcção\nGoverno: preparar já a resposta ao El Niño nos distritos de vulnerabilidade máxima.\n\nFamílias: guardar reservas de básicos e comparar preços.\n\nPMEs: perguntar ao banco pelo novo regime de crédito e ler o regulamento do Conteúdo Local.\n\nONGs e parceiros: concentrar a ajuda nas zonas de vulnerabilidade máxima.\n\nInvestidores: esperar por medidas concretas de industrialização.\n\nProdutores de caju: confirmar o preço de referência de 48 meticais por quilo antes de vender.\n\n## Direcções anteriores: o que se confirmou\nA memória ainda não tem direcções guardadas para verificar. As desta edição ficam registadas para revisão em Novembro de 2026 e Janeiro de 2027.\n\n## Sinal a acompanhar\nRegulamento do Conteúdo Local na prática, preço do petróleo e do gasóleo, fim da amnistia de armas em Dezembro, proposta de Orçamento de 2027 no Parlamento e preços dos fertilizantes antes da campanha agrícola.\n\n## Grau de confiança\nMédia. Lusa, AGRA, Club of Mozambique e Investing.com; poucos dados oficiais, o fecho do Brent por confirmar e divergência no crescimento de 2026 (0,6% ou 0,9%).\n\n## Fontes\nOrçamento e segurança alimentar: Lusa (https://www.noticiasaominuto.com/mundo/3067872/mocambique-governo-projeta-crescimento-de-1-6-em-2027); AGRA via Lusa (https://www.noticiasaominuto.com/mundo/3067851/1-84-milhoes-de-mocambicanos-em-inseguranca-alimentar-grave); Governo e Cabo Delgado (https://www.noticiasaominuto.com/mundo/3068067/mocambique-considera-urgente-travar-violacao-dos-direitos-humanos); caju (https://forbesafricalusofona.com/mocambique-aumenta-preco-de-referencia-da-castanha-de-caju-em-667-para-48-meticais-por-quilograma/).\nDados oficiais e preços: ARENE via Lusa (https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1); Trading Economics (https://tradingeconomics.com/commodity/brent-crude-oil).\nImprensa nacional e regional: Lusa (https://www.lusa.pt/lusofonia/mozambique); Club of Mozambique (https://clubofmozambique.com/news/mozambique-advances-economic-growth-through-historic-local-content-framework/); allAfrica (https://allafrica.com/stories/202610150327.html); Voice of Nigeria (https://von.gov.ng/mozambique-president-warns-of-crackdown-on-illegal-firearms).\nEconomia e mercados: Investing.com (https://ca.investing.com/news/stock-market-news/mozambique-business-activity-falls-in-september-as-pmi-drops-93CH-4866971); BusinessDay (https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/).",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 18 de Outubro*\n\n*MUNDO*\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos 102 de 2 de Outubro. A tensão entre os EUA e o Irão e o Estreito de Ormuz mantêm o preço alto.\n\n*MOÇAMBIQUE*\nO Presidente Daniel Chapo anunciou que as armas ilegais serão recolhidas à força depois da amnistia, que termina em Dezembro. O Parlamento aprovou por unanimidade a Lei do Conteúdo Local, e o Governo aprovou o regulamento. O Governo propõe para 2027 crescimento de 1,6% e défice de 4,6% do PIB, e reviu o de 2026 para 0,6%. A inflação anual desceu para 6,31% em Setembro, contra 6,45% em Agosto. A Frelimo anunciou que vai apoiar a recandidatura de Chapo em 2029. A AGRA diz que 1,84 milhões de pessoas estavam em insegurança alimentar grave em Setembro, menos 48% que em Agosto.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem as famílias de baixa renda, a classe média e as PMEs, por causa do gasóleo e dos juros altos. Ganham os investidores e as ONGs.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços e guardar reservas de alimentos básicos. As PMEs que exportam devem perguntar ao banco pelo novo regime de crédito, e as que prestam serviços devem ler o regulamento do Conteúdo Local.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar o petróleo e o gasóleo, o regulamento do Conteúdo Local, o Orçamento de 2027 e o preço dos fertilizantes.\n\nSe achou útil, partilhe com quem decide em casa ou na empresa.",
+    "linkedin": "Petróleo perto de 100 dólares e crescimento de 1,6% em 2027: o que muda para Moçambique\n\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares por barril, acima dos cerca de 102 de 2 de Outubro. A tensão entre os EUA e o Irão e os problemas no Estreito de Ormuz sustentam o preço.\n\nEm Moçambique, a proposta de Orçamento de 2027 prevê crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB; o crescimento de 2026 foi revisto para 0,6%. Segundo a AGRA, a insegurança alimentar grave desceu 48% em Setembro, para 1,84 milhões de pessoas, mas o risco de um El Niño forte mantém-se. O El Niño pode afectar 5,3 milhões de pessoas. Do lado positivo, o Parlamento aprovou por unanimidade a Lei do Conteúdo Local e o Governo aprovou o regulamento, o que pode abrir contratos a fornecedores nacionais. A inflação anual desceu para 6,31% em Setembro, o terceiro mês seguido de queda, com os alimentos a 8,69%. Também a confiança das empresas está no nível mais alto desde 2017.\n\nQuem ganha: investidores e sectores ligados a energia, mineração e petróleo. Quem perde: famílias de baixa renda, classe média, PMEs, transportes e comércio de alimentos.\n\nDirecção\n\nFornecedores de serviços devem ler o regulamento do Conteúdo Local. Gestores de PMEs que exportam devem perguntar ao banco pelo novo regime de crédito e pelos critérios de acesso. Investidores devem esperar por medidas concretas de industrialização antes de comprometer capital.\n\nSinal a acompanhar: a aplicação do Conteúdo Local, o preço do gasóleo e o debate do Orçamento de 2027. Se o Brent se mantiver acima de 100 dólares, o custo de transporte vai continuar a pressionar as margens.\n\n#Moçambique #Economia #PMEs",
+    "instagram": "O Orçamento de 2027 projecta crescimento de 1,6%, a inflação desceu para 6,31% e o Parlamento aprovou a Lei do Conteúdo Local. Veja quem ganha, quem perde e o que fazer. #Moçambique #DirecçõesDaSemana",
+    "facebook": "Direcções da Semana, 18 de Outubro\n\nO petróleo fechou a semana perto de 104 dólares por barril. Isto pesa no preço do transporte e, mais tarde, no preço da comida.\n\nEm Moçambique, o Governo propõe para 2027 crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB, e reviu o crescimento de 2026 para 0,6%. A insegurança alimentar grave desceu 48% em Setembro, para 1,84 milhões de pessoas. O Presidente Daniel Chapo pediu à polícia firmeza contra criminosos, com respeito pelos direitos humanos, e anunciou a recolha forçada de armas ilegais depois da amnistia, que termina em Dezembro. A inflação anual desceu para 6,31% em Setembro.\n\nQuem mais sente a subida dos combustíveis são as famílias de baixa renda e as pequenas empresas. O Parlamento aprovou a Lei do Conteúdo Local, que deve dar mais espaço a fornecedores moçambicanos. Os investidores têm razões para mais confiança, porque o sector empresarial está a recuperar e há crédito novo para quem exporta.\n\nO que fazer: comparar preços antes de comprar em quantidade, guardar reservas de alimentos básicos e, se tem uma empresa que exporta, perguntar ao banco pelo novo regime de crédito.\n\nA direcção principal da semana: planear com cautela e acompanhar o preço do gasóleo.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Direcções da Semana, 18 de Outubro de 2026\n\n## Resumo da semana\nO petróleo perto de 100 dólares e o El Niño continuam a pressionar famílias e contas públicas, e o Governo reviu o crescimento de 2026 para 0,6%. Em sentido contrário, a insegurança alimentar grave desceu 48% em Setembro, o Parlamento aprovou a Lei do Conteúdo Local e a confiança empresarial recuperou. O efeito depende de as PMEs entrarem nas cadeias de fornecimento e de os fertilizantes e a energia chegarem ao campo.\n\n## O que mudou face às semanas anteriores\nFace a ontem, entram a inflação de Setembro, que confirma um alívio de preços em termos gerais, e o calendário político: apoio da Frelimo a Chapo e julgamento de Mondlane em Novembro. Os temas combustível, El Niño, Conteúdo Local e Orçamento de 2027 continuam activos e o gasóleo segue a 116,25 meticais.\n\n## Mundo\nO Brent fechou a semana de 9 de Outubro perto de 104 dólares, acima dos 102,25 de 2 de Outubro, com a tensão entre os EUA e o Irão a sustentar o preço.\n\n## Moçambique\nA proposta de Orçamento de 2027 prevê crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, com receitas de 427 mil milhões de meticais e despesa de 511 mil milhões. A AGRA conta 1,84 milhões de pessoas em insegurança alimentar grave em Setembro, menos 48% que em Agosto, mas a ureia custa mais 41,5% do que há um ano. O Governo admitiu ser urgente travar abusos em Cabo Delgado. A inflação anual foi de 6,31% em Setembro, contra 6,45% em Agosto, com os alimentos a 8,69%.\n\nO Parlamento aprovou a Lei 9/2026 do Conteúdo Local e o Governo aprovou o regulamento. Chapo anunciou a recolha forçada de armas ilegais depois da amnistia de Dezembro. O PMI caiu para 50,2, mas a confiança empresarial é a mais alta desde 2017. A Lusa noticia que a Frelimo vai apoiar a recandidatura de Chapo em 2029, e o Tribunal Supremo recusou a transmissão em directo do julgamento de Mondlane, marcado para 17 de Novembro.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Cooperação de segurança com Tanzânia (ext.) | Expectativas da juventude por cumprir (int.); Direitos humanos em Cabo Delgado (int.); Julgamento de Mondlane a 17 de Novembro (int.) |\n| Económica | Crédito às empresas que exportam (int.); Inflação desce para 6,31% (int.); Défice menor em 2027: 4,6% (int.) | Petróleo perto de 100 dólares (ext.); PIB revisto para 0,6% (int.); Inflação de 7% prevista em 2027 (int.) |\n| Social | Agenda de emprego para jovens (int.); Compromisso laboral nos 50 anos da OTM (int.); Insegurança alimentar desce 48% (int.) | 1,84 milhões em insegurança grave (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Lei do Conteúdo Local aprovada (int.); Regulamento fiscal para pequenos contribuintes (int.) | Julgamento sem transmissão em directo (int.); Economia contraiu 0,52% em 2025 (int.) |\n\n## Como chega ao seu bolso\nPetróleo acima de 100 dólares: Brent acima de 100 dólares, Gasóleo importado mais caro, Chapa e carga custam mais, Comida chega mais cara. Prazo: semanas.\n\nCrescimento fraco e crédito caro: PIB revisto para 0,6%, Crédito continua caro, PMEs adiam investimento, Menos emprego novo. Prazo: meses.\n\nEl Niño: Chuva abaixo do normal, Colheita de milho menor, Alimentos básicos mais caros, Insegurança alimentar sobe. Prazo: meses.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | O Brent desce abaixo de 90 dólares, o abastecimento normaliza e o Governo não volta a mexer nos preços do gasóleo. | Brent abaixo de 90 dólares durante duas semanas |\n| Fica igual | 45% | O Brent fica entre 95 e 105 dólares, o gasóleo mantém-se a 116,25 meticais e há filas pontuais nos postos. | Sem nova revisão de preços da ARENE até Dezembro |\n| Piora | 35% | O Brent passa os 110 dólares ou o abastecimento falha de novo; o Governo revê preços e os transportadores pedem tarifas novas. | Filas prolongadas ou anúncio de revisão de preços |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Brent acima de 110 dólares | média | alto |\n| Nova falha no abastecimento de combustíveis | média | alto |\n| Seca do El Niño na campanha agrícola | média | alto |\n| Regulamento do Conteúdo Local sem regras para PMEs | média | médio |\n| Tensão política antes do julgamento de Mondlane | baixa | médio |\n\n## Horizonte\nImediato: petróleo perto de 100 dólares e gasóleo a 116,25 meticais desde Maio.\n\nTrês meses: fim da amnistia de armas em Dezembro, regras provisórias de importação a caducar a 31 de Dezembro e início da campanha agrícola com El Niño.\n\nUm ano: Orçamento de 2027 em execução e regulamento do Conteúdo Local a ser testado.\n\n## Quem está mais exposto\nClasse baixa: exposição 3, margem 1.\n\nClasse média: exposição 2, margem 2.\n\nTrabalhadores informais e agricultores: exposição 3, margem 1.\n\nPMEs: exposição 2, margem 2.\n\n## Quem ganha, quem perde\nGoverno (negativo): seca e combustível aumentam a despesa.\n\nClasse baixa (negativo): comida e transporte mais caros, apesar de a fome grave ter descido 48%.\n\nClasse média (negativo): transporte caro e juros altos.\n\nClasse alta e investidores (positivo): confiança empresarial a recuperar.\n\nONGs e parceiros (positivo): mais procura e atenção ao clima.\n\nMacroeconomia (negativo): PIB revisto em baixa e petróleo caro.\n\nPMEs (negativo): crédito caro e custos de transporte.\n\nRamos de negócio (misto): ganham energia, mineração e petróleo; perdem transportes.\n\n## Direcção\nGoverno: preparar já a resposta ao El Niño nos distritos de vulnerabilidade máxima.\n\nFamílias: guardar reservas de básicos e comparar preços.\n\nPMEs: perguntar ao banco pelo novo regime de crédito e ler o regulamento do Conteúdo Local.\n\nONGs e parceiros: concentrar a ajuda nas zonas de vulnerabilidade máxima.\n\nInvestidores: esperar por medidas concretas de industrialização.\n\nProdutores de caju: confirmar o preço de referência de 48 meticais por quilo antes de vender.\n\n## Direcções anteriores: o que se confirmou\nA memória ainda não tem direcções guardadas para verificar. As desta edição ficam registadas para revisão em Novembro de 2026 e Janeiro de 2027.\n\n## Sinal a acompanhar\nRegulamento do Conteúdo Local na prática, preço do petróleo e do gasóleo, fim da amnistia de armas em Dezembro, proposta de Orçamento de 2027 no Parlamento e preços dos fertilizantes antes da campanha agrícola.\n\n## Grau de confiança\nMédia. Lusa, AGRA, Club of Mozambique, Trading Economics e RTP; poucos dados oficiais, o fecho do Brent por confirmar e divergência no crescimento de 2026 (0,6% ou 0,9%).\n\n## Fontes\nOrçamento e segurança alimentar: Lusa (https://www.noticiasaominuto.com/mundo/3067872/mocambique-governo-projeta-crescimento-de-1-6-em-2027); AGRA via Lusa (https://www.noticiasaominuto.com/mundo/3067851/1-84-milhoes-de-mocambicanos-em-inseguranca-alimentar-grave); Governo e Cabo Delgado (https://www.noticiasaominuto.com/mundo/3068067/mocambique-considera-urgente-travar-violacao-dos-direitos-humanos); caju (https://forbesafricalusofona.com/mocambique-aumenta-preco-de-referencia-da-castanha-de-caju-em-667-para-48-meticais-por-quilograma/).\nDados oficiais e preços: ARENE via Lusa (https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1); Trading Economics (https://tradingeconomics.com/commodity/brent-crude-oil).\nImprensa nacional e regional: Lusa (https://www.lusa.pt/lusofonia/mozambique); Club of Mozambique (https://clubofmozambique.com/news/mozambique-advances-economic-growth-through-historic-local-content-framework/); allAfrica (https://allafrica.com/stories/202610150327.html); Voice of Nigeria (https://von.gov.ng/mozambique-president-warns-of-crackdown-on-illegal-firearms).\nEconomia e mercados: Trading Economics sobre a inflação (https://tradingeconomics.com/mozambique/inflation-cpi/news/590844); RTP sobre o julgamento de Mondlane (https://www.rtp.pt/noticias/mundo/tribunal-mocambicano-rejeita-recurso-de-venancio-mondlane-para-transmissao-de-julgamento_n1771613); Lusa sobre a Frelimo (https://www.lusa.pt/lusofonia/article/2026-10-17/47959553/mo%C3%A7ambicana-frelimo-anuncia-apoio-%C3%A0-candidatura-de-chapo-a-presid%C3%AAncia-em-2029); Investing.com (https://ca.investing.com/news/stock-market-news/mozambique-business-activity-falls-in-september-as-pmi-drops-93CH-4866971); BusinessDay (https://businessday.ng/business-economy/article/rising-oil-prices-threaten-africas-disinflation-gains/).",
     "verificar": [
       "Brent: 104,43 (Trading Economics) e 104,72 (futuros) a 9 de Outubro; existe uma série spot muito mais alta (125,44 a 6 de Outubro) que não foi usada",
       "Notícias de 9 e 10 de Outubro vêm só da listagem da Lusa, sem ler os artigos",
@@ -726,7 +777,10 @@
       "Metas do Orçamento de 2027 (1,6%, inflação de 7%, défice de 4,6%) vêm de uma só notícia da Lusa",
       "Insegurança alimentar: 1,84 milhões e descida de 48% são do relatório da AGRA, não do IPC oficial",
       "Preço de referência do caju (48 meticais por quilo): só uma fonte, confirmar",
-      "Categorias de fontes não consultadas hoje: imprensa_economica, internacional"
+      "Categorias de fontes não consultadas hoje: imprensa_economica, internacional",
+      "Apoio da Frelimo à recandidatura de Chapo: só o título da Lusa foi lido, motivos por confirmar",
+      "Inflação de 6,31% em Setembro: vem do Trading Economics, confirmar no INE",
+      "Julgamento de Mondlane a 17 de Novembro e recusa de transmissão: confirmar no despacho do Tribunal Supremo"
     ],
     "duvidas": [],
     "conformidade": [
@@ -738,7 +792,7 @@
       {
         "criterio": "Notícias de Moçambique",
         "ok": true,
-        "nota": "Secção Moçambique com 11 notícias."
+        "nota": "Secção Moçambique com 14 notícias."
       },
       {
         "criterio": "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
@@ -841,12 +895,36 @@
       "fonte": "AGRA via Lusa",
       "url": "https://www.noticiasaominuto.com/mundo/3067851/1-84-milhoes-de-mocambicanos-em-inseguranca-alimentar-grave",
       "data": "2026-10-17"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "FEWS NET Moçambique",
+      "url": "https://fews.net/southern-africa/mozambique",
+      "data": "2026-10-18"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (Moçambique)",
+      "url": "https://www.lusa.pt",
+      "data": "2026-10-18"
+    },
+    {
+      "categoria": "regional",
+      "fonte": "SADC",
+      "url": "https://www.sadc.int",
+      "data": "2026-10-18"
+    },
+    {
+      "categoria": "humanitario",
+      "fonte": "ReliefWeb / OCHA Moçambique",
+      "url": "https://reliefweb.int/country/moz",
+      "data": "2026-10-18"
     }
   ],
   "memoria_actualizada": {
-    "em": "2026-10-17",
-    "indicadores": 0,
-    "temas": 2,
-    "direccoes": 3
+    "em": "2026-10-18",
+    "indicadores": 1,
+    "temas": 3,
+    "direccoes": 0
   }
 }

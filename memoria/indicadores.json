@@ -133,7 +133,15 @@
     "unidade": "%",
     "base": "inflacao",
     "regiao": "",
-    "serie": []
+    "serie": [
+      {
+        "data": "2026-10-09",
+        "valor": 6.31,
+        "fonte": "Trading Economics (INE)",
+        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
+      }
+    ]
   },
   "inflacao_maputo": {
     "nome": "Inflação anual (Maputo)",
