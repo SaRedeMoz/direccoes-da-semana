@@ -1,10 +1,10 @@
 {
-  "modo": "diario",
+  "modo": "rever",
   "hoje": "2026-10-18",
   "semana": "2026-S42",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
   "dia_semana": "domingo",
-  "post_do_dia": "nenhum",
+  "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
