@@ -254,7 +254,7 @@
   "dia_semana": "sabado",
   "semana": "2026-S42",
   "versao": 1,
-  "aprovada": false,
+  "aprovada": true,
   "falhas": [],
   "imagens": {
     "slides": [
@@ -307,5 +307,6 @@
     ],
     "pdf": "data/dia/linkedin-carrossel.pdf",
     "v": 1792238137970
-  }
+  },
+  "aprovadaEm": "2026-10-18T13:31:59.158Z"
 }
