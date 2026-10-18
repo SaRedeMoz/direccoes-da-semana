@@ -11,9 +11,9 @@
       "em": "2026-10-18T14:27:24.100Z"
     },
     "design": {
-      "estado": "parado",
-      "msg": "À espera da sua vez",
-      "em": "2026-10-18T14:25:20.822Z"
+      "estado": "pronto",
+      "msg": "Revisão concluída",
+      "em": "2026-10-18T14:27:25.192Z"
     },
     "editor": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-18T14:27:25.192Z",
+      "agente": "design",
+      "msg": "Revisão concluída"
+    },
     {
       "em": "2026-10-18T14:27:24.100Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-16T10:35:12.444Z",
       "agente": "editor",
       "msg": "Edição versão 6 montada"
-    },
-    {
-      "em": "2026-10-16T10:35:12.444Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: Gasóleo a 116 meticais e o preço do chapa"
     }
   ],
-  "actualizado": "2026-10-18T14:27:24.100Z",
+  "actualizado": "2026-10-18T14:27:25.192Z",
   "semana": "2026-S42",
   "dia": "2026-10-18",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
