@@ -232,7 +232,7 @@
     "Lista de noticias",
     "Sugestões listas de noticia"
   ],
-  "versao": 9,
+  "versao": 10,
   "proximo_n": 19,
   "lacunas": [
     "Preços do chapa, milho, arroz e óleo por cidade (Maputo, Beira, Nampula) sem dado recente",
@@ -780,7 +780,10 @@
       "Categorias de fontes não consultadas hoje: imprensa_economica, internacional",
       "Apoio da Frelimo à recandidatura de Chapo: só o título da Lusa foi lido, motivos por confirmar",
       "Inflação de 6,31% em Setembro: vem do Trading Economics, confirmar no INE",
-      "Julgamento de Mondlane a 17 de Novembro e recusa de transmissão: confirmar no despacho do Tribunal Supremo"
+      "Julgamento de Mondlane a 17 de Novembro e recusa de transmissão: confirmar no despacho do Tribunal Supremo",
+      "Post do dia: precedente do Orçamento de 2026 (3,2% na proposta, 2,8% aprovado, 0,6% de revisão) vem de RTP, AIM e Lusa; confirmar no documento oficial",
+      "Post do dia: data do debate do Orçamento de 2027 no Parlamento ainda não anunciada; a de 2026 foi aprovada a 13 de Dezembro de 2025",
+      "Post do dia: conta da família usa pressupostos da redacção (15 000 MT por mês, 60% em comida)"
     ],
     "duvidas": [],
     "conformidade": [
@@ -923,8 +926,8 @@
   ],
   "memoria_actualizada": {
     "em": "2026-10-18",
-    "indicadores": 1,
-    "temas": 3,
-    "direccoes": 0
+    "indicadores": 0,
+    "temas": 2,
+    "direccoes": 2
   }
 }

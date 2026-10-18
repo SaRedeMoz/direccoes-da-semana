@@ -1,0 +1,258 @@
+{
+  "tipo": "dia",
+  "tema": "Orçamento de 2027 e o que muda no seu bolso",
+  "pergunta": "O Orçamento de 2027 promete 1,6%. Vai cumprir?",
+  "facto": {
+    "texto": "A proposta do Governo para 2027 prevê crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. As receitas rondam os 427 mil milhões e a despesa os 511 mil milhões. O crescimento de 2026 foi revisto para 0,6%, com um impacto de 2% do PIB atribuído às cheias.",
+    "numeros": [
+      {
+        "valor": "1,6%",
+        "legenda": "crescimento previsto em 2027"
+      },
+      {
+        "valor": "7,0%",
+        "legenda": "inflação média prevista"
+      },
+      {
+        "valor": "4,6%",
+        "legenda": "défice em percentagem do PIB"
+      }
+    ],
+    "fonte": "Lusa via Notícias ao Minuto (16 de Outubro de 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Set 2025",
+      "texto": "Proposta de 2026: défice perto de 6% do PIB",
+      "futuro": false
+    },
+    {
+      "data": "13 Dez 2025",
+      "texto": "Parlamento aprova o Orçamento de 2026",
+      "futuro": false
+    },
+    {
+      "data": "Início 2026",
+      "texto": "Cheias travam a economia",
+      "futuro": false
+    },
+    {
+      "data": "16 Out",
+      "texto": "Proposta de 2027 revê 2026 para 0,6%",
+      "futuro": false
+    },
+    {
+      "data": "Nov a Dez",
+      "texto": "Debate esperado no Parlamento",
+      "futuro": true
+    },
+    {
+      "data": "Meio de 2027",
+      "texto": "Primeiro teste da execução",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Orçamento de 2026, proposto em Setembro de 2025",
+    "o_que_aconteceu": "A proposta previa crescimento de 3,2% e o Parlamento aprovou 2,8%. Um ano depois, o Governo revê 2026 para 0,6% depois das cheias.",
+    "licao": "Metas de crescimento falharam por mais de 2 pontos; planeie com margem.",
+    "fonte": "RTP, AIM e Lusa"
+  },
+  "porque_importa": "O Orçamento decide quanto o Estado gasta em estradas, escolas, saúde e apoios, e quanto pede emprestado. Se as metas falham, o Estado atrasa pagamentos a fornecedores e o crédito fica mais caro para as PMEs. A inflação de 7% também pesa na comida e no transporte de todas as famílias.",
+  "canal": {
+    "passos": [
+      "Metas de receita falham",
+      "Estado corta ou atrasa despesa",
+      "Fornecedores recebem tarde",
+      "PMEs cortam emprego e compras"
+    ],
+    "quem_sente": "PMEs, fornecedores do Estado, funcionários e famílias de baixa renda"
+  },
+  "conta": {
+    "titulo": "Família com 15 000 MT de despesa mensal",
+    "pressupostos": "Família gasta 15 000 MT por mês, 60% em comida. Inflação de alimentos 8,69% e do resto 6,31% (Setembro).",
+    "barras": [
+      {
+        "rotulo": "Com 6% de inflação",
+        "valor": 900,
+        "texto": "900 MT a mais por mês"
+      },
+      {
+        "rotulo": "Com 7% (meta)",
+        "valor": 1050,
+        "texto": "1 050 MT a mais por mês"
+      },
+      {
+        "rotulo": "Com 9% (cenário mau)",
+        "valor": 1350,
+        "texto": "1 350 MT a mais por mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "Cada ponto de inflação custa 150 MT por mês a esta família; o salário tem de subir o mesmo."
+  },
+  "cenarios": [
+    {
+      "nome": "Metas cumpridas",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Em 2026 a meta falhou por mais de 2 pontos, por isso damos pouco peso a este cenário.",
+      "gatilho": "Receita acima de 45% da meta no primeiro semestre de 2027",
+      "o_que_acontece": "Receitas crescem com o gás e a cobrança, o Estado paga a tempo e o crédito às PMEs alivia.",
+      "numeros": "Crescimento 1,6% a 2,5%; inflação 5,5% a 7%",
+      "quando": "até Dezembro de 2027",
+      "ganha": "PMEs fornecedoras e funcionários",
+      "perde": "Quem especula com preços",
+      "se_acontecer": "PMEs devem pedir crédito e investir; famílias podem repor poupança."
+    },
+    {
+      "nome": "Execução com cortes",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "É o desfecho mais comum quando o défice aperta: o Estado segura a despesa e atrasa pagamentos.",
+      "gatilho": "Atrasos de pagamento a fornecedores acima de 90 dias",
+      "o_que_acontece": "O Governo corta investimento e atrasa pagamentos para manter o défice perto de 4,6%. A economia cresce pouco.",
+      "numeros": "Crescimento 0,8% a 1,6%; inflação 6% a 8%",
+      "quando": "ao longo de 2027",
+      "ganha": "Contas públicas e banca",
+      "perde": "PMEs que vendem ao Estado",
+      "se_acontecer": "Fornecedores do Estado devem cobrar cedo e diversificar clientes."
+    },
+    {
+      "nome": "Seca e petróleo rasgam as contas",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "El Niño forte e Brent perto de 100 dólares atingem receita e despesa ao mesmo tempo.",
+      "gatilho": "Chuva abaixo do normal até 31 de Dezembro e Brent acima de 110 dólares",
+      "o_que_acontece": "A colheita falha, o Estado gasta com ajuda e subsídios, o défice sobe e é preciso rever o Orçamento a meio do ano.",
+      "numeros": "Crescimento abaixo de 1%; inflação 8% a 10%; défice acima de 5,5%",
+      "quando": "entre Março e Setembro de 2027",
+      "ganha": "Importadores com stock",
+      "perde": "Famílias rurais e de baixa renda",
+      "se_acontecer": "Famílias devem reforçar reservas de comida; ONGs concentram ajuda nas zonas mais expostas."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Calendário e texto do debate no Parlamento",
+      "limiar": "Aprovação até 20 de Dezembro sem mudar metas",
+      "quando": "até Dezembro de 2026",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Inflação mensal do INE",
+      "limiar": "Anual acima de 7% por dois meses",
+      "quando": "Novembro e Dezembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Brent",
+      "limiar": "Abaixo de 90 dólares por duas semanas",
+      "quando": "até Janeiro de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Chuva acumulada no Sul e no Centro",
+      "limiar": "Abaixo do normal até 31 de Dezembro",
+      "quando": "31 de Dezembro de 2026",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "comida e transporte mais caros"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "inflação de 7% corrói salários"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": -1,
+      "porque": "pagamentos do Estado podem atrasar"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "metas apertadas e dívida alta"
+    },
+    {
+      "grupo": "Investidores",
+      "saldo": 1,
+      "porque": "défice menor e inflação a descer"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias",
+      "agora": "Orçar 2027 com inflação de 7% a 9% e comprar básicos em quantidade quando houver preço baixo.",
+      "se_piorar": "Cortar despesas não essenciais e guardar reserva de comida."
+    },
+    {
+      "publico": "PMEs fornecedoras do Estado",
+      "agora": "Cobrar facturas no prazo e registar todos os contratos por escrito.",
+      "se_piorar": "Diversificar clientes e negociar prazos com a banca."
+    },
+    {
+      "publico": "Funcionários e sindicatos",
+      "agora": "Acompanhar a proposta salarial no debate do Orçamento.",
+      "se_piorar": "Pedir revisão salarial ligada à inflação."
+    },
+    {
+      "publico": "ONGs e parceiros",
+      "agora": "Cruzar os apoios do FDEL com as zonas de maior risco alimentar.",
+      "se_piorar": "Concentrar ajuda nos distritos de vulnerabilidade máxima."
+    }
+  ],
+  "visao_contraria": "O Governo pode argumentar que 2026 foi excepcional por causa das cheias, que a inflação já desce há três meses e que o gás do Rovuma e o fim da paragem de projectos podem puxar o crescimento em 2027.",
+  "nao_sabemos": [
+    "Data do debate do Orçamento de 2027 no Parlamento",
+    "Valor total dos salários e do serviço da dívida em 2027",
+    "Se o FDEL de 1,5 mil milhões chega às PMEs"
+  ],
+  "sinal": "Aprovação do Orçamento até Dezembro, inflação de Outubro (perto de 10 de Novembro) e chuva acumulada até 31 de Dezembro.",
+  "confianca": "media",
+  "base_confianca": "Metas vêm de uma só notícia da Lusa, sem o documento oficial; o precedente de 2026 vem de três fontes",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA: O ORÇAMENTO DE 2027*\n\nO Governo propõe para 2027 crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. O crescimento de 2026 já foi revisto para 0,6%, depois das cheias.\n\n*O PRECEDENTE*\nO Orçamento de 2026 previa 3,2% de crescimento na proposta e o Parlamento aprovou 2,8%. Um ano depois, o número é 0,6%. As metas falharam por mais de 2 pontos.\n\n*TRÊS CENÁRIOS*\nMetas cumpridas, 20%: a receita chega a 45% da meta no primeiro semestre e o Estado paga a tempo. Crescimento entre 1,6% e 2,5%.\n\nExecução com cortes, 45%: o Governo atrasa pagamentos para segurar o défice. Crescimento entre 0,8% e 1,6% e inflação entre 6% e 8%. Perdem as PMEs que vendem ao Estado.\n\nSeca e petróleo caro, 35%: o El Niño e o Brent acima de 110 dólares obrigam a rever o Orçamento a meio do ano. Inflação entre 8% e 10%.\n\n*A CONTA*\nUma família que gasta 15 000 meticais por mês, 60% em comida, paga 1 050 meticais a mais com inflação de 7%, e 1 350 com 9%. Cada ponto custa 150 meticais por mês.\n\n*DIRECÇÃO*\nFamílias: orçar 2027 com inflação de 7% a 9%. PMEs: cobrar facturas no prazo e não depender de um só cliente público. Sinais: aprovação até Dezembro, inflação de Outubro (perto de 10 de Novembro) e chuva até 31 de Dezembro.\n\nO que ainda não sabemos: a data do debate e o valor dos salários e da dívida. Partilhe com quem faz as contas da casa ou da empresa.",
+    "instagram": "O Orçamento de 2027 promete 1,6% de crescimento e 7% de inflação. O de 2026 falhou por mais de 2 pontos. Uma família que gasta 15 000 MT paga 1 050 MT a mais com 7%. Veja os três cenários e o que fazer. #Moçambique #Orçamento2027",
+    "facebook": "Direcção do Dia: o Orçamento de 2027\n\nO Governo propõe para 2027 crescimento de 1,6%, inflação média de 7% e défice de 4,6% do PIB. Para 2026, o crescimento foi revisto para 0,6%, depois das cheias.\n\nHá um precedente a ter em conta: o Orçamento de 2026 previa 3,2% de crescimento na proposta e o resultado ficou em 0,6%. As metas falharam por mais de 2 pontos.\n\nO que pode acontecer: com 20% de probabilidade, as metas são cumpridas. Com 45%, o Governo corta e atrasa pagamentos para segurar o défice. Com 35%, o El Niño e o petróleo caro obrigam a rever o Orçamento a meio do ano.\n\nA conta: uma família que gasta 15 000 meticais por mês paga 1 050 meticais a mais com inflação de 7%. Com 9%, paga 1 350. Cada ponto custa 150 meticais por mês.\n\nO que ainda não sabemos: a data do debate no Parlamento e quanto o Estado vai gastar com salários e dívida. A proposta só será debatida mais tarde e os números podem mudar.\n\nA direcção principal: orçar 2027 com inflação entre 7% e 9% e, quem vende ao Estado, cobrar as facturas no prazo.\n\n#Moçambique #Orçamento2027",
+    "linkedin": "Orçamento de 2027: metas de 1,6% de crescimento e 7% de inflação, com o precedente contra\n\nA proposta do Governo para 2027 prevê crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. As receitas rondam os 427 mil milhões e a despesa os 511 mil milhões. O crescimento de 2026 foi revisto para 0,6%, com um impacto de 2% do PIB atribuído às cheias.\n\nO precedente pede cautela. O Orçamento de 2026 previa 3,2% de crescimento na proposta e o Parlamento aprovou 2,8%. Um ano depois, o resultado esperado é 0,6%.\n\nCenários. Metas cumpridas, 20%: receita acima de 45% da meta no primeiro semestre e pagamentos a tempo. Execução com cortes, 45%: o Estado atrasa pagamentos para manter o défice, com crescimento entre 0,8% e 1,6%. Seca e petróleo caro, 35%: chuva abaixo do normal até 31 de Dezembro e Brent acima de 110 dólares levam a revisão do Orçamento, com inflação entre 8% e 10%.\n\nA conta. Uma família que gasta 15 000 meticais por mês, 60% em comida, paga 1 050 meticais a mais com inflação de 7% e 1 350 com 9%.\n\nDirecção. PMEs que vendem ao Estado devem cobrar facturas no prazo, registar contratos por escrito e não depender de um só cliente público. Investidores devem acompanhar a execução do primeiro semestre antes de comprometer capital.\n\nA outra visão: o Governo pode lembrar que 2026 foi excepcional por causa das cheias e que a inflação já desce há três meses.\n\nSinal a acompanhar: aprovação do Orçamento até Dezembro, inflação de Outubro e chuva acumulada até 31 de Dezembro.\n\n#Moçambique #Orçamento2027 #PMEs"
+  },
+  "fontes": [
+    {
+      "fonte": "Lusa via Notícias ao Minuto",
+      "url": "https://www.noticiasaominuto.com/mundo/3067872/mocambique-governo-projeta-crescimento-de-1-6-em-2027",
+      "data": "2026-10-16"
+    },
+    {
+      "fonte": "Observador (Lusa)",
+      "url": "https://observador.pt/2025/09/26/controlo-dos-salarios-e-divida-sao-prioridades-do-orcamento-mocambicano-de-2026/",
+      "data": "2025-09-26"
+    },
+    {
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/economia/mocambique-preve-crescimento-economico-de-32-na-proposta-orcamental-para-2026_n1691569",
+      "data": "2025-09-26"
+    },
+    {
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2025/12/14/assembly-approves-2026-plan-and-budget",
+      "data": "2025-12-14"
+    },
+    {
+      "fonte": "Trading Economics (INE)",
+      "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+      "data": "2026-10-09"
+    }
+  ],
+  "data": "2026-10-18",
+  "dia_semana": "domingo",
+  "semana": "2026-S42",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

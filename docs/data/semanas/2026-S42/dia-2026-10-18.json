@@ -1,7 +1,7 @@
 {
   "semana": "2026-S42",
   "dia": "2026-10-18",
-  "versao": 9,
+  "versao": 10,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
   "falhas_conformidade": [],
@@ -324,9 +324,9 @@
   ],
   "memoria": {
     "em": "2026-10-18",
-    "indicadores": 1,
-    "temas": 3,
-    "direccoes": 0
+    "indicadores": 0,
+    "temas": 2,
+    "direccoes": 2
   },
   "analise": {
     "destaques": {
@@ -868,7 +868,10 @@
       "Categorias de fontes não consultadas hoje: imprensa_economica, internacional",
       "Apoio da Frelimo à recandidatura de Chapo: só o título da Lusa foi lido, motivos por confirmar",
       "Inflação de 6,31% em Setembro: vem do Trading Economics, confirmar no INE",
-      "Julgamento de Mondlane a 17 de Novembro e recusa de transmissão: confirmar no despacho do Tribunal Supremo"
+      "Julgamento de Mondlane a 17 de Novembro e recusa de transmissão: confirmar no despacho do Tribunal Supremo",
+      "Post do dia: precedente do Orçamento de 2026 (3,2% na proposta, 2,8% aprovado, 0,6% de revisão) vem de RTP, AIM e Lusa; confirmar no documento oficial",
+      "Post do dia: data do debate do Orçamento de 2027 no Parlamento ainda não anunciada; a de 2026 foi aprovada a 13 de Dezembro de 2025",
+      "Post do dia: conta da família usa pressupostos da redacção (15 000 MT por mês, 60% em comida)"
     ],
     "duvidas": [],
     "conformidade": [
@@ -938,63 +941,5 @@
         "nota": "Memória ainda vazia: comparação com a edição anterior, dito de forma explícita."
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png",
-      "data/imagens/feed/slide-13.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png",
-      "data/imagens/story/slide-13.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: krugergirl26 from Boston, MA / Wikimedia Commons, CC BY 2.0",
-      "Foto: Collins Musonda / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Cornelius Kibelka from Berlin, Germany / Wikimedia Commons, CC BY-SA 2.0",
-      "Foto: lucianf from Bucharest, Romania / Wikimedia Commons, CC BY 2.0",
-      "Foto: Ton Rulkens from Mozambique / Wikimedia Commons, CC BY-SA 2.0"
-    ],
-    "v": 1792288675087
   }
 }

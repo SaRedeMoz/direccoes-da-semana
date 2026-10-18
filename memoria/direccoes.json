@@ -70,5 +70,29 @@
     "verificar_em": "2027-01-15",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D7",
+    "data": "2026-10-18",
+    "semana": "2026-S42",
+    "publico": "Famílias",
+    "accao": "Orçar 2027 com inflação de 7% a 9% e guardar parte do rendimento para comida",
+    "tema": "orcamento_2027",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D8",
+    "data": "2026-10-18",
+    "semana": "2026-S42",
+    "publico": "PMEs",
+    "accao": "Pedir ao distrito informação sobre o FDEL e não contar com pagamentos do Estado antes de Março",
+    "tema": "orcamento_2027",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-03-31",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]
