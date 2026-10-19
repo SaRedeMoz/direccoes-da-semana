@@ -6,9 +6,9 @@
       "em": "2026-10-19T02:13:29.082Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "A actualizar a análise com a memória",
-      "em": "2026-10-19T02:13:30.660Z"
+      "estado": "pronto",
+      "msg": "Brent a 109,86 e cenário de piora a 45%",
+      "em": "2026-10-19T02:13:54.752Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-19T02:13:54.752Z",
+      "agente": "analise",
+      "msg": "Brent a 109,86 e cenário de piora a 45%"
+    },
     {
       "em": "2026-10-19T02:13:30.660Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-17T01:58:22.285Z",
       "agente": "editor",
       "msg": "Textos actualizados"
-    },
-    {
-      "em": "2026-10-17T01:58:20.850Z",
-      "agente": "design",
-      "msg": "Capa e 6 notícias"
     }
   ],
-  "actualizado": "2026-10-19T02:13:30.660Z",
+  "actualizado": "2026-10-19T02:13:54.752Z",
   "semana": "2026-S43",
   "dia": "2026-10-19",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
