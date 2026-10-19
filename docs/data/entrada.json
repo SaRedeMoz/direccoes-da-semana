@@ -1,19 +1,20 @@
 {
-  "modo": "rever",
-  "hoje": "2026-10-18",
-  "semana": "2026-S42",
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/3",
-  "dia_semana": "domingo",
+  "modo": "diario",
+  "hoje": "2026-10-19",
+  "semana": "2026-S43",
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
+  "dia_semana": "segunda",
   "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-10-18 (dia): Orçamento de 2027 e o que muda no seu bolso",
     "2026-10-17 (dia): Milho barato hoje e o risco do El Niño",
     "2026-10-16 (dia): Gasóleo a 116 meticais e o preço do chapa"
   ],
