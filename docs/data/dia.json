@@ -1,310 +1,253 @@
 {
   "tipo": "dia",
-  "tema": "Orçamento de 2027 e o que muda no seu bolso",
-  "pergunta": "O Orçamento de 2027 promete 1,6%. Vai cumprir?",
+  "tema": "Estradas de Sofala e Inhambane: obras a tempo ou atrasadas",
+  "pergunta": "Quando começam as obras das estradas de Sofala e Inhambane?",
   "facto": {
-    "texto": "A proposta do Governo para 2027 prevê crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. As receitas rondam os 427 mil milhões e a despesa os 511 mil milhões. O crescimento de 2026 foi revisto para 0,6%, com um impacto de 2% do PIB atribuído às cheias.",
+    "texto": "A ANE adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala por 20,6 mil milhões de meticais, em nove lotes. Em Sofala, os quatro lotes de 50 km ficam na N282, entre Dondo e Matondo. O Governo espera mobilizar no primeiro trimestre de 2027.",
     "numeros": [
       {
-        "valor": "1,6%",
-        "legenda": "crescimento previsto em 2027"
+        "valor": "20,6 mil milhões MT",
+        "legenda": "valor adjudicado"
       },
       {
-        "valor": "7,0%",
-        "legenda": "inflação média prevista"
+        "valor": "485 km",
+        "legenda": "em nove lotes"
       },
       {
-        "valor": "4,6%",
-        "legenda": "défice em percentagem do PIB"
+        "valor": "1.º trim. 2027",
+        "legenda": "início previsto"
       }
     ],
-    "fonte": "Lusa via Notícias ao Minuto (16 de Outubro de 2026)"
+    "fonte": "Lusa via RTP, ANE"
   },
   "linha_do_tempo": [
     {
-      "data": "Set 2025",
-      "texto": "Proposta de 2026: défice perto de 6% do PIB",
+      "data": "Jun 2025",
+      "texto": "Contratos de obras de 44 milhões de euros suspensos",
       "futuro": false
     },
     {
-      "data": "13 Dez 2025",
-      "texto": "Parlamento aprova o Orçamento de 2026",
+      "data": "Out 2025",
+      "texto": "Estado deve mais de 14 mil milhões a empreiteiros",
       "futuro": false
     },
     {
-      "data": "Início 2026",
-      "texto": "Cheias travam a economia",
+      "data": "Ago 2026",
+      "texto": "Concurso para fiscalizar 45 troços e 3.219 km",
       "futuro": false
     },
     {
-      "data": "16 Out",
-      "texto": "Proposta de 2027 revê 2026 para 0,6%",
+      "data": "Out 2026",
+      "texto": "Adjudicados nove lotes em Inhambane e Sofala",
       "futuro": false
     },
     {
-      "data": "Nov a Dez",
-      "texto": "Debate esperado no Parlamento",
+      "data": "Mar 2027",
+      "texto": "Prazo para ordem de início das obras",
       "futuro": true
     },
     {
-      "data": "Meio de 2027",
-      "texto": "Primeiro teste da execução",
+      "data": "2031",
+      "texto": "Fim do programa Mais Estradas",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "Orçamento de 2026, proposto em Setembro de 2025",
-    "o_que_aconteceu": "A proposta previa crescimento de 3,2% e o Parlamento aprovou 2,8%. Um ano depois, o Governo revê 2026 para 0,6% depois das cheias.",
-    "licao": "Metas de crescimento falharam por mais de 2 pontos; planeie com margem.",
-    "fonte": "RTP, AIM e Lusa"
+    "quando": "Outubro de 2025",
+    "o_que_aconteceu": "A AIM contou que o Estado devia mais de 14 mil milhões de meticais a empreiteiros, acumulados em dez anos. Uma empresa de sétima classe desceu para a quarta e manteve escritório só para cobrar.",
+    "licao": "Contrato assinado não garante pagamento nem obra concluída.",
+    "fonte": "AIM, 31 de Outubro de 2025"
   },
-  "porque_importa": "O Orçamento decide quanto o Estado gasta em estradas, escolas, saúde e apoios, e quanto pede emprestado. Se as metas falham, o Estado atrasa pagamentos a fornecedores e o crédito fica mais caro para as PMEs. A inflação de 7% também pesa na comida e no transporte de todas as famílias.",
+  "porque_importa": "A N282 liga a costa ao interior de Sofala. Estrada boa baixa o custo do transporte de carga e de passageiros e aproxima os produtores do porto da Beira. Atraso ou paragem deixa as comunidades como estão e deixa fornecedores locais com facturas por receber.",
   "canal": {
     "passos": [
-      "Metas de receita falham",
-      "Estado corta ou atrasa despesa",
-      "Fornecedores recebem tarde",
-      "PMEs cortam emprego e compras"
+      "Estrada asfaltada em Sofala",
+      "Camiões gastam menos e andam mais",
+      "Frete e chapa baixam",
+      "Produtos do interior chegam mais baratos"
     ],
-    "quem_sente": "PMEs, fornecedores do Estado, funcionários e famílias de baixa renda"
+    "quem_sente": "Produtores, transportadores e comerciantes de Muanza, Inhaminga e Dondo"
   },
   "conta": {
-    "titulo": "Família com 15 000 MT de despesa mensal",
-    "pressupostos": "Família gasta 15 000 MT por mês, 60% em comida. Inflação de alimentos 8,69% e do resto 6,31% (Setembro).",
+    "titulo": "Custo por quilómetro dos lotes adjudicados",
+    "pressupostos": "Valor total de cada província dividido pelos quilómetros adjudicados, a preços publicados. Os cadernos de encargos não são públicos.",
     "barras": [
       {
-        "rotulo": "Com 6% de inflação",
-        "valor": 900,
-        "texto": "900 MT a mais por mês"
+        "rotulo": "Sofala (200 km)",
+        "valor": 52.6,
+        "texto": "52,6 milhões MT/km"
       },
       {
-        "rotulo": "Com 7% (meta)",
-        "valor": 1050,
-        "texto": "1 050 MT a mais por mês"
+        "rotulo": "Média dos nove lotes",
+        "valor": 42.5,
+        "texto": "42,5 milhões MT/km"
       },
       {
-        "rotulo": "Com 9% (cenário mau)",
-        "valor": 1350,
-        "texto": "1 350 MT a mais por mês"
+        "rotulo": "Inhambane (285 km)",
+        "valor": 35.5,
+        "texto": "35,5 milhões MT/km"
       }
     ],
-    "unidade": "MT por mês",
-    "conclusao": "Cada ponto de inflação custa 150 MT por mês a esta família; o salário tem de subir o mesmo."
+    "unidade": "milhões de meticais por km",
+    "conclusao": "Sofala paga 48% mais por quilómetro que Inhambane. Sem os cadernos de encargos, não se sabe se as obras são iguais."
   },
   "cenarios": [
     {
-      "nome": "Metas cumpridas",
+      "nome": "Obras a tempo",
       "tipo": "melhora",
-      "probabilidade": 20,
-      "porque_probabilidade": "Em 2026 a meta falhou por mais de 2 pontos, por isso damos pouco peso a este cenário.",
-      "gatilho": "Receita acima de 45% da meta no primeiro semestre de 2027",
-      "o_que_acontece": "Receitas crescem com o gás e a cobrança, o Estado paga a tempo e o crédito às PMEs alivia.",
-      "numeros": "Crescimento 1,6% a 2,5%; inflação 5,5% a 7%",
-      "quando": "até Dezembro de 2027",
-      "ganha": "PMEs fornecedoras e funcionários",
-      "perde": "Quem especula com preços",
-      "se_acontecer": "PMEs devem pedir crédito e investir; famílias podem repor poupança."
+      "probabilidade": 25,
+      "porque_probabilidade": "Sem taxa de base fiável; o programa é novo e há prazo fixado, mas a dívida do Estado pesa contra.",
+      "gatilho": "ANE emite ordem de início e empreiteiros montam estaleiros em Sofala",
+      "o_que_acontece": "Máquinas chegam a Dondo e Inhaminga, os lotes avançam em simultâneo e a N282 fica asfaltada por troços em 2028 e 2029.",
+      "numeros": "Início até 31 de Março de 2027; 50 km por lote",
+      "quando": "até Março de 2027",
+      "ganha": "Transportadores e produtores do interior",
+      "perde": "Quem usa a N282 durante as obras",
+      "se_acontecer": "Negociar fretes e rotas já com o calendário de cada lote."
     },
     {
-      "nome": "Execução com cortes",
+      "nome": "Arranque atrasado",
       "tipo": "fica_igual",
       "probabilidade": 45,
-      "porque_probabilidade": "É o desfecho mais comum quando o défice aperta: o Estado segura a despesa e atrasa pagamentos.",
-      "gatilho": "Atrasos de pagamento a fornecedores acima de 90 dias",
-      "o_que_acontece": "O Governo corta investimento e atrasa pagamentos para manter o défice perto de 4,6%. A economia cresce pouco.",
-      "numeros": "Crescimento 0,8% a 1,6%; inflação 6% a 8%",
-      "quando": "ao longo de 2027",
-      "ganha": "Contas públicas e banca",
-      "perde": "PMEs que vendem ao Estado",
-      "se_acontecer": "Fornecedores do Estado devem cobrar cedo e diversificar clientes."
+      "porque_probabilidade": "Atrasos de mobilização são comuns quando o financiamento não está anunciado: o artigo não indica a fonte do dinheiro.",
+      "gatilho": "Fim de Junho de 2027 sem estaleiros montados nem fonte de financiamento anunciada",
+      "o_que_acontece": "Os contratos ficam assinados mas a mobilização escorrega por falta de financiamento e de adiantamentos, e as obras começam depois de Setembro de 2027.",
+      "numeros": "Atraso de 6 a 12 meses face ao primeiro trimestre de 2027",
+      "quando": "até Setembro de 2027",
+      "ganha": "Ninguém no curto prazo",
+      "perde": "Comunidades que esperam a estrada",
+      "se_acontecer": "Planear 2027 e 2028 sem a estrada nova e manter a manutenção da actual."
     },
     {
-      "nome": "Seca e petróleo rasgam as contas",
+      "nome": "Obras a meio e paradas",
       "tipo": "piora",
-      "probabilidade": 35,
-      "porque_probabilidade": "El Niño forte e Brent perto de 100 dólares atingem receita e despesa ao mesmo tempo.",
-      "gatilho": "Chuva abaixo do normal até 31 de Dezembro e Brent acima de 110 dólares",
-      "o_que_acontece": "A colheita falha, o Estado gasta com ajuda e subsídios, o défice sobe e é preciso rever o Orçamento a meio do ano.",
-      "numeros": "Crescimento abaixo de 1%; inflação 8% a 10%; défice acima de 5,5%",
-      "quando": "entre Março e Setembro de 2027",
-      "ganha": "Importadores com stock",
-      "perde": "Famílias rurais e de baixa renda",
-      "se_acontecer": "Famílias devem reforçar reservas de comida; ONGs concentram ajuda nas zonas mais expostas."
+      "probabilidade": 30,
+      "porque_probabilidade": "O Estado devia mais de 14 mil milhões a empreiteiros em 2025 e houve obras abandonadas em Nampula.",
+      "gatilho": "Empreiteiro suspende trabalhos ou federação denuncia facturas por pagar",
+      "o_que_acontece": "As obras começam, mas o Estado atrasa os pagamentos, o empreiteiro reduz o ritmo e deixa troços abertos, que se degradam com a época das chuvas.",
+      "numeros": "Troços de 50 km parados por mais de 3 meses",
+      "quando": "até Dezembro de 2027",
+      "ganha": "Ninguém",
+      "perde": "Fornecedores locais e utentes da N282",
+      "se_acontecer": "Exigir pagamento por fases e denunciar paragens à ANE e ao Tribunal Administrativo."
     }
   ],
   "sinais": [
     {
-      "o_que": "Calendário e texto do debate no Parlamento",
-      "limiar": "Aprovação até 20 de Dezembro sem mudar metas",
-      "quando": "até Dezembro de 2026",
-      "aponta_para": "fica_igual"
-    },
-    {
-      "o_que": "Inflação mensal do INE",
-      "limiar": "Anual acima de 7% por dois meses",
-      "quando": "Novembro e Dezembro de 2026",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Brent",
-      "limiar": "Abaixo de 90 dólares por duas semanas",
-      "quando": "até Janeiro de 2027",
+      "o_que": "Ordem de início das obras em Sofala",
+      "limiar": "Emitida pela ANE",
+      "quando": "até 31 de Março de 2027",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Chuva acumulada no Sul e no Centro",
-      "limiar": "Abaixo do normal até 31 de Dezembro",
-      "quando": "31 de Dezembro de 2026",
+      "o_que": "Fonte de financiamento do programa anunciada",
+      "limiar": "Anúncio oficial, sem ele aponta atraso",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Estaleiros montados em Dondo ou Inhaminga",
+      "limiar": "Nenhum até 30 de Junho",
+      "quando": "até 30 de Junho de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Queixas de empreiteiros por falta de pagamento",
+      "limiar": "Nova denúncia pública da federação",
+      "quando": "até 30 de Setembro de 2027",
       "aponta_para": "piora"
     }
   ],
   "afectados": [
     {
-      "grupo": "Classe baixa",
-      "saldo": -2,
-      "porque": "comida e transporte mais caros"
-    },
-    {
-      "grupo": "Classe média",
-      "saldo": -1,
-      "porque": "inflação de 7% corrói salários"
-    },
-    {
-      "grupo": "PMEs",
-      "saldo": -1,
-      "porque": "pagamentos do Estado podem atrasar"
-    },
-    {
-      "grupo": "Governo",
-      "saldo": -1,
-      "porque": "metas apertadas e dívida alta"
-    },
-    {
-      "grupo": "Investidores",
+      "grupo": "Transportadores de carga na N282",
       "saldo": 1,
-      "porque": "défice menor e inflação a descer"
+      "porque": "menos desgaste e viagens mais rápidas"
+    },
+    {
+      "grupo": "Produtores do interior de Sofala",
+      "saldo": 1,
+      "porque": "escoam produtos com custo menor"
+    },
+    {
+      "grupo": "Comunidades de Muanza e Inhaminga",
+      "saldo": 1,
+      "porque": "mais acesso a mercado e serviços"
+    },
+    {
+      "grupo": "Fornecedores e pequenos empreiteiros locais",
+      "saldo": 0,
+      "porque": "ganham obra, arriscam pagamentos tardios"
+    },
+    {
+      "grupo": "Contas do Estado",
+      "saldo": -1,
+      "porque": "20,6 mil milhões a pagar com caixa curta"
     }
   ],
   "direccao": [
     {
-      "publico": "Famílias",
-      "agora": "Orçar 2027 com inflação de 7% a 9% e comprar básicos em quantidade quando houver preço baixo.",
-      "se_piorar": "Cortar despesas não essenciais e guardar reserva de comida."
+      "publico": "Transportadores e comerciantes",
+      "agora": "Planear os preços e rotas de 2027 sem a estrada nova e seguir a ordem de início.",
+      "se_piorar": "Manter reservas para manutenção dos veículos."
     },
     {
-      "publico": "PMEs fornecedoras do Estado",
-      "agora": "Cobrar facturas no prazo e registar todos os contratos por escrito.",
-      "se_piorar": "Diversificar clientes e negociar prazos com a banca."
+      "publico": "Pequenos fornecedores e empreiteiros",
+      "agora": "Pedir por escrito adiantamento ou pagamento por fases antes de entregar material.",
+      "se_piorar": "Parar fornecimentos sem pagamento e registar tudo por escrito."
     },
     {
-      "publico": "Funcionários e sindicatos",
-      "agora": "Acompanhar a proposta salarial no debate do Orçamento.",
-      "se_piorar": "Pedir revisão salarial ligada à inflação."
+      "publico": "Autoridades locais e ONGs",
+      "agora": "Pedir à ANE o calendário de cada lote e publicá-lo nas comunidades.",
+      "se_piorar": "Levar as paragens ao Tribunal Administrativo e à imprensa."
     },
     {
-      "publico": "ONGs e parceiros",
-      "agora": "Cruzar os apoios do FDEL com as zonas de maior risco alimentar.",
-      "se_piorar": "Concentrar ajuda nos distritos de vulnerabilidade máxima."
+      "publico": "Produtores do interior",
+      "agora": "Não mudar a rota de escoamento antes de a obra estar concluída.",
+      "se_piorar": "Juntar cargas para repartir o frete."
     }
   ],
-  "visao_contraria": "O Governo pode argumentar que 2026 foi excepcional por causa das cheias, que a inflação já desce há três meses e que o gás do Rovuma e o fim da paragem de projectos podem puxar o crescimento em 2027.",
+  "visao_contraria": "O Governo tem prazo, lotes adjudicados a empresas já activas e um programa de seis anos com fiscalização contratada. Pode ser que, desta vez, o dinheiro chegue a tempo.",
   "nao_sabemos": [
-    "Data do debate do Orçamento de 2027 no Parlamento",
-    "Valor total dos salários e do serviço da dívida em 2027",
-    "Se o FDEL de 1,5 mil milhões chega às PMEs"
+    "Qual é a fonte de financiamento dos nove lotes.",
+    "Se a diferença de 48% por km entre Sofala e Inhambane tem justificação técnica.",
+    "Em que dia saiu a notícia da Lusa, que a página não data."
   ],
-  "sinal": "Aprovação do Orçamento até Dezembro, inflação de Outubro (perto de 10 de Novembro) e chuva acumulada até 31 de Dezembro.",
+  "sinal": "Ordem de início das obras em Sofala até 31 de Março de 2027.",
   "confianca": "media",
-  "base_confianca": "Metas vêm de uma só notícia da Lusa, sem o documento oficial; o precedente de 2026 vem de três fontes",
+  "base_confianca": "Uma notícia da Lusa com valores detalhados e a AIM sobre a dívida; sem fonte oficial da ANE lida nem financiamento conhecido.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA: O ORÇAMENTO DE 2027*\n\nO Governo propõe para 2027 crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. O crescimento de 2026 já foi revisto para 0,6%, depois das cheias.\n\n*O PRECEDENTE*\nO Orçamento de 2026 previa 3,2% de crescimento na proposta e o Parlamento aprovou 2,8%. Um ano depois, o número é 0,6%. As metas falharam por mais de 2 pontos.\n\n*TRÊS CENÁRIOS*\nMetas cumpridas, 20%: a receita chega a 45% da meta no primeiro semestre e o Estado paga a tempo. Crescimento entre 1,6% e 2,5%.\n\nExecução com cortes, 45%: o Governo atrasa pagamentos para segurar o défice. Crescimento entre 0,8% e 1,6% e inflação entre 6% e 8%. Perdem as PMEs que vendem ao Estado.\n\nSeca e petróleo caro, 35%: o El Niño e o Brent acima de 110 dólares obrigam a rever o Orçamento a meio do ano. Inflação entre 8% e 10%.\n\n*A CONTA*\nUma família que gasta 15 000 meticais por mês, 60% em comida, paga 1 050 meticais a mais com inflação de 7%, e 1 350 com 9%. Cada ponto custa 150 meticais por mês.\n\n*DIRECÇÃO*\nFamílias: orçar 2027 com inflação de 7% a 9%. PMEs: cobrar facturas no prazo e não depender de um só cliente público. Sinais: aprovação até Dezembro, inflação de Outubro (perto de 10 de Novembro) e chuva até 31 de Dezembro.\n\nO que ainda não sabemos: a data do debate e o valor dos salários e da dívida. Partilhe com quem faz as contas da casa ou da empresa.",
-    "instagram": "O Orçamento de 2027 promete 1,6% de crescimento e 7% de inflação. O de 2026 falhou por mais de 2 pontos. Uma família que gasta 15 000 MT paga 1 050 MT a mais com 7%. Veja os três cenários e o que fazer. #Moçambique #Orçamento2027",
-    "facebook": "Direcção do Dia: o Orçamento de 2027\n\nO Governo propõe para 2027 crescimento de 1,6%, inflação média de 7% e défice de 4,6% do PIB. Para 2026, o crescimento foi revisto para 0,6%, depois das cheias.\n\nHá um precedente a ter em conta: o Orçamento de 2026 previa 3,2% de crescimento na proposta e o resultado ficou em 0,6%. As metas falharam por mais de 2 pontos.\n\nO que pode acontecer: com 20% de probabilidade, as metas são cumpridas. Com 45%, o Governo corta e atrasa pagamentos para segurar o défice. Com 35%, o El Niño e o petróleo caro obrigam a rever o Orçamento a meio do ano.\n\nA conta: uma família que gasta 15 000 meticais por mês paga 1 050 meticais a mais com inflação de 7%. Com 9%, paga 1 350. Cada ponto custa 150 meticais por mês.\n\nO que ainda não sabemos: a data do debate no Parlamento e quanto o Estado vai gastar com salários e dívida. A proposta só será debatida mais tarde e os números podem mudar.\n\nA direcção principal: orçar 2027 com inflação entre 7% e 9% e, quem vende ao Estado, cobrar as facturas no prazo.\n\n#Moçambique #Orçamento2027",
-    "linkedin": "Orçamento de 2027: metas de 1,6% de crescimento e 7% de inflação, com o precedente contra\n\nA proposta do Governo para 2027 prevê crescimento de 1,6%, inflação média de 7,0% e défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. As receitas rondam os 427 mil milhões e a despesa os 511 mil milhões. O crescimento de 2026 foi revisto para 0,6%, com um impacto de 2% do PIB atribuído às cheias.\n\nO precedente pede cautela. O Orçamento de 2026 previa 3,2% de crescimento na proposta e o Parlamento aprovou 2,8%. Um ano depois, o resultado esperado é 0,6%.\n\nCenários. Metas cumpridas, 20%: receita acima de 45% da meta no primeiro semestre e pagamentos a tempo. Execução com cortes, 45%: o Estado atrasa pagamentos para manter o défice, com crescimento entre 0,8% e 1,6%. Seca e petróleo caro, 35%: chuva abaixo do normal até 31 de Dezembro e Brent acima de 110 dólares levam a revisão do Orçamento, com inflação entre 8% e 10%.\n\nA conta. Uma família que gasta 15 000 meticais por mês, 60% em comida, paga 1 050 meticais a mais com inflação de 7% e 1 350 com 9%.\n\nDirecção. PMEs que vendem ao Estado devem cobrar facturas no prazo, registar contratos por escrito e não depender de um só cliente público. Investidores devem acompanhar a execução do primeiro semestre antes de comprometer capital.\n\nA outra visão: o Governo pode lembrar que 2026 foi excepcional por causa das cheias e que a inflação já desce há três meses.\n\nSinal a acompanhar: aprovação do Orçamento até Dezembro, inflação de Outubro e chuva acumulada até 31 de Dezembro.\n\n#Moçambique #Orçamento2027 #PMEs"
+    "whatsapp": "*Estradas em Sofala e Inhambane: quando começam as obras?*\n\nA ANE adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala por 20,6 mil milhões de meticais, cerca de 292,8 milhões de euros. São nove lotes, cinco em Inhambane e quatro em Sofala, todos na N282, entre Dondo e Matondo. O Governo diz que a mobilização começa no primeiro trimestre de 2027.\n\nAdjudicar não é pagar. O Estado devia mais de 14 mil milhões de meticais a empreiteiros em Outubro de 2025, segundo a AIM, e há obras abandonadas por falta de pagamento. Por isso dividimos o futuro em três.\n\n*Cenário 1, 25%: obras a tempo.* Há ordem de início até 31 de Março de 2027 e as máquinas chegam a Dondo e Inhaminga. Ganham transportadores e produtores do interior.\n\n*Cenário 2, 45%: arranque atrasado.* Os contratos existem, mas o financiamento e a mobilização escorregam seis meses ou mais, para depois de Setembro de 2027. É o caso mais comum quando o Estado tem caixa curta.\n\n*Cenário 3, 30%: obras a meio e paradas.* Começam, mas param por falta de pagamento. Perdem os pequenos fornecedores, que ficam com facturas por receber.\n\n*A conta.* Em Sofala cada quilómetro adjudicado custa 52,6 milhões de meticais. Em Inhambane, 35,5 milhões. Sofala paga 48% mais, e sem os cadernos de encargos não se sabe se as obras são iguais.\n\n*O que fazer.* Transportadores: não contem com a estrada nova antes de 2028 para os preços de 2027. Pequenos fornecedores: peçam adiantamento ou pagamento por fases por escrito. Todos: acompanhem se a ordem de início sai até 31 de Março.\n\nPartilhe com quem vive ou trabalha ao longo da N282.",
+    "instagram": "Nove lotes, 485 quilómetros, 20,6 mil milhões de meticais. A ANE adjudicou as estradas de Inhambane e Sofala, mas o Estado devia mais de 14 mil milhões a empreiteiros em Outubro de 2025. As obras começam no primeiro trimestre de 2027? A probabilidade que damos: 25% a tempo, 45% com atraso, 30% paradas a meio. Sinal a seguir: ordem de início até 31 de Março.",
+    "facebook": "A Administração Nacional de Estradas adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala, por 20,6 mil milhões de meticais. Em Sofala são quatro lotes de 50 quilómetros na N282, entre Dondo e Matondo, passando por Muanza e Inhaminga. O Governo espera começar a mobilização no primeiro trimestre de 2027.\n\nA pergunta é quando a estrada fica pronta. Em Outubro de 2025, o Estado devia mais de 14 mil milhões de meticais a empreiteiros, segundo a AIM, e em Nampula houve obras abandonadas por falta de pagamento.\n\nNas nossas contas, há 25% de hipóteses de as obras arrancarem a tempo, 45% de atrasarem pelo menos seis meses e 30% de começarem e pararem a meio. O primeiro sinal é a ordem de início, que deve sair até 31 de Março de 2027.\n\nQuem transporta carga ou vende no interior de Sofala deve planear os preços de 2027 sem contar com a estrada nova. Os pequenos fornecedores devem pedir pagamento por fases, por escrito.\n\nUma nota sobre os números: Sofala custa 52,6 milhões de meticais por quilómetro e Inhambane 35,5 milhões, uma diferença de 48%. Pode haver razão técnica, mas os cadernos de encargos não são públicos e convém perguntar à ANE o que explica a diferença.",
+    "linkedin": "Estradas de 20,6 mil milhões de meticais em Inhambane e Sofala: a questão é o pagamento, não a adjudicação.\n\nA ANE adjudicou nove lotes que somam 485 quilómetros: cinco em Inhambane (285 km, 10,1 mil milhões de meticais) e quatro em Sofala, na N282 (200 km, 10,5 mil milhões). Fazem parte do programa Mais Estradas 2031, de 2,8 mil milhões de dólares. O Governo prevê mobilização no primeiro trimestre de 2027.\n\nO precedente pesa. Em Outubro de 2025, o Estado devia mais de 14 mil milhões de meticais a empreiteiros, segundo a AIM, e uma empresa de sétima classe caiu para a quarta. Em Junho de 2025 foram suspensos contratos de cerca de 44 milhões de euros para análise de legalidade.\n\nProbabilidades: 25% de início a tempo, 45% de arranque atrasado seis meses ou mais, 30% de obras paradas por falta de pagamento. Não há taxa de base fiável para este programa, por isso as probabilidades são um juízo da redacção.\n\nA conta: Sofala custa 52,6 milhões de meticais por quilómetro e Inhambane 35,5, uma diferença de 48% que os cadernos de encargos devem explicar.\n\nO melhor argumento contra esta leitura é que o Governo tem prazo, empresas já activas e fiscalização contratada para os 3.219 km do programa. Pode ser que, desta vez, o dinheiro chegue a tempo.\n\nDirecção: bancos e fornecedores devem exigir pagamento por fases; operadores logísticos devem planear 2027 sem a estrada nova. Para quem concede crédito a empreiteiros e fornecedores, o risco está no calendário de pagamentos do Estado, não na qualidade da obra. Sinal a acompanhar: ordem de início até 31 de Março de 2027.\n\n#MaisEstradas #Sofala"
   },
   "fontes": [
     {
-      "fonte": "Lusa via Notícias ao Minuto",
-      "url": "https://www.noticiasaominuto.com/mundo/3067872/mocambique-governo-projeta-crescimento-de-1-6-em-2027",
-      "data": "2026-10-16"
+      "fonte": "Lusa via RTP: Moçambique adjudica obras em 485 km de estradas",
+      "url": "https://www.rtp.pt/noticias/economia/mocambique-adjudica-obras-em-485-km-de-estradas-de-duas-provincias-por-2928-me_n1772009",
+      "data": "2026-10"
     },
     {
-      "fonte": "Observador (Lusa)",
-      "url": "https://observador.pt/2025/09/26/controlo-dos-salarios-e-divida-sao-prioridades-do-orcamento-mocambicano-de-2026/",
-      "data": "2025-09-26"
+      "fonte": "AIM: Estado moçambicano deve mais de 219 milhões de dólares aos empreiteiros",
+      "url": "https://aimnews.org/2025/10/31/estado-mocambicano-deve-mais-de-219-milhoes-de-dolares-aos-empreiteiros/",
+      "data": "2025-10-31"
     },
     {
-      "fonte": "RTP (Lusa)",
-      "url": "https://www.rtp.pt/noticias/economia/mocambique-preve-crescimento-economico-de-32-na-proposta-orcamental-para-2026_n1691569",
-      "data": "2025-09-26"
+      "fonte": "Lusa: concurso de fiscalização de 3.219 km de estradas",
+      "url": "https://www.aman-alliance.org/Home/ContentDetail/106025",
+      "data": "2026-08-25"
     },
     {
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2025/12/14/assembly-approves-2026-plan-and-budget",
-      "data": "2025-12-14"
-    },
-    {
-      "fonte": "Trading Economics (INE)",
-      "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
-      "data": "2026-10-09"
+      "fonte": "Sapo: Governo suspende contratos de obras de 44 ME",
+      "url": "https://sapo.pt/artigo/governo-mocambicano-suspende-contratos-de-obras-de-44-me-para-avaliar-legalidade-686723b9aca971ab6307ff8b",
+      "data": "2025-06"
     }
   ],
-  "data": "2026-10-18",
-  "dia_semana": "domingo",
-  "semana": "2026-S42",
+  "data": "2026-10-19",
+  "dia_semana": "segunda",
+  "semana": "2026-S43",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1792333731949
-  }
+  "falhas": []
 }

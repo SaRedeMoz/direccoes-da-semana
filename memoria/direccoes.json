@@ -94,5 +94,17 @@
     "verificar_em": "2027-03-31",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D9",
+    "data": "2026-10-19",
+    "semana": "2026-S43",
+    "publico": "Transportadores e comerciantes",
+    "accao": "Guardar margem para novo aumento do combustível e acompanhar os boletins da ARENE",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-19",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

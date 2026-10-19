@@ -1,0 +1,253 @@
+{
+  "tipo": "dia",
+  "tema": "Estradas de Sofala e Inhambane: obras a tempo ou atrasadas",
+  "pergunta": "Quando começam as obras das estradas de Sofala e Inhambane?",
+  "facto": {
+    "texto": "A ANE adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala por 20,6 mil milhões de meticais, em nove lotes. Em Sofala, os quatro lotes de 50 km ficam na N282, entre Dondo e Matondo. O Governo espera mobilizar no primeiro trimestre de 2027.",
+    "numeros": [
+      {
+        "valor": "20,6 mil milhões MT",
+        "legenda": "valor adjudicado"
+      },
+      {
+        "valor": "485 km",
+        "legenda": "em nove lotes"
+      },
+      {
+        "valor": "1.º trim. 2027",
+        "legenda": "início previsto"
+      }
+    ],
+    "fonte": "Lusa via RTP, ANE"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Jun 2025",
+      "texto": "Contratos de obras de 44 milhões de euros suspensos",
+      "futuro": false
+    },
+    {
+      "data": "Out 2025",
+      "texto": "Estado deve mais de 14 mil milhões a empreiteiros",
+      "futuro": false
+    },
+    {
+      "data": "Ago 2026",
+      "texto": "Concurso para fiscalizar 45 troços e 3.219 km",
+      "futuro": false
+    },
+    {
+      "data": "Out 2026",
+      "texto": "Adjudicados nove lotes em Inhambane e Sofala",
+      "futuro": false
+    },
+    {
+      "data": "Mar 2027",
+      "texto": "Prazo para ordem de início das obras",
+      "futuro": true
+    },
+    {
+      "data": "2031",
+      "texto": "Fim do programa Mais Estradas",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Outubro de 2025",
+    "o_que_aconteceu": "A AIM contou que o Estado devia mais de 14 mil milhões de meticais a empreiteiros, acumulados em dez anos. Uma empresa de sétima classe desceu para a quarta e manteve escritório só para cobrar.",
+    "licao": "Contrato assinado não garante pagamento nem obra concluída.",
+    "fonte": "AIM, 31 de Outubro de 2025"
+  },
+  "porque_importa": "A N282 liga a costa ao interior de Sofala. Estrada boa baixa o custo do transporte de carga e de passageiros e aproxima os produtores do porto da Beira. Atraso ou paragem deixa as comunidades como estão e deixa fornecedores locais com facturas por receber.",
+  "canal": {
+    "passos": [
+      "Estrada asfaltada em Sofala",
+      "Camiões gastam menos e andam mais",
+      "Frete e chapa baixam",
+      "Produtos do interior chegam mais baratos"
+    ],
+    "quem_sente": "Produtores, transportadores e comerciantes de Muanza, Inhaminga e Dondo"
+  },
+  "conta": {
+    "titulo": "Custo por quilómetro dos lotes adjudicados",
+    "pressupostos": "Valor total de cada província dividido pelos quilómetros adjudicados, a preços publicados. Os cadernos de encargos não são públicos.",
+    "barras": [
+      {
+        "rotulo": "Sofala (200 km)",
+        "valor": 52.6,
+        "texto": "52,6 milhões MT/km"
+      },
+      {
+        "rotulo": "Média dos nove lotes",
+        "valor": 42.5,
+        "texto": "42,5 milhões MT/km"
+      },
+      {
+        "rotulo": "Inhambane (285 km)",
+        "valor": 35.5,
+        "texto": "35,5 milhões MT/km"
+      }
+    ],
+    "unidade": "milhões de meticais por km",
+    "conclusao": "Sofala paga 48% mais por quilómetro que Inhambane. Sem os cadernos de encargos, não se sabe se as obras são iguais."
+  },
+  "cenarios": [
+    {
+      "nome": "Obras a tempo",
+      "tipo": "melhora",
+      "probabilidade": 25,
+      "porque_probabilidade": "Sem taxa de base fiável; o programa é novo e há prazo fixado, mas a dívida do Estado pesa contra.",
+      "gatilho": "ANE emite ordem de início e empreiteiros montam estaleiros em Sofala",
+      "o_que_acontece": "Máquinas chegam a Dondo e Inhaminga, os lotes avançam em simultâneo e a N282 fica asfaltada por troços em 2028 e 2029.",
+      "numeros": "Início até 31 de Março de 2027; 50 km por lote",
+      "quando": "até Março de 2027",
+      "ganha": "Transportadores e produtores do interior",
+      "perde": "Quem usa a N282 durante as obras",
+      "se_acontecer": "Negociar fretes e rotas já com o calendário de cada lote."
+    },
+    {
+      "nome": "Arranque atrasado",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Atrasos de mobilização são comuns quando o financiamento não está anunciado: o artigo não indica a fonte do dinheiro.",
+      "gatilho": "Fim de Junho de 2027 sem estaleiros montados nem fonte de financiamento anunciada",
+      "o_que_acontece": "Os contratos ficam assinados mas a mobilização escorrega por falta de financiamento e de adiantamentos, e as obras começam depois de Setembro de 2027.",
+      "numeros": "Atraso de 6 a 12 meses face ao primeiro trimestre de 2027",
+      "quando": "até Setembro de 2027",
+      "ganha": "Ninguém no curto prazo",
+      "perde": "Comunidades que esperam a estrada",
+      "se_acontecer": "Planear 2027 e 2028 sem a estrada nova e manter a manutenção da actual."
+    },
+    {
+      "nome": "Obras a meio e paradas",
+      "tipo": "piora",
+      "probabilidade": 30,
+      "porque_probabilidade": "O Estado devia mais de 14 mil milhões a empreiteiros em 2025 e houve obras abandonadas em Nampula.",
+      "gatilho": "Empreiteiro suspende trabalhos ou federação denuncia facturas por pagar",
+      "o_que_acontece": "As obras começam, mas o Estado atrasa os pagamentos, o empreiteiro reduz o ritmo e deixa troços abertos, que se degradam com a época das chuvas.",
+      "numeros": "Troços de 50 km parados por mais de 3 meses",
+      "quando": "até Dezembro de 2027",
+      "ganha": "Ninguém",
+      "perde": "Fornecedores locais e utentes da N282",
+      "se_acontecer": "Exigir pagamento por fases e denunciar paragens à ANE e ao Tribunal Administrativo."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Ordem de início das obras em Sofala",
+      "limiar": "Emitida pela ANE",
+      "quando": "até 31 de Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Fonte de financiamento do programa anunciada",
+      "limiar": "Anúncio oficial, sem ele aponta atraso",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Estaleiros montados em Dondo ou Inhaminga",
+      "limiar": "Nenhum até 30 de Junho",
+      "quando": "até 30 de Junho de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Queixas de empreiteiros por falta de pagamento",
+      "limiar": "Nova denúncia pública da federação",
+      "quando": "até 30 de Setembro de 2027",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Transportadores de carga na N282",
+      "saldo": 1,
+      "porque": "menos desgaste e viagens mais rápidas"
+    },
+    {
+      "grupo": "Produtores do interior de Sofala",
+      "saldo": 1,
+      "porque": "escoam produtos com custo menor"
+    },
+    {
+      "grupo": "Comunidades de Muanza e Inhaminga",
+      "saldo": 1,
+      "porque": "mais acesso a mercado e serviços"
+    },
+    {
+      "grupo": "Fornecedores e pequenos empreiteiros locais",
+      "saldo": 0,
+      "porque": "ganham obra, arriscam pagamentos tardios"
+    },
+    {
+      "grupo": "Contas do Estado",
+      "saldo": -1,
+      "porque": "20,6 mil milhões a pagar com caixa curta"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Transportadores e comerciantes",
+      "agora": "Planear os preços e rotas de 2027 sem a estrada nova e seguir a ordem de início.",
+      "se_piorar": "Manter reservas para manutenção dos veículos."
+    },
+    {
+      "publico": "Pequenos fornecedores e empreiteiros",
+      "agora": "Pedir por escrito adiantamento ou pagamento por fases antes de entregar material.",
+      "se_piorar": "Parar fornecimentos sem pagamento e registar tudo por escrito."
+    },
+    {
+      "publico": "Autoridades locais e ONGs",
+      "agora": "Pedir à ANE o calendário de cada lote e publicá-lo nas comunidades.",
+      "se_piorar": "Levar as paragens ao Tribunal Administrativo e à imprensa."
+    },
+    {
+      "publico": "Produtores do interior",
+      "agora": "Não mudar a rota de escoamento antes de a obra estar concluída.",
+      "se_piorar": "Juntar cargas para repartir o frete."
+    }
+  ],
+  "visao_contraria": "O Governo tem prazo, lotes adjudicados a empresas já activas e um programa de seis anos com fiscalização contratada. Pode ser que, desta vez, o dinheiro chegue a tempo.",
+  "nao_sabemos": [
+    "Qual é a fonte de financiamento dos nove lotes.",
+    "Se a diferença de 48% por km entre Sofala e Inhambane tem justificação técnica.",
+    "Em que dia saiu a notícia da Lusa, que a página não data."
+  ],
+  "sinal": "Ordem de início das obras em Sofala até 31 de Março de 2027.",
+  "confianca": "media",
+  "base_confianca": "Uma notícia da Lusa com valores detalhados e a AIM sobre a dívida; sem fonte oficial da ANE lida nem financiamento conhecido.",
+  "textos": {
+    "whatsapp": "*Estradas em Sofala e Inhambane: quando começam as obras?*\n\nA ANE adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala por 20,6 mil milhões de meticais, cerca de 292,8 milhões de euros. São nove lotes, cinco em Inhambane e quatro em Sofala, todos na N282, entre Dondo e Matondo. O Governo diz que a mobilização começa no primeiro trimestre de 2027.\n\nAdjudicar não é pagar. O Estado devia mais de 14 mil milhões de meticais a empreiteiros em Outubro de 2025, segundo a AIM, e há obras abandonadas por falta de pagamento. Por isso dividimos o futuro em três.\n\n*Cenário 1, 25%: obras a tempo.* Há ordem de início até 31 de Março de 2027 e as máquinas chegam a Dondo e Inhaminga. Ganham transportadores e produtores do interior.\n\n*Cenário 2, 45%: arranque atrasado.* Os contratos existem, mas o financiamento e a mobilização escorregam seis meses ou mais, para depois de Setembro de 2027. É o caso mais comum quando o Estado tem caixa curta.\n\n*Cenário 3, 30%: obras a meio e paradas.* Começam, mas param por falta de pagamento. Perdem os pequenos fornecedores, que ficam com facturas por receber.\n\n*A conta.* Em Sofala cada quilómetro adjudicado custa 52,6 milhões de meticais. Em Inhambane, 35,5 milhões. Sofala paga 48% mais, e sem os cadernos de encargos não se sabe se as obras são iguais.\n\n*O que fazer.* Transportadores: não contem com a estrada nova antes de 2028 para os preços de 2027. Pequenos fornecedores: peçam adiantamento ou pagamento por fases por escrito. Todos: acompanhem se a ordem de início sai até 31 de Março.\n\nPartilhe com quem vive ou trabalha ao longo da N282.",
+    "instagram": "Nove lotes, 485 quilómetros, 20,6 mil milhões de meticais. A ANE adjudicou as estradas de Inhambane e Sofala, mas o Estado devia mais de 14 mil milhões a empreiteiros em Outubro de 2025. As obras começam no primeiro trimestre de 2027? A probabilidade que damos: 25% a tempo, 45% com atraso, 30% paradas a meio. Sinal a seguir: ordem de início até 31 de Março.",
+    "facebook": "A Administração Nacional de Estradas adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala, por 20,6 mil milhões de meticais. Em Sofala são quatro lotes de 50 quilómetros na N282, entre Dondo e Matondo, passando por Muanza e Inhaminga. O Governo espera começar a mobilização no primeiro trimestre de 2027.\n\nA pergunta é quando a estrada fica pronta. Em Outubro de 2025, o Estado devia mais de 14 mil milhões de meticais a empreiteiros, segundo a AIM, e em Nampula houve obras abandonadas por falta de pagamento.\n\nNas nossas contas, há 25% de hipóteses de as obras arrancarem a tempo, 45% de atrasarem pelo menos seis meses e 30% de começarem e pararem a meio. O primeiro sinal é a ordem de início, que deve sair até 31 de Março de 2027.\n\nQuem transporta carga ou vende no interior de Sofala deve planear os preços de 2027 sem contar com a estrada nova. Os pequenos fornecedores devem pedir pagamento por fases, por escrito.\n\nUma nota sobre os números: Sofala custa 52,6 milhões de meticais por quilómetro e Inhambane 35,5 milhões, uma diferença de 48%. Pode haver razão técnica, mas os cadernos de encargos não são públicos e convém perguntar à ANE o que explica a diferença.",
+    "linkedin": "Estradas de 20,6 mil milhões de meticais em Inhambane e Sofala: a questão é o pagamento, não a adjudicação.\n\nA ANE adjudicou nove lotes que somam 485 quilómetros: cinco em Inhambane (285 km, 10,1 mil milhões de meticais) e quatro em Sofala, na N282 (200 km, 10,5 mil milhões). Fazem parte do programa Mais Estradas 2031, de 2,8 mil milhões de dólares. O Governo prevê mobilização no primeiro trimestre de 2027.\n\nO precedente pesa. Em Outubro de 2025, o Estado devia mais de 14 mil milhões de meticais a empreiteiros, segundo a AIM, e uma empresa de sétima classe caiu para a quarta. Em Junho de 2025 foram suspensos contratos de cerca de 44 milhões de euros para análise de legalidade.\n\nProbabilidades: 25% de início a tempo, 45% de arranque atrasado seis meses ou mais, 30% de obras paradas por falta de pagamento. Não há taxa de base fiável para este programa, por isso as probabilidades são um juízo da redacção.\n\nA conta: Sofala custa 52,6 milhões de meticais por quilómetro e Inhambane 35,5, uma diferença de 48% que os cadernos de encargos devem explicar.\n\nO melhor argumento contra esta leitura é que o Governo tem prazo, empresas já activas e fiscalização contratada para os 3.219 km do programa. Pode ser que, desta vez, o dinheiro chegue a tempo.\n\nDirecção: bancos e fornecedores devem exigir pagamento por fases; operadores logísticos devem planear 2027 sem a estrada nova. Para quem concede crédito a empreiteiros e fornecedores, o risco está no calendário de pagamentos do Estado, não na qualidade da obra. Sinal a acompanhar: ordem de início até 31 de Março de 2027.\n\n#MaisEstradas #Sofala"
+  },
+  "fontes": [
+    {
+      "fonte": "Lusa via RTP: Moçambique adjudica obras em 485 km de estradas",
+      "url": "https://www.rtp.pt/noticias/economia/mocambique-adjudica-obras-em-485-km-de-estradas-de-duas-provincias-por-2928-me_n1772009",
+      "data": "2026-10"
+    },
+    {
+      "fonte": "AIM: Estado moçambicano deve mais de 219 milhões de dólares aos empreiteiros",
+      "url": "https://aimnews.org/2025/10/31/estado-mocambicano-deve-mais-de-219-milhoes-de-dolares-aos-empreiteiros/",
+      "data": "2025-10-31"
+    },
+    {
+      "fonte": "Lusa: concurso de fiscalização de 3.219 km de estradas",
+      "url": "https://www.aman-alliance.org/Home/ContentDetail/106025",
+      "data": "2026-08-25"
+    },
+    {
+      "fonte": "Sapo: Governo suspende contratos de obras de 44 ME",
+      "url": "https://sapo.pt/artigo/governo-mocambicano-suspende-contratos-de-obras-de-44-me-para-avaliar-legalidade-686723b9aca971ab6307ff8b",
+      "data": "2025-06"
+    }
+  ],
+  "data": "2026-10-19",
+  "dia_semana": "segunda",
+  "semana": "2026-S43",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

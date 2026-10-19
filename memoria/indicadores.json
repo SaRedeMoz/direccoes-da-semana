@@ -197,6 +197,13 @@
         "fonte": "Trading Economics",
         "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
         "nota": "Futuros fecharam em 104,72; depois de 9 de Outubro sem fecho confirmado"
+      },
+      {
+        "data": "2026-10-16",
+        "valor": 109.86,
+        "fonte": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+        "nota": "Fecho de sexta-feira; máximo da sessão 110; domingo cerca de 108,80"
       }
     ]
   }

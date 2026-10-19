@@ -294,11 +294,11 @@
       "base": "brent",
       "regiao": "",
       "ultimo": {
-        "data": "2026-10-09",
-        "valor": 104.43,
-        "fonte": "Trading Economics",
-        "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-        "nota": "Futuros fecharam em 104,72; depois de 9 de Outubro sem fecho confirmado"
+        "data": "2026-10-16",
+        "valor": 109.86,
+        "fonte": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+        "nota": "Fecho de sexta-feira; máximo da sessão 110; domingo cerca de 108,80"
       },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
@@ -306,6 +306,10 @@
         [
           "2026-10-09",
           104.43
+        ],
+        [
+          "2026-10-16",
+          109.86
         ]
       ]
     }
@@ -317,12 +321,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-10-16",
-          "semana": "2026-S42",
-          "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio e o Brent anda perto de 104 dólares. Houve filas nos postos no fim de Setembro e as regras provisórias de importação vão até 31 de Dezembro.",
-          "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
-        },
-        {
           "data": "2026-10-17",
           "semana": "2026-S42",
           "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio, sem revisão publicada, e o Brent anda perto de 100 dólares. O fecho de 16 de Outubro não foi confirmado.",
@@ -333,6 +331,12 @@
           "semana": "2026-S42",
           "resumo": "O gasóleo custa 116,25 meticais desde 7 de Maio, sem revisão publicada. O fecho do Brent depois de 9 de Outubro não foi confirmado.",
           "direccao": "Planear viagens e compras com antecedência e acompanhar o Brent e a ARENE."
+        },
+        {
+          "data": "2026-10-19",
+          "semana": "2026-S43",
+          "resumo": "O Brent fechou a 109,86 dólares em 16 de Outubro, o valor mais alto desde Maio, com ataques a petroleiros perto de Ormuz. O gasóleo continua a 116,25 meticais, sem revisão publicada.",
+          "direccao": "Guardar margem para novo aumento e acompanhar o Brent e a ARENE."
         }
       ]
     },
@@ -425,13 +429,14 @@
     "confirmada": 0,
     "parcial": 0,
     "nao_confirmada": 0,
-    "pendente": 8
+    "pendente": 9
   },
   "ultimas_licoes": [
     "- 2026-10-16 (2026-S42): O fecho do Brent depois de 9 de Outubro não foi confirmado por fonte fiável: usar o Trading Economics ou o ICE e não mercados de previsão.",
     "- 2026-10-17 (2026-S42): Os mercados de previsão não substituem o fecho oficial do Brent: continuar a procurar o Trading Economics ou o ICE.",
     "- 2026-10-17 (2026-S42): Para o preço do milho por cidade só há dados antigos ou de farinha: ir directamente ao SIMA e à FEWS NET para os quadros do bolso.",
     "- 2026-10-18 (2026-S42): Nesta ronda regional e humanitário não deram notícias das últimas 48 horas: a pesquisa web devolve sobretudo material de Julho e Agosto, por isso convém ir directamente ao ReliefWeb e ao SADC.",
-    "- 2026-10-18 (2026-S42): As metas dos orçamentos de Moçambique têm falhado: o de 2026 previa 3,2% de crescimento e a revisão ficou em 0,6%, por isso as metas de 2027 pedem cautela."
+    "- 2026-10-18 (2026-S42): As metas dos orçamentos de Moçambique têm falhado: o de 2026 previa 3,2% de crescimento e a revisão ficou em 0,6%, por isso as metas de 2027 pedem cautela.",
+    "- 2026-10-19 (2026-S43): As pesquisas de 17 e 18 de Outubro devolvem pouco material nacional: o fecho do Brent saiu da CNBC e as notícias de Moçambique ficaram em títulos sem detalhe."
   ]
 }
