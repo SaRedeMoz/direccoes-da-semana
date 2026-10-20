@@ -11,9 +11,9 @@
       "em": "2026-10-20T02:28:54.905Z"
     },
     "design": {
-      "estado": "parado",
-      "msg": "À espera da sua vez",
-      "em": "2026-10-20T02:26:58.403Z"
+      "estado": "a trabalhar",
+      "msg": "A actualizar capa e slides",
+      "em": "2026-10-20T02:29:00.554Z"
     },
     "editor": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-20T02:29:00.554Z",
+      "agente": "design",
+      "msg": "A actualizar capa e slides"
+    },
     {
       "em": "2026-10-20T02:28:54.905Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-17T11:54:27.559Z",
       "agente": "editor",
       "msg": "Edição versão 8 montada"
-    },
-    {
-      "em": "2026-10-17T11:54:27.559Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: Milho barato hoje e o risco do El Niño"
     }
   ],
-  "actualizado": "2026-10-20T02:28:54.905Z",
+  "actualizado": "2026-10-20T02:29:00.554Z",
   "semana": "2026-S43",
   "dia": "2026-10-20",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
