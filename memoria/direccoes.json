@@ -106,5 +106,29 @@
     "verificar_em": "2026-11-19",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D10",
+    "data": "2026-10-20",
+    "semana": "2026-S43",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Contar com subida da tarifa em Novembro e orçamentar o transporte diário.",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-03",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D11",
+    "data": "2026-10-20",
+    "semana": "2026-S43",
+    "publico": "Transportadores e comerciantes",
+    "accao": "Guardar margem para novo aumento do combustível e acompanhar os boletins da ARENE.",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-20",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

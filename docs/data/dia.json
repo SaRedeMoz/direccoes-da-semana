@@ -1,305 +1,254 @@
 {
   "tipo": "dia",
-  "tema": "Estradas de Sofala e Inhambane: obras a tempo ou atrasadas",
-  "pergunta": "Quando começam as obras das estradas de Sofala e Inhambane?",
+  "tema": "Fim do subsídio aos chapas: quanto vai subir a tarifa em Maputo",
+  "pergunta": "Quanto vai custar o chapa na Grande Maputo a partir de Novembro?",
   "facto": {
-    "texto": "A ANE adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala por 20,6 mil milhões de meticais, em nove lotes. Em Sofala, os quatro lotes de 50 km ficam na N282, entre Dondo e Matondo. O Governo espera mobilizar no primeiro trimestre de 2027.",
+    "texto": "O Governo deixou de pagar o subsídio de combustível aos operadores de transporte público da Grande Maputo, criado em Maio como medida de três meses. Custou 307 milhões de meticais. Os operadores querem tarifas novas a partir de 1 de Novembro e os municípios ainda não decidiram.",
     "numeros": [
       {
-        "valor": "20,6 mil milhões MT",
-        "legenda": "valor adjudicado"
+        "valor": "307 milhões MT",
+        "legenda": "custo em três meses"
       },
       {
-        "valor": "485 km",
-        "legenda": "em nove lotes"
+        "valor": "15 e 18 MT",
+        "legenda": "tarifas actuais"
       },
       {
-        "valor": "1.º trim. 2027",
-        "legenda": "início previsto"
+        "valor": "+5 a +12 MT",
+        "legenda": "entre município e FEMATRO"
       }
     ],
-    "fonte": "Lusa via RTP, ANE"
+    "fonte": "Domingo, via Club of Mozambique, 19 de Outubro de 2026"
   },
   "linha_do_tempo": [
     {
-      "data": "Jun 2025",
-      "texto": "Contratos de obras de 44 milhões de euros suspensos",
+      "data": "27 Fev 2023",
+      "texto": "Chapa sobe 3 meticais, de 12 para 15 e de 15 para 18",
       "futuro": false
     },
     {
-      "data": "Out 2025",
-      "texto": "Estado deve mais de 14 mil milhões a empreiteiros",
+      "data": "7 Mai",
+      "texto": "Gasóleo sobe 45,5% e nasce o subsídio",
       "futuro": false
     },
     {
-      "data": "Ago 2026",
-      "texto": "Concurso para fiscalizar 45 troços e 3.219 km",
+      "data": "19 Out",
+      "texto": "Governo anuncia o fim do subsídio",
       "futuro": false
     },
     {
-      "data": "Out 2026",
-      "texto": "Adjudicados nove lotes em Inhambane e Sofala",
-      "futuro": false
-    },
-    {
-      "data": "Mar 2027",
-      "texto": "Prazo para ordem de início das obras",
+      "data": "1 Nov",
+      "texto": "Data pedida pelos operadores para a nova tarifa",
       "futuro": true
     },
     {
-      "data": "2031",
-      "texto": "Fim do programa Mais Estradas",
+      "data": "2 Nov",
+      "texto": "FEMATRO avisa de perturbações se a proposta for rejeitada",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "Outubro de 2025",
-    "o_que_aconteceu": "A AIM contou que o Estado devia mais de 14 mil milhões de meticais a empreiteiros, acumulados em dez anos. Uma empresa de sétima classe desceu para a quarta e manteve escritório só para cobrar.",
-    "licao": "Contrato assinado não garante pagamento nem obra concluída.",
-    "fonte": "AIM, 31 de Outubro de 2025"
+    "quando": "Fevereiro de 2023, cidade de Maputo",
+    "o_que_aconteceu": "A FEMATRO pediu mais 7 meticais e adiou o início de 13 para 20 de Fevereiro. Depois de meses de negociação, a tarifa subiu 3 meticais a 27 de Fevereiro.",
+    "licao": "O município cedeu menos de metade do pedido e só depois de atrasos.",
+    "fonte": "O País e Diário Económico, Fevereiro de 2023"
   },
-  "porque_importa": "A N282 liga a costa ao interior de Sofala. Estrada boa baixa o custo do transporte de carga e de passageiros e aproxima os produtores do porto da Beira. Atraso ou paragem deixa as comunidades como estão e deixa fornecedores locais com facturas por receber.",
+  "porque_importa": "Quem apanha o chapa todos os dias na Grande Maputo gasta mais em transporte logo depois de o combustível ter subido 45,5% em Maio. Para uma família com salário baixo, o transporte pode passar de uma despesa pequena para uma das maiores do mês. Os operadores avisam que sem tarifa nova não aguentam os custos.",
   "canal": {
     "passos": [
-      "Estrada asfaltada em Sofala",
-      "Camiões gastam menos e andam mais",
-      "Frete e chapa baixam",
-      "Produtos do interior chegam mais baratos"
+      "Subsídio de três meses acaba",
+      "Operadores perdem 35 mil MT mensais",
+      "Pedem tarifa maior ao município",
+      "Chapa sobe ou pára",
+      "Sobra menos para comida"
     ],
-    "quem_sente": "Produtores, transportadores e comerciantes de Muanza, Inhaminga e Dondo"
+    "quem_sente": "Utentes diários, estudantes e trabalhadores informais da Grande Maputo"
   },
   "conta": {
-    "titulo": "Custo por quilómetro dos lotes adjudicados",
-    "pressupostos": "Valor total de cada província dividido pelos quilómetros adjudicados, a preços publicados. Os cadernos de encargos não são públicos.",
+    "titulo": "Transporte mensal de um trabalhador em Maputo",
+    "pressupostos": "Um chapa por sentido, 22 dias de trabalho por mês, salário de 8.758 MT (mínimo da função pública).",
     "barras": [
       {
-        "rotulo": "Sofala (200 km)",
-        "valor": 52.6,
-        "texto": "52,6 milhões MT/km"
+        "rotulo": "Hoje, 18 MT por viagem",
+        "valor": 792,
+        "texto": "792 MT/mês"
       },
       {
-        "rotulo": "Média dos nove lotes",
-        "valor": 42.5,
-        "texto": "42,5 milhões MT/km"
+        "rotulo": "Com +5 MT (23)",
+        "valor": 1012,
+        "texto": "1.012 MT/mês"
       },
       {
-        "rotulo": "Inhambane (285 km)",
-        "valor": 35.5,
-        "texto": "35,5 milhões MT/km"
+        "rotulo": "Com +12 MT (30)",
+        "valor": 1320,
+        "texto": "1.320 MT/mês"
       }
     ],
-    "unidade": "milhões de meticais por km",
-    "conclusao": "Sofala paga 48% mais por quilómetro que Inhambane. Sem os cadernos de encargos, não se sabe se as obras são iguais."
+    "unidade": "MT por mês",
+    "conclusao": "Com +12 meticais, o transporte passa de 9% para 15% de um salário de 8.758 meticais."
   },
   "cenarios": [
     {
-      "nome": "Obras a tempo",
+      "nome": "Acordo moderado a tempo",
       "tipo": "melhora",
-      "probabilidade": 25,
-      "porque_probabilidade": "Sem taxa de base fiável; o programa é novo e há prazo fixado, mas a dívida do Estado pesa contra.",
-      "gatilho": "ANE emite ordem de início e empreiteiros montam estaleiros em Sofala",
-      "o_que_acontece": "Máquinas chegam a Dondo e Inhaminga, os lotes avançam em simultâneo e a N282 fica asfaltada por troços em 2028 e 2029.",
-      "numeros": "Início até 31 de Março de 2027; 50 km por lote",
-      "quando": "até Março de 2027",
-      "ganha": "Transportadores e produtores do interior",
-      "perde": "Quem usa a N282 durante as obras",
-      "se_acontecer": "Negociar fretes e rotas já com o calendário de cada lote."
+      "probabilidade": 35,
+      "porque_probabilidade": "Em 2023 o desfecho foi 3 em 7 pedidos, mas houve atrasos. Desta vez o prazo de 1 de Novembro e o aviso de 10 a 15 dias apertam.",
+      "gatilho": "Município e FEMATRO anunciam a tarifa até 22 de Outubro",
+      "o_que_acontece": "Os municípios aceitam uma subida de 3 a 5 meticais, os operadores aceitam e o serviço continua normal.",
+      "numeros": "Tarifas de 18 a 23 e de 15 a 20 MT; 792 a 1.012 MT/mês",
+      "quando": "Novembro de 2026",
+      "ganha": "Utentes e município",
+      "perde": "Operadores, que acumulam perdas",
+      "se_acontecer": "Planear mais 220 MT por mês e pedir recibo ou tabela afixada no chapa."
     },
     {
-      "nome": "Arranque atrasado",
+      "nome": "Decisão adiada, cobrança informal",
       "tipo": "fica_igual",
-      "probabilidade": 45,
-      "porque_probabilidade": "Atrasos de mobilização são comuns quando o financiamento não está anunciado: o artigo não indica a fonte do dinheiro.",
-      "gatilho": "Fim de Junho de 2027 sem estaleiros montados nem fonte de financiamento anunciada",
-      "o_que_acontece": "Os contratos ficam assinados mas a mobilização escorrega por falta de financiamento e de adiantamentos, e as obras começam depois de Setembro de 2027.",
-      "numeros": "Atraso de 6 a 12 meses face ao primeiro trimestre de 2027",
-      "quando": "até Setembro de 2027",
-      "ganha": "Ninguém no curto prazo",
-      "perde": "Comunidades que esperam a estrada",
-      "se_acontecer": "Planear 2027 e 2028 sem a estrada nova e manter a manutenção da actual."
+      "probabilidade": 40,
+      "porque_probabilidade": "A agência metropolitana não confirmou 1 de Novembro e nenhum município entregou proposta final. Em Maio já houve queixas de cobrança acima da tabela.",
+      "gatilho": "Sem anúncio oficial até 25 de Outubro",
+      "o_que_acontece": "Os municípios adiam. Alguns operadores cobram mais por conta própria, sobretudo em rotas longas e fora das horas de ponta.",
+      "numeros": "Cobrança de 20 a 25 MT em rotas de 18 MT",
+      "quando": "Novembro e Dezembro de 2026",
+      "ganha": "Operadores com poucos fiscais",
+      "perde": "Utentes de rotas longas e periferia",
+      "se_acontecer": "Perguntar o preço antes de entrar, guardar queixas e denunciar ao município ou à agência."
     },
     {
-      "nome": "Obras a meio e paradas",
+      "nome": "Paragem e subida forte",
       "tipo": "piora",
-      "probabilidade": 30,
-      "porque_probabilidade": "O Estado devia mais de 14 mil milhões a empreiteiros em 2025 e houve obras abandonadas em Nampula.",
-      "gatilho": "Empreiteiro suspende trabalhos ou federação denuncia facturas por pagar",
-      "o_que_acontece": "As obras começam, mas o Estado atrasa os pagamentos, o empreiteiro reduz o ritmo e deixa troços abertos, que se degradam com a época das chuvas.",
-      "numeros": "Troços de 50 km parados por mais de 3 meses",
-      "quando": "até Dezembro de 2027",
-      "ganha": "Ninguém",
-      "perde": "Fornecedores locais e utentes da N282",
-      "se_acontecer": "Exigir pagamento por fases e denunciar paragens à ANE e ao Tribunal Administrativo."
+      "probabilidade": 25,
+      "porque_probabilidade": "A FEMATRO avisa de perturbações a 2 de Novembro. Em 2023 não houve cedência total, por isso a subida de 10 ou mais é menos provável.",
+      "gatilho": "Chapas não circulam a 2 de Novembro",
+      "o_que_acontece": "Os chapas param um ou mais dias. O Governo cede para repor o serviço e a tarifa sobe 10 meticais ou mais.",
+      "numeros": "Tarifas de 28 a 30 e de 25 MT; 1.232 a 1.320 MT/mês",
+      "quando": "Até meados de Novembro de 2026",
+      "ganha": "Operadores a curto prazo",
+      "perde": "Utentes sem transporte e quem vive longe",
+      "se_acontecer": "Combinar boleias, trabalho em casa quando possível e reservar 500 MT para transporte alternativo."
     }
   ],
   "sinais": [
     {
-      "o_que": "Ordem de início das obras em Sofala",
-      "limiar": "Emitida pela ANE",
-      "quando": "até 31 de Março de 2027",
+      "o_que": "Anúncio da tarifa pelo Conselho Municipal",
+      "limiar": "Subida de 5 meticais ou menos",
+      "quando": "Até 22 de Outubro",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Fonte de financiamento do programa anunciada",
-      "limiar": "Anúncio oficial, sem ele aponta atraso",
-      "quando": "até 31 de Dezembro de 2026",
+      "o_que": "Tabela oficial afixada nos chapas",
+      "limiar": "Ausente em mais de metade das rotas",
+      "quando": "Primeira semana de Novembro",
       "aponta_para": "fica_igual"
     },
     {
-      "o_que": "Estaleiros montados em Dondo ou Inhaminga",
-      "limiar": "Nenhum até 30 de Junho",
-      "quando": "até 30 de Junho de 2027",
-      "aponta_para": "fica_igual"
+      "o_que": "Pedido de reunião de emergência da FEMATRO",
+      "limiar": "Ultimato mantido sem acordo",
+      "quando": "31 de Outubro",
+      "aponta_para": "piora"
     },
     {
-      "o_que": "Queixas de empreiteiros por falta de pagamento",
-      "limiar": "Nova denúncia pública da federação",
-      "quando": "até 30 de Setembro de 2027",
+      "o_que": "Brent",
+      "limiar": "Acima de 115 dólares",
+      "quando": "Até 15 de Novembro",
       "aponta_para": "piora"
     }
   ],
   "afectados": [
     {
-      "grupo": "Transportadores de carga na N282",
-      "saldo": 1,
-      "porque": "menos desgaste e viagens mais rápidas"
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "gasta mais do salário em transporte"
     },
     {
-      "grupo": "Produtores do interior de Sofala",
-      "saldo": 1,
-      "porque": "escoam produtos com custo menor"
+      "grupo": "Trabalhadores informais",
+      "saldo": -2,
+      "porque": "dependem do chapa para vender e comprar"
     },
     {
-      "grupo": "Comunidades de Muanza e Inhaminga",
-      "saldo": 1,
-      "porque": "mais acesso a mercado e serviços"
-    },
-    {
-      "grupo": "Fornecedores e pequenos empreiteiros locais",
-      "saldo": 0,
-      "porque": "ganham obra, arriscam pagamentos tardios"
-    },
-    {
-      "grupo": "Contas do Estado",
+      "grupo": "Classe média",
       "saldo": -1,
-      "porque": "20,6 mil milhões a pagar com caixa curta"
+      "porque": "transporte sobe sobre combustível já caro"
+    },
+    {
+      "grupo": "Operadores de chapa",
+      "saldo": -1,
+      "porque": "perdem o apoio e arriscam tarifa curta"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "poupa cerca de 100 milhões por mês"
     }
   ],
   "direccao": [
     {
-      "publico": "Transportadores e comerciantes",
-      "agora": "Planear os preços e rotas de 2027 sem a estrada nova e seguir a ordem de início.",
-      "se_piorar": "Manter reservas para manutenção dos veículos."
+      "publico": "Utentes do chapa",
+      "agora": "Contar com mais 220 a 530 MT por mês e guardar a tabela afixada no veículo.",
+      "se_piorar": "Combinar boleias e reservar um valor para dias sem chapa."
     },
     {
-      "publico": "Pequenos fornecedores e empreiteiros",
-      "agora": "Pedir por escrito adiantamento ou pagamento por fases antes de entregar material.",
-      "se_piorar": "Parar fornecimentos sem pagamento e registar tudo por escrito."
+      "publico": "Empresas e patrões",
+      "agora": "Perguntar aos trabalhadores o trajecto e avaliar apoio de transporte antes de Novembro.",
+      "se_piorar": "Flexibilizar horários e permitir trabalho remoto onde der."
     },
     {
-      "publico": "Autoridades locais e ONGs",
-      "agora": "Pedir à ANE o calendário de cada lote e publicá-lo nas comunidades.",
-      "se_piorar": "Levar as paragens ao Tribunal Administrativo e à imprensa."
+      "publico": "Municípios",
+      "agora": "Anunciar a tarifa com 10 a 15 dias de aviso e afixar a tabela.",
+      "se_piorar": "Negociar reforço de carreiras públicas para cobrir a paragem."
     },
     {
-      "publico": "Produtores do interior",
-      "agora": "Não mudar a rota de escoamento antes de a obra estar concluída.",
-      "se_piorar": "Juntar cargas para repartir o frete."
+      "publico": "Operadores de chapa",
+      "agora": "Aceitar tarifa negociada e manter as viaturas em circulação.",
+      "se_piorar": "Cobrar só a tabela oficial para evitar multas e conflitos."
     }
   ],
-  "visao_contraria": "O Governo tem prazo, lotes adjudicados a empresas já activas e um programa de seis anos com fiscalização contratada. Pode ser que, desta vez, o dinheiro chegue a tempo.",
+  "visao_contraria": "O fim do subsídio pode ser saudável: era pago a menos operadores do que existem, e a FEMATRO diz que a tarifa é a única solução sustentável. Uma tarifa mais justa pode melhorar o serviço.",
   "nao_sabemos": [
-    "Qual é a fonte de financiamento dos nove lotes.",
-    "Se a diferença de 48% por km entre Sofala e Inhambane tem justificação técnica.",
-    "Em que dia saiu a notícia da Lusa, que a página não data."
+    "Se a tarifa nova começa mesmo a 1 de Novembro.",
+    "Quantos operadores informais ficam de fora de qualquer acordo.",
+    "O valor final dos pagamentos em atraso aos operadores."
   ],
-  "sinal": "Ordem de início das obras em Sofala até 31 de Março de 2027.",
+  "sinal": "Anúncio da tarifa pelo Conselho Municipal antes de 1 de Novembro, e circulação normal dos chapas a 2 de Novembro.",
   "confianca": "media",
-  "base_confianca": "Uma notícia da Lusa com valores detalhados e a AIM sobre a dívida; sem fonte oficial da ANE lida nem financiamento conhecido.",
+  "base_confianca": "Fim do subsídio e propostas de tarifa vêm de uma só reportagem (Domingo), confirmada em parte pelo Club of Mozambique; o precedente de 2023 vem de duas fontes.",
   "textos": {
-    "whatsapp": "*Estradas em Sofala e Inhambane: quando começam as obras?*\n\nA ANE adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala por 20,6 mil milhões de meticais, cerca de 292,8 milhões de euros. São nove lotes, cinco em Inhambane e quatro em Sofala, todos na N282, entre Dondo e Matondo. O Governo diz que a mobilização começa no primeiro trimestre de 2027.\n\nAdjudicar não é pagar. O Estado devia mais de 14 mil milhões de meticais a empreiteiros em Outubro de 2025, segundo a AIM, e há obras abandonadas por falta de pagamento. Por isso dividimos o futuro em três.\n\n*Cenário 1, 25%: obras a tempo.* Há ordem de início até 31 de Março de 2027 e as máquinas chegam a Dondo e Inhaminga. Ganham transportadores e produtores do interior.\n\n*Cenário 2, 45%: arranque atrasado.* Os contratos existem, mas o financiamento e a mobilização escorregam seis meses ou mais, para depois de Setembro de 2027. É o caso mais comum quando o Estado tem caixa curta.\n\n*Cenário 3, 30%: obras a meio e paradas.* Começam, mas param por falta de pagamento. Perdem os pequenos fornecedores, que ficam com facturas por receber.\n\n*A conta.* Em Sofala cada quilómetro adjudicado custa 52,6 milhões de meticais. Em Inhambane, 35,5 milhões. Sofala paga 48% mais, e sem os cadernos de encargos não se sabe se as obras são iguais.\n\n*O que fazer.* Transportadores: não contem com a estrada nova antes de 2028 para os preços de 2027. Pequenos fornecedores: peçam adiantamento ou pagamento por fases por escrito. Todos: acompanhem se a ordem de início sai até 31 de Março.\n\nPartilhe com quem vive ou trabalha ao longo da N282.",
-    "instagram": "Nove lotes, 485 quilómetros, 20,6 mil milhões de meticais. A ANE adjudicou as estradas de Inhambane e Sofala, mas o Estado devia mais de 14 mil milhões a empreiteiros em Outubro de 2025. As obras começam no primeiro trimestre de 2027? A probabilidade que damos: 25% a tempo, 45% com atraso, 30% paradas a meio. Sinal a seguir: ordem de início até 31 de Março.",
-    "facebook": "A Administração Nacional de Estradas adjudicou o asfaltamento de 485 quilómetros em Inhambane e Sofala, por 20,6 mil milhões de meticais. Em Sofala são quatro lotes de 50 quilómetros na N282, entre Dondo e Matondo, passando por Muanza e Inhaminga. O Governo espera começar a mobilização no primeiro trimestre de 2027.\n\nA pergunta é quando a estrada fica pronta. Em Outubro de 2025, o Estado devia mais de 14 mil milhões de meticais a empreiteiros, segundo a AIM, e em Nampula houve obras abandonadas por falta de pagamento.\n\nNas nossas contas, há 25% de hipóteses de as obras arrancarem a tempo, 45% de atrasarem pelo menos seis meses e 30% de começarem e pararem a meio. O primeiro sinal é a ordem de início, que deve sair até 31 de Março de 2027.\n\nQuem transporta carga ou vende no interior de Sofala deve planear os preços de 2027 sem contar com a estrada nova. Os pequenos fornecedores devem pedir pagamento por fases, por escrito.\n\nUma nota sobre os números: Sofala custa 52,6 milhões de meticais por quilómetro e Inhambane 35,5 milhões, uma diferença de 48%. Pode haver razão técnica, mas os cadernos de encargos não são públicos e convém perguntar à ANE o que explica a diferença.",
-    "linkedin": "Estradas de 20,6 mil milhões de meticais em Inhambane e Sofala: a questão é o pagamento, não a adjudicação.\n\nA ANE adjudicou nove lotes que somam 485 quilómetros: cinco em Inhambane (285 km, 10,1 mil milhões de meticais) e quatro em Sofala, na N282 (200 km, 10,5 mil milhões). Fazem parte do programa Mais Estradas 2031, de 2,8 mil milhões de dólares. O Governo prevê mobilização no primeiro trimestre de 2027.\n\nO precedente pesa. Em Outubro de 2025, o Estado devia mais de 14 mil milhões de meticais a empreiteiros, segundo a AIM, e uma empresa de sétima classe caiu para a quarta. Em Junho de 2025 foram suspensos contratos de cerca de 44 milhões de euros para análise de legalidade.\n\nProbabilidades: 25% de início a tempo, 45% de arranque atrasado seis meses ou mais, 30% de obras paradas por falta de pagamento. Não há taxa de base fiável para este programa, por isso as probabilidades são um juízo da redacção.\n\nA conta: Sofala custa 52,6 milhões de meticais por quilómetro e Inhambane 35,5, uma diferença de 48% que os cadernos de encargos devem explicar.\n\nO melhor argumento contra esta leitura é que o Governo tem prazo, empresas já activas e fiscalização contratada para os 3.219 km do programa. Pode ser que, desta vez, o dinheiro chegue a tempo.\n\nDirecção: bancos e fornecedores devem exigir pagamento por fases; operadores logísticos devem planear 2027 sem a estrada nova. Para quem concede crédito a empreiteiros e fornecedores, o risco está no calendário de pagamentos do Estado, não na qualidade da obra. Sinal a acompanhar: ordem de início até 31 de Março de 2027.\n\n#MaisEstradas #Sofala"
+    "whatsapp": "*DIRECÇÃO DO DIA: O CHAPA EM NOVEMBRO*\n\nO Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Era uma medida de três meses, criada em Maio, e custou 307 milhões de meticais. Os operadores querem tarifas novas a partir de 1 de Novembro. Hoje o chapa custa 15 ou 18 meticais. A FEMATRO pede mais 10 a 12, o município propõe mais 5, e ainda não há decisão.\n\n*PRECEDENTE*\nEm Fevereiro de 2023 a FEMATRO pediu mais 7 meticais. Depois de meses de negociação, a tarifa subiu 3.\n\n*TRÊS CENÁRIOS*\nAcordo moderado a tempo, 35%: sobe 3 a 5 meticais e o serviço continua. Quem faz dois trajectos por dia paga mais 132 a 220 meticais por mês.\n\nDecisão adiada, 40%: os municípios não decidem até ao fim de Outubro e alguns operadores cobram mais por conta própria, 20 a 25 meticais nas rotas de 18.\n\nParagem e subida forte, 25%: os chapas param a 2 de Novembro e a tarifa sobe 10 meticais ou mais.\n\n*A CONTA*\nUm trabalhador com um chapa por sentido, 22 dias por mês, paga hoje 792 meticais. Com mais 5 paga 1.012. Com mais 12 paga 1.320, ou 15% de um salário de 8.758 meticais.\n\n*DIRECÇÃO*\nConte com mais 220 a 530 meticais por mês, pergunte o preço antes de entrar e guarde a tabela oficial. Se houver paragem, combine boleias.\n\n*SINAL*\nO anúncio do Conselho Municipal até 22 de Outubro. Partilhe com quem apanha o chapa todos os dias.",
+    "instagram": "O subsídio aos chapas da Grande Maputo acabou. Hoje paga 15 ou 18 meticais. Com mais 5, o transporte mensal sobe de 792 para 1.012 meticais; com mais 12, para 1.320. Direcção: contar com a subida e exigir a tabela afixada. #Moçambique #DirecçõesDaSemana",
+    "facebook": "O Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Era uma medida de três meses, criada em Maio quando o gasóleo subiu 45,5%, e custou 307 milhões de meticais.\n\nOs operadores querem tarifas novas a partir de 1 de Novembro. Hoje o chapa custa 15 ou 18 meticais. A FEMATRO pede mais 10 a 12 meticais, o município propõe mais 5, e ainda não há decisão.\n\nEm Fevereiro de 2023 aconteceu algo parecido: a FEMATRO pediu mais 7 meticais e a tarifa subiu 3, depois de meses de negociação.\n\nPara uma pessoa que faz um chapa por sentido, 22 dias por mês, o gasto passa de 792 meticais para 1.012 se a tarifa subir 5, ou para 1.320 se subir 12. No segundo caso, o transporte pesa 15% de um salário de 8.758 meticais.\n\nO mais provável, a nosso ver, é uma decisão adiada, com alguns operadores a cobrarem mais por conta própria. Vemos 35% de hipótese de acordo moderado e 25% de paragem a 2 de Novembro.\n\nA direcção: conte com mais 220 a 530 meticais por mês, pergunte o preço antes de entrar e peça a tabela oficial afixada.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "O Governo deixou de pagar o subsídio de combustível aos operadores de transporte público da Grande Maputo, segundo o jornal Domingo. A medida durava três meses e custou 307 milhões de meticais. Os operadores pedem tarifas novas a partir de 1 de Novembro.\n\nAs tarifas actuais são de 15 e 18 meticais. A FEMATRO propõe 25 e 30. O Conselho Municipal de Maputo propõe mais 5 meticais e a agência metropolitana fala em 3 a 5. Qualquer subida exige aviso de 10 a 15 dias, e a agência ainda não confirmou a data.\n\nO precedente é de Fevereiro de 2023: a FEMATRO pediu mais 7 meticais e a tarifa subiu 3, depois de meses de negociação e de um adiamento. Com esta base e com o prazo curto de agora, vemos três cenários.\n\nAcordo moderado a tempo, 35%: subida de 3 a 5 meticais. Decisão adiada com cobrança informal acima da tabela, 40%. Paragem a 2 de Novembro e subida de 10 meticais ou mais, 25%.\n\nA conta: para um trabalhador com um chapa por sentido durante 22 dias, o custo mensal passa de 792 para 1.012 meticais com mais 5, e para 1.320 com mais 12. Com um salário de 8.758 meticais, é 9% hoje e 15% no pior caso.\n\nA visão contrária: o subsídio chegava a menos operadores do que os que existem, e a FEMATRO defende a tarifa como solução sustentável.\n\nDirecção: empresas devem avaliar apoio de transporte aos trabalhadores antes de Novembro. Municípios devem anunciar a tarifa a tempo e afixar a tabela. O sinal a seguir é o anúncio do Conselho Municipal até 22 de Outubro.\n\n#Moçambique #Economia #Transportes"
   },
   "fontes": [
     {
-      "fonte": "Lusa via RTP: Moçambique adjudica obras em 485 km de estradas",
-      "url": "https://www.rtp.pt/noticias/economia/mocambique-adjudica-obras-em-485-km-de-estradas-de-duas-provincias-por-2928-me_n1772009",
-      "data": "2026-10"
+      "fonte": "Domingo, via Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/",
+      "data": "2026-10-19"
     },
     {
-      "fonte": "AIM: Estado moçambicano deve mais de 219 milhões de dólares aos empreiteiros",
-      "url": "https://aimnews.org/2025/10/31/estado-mocambicano-deve-mais-de-219-milhoes-de-dolares-aos-empreiteiros/",
-      "data": "2025-10-31"
+      "fonte": "O País, nova tarifa do chapa em Maputo",
+      "url": "https://opais.co.mz/nova-tarifa-de-chapa-ja-esta-em-vigor-em-maputo/",
+      "data": "2023-02-27"
     },
     {
-      "fonte": "Lusa: concurso de fiscalização de 3.219 km de estradas",
-      "url": "https://www.aman-alliance.org/Home/ContentDetail/106025",
-      "data": "2026-08-25"
+      "fonte": "Diário Económico, nova tarifa do chapa",
+      "url": "https://www.diarioeconomico.co.mz/2023/02/13/desenvolvimento-2/maputo-nova-tarifa-do-chapa-entra-em-vigor-a-partir-da-proxima-semana/",
+      "data": "2023-02-13"
     },
     {
-      "fonte": "Sapo: Governo suspende contratos de obras de 44 ME",
-      "url": "https://sapo.pt/artigo/governo-mocambicano-suspende-contratos-de-obras-de-44-me-para-avaliar-legalidade-686723b9aca971ab6307ff8b",
-      "data": "2025-06"
+      "fonte": "Folha de Maputo, queixas de utentes em Maio",
+      "url": "https://www.folhademaputo.co.mz/pt/noticias/nacional/utentes-denunciam-aumento-da-tarifa-do-chapa-na-rota-malhampse-mulotane/",
+      "data": "2026-05"
+    },
+    {
+      "fonte": "AIM, salário mínimo da função pública",
+      "url": "https://aimnews.org/?p=51463",
+      "data": "2026"
     }
   ],
-  "data": "2026-10-19",
-  "dia_semana": "segunda",
+  "data": "2026-10-20",
+  "dia_semana": "terca",
   "semana": "2026-S43",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1792376250532
-  }
+  "falhas": []
 }

@@ -49,7 +49,15 @@
     "unidade": "MT/viagem",
     "base": "chapa",
     "regiao": "maputo",
-    "serie": []
+    "serie": [
+      {
+        "data": "2026-10-19",
+        "valor": 18,
+        "fonte": "Domingo, via Club of Mozambique",
+        "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/",
+        "nota": "18 meticais em algumas rotas e 15 noutras; operadores pedem subida a partir de 1 de Novembro"
+      }
+    ]
   },
   "chapa_beira": {
     "nome": "Chapa urbano (Beira)",
@@ -204,6 +212,13 @@
         "fonte": "CNBC",
         "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
         "nota": "Fecho de sexta-feira; máximo da sessão 110; domingo cerca de 108,80"
+      },
+      {
+        "data": "2026-10-19",
+        "valor": 109.55,
+        "fonte": "Business Today Malaysia",
+        "url": "https://www.businesstoday.com.my/2026/10/20/brent-slips-despite-houthi-attacks-hormuz-supply-risks/",
+        "nota": "Fecho aproximado, fonte secundária"
       }
     ]
   }

@@ -1,0 +1,254 @@
+{
+  "tipo": "dia",
+  "tema": "Fim do subsídio aos chapas: quanto vai subir a tarifa em Maputo",
+  "pergunta": "Quanto vai custar o chapa na Grande Maputo a partir de Novembro?",
+  "facto": {
+    "texto": "O Governo deixou de pagar o subsídio de combustível aos operadores de transporte público da Grande Maputo, criado em Maio como medida de três meses. Custou 307 milhões de meticais. Os operadores querem tarifas novas a partir de 1 de Novembro e os municípios ainda não decidiram.",
+    "numeros": [
+      {
+        "valor": "307 milhões MT",
+        "legenda": "custo em três meses"
+      },
+      {
+        "valor": "15 e 18 MT",
+        "legenda": "tarifas actuais"
+      },
+      {
+        "valor": "+5 a +12 MT",
+        "legenda": "entre município e FEMATRO"
+      }
+    ],
+    "fonte": "Domingo, via Club of Mozambique, 19 de Outubro de 2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "27 Fev 2023",
+      "texto": "Chapa sobe 3 meticais, de 12 para 15 e de 15 para 18",
+      "futuro": false
+    },
+    {
+      "data": "7 Mai",
+      "texto": "Gasóleo sobe 45,5% e nasce o subsídio",
+      "futuro": false
+    },
+    {
+      "data": "19 Out",
+      "texto": "Governo anuncia o fim do subsídio",
+      "futuro": false
+    },
+    {
+      "data": "1 Nov",
+      "texto": "Data pedida pelos operadores para a nova tarifa",
+      "futuro": true
+    },
+    {
+      "data": "2 Nov",
+      "texto": "FEMATRO avisa de perturbações se a proposta for rejeitada",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Fevereiro de 2023, cidade de Maputo",
+    "o_que_aconteceu": "A FEMATRO pediu mais 7 meticais e adiou o início de 13 para 20 de Fevereiro. Depois de meses de negociação, a tarifa subiu 3 meticais a 27 de Fevereiro.",
+    "licao": "O município cedeu menos de metade do pedido e só depois de atrasos.",
+    "fonte": "O País e Diário Económico, Fevereiro de 2023"
+  },
+  "porque_importa": "Quem apanha o chapa todos os dias na Grande Maputo gasta mais em transporte logo depois de o combustível ter subido 45,5% em Maio. Para uma família com salário baixo, o transporte pode passar de uma despesa pequena para uma das maiores do mês. Os operadores avisam que sem tarifa nova não aguentam os custos.",
+  "canal": {
+    "passos": [
+      "Subsídio de três meses acaba",
+      "Operadores perdem 35 mil MT mensais",
+      "Pedem tarifa maior ao município",
+      "Chapa sobe ou pára",
+      "Sobra menos para comida"
+    ],
+    "quem_sente": "Utentes diários, estudantes e trabalhadores informais da Grande Maputo"
+  },
+  "conta": {
+    "titulo": "Transporte mensal de um trabalhador em Maputo",
+    "pressupostos": "Um chapa por sentido, 22 dias de trabalho por mês, salário de 8.758 MT (mínimo da função pública).",
+    "barras": [
+      {
+        "rotulo": "Hoje, 18 MT por viagem",
+        "valor": 792,
+        "texto": "792 MT/mês"
+      },
+      {
+        "rotulo": "Com +5 MT (23)",
+        "valor": 1012,
+        "texto": "1.012 MT/mês"
+      },
+      {
+        "rotulo": "Com +12 MT (30)",
+        "valor": 1320,
+        "texto": "1.320 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "Com +12 meticais, o transporte passa de 9% para 15% de um salário de 8.758 meticais."
+  },
+  "cenarios": [
+    {
+      "nome": "Acordo moderado a tempo",
+      "tipo": "melhora",
+      "probabilidade": 35,
+      "porque_probabilidade": "Em 2023 o desfecho foi 3 em 7 pedidos, mas houve atrasos. Desta vez o prazo de 1 de Novembro e o aviso de 10 a 15 dias apertam.",
+      "gatilho": "Município e FEMATRO anunciam a tarifa até 22 de Outubro",
+      "o_que_acontece": "Os municípios aceitam uma subida de 3 a 5 meticais, os operadores aceitam e o serviço continua normal.",
+      "numeros": "Tarifas de 18 a 23 e de 15 a 20 MT; 792 a 1.012 MT/mês",
+      "quando": "Novembro de 2026",
+      "ganha": "Utentes e município",
+      "perde": "Operadores, que acumulam perdas",
+      "se_acontecer": "Planear mais 220 MT por mês e pedir recibo ou tabela afixada no chapa."
+    },
+    {
+      "nome": "Decisão adiada, cobrança informal",
+      "tipo": "fica_igual",
+      "probabilidade": 40,
+      "porque_probabilidade": "A agência metropolitana não confirmou 1 de Novembro e nenhum município entregou proposta final. Em Maio já houve queixas de cobrança acima da tabela.",
+      "gatilho": "Sem anúncio oficial até 25 de Outubro",
+      "o_que_acontece": "Os municípios adiam. Alguns operadores cobram mais por conta própria, sobretudo em rotas longas e fora das horas de ponta.",
+      "numeros": "Cobrança de 20 a 25 MT em rotas de 18 MT",
+      "quando": "Novembro e Dezembro de 2026",
+      "ganha": "Operadores com poucos fiscais",
+      "perde": "Utentes de rotas longas e periferia",
+      "se_acontecer": "Perguntar o preço antes de entrar, guardar queixas e denunciar ao município ou à agência."
+    },
+    {
+      "nome": "Paragem e subida forte",
+      "tipo": "piora",
+      "probabilidade": 25,
+      "porque_probabilidade": "A FEMATRO avisa de perturbações a 2 de Novembro. Em 2023 não houve cedência total, por isso a subida de 10 ou mais é menos provável.",
+      "gatilho": "Chapas não circulam a 2 de Novembro",
+      "o_que_acontece": "Os chapas param um ou mais dias. O Governo cede para repor o serviço e a tarifa sobe 10 meticais ou mais.",
+      "numeros": "Tarifas de 28 a 30 e de 25 MT; 1.232 a 1.320 MT/mês",
+      "quando": "Até meados de Novembro de 2026",
+      "ganha": "Operadores a curto prazo",
+      "perde": "Utentes sem transporte e quem vive longe",
+      "se_acontecer": "Combinar boleias, trabalho em casa quando possível e reservar 500 MT para transporte alternativo."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Anúncio da tarifa pelo Conselho Municipal",
+      "limiar": "Subida de 5 meticais ou menos",
+      "quando": "Até 22 de Outubro",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Tabela oficial afixada nos chapas",
+      "limiar": "Ausente em mais de metade das rotas",
+      "quando": "Primeira semana de Novembro",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Pedido de reunião de emergência da FEMATRO",
+      "limiar": "Ultimato mantido sem acordo",
+      "quando": "31 de Outubro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Brent",
+      "limiar": "Acima de 115 dólares",
+      "quando": "Até 15 de Novembro",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "gasta mais do salário em transporte"
+    },
+    {
+      "grupo": "Trabalhadores informais",
+      "saldo": -2,
+      "porque": "dependem do chapa para vender e comprar"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "transporte sobe sobre combustível já caro"
+    },
+    {
+      "grupo": "Operadores de chapa",
+      "saldo": -1,
+      "porque": "perdem o apoio e arriscam tarifa curta"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "poupa cerca de 100 milhões por mês"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Utentes do chapa",
+      "agora": "Contar com mais 220 a 530 MT por mês e guardar a tabela afixada no veículo.",
+      "se_piorar": "Combinar boleias e reservar um valor para dias sem chapa."
+    },
+    {
+      "publico": "Empresas e patrões",
+      "agora": "Perguntar aos trabalhadores o trajecto e avaliar apoio de transporte antes de Novembro.",
+      "se_piorar": "Flexibilizar horários e permitir trabalho remoto onde der."
+    },
+    {
+      "publico": "Municípios",
+      "agora": "Anunciar a tarifa com 10 a 15 dias de aviso e afixar a tabela.",
+      "se_piorar": "Negociar reforço de carreiras públicas para cobrir a paragem."
+    },
+    {
+      "publico": "Operadores de chapa",
+      "agora": "Aceitar tarifa negociada e manter as viaturas em circulação.",
+      "se_piorar": "Cobrar só a tabela oficial para evitar multas e conflitos."
+    }
+  ],
+  "visao_contraria": "O fim do subsídio pode ser saudável: era pago a menos operadores do que existem, e a FEMATRO diz que a tarifa é a única solução sustentável. Uma tarifa mais justa pode melhorar o serviço.",
+  "nao_sabemos": [
+    "Se a tarifa nova começa mesmo a 1 de Novembro.",
+    "Quantos operadores informais ficam de fora de qualquer acordo.",
+    "O valor final dos pagamentos em atraso aos operadores."
+  ],
+  "sinal": "Anúncio da tarifa pelo Conselho Municipal antes de 1 de Novembro, e circulação normal dos chapas a 2 de Novembro.",
+  "confianca": "media",
+  "base_confianca": "Fim do subsídio e propostas de tarifa vêm de uma só reportagem (Domingo), confirmada em parte pelo Club of Mozambique; o precedente de 2023 vem de duas fontes.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA: O CHAPA EM NOVEMBRO*\n\nO Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Era uma medida de três meses, criada em Maio, e custou 307 milhões de meticais. Os operadores querem tarifas novas a partir de 1 de Novembro. Hoje o chapa custa 15 ou 18 meticais. A FEMATRO pede mais 10 a 12, o município propõe mais 5, e ainda não há decisão.\n\n*PRECEDENTE*\nEm Fevereiro de 2023 a FEMATRO pediu mais 7 meticais. Depois de meses de negociação, a tarifa subiu 3.\n\n*TRÊS CENÁRIOS*\nAcordo moderado a tempo, 35%: sobe 3 a 5 meticais e o serviço continua. Quem faz dois trajectos por dia paga mais 132 a 220 meticais por mês.\n\nDecisão adiada, 40%: os municípios não decidem até ao fim de Outubro e alguns operadores cobram mais por conta própria, 20 a 25 meticais nas rotas de 18.\n\nParagem e subida forte, 25%: os chapas param a 2 de Novembro e a tarifa sobe 10 meticais ou mais.\n\n*A CONTA*\nUm trabalhador com um chapa por sentido, 22 dias por mês, paga hoje 792 meticais. Com mais 5 paga 1.012. Com mais 12 paga 1.320, ou 15% de um salário de 8.758 meticais.\n\n*DIRECÇÃO*\nConte com mais 220 a 530 meticais por mês, pergunte o preço antes de entrar e guarde a tabela oficial. Se houver paragem, combine boleias.\n\n*SINAL*\nO anúncio do Conselho Municipal até 22 de Outubro. Partilhe com quem apanha o chapa todos os dias.",
+    "instagram": "O subsídio aos chapas da Grande Maputo acabou. Hoje paga 15 ou 18 meticais. Com mais 5, o transporte mensal sobe de 792 para 1.012 meticais; com mais 12, para 1.320. Direcção: contar com a subida e exigir a tabela afixada. #Moçambique #DirecçõesDaSemana",
+    "facebook": "O Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Era uma medida de três meses, criada em Maio quando o gasóleo subiu 45,5%, e custou 307 milhões de meticais.\n\nOs operadores querem tarifas novas a partir de 1 de Novembro. Hoje o chapa custa 15 ou 18 meticais. A FEMATRO pede mais 10 a 12 meticais, o município propõe mais 5, e ainda não há decisão.\n\nEm Fevereiro de 2023 aconteceu algo parecido: a FEMATRO pediu mais 7 meticais e a tarifa subiu 3, depois de meses de negociação.\n\nPara uma pessoa que faz um chapa por sentido, 22 dias por mês, o gasto passa de 792 meticais para 1.012 se a tarifa subir 5, ou para 1.320 se subir 12. No segundo caso, o transporte pesa 15% de um salário de 8.758 meticais.\n\nO mais provável, a nosso ver, é uma decisão adiada, com alguns operadores a cobrarem mais por conta própria. Vemos 35% de hipótese de acordo moderado e 25% de paragem a 2 de Novembro.\n\nA direcção: conte com mais 220 a 530 meticais por mês, pergunte o preço antes de entrar e peça a tabela oficial afixada.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "O Governo deixou de pagar o subsídio de combustível aos operadores de transporte público da Grande Maputo, segundo o jornal Domingo. A medida durava três meses e custou 307 milhões de meticais. Os operadores pedem tarifas novas a partir de 1 de Novembro.\n\nAs tarifas actuais são de 15 e 18 meticais. A FEMATRO propõe 25 e 30. O Conselho Municipal de Maputo propõe mais 5 meticais e a agência metropolitana fala em 3 a 5. Qualquer subida exige aviso de 10 a 15 dias, e a agência ainda não confirmou a data.\n\nO precedente é de Fevereiro de 2023: a FEMATRO pediu mais 7 meticais e a tarifa subiu 3, depois de meses de negociação e de um adiamento. Com esta base e com o prazo curto de agora, vemos três cenários.\n\nAcordo moderado a tempo, 35%: subida de 3 a 5 meticais. Decisão adiada com cobrança informal acima da tabela, 40%. Paragem a 2 de Novembro e subida de 10 meticais ou mais, 25%.\n\nA conta: para um trabalhador com um chapa por sentido durante 22 dias, o custo mensal passa de 792 para 1.012 meticais com mais 5, e para 1.320 com mais 12. Com um salário de 8.758 meticais, é 9% hoje e 15% no pior caso.\n\nA visão contrária: o subsídio chegava a menos operadores do que os que existem, e a FEMATRO defende a tarifa como solução sustentável.\n\nDirecção: empresas devem avaliar apoio de transporte aos trabalhadores antes de Novembro. Municípios devem anunciar a tarifa a tempo e afixar a tabela. O sinal a seguir é o anúncio do Conselho Municipal até 22 de Outubro.\n\n#Moçambique #Economia #Transportes"
+  },
+  "fontes": [
+    {
+      "fonte": "Domingo, via Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/",
+      "data": "2026-10-19"
+    },
+    {
+      "fonte": "O País, nova tarifa do chapa em Maputo",
+      "url": "https://opais.co.mz/nova-tarifa-de-chapa-ja-esta-em-vigor-em-maputo/",
+      "data": "2023-02-27"
+    },
+    {
+      "fonte": "Diário Económico, nova tarifa do chapa",
+      "url": "https://www.diarioeconomico.co.mz/2023/02/13/desenvolvimento-2/maputo-nova-tarifa-do-chapa-entra-em-vigor-a-partir-da-proxima-semana/",
+      "data": "2023-02-13"
+    },
+    {
+      "fonte": "Folha de Maputo, queixas de utentes em Maio",
+      "url": "https://www.folhademaputo.co.mz/pt/noticias/nacional/utentes-denunciam-aumento-da-tarifa-do-chapa-na-rota-malhampse-mulotane/",
+      "data": "2026-05"
+    },
+    {
+      "fonte": "AIM, salário mínimo da função pública",
+      "url": "https://aimnews.org/?p=51463",
+      "data": "2026"
+    }
+  ],
+  "data": "2026-10-20",
+  "dia_semana": "terca",
+  "semana": "2026-S43",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

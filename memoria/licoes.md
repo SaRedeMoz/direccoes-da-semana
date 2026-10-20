@@ -6,3 +6,4 @@
 - 2026-10-18 (2026-S42): Nesta ronda regional e humanitário não deram notícias das últimas 48 horas: a pesquisa web devolve sobretudo material de Julho e Agosto, por isso convém ir directamente ao ReliefWeb e ao SADC.
 - 2026-10-18 (2026-S42): As metas dos orçamentos de Moçambique têm falhado: o de 2026 previa 3,2% de crescimento e a revisão ficou em 0,6%, por isso as metas de 2027 pedem cautela.
 - 2026-10-19 (2026-S43): As pesquisas de 17 e 18 de Outubro devolvem pouco material nacional: o fecho do Brent saiu da CNBC e as notícias de Moçambique ficaram em títulos sem detalhe.
+- 2026-10-20 (2026-S43): Os resumos do dia dependem de uma só fonte quando a notícia é recente: confirmar com o Domingo, a AIM ou o município antes de dar a tarifa final.
