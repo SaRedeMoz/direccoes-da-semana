@@ -303,5 +303,36 @@
       }
     ]
   },
-  "falhas": []
+  "falhas": [],
+  "imagens": {
+    "slides": [
+      "data/dia/feed/slide-01.png",
+      "data/dia/feed/slide-02.png",
+      "data/dia/feed/slide-03.png",
+      "data/dia/feed/slide-04.png",
+      "data/dia/feed/slide-05.png",
+      "data/dia/feed/slide-06.png",
+      "data/dia/feed/slide-07.png"
+    ],
+    "stories": [
+      "data/dia/story/slide-01.png",
+      "data/dia/story/slide-02.png",
+      "data/dia/story/slide-03.png",
+      "data/dia/story/slide-04.png",
+      "data/dia/story/slide-05.png",
+      "data/dia/story/slide-06.png",
+      "data/dia/story/slide-07.png"
+    ],
+    "tipos": [
+      "capa-bolso",
+      "indicadores",
+      "regioes-precos",
+      "regioes-direccao",
+      "o-que-mudou",
+      "direccoes",
+      "revisao"
+    ],
+    "pdf": "data/dia/linkedin-carrossel.pdf",
+    "v": 1792549451779
+  }
 }
