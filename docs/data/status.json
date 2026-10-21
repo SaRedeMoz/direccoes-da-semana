@@ -2,8 +2,8 @@
   "estagios": {
     "fontes": {
       "estado": "a trabalhar",
-      "msg": "A começar a pesquisa do dia…",
-      "em": "2026-10-21T02:20:55.004Z"
+      "msg": "Pesquisa de preços e notícias para O Seu Bolso",
+      "em": "2026-10-21T02:21:21.759Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-21T02:21:21.759Z",
+      "agente": "fontes",
+      "msg": "Pesquisa de preços e notícias para O Seu Bolso"
+    },
     {
       "em": "2026-10-21T02:20:55.004Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-18T01:57:03.805Z",
       "agente": "editor",
       "msg": "Edição versão 9 montada"
-    },
-    {
-      "em": "2026-10-18T01:56:56.220Z",
-      "agente": "editor",
-      "msg": "Textos actualizados"
     }
   ],
-  "actualizado": "2026-10-21T02:20:55.004Z",
+  "actualizado": "2026-10-21T02:21:21.759Z",
   "semana": "2026-S43",
   "dia": "2026-10-21",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
