@@ -71,7 +71,15 @@
     "unidade": "MT/viagem",
     "base": "chapa",
     "regiao": "nampula",
-    "serie": []
+    "serie": [
+      {
+        "data": "2026-05-13",
+        "valor": 20,
+        "fonte": "360 Mozambique, com Rádio Moçambique",
+        "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/",
+        "nota": "Tarifa aprovada em Maio; não confirmada para Outubro"
+      }
+    ]
   },
   "milho_maputo": {
     "nome": "Milho em grão (Maputo)",
@@ -177,14 +185,30 @@
     "unidade": "MT por USD",
     "base": "usd_mzn",
     "regiao": "",
-    "serie": []
+    "serie": [
+      {
+        "data": "2026-10-12",
+        "valor": 63.91,
+        "fonte": "Agregador de câmbios (exchangerate.guru)",
+        "url": "https://exchangerate.guru/bmd/mzn/6/",
+        "nota": "Valor indicativo de agregador, não oficial"
+      }
+    ]
   },
   "mimo": {
     "nome": "Taxa MIMO",
     "unidade": "%",
     "base": "mimo",
     "regiao": "",
-    "serie": []
+    "serie": [
+      {
+        "data": "2026-05-25",
+        "valor": 9.25,
+        "fonte": "AIM / Banco de Moçambique",
+        "url": "https://aimnews.org/2026/05/26/banco-de-mocambique-mantem-taxa-mimo-em-925-por-cento/",
+        "nota": "Mantida a 9,25%; sem decisão posterior encontrada"
+      }
+    ]
   },
   "prime_rate": {
     "nome": "Prime rate (crédito bancário)",

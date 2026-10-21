@@ -1,0 +1,307 @@
+{
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "resumo": "A memória da redacção tem ainda poucas semanas, por isso o quadro usa o que há e diz onde faltam dados. O que mais pesa é o chapa, com o fim do subsídio em Maputo, e o milho, que subiu 10,4% num mês.",
+  "indicadores": [
+    "gasoleo",
+    "inflacao",
+    "brent",
+    "mimo"
+  ],
+  "comparar": [
+    "chapa",
+    "milho",
+    "arroz"
+  ],
+  "regioes": [
+    {
+      "regiao": "maputo",
+      "destaque": "Chapa a 15 ou 18 meticais; operadores pedem mais 5 a 12 a partir de 1 de Novembro.",
+      "direccao": "Junte ao orçamento de Novembro uma possível subida do chapa e confirme a tarifa final no município."
+    },
+    {
+      "regiao": "beira",
+      "destaque": "Sem preços recentes de chapa, milho e arroz; o corredor do porto depende do gasóleo.",
+      "direccao": "Confirme a tarifa na paragem e compare dois mercados antes de comprar em quantidade."
+    },
+    {
+      "regiao": "nampula",
+      "destaque": "Chapa a 20 meticais desde Maio; faltam preços recentes de milho e arroz.",
+      "direccao": "Compare preços entre mercados e guarde margem para o transporte da mercadoria."
+    }
+  ],
+  "o_que_mudou": [
+    {
+      "titulo": "Fim do subsídio aos chapas",
+      "explicacao": "O Governo deixou de pagar o subsídio em Maputo e os operadores pedem tarifas novas a partir de 1 de Novembro.",
+      "canal": "Gasóleo, tarifa do chapa, orçamento da família"
+    },
+    {
+      "titulo": "Milho em grão mais caro",
+      "explicacao": "O milho subiu 10,4% em Setembro, mesmo com a inflação anual a descer para 6,31%.",
+      "canal": "Mercado, farinha, refeição da casa"
+    },
+    {
+      "titulo": "Crédito continua caro",
+      "explicacao": "A taxa MIMO está em 9,25%, a última decisão confirmada, de 25 de Maio, sem sinal de corte.",
+      "canal": "Juros, empréstimo, capital de giro"
+    }
+  ],
+  "direccoes": [
+    {
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Some ao orçamento de Novembro uma subida possível de 5 a 12 meticais por viagem e confirme a tarifa final."
+    },
+    {
+      "area": "Compras",
+      "classe": "baixa",
+      "accao": "Compre milho e arroz em pequenas quantidades e compare dois mercados, porque o preço do grão está a subir."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "ambas",
+      "accao": "Calcule o transporte da mercadoria com margem de 10% e reveja o preço de venda quando a tarifa mudar."
+    },
+    {
+      "area": "Crédito",
+      "classe": "media",
+      "accao": "Evite novas dívidas de prazo longo enquanto os juros estão altos e o transporte pode encarecer."
+    },
+    {
+      "area": "Poupança",
+      "classe": "ambas",
+      "accao": "Separe uma reserva pequena para Novembro e Dezembro, meses em que o orçamento costuma apertar."
+    }
+  ],
+  "revisao": [],
+  "textos": {
+    "whatsapp": "*O SEU BOLSO*\n\nA memória da redacção ainda tem poucas semanas, por isso este quadro usa o que já temos e diz onde faltam dados.\n\n*O QUE PESA ESTA SEMANA*\nO gasóleo está a 116,25 meticais por litro desde 7 de Maio, sem revisão publicada pela ARENE. O Brent fechou a 109,55 dólares na segunda-feira. A inflação anual desceu para 6,31% em Setembro, mas o milho em grão subiu 10,4% só nesse mês. A taxa MIMO mantém-se em 9,25%, a última decisão que confirmámos, de 25 de Maio, por isso o crédito não deve ficar mais barato tão cedo.\n\n*TRANSPORTE*\nO Governo deixou de pagar o subsídio aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses. Hoje a viagem custa 15 ou 18 meticais. Os operadores pedem mais 5 a 12 meticais a partir de 1 de Novembro e os municípios ainda não decidiram. Em Nampula o chapa está em 20 meticais desde Maio. Na Beira não encontrámos tarifa recente e não vamos inventar.\n\n*DIRECÇÃO POR REGIÃO*\nMaputo: some já a possível subida ao orçamento do mês. Beira: o corredor do porto depende do gasóleo, por isso confirme a tarifa na paragem antes de planear. Nampula: o preço do milho e do arroz depende das colheitas locais, compare entre mercados.\n\n*DIRECÇÃO PARA A CASA*\nCompre milho e arroz em quantidades pequenas e compare dois mercados. Se tem negócio informal, calcule o custo do transporte da mercadoria com uma margem de 10%. Guarde uma reserva pequena para Novembro, quando a tarifa e a época festiva apertam o orçamento. Mantenha o crédito dentro do que consegue pagar com juros altos.\n\n*PRÓXIMA SEMANA*\nVamos acompanhar a decisão dos municípios, o boletim da ARENE e os preços em Beira e Nampula, onde ainda faltam dados.\n\nPartilhe esta mensagem com quem usa o chapa todos os dias.",
+    "instagram": "O Seu Bolso: o chapa de Maputo pode subir 5 a 12 meticais em Novembro. Gasóleo a 116,25 MT, inflação em 6,31%, milho 10,4% mais caro num mês. Reserve margem no orçamento e compare mercados. #OSeuBolso #Moçambique",
+    "facebook": "O Seu Bolso desta quarta-feira.\n\nO gasóleo continua a 116,25 meticais por litro, sem revisão da ARENE desde 7 de Maio, e o petróleo Brent fechou perto de 110 dólares na segunda-feira. A inflação anual desceu para 6,31% em Setembro, mas o milho em grão subiu 10,4% num mês.\n\nNo transporte, o Governo acabou o subsídio aos chapas da Grande Maputo. A viagem custa hoje 15 ou 18 meticais e os operadores pedem mais 5 a 12 meticais a partir de 1 de Novembro. Os municípios ainda não decidiram. Em Nampula o chapa custa 20 meticais desde Maio. Na Beira ainda não temos uma tarifa recente.\n\nA taxa MIMO está em 9,25%, a última decisão que confirmámos, por isso o crédito continua caro.\n\nO que fazer: em Maputo, junte ao orçamento de Novembro uma subida possível do chapa. Em todo o lado, compre milho e arroz em pequenas quantidades e compare dois mercados. Quem tem negócio informal deve contar com transporte mais caro na mercadoria.\n\nEsta é uma orientação geral e não um aconselhamento financeiro. Direcção da semana: guardar margem no orçamento para Novembro.\n\n#OSeuBolso #Moçambique",
+    "linkedin": "O Seu Bolso: o que a semana mostra para famílias e pequenos negócios\n\nA redacção ainda tem poucas semanas de memória, por isso este quadro mostra o que já se confirmou e o que falta medir.\n\nOs custos de transporte são o ponto mais sensível. O gasóleo está a 116,25 meticais por litro desde 7 de Maio e o Brent fechou a 109,55 dólares na segunda-feira. O Governo acabou o subsídio aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses, e os operadores pedem mais 5 a 12 meticais por viagem, sobre tarifas de 15 e 18. Em Nampula a tarifa é de 20 meticais desde Maio.\n\nOs preços dão sinais mistos. A inflação anual desceu para 6,31% em Setembro, o terceiro mês seguido de queda, mas o milho em grão subiu 10,4% num só mês. A taxa MIMO está em 9,25%, a última decisão confirmada, de 25 de Maio, e o crédito para as PMEs continua caro.\n\nDirecção: para um pequeno negócio, calcule o custo de transporte da mercadoria com uma margem de 10% e compare fornecedores em dois mercados. Para as famílias, junte ao orçamento de Novembro uma possível subida do chapa. Esta é uma orientação geral, não aconselhamento financeiro.\n\nFaltam dados de preços recentes na Beira e em Nampula. Vamos procurá-los no SIMA, no FEWS NET e no INE.\n\nConclusão: até 1 de Novembro, o que decide o bolso é a tarifa que os municípios fixarem e o preço do gasóleo.\n\n#Moçambique #Economia #PMEs"
+  },
+  "fontes": [
+    {
+      "fonte": "Club of Mozambique, via Domingo (fim do subsídio aos chapas)",
+      "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/"
+    },
+    {
+      "fonte": "Notícias ao Minuto, via Lusa e ARENE (preços dos combustíveis)",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
+    },
+    {
+      "fonte": "Trading Economics (inflação de Setembro)",
+      "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844"
+    },
+    {
+      "fonte": "AIM (taxa MIMO)",
+      "url": "https://aimnews.org/2026/05/26/banco-de-mocambique-mantem-taxa-mimo-em-925-por-cento/"
+    },
+    {
+      "fonte": "360 Mozambique (chapa em Nampula)",
+      "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/"
+    }
+  ],
+  "data": "2026-10-21",
+  "dia_semana": "quarta",
+  "semana": "2026-S43",
+  "versao": 1,
+  "aprovada": false,
+  "series": [
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-10-09",
+        "valor": 6.31,
+        "fonte": "Trading Economics (INE)",
+        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ]
+      ]
+    },
+    {
+      "id": "brent",
+      "nome": "Petróleo Brent",
+      "unidade": "USD/barril",
+      "ultimo": {
+        "data": "2026-10-19",
+        "valor": 109.55,
+        "fonte": "Business Today Malaysia",
+        "url": "https://www.businesstoday.com.my/2026/10/20/brent-slips-despite-houthi-attacks-hormuz-supply-risks/",
+        "nota": "Fecho aproximado, fonte secundária"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          104.43
+        ],
+        [
+          "2026-10-16",
+          109.86
+        ],
+        [
+          "2026-10-19",
+          109.55
+        ]
+      ]
+    },
+    {
+      "id": "mimo",
+      "nome": "Taxa MIMO",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-05-25",
+        "valor": 9.25,
+        "fonte": "AIM / Banco de Moçambique",
+        "url": "https://aimnews.org/2026/05/26/banco-de-mocambique-mantem-taxa-mimo-em-925-por-cento/",
+        "nota": "Mantida a 9,25%; sem decisão posterior encontrada"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-25",
+          9.25
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
+    ],
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 18,
+            "data": "2026-10-19",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "milho",
+        "nome": "Milho em grão",
+        "unidade": "MT/kg",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "arroz",
+        "nome": "Arroz",
+        "unidade": "MT/kg",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
+}

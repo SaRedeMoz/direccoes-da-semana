@@ -103,17 +103,43 @@
       "confianca": "media",
       "n": 8,
       "recolhida": "2026-10-20"
+    },
+    {
+      "titulo": "Banco de Moçambique mantém a taxa MIMO em 9,25%",
+      "resumo": "O Comité de Política Monetária manteve a taxa MIMO em 9,25% a 25 de Maio, depois do corte de Janeiro. O banco aponta como riscos as finanças públicas, o clima e o conflito no Médio Oriente. Não encontrámos decisão posterior; o mercado interbancário ainda tinha 9,25% a 1 de Setembro.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "oficiais",
+      "fonte": "AIM / Banco de Moçambique",
+      "url": "https://aimnews.org/2026/05/26/banco-de-mocambique-mantem-taxa-mimo-em-925-por-cento/",
+      "data": "2026-05-25",
+      "confianca": "media",
+      "n": 9,
+      "recolhida": "2026-10-21"
+    },
+    {
+      "titulo": "Nampula fixou o chapa em 20 meticais por viagem",
+      "resumo": "A Assembleia Municipal de Nampula aprovou 20 meticais por viagem para o transporte semicolectivo, numa sessão extraordinária de Maio. O presidente do município disse que é uma reorganização das tarifas e não uma subida directa.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_economica",
+      "fonte": "360 Mozambique, com Rádio Moçambique",
+      "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/",
+      "data": "2026-05-13",
+      "confianca": "media",
+      "n": 10,
+      "recolhida": "2026-10-21"
     }
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 2,
-  "proximo_n": 9,
+  "versao": 3,
+  "proximo_n": 11,
   "lacunas": [
-    "Preços de chapa, milho e arroz em Beira e Nampula",
-    "Taxa MIMO e câmbio de Outubro",
+    "Preços de chapa, milho e arroz na Beira e em Nampula",
     "Decisão final dos municípios sobre a tarifa do chapa em Maputo",
-    "Notícias de Sofala e da zona Centro nas últimas 48 horas"
+    "Câmbio oficial do Banco de Moçambique em Outubro",
+    "Revisão de preços de combustíveis pela ARENE"
   ],
   "fontes_consultadas": [
     {
@@ -169,6 +195,24 @@
       "fonte": "Pesquisa regional e SADC",
       "url": "https://www.sadc.int",
       "data": "2026-10-20"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "ARENE (via imprensa)",
+      "url": "https://aimnews.org",
+      "data": "2026-10-21"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "Trading Economics (inflação)",
+      "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+      "data": "2026-10-21"
+    },
+    {
+      "categoria": "imprensa_economica",
+      "fonte": "360 Mozambique",
+      "url": "https://360mozambique.com",
+      "data": "2026-10-21"
     }
   ],
   "analise": {
@@ -491,7 +535,7 @@
     ],
     "sinal": "Decisão dos municípios sobre a tarifa do chapa antes de 1 de Novembro, Brent acima ou abaixo de 105 dólares, boletim quinzenal da ARENE, Orçamento de 2027 no Parlamento, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.",
     "sintese": "O Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo e os operadores querem tarifas mais altas a partir de 1 de Novembro, num momento em que o Brent fecha perto de 110 dólares e o gasóleo está a 116,25 meticais desde Maio. O El Niño e o crescimento de 0,6% em 2026 deixam famílias e contas públicas com pouca folga. Em sentido contrário, a inflação desceu para 6,31%, a Lei do Conteúdo Local foi aprovada e há 20,6 mil milhões de meticais em estradas para Inhambane e Sofala.",
-    "o_que_mudou_hoje": "O Governo acabou o subsídio aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses, e os operadores pedem subidas de 5 a 12 meticais por viagem. O Brent fechou perto de 109,55 dólares na segunda-feira, quase igual a sexta-feira. O gasóleo continua a 116,25 meticais, sem revisão da ARENE.",
+    "o_que_mudou_hoje": "Sem novas decisões oficiais desde ontem: o Brent continua perto de 110 dólares, o gasóleo a 116,25 meticais e os municípios de Maputo ainda não fixaram a tarifa do chapa. Ficou confirmado que a taxa MIMO se mantém em 9,25% desde Maio, o que limita o alívio no crédito.",
     "canais": [
       {
         "choque": "Petróleo a 110 dólares",
@@ -626,7 +670,7 @@
       "grau": "media",
       "base": "Brent em fontes secundárias, fim do subsídio numa só fonte (Domingo, via Club of Mozambique), FEWS NET, ARENE; preços regionais por confirmar"
     },
-    "continuidade": "Face a ontem, o Brent manteve-se perto de 110 dólares e o gasóleo sem revisão, mas o fim do subsídio aos chapas põe o custo do combustível nas tarifas de Maputo. O cenário de piora mantém o peso mais alto, agora com um sinal concreto para 1 e 2 de Novembro."
+    "continuidade": "Face a ontem, nada mudou na tarifa do chapa nem no combustível, e a decisão dos municípios continua pendente para 1 de Novembro. Em Nampula a tarifa já está em 20 meticais desde Maio, acima dos 15 a 18 de Maputo."
   },
   "design": {
     "slides": [
@@ -697,7 +741,8 @@
       "Brent a 109,55 dólares em 19 de Outubro (fonte secundária)",
       "Valores e datas da adjudicação das estradas (Lusa, página sem data)",
       "Boletim quinzenal da ARENE de 1 a 15 de Outubro, não lido",
-      "⚠️ Categorias de fontes não consultadas hoje: analise_independente"
+      "Categorias de fontes não consultadas hoje: analise_independente",
+      "⚠️ Categorias de fontes não consultadas hoje: imprensa_nacional, humanitario"
     ],
     "duvidas": [],
     "conformidade": [
@@ -769,13 +814,13 @@
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-10-20",
-    "indicadores": 2,
-    "temas": 1,
+    "em": "2026-10-21",
+    "indicadores": 3,
+    "temas": 2,
     "direccoes": 2
   },
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: analise_independente"
+    "Categorias de fontes não consultadas hoje: imprensa_nacional, humanitario"
   ],
   "incluir_itens": []
 }

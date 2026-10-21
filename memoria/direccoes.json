@@ -130,5 +130,29 @@
     "verificar_em": "2026-11-20",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D12",
+    "data": "2026-10-21",
+    "semana": "2026-S43",
+    "publico": "Famílias da Grande Maputo",
+    "accao": "Reservar no orçamento de Novembro uma subida do chapa de 5 a 12 meticais por viagem",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-05",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D13",
+    "data": "2026-10-21",
+    "semana": "2026-S43",
+    "publico": "Famílias e pequenos negócios",
+    "accao": "Comprar milho e arroz em quantidades pequenas e comparar mercados, porque o milho subiu 10,4% num mês",
+    "tema": "inflacao_precos",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-12",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]
