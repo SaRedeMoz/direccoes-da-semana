@@ -1,24 +1,24 @@
 {
   "modo": "diario",
-  "hoje": "2026-10-21",
+  "hoje": "2026-10-22",
   "semana": "2026-S43",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
-  "dia_semana": "quarta",
-  "post_do_dia": "bolso",
+  "dia_semana": "quinta",
+  "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "imprensa_economica",
-    "humanitario"
+    "internacional",
+    "analise_independente"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-10-21 (bolso): O Seu Bolso",
     "2026-10-20 (dia): Fim do subsídio aos chapas: quanto vai subir a tarifa em Maputo",
     "2026-10-19 (dia): Estradas de Sofala e Inhambane: obras a tempo ou atrasadas",
     "2026-10-18 (dia): Orçamento de 2027 e o que muda no seu bolso",
-    "2026-10-17 (dia): Milho barato hoje e o risco do El Niño",
-    "2026-10-16 (dia): Gasóleo a 116 meticais e o preço do chapa"
+    "2026-10-17 (dia): Milho barato hoje e o risco do El Niño"
   ],
   "noticias_do_aprovador": [],
   "sugestoes_novas": [],
