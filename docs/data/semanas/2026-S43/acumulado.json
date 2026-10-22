@@ -211,7 +211,7 @@
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 5,
+  "versao": 6,
   "proximo_n": 17,
   "lacunas": [
     "Preços de chapa, milho e arroz na Beira e em Nampula",
@@ -930,7 +930,7 @@
   "memoria_actualizada": {
     "em": "2026-10-22",
     "indicadores": 0,
-    "temas": 0,
+    "temas": 6,
     "direccoes": 0
   },
   "falhas_conformidade": [],
