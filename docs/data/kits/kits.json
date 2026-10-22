@@ -1,5 +1,12 @@
 [
   {
+    "semana": "2026-S43",
+    "versao": 6,
+    "aprovada": "2026-10-22T18:33:33.167Z",
+    "zip": "data/kits/Direccoes-2026-S43.zip",
+    "mb": 22.6
+  },
+  {
     "dia": "2026-10-17",
     "tipo": "dia",
     "tema": "Milho barato hoje e o risco do El Niño",
