@@ -1003,6 +1003,8 @@
       "Foto: United Kingdom Hydrographic Office / Wikimedia Commons, Public domain",
       "Foto: Collins Musonda / Wikimedia Commons, CC BY-SA 4.0"
     ],
-    "v": 1792688350431
+    "v": 1792688350431,
+    "reel": "data/imagens/reel.mp4",
+    "reel_duracao": 52
   }
 }
