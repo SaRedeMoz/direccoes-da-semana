@@ -259,5 +259,57 @@
   "semana": "2026-S43",
   "versao": 3,
   "aprovada": false,
-  "falhas": []
+  "falhas": [],
+  "imagens": {
+    "slides": [
+      "data/dia/feed/slide-01.png",
+      "data/dia/feed/slide-02.png",
+      "data/dia/feed/slide-03.png",
+      "data/dia/feed/slide-04.png",
+      "data/dia/feed/slide-05.png",
+      "data/dia/feed/slide-06.png",
+      "data/dia/feed/slide-07.png",
+      "data/dia/feed/slide-08.png",
+      "data/dia/feed/slide-09.png",
+      "data/dia/feed/slide-10.png",
+      "data/dia/feed/slide-11.png",
+      "data/dia/feed/slide-12.png",
+      "data/dia/feed/slide-13.png",
+      "data/dia/feed/slide-14.png"
+    ],
+    "stories": [
+      "data/dia/story/slide-01.png",
+      "data/dia/story/slide-02.png",
+      "data/dia/story/slide-03.png",
+      "data/dia/story/slide-04.png",
+      "data/dia/story/slide-05.png",
+      "data/dia/story/slide-06.png",
+      "data/dia/story/slide-07.png",
+      "data/dia/story/slide-08.png",
+      "data/dia/story/slide-09.png",
+      "data/dia/story/slide-10.png",
+      "data/dia/story/slide-11.png",
+      "data/dia/story/slide-12.png",
+      "data/dia/story/slide-13.png",
+      "data/dia/story/slide-14.png"
+    ],
+    "tipos": [
+      "capa-dia",
+      "facto",
+      "contexto",
+      "porque",
+      "conta",
+      "cenarios",
+      "cenario-1",
+      "cenario-2",
+      "cenario-3",
+      "sinais",
+      "afectados",
+      "direccao",
+      "contraria",
+      "sinal"
+    ],
+    "pdf": "data/dia/linkedin-carrossel.pdf",
+    "v": 1792688372130
+  }
 }
