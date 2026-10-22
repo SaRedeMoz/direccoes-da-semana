@@ -21,12 +21,17 @@
       "em": "2026-10-22T16:27:03.455Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-10-22T16:25:28.856Z"
+      "estado": "à espera",
+      "msg": "Post do dia à espera da sua aprovação",
+      "em": "2026-10-22T16:38:32.510Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-22T16:38:32.510Z",
+      "agente": "aprovacao",
+      "msg": "Post do dia à espera da sua aprovação"
+    },
     {
       "em": "2026-10-22T16:27:03.455Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-20T02:28:29.987Z",
       "agente": "analise",
       "msg": "A actualizar a análise com o fim do subsídio aos chapas"
-    },
-    {
-      "em": "2026-10-20T02:28:28.471Z",
-      "agente": "fontes",
-      "msg": "3 itens novos e 2 indicadores"
     }
   ],
-  "actualizado": "2026-10-22T16:27:03.455Z",
+  "actualizado": "2026-10-22T16:38:32.510Z",
   "semana": "2026-S43",
   "dia": "2026-10-22",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
