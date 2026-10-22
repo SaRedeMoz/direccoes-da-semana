@@ -6,9 +6,9 @@
       "em": "2026-10-22T02:16:51.366Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "Actualizar a análise",
-      "em": "2026-10-22T02:16:52.734Z"
+      "estado": "pronto",
+      "msg": "Análise e memória gravadas",
+      "em": "2026-10-22T02:17:07.878Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-22T02:17:07.878Z",
+      "agente": "analise",
+      "msg": "Análise e memória gravadas"
+    },
     {
       "em": "2026-10-22T02:16:52.734Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-19T02:12:28.860Z",
       "agente": "fontes",
       "msg": "A pesquisar notícias de 17 a 19 de Outubro"
-    },
-    {
-      "em": "2026-10-19T02:12:01.135Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
     }
   ],
-  "actualizado": "2026-10-22T02:16:52.734Z",
+  "actualizado": "2026-10-22T02:17:07.878Z",
   "semana": "2026-S43",
   "dia": "2026-10-22",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
