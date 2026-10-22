@@ -2,7 +2,7 @@
   "semana": "2026-S43",
   "dia": "2026-10-22",
   "versao": 6,
-  "aprovada": false,
+  "aprovada": true,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/5",
   "falhas_conformidade": [],
   "itens": [
@@ -1006,5 +1006,6 @@
     "v": 1792688350431,
     "reel": "data/imagens/reel.mp4",
     "reel_duracao": 52
-  }
+  },
+  "aprovadaEm": "2026-10-22T18:33:33.167Z"
 }
