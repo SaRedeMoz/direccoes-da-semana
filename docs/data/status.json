@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Post do dia gravado",
-      "em": "2026-10-22T02:18:59.775Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-22T02:19:07.515Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-22T02:19:07.515Z",
+      "agente": "editor",
+      "msg": "Edição versão 4 montada"
+    },
+    {
+      "em": "2026-10-22T02:19:07.515Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Gasóleo a 116,25 meticais: haverá nova revisão da ARENE?"
+    },
     {
       "em": "2026-10-22T02:18:59.775Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-10-19T02:16:14.999Z",
       "agente": "editor",
       "msg": "Textos e post do dia sobre as estradas de Sofala"
-    },
-    {
-      "em": "2026-10-19T02:16:13.573Z",
-      "agente": "design",
-      "msg": "Capa e 4 slides"
-    },
-    {
-      "em": "2026-10-19T02:16:06.335Z",
-      "agente": "design",
-      "msg": "A preparar capa e slides"
     }
   ],
-  "actualizado": "2026-10-22T02:18:59.775Z",
+  "actualizado": "2026-10-22T02:19:07.515Z",
   "semana": "2026-S43",
   "dia": "2026-10-22",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",

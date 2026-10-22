@@ -1,0 +1,263 @@
+{
+  "tipo": "dia",
+  "tema": "Gasóleo a 116,25 meticais: haverá nova revisão da ARENE?",
+  "pergunta": "O gasóleo vai voltar a subir antes do fim do ano?",
+  "facto": {
+    "texto": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5% face aos 79,88 anteriores. O Brent fechou a 109,86 dólares em 16 de Outubro, o valor mais alto desde Maio, e a 21 de Outubro andava entre 108 e 111. Nenhuma revisão foi publicada desde Maio.",
+    "numeros": [
+      {
+        "valor": "116,25 MT",
+        "legenda": "gasóleo por litro desde Maio"
+      },
+      {
+        "valor": "+45,5%",
+        "legenda": "subida de 7 de Maio"
+      },
+      {
+        "valor": "108 a 111 USD",
+        "legenda": "Brent a 21 de Outubro"
+      }
+    ],
+    "fonte": "ARENE via 360 Mozambique (7 Maio 2026); CNBC (16 Out); TT News (21 Out)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "7 Mai",
+      "texto": "Gasóleo sobe 45,5% para 116,25 meticais",
+      "futuro": false
+    },
+    {
+      "data": "8 Mai",
+      "texto": "Operadores de chapa param em Maputo e Matola",
+      "futuro": false
+    },
+    {
+      "data": "3 Ago",
+      "texto": "Governo cria facilidade de até 50 milhões de dólares para importar combustível",
+      "futuro": false
+    },
+    {
+      "data": "21 Out",
+      "texto": "Brent oscila entre 108 e 111 dólares",
+      "futuro": false
+    },
+    {
+      "data": "1 Nov",
+      "texto": "Operadores querem chapa a 30 e 25 meticais",
+      "futuro": true
+    },
+    {
+      "data": "30 Nov",
+      "texto": "Fim do mês: a ARENE calcula a nova estrutura de preços",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Julho de 2022",
+    "o_que_aconteceu": "Com o Brent entre 110 e 120 dólares, o gasóleo subiu 11% e os autocarros pararam em Maputo. O Governo prometeu subsidiar parte das tarifas e o serviço voltou.",
+    "licao": "Subida do gasóleo traz paragem do chapa em dias e pedido de apoio público.",
+    "fonte": "Bloomberg (BNN) e Club of Mozambique, 2022"
+  },
+  "porque_importa": "O gasóleo move o chapa, o camião que traz comida e o gerador de muitas pequenas empresas. Quando sobe, o aumento chega ao bolso em semanas, primeiro no transporte e depois nos alimentos. Em Maio o Estado respondeu com um subsídio de três meses que já acabou.",
+  "canal": {
+    "passos": [
+      "Gasóleo sobe na bomba",
+      "Chapa e camião gastam mais",
+      "Tarifa e frete sobem",
+      "Comida chega mais cara"
+    ],
+    "quem_sente": "Utentes do chapa, mercados e pequenas empresas de transporte"
+  },
+  "conta": {
+    "titulo": "Um chapa de 15 lugares: gasóleo por mês",
+    "pressupostos": "150 km por dia, 8 km por litro, 26 dias por mês. Valores de exemplo, não médias oficiais.",
+    "barras": [
+      {
+        "rotulo": "Hoje, 116,25 MT/litro",
+        "valor": 56672,
+        "texto": "56 672 MT/mês"
+      },
+      {
+        "rotulo": "Subida de 8%",
+        "valor": 61206,
+        "texto": "61 206 MT/mês"
+      },
+      {
+        "rotulo": "Subida de 20%",
+        "valor": 68006,
+        "texto": "68 006 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "Cada 10 meticais a mais no litro custam cerca de 4 875 meticais por mês a este chapa, sem o subsídio de 35 000."
+  },
+  "cenarios": [
+    {
+      "nome": "Preço fica até Dezembro",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Cinco meses e meio sem revisão com Brent perto do nível de Maio; o Estado absorve o custo e financia importações.",
+      "gatilho": "Brent entre 100 e 112 dólares até 30 de Novembro, sem comunicado da ARENE",
+      "o_que_acontece": "O Estado e as distribuidoras absorvem a diferença. O custo fica escondido em compensações e dívida, e a pressão passa para as tarifas do chapa.",
+      "numeros": "Gasóleo a 116,25 MT/litro; chapa 18 a 23 MT",
+      "quando": "até Dezembro de 2026",
+      "ganha": "Utentes e transportadores no curto prazo",
+      "perde": "Contas do Estado e distribuidoras",
+      "se_acontecer": "Aproveitar para pagar dívidas curtas e não gastar a folga em consumo."
+    },
+    {
+      "nome": "Revisão em alta",
+      "tipo": "piora",
+      "probabilidade": 38,
+      "porque_probabilidade": "Em 2022 houve subidas quase todos os meses com Brent acima de 110. Desconto porque o Governo adiou desde Maio.",
+      "gatilho": "Brent fecha acima de 115 dólares durante cinco sessões, ou ARENE anuncia nova estrutura",
+      "o_que_acontece": "A ARENE sobe o gasóleo. Chapa e frete ajustam-se a seguir e os operadores voltam a pedir apoio, como em Maio de 2022 e 2026.",
+      "numeros": "Gasóleo 122 a 140 MT/litro (+5% a +20%)",
+      "quando": "entre 15 de Novembro e Janeiro de 2027",
+      "ganha": "Contas do Estado",
+      "perde": "Chapa, carga e famílias pobres",
+      "se_acontecer": "Rever o orçamento de transporte, comprar a granel o que dura e adiar viagens longas."
+    },
+    {
+      "nome": "Alívio na bomba",
+      "tipo": "melhora",
+      "probabilidade": 17,
+      "porque_probabilidade": "O Brent oscilou entre 97 e 112 este mês; uma queda sustentada exige acordo em Ormuz, e a descida só chegaria à bomba depois.",
+      "gatilho": "Brent abaixo de 95 dólares durante duas semanas seguidas",
+      "o_que_acontece": "Com tráfego em Ormuz a normalizar, o custo de importação cai e a ARENE reduz o gasóleo, como fez em Junho de 2025.",
+      "numeros": "Gasóleo 100 a 110 MT/litro (-5% a -14%)",
+      "quando": "Janeiro a Março de 2027",
+      "ganha": "Transportadores e famílias",
+      "perde": "Receita fiscal sobre combustíveis",
+      "se_acontecer": "Exigir que a descida chegue à tarifa do chapa e ao frete."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Fecho do Brent em dólares",
+      "limiar": "Acima de 115 durante cinco sessões",
+      "quando": "até 15 de Novembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Comunicado da ARENE sobre preços",
+      "limiar": "Qualquer nova estrutura de preços",
+      "quando": "até 30 de Novembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Fecho do Brent em dólares",
+      "limiar": "Abaixo de 95 durante duas semanas",
+      "quando": "até 30 de Novembro",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Tarifa final do chapa em Maputo",
+      "limiar": "Acima de 23 meticais nas rotas de 18",
+      "quando": "até 1 de Novembro",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "chapa e comida mais caros"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "transporte e frete pesam no mês"
+    },
+    {
+      "grupo": "PMEs de transporte",
+      "saldo": -2,
+      "porque": "sem subsídio e com gasóleo caro"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "compensações e pressão por apoios"
+    },
+    {
+      "grupo": "Agricultores",
+      "saldo": -1,
+      "porque": "frete e insumos mais caros"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias",
+      "agora": "Fixar um valor de transporte para Novembro e comprar a granel os básicos que não estragam.",
+      "se_piorar": "Cortar viagens não essenciais e dividir transporte."
+    },
+    {
+      "publico": "Transportadores",
+      "agora": "Guardar margem de duas semanas de gasóleo e registar o custo por viagem.",
+      "se_piorar": "Pedir à agência metropolitana nova tarifa com os números."
+    },
+    {
+      "publico": "Pequenos comerciantes",
+      "agora": "Pedir preços a mais de um fornecedor e evitar stock grande a crédito.",
+      "se_piorar": "Repassar só o aumento do frete, com preço afixado."
+    },
+    {
+      "publico": "Municípios e Governo",
+      "agora": "Publicar cedo a tarifa e a regra para rever com o gasóleo.",
+      "se_piorar": "Activar apoio focado nos distritos de risco alimentar."
+    }
+  ],
+  "visao_contraria": "O Brent está perto do nível de Maio, quando o preço foi fixado, por isso a ARENE pode não precisar de subir. O Estado já mostrou que prefere adiar.",
+  "nao_sabemos": [
+    "Quanto o Estado deve às distribuidoras hoje",
+    "Se a ARENE tem uma data marcada para rever os preços",
+    "Qual era o Brent exacto quando o preço foi fixado em Maio"
+  ],
+  "sinal": "Fecho do Brent acima de 115 dólares ou comunicado da ARENE até 30 de Novembro.",
+  "confianca": "media",
+  "base_confianca": "Preço de Maio confirmado por três fontes; Brent em fontes secundárias; a estrutura de preços vem de um artigo de 2022 e as probabilidades são estimativas da redacção.",
+  "textos": {
+    "whatsapp": "*GASÓLEO A 116,25: VAI SUBIR OUTRA VEZ?*\n\nO gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5%. Desde então não houve revisão publicada. O Brent andou esta semana entre 108 e 111 dólares, perto do nível de Maio.\n\n*O PRECEDENTE*\nEm Julho de 2022, com o petróleo entre 110 e 120 dólares, o gasóleo subiu 11% e os autocarros pararam em Maputo. O Governo prometeu apoio e o serviço voltou.\n\n*TRÊS CAMINHOS*\n1. Preço fica até Dezembro, 45%. O Estado absorve a diferença e a pressão passa para a tarifa do chapa.\n2. Revisão em alta, 38%. Se o Brent fechar acima de 115 dólares cinco sessões seguidas, o gasóleo pode ir de 122 a 140 meticais. Chapa e frete sobem a seguir.\n3. Alívio, 17%. Só com o Brent abaixo de 95 dólares durante duas semanas. O gasóleo podia cair para 100 a 110 meticais, mas só em 2027.\n\nA probabilidade de subida parte de 2022, quando houve subidas quase todos os meses, e desce porque o Governo já adiou cinco meses.\n\n*A CONTA*\nUm chapa de 15 lugares, com 150 km por dia e 8 km por litro, gasta cerca de 56 700 meticais por mês em gasóleo. Com mais 8% são 61 200. Com mais 20% são 68 000. Cada 10 meticais no litro custam cerca de 4 900 meticais por mês, e o subsídio de 35 000 já acabou. São valores de exemplo.\n\n*A OUTRA VISÃO*\nO Brent está perto do nível de Maio, por isso a ARENE pode não subir.\n\n*DIRECÇÃO*\nFamílias: fixar o valor do transporte de Novembro. Transportadores: guardar duas semanas de gasóleo e registar o custo por viagem. Comerciantes: pedir preços a mais de um fornecedor.\n\n*O QUE OBSERVAR*\nBrent acima de 115 dólares até 15 de Novembro e qualquer comunicado da ARENE até 30 de Novembro.\n\nPartilhe com quem depende do chapa ou do camião.",
+    "instagram": "Gasóleo a 116,25 meticais desde Maio. O Brent anda entre 108 e 111 dólares e o subsídio ao chapa acabou. Cenário mais provável: preço fica até Dezembro (45%), mas 38% de revisão em alta. Sinal: Brent acima de 115 dólares até 15 de Novembro. #Moçambique #DirecçõesDaSemana",
+    "facebook": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio. Vai subir outra vez?\n\nNão há data para nova revisão. O Brent andou esta semana entre 108 e 111 dólares, perto do nível de Maio, e o Governo já adiou a revisão durante cinco meses e meio.\n\nEm Julho de 2022, com o petróleo entre 110 e 120 dólares, o gasóleo subiu 11% e os autocarros pararam em Maputo. Houve promessa de apoio e o serviço voltou.\n\nVemos três caminhos. O preço fica até Dezembro, com 45%: o Estado absorve a diferença e a pressão passa para o chapa. Há revisão em alta, com 38%, se o Brent fechar acima de 115 dólares cinco sessões seguidas: o gasóleo iria de 122 a 140 meticais. E há alívio, com 17%, se o Brent cair abaixo de 95 dólares duas semanas.\n\nUma conta de exemplo: um chapa de 15 lugares gasta cerca de 56 700 meticais por mês em gasóleo. Com mais 20% passa a 68 000. O subsídio de 35 000 acabou.\n\nA outra visão: como o Brent está perto do nível de Maio, a ARENE pode não precisar de subir.\n\nDirecção: fixe o valor do transporte de Novembro, compre a granel o que não estraga e acompanhe o Brent e a ARENE até 30 de Novembro.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5% face aos 79,88 anteriores. Nenhuma revisão foi publicada desde então, e o Brent fechou a 109,86 dólares em 16 de Outubro, o valor mais alto desde Maio.\n\nO precedente mais próximo é Julho de 2022. Com o Brent entre 110 e 120 dólares, o gasóleo subiu 11%, os autocarros pararam em Maputo e o Governo prometeu subsidiar parte das tarifas. Em Maio de 2026 repetiu-se: os chapas pararam dois dias depois da subida e o Estado pagou 307 milhões de meticais em subsídios, que acabaram agora.\n\nTrês cenários, com mecanismos diferentes. Primeiro, o preço fica até Dezembro (45%): o Estado e as distribuidoras absorvem a diferença e a pressão passa para a tarifa do chapa, hoje em disputa entre 25 e 30 meticais pedidos pelos operadores e 3 a 5 de aumento oferecidos pela agência. Segundo, revisão em alta (38%): com o Brent acima de 115 dólares cinco sessões seguidas, o gasóleo iria de 122 a 140 meticais. Terceiro, alívio (17%): exige o Brent abaixo de 95 dólares duas semanas e só chegaria à bomba em 2027.\n\nPara uma PME de transporte com um minibus de 15 lugares, 150 km por dia e 8 km por litro, o gasóleo pesa cerca de 56 700 meticais por mês. Cada 10 meticais no litro somam cerca de 4 900. Os pressupostos são nossos, não médias oficiais.\n\nA melhor objecção: o Brent está perto do nível de Maio e o Governo prefere adiar. Não sabemos quanto o Estado deve às distribuidoras.\n\nDirecção: transportadores devem guardar duas semanas de gasóleo e registar o custo por viagem. Empresas com trabalhadores na Grande Maputo devem orçamentar o transporte de Novembro. O sinal a seguir é o Brent acima de 115 dólares até 15 de Novembro e qualquer comunicado da ARENE até 30 de Novembro.\n\n#Moçambique #Economia"
+  },
+  "fontes": [
+    {
+      "fonte": "360 Mozambique, preços de 7 de Maio",
+      "url": "https://360mozambique.com/oil-gas/government-adjusts-fuel-prices-price-of-a-liter-of-diesel-rises-to-116-25-meticais/",
+      "data": "2026-05-07"
+    },
+    {
+      "fonte": "360 Mozambique, como se formam os preços",
+      "url": "https://360mozambique.com/markets/how-does-the-fuel-market-work-and-what-drives-and-relieves-prices/",
+      "data": "2022-07-13"
+    },
+    {
+      "fonte": "TT News, Brent",
+      "url": "https://www.ttnews.com/articles/oil-prices-risk-hormuz",
+      "data": "2026-10-21"
+    },
+    {
+      "fonte": "CNBC, Brent a 16 de Outubro",
+      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+      "data": "2026-10-16"
+    },
+    {
+      "fonte": "Rio Times, fim do subsídio e subsídio pago",
+      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
+      "data": "2026-10-21"
+    },
+    {
+      "fonte": "Club of Mozambique, facilidade de 50 milhões",
+      "url": "https://clubofmozambique.com/news/mozambique-creates-us50-million-facility-for-fuel-imports/",
+      "data": "2026-08-03"
+    }
+  ],
+  "data": "2026-10-22",
+  "dia_semana": "quinta",
+  "semana": "2026-S43",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

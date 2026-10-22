@@ -8,3 +8,4 @@
 - 2026-10-19 (2026-S43): As pesquisas de 17 e 18 de Outubro devolvem pouco material nacional: o fecho do Brent saiu da CNBC e as notícias de Moçambique ficaram em títulos sem detalhe.
 - 2026-10-20 (2026-S43): Os resumos do dia dependem de uma só fonte quando a notícia é recente: confirmar com o Domingo, a AIM ou o município antes de dar a tarifa final.
 - 2026-10-21 (2026-S43): A pesquisa de preços por cidade na Beira e em Nampula continua sem resultados recentes: ir directamente ao SIMA, ao FEWS NET e ao INE.
+- 2026-10-22 (2026-S43): A pesquisa devolve pouco material nacional de 21 e 22 de Outubro: o Brent e a tarifa do chapa vieram de fontes secundárias, por isso convém confirmar com a AIM e a ARENE.

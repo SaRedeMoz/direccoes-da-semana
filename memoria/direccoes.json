@@ -154,5 +154,29 @@
     "verificar_em": "2026-11-12",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D14",
+    "data": "2026-10-22",
+    "semana": "2026-S43",
+    "publico": "Utentes do chapa",
+    "accao": "Contar com tarifa mais alta em Novembro e reservar 3 a 12 meticais por viagem no orçamento do transporte",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-02",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D15",
+    "data": "2026-10-22",
+    "semana": "2026-S43",
+    "publico": "Transportadores e comerciantes",
+    "accao": "Guardar margem para nova revisão do combustível e acompanhar o boletim da ARENE",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-22",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

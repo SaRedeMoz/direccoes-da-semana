@@ -1,12 +1,10 @@
 {
   "semana": "2026-S43",
-  "dia": "2026-10-21",
-  "versao": 3,
+  "dia": "2026-10-22",
+  "versao": 4,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
-  "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: imprensa_nacional, humanitario"
-  ],
+  "falhas_conformidade": [],
   "itens": [
     {
       "titulo": "Brent fecha a 109,86 dólares na sexta-feira, o valor mais alto desde Maio",
@@ -20,7 +18,7 @@
       "confianca": "media",
       "n": 1,
       "recolhida": "2026-10-19",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "Fluxo de petróleo por Ormuz está a cerca de 70% do nível anterior à guerra",
@@ -48,7 +46,7 @@
       "confianca": "baixa",
       "n": 3,
       "recolhida": "2026-10-19",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "Concurso para a concessão da fronteira de Machipanda",
@@ -80,7 +78,7 @@
     },
     {
       "titulo": "Governo deixa de pagar o subsídio de combustível aos transportadores da Grande Maputo",
-      "resumo": "O Governo põe fim ao subsídio de combustível ao transporte público de passageiros na região metropolitana de Maputo, que devia durar três meses desde Maio. Os operadores querem subir as tarifas a partir de 1 de Novembro, mas ainda não há acordo com os municípios.",
+      "resumo": "O Governo põe fim ao subsídio de combustível ao transporte público de passageiros na região metropolitana de Maputo, que devia durar três meses desde Maio. Os operadores querem subir as tarifas a partir de 1 de Novembro, mas ainda não há acordo com os municípios. Actualização (2026-10-22): A FEMATRO pede 30 e 25 meticais a partir de 1 de Novembro; a agência metropolitana oferece 3 a 5 meticais e não aceitou a proposta. Sem tarifa final.",
       "ambito": "nacional",
       "dimensao": "Económica",
       "categoria": "imprensa_nacional",
@@ -90,7 +88,7 @@
       "confianca": "media",
       "n": 6,
       "recolhida": "2026-10-20",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "Subsídio aos chapas custou 307 milhões de meticais em três meses",
@@ -104,7 +102,7 @@
       "confianca": "media",
       "n": 7,
       "recolhida": "2026-10-20",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "Brent fecha a cerca de 109,55 dólares na segunda-feira",
@@ -118,7 +116,7 @@
       "confianca": "media",
       "n": 8,
       "recolhida": "2026-10-20",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "Banco de Moçambique mantém a taxa MIMO em 9,25%",
@@ -147,13 +145,97 @@
       "n": 10,
       "recolhida": "2026-10-21",
       "na_edicao": false
+    },
+    {
+      "titulo": "Brent oscila entre 108 e 111 dólares com ataques a petroleiros em Ormuz",
+      "resumo": "Em 21 de Outubro o Brent recuou 0,4% para 108,31 dólares depois de ter passado os 111 de manhã, segundo a TT News. Este mês o preço oscilou entre 97 e 112 dólares e a Kpler contou pelo menos 18 ataques a petroleiros em duas semanas.",
+      "ambito": "mundo",
+      "dimensao": "Económica",
+      "categoria": "internacional",
+      "fonte": "TT News",
+      "url": "https://www.ttnews.com/articles/oil-prices-risk-hormuz",
+      "data": "2026-10-21",
+      "confianca": "media",
+      "n": 11,
+      "recolhida": "2026-10-22",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Operadores pedem chapa de 30 e 25 meticais, a agência metropolitana oferece 3 a 5",
+      "resumo": "A FEMATRO propõe passar de 18 para 30 meticais e de 15 para 25 a partir de 1 de Novembro e avisa que pode haver perturbação do serviço a 2 de Novembro. A Agência Metropolitana de Transportes de Maputo ouviu a proposta, não a aceitou e fala em aumentos de 3 a 5 meticais.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_nacional",
+      "fonte": "Rio Times, com Domingo",
+      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
+      "data": "2026-10-21",
+      "confianca": "media",
+      "n": 12,
+      "recolhida": "2026-10-22",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Conselho de Ministros eleva a idade de aposentação obrigatória para 65 anos",
+      "resumo": "Na 30.ª sessão, a 20 de Outubro, o Governo regulamentou a Lei 10/2026: a aposentação obrigatória passa de 60 para 65 anos, com permanência até aos 70 em carreiras estratégicas. A mesma sessão homologou 1.444 nomes geográficos.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "categoria": "oficiais",
+      "fonte": "MZ News",
+      "url": "https://mznews.co.mz/conselho-de-ministros-regulamenta-lei-de-reforma-obrigatoria-no-estado-para-a-administracao-publica/",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 13,
+      "recolhida": "2026-10-22",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Governo confirma a garantia soberana do projecto Mozambique LNG e lança a Central de Aquisições do Estado",
+      "resumo": "A resolução da 30.ª sessão confirma a garantia de 24 de Abril de 2020 e, segundo o comunicado, não cria uma nova garantia. O comunicado não traz o saldo actualizado. O Governo anunciou também a Central de Aquisições do Estado, para dar mais transparência às compras públicas.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "categoria": "imprensa_economica",
+      "fonte": "O Económico",
+      "url": "https://www.oeconomico.com/mozambique-lng-governo-mantem-garantia-soberana-associada-a-us-225-mil-milhoes-apos-revisao-financeira/",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 14,
+      "recolhida": "2026-10-22",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Orçamento de 2027 prevê despesa de 511 mil milhões de meticais, menos 1,8% em termos nominais",
+      "resumo": "A proposta aprovada a 13 de Outubro conta com 427,8 mil milhões de meticais de receitas do Estado, 23,5% do PIB. O crescimento previsto é de 1,6%.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_economica",
+      "fonte": "O Económico",
+      "url": "https://www.oeconomico.com/governo-preve-receitas-de-4278-mil-milhoes-de-meticais-em-2027-mas-crescimento-de-16-evidencia-necessidade-de-reformas/",
+      "data": "2026-10-13",
+      "confianca": "alta",
+      "n": 15,
+      "recolhida": "2026-10-22",
+      "na_edicao": false
+    },
+    {
+      "titulo": "FEWS NET espera El Niño até Janeiro e 1,5 a 1,99 milhões a precisar de ajuda alimentar",
+      "resumo": "A FEWS NET prevê um início tardio e abaixo da média da época chuvosa no Sul e no Centro e temperaturas acima do normal. Entre Dezembro de 2026 e Janeiro de 2027, 1,5 a 1,99 milhões de pessoas devem precisar de ajuda alimentar de emergência.",
+      "ambito": "nacional",
+      "dimensao": "Ambiental",
+      "categoria": "precos",
+      "fonte": "FEWS NET, via Lusa",
+      "url": "https://aman-alliance.org/Home/ContentDetail/104882",
+      "data": "2026-10-07",
+      "confianca": "media",
+      "n": 16,
+      "recolhida": "2026-10-22",
+      "na_edicao": true
     }
   ],
   "lacunas": [
     "Preços de chapa, milho e arroz na Beira e em Nampula",
-    "Decisão final dos municípios sobre a tarifa do chapa em Maputo",
-    "Câmbio oficial do Banco de Moçambique em Outubro",
-    "Revisão de preços de combustíveis pela ARENE"
+    "Decisão final sobre a tarifa do chapa em Maputo",
+    "Revisão de preços de combustíveis pela ARENE",
+    "Câmbio oficial do Banco de Moçambique em Outubro"
   ],
   "fontes_consultadas": [
     {
@@ -227,22 +309,56 @@
       "fonte": "360 Mozambique",
       "url": "https://360mozambique.com",
       "data": "2026-10-21"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "TT News",
+      "url": "https://www.ttnews.com/articles/oil-prices-risk-hormuz",
+      "data": "2026-10-22"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Rio Times",
+      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
+      "data": "2026-10-22"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "MZ News (Conselho de Ministros)",
+      "url": "https://mznews.co.mz/conselho-de-ministros-regulamenta-lei-de-reforma-obrigatoria-no-estado-para-a-administracao-publica/",
+      "data": "2026-10-22"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "FEWS NET via Lusa",
+      "url": "https://aman-alliance.org/Home/ContentDetail/104882",
+      "data": "2026-10-22"
+    },
+    {
+      "categoria": "analise_independente",
+      "fonte": "CIP",
+      "url": "https://www.cipmoz.org",
+      "data": "2026-10-22"
     }
   ],
   "memoria": {
-    "em": "2026-10-21",
-    "indicadores": 3,
-    "temas": 2,
+    "em": "2026-10-22",
+    "indicadores": 1,
+    "temas": 3,
     "direccoes": 2
   },
   "analise": {
     "destaques": {
       "mundo": [
+        "Brent entre 108 e 111 dólares a 21 de Outubro, com 18 ataques a petroleiros em duas semanas",
         "Brent fecha a cerca de 109,55 dólares na segunda-feira, depois de tocar os 110",
         "Ormuz com cerca de 70% do fluxo anterior à guerra",
         "AIE liberta mais de 20 milhões de barris de gasóleo"
       ],
       "nacional": [
+        "FEMATRO pede chapa a 30 e 25 meticais; a agência metropolitana oferece 3 a 5",
+        "Aposentação obrigatória sobe para 65 anos",
+        "Governo confirma a garantia soberana do Mozambique LNG",
         "Governo acaba o subsídio aos chapas da Grande Maputo, e os operadores pedem tarifas novas",
         "ANE adjudica 20,6 mil milhões de meticais em estradas de Inhambane e Sofala",
         "Concurso para a concessão da fronteira de Machipanda",
@@ -311,7 +427,7 @@
         ],
         "ameacas": [
           {
-            "texto": "Brent a 110 dólares",
+            "texto": "Brent entre 108 e 111 dólares",
             "origem": "externa"
           },
           {
@@ -445,6 +561,10 @@
           {
             "texto": "Economia contraiu 0,52% em 2025",
             "origem": "interna"
+          },
+          {
+            "texto": "Garantia do LNG sem saldo público",
+            "origem": "interna"
           }
         ],
         "peso_oportunidade": 2,
@@ -466,7 +586,7 @@
         "saldo": -2,
         "porque": "chapa e comida mais caros",
         "efeito": "negativo",
-        "explicacao": "O subsídio aos chapas da Grande Maputo acabou e os operadores pedem mais 5 a 12 meticais por viagem, sobre tarifas de 15 e 18. A insegurança alimentar grave caiu 48% em Setembro, mas atinge ainda 1,84 milhões de pessoas, e o Brent perto de 110 dólares mantém a pressão sobre o transporte de alimentos."
+        "explicacao": "O subsídio aos chapas da Grande Maputo acabou. A FEMATRO pede 30 e 25 meticais sobre tarifas de 18 e 15, a agência metropolitana oferece mais 3 a 5. A insegurança alimentar grave caiu 48% em Setembro, mas atinge ainda 1,84 milhões de pessoas, e o Brent perto de 110 dólares mantém a pressão sobre o transporte de alimentos."
       },
       {
         "grupo": "Classe média",
@@ -514,7 +634,7 @@
     "direccao": [
       {
         "publico": "Utentes do chapa na Grande Maputo",
-        "accao": "Contar com uma subida da tarifa em Novembro e acompanhar a decisão do município, que deve ser anunciada com 10 a 15 dias de antecedência."
+        "accao": "Contar com uma subida da tarifa em Novembro, entre 3 a 5 meticais (oferta da agência) e 10 a 12 (pedido dos operadores), e acompanhar a decisão antes de 1 de Novembro."
       },
       {
         "publico": "Governo",
@@ -554,8 +674,8 @@
       }
     ],
     "sinal": "Decisão dos municípios sobre a tarifa do chapa antes de 1 de Novembro, Brent acima ou abaixo de 105 dólares, boletim quinzenal da ARENE, Orçamento de 2027 no Parlamento, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.",
-    "sintese": "O Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo e os operadores querem tarifas mais altas a partir de 1 de Novembro, num momento em que o Brent fecha perto de 110 dólares e o gasóleo está a 116,25 meticais desde Maio. O El Niño e o crescimento de 0,6% em 2026 deixam famílias e contas públicas com pouca folga. Em sentido contrário, a inflação desceu para 6,31%, a Lei do Conteúdo Local foi aprovada e há 20,6 mil milhões de meticais em estradas para Inhambane e Sofala.",
-    "o_que_mudou_hoje": "Sem novas decisões oficiais desde ontem: o Brent continua perto de 110 dólares, o gasóleo a 116,25 meticais e os municípios de Maputo ainda não fixaram a tarifa do chapa. Ficou confirmado que a taxa MIMO se mantém em 9,25% desde Maio, o que limita o alívio no crédito.",
+    "sintese": "O Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo e os operadores pedem tarifas de 30 e 25 meticais a partir de 1 de Novembro, enquanto a agência metropolitana oferece 3 a 5. O Brent oscila entre 108 e 111 dólares e o gasóleo está a 116,25 meticais desde Maio. Em sentido contrário, a inflação desceu para 6,31% e a Lei do Conteúdo Local foi aprovada.",
+    "o_que_mudou_hoje": "A disputa pela tarifa do chapa ficou com números: 30 e 25 meticais pedidos pela FEMATRO, 3 a 5 de aumento oferecidos pela agência, que não aceitou a proposta. O Conselho de Ministros de 20 de Outubro subiu a aposentação obrigatória para 65 anos e confirmou a garantia soberana do Mozambique LNG. O Brent recuou para 108,31 dólares, e o gasóleo continua a 116,25 meticais.",
     "canais": [
       {
         "choque": "Petróleo a 110 dólares",
@@ -688,9 +808,9 @@
     ],
     "confianca": {
       "grau": "media",
-      "base": "Brent em fontes secundárias, fim do subsídio numa só fonte (Domingo, via Club of Mozambique), FEWS NET, ARENE; preços regionais por confirmar"
+      "base": "Brent numa fonte secundária (TT News), chapa em Domingo via Rio Times, Conselho de Ministros via MZ News e O Económico, FEWS NET via Lusa"
     },
-    "continuidade": "Face a ontem, nada mudou na tarifa do chapa nem no combustível, e a decisão dos municípios continua pendente para 1 de Novembro. Em Nampula a tarifa já está em 20 meticais desde Maio, acima dos 15 a 18 de Maputo."
+    "continuidade": "Face a ontem, a tarifa do chapa passou de pedido vago a proposta concreta, ainda sem decisão para 1 de Novembro. O combustível não mudou desde Maio e a memória mantém o Brent perto de 110 dólares há uma semana."
   },
   "design": {
     "slides": [
@@ -701,68 +821,66 @@
         "imagem_termos": "Mozambique landscape coast"
       },
       {
-        "titulo": "Fim do subsídio aos chapas",
-        "texto": "O Governo deixou de pagar o subsídio na Grande Maputo, que custou 307 milhões de meticais em três meses. Os operadores pedem tarifas novas.",
+        "titulo": "Chapa: 30 meticais ou mais 5?",
+        "texto": "A FEMATRO pede 30 e 25 meticais a partir de 1 de Novembro. A agência metropolitana oferece mais 3 a 5 e não aceitou a proposta.",
         "tom": "alerta",
         "imagem_termos": "Maputo minibus"
       },
       {
-        "titulo": "Tarifa do chapa: 5 ou 12 meticais",
-        "texto": "A FEMATRO pede mais 10 a 12 meticais, o município propõe 5. As tarifas actuais são de 15 e 18 meticais.",
-        "tom": "alerta",
-        "imagem_termos": "Maputo street"
-      },
-      {
-        "titulo": "Brent perto de 110 dólares",
-        "texto": "O petróleo fechou a 109,55 dólares na segunda-feira, depois de tocar 110. O gasóleo em Moçambique continua a 116,25 meticais.",
+        "titulo": "Brent entre 108 e 111 dólares",
+        "texto": "O petróleo recuou para 108,31 dólares a 21 de Outubro, depois de passar os 111. O gasóleo continua a 116,25 meticais.",
         "tom": "alerta",
         "imagem_termos": "oil tanker"
       },
       {
-        "titulo": "Estradas de 20,6 mil milhões",
-        "texto": "A ANE adjudicou 485 km em Inhambane e Sofala. O Governo prevê o início das obras no primeiro trimestre de 2027.",
-        "tom": "oportunidade",
-        "imagem_termos": "road construction Africa"
+        "titulo": "Reforma obrigatória aos 65 anos",
+        "texto": "O Conselho de Ministros regulamentou a Lei 10/2026: a aposentação obrigatória sobe de 60 para 65 anos, com permanência até aos 70 em carreiras estratégicas.",
+        "tom": "neutro",
+        "imagem_termos": "Maputo city"
       },
       {
-        "titulo": "Fronteira de Machipanda a concurso",
-        "texto": "A concessão do posto fronteiriço, no corredor da Beira, está em concurso. O alcance ainda não está confirmado.",
+        "titulo": "Garantia do Mozambique LNG confirmada",
+        "texto": "O Governo diz que não há garantia nova, só a confirmação da de 2020. O comunicado não traz o saldo actualizado.",
         "tom": "neutro",
-        "imagem_termos": "Beira port Mozambique"
+        "imagem_termos": "Cabo Delgado coast"
+      },
+      {
+        "titulo": "El Niño até Janeiro",
+        "texto": "A FEWS NET prevê início tardio das chuvas e até 1,99 milhões de pessoas a precisar de ajuda alimentar entre Dezembro e Janeiro.",
+        "tom": "alerta",
+        "imagem_termos": "maize field Africa"
       }
     ],
-    "manchete": "Fim do subsídio aos chapas e petróleo perto de 110 dólares",
+    "manchete": "Chapa em disputa, petróleo perto de 110 dólares e reforma aos 65 anos",
     "destaques_capa": [
-      "Governo acaba subsídio aos chapas",
-      "Brent fecha perto de 110 dólares",
-      "Estradas de 20,6 mil milhões"
+      "Chapa: pedido de 30, oferta de 3 a 5",
+      "Brent entre 108 e 111 dólares",
+      "Reforma obrigatória sobe para 65 anos"
     ],
-    "legenda": "O Governo deixou de pagar o subsídio aos chapas da Grande Maputo e os operadores pedem tarifas mais altas. O petróleo continua perto de 110 dólares. Veja o que isto muda no seu bolso e o que fazer.",
+    "legenda": "A tarifa do chapa na Grande Maputo está em disputa: os operadores pedem 30 e 25 meticais, a agência oferece mais 3 a 5. O petróleo continua perto de 110 dólares. Veja o que isto muda no seu bolso e o que fazer.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesDaSemana"
     ],
     "fontes_usadas": [
-      1,
-      3,
-      6,
-      7,
-      8
+      11,
+      12,
+      13,
+      14,
+      16
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\nO Brent fechou perto de 109,55 dólares na segunda-feira, depois de tocar os 110 na semana passada. Os ataques a petroleiros perto de Ormuz mantêm o trânsito a cerca de 70% do normal, segundo a Kpler.\n\n*MOÇAMBIQUE*\nO Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Custou 307 milhões de meticais em três meses. Os operadores querem subir as tarifas a partir de 1 de Novembro, mas ainda não há acordo com os municípios. O gasóleo continua a 116,25 meticais, sem revisão da ARENE desde 7 de Maio. A ANE adjudicou 485 quilómetros de estradas em Inhambane e Sofala por 20,6 mil milhões de meticais.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem os utentes do chapa, a classe baixa e as PMEs de transporte, que ficam sem apoio ou pagam mais. O Governo poupa, mas passa a decisão aos municípios. Ganham a construção e as empresas de energia.\n\n*DIRECÇÃO*\nQuem usa o chapa na Grande Maputo deve contar com uma subida em Novembro e orçamentar o transporte. Os municípios têm de anunciar a tarifa com 10 a 15 dias de antecedência. Transportadores e comerciantes devem guardar margem para novo aumento do combustível.\n\n*PRÓXIMA SEMANA*\nVemos a decisão sobre a tarifa antes de 1 de Novembro, o Brent acima ou abaixo de 105 dólares e o boletim da ARENE.\n\nPartilhe esta mensagem com quem apanha o chapa todos os dias.",
-    "linkedin": "O Governo deixou de pagar o subsídio de combustível ao transporte público da Grande Maputo, segundo o jornal Domingo. A medida durava três meses desde Maio e custou 307 milhões de meticais. Os operadores querem tarifas novas a partir de 1 de Novembro.\n\nA FEMATRO propõe mais 12 meticais nas rotas de 18 e mais 10 nas de 15. O Conselho Municipal de Maputo propõe mais 5. A agência metropolitana fala em 3 a 5. A FEMATRO avisa que, sem acordo, pode haver perturbações a 2 de Novembro.\n\nO pano de fundo é o petróleo: o Brent fechou perto de 109,55 dólares na segunda-feira e o gasóleo em Moçambique está a 116,25 meticais desde Maio. O crescimento de 2026 foi revisto para 0,6%, o que deixa pouca folga às famílias e às contas públicas. Em sentido contrário, a inflação desceu para 6,31% em Setembro e a ANE adjudicou 485 quilómetros de estradas em Inhambane e Sofala.\n\nDirecção: empresas com trabalhadores na Grande Maputo devem prever o custo do transporte em Novembro e Dezembro. Transportadores devem guardar margem para novo aumento do combustível. Municípios devem decidir cedo, porque qualquer subida exige aviso prévio de 10 a 15 dias.\n\nSinal a acompanhar: a decisão sobre a tarifa antes de 1 de Novembro e o Brent acima ou abaixo de 105 dólares.\n\n#Moçambique #Economia",
-    "instagram": "Acabou o subsídio aos chapas da Grande Maputo. Custou 307 milhões de meticais em três meses e os operadores pedem tarifas novas a partir de 1 de Novembro. Direcção: contar com uma subida e orçamentar o transporte. #Moçambique #DirecçõesDaSemana",
-    "facebook": "O Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Era uma medida de três meses, criada em Maio quando o gasóleo subiu 45,5%. Custou 307 milhões de meticais.\n\nOs operadores querem subir as tarifas a partir de 1 de Novembro. Hoje o chapa custa 15 ou 18 meticais. A FEMATRO pede mais 10 a 12 meticais, o município propõe mais 5. Ainda não há acordo, e qualquer subida tem de ser anunciada com 10 a 15 dias de antecedência.\n\nO combustível continua caro: o Brent fechou perto de 109,55 dólares na segunda-feira e o gasóleo está a 116,25 meticais desde Maio. Por isso a pressão sobre as tarifas não vem só do fim do subsídio.\n\nQuem perde mais são as famílias que apanham o chapa todos os dias e gastam quase tudo em comida e transporte. Há também uma boa notícia: a inflação desceu para 6,31% em Setembro.\n\nA direcção desta semana: contar com uma subida em Novembro, calcular quanto custa o transporte do mês e acompanhar a decisão do município.\n\n#Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Fim do subsídio aos chapas e petróleo perto de 110 dólares\n\n## Resumo da semana\nO Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo e os operadores pedem tarifas novas a partir de 1 de Novembro. O Brent fechou a 109,86 dólares em 16 de Outubro, perto do máximo desde Maio, e o gasóleo em Moçambique continua a 116,25 meticais desde 7 de Maio, sem revisão publicada. O crescimento de 2026 foi revisto para 0,6% e o El Niño ameaça a campanha agrícola. Em sentido contrário, a inflação desceu para 6,31% em Setembro e a ANE adjudicou estradas em Inhambane e Sofala.\n\n## O que mudou face às semanas anteriores\nNa semana passada o Brent rondava 104 dólares. Subiu cerca de 5 dólares, o que deu mais peso ao cenário de piora (de 35% para 45%).\n\n## Mundo\nNa segunda-feira, 19 de Outubro, o Brent fechou perto de 109,55 dólares, segundo fontes secundárias, quase igual ao fecho de sexta-feira. O Brent chegou a 110 dólares durante a sessão de 16 de Outubro e fechou a 109,86, com ganho de 3,7% no dia e de 4,9% na semana. No domingo recuava para cerca de 108,80. O trânsito de petróleo pelo Estreito de Ormuz está a cerca de 70% do nível anterior à guerra, segundo a Kpler, e os países da AIE acordaram libertar mais de 20 milhões de barris de gasóleo.\n\n## Moçambique\nO Governo deixou de pagar o subsídio aos operadores de transporte público de passageiros da Grande Maputo (Maputo, Matola, Boane, Marracuene, Matola-Rio, Manhiça e Namaacha), segundo o jornal Domingo. O pagamento era de 35 mil meticais por mês para minibus de 15 lugares e 141 mil para autocarros, e custou 307 milhões de meticais em três meses. As tarifas actuais são de 15 e 18 meticais. A FEMATRO propõe subir para 25 e 30, o Conselho Municipal de Maputo propõe mais 5 meticais, e a agência metropolitana sugere 3 a 5. Não há acordo, e a subida exige aviso de 10 a 15 dias. A ANE adjudicou o asfaltamento de 485 quilómetros, em nove lotes, por 20,6 mil milhões de meticais: cinco em Inhambane e quatro em Sofala, na N282. O Governo prevê mobilizar no primeiro trimestre de 2027. A concessão do posto de Machipanda está em concurso (por confirmar).\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Concessão da fronteira de Machipanda (int.); Frelimo unida em torno de Chapo (int.) | Expectativas da juventude por cumprir (int.); Direitos humanos em Cabo Delgado (int.); Julgamento de Mondlane a 17 de Novembro (int.) |\n| Económica | Crédito às empresas que exportam (int.); Inflação desce para 6,31% (int.); Estradas de 20,6 mil milhões (int.) | Brent a 110 dólares (ext.); Fim do subsídio aos chapas (int.); PIB revisto para 0,6% (int.) |\n| Social | Agenda de emprego para jovens (int.); Insegurança alimentar desce 48% (int.) | Tarifa do chapa pode subir (int.); 1,84 milhões em insegurança grave (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Subestação da EDM em Tete (int.) | Ligações solares fora da rede a cair (int.) |\n| Ambiental | Atenção internacional ao clima (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Lei do Conteúdo Local aprovada (int.); Combate à corrupção reafirmado (int.) | Julgamento sem transmissão em directo (int.) |\n\n## Como chega ao seu bolso\nFim do subsídio aos chapas: o apoio de três meses acaba, os operadores pedem tarifa maior, a tarifa do chapa sobe, sobra menos para comida. Petróleo a 110 dólares: Brent sobe, a importação de gasóleo fica mais cara, chapa e carga custam mais, a comida chega mais cara. Sente primeiro quem gasta quase tudo em comida e transporte, em semanas. Crescimento fraco: PIB revisto, crédito caro, PMEs adiam investimento, menos emprego novo, em meses. El Niño: chuva abaixo do normal, colheita menor, alimentos mais caros, em meses.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 15% | Brent abaixo de 95 dólares e abastecimento normal | Brent abaixo de 95 dólares durante duas semanas |\n| Fica igual | 40% | Brent entre 100 e 112, gasóleo a 116,25 meticais | Sem revisão da ARENE até Dezembro |\n| Piora | 45% | Brent acima de 115 ou falha de abastecimento, revisão de preços | Filas prolongadas ou anúncio de revisão |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Brent acima de 115 dólares | Média | Alto |\n| Nova falha no abastecimento de combustíveis | Média | Alto |\n| Seca do El Niño na campanha agrícola | Média | Alto |\n| Regulamento do Conteúdo Local sem regras para PMEs | Média | Médio |\n| Tensão política antes do julgamento de Mondlane | Baixa | Médio |\n\n## Horizonte\nImediato: Brent perto de 110 dólares. Em 3 meses: fim da amnistia de armas em Dezembro, regras provisórias de importação a caducar a 31 de Dezembro e início da campanha agrícola com El Niño. Em 1 ano: Orçamento de 2027 em execução, com crescimento de 1,6%, e primeiras obras das estradas.\n\n## Quem está mais exposto\nA classe baixa e os trabalhadores informais e agricultores têm exposição máxima (3) e margem mínima (1). A classe média e as PMEs têm exposição 2 e margem 2. O Governo tem exposição 2 e margem 2.\n\n## Quem ganha, quem perde\nGoverno (-1): petróleo e seca aumentam a despesa. Classe baixa (-2): comida e transporte mais caros. Classe média (-1): transporte caro e juros altos. Classe alta e investidores (+1): confiança empresarial a recuperar. ONGs e parceiros (+1): mais procura e atenção ao clima. Macroeconomia (-1): PIB revisto em baixa e petróleo caro. PMEs (-1): crédito caro e custos de transporte. Ramos de negócio (0): ganham energia, mineração, petróleo e construção; perdem transportes, agricultura e comércio de alimentos.\n\n## Direcção\nUtentes do chapa na Grande Maputo: contar com subida da tarifa em Novembro. Governo: preparar a resposta ao El Niño nos distritos de vulnerabilidade máxima. Famílias: guardar reservas de básicos e comparar preços. PMEs: perguntar ao banco pelo novo regime de crédito e ler o regulamento do Conteúdo Local. Transportadores e comerciantes: guardar margem para novo aumento e seguir os boletins da ARENE.\n\n## Direcções anteriores: o que se confirmou\nAinda não há direcções verificadas: as oito dadas até agora estão pendentes, com datas de verificação por chegar.\n\n## Sinal a acompanhar\nA decisão dos municípios sobre a tarifa do chapa antes de 1 de Novembro e uma possível paragem a 2 de Novembro. O Brent acima ou abaixo de 105 dólares nos próximos dias, o boletim da ARENE, a ordem de início das estradas até 31 de Março de 2027 e a inflação de Outubro, perto de 10 de Novembro.\n\n## Grau de confiança\nMédia. O fim do subsídio assenta numa só fonte (Domingo, via Club of Mozambique). O fecho do Brent assenta numa fonte (CNBC), a notícia das estradas numa notícia da Lusa, e faltam preços regionais e notícias nacionais de 17 e 18 de Outubro.\n\n## Fontes\nInternacional: [CNBC](https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html)\nDados oficiais: [ARENE](https://arene.org.mz/)\nImprensa nacional: [Domingo via Club of Mozambique](https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/)\nPreços e mercados: [Business Today (Brent)](https://www.businesstoday.com.my/2026/10/20/brent-slips-despite-houthi-attacks-hormuz-supply-risks/)\nImprensa económica: [Club of Mozambique](https://clubofmozambique.com/latest-news/); [Lusa via RTP](https://www.rtp.pt/noticias/economia/mocambique-adjudica-obras-em-485-km-de-estradas-de-duas-provincias-por-2928-me_n1772009)\nPreços: [FEWS NET](https://fews.net/southern-africa/mozambique/key-message-update/september-2026)",
+    "whatsapp": "*MUNDO*\nO Brent recuou para 108,31 dólares a 21 de Outubro, depois de passar os 111 de manhã. A Kpler contou pelo menos 18 ataques a petroleiros perto de Ormuz em duas semanas.\n\n*MOÇAMBIQUE*\nO Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Custou 307 milhões de meticais em três meses. A FEMATRO pede 30 e 25 meticais a partir de 1 de Novembro, a agência metropolitana oferece mais 3 a 5 e não aceitou a proposta. O gasóleo continua a 116,25 meticais, sem revisão da ARENE desde 7 de Maio. A ANE adjudicou 485 quilómetros de estradas em Inhambane e Sofala por 20,6 mil milhões de meticais. O Conselho de Ministros subiu a aposentação obrigatória para 65 anos.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem os utentes do chapa, a classe baixa e as PMEs de transporte, que ficam sem apoio ou pagam mais. O Governo poupa, mas passa a decisão aos municípios. Ganham a construção e as empresas de energia.\n\n*DIRECÇÃO*\nQuem usa o chapa na Grande Maputo deve contar com uma subida em Novembro e orçamentar o transporte. Os municípios têm de anunciar a tarifa com 10 a 15 dias de antecedência. Transportadores e comerciantes devem guardar margem para novo aumento do combustível.\n\n*PRÓXIMA SEMANA*\nVemos a decisão sobre a tarifa antes de 1 de Novembro, o Brent acima ou abaixo de 105 dólares e o boletim da ARENE.\n\nPartilhe esta mensagem com quem apanha o chapa todos os dias.",
+    "linkedin": "O Governo deixou de pagar o subsídio de combustível ao transporte público da Grande Maputo, segundo o jornal Domingo. A medida durava três meses desde Maio e custou 307 milhões de meticais. Os operadores querem tarifas novas a partir de 1 de Novembro.\n\nA FEMATRO propõe passar de 18 para 30 meticais e de 15 para 25. A agência metropolitana oferece 3 a 5 e não aceitou a proposta. A FEMATRO avisa que, sem acordo, pode haver perturbações a 2 de Novembro.\n\nO pano de fundo é o petróleo: o Brent oscilou entre 108 e 111 dólares a 21 de Outubro e o gasóleo em Moçambique está a 116,25 meticais desde Maio. O crescimento de 2026 foi revisto para 0,6%, o que deixa pouca folga às famílias e às contas públicas. Em sentido contrário, a inflação desceu para 6,31% em Setembro e a ANE adjudicou 485 quilómetros de estradas em Inhambane e Sofala.\n\nDirecção: empresas com trabalhadores na Grande Maputo devem prever o custo do transporte em Novembro e Dezembro. Transportadores devem guardar margem para novo aumento do combustível. Municípios devem decidir cedo, porque qualquer subida exige aviso prévio de 10 a 15 dias.\n\nSinal a acompanhar: a decisão sobre a tarifa antes de 1 de Novembro e o Brent acima ou abaixo de 105 dólares.\n\n#Moçambique #Economia",
+    "instagram": "Os operadores de chapa pedem 30 e 25 meticais a partir de 1 de Novembro e a agência oferece mais 3 a 5. O subsídio acabou. Direcção: contar com uma subida e orçamentar o transporte. #Moçambique #DirecçõesDaSemana",
+    "facebook": "O Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo. Era uma medida de três meses, criada em Maio quando o gasóleo subiu 45,5%. Custou 307 milhões de meticais.\n\nOs operadores querem subir as tarifas a partir de 1 de Novembro. Hoje o chapa custa 15 ou 18 meticais. A FEMATRO pede 30 e 25 meticais, a agência metropolitana oferece mais 3 a 5. Ainda não há acordo, e qualquer subida tem de ser anunciada com 10 a 15 dias de antecedência.\n\nO combustível continua caro: o Brent oscilou entre 108 e 111 dólares e o gasóleo está a 116,25 meticais desde Maio. Por isso a pressão sobre as tarifas não vem só do fim do subsídio.\n\nQuem perde mais são as famílias que apanham o chapa todos os dias e gastam quase tudo em comida e transporte. Há também uma boa notícia: a inflação desceu para 6,31% em Setembro.\n\nA direcção desta semana: contar com uma subida em Novembro, calcular quanto custa o transporte do mês e acompanhar a decisão do município.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Fim do subsídio aos chapas e petróleo perto de 110 dólares\n\n## Resumo da semana\nO Governo deixou de pagar o subsídio de combustível aos chapas da Grande Maputo e os operadores pedem tarifas novas a partir de 1 de Novembro. O Brent fechou a 109,86 dólares em 16 de Outubro, perto do máximo desde Maio, e o gasóleo em Moçambique continua a 116,25 meticais desde 7 de Maio, sem revisão publicada. O crescimento de 2026 foi revisto para 0,6% e o El Niño ameaça a campanha agrícola. Em sentido contrário, a inflação desceu para 6,31% em Setembro e a ANE adjudicou estradas em Inhambane e Sofala.\n\n## O que mudou face às semanas anteriores\nA disputa pela tarifa do chapa ganhou números: a FEMATRO pede 30 e 25 meticais e a agência oferece mais 3 a 5. O Conselho de Ministros de 20 de Outubro subiu a aposentação obrigatória para 65 anos e confirmou a garantia soberana do Mozambique LNG, sem nova garantia e sem saldo actualizado. O Brent está entre 108 e 111 dólares. Na semana passada o Brent rondava 104 dólares. Subiu cerca de 5 dólares, o que deu mais peso ao cenário de piora (de 35% para 45%).\n\n## Mundo\nA 21 de Outubro o Brent recuou 0,4% para 108,31 dólares depois de passar os 111 de manhã, segundo a TT News, e o mês oscilou entre 97 e 112. Na segunda-feira, 19 de Outubro, o Brent fechou perto de 109,55 dólares, segundo fontes secundárias, quase igual ao fecho de sexta-feira. O Brent chegou a 110 dólares durante a sessão de 16 de Outubro e fechou a 109,86, com ganho de 3,7% no dia e de 4,9% na semana. No domingo recuava para cerca de 108,80. O trânsito de petróleo pelo Estreito de Ormuz está a cerca de 70% do nível anterior à guerra, segundo a Kpler, e os países da AIE acordaram libertar mais de 20 milhões de barris de gasóleo.\n\n## Moçambique\nA FEMATRO propõe 30 e 25 meticais a partir de 1 de Novembro e avisa de perturbação a 2 de Novembro. A agência metropolitana ouviu e não aceitou, e oferece 3 a 5 meticais. O Orçamento de 2027 prevê despesa de 511 mil milhões de meticais, menos 1,8% em termos nominais. O Governo deixou de pagar o subsídio aos operadores de transporte público de passageiros da Grande Maputo (Maputo, Matola, Boane, Marracuene, Matola-Rio, Manhiça e Namaacha), segundo o jornal Domingo. O pagamento era de 35 mil meticais por mês para minibus de 15 lugares e 141 mil para autocarros, e custou 307 milhões de meticais em três meses. As tarifas actuais são de 15 e 18 meticais. A FEMATRO propõe subir para 25 e 30, o Conselho Municipal de Maputo propõe mais 5 meticais, e a agência metropolitana sugere 3 a 5. Não há acordo, e a subida exige aviso de 10 a 15 dias. A ANE adjudicou o asfaltamento de 485 quilómetros, em nove lotes, por 20,6 mil milhões de meticais: cinco em Inhambane e quatro em Sofala, na N282. O Governo prevê mobilizar no primeiro trimestre de 2027. A concessão do posto de Machipanda está em concurso (por confirmar).\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Concessão da fronteira de Machipanda (int.); Frelimo unida em torno de Chapo (int.) | Expectativas da juventude por cumprir (int.); Direitos humanos em Cabo Delgado (int.); Julgamento de Mondlane a 17 de Novembro (int.) |\n| Económica | Crédito às empresas que exportam (int.); Inflação desce para 6,31% (int.); Estradas de 20,6 mil milhões (int.) | Brent a 110 dólares (ext.); Fim do subsídio aos chapas (int.); PIB revisto para 0,6% (int.) |\n| Social | Agenda de emprego para jovens (int.); Insegurança alimentar desce 48% (int.) | Tarifa do chapa pode subir (int.); 1,84 milhões em insegurança grave (int.); Só 30% de electrificação rural (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Subestação da EDM em Tete (int.) | Ligações solares fora da rede a cair (int.) |\n| Ambiental | Atenção internacional ao clima (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Lei do Conteúdo Local aprovada (int.); Reforma obrigatória aos 65 anos (int.); Combate à corrupção reafirmado (int.) | Julgamento sem transmissão em directo (int.) |\n\n## Como chega ao seu bolso\nFim do subsídio aos chapas: o apoio de três meses acaba, os operadores pedem tarifa maior, a tarifa do chapa sobe, sobra menos para comida. Petróleo a 110 dólares: Brent sobe, a importação de gasóleo fica mais cara, chapa e carga custam mais, a comida chega mais cara. Sente primeiro quem gasta quase tudo em comida e transporte, em semanas. Crescimento fraco: PIB revisto, crédito caro, PMEs adiam investimento, menos emprego novo, em meses. El Niño: chuva abaixo do normal, colheita menor, alimentos mais caros, em meses.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 15% | Brent abaixo de 95 dólares e abastecimento normal | Brent abaixo de 95 dólares durante duas semanas |\n| Fica igual | 40% | Brent entre 100 e 112, gasóleo a 116,25 meticais | Sem revisão da ARENE até Dezembro |\n| Piora | 45% | Brent acima de 115 ou falha de abastecimento, revisão de preços | Filas prolongadas ou anúncio de revisão |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Brent acima de 115 dólares | Média | Alto |\n| Nova falha no abastecimento de combustíveis | Média | Alto |\n| Seca do El Niño na campanha agrícola | Média | Alto |\n| Regulamento do Conteúdo Local sem regras para PMEs | Média | Médio |\n| Tensão política antes do julgamento de Mondlane | Baixa | Médio |\n\n## Horizonte\nImediato: Brent perto de 110 dólares. Em 3 meses: fim da amnistia de armas em Dezembro, regras provisórias de importação a caducar a 31 de Dezembro e início da campanha agrícola com El Niño. Em 1 ano: Orçamento de 2027 em execução, com crescimento de 1,6%, e primeiras obras das estradas.\n\n## Quem está mais exposto\nA classe baixa e os trabalhadores informais e agricultores têm exposição máxima (3) e margem mínima (1). A classe média e as PMEs têm exposição 2 e margem 2. O Governo tem exposição 2 e margem 2.\n\n## Quem ganha, quem perde\nGoverno (-1): petróleo e seca aumentam a despesa. Classe baixa (-2): comida e transporte mais caros. Classe média (-1): transporte caro e juros altos. Classe alta e investidores (+1): confiança empresarial a recuperar. ONGs e parceiros (+1): mais procura e atenção ao clima. Macroeconomia (-1): PIB revisto em baixa e petróleo caro. PMEs (-1): crédito caro e custos de transporte. Ramos de negócio (0): ganham energia, mineração, petróleo e construção; perdem transportes, agricultura e comércio de alimentos.\n\n## Direcção\nUtentes do chapa na Grande Maputo: contar com subida da tarifa em Novembro. Governo: preparar a resposta ao El Niño nos distritos de vulnerabilidade máxima. Famílias: guardar reservas de básicos e comparar preços. PMEs: perguntar ao banco pelo novo regime de crédito e ler o regulamento do Conteúdo Local. Transportadores e comerciantes: guardar margem para novo aumento e seguir os boletins da ARENE.\n\n## Direcções anteriores: o que se confirmou\nAinda não há direcções verificadas: as oito dadas até agora estão pendentes, com datas de verificação por chegar.\n\n## Sinal a acompanhar\nA decisão dos municípios sobre a tarifa do chapa antes de 1 de Novembro e uma possível paragem a 2 de Novembro. O Brent acima ou abaixo de 105 dólares nos próximos dias, o boletim da ARENE, a ordem de início das estradas até 31 de Março de 2027 e a inflação de Outubro, perto de 10 de Novembro.\n\n## Grau de confiança\nMédia. O fim do subsídio assenta numa só fonte (Domingo, via Club of Mozambique). O fecho do Brent assenta numa fonte (CNBC), a notícia das estradas numa notícia da Lusa, e faltam preços regionais e notícias nacionais de 17 e 18 de Outubro.\n\n## Fontes\nInternacional: [CNBC](https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html)\nDados oficiais: [ARENE](https://arene.org.mz/)\nImprensa nacional: [Domingo via Club of Mozambique](https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/)\nPreços e mercados: [Business Today (Brent)](https://www.businesstoday.com.my/2026/10/20/brent-slips-despite-houthi-attacks-hormuz-supply-risks/)\nImprensa económica: [Club of Mozambique](https://clubofmozambique.com/latest-news/); [Lusa via RTP](https://www.rtp.pt/noticias/economia/mocambique-adjudica-obras-em-485-km-de-estradas-de-duas-provincias-por-2928-me_n1772009)\nPreços: [FEWS NET](https://fews.net/southern-africa/mozambique/key-message-update/september-2026)\nInternacional: [TT News](https://www.ttnews.com/articles/oil-prices-risk-hormuz)\nDados oficiais: [MZ News, Conselho de Ministros](https://mznews.co.mz/conselho-de-ministros-regulamenta-lei-de-reforma-obrigatoria-no-estado-para-a-administracao-publica/)\nImprensa económica: [O Económico](https://www.oeconomico.com/mozambique-lng-governo-mantem-garantia-soberana-associada-a-us-225-mil-milhoes-apos-revisao-financeira/)\nPreços: [FEWS NET via Lusa](https://aman-alliance.org/Home/ContentDetail/104882)",
     "verificar": [
-      "Fim do subsídio aos chapas e tarifas propostas (só Domingo, via Club of Mozambique)",
-      "Brent a 109,55 dólares em 19 de Outubro (fonte secundária)",
-      "Valores e datas da adjudicação das estradas (Lusa, página sem data)",
-      "Boletim quinzenal da ARENE de 1 a 15 de Outubro, não lido",
-      "Categorias de fontes não consultadas hoje: analise_independente",
-      "⚠️ Categorias de fontes não consultadas hoje: imprensa_nacional, humanitario"
+      "Tarifas propostas pela FEMATRO e oferta da agência (Domingo, via Rio Times)",
+      "Brent a 108,31 dólares em 21 de Outubro (TT News, valor intradiário)",
+      "Idade de aposentação e garantia do LNG (MZ News e O Económico, por confirmar no comunicado)",
+      "Boletim quinzenal da ARENE de 1 a 15 de Outubro, não lido"
     ],
     "duvidas": [],
     "conformidade": [
@@ -832,59 +950,5 @@
         "nota": "Incluído na análise completa"
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Lillian Benny / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Maurits Vermeulen / Wikimedia Commons, CC BY-SA 2.0",
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Tunesh247 / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: United Kingdom Hydrographic Office / Wikimedia Commons, Public domain"
-    ],
-    "v": 1792549439150
   }
 }
