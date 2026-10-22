@@ -21,12 +21,17 @@
       "em": "2026-10-22T02:19:07.515Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-10-22T02:15:29.595Z"
+      "estado": "à espera",
+      "msg": "Post do dia à espera da sua aprovação",
+      "em": "2026-10-22T02:20:19.630Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-22T02:20:19.630Z",
+      "agente": "aprovacao",
+      "msg": "Post do dia à espera da sua aprovação"
+    },
     {
       "em": "2026-10-22T02:19:07.515Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-19T02:16:22.995Z",
       "agente": "editor",
       "msg": "Direcção do Dia: Estradas de Sofala e Inhambane: obras a tempo ou atrasadas"
-    },
-    {
-      "em": "2026-10-19T02:16:14.999Z",
-      "agente": "editor",
-      "msg": "Textos e post do dia sobre as estradas de Sofala"
     }
   ],
-  "actualizado": "2026-10-22T02:19:07.515Z",
+  "actualizado": "2026-10-22T02:20:19.630Z",
   "semana": "2026-S43",
   "dia": "2026-10-22",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
