@@ -6,9 +6,9 @@
       "em": "2026-10-22T16:58:16.209Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "Manter a análise de hoje, sem sugestões novas",
-      "em": "2026-10-22T16:58:18.674Z"
+      "estado": "pronto",
+      "msg": "Edição mantida, sem sugestões novas",
+      "em": "2026-10-22T16:58:20.998Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-22T16:58:20.998Z",
+      "agente": "analise",
+      "msg": "Edição mantida, sem sugestões novas"
+    },
     {
       "em": "2026-10-22T16:58:18.674Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-20T02:29:34.720Z",
       "agente": "design",
       "msg": "Capa e 5 slides"
-    },
-    {
-      "em": "2026-10-20T02:29:33.369Z",
-      "agente": "editor",
-      "msg": "A preparar o post do dia"
     }
   ],
-  "actualizado": "2026-10-22T16:58:18.674Z",
+  "actualizado": "2026-10-22T16:58:20.998Z",
   "semana": "2026-S43",
   "dia": "2026-10-22",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/5",
