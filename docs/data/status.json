@@ -2,31 +2,36 @@
   "estagios": {
     "fontes": {
       "estado": "pronto",
-      "msg": "6 itens novos e 1 actualização",
-      "em": "2026-10-22T02:16:51.366Z"
+      "msg": "A preparar a revisão…",
+      "em": "2026-10-22T16:25:28.856Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "Análise e memória gravadas",
-      "em": "2026-10-22T02:17:07.878Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-22T16:25:28.856Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "Capa e 5 notícias",
-      "em": "2026-10-22T02:17:19.204Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-22T16:25:28.856Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-10-22T02:19:07.515Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-10-22T16:25:28.856Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "Post do dia à espera da sua aprovação",
-      "em": "2026-10-22T02:20:19.630Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-10-22T16:25:28.856Z"
     }
   },
   "log": [
+    {
+      "em": "2026-10-22T16:25:28.856Z",
+      "agente": "fontes",
+      "msg": "A preparar a revisão…"
+    },
     {
       "em": "2026-10-22T02:20:19.630Z",
       "agente": "aprovacao",
@@ -221,14 +226,9 @@
       "em": "2026-10-19T02:16:22.995Z",
       "agente": "editor",
       "msg": "Edição versão 1 montada"
-    },
-    {
-      "em": "2026-10-19T02:16:22.995Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: Estradas de Sofala e Inhambane: obras a tempo ou atrasadas"
     }
   ],
-  "actualizado": "2026-10-22T02:20:19.630Z",
+  "actualizado": "2026-10-22T16:25:28.856Z",
   "semana": "2026-S43",
   "dia": "2026-10-22",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/4",
