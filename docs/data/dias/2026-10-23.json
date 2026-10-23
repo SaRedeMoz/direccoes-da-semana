@@ -1,0 +1,259 @@
+{
+  "tipo": "dia",
+  "tema": "El Niño e o fim da ajuda alimentar: o que acontece em Janeiro",
+  "pergunta": "A ajuda alimentar vai diminuir quando o El Niño apertar?",
+  "facto": {
+    "texto": "O PAM diz que só mantém a assistência actual até Dezembro e prevê cortes a partir de Janeiro de 2027, se não chegar dinheiro novo. Em Maio assistiu 427.008 pessoas. A FEWS NET calcula que 1,5 a 1,99 milhões precisam de ajuda alimentar entre Dezembro e Janeiro.",
+    "numeros": [
+      {
+        "valor": "427.008",
+        "legenda": "pessoas assistidas pelo PAM"
+      },
+      {
+        "valor": "129,3 M USD",
+        "legenda": "necessários de Maio a Outubro"
+      },
+      {
+        "valor": "1,5 a 1,99 M",
+        "legenda": "precisam de ajuda, Dez a Jan"
+      }
+    ],
+    "fonte": "PAM via Lusa/RTP (2026); FEWS NET via Lusa (2026); UNICEF (31 Jul 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Mar",
+      "texto": "PAM reduz o programa por falta de financiamento",
+      "futuro": false
+    },
+    {
+      "data": "Jun",
+      "texto": "INAM: El Niño fraco, com evolução provável até Janeiro",
+      "futuro": false
+    },
+    {
+      "data": "31 Jul",
+      "texto": "UNICEF: El Niño intensifica-se, pico no fim de 2026",
+      "futuro": false
+    },
+    {
+      "data": "22 Out",
+      "texto": "PAM só garante a ajuda actual até Dezembro",
+      "futuro": false
+    },
+    {
+      "data": "Dez",
+      "texto": "FEWS NET: 1,5 a 1,99 milhões precisam de ajuda",
+      "futuro": true
+    },
+    {
+      "data": "Jan",
+      "texto": "Cortes do PAM previstos sem fundos novos",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Época agrícola 2015/16",
+    "o_que_aconteceu": "Em Janeiro de 2016 o número oficial era 176 mil pessoas em Crise, a FEWS NET estimava perto de 600 mil e em Maio chegou a 755 mil. Em Agosto, o plano de resposta tinha 38,2% do dinheiro.",
+    "licao": "Os números oficiais ficaram aquém da crise e o financiamento ficou abaixo de 40%.",
+    "fonte": "FEWS NET (Jan e Mai 2016); Coordenador Residente da ONU (Ago 2016)"
+  },
+  "porque_importa": "Quem já depende da ajuda em Cabo Delgado e nas zonas afectadas por cheias não tem outra fonte de comida garantida em Janeiro. É também a época em que as reservas das famílias baixam e o novo milho ainda não chegou. Se a chuva falhar no Sul e no Centro, a pressão cresce nos mercados e no orçamento do Estado.",
+  "canal": {
+    "passos": [
+      "Chuva tardia no Sul e Centro",
+      "Menos milho colhido em Março",
+      "Famílias compram mais no mercado",
+      "Preço do milho sobe",
+      "Ajuda do PAM já reduzida"
+    ],
+    "quem_sente": "Agricultores de sequeiro, deslocados e classe baixa urbana"
+  },
+  "conta": {
+    "titulo": "Quanto custaria cobrir quem precisa",
+    "pressupostos": "Custo médio implícito do PAM: 129,3 M USD por 427.008 pessoas em 6 meses, cerca de 50 USD por pessoa e mês. Estimativa nossa.",
+    "barras": [
+      {
+        "rotulo": "Ritmo actual do PAM",
+        "valor": 21.6,
+        "texto": "21,6 M USD/mês"
+      },
+      {
+        "rotulo": "Cobrir 1,5 milhões",
+        "valor": 75.7,
+        "texto": "75,7 M USD/mês"
+      },
+      {
+        "rotulo": "Cobrir 1,99 milhões",
+        "valor": 100.4,
+        "texto": "100,4 M USD/mês"
+      }
+    ],
+    "unidade": "milhões de dólares por mês",
+    "conclusao": "Cobrir todos os que precisam custaria 3,5 a 4,7 vezes o ritmo de gasto actual do PAM."
+  },
+  "cenarios": [
+    {
+      "nome": "Falha de chuva e corte em Janeiro",
+      "tipo": "piora",
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2016 o plano teve 38,2% do dinheiro. INAM e FEWS NET dão chuva abaixo da média como cenário mais provável.",
+      "gatilho": "Sem chuva útil até 30 de Novembro e sem fundos novos para o PAM",
+      "o_que_acontece": "A colheita de Março é fraca, as reservas acabam mais cedo e o PAM reduz a ajuda quando a procura sobe.",
+      "numeros": "Mais de 2,3 milhões a precisar de ajuda, como na projecção de 2016/17",
+      "quando": "Janeiro a Março de 2027",
+      "ganha": "Comerciantes com stock de cereais",
+      "perde": "Agricultores de sequeiro e deslocados",
+      "se_acontecer": "Antecipar compras de milho e sementes e pedir ajuda ao município e ao INGD."
+    },
+    {
+      "nome": "Seca moderada, ajuda à justa",
+      "tipo": "fica_igual",
+      "probabilidade": 40,
+      "porque_probabilidade": "Os doadores costumam financiar uma parte da resposta. O apelo da ONU tinha 34% a meio do ano.",
+      "gatilho": "Chuva abaixo da média, mas com apelo de emergência parcialmente financiado até Dezembro",
+      "o_que_acontece": "O PAM concentra a ajuda nos distritos mais críticos e deixa de fora quem está em Stress.",
+      "numeros": "1,5 a 1,99 milhões a precisar de ajuda",
+      "quando": "Dezembro de 2026 a Março de 2027",
+      "ganha": "Zonas com prioridade de ajuda",
+      "perde": "Famílias fora da lista de beneficiários",
+      "se_acontecer": "Registar-se junto do município e guardar reservas de básicos."
+    },
+    {
+      "nome": "Chuva regular e fundos repostos",
+      "tipo": "melhora",
+      "probabilidade": 15,
+      "porque_probabilidade": "O INAM prevê chuva mais regular no Norte, mas não no Sul e Centro, onde o risco é maior.",
+      "gatilho": "Chuva regular a partir de Novembro e financiamento anunciado para 2027",
+      "o_que_acontece": "A época agrícola arranca a tempo e os fundos repostos evitam o corte.",
+      "numeros": "Menos de 1,5 milhões a precisar de ajuda",
+      "quando": "Até Março de 2027",
+      "ganha": "Famílias rurais do Sul e do Centro",
+      "perde": "Quem comprou insumos em excesso",
+      "se_acontecer": "Manter as reservas, mas semear normalmente."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Chuva útil no Sul e no Centro",
+      "limiar": "Sem chuva útil até 30 de Novembro",
+      "quando": "30 de Novembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Financiamento do PAM para 2027",
+      "limiar": "Sem anúncio de fundos novos até 15 de Dezembro",
+      "quando": "15 de Dezembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Preço do milho face a há um ano",
+      "limiar": "Passar de 15,6% abaixo para acima do nível homólogo",
+      "quando": "Fevereiro de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Apelo humanitário da ONU de 348 milhões",
+      "limiar": "Financiamento acima de 60%, hoje 34%",
+      "quando": "Dezembro de 2026",
+      "aponta_para": "melhora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Agricultores de sequeiro do Sul e Centro",
+      "saldo": -2,
+      "porque": "menos colheita e menos ajuda"
+    },
+    {
+      "grupo": "Deslocados de Cabo Delgado",
+      "saldo": -2,
+      "porque": "dependem da ajuda do PAM"
+    },
+    {
+      "grupo": "Classe baixa urbana",
+      "saldo": -1,
+      "porque": "milho e arroz mais caros"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "mais despesa de resposta"
+    },
+    {
+      "grupo": "ONGs e parceiros",
+      "saldo": -1,
+      "porque": "mais procura, menos fundos"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias rurais do Sul e Centro",
+      "agora": "Guardar milho e arroz e comprar sementes cedo, antes da confirmação da chuva.",
+      "se_piorar": "Registar-se junto do município para receber ajuda."
+    },
+    {
+      "publico": "Famílias urbanas pobres",
+      "agora": "Comparar preços de milho e arroz e comprar com folga se o preço estiver baixo.",
+      "se_piorar": "Reduzir compras de produtos não essenciais."
+    },
+    {
+      "publico": "Governo e INGD",
+      "agora": "Definir até Dezembro quem fica coberto em Janeiro e onde.",
+      "se_piorar": "Priorizar os distritos de máxima vulnerabilidade."
+    },
+    {
+      "publico": "ONGs e parceiros",
+      "agora": "Planear a redução de Janeiro e concentrar a ajuda nas zonas mais críticas.",
+      "se_piorar": "Pedir fundos de emergência com os dados da FEWS NET."
+    }
+  ],
+  "visao_contraria": "O milho está 15,6% mais barato que há um ano e a insegurança alimentar grave desceu 48% de Agosto a Setembro. O ano pode correr melhor do que os avisos.",
+  "nao_sabemos": [
+    "O PAM não diz quantas pessoas perde em Janeiro.",
+    "A previsão sazonal oficial do INAM não foi encontrada.",
+    "O custo médio por pessoa é estimativa nossa, não valor do PAM."
+  ],
+  "sinal": "Chuva útil no Sul e no Centro até 30 de Novembro e financiamento do PAM para 2027 até 15 de Dezembro.",
+  "confianca": "media",
+  "base_confianca": "PAM, FEWS NET, UNICEF e FEWS NET de 2016, mas a data do comunicado do PAM não está confirmada e o custo por pessoa é estimativa.",
+  "textos": {
+    "whatsapp": "*O QUE ACONTECEU*\nO Programa Alimentar Mundial (PAM) avisou que só consegue manter a ajuda actual em Moçambique até Dezembro. Se não chegar dinheiro novo, vêm cortes a partir de Janeiro de 2027. Em Maio, o PAM chegou a 427.008 pessoas. Ao mesmo tempo, a FEWS NET calcula que 1,5 a 1,99 milhões de pessoas vão precisar de ajuda alimentar entre Dezembro e Janeiro, e o INAM e a UNICEF esperam chuva abaixo do normal no Sul e no Centro.\n\n*COMO CHEGA AO SEU BOLSO*\nChuva tardia dá menos milho em Março e Abril. Com menos milho e menos ajuda, as famílias compram mais no mercado, e o preço sobe.\n\n*TRÊS CENÁRIOS*\nPiora, 45%: a chuva falha no Sul e no Centro e o PAM corta em Janeiro. Mais de 2,3 milhões precisam de ajuda até Março de 2027. Em 2016 o plano de resposta tinha só 38,2% do dinheiro em Agosto.\nFica igual, 40%: seca moderada e dinheiro que chega à justa. Entre 1,5 e 1,99 milhões precisam de ajuda e o PAM mantém o ritmo até Março.\nMelhora, 15%: a chuva chega perto do normal e os doadores repõem fundos. Menos de 1,5 milhões precisam de ajuda.\n\n*A CONTA*\nSe a ajuda fosse alargada a todos os que precisam, ao custo médio actual de cerca de 50 dólares por pessoa e por mês, o gasto seria de 76 a 100 milhões de dólares por mês. Hoje o PAM gasta cerca de 21,6 milhões. É 3,5 a 4,7 vezes mais. O custo médio é estimativa nossa.\n\n*A OUTRA VISÃO*\nO milho está 15,6% mais barato do que há um ano e a insegurança alimentar grave desceu em Setembro. Pode ser que o ano corra melhor do que os avisos.\n\n*DIRECÇÃO*\nFamílias do Sul e do Centro: guardem milho e arroz desde já e comprem sementes cedo. Governo e parceiros: definam até meados de Dezembro quem fica coberto em Janeiro. Se a chuva não chegar até 30 de Novembro, antecipem as compras.\n\nPartilhe com quem vive do campo.",
+    "instagram": "A ajuda alimentar pode cair em Janeiro, quando o El Niño aperta. O PAM só garante o nível actual até Dezembro. A FEWS NET espera 1,5 a 1,99 milhões a precisar de ajuda. Guarde milho e arroz e acompanhe a chuva até 30 de Novembro. #Moçambique #DirecçõesDaSemana",
+    "facebook": "A ajuda alimentar em Moçambique pode diminuir justamente quando o El Niño chega.\n\nO Programa Alimentar Mundial diz que só mantém a assistência actual até Dezembro. Se não vier dinheiro novo, haverá cortes a partir de Janeiro de 2027. Em Maio, o PAM chegou a 427.008 pessoas.\n\nAo mesmo tempo, a FEWS NET calcula que 1,5 a 1,99 milhões de pessoas vão precisar de ajuda entre Dezembro e Janeiro. O INAM e a UNICEF esperam chuva abaixo do normal no Sul e no Centro.\n\nEm 2016, com outro El Niño, o número oficial de pessoas em Crise era 176 mil em Janeiro e a FEWS NET já falava em perto de 600 mil. Em Agosto, o plano de resposta tinha só 38,2% do dinheiro.\n\nOs nossos cenários até Março: piora 45%, fica igual 40%, melhora 15%. O milho está 15,6% mais barato do que há um ano, o que dá algum alívio, mas não resolve a falta de chuva.\n\nO que fazer: quem vive no Sul e no Centro deve guardar milho e arroz e comprar sementes cedo. O sinal a seguir é a chuva até 30 de Novembro. Se não vier, a situação de Janeiro será mais séria.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "O Programa Alimentar Mundial avisou que só mantém a ajuda actual em Moçambique até Dezembro, com cortes previstos a partir de Janeiro de 2027 se não houver fundos novos. Em Maio chegou a 427.008 pessoas e precisa de 129,3 milhões de dólares para Maio a Outubro.\n\nO risco sobe porque o El Niño chega no mesmo momento. A FEWS NET calcula que 1,5 a 1,99 milhões de pessoas vão precisar de ajuda alimentar entre Dezembro e Janeiro. O INAM e a UNICEF esperam chuva abaixo do normal no Sul e no Centro.\n\nO precedente é 2016. Em Janeiro daquele ano o número oficial era 176 mil pessoas em Crise, a FEWS NET já estimava perto de 600 mil e em Maio chegou a 755 mil. Em Agosto, o plano de resposta tinha 38,2% do financiamento.\n\nCenários até Março de 2027: piora com 45%, em que a chuva falha e o PAM corta, com mais de 2,3 milhões a precisar de ajuda. Fica igual com 40%, com 1,5 a 1,99 milhões. Melhora com 15%, com menos de 1,5 milhões.\n\nA conta: alargar a ajuda a todos os que precisam, ao custo médio actual de cerca de 50 dólares por pessoa e por mês, custaria 76 a 100 milhões de dólares por mês, contra os cerca de 21,6 milhões de hoje. O custo médio é estimativa nossa.\n\nA visão contrária merece peso: o milho está 15,6% mais barato do que há um ano e a insegurança alimentar grave desceu em Setembro.\n\nDirecção: governos e parceiros devem definir até meados de Dezembro quem fica coberto em Janeiro. Empresas com cadeias agrícolas no Sul e no Centro devem rever stocks antes de Março. A chuva até 30 de Novembro dirá qual dos cenários se confirma."
+  },
+  "fontes": [
+    {
+      "fonte": "RTP/Lusa, PAM em Moçambique",
+      "url": "https://www.rtp.pt/noticias/lusa/pam-assistiu-mais-de-427000-pessoas-em-mocambique-entre-abril-e-maio_n1751883",
+      "data": "2026"
+    },
+    {
+      "fonte": "UNICEF, Relatório de Situação Humanitária n.º 7",
+      "url": "https://www.unicef.org/media/184421/file/Mozambique-Humanitarian-Situation-Report-No.7,31-July-2026.pdf.pdf",
+      "data": "2026-07-31"
+    },
+    {
+      "fonte": "FEWS NET, Moçambique, Maio de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/key-message-update/may-2016",
+      "data": "2016-05"
+    },
+    {
+      "fonte": "FEWS NET, Moçambique, Janeiro de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/key-message-update/january-2016",
+      "data": "2016-01"
+    },
+    {
+      "fonte": "AIM, previsão da época chuvosa 2026/2027",
+      "url": "https://aimnews.org/2026/05/19/mocambique-podera-enfrentar-seca-no-sul-e-cheias-no-norte-epoca-chuvosa-e-ciclonica-2026-2027/",
+      "data": "2026-05-19"
+    }
+  ],
+  "data": "2026-10-23",
+  "dia_semana": "sexta",
+  "semana": "2026-S43",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

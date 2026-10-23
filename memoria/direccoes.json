@@ -178,5 +178,41 @@
     "verificar_em": "2026-11-22",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D16",
+    "data": "2026-10-23",
+    "semana": "2026-S43",
+    "publico": "Famílias rurais e urbanas pobres",
+    "accao": "Guardar reservas de milho e arroz antes de Janeiro, quando a ajuda pode diminuir.",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-31",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D17",
+    "data": "2026-10-23",
+    "semana": "2026-S43",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Contar com tarifa mais alta em Novembro e acompanhar a reunião de 26 de Outubro.",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-02",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D18",
+    "data": "2026-10-23",
+    "semana": "2026-S43",
+    "publico": "ONGs e parceiros",
+    "accao": "Concentrar a ajuda nas zonas de maior vulnerabilidade e planear a redução de Janeiro.",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

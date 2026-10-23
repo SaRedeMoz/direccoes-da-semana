@@ -250,6 +250,13 @@
         "fonte": "TT News",
         "url": "https://www.ttnews.com/articles/oil-prices-risk-hormuz",
         "nota": "Cotação na sessão de 21 de Outubro"
+      },
+      {
+        "data": "2026-10-22",
+        "valor": 111.24,
+        "fonte": "Korea Times (futuros, a meio da sessão)",
+        "url": "https://www.koreatimes.co.kr/world/20261023/oil-hits-5-month-high-as-houthi-attacks-stoke-supply-fears",
+        "nota": "Valor intradiário, não é fecho"
       }
     ]
   }

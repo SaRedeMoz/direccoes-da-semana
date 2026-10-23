@@ -1,315 +1,259 @@
 {
   "tipo": "dia",
-  "tema": "Gasóleo a 116,25 meticais: haverá nova revisão da ARENE?",
-  "pergunta": "O gasóleo vai voltar a subir antes do fim do ano?",
+  "tema": "El Niño e o fim da ajuda alimentar: o que acontece em Janeiro",
+  "pergunta": "A ajuda alimentar vai diminuir quando o El Niño apertar?",
   "facto": {
-    "texto": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5% face aos 79,88 anteriores. O Brent fechou a 109,86 dólares em 16 de Outubro, o valor mais alto desde Maio, e a 21 de Outubro andava entre 108 e 111. Nenhuma revisão foi publicada desde Maio.",
+    "texto": "O PAM diz que só mantém a assistência actual até Dezembro e prevê cortes a partir de Janeiro de 2027, se não chegar dinheiro novo. Em Maio assistiu 427.008 pessoas. A FEWS NET calcula que 1,5 a 1,99 milhões precisam de ajuda alimentar entre Dezembro e Janeiro.",
     "numeros": [
       {
-        "valor": "116,25 MT",
-        "legenda": "gasóleo por litro desde Maio"
+        "valor": "427.008",
+        "legenda": "pessoas assistidas pelo PAM"
       },
       {
-        "valor": "+45,5%",
-        "legenda": "subida de 7 de Maio"
+        "valor": "129,3 M USD",
+        "legenda": "necessários de Maio a Outubro"
       },
       {
-        "valor": "108 a 111 USD",
-        "legenda": "Brent a 21 de Outubro"
+        "valor": "1,5 a 1,99 M",
+        "legenda": "precisam de ajuda, Dez a Jan"
       }
     ],
-    "fonte": "ARENE via 360 Mozambique (7 Maio 2026); CNBC (16 Out); TT News (21 Out)"
+    "fonte": "PAM via Lusa/RTP (2026); FEWS NET via Lusa (2026); UNICEF (31 Jul 2026)"
   },
   "linha_do_tempo": [
     {
-      "data": "7 Mai",
-      "texto": "Gasóleo sobe 45,5% para 116,25 meticais",
+      "data": "Mar",
+      "texto": "PAM reduz o programa por falta de financiamento",
       "futuro": false
     },
     {
-      "data": "8 Mai",
-      "texto": "Operadores de chapa param em Maputo e Matola",
+      "data": "Jun",
+      "texto": "INAM: El Niño fraco, com evolução provável até Janeiro",
       "futuro": false
     },
     {
-      "data": "3 Ago",
-      "texto": "Governo cria facilidade de até 50 milhões de dólares para importar combustível",
+      "data": "31 Jul",
+      "texto": "UNICEF: El Niño intensifica-se, pico no fim de 2026",
       "futuro": false
     },
     {
-      "data": "21 Out",
-      "texto": "Brent oscila entre 108 e 111 dólares",
+      "data": "22 Out",
+      "texto": "PAM só garante a ajuda actual até Dezembro",
       "futuro": false
     },
     {
-      "data": "1 Nov",
-      "texto": "Operadores querem chapa a 30 e 25 meticais",
+      "data": "Dez",
+      "texto": "FEWS NET: 1,5 a 1,99 milhões precisam de ajuda",
       "futuro": true
     },
     {
-      "data": "30 Nov",
-      "texto": "Fim do mês: a ARENE calcula a nova estrutura de preços",
+      "data": "Jan",
+      "texto": "Cortes do PAM previstos sem fundos novos",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "Julho de 2022",
-    "o_que_aconteceu": "Com o Brent entre 110 e 120 dólares, o gasóleo subiu 11% e os autocarros pararam em Maputo. O Governo prometeu subsidiar parte das tarifas e o serviço voltou.",
-    "licao": "Subida do gasóleo traz paragem do chapa em dias e pedido de apoio público.",
-    "fonte": "Bloomberg (BNN) e Club of Mozambique, 2022"
+    "quando": "Época agrícola 2015/16",
+    "o_que_aconteceu": "Em Janeiro de 2016 o número oficial era 176 mil pessoas em Crise, a FEWS NET estimava perto de 600 mil e em Maio chegou a 755 mil. Em Agosto, o plano de resposta tinha 38,2% do dinheiro.",
+    "licao": "Os números oficiais ficaram aquém da crise e o financiamento ficou abaixo de 40%.",
+    "fonte": "FEWS NET (Jan e Mai 2016); Coordenador Residente da ONU (Ago 2016)"
   },
-  "porque_importa": "O gasóleo move o chapa, o camião que traz comida e o gerador de muitas pequenas empresas. Quando sobe, o aumento chega ao bolso em semanas, primeiro no transporte e depois nos alimentos. Em Maio o Estado respondeu com um subsídio de três meses que já acabou.",
+  "porque_importa": "Quem já depende da ajuda em Cabo Delgado e nas zonas afectadas por cheias não tem outra fonte de comida garantida em Janeiro. É também a época em que as reservas das famílias baixam e o novo milho ainda não chegou. Se a chuva falhar no Sul e no Centro, a pressão cresce nos mercados e no orçamento do Estado.",
   "canal": {
     "passos": [
-      "Gasóleo sobe na bomba",
-      "Chapa e camião gastam mais",
-      "Tarifa e frete sobem",
-      "Comida chega mais cara"
+      "Chuva tardia no Sul e Centro",
+      "Menos milho colhido em Março",
+      "Famílias compram mais no mercado",
+      "Preço do milho sobe",
+      "Ajuda do PAM já reduzida"
     ],
-    "quem_sente": "Utentes do chapa, mercados e pequenas empresas de transporte"
+    "quem_sente": "Agricultores de sequeiro, deslocados e classe baixa urbana"
   },
   "conta": {
-    "titulo": "Um chapa de 15 lugares: gasóleo por mês",
-    "pressupostos": "150 km por dia, 8 km por litro, 26 dias por mês. Valores de exemplo, não médias oficiais.",
+    "titulo": "Quanto custaria cobrir quem precisa",
+    "pressupostos": "Custo médio implícito do PAM: 129,3 M USD por 427.008 pessoas em 6 meses, cerca de 50 USD por pessoa e mês. Estimativa nossa.",
     "barras": [
       {
-        "rotulo": "Hoje, 116,25 MT/litro",
-        "valor": 56672,
-        "texto": "56 672 MT/mês"
+        "rotulo": "Ritmo actual do PAM",
+        "valor": 21.6,
+        "texto": "21,6 M USD/mês"
       },
       {
-        "rotulo": "Subida de 8%",
-        "valor": 61206,
-        "texto": "61 206 MT/mês"
+        "rotulo": "Cobrir 1,5 milhões",
+        "valor": 75.7,
+        "texto": "75,7 M USD/mês"
       },
       {
-        "rotulo": "Subida de 20%",
-        "valor": 68006,
-        "texto": "68 006 MT/mês"
+        "rotulo": "Cobrir 1,99 milhões",
+        "valor": 100.4,
+        "texto": "100,4 M USD/mês"
       }
     ],
-    "unidade": "MT por mês",
-    "conclusao": "Cada 10 meticais a mais no litro custam cerca de 4 875 meticais por mês a este chapa, sem o subsídio de 35 000."
+    "unidade": "milhões de dólares por mês",
+    "conclusao": "Cobrir todos os que precisam custaria 3,5 a 4,7 vezes o ritmo de gasto actual do PAM."
   },
   "cenarios": [
     {
-      "nome": "Preço fica até Dezembro",
-      "tipo": "fica_igual",
-      "probabilidade": 45,
-      "porque_probabilidade": "Cinco meses e meio sem revisão com Brent perto do nível de Maio; o Estado absorve o custo e financia importações.",
-      "gatilho": "Brent entre 100 e 112 dólares até 30 de Novembro, sem comunicado da ARENE",
-      "o_que_acontece": "O Estado e as distribuidoras absorvem a diferença. O custo fica escondido em compensações e dívida, e a pressão passa para as tarifas do chapa.",
-      "numeros": "Gasóleo a 116,25 MT/litro; chapa 18 a 23 MT",
-      "quando": "até Dezembro de 2026",
-      "ganha": "Utentes e transportadores no curto prazo",
-      "perde": "Contas do Estado e distribuidoras",
-      "se_acontecer": "Aproveitar para pagar dívidas curtas e não gastar a folga em consumo."
-    },
-    {
-      "nome": "Revisão em alta",
+      "nome": "Falha de chuva e corte em Janeiro",
       "tipo": "piora",
-      "probabilidade": 38,
-      "porque_probabilidade": "Em 2022 houve subidas quase todos os meses com Brent acima de 110. Desconto porque o Governo adiou desde Maio.",
-      "gatilho": "Brent fecha acima de 115 dólares durante cinco sessões, ou ARENE anuncia nova estrutura",
-      "o_que_acontece": "A ARENE sobe o gasóleo. Chapa e frete ajustam-se a seguir e os operadores voltam a pedir apoio, como em Maio de 2022 e 2026.",
-      "numeros": "Gasóleo 122 a 140 MT/litro (+5% a +20%)",
-      "quando": "entre 15 de Novembro e Janeiro de 2027",
-      "ganha": "Contas do Estado",
-      "perde": "Chapa, carga e famílias pobres",
-      "se_acontecer": "Rever o orçamento de transporte, comprar a granel o que dura e adiar viagens longas."
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2016 o plano teve 38,2% do dinheiro. INAM e FEWS NET dão chuva abaixo da média como cenário mais provável.",
+      "gatilho": "Sem chuva útil até 30 de Novembro e sem fundos novos para o PAM",
+      "o_que_acontece": "A colheita de Março é fraca, as reservas acabam mais cedo e o PAM reduz a ajuda quando a procura sobe.",
+      "numeros": "Mais de 2,3 milhões a precisar de ajuda, como na projecção de 2016/17",
+      "quando": "Janeiro a Março de 2027",
+      "ganha": "Comerciantes com stock de cereais",
+      "perde": "Agricultores de sequeiro e deslocados",
+      "se_acontecer": "Antecipar compras de milho e sementes e pedir ajuda ao município e ao INGD."
     },
     {
-      "nome": "Alívio na bomba",
+      "nome": "Seca moderada, ajuda à justa",
+      "tipo": "fica_igual",
+      "probabilidade": 40,
+      "porque_probabilidade": "Os doadores costumam financiar uma parte da resposta. O apelo da ONU tinha 34% a meio do ano.",
+      "gatilho": "Chuva abaixo da média, mas com apelo de emergência parcialmente financiado até Dezembro",
+      "o_que_acontece": "O PAM concentra a ajuda nos distritos mais críticos e deixa de fora quem está em Stress.",
+      "numeros": "1,5 a 1,99 milhões a precisar de ajuda",
+      "quando": "Dezembro de 2026 a Março de 2027",
+      "ganha": "Zonas com prioridade de ajuda",
+      "perde": "Famílias fora da lista de beneficiários",
+      "se_acontecer": "Registar-se junto do município e guardar reservas de básicos."
+    },
+    {
+      "nome": "Chuva regular e fundos repostos",
       "tipo": "melhora",
-      "probabilidade": 17,
-      "porque_probabilidade": "O Brent oscilou entre 97 e 112 este mês; uma queda sustentada exige acordo em Ormuz, e a descida só chegaria à bomba depois.",
-      "gatilho": "Brent abaixo de 95 dólares durante duas semanas seguidas",
-      "o_que_acontece": "Com tráfego em Ormuz a normalizar, o custo de importação cai e a ARENE reduz o gasóleo, como fez em Junho de 2025.",
-      "numeros": "Gasóleo 100 a 110 MT/litro (-5% a -14%)",
-      "quando": "Janeiro a Março de 2027",
-      "ganha": "Transportadores e famílias",
-      "perde": "Receita fiscal sobre combustíveis",
-      "se_acontecer": "Exigir que a descida chegue à tarifa do chapa e ao frete."
+      "probabilidade": 15,
+      "porque_probabilidade": "O INAM prevê chuva mais regular no Norte, mas não no Sul e Centro, onde o risco é maior.",
+      "gatilho": "Chuva regular a partir de Novembro e financiamento anunciado para 2027",
+      "o_que_acontece": "A época agrícola arranca a tempo e os fundos repostos evitam o corte.",
+      "numeros": "Menos de 1,5 milhões a precisar de ajuda",
+      "quando": "Até Março de 2027",
+      "ganha": "Famílias rurais do Sul e do Centro",
+      "perde": "Quem comprou insumos em excesso",
+      "se_acontecer": "Manter as reservas, mas semear normalmente."
     }
   ],
   "sinais": [
     {
-      "o_que": "Fecho do Brent em dólares",
-      "limiar": "Acima de 115 durante cinco sessões",
-      "quando": "até 15 de Novembro",
+      "o_que": "Chuva útil no Sul e no Centro",
+      "limiar": "Sem chuva útil até 30 de Novembro",
+      "quando": "30 de Novembro de 2026",
       "aponta_para": "piora"
     },
     {
-      "o_que": "Comunicado da ARENE sobre preços",
-      "limiar": "Qualquer nova estrutura de preços",
-      "quando": "até 30 de Novembro",
+      "o_que": "Financiamento do PAM para 2027",
+      "limiar": "Sem anúncio de fundos novos até 15 de Dezembro",
+      "quando": "15 de Dezembro de 2026",
       "aponta_para": "piora"
     },
     {
-      "o_que": "Fecho do Brent em dólares",
-      "limiar": "Abaixo de 95 durante duas semanas",
-      "quando": "até 30 de Novembro",
+      "o_que": "Preço do milho face a há um ano",
+      "limiar": "Passar de 15,6% abaixo para acima do nível homólogo",
+      "quando": "Fevereiro de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Apelo humanitário da ONU de 348 milhões",
+      "limiar": "Financiamento acima de 60%, hoje 34%",
+      "quando": "Dezembro de 2026",
       "aponta_para": "melhora"
-    },
-    {
-      "o_que": "Tarifa final do chapa em Maputo",
-      "limiar": "Acima de 23 meticais nas rotas de 18",
-      "quando": "até 1 de Novembro",
-      "aponta_para": "piora"
     }
   ],
   "afectados": [
     {
-      "grupo": "Classe baixa",
+      "grupo": "Agricultores de sequeiro do Sul e Centro",
       "saldo": -2,
-      "porque": "chapa e comida mais caros"
+      "porque": "menos colheita e menos ajuda"
     },
     {
-      "grupo": "Classe média",
+      "grupo": "Deslocados de Cabo Delgado",
+      "saldo": -2,
+      "porque": "dependem da ajuda do PAM"
+    },
+    {
+      "grupo": "Classe baixa urbana",
       "saldo": -1,
-      "porque": "transporte e frete pesam no mês"
-    },
-    {
-      "grupo": "PMEs de transporte",
-      "saldo": -2,
-      "porque": "sem subsídio e com gasóleo caro"
+      "porque": "milho e arroz mais caros"
     },
     {
       "grupo": "Governo",
       "saldo": -1,
-      "porque": "compensações e pressão por apoios"
+      "porque": "mais despesa de resposta"
     },
     {
-      "grupo": "Agricultores",
+      "grupo": "ONGs e parceiros",
       "saldo": -1,
-      "porque": "frete e insumos mais caros"
+      "porque": "mais procura, menos fundos"
     }
   ],
   "direccao": [
     {
-      "publico": "Famílias",
-      "agora": "Fixar um valor de transporte para Novembro e comprar a granel os básicos que não estragam.",
-      "se_piorar": "Cortar viagens não essenciais e dividir transporte."
+      "publico": "Famílias rurais do Sul e Centro",
+      "agora": "Guardar milho e arroz e comprar sementes cedo, antes da confirmação da chuva.",
+      "se_piorar": "Registar-se junto do município para receber ajuda."
     },
     {
-      "publico": "Transportadores",
-      "agora": "Guardar margem de duas semanas de gasóleo e registar o custo por viagem.",
-      "se_piorar": "Pedir à agência metropolitana nova tarifa com os números."
+      "publico": "Famílias urbanas pobres",
+      "agora": "Comparar preços de milho e arroz e comprar com folga se o preço estiver baixo.",
+      "se_piorar": "Reduzir compras de produtos não essenciais."
     },
     {
-      "publico": "Pequenos comerciantes",
-      "agora": "Pedir preços a mais de um fornecedor e evitar stock grande a crédito.",
-      "se_piorar": "Repassar só o aumento do frete, com preço afixado."
+      "publico": "Governo e INGD",
+      "agora": "Definir até Dezembro quem fica coberto em Janeiro e onde.",
+      "se_piorar": "Priorizar os distritos de máxima vulnerabilidade."
     },
     {
-      "publico": "Municípios e Governo",
-      "agora": "Publicar cedo a tarifa e a regra para rever com o gasóleo.",
-      "se_piorar": "Activar apoio focado nos distritos de risco alimentar."
+      "publico": "ONGs e parceiros",
+      "agora": "Planear a redução de Janeiro e concentrar a ajuda nas zonas mais críticas.",
+      "se_piorar": "Pedir fundos de emergência com os dados da FEWS NET."
     }
   ],
-  "visao_contraria": "O Brent está perto do nível de Maio, quando o preço foi fixado, por isso a ARENE pode não precisar de subir. O Estado já mostrou que prefere adiar.",
+  "visao_contraria": "O milho está 15,6% mais barato que há um ano e a insegurança alimentar grave desceu 48% de Agosto a Setembro. O ano pode correr melhor do que os avisos.",
   "nao_sabemos": [
-    "Quanto o Estado deve às distribuidoras hoje",
-    "Se a ARENE tem uma data marcada para rever os preços",
-    "Qual era o Brent exacto quando o preço foi fixado em Maio"
+    "O PAM não diz quantas pessoas perde em Janeiro.",
+    "A previsão sazonal oficial do INAM não foi encontrada.",
+    "O custo médio por pessoa é estimativa nossa, não valor do PAM."
   ],
-  "sinal": "Fecho do Brent acima de 115 dólares ou comunicado da ARENE até 30 de Novembro.",
+  "sinal": "Chuva útil no Sul e no Centro até 30 de Novembro e financiamento do PAM para 2027 até 15 de Dezembro.",
   "confianca": "media",
-  "base_confianca": "Preço de Maio confirmado por três fontes; Brent em fontes secundárias; a estrutura de preços vem de um artigo de 2022 e as probabilidades são estimativas da redacção.",
+  "base_confianca": "PAM, FEWS NET, UNICEF e FEWS NET de 2016, mas a data do comunicado do PAM não está confirmada e o custo por pessoa é estimativa.",
   "textos": {
-    "whatsapp": "*GASÓLEO A 116,25: VAI SUBIR OUTRA VEZ?*\n\nO gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5%. Desde então não houve revisão publicada. O Brent andou esta semana entre 108 e 111 dólares, perto do nível de Maio.\n\n*O PRECEDENTE*\nEm Julho de 2022, com o petróleo entre 110 e 120 dólares, o gasóleo subiu 11% e os autocarros pararam em Maputo. O Governo prometeu apoio e o serviço voltou.\n\n*TRÊS CAMINHOS*\n1. Preço fica até Dezembro, 45%. O Estado absorve a diferença e a pressão passa para a tarifa do chapa.\n2. Revisão em alta, 38%. Se o Brent fechar acima de 115 dólares cinco sessões seguidas, o gasóleo pode ir de 122 a 140 meticais. Chapa e frete sobem a seguir.\n3. Alívio, 17%. Só com o Brent abaixo de 95 dólares durante duas semanas. O gasóleo podia cair para 100 a 110 meticais, mas só em 2027.\n\nA probabilidade de subida parte de 2022, quando houve subidas quase todos os meses, e desce porque o Governo já adiou cinco meses.\n\n*A CONTA*\nUm chapa de 15 lugares, com 150 km por dia e 8 km por litro, gasta cerca de 56 700 meticais por mês em gasóleo. Com mais 8% são 61 200. Com mais 20% são 68 000. Cada 10 meticais no litro custam cerca de 4 900 meticais por mês, e o subsídio de 35 000 já acabou. São valores de exemplo.\n\n*A OUTRA VISÃO*\nO Brent está perto do nível de Maio, por isso a ARENE pode não subir.\n\n*DIRECÇÃO*\nFamílias: fixar o valor do transporte de Novembro. Transportadores: guardar duas semanas de gasóleo e registar o custo por viagem. Comerciantes: pedir preços a mais de um fornecedor.\n\n*O QUE OBSERVAR*\nBrent acima de 115 dólares até 15 de Novembro e qualquer comunicado da ARENE até 30 de Novembro.\n\nPartilhe com quem depende do chapa ou do camião.",
-    "instagram": "Gasóleo a 116,25 meticais desde Maio. O Brent anda entre 108 e 111 dólares e o subsídio ao chapa acabou. Cenário mais provável: preço fica até Dezembro (45%), mas 38% de revisão em alta. Sinal: Brent acima de 115 dólares até 15 de Novembro. #Moçambique #DirecçõesDaSemana",
-    "facebook": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio. Vai subir outra vez?\n\nNão há data para nova revisão. O Brent andou esta semana entre 108 e 111 dólares, perto do nível de Maio, e o Governo já adiou a revisão durante cinco meses e meio.\n\nEm Julho de 2022, com o petróleo entre 110 e 120 dólares, o gasóleo subiu 11% e os autocarros pararam em Maputo. Houve promessa de apoio e o serviço voltou.\n\nVemos três caminhos. O preço fica até Dezembro, com 45%: o Estado absorve a diferença e a pressão passa para o chapa. Há revisão em alta, com 38%, se o Brent fechar acima de 115 dólares cinco sessões seguidas: o gasóleo iria de 122 a 140 meticais. E há alívio, com 17%, se o Brent cair abaixo de 95 dólares duas semanas.\n\nUma conta de exemplo: um chapa de 15 lugares gasta cerca de 56 700 meticais por mês em gasóleo. Com mais 20% passa a 68 000. O subsídio de 35 000 acabou.\n\nA outra visão: como o Brent está perto do nível de Maio, a ARENE pode não precisar de subir.\n\nDirecção: fixe o valor do transporte de Novembro, compre a granel o que não estraga e acompanhe o Brent e a ARENE até 30 de Novembro.\n\n#Moçambique #DirecçõesDaSemana",
-    "linkedin": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5% face aos 79,88 anteriores. Nenhuma revisão foi publicada desde então, e o Brent fechou a 109,86 dólares em 16 de Outubro, o valor mais alto desde Maio.\n\nO precedente mais próximo é Julho de 2022. Com o Brent entre 110 e 120 dólares, o gasóleo subiu 11%, os autocarros pararam em Maputo e o Governo prometeu subsidiar parte das tarifas. Em Maio de 2026 repetiu-se: os chapas pararam dois dias depois da subida e o Estado pagou 307 milhões de meticais em subsídios, que acabaram agora.\n\nTrês cenários, com mecanismos diferentes. Primeiro, o preço fica até Dezembro (45%): o Estado e as distribuidoras absorvem a diferença e a pressão passa para a tarifa do chapa, hoje em disputa entre 25 e 30 meticais pedidos pelos operadores e 3 a 5 de aumento oferecidos pela agência. Segundo, revisão em alta (38%): com o Brent acima de 115 dólares cinco sessões seguidas, o gasóleo iria de 122 a 140 meticais. Terceiro, alívio (17%): exige o Brent abaixo de 95 dólares duas semanas e só chegaria à bomba em 2027.\n\nPara uma PME de transporte com um minibus de 15 lugares, 150 km por dia e 8 km por litro, o gasóleo pesa cerca de 56 700 meticais por mês. Cada 10 meticais no litro somam cerca de 4 900. Os pressupostos são nossos, não médias oficiais.\n\nA melhor objecção: o Brent está perto do nível de Maio e o Governo prefere adiar. Não sabemos quanto o Estado deve às distribuidoras.\n\nDirecção: transportadores devem guardar duas semanas de gasóleo e registar o custo por viagem. Empresas com trabalhadores na Grande Maputo devem orçamentar o transporte de Novembro. O sinal a seguir é o Brent acima de 115 dólares até 15 de Novembro e qualquer comunicado da ARENE até 30 de Novembro.\n\n#Moçambique #Economia"
+    "whatsapp": "*O QUE ACONTECEU*\nO Programa Alimentar Mundial (PAM) avisou que só consegue manter a ajuda actual em Moçambique até Dezembro. Se não chegar dinheiro novo, vêm cortes a partir de Janeiro de 2027. Em Maio, o PAM chegou a 427.008 pessoas. Ao mesmo tempo, a FEWS NET calcula que 1,5 a 1,99 milhões de pessoas vão precisar de ajuda alimentar entre Dezembro e Janeiro, e o INAM e a UNICEF esperam chuva abaixo do normal no Sul e no Centro.\n\n*COMO CHEGA AO SEU BOLSO*\nChuva tardia dá menos milho em Março e Abril. Com menos milho e menos ajuda, as famílias compram mais no mercado, e o preço sobe.\n\n*TRÊS CENÁRIOS*\nPiora, 45%: a chuva falha no Sul e no Centro e o PAM corta em Janeiro. Mais de 2,3 milhões precisam de ajuda até Março de 2027. Em 2016 o plano de resposta tinha só 38,2% do dinheiro em Agosto.\nFica igual, 40%: seca moderada e dinheiro que chega à justa. Entre 1,5 e 1,99 milhões precisam de ajuda e o PAM mantém o ritmo até Março.\nMelhora, 15%: a chuva chega perto do normal e os doadores repõem fundos. Menos de 1,5 milhões precisam de ajuda.\n\n*A CONTA*\nSe a ajuda fosse alargada a todos os que precisam, ao custo médio actual de cerca de 50 dólares por pessoa e por mês, o gasto seria de 76 a 100 milhões de dólares por mês. Hoje o PAM gasta cerca de 21,6 milhões. É 3,5 a 4,7 vezes mais. O custo médio é estimativa nossa.\n\n*A OUTRA VISÃO*\nO milho está 15,6% mais barato do que há um ano e a insegurança alimentar grave desceu em Setembro. Pode ser que o ano corra melhor do que os avisos.\n\n*DIRECÇÃO*\nFamílias do Sul e do Centro: guardem milho e arroz desde já e comprem sementes cedo. Governo e parceiros: definam até meados de Dezembro quem fica coberto em Janeiro. Se a chuva não chegar até 30 de Novembro, antecipem as compras.\n\nPartilhe com quem vive do campo.",
+    "instagram": "A ajuda alimentar pode cair em Janeiro, quando o El Niño aperta. O PAM só garante o nível actual até Dezembro. A FEWS NET espera 1,5 a 1,99 milhões a precisar de ajuda. Guarde milho e arroz e acompanhe a chuva até 30 de Novembro. #Moçambique #DirecçõesDaSemana",
+    "facebook": "A ajuda alimentar em Moçambique pode diminuir justamente quando o El Niño chega.\n\nO Programa Alimentar Mundial diz que só mantém a assistência actual até Dezembro. Se não vier dinheiro novo, haverá cortes a partir de Janeiro de 2027. Em Maio, o PAM chegou a 427.008 pessoas.\n\nAo mesmo tempo, a FEWS NET calcula que 1,5 a 1,99 milhões de pessoas vão precisar de ajuda entre Dezembro e Janeiro. O INAM e a UNICEF esperam chuva abaixo do normal no Sul e no Centro.\n\nEm 2016, com outro El Niño, o número oficial de pessoas em Crise era 176 mil em Janeiro e a FEWS NET já falava em perto de 600 mil. Em Agosto, o plano de resposta tinha só 38,2% do dinheiro.\n\nOs nossos cenários até Março: piora 45%, fica igual 40%, melhora 15%. O milho está 15,6% mais barato do que há um ano, o que dá algum alívio, mas não resolve a falta de chuva.\n\nO que fazer: quem vive no Sul e no Centro deve guardar milho e arroz e comprar sementes cedo. O sinal a seguir é a chuva até 30 de Novembro. Se não vier, a situação de Janeiro será mais séria.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "O Programa Alimentar Mundial avisou que só mantém a ajuda actual em Moçambique até Dezembro, com cortes previstos a partir de Janeiro de 2027 se não houver fundos novos. Em Maio chegou a 427.008 pessoas e precisa de 129,3 milhões de dólares para Maio a Outubro.\n\nO risco sobe porque o El Niño chega no mesmo momento. A FEWS NET calcula que 1,5 a 1,99 milhões de pessoas vão precisar de ajuda alimentar entre Dezembro e Janeiro. O INAM e a UNICEF esperam chuva abaixo do normal no Sul e no Centro.\n\nO precedente é 2016. Em Janeiro daquele ano o número oficial era 176 mil pessoas em Crise, a FEWS NET já estimava perto de 600 mil e em Maio chegou a 755 mil. Em Agosto, o plano de resposta tinha 38,2% do financiamento.\n\nCenários até Março de 2027: piora com 45%, em que a chuva falha e o PAM corta, com mais de 2,3 milhões a precisar de ajuda. Fica igual com 40%, com 1,5 a 1,99 milhões. Melhora com 15%, com menos de 1,5 milhões.\n\nA conta: alargar a ajuda a todos os que precisam, ao custo médio actual de cerca de 50 dólares por pessoa e por mês, custaria 76 a 100 milhões de dólares por mês, contra os cerca de 21,6 milhões de hoje. O custo médio é estimativa nossa.\n\nA visão contrária merece peso: o milho está 15,6% mais barato do que há um ano e a insegurança alimentar grave desceu em Setembro.\n\nDirecção: governos e parceiros devem definir até meados de Dezembro quem fica coberto em Janeiro. Empresas com cadeias agrícolas no Sul e no Centro devem rever stocks antes de Março. A chuva até 30 de Novembro dirá qual dos cenários se confirma."
   },
   "fontes": [
     {
-      "fonte": "360 Mozambique, preços de 7 de Maio",
-      "url": "https://360mozambique.com/oil-gas/government-adjusts-fuel-prices-price-of-a-liter-of-diesel-rises-to-116-25-meticais/",
-      "data": "2026-05-07"
+      "fonte": "RTP/Lusa, PAM em Moçambique",
+      "url": "https://www.rtp.pt/noticias/lusa/pam-assistiu-mais-de-427000-pessoas-em-mocambique-entre-abril-e-maio_n1751883",
+      "data": "2026"
     },
     {
-      "fonte": "360 Mozambique, como se formam os preços",
-      "url": "https://360mozambique.com/markets/how-does-the-fuel-market-work-and-what-drives-and-relieves-prices/",
-      "data": "2022-07-13"
+      "fonte": "UNICEF, Relatório de Situação Humanitária n.º 7",
+      "url": "https://www.unicef.org/media/184421/file/Mozambique-Humanitarian-Situation-Report-No.7,31-July-2026.pdf.pdf",
+      "data": "2026-07-31"
     },
     {
-      "fonte": "TT News, Brent",
-      "url": "https://www.ttnews.com/articles/oil-prices-risk-hormuz",
-      "data": "2026-10-21"
+      "fonte": "FEWS NET, Moçambique, Maio de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/key-message-update/may-2016",
+      "data": "2016-05"
     },
     {
-      "fonte": "CNBC, Brent a 16 de Outubro",
-      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
-      "data": "2026-10-16"
+      "fonte": "FEWS NET, Moçambique, Janeiro de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/key-message-update/january-2016",
+      "data": "2016-01"
     },
     {
-      "fonte": "Rio Times, fim do subsídio e subsídio pago",
-      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
-      "data": "2026-10-21"
-    },
-    {
-      "fonte": "Club of Mozambique, facilidade de 50 milhões",
-      "url": "https://clubofmozambique.com/news/mozambique-creates-us50-million-facility-for-fuel-imports/",
-      "data": "2026-08-03"
+      "fonte": "AIM, previsão da época chuvosa 2026/2027",
+      "url": "https://aimnews.org/2026/05/19/mocambique-podera-enfrentar-seca-no-sul-e-cheias-no-norte-epoca-chuvosa-e-ciclonica-2026-2027/",
+      "data": "2026-05-19"
     }
   ],
-  "data": "2026-10-22",
-  "dia_semana": "quinta",
+  "data": "2026-10-23",
+  "dia_semana": "sexta",
   "semana": "2026-S43",
-  "versao": 3,
+  "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1792688372130
-  }
+  "falhas": []
 }
