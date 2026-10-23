@@ -1,16 +1,16 @@
 {
-  "modo": "rever",
-  "hoje": "2026-10-22",
+  "modo": "diario",
+  "hoje": "2026-10-23",
   "semana": "2026-S43",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/5",
-  "dia_semana": "quinta",
+  "dia_semana": "sexta",
   "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "internacional",
-    "analise_independente"
+    "regional",
+    "humanitario"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
