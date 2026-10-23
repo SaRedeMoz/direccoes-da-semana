@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "Pesquisar notícias de 22 e 23 de Outubro",
-      "em": "2026-10-23T02:22:00.799Z"
+      "estado": "pronto",
+      "msg": "7 notícias novas, Brent a 111 dólares",
+      "em": "2026-10-23T02:23:36.815Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-23T02:23:36.815Z",
+      "agente": "fontes",
+      "msg": "7 notícias novas, Brent a 111 dólares"
+    },
     {
       "em": "2026-10-23T02:22:00.799Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-21T02:22:30.553Z",
       "agente": "analise",
       "msg": "Análise e memória gravadas"
-    },
-    {
-      "em": "2026-10-21T02:22:18.342Z",
-      "agente": "analise",
-      "msg": "Actualizar a análise com a memória e os novos indicadores"
     }
   ],
-  "actualizado": "2026-10-23T02:22:00.799Z",
+  "actualizado": "2026-10-23T02:23:36.815Z",
   "semana": "2026-S43",
   "dia": "2026-10-23",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/5",
