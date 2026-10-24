@@ -1,10 +1,12 @@
 {
   "semana": "2026-S43",
-  "dia": "2026-10-23",
-  "versao": 7,
+  "dia": "2026-10-24",
+  "versao": 8,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/5",
-  "falhas_conformidade": [],
+  "falhas_conformidade": [
+    "Categorias de fontes não consultadas hoje: oficiais, precos, imprensa_nacional, analise_independente"
+  ],
   "itens": [
     {
       "titulo": "Brent fecha a 109,86 dólares na sexta-feira, o valor mais alto desde Maio",
@@ -491,13 +493,19 @@
       "fonte": "SADC / pesquisa regional",
       "url": "https://www.sadc.int",
       "data": "2026-10-23"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "Pesquisa de Brent e Ormuz",
+      "url": "https://english.aaj.tv",
+      "data": "2026-10-24"
     }
   ],
   "memoria": {
-    "em": "2026-10-23",
-    "indicadores": 1,
-    "temas": 2,
-    "direccoes": 3
+    "em": "2026-10-24",
+    "indicadores": 0,
+    "temas": 0,
+    "direccoes": 0
   },
   "analise": {
     "destaques": {
@@ -832,7 +840,7 @@
     ],
     "sinal": "Decisão dos municípios sobre a tarifa do chapa antes de 1 de Novembro, Brent acima ou abaixo de 105 dólares, reunião da FEMATRO com o Governo a 26 de Outubro, financiamento do PAM para 2027, boletim quinzenal da ARENE, Orçamento de 2027 no Parlamento, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.",
     "sintese": "O petróleo voltou a subir e o gasóleo está a 116,25 meticais desde Maio, sem revisão publicada. O subsídio aos chapas da Grande Maputo acabou e a tarifa de Novembro está por decidir. Com o El Niño a chegar e a ajuda do PAM em risco a partir de Janeiro, o aperto no bolso dos mais pobres pode crescer antes de a campanha agrícola dar resposta.",
-    "o_que_mudou_hoje": "O Brent subiu a 111,24 dólares a 22 de Outubro, o valor mais alto desde 18 de Maio, e o gasóleo continua a 116,25 meticais. A FEMATRO volta a reunir-se com o Governo a 26 de Outubro, sem decisão sobre a tarifa do chapa. O PAM diz que só mantém a ajuda actual até Dezembro, com cortes previstos para Janeiro de 2027.",
+    "o_que_mudou_hoje": "Sábado, 24 de Outubro: a pesquisa não encontrou notícias novas de 23 e 24 de Outubro sobre Moçambique nem um valor do Brent com data de ontem. Mantém-se o quadro de 22 de Outubro: Brent perto de 111 dólares, gasóleo a 116,25 meticais, tarifa do chapa por decidir e nova reunião da FEMATRO a 26 de Outubro.",
     "canais": [
       {
         "choque": "Petróleo a 110 dólares",
@@ -1037,7 +1045,8 @@
       "Tarifas propostas pela FEMATRO e oferta da agência (Domingo, via Club of Mozambique)",
       "Brent a 111,24 dólares em 22 de Outubro (Korea Times, valor intradiário)",
       "Data do comunicado do PAM sobre cortes em Janeiro (RTP/Lusa, sem data na página)",
-      "Dívida a 30 mil professores (só título da revista de imprensa, não incluída nos textos)"
+      "Dívida a 30 mil professores (só título da revista de imprensa, não incluída nos textos)",
+      "⚠️ Categorias de fontes não consultadas hoje: oficiais, precos, imprensa_nacional, analise_independente"
     ],
     "duvidas": [],
     "conformidade": [
@@ -1107,59 +1116,5 @@
         "nota": "Incluído na análise completa"
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Lillian Benny / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: http://www.fao.org Food and Agriculture Organization / Wikimedia Commons, CC BY-SA 3.0 igo",
-      "Foto: Collins Musonda / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Teixant / Wikimedia Commons, CC BY-SA 3.0"
-    ],
-    "v": 1792722695444
   }
 }
