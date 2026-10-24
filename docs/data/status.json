@@ -2,8 +2,8 @@
   "estagios": {
     "fontes": {
       "estado": "a trabalhar",
-      "msg": "A começar a pesquisa do dia…",
-      "em": "2026-10-24T02:19:32.853Z"
+      "msg": "A pesquisar notícias de 23 e 24 de Outubro",
+      "em": "2026-10-24T02:19:59.788Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-24T02:19:59.788Z",
+      "agente": "fontes",
+      "msg": "A pesquisar notícias de 23 e 24 de Outubro"
+    },
     {
       "em": "2026-10-24T02:19:32.853Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-22T02:17:07.878Z",
       "agente": "analise",
       "msg": "Análise e memória gravadas"
-    },
-    {
-      "em": "2026-10-22T02:16:52.734Z",
-      "agente": "analise",
-      "msg": "Actualizar a análise"
     }
   ],
-  "actualizado": "2026-10-24T02:19:32.853Z",
+  "actualizado": "2026-10-24T02:19:59.788Z",
   "semana": "2026-S43",
   "dia": "2026-10-24",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/5",
