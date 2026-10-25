@@ -13,3 +13,4 @@
 - 2026-10-22 (2026-S43): Em modo rever sem sugestões novas, a edição de 22 de Outubro ficou como estava, porque já cumpria todos os critérios.
 - 2026-10-23 (2026-S43): A pesquisa devolve pouco material nacional das últimas 48 horas: o Brent veio de uma fonte intradiária e várias notícias de Lusa só apareceram como títulos.
 - 2026-10-24 (2026-S43): Aos sábados a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.
+- 2026-10-25 (2026-S43): Aos domingos a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.
