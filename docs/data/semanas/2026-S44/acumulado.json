@@ -1,0 +1,679 @@
+{
+  "itens": [
+    {
+      "titulo": "Orçamento de 2027: salários e dívida podem absorver cerca de 96% das receitas fiscais",
+      "resumo": "O relatório de riscos fiscais que acompanha a proposta indica que salários e serviço da dívida podem ficar com cerca de 96% das receitas fiscais em 2027. Sobram cerca de 4% para bens, serviços, investimento e emergências.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_economica",
+      "fonte": "Rio Times, a partir do Governo e da Carta de Moçambique",
+      "url": "https://www.riotimesonline.com/mozambique-budget-2027-spending-cut/",
+      "data": "2026-10-14",
+      "confianca": "media",
+      "n": 1,
+      "recolhida": "2026-10-26"
+    },
+    {
+      "titulo": "Proposta de 2027 reserva 1,5 mil milhões de meticais ao FDEL e prevê o início do Banco de Desenvolvimento em 2027",
+      "resumo": "Além do FDEL, a proposta prevê 500 milhões de meticais para o PRO-MULHER e o arranque do Banco de Desenvolvimento de Moçambique em 2027. O crescimento de 2026 foi revisto para 0,6%, em parte por causa das cheias do início do ano.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_economica",
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19",
+      "confianca": "media",
+      "n": 2,
+      "recolhida": "2026-10-26"
+    }
+  ],
+  "processados": [],
+  "sugestoes_semana": [],
+  "versao": 1,
+  "proximo_n": 3,
+  "lacunas": [
+    "Decisão do Governo e dos municípios sobre a tarifa do chapa, depois da reunião de 26 de Outubro",
+    "Brent: fecho de 23 e 26 de Outubro não confirmado",
+    "Preços de milho, arroz e chapa na Beira e em Nampula",
+    "Data do debate do Orçamento de 2027 no Parlamento",
+    "Decisão do Comité de Política Monetária de Outubro (não encontrada)"
+  ],
+  "fontes_consultadas": [
+    {
+      "categoria": "oficiais",
+      "fonte": "Banco de Moçambique (comunicado de Julho sobre a MIMO)",
+      "url": "https://bancomoc.mz/en/media/highlights/mimo-policy-rate-unchanged-at-9-25-29-07-26/",
+      "data": "2026-10-26"
+    },
+    {
+      "categoria": "imprensa_economica",
+      "fonte": "Rio Times",
+      "url": "https://www.riotimesonline.com/mozambique-budget-2027-spending-cut/",
+      "data": "2026-10-26"
+    },
+    {
+      "categoria": "imprensa_economica",
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-26"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "Hellenic Shipping News (Brent, sem data fiável)",
+      "url": "https://www.hellenicshippingnews.com/?p=1144155",
+      "data": "2026-10-26"
+    }
+  ],
+  "analise": {
+    "destaques": {
+      "mundo": [
+        "Brent sobe a 111 dólares a 22 de Outubro, o valor mais alto desde 18 de Maio",
+        "Huthis atacam a Arábia Saudita e o Irão diz ter atingido sete petroleiros",
+        "Brent entre 108 e 111 dólares a 21 de Outubro, com 18 ataques a petroleiros em duas semanas",
+        "Brent fecha a cerca de 109,55 dólares na segunda-feira, depois de tocar os 110",
+        "Ormuz com cerca de 70% do fluxo anterior à guerra"
+      ],
+      "nacional": [
+        "Orçamento de 2027: salários e dívida podem absorver cerca de 96% das receitas fiscais",
+        "Proposta de 2027 reserva 1,5 mil milhões de meticais ao FDEL",
+        "PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro",
+        "Polícia detém 21 mil pessoas num mês, 95% por migração ilegal",
+        "Governo promete pagar dívida a quase 30 mil professores até Dezembro",
+        "FEMATRO pede chapa a 30 e 25 meticais; a agência metropolitana oferece 3 a 5",
+        "Aposentação obrigatória sobe para 65 anos",
+        "Governo confirma a garantia soberana do Mozambique LNG",
+        "Governo acaba o subsídio aos chapas da Grande Maputo, e os operadores pedem tarifas novas",
+        "ANE adjudica 20,6 mil milhões de meticais em estradas de Inhambane e Sofala",
+        "Concurso para a concessão da fronteira de Machipanda",
+        "Frelimo apoia recandidatura de Chapo em 2029",
+        "Inflação desce para 6,31% em Setembro",
+        "Orçamento de 2027 prevê crescimento de 1,6% e défice de 4,6%",
+        "Lei do Conteúdo Local aprovada, com regulamento",
+        "Chapo defende mais acesso ao mercado de capitais",
+        "Chapo anuncia recolha de armas ilegais depois da amnistia",
+        "Chapo pede firmeza policial com respeito pelos direitos humanos",
+        "Transportes quer parcerias com a Índia",
+        "EDM prepara subestação de 19 milhões de euros em Tete"
+      ]
+    },
+    "pestal": [
+      {
+        "dimensao": "Política",
+        "oportunidades": [
+          {
+            "texto": "Paz ligada a emprego e produção",
+            "origem": "interna"
+          },
+          {
+            "texto": "Concessão da fronteira de Machipanda",
+            "origem": "interna"
+          },
+          {
+            "texto": "Frelimo unida em torno de Chapo",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Expectativas da juventude por cumprir",
+            "origem": "interna"
+          },
+          {
+            "texto": "Direitos humanos em Cabo Delgado",
+            "origem": "interna"
+          },
+          {
+            "texto": "Julgamento de Mondlane a 17 de Novembro",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Paz ligada a emprego e produção",
+        "principal_ameaca": "Expectativas da juventude por cumprir"
+      },
+      {
+        "dimensao": "Económica",
+        "oportunidades": [
+          {
+            "texto": "Crédito às empresas que exportam",
+            "origem": "interna"
+          },
+          {
+            "texto": "Inflação desce para 6,31%",
+            "origem": "interna"
+          },
+          {
+            "texto": "Estradas de 20,6 mil milhões",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Brent a 111 dólares",
+            "origem": "externa"
+          },
+          {
+            "texto": "Fim do subsídio aos chapas",
+            "origem": "interna"
+          },
+          {
+            "texto": "PIB revisto para 0,6%",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Défice menor em 2027",
+        "principal_ameaca": "Brent a 111 dólares"
+      },
+      {
+        "dimensao": "Social",
+        "oportunidades": [
+          {
+            "texto": "Agenda de emprego para jovens",
+            "origem": "interna"
+          },
+          {
+            "texto": "Compromisso laboral nos 50 anos da OTM",
+            "origem": "interna"
+          },
+          {
+            "texto": "Insegurança alimentar desce 48%",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Tarifa do chapa pode subir",
+            "origem": "interna"
+          },
+          {
+            "texto": "1,84 milhões em insegurança grave",
+            "origem": "interna"
+          },
+          {
+            "texto": "PAM sem fundos após Dezembro",
+            "origem": "externa"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Agenda de emprego para jovens",
+        "principal_ameaca": "PAM sem fundos após Dezembro"
+      },
+      {
+        "dimensao": "Tecnológica",
+        "oportunidades": [
+          {
+            "texto": "Fábrica da SLB em Pemba",
+            "origem": "interna"
+          },
+          {
+            "texto": "Industrialização como prioridade declarada",
+            "origem": "interna"
+          },
+          {
+            "texto": "Subestação da EDM em Tete",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Ligações solares fora da rede a cair",
+            "origem": "interna"
+          },
+          {
+            "texto": "Sem sinais concretos de investimento",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Fábrica da SLB em Pemba",
+        "principal_ameaca": "Ligações solares fora da rede a cair"
+      },
+      {
+        "dimensao": "Ambiental",
+        "oportunidades": [
+          {
+            "texto": "Atenção internacional ao clima",
+            "origem": "externa"
+          },
+          {
+            "texto": "Apoio belga a financiamento climático",
+            "origem": "externa"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "El Niño: 5,3 milhões em risco",
+            "origem": "externa"
+          },
+          {
+            "texto": "Chuva forte prevista em Sofala",
+            "origem": "externa"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Atenção internacional ao clima",
+        "principal_ameaca": "El Niño: 5,3 milhões em risco"
+      },
+      {
+        "dimensao": "Legal",
+        "oportunidades": [
+          {
+            "texto": "Lei do Conteúdo Local aprovada",
+            "origem": "interna"
+          },
+          {
+            "texto": "Regulamento fiscal para pequenos contribuintes",
+            "origem": "interna"
+          },
+          {
+            "texto": "Combate à corrupção reafirmado",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Julgamento sem transmissão em directo",
+            "origem": "interna"
+          },
+          {
+            "texto": "Economia contraiu 0,52% em 2025",
+            "origem": "interna"
+          },
+          {
+            "texto": "Garantia do LNG sem saldo público",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Lei do Conteúdo Local aprovada",
+        "principal_ameaca": "Contas de Mondlane em disputa"
+      }
+    ],
+    "impacto": [
+      {
+        "grupo": "Governo",
+        "saldo": -1,
+        "porque": "pouca margem no Orçamento de 2027",
+        "efeito": "negativo",
+        "explicacao": "O Governo gastou 307 milhões de meticais em três meses de subsídio e deixou de o pagar. Na proposta de 2027, salários e dívida podem absorver cerca de 96% das receitas fiscais, o que deixa pouco para responder ao El Niño. O crédito interno fica limitado a 1,9% do PIB."
+      },
+      {
+        "grupo": "Classe baixa",
+        "saldo": -2,
+        "porque": "chapa e comida mais caros",
+        "efeito": "negativo",
+        "explicacao": "O subsídio aos chapas da Grande Maputo acabou. A FEMATRO pede 30 e 25 meticais sobre tarifas de 18 e 15, a agência metropolitana oferece mais 3 a 5. A insegurança alimentar grave caiu 48% em Setembro, mas atinge ainda 1,84 milhões de pessoas, e o Brent perto de 110 dólares mantém a pressão sobre o transporte de alimentos."
+      },
+      {
+        "grupo": "Classe média",
+        "saldo": -1,
+        "porque": "transporte mais caro e juros altos",
+        "efeito": "negativo",
+        "explicacao": "Quem usa o chapa na Grande Maputo pode pagar mais a partir de Novembro, se os municípios aprovarem a subida. Combustível mais caro e crédito bancário caro reduzem o rendimento disponível."
+      },
+      {
+        "grupo": "Classe alta e investidores",
+        "saldo": 1,
+        "porque": "confiança empresarial a recuperar",
+        "efeito": "positivo",
+        "explicacao": "A confiança empresarial recuperou, o banco central abre crédito para quem exporta e as prioridades em mineração e petróleo dão sinais favoráveis, apesar do PIB mais fraco. A abertura da bolsa a mais cidadãos e a cotação da MECTS dão nova liquidez ao mercado."
+      },
+      {
+        "grupo": "ONGs e parceiros",
+        "saldo": 0,
+        "porque": "mais procura, menos fundos",
+        "efeito": "misto",
+        "explicacao": "A crise alimentar aumenta a procura de ajuda, mas o PAM avisa que só mantém o nível actual até Dezembro e prevê cortes em Janeiro de 2027. O apelo humanitário de 348 milhões de dólares tinha 34% financiado a meio do ano."
+      },
+      {
+        "grupo": "Macroeconomia",
+        "saldo": -1,
+        "porque": "PIB revisto em baixa e petróleo caro",
+        "efeito": "negativo",
+        "explicacao": "O crescimento de 2026 foi revisto para 0,6% e o de 2027 está projectado em 1,6%, com inflação média de 7% e défice de 4,6% do PIB, contra 7% previsto para 2026. Com inflação de 7%, a despesa de 2027 cai cerca de 8% em termos reais. O Brent acima de 105 dólares pode inverter a descida da inflação, que foi de 6,31% em Setembro."
+      },
+      {
+        "grupo": "PMEs",
+        "saldo": -1,
+        "porque": "crédito caro e custos de transporte",
+        "efeito": "negativo",
+        "explicacao": "Os juros altos e o gasóleo apertam as margens. O novo regime do Banco de Moçambique pode baratear o crédito a quem exporta ou substitui importações, mas a CTA exige critérios claros e acesso real das PMEs. O programa de incubação do agronegócio conta com o GAPI. O novo regulamento do imposto simplificado está por confirmar. A Lei do Conteúdo Local pode abrir contratos a fornecedores nacionais, se o regulamento tiver regras claras para empresas pequenas. Os transportadores de passageiros ficam sem o apoio de 35 mil meticais por minibus e dependem da decisão sobre a tarifa."
+      },
+      {
+        "grupo": "Ramos de negócio",
+        "saldo": 0,
+        "porque": "ganham energia, mineração e petróleo; perdem transportes",
+        "efeito": "misto",
+        "explicacao": "Ganham energia, mineração e petróleo, com a fábrica da SLB em Pemba e a agenda do Governo. Perdem transportes, agricultura e comércio de alimentos, expostos ao gasóleo e à seca. O conteúdo local favorece também os fornecedores nacionais de serviços ao gás e à mineração. Construção e obras públicas ganham com as estradas de Inhambane e Sofala, se os contratos avançarem."
+      }
+    ],
+    "direccao": [
+      {
+        "publico": "Utentes do chapa na Grande Maputo",
+        "accao": "Contar com uma subida da tarifa em Novembro, entre 3 a 5 meticais (oferta da agência) e 10 a 12 (pedido dos operadores), e acompanhar a decisão antes de 1 de Novembro."
+      },
+      {
+        "publico": "Governo",
+        "accao": "Preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima."
+      },
+      {
+        "publico": "Famílias",
+        "accao": "Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade."
+      },
+      {
+        "publico": "PMEs",
+        "accao": "Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito. Quem trabalha com energia, equipamento ou serviços offshore deve contactar a SLB em Pemba sobre fornecimento local. Fornecedores de serviços devem ler o regulamento do Conteúdo Local e registar-se junto da nova Autoridade quando esta abrir."
+      },
+      {
+        "publico": "ONGs e parceiros",
+        "accao": "Concentrar a ajuda alimentar nas zonas já em nível máximo de vulnerabilidade."
+      },
+      {
+        "publico": "Investidores",
+        "accao": "Acompanhar medidas concretas de industrialização antes de comprometer capital."
+      },
+      {
+        "publico": "Trabalhadores e clientes dos bancos",
+        "accao": "Manter os dados actualizados e guardar comprovativos. Em caso de bloqueio, pedir ao banco a comunicação formal e o prazo."
+      },
+      {
+        "publico": "Famílias rurais",
+        "accao": "Comparar preços de sistemas solares e perguntar por prestadores registados na ARENE antes de comprar."
+      },
+      {
+        "publico": "Operadores de energia e transportes",
+        "accao": "Acompanhar o investimento da EDM em Tete e as conversas com a Índia, e confirmar prazos antes de planear fornecimentos."
+      },
+      {
+        "publico": "Transportadores e comerciantes",
+        "accao": "Guardar margem para novo aumento do combustível e acompanhar os boletins da ARENE antes de fixar preços."
+      }
+    ],
+    "sinal": "Decisão sobre a tarifa do chapa antes de 1 de Novembro, Brent acima ou abaixo de 105 dólares, revisão de preços da ARENE, financiamento do PAM para Janeiro, debate do Orçamento de 2027 no Parlamento, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.",
+    "sintese": "Nesta segunda-feira não apareceu informação nova e datada sobre o chapa, o petróleo ou os preços, por isso os riscos da semana passada mantêm-se. O gasóleo está a 116,25 meticais desde Maio e a tarifa do chapa da Grande Maputo para Novembro continua por decidir. O Orçamento de 2027 deixa pouca margem: salários e dívida podem absorver cerca de 96% das receitas fiscais.",
+    "o_que_mudou_hoje": "Sem novidades confirmadas sobre o chapa e o Brent. Ganha peso o Orçamento de 2027: despesa de 511,2 mil milhões, menos 1,8% em termos nominais, e só cerca de 4% das receitas fiscais livres depois de salários e dívida.",
+    "canais": [
+      {
+        "choque": "Petróleo a 110 dólares",
+        "passos": [
+          "Brent perto de 110 dólares",
+          "Importação de gasóleo mais cara",
+          "Chapa e carga custam mais",
+          "Comida chega mais cara"
+        ],
+        "quem_sente": "Famílias de baixa renda, transportadores e comerciantes de alimentos",
+        "prazo": "semanas"
+      },
+      {
+        "choque": "Fim do subsídio aos chapas",
+        "passos": [
+          "Subsídio de três meses acaba",
+          "Operadores pedem tarifa maior",
+          "Tarifa do chapa sobe",
+          "Sobra menos para comida"
+        ],
+        "quem_sente": "Utentes da Grande Maputo, classe baixa e trabalhadores informais",
+        "prazo": "semanas"
+      },
+      {
+        "choque": "El Niño",
+        "passos": [
+          "Chuva abaixo do normal",
+          "Colheita de milho menor",
+          "Alimentos básicos mais caros",
+          "Insegurança alimentar sobe"
+        ],
+        "quem_sente": "Famílias rurais e classe baixa",
+        "prazo": "meses"
+      }
+    ],
+    "cenarios": [
+      {
+        "nome": "Melhora",
+        "probabilidade": 15,
+        "descricao": "O Brent volta abaixo de 95 dólares, o abastecimento normaliza e os municípios limitam a subida do chapa a 3 a 5 meticais.",
+        "sinal": "Brent abaixo de 95 dólares durante duas semanas"
+      },
+      {
+        "nome": "Fica igual",
+        "probabilidade": 40,
+        "descricao": "O Brent fica entre 100 e 112 dólares, o gasóleo mantém-se a 116,25 meticais e a tarifa do chapa sobe de forma moderada.",
+        "sinal": "Sem nova revisão de preços da ARENE até Dezembro"
+      },
+      {
+        "nome": "Piora",
+        "probabilidade": 45,
+        "descricao": "O Brent passa os 115 dólares ou o abastecimento falha; sem acordo sobre a tarifa, os chapas param e o Governo revê preços.",
+        "sinal": "Paragem de chapas a 2 de Novembro ou anúncio de revisão de preços"
+      }
+    ],
+    "riscos": [
+      {
+        "risco": "Brent acima de 115 dólares",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Fechou a 109,86 em 16 de Outubro; encarece combustível, transporte e comida."
+      },
+      {
+        "risco": "Nova falha no abastecimento de combustíveis",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Houve filas no fim de Setembro e o país depende de importação."
+      },
+      {
+        "risco": "Seca do El Niño na campanha agrícola",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "O risco foi estimado para 5,3 milhões de pessoas."
+      },
+      {
+        "risco": "Tensão política antes do julgamento de Mondlane",
+        "probabilidade": 1,
+        "impacto": 2,
+        "nota": "O julgamento está marcado para 17 de Novembro e o Tribunal Supremo recusou a transmissão em directo."
+      },
+      {
+        "risco": "Paragem dos chapas na Grande Maputo",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "A FEMATRO avisa de perturbações a 2 de Novembro se a sua proposta for rejeitada."
+      },
+      {
+        "risco": "Orçamento de 2027 sem margem para choques",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Salários e dívida podem absorver cerca de 96% das receitas fiscais."
+      }
+    ],
+    "horizonte": {
+      "imediato": "Brent perto de 110 dólares, gasóleo a 116,25 meticais desde Maio e abastecimento ainda irregular.",
+      "tres_meses": "Até Janeiro de 2027: fim da amnistia de armas em Dezembro, regras provisórias de importação a caducar a 31 de Dezembro e início da campanha agrícola com El Niño.",
+      "um_ano": "Até Outubro de 2027: Orçamento de 2027 em execução com crescimento de 1,6%, regulamento do Conteúdo Local a ser testado e efeito da colheita sobre os preços da comida."
+    },
+    "vulnerabilidade": [
+      {
+        "grupo": "Classe baixa",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Gasta a maior parte do rendimento em comida e transporte."
+      },
+      {
+        "grupo": "Classe média",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Sente combustível e juros, mas pode cortar despesas."
+      },
+      {
+        "grupo": "Trabalhadores informais e agricultores",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Dependem do transporte e da chuva, sem poupança."
+      },
+      {
+        "grupo": "PMEs",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Gasóleo e crédito caro apertam margens; há crédito novo para quem exporta."
+      },
+      {
+        "grupo": "Governo",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Seca e combustível aumentam a despesa com receita fraca."
+      }
+    ],
+    "confianca": {
+      "grau": "media",
+      "base": "dados oficiais do INE e da ARENE, três jornais e o PAM; Brent de uma só fonte intradiária; Orçamento de 2027 de duas fontes secundárias"
+    },
+    "continuidade": "Face a Outubro, o petróleo continua acima de 105 dólares e a decisão sobre o chapa continua em aberto, com a reunião de 26 de Outubro ainda sem resultado conhecido. A novidade é o peso do Orçamento de 2027, que limita a capacidade do Estado de responder ao El Niño e ao custo de vida."
+  },
+  "design": {
+    "slides": [
+      {
+        "titulo": "Direcções da Semana",
+        "texto": "",
+        "tom": "neutro",
+        "imagem_termos": "Mozambique coast landscape"
+      },
+      {
+        "titulo": "Orçamento deixa pouca margem",
+        "texto": "Salários e dívida podem absorver cerca de 96% das receitas fiscais em 2027. Sobram cerca de 4% para tudo o resto.",
+        "tom": "alerta",
+        "imagem_termos": "Maputo city hall"
+      },
+      {
+        "titulo": "Despesa de 2027 desce",
+        "texto": "A proposta prevê 511,2 mil milhões de meticais, menos 1,8% em termos nominais. Com inflação de 7%, é um corte real.",
+        "tom": "alerta",
+        "imagem_termos": "Mozambique banknotes"
+      },
+      {
+        "titulo": "FDEL com 1,5 mil milhões",
+        "texto": "A proposta reserva 1,5 mil milhões de meticais ao FDEL e 500 milhões ao PRO-MULHER. Falta saber como chegam aos distritos.",
+        "tom": "oportunidade",
+        "imagem_termos": "Mozambique market"
+      },
+      {
+        "titulo": "Chapa: tarifa por decidir",
+        "texto": "O subsídio acabou e a decisão sobre a tarifa de Novembro continua em aberto. O gasóleo está a 116,25 meticais.",
+        "tom": "alerta",
+        "imagem_termos": "minibus taxi Maputo"
+      }
+    ],
+    "manchete": "Orçamento de 2027 deixa pouca margem e o chapa espera decisão",
+    "destaques_capa": [
+      "Orçamento de 2027 sem margem",
+      "Chapa: tarifa de Novembro por decidir",
+      "Gasóleo a 116,25 meticais"
+    ],
+    "legenda": "Segunda-feira, 26 de Outubro. Salários e dívida podem absorver cerca de 96% das receitas fiscais em 2027, e a tarifa do chapa para Novembro continua por decidir. A direcção do dia explica o que o Orçamento muda na vida de quem tem pouco.",
+    "hashtags": [
+      "#Moçambique",
+      "#DirecçõesdaSemana"
+    ],
+    "fontes_usadas": [
+      1,
+      2
+    ]
+  },
+  "textos": {
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 26 DE OUTUBRO*\n\n*MUNDO*\nO Brent anda entre 108 e 111 dólares o barril, com ataques a petroleiros perto de Ormuz. O último valor confirmado é de 111,24 dólares, a 22 de Outubro.\n\n*MOÇAMBIQUE*\nO gasóleo continua a 116,25 meticais o litro desde Maio e a tarifa do chapa na Grande Maputo para Novembro ainda não foi decidida. Os operadores pedem 30 e 25 meticais, a agência metropolitana oferece mais 3 a 5.\n\nA proposta de Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, menos 1,8% em termos nominais. Com inflação de 7%, é um corte real de cerca de 8%. O relatório de riscos fiscais diz que salários e dívida podem levar cerca de 96% das receitas fiscais.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem sobretudo a classe baixa e os informais, que gastam quase tudo em comida e transporte. Ganham os investidores ligados a energia e mineração. O Governo perde margem para responder ao El Niño.\n\n*DIRECÇÃO*\nUtentes do chapa: confirmem a tarifa com o município antes de 1 de Novembro e contem com subida. Famílias: guardem reservas de básicos e comparem preços. PMEs: perguntem à administração do distrito como se candidatar ao FDEL, que tem 1,5 mil milhões previstos.\n\n*PRÓXIMA SEMANA*\nA decisão sobre o chapa, o preço do Brent, o debate do Orçamento no Parlamento e a inflação de Outubro, que sai perto de 10 de Novembro.\n\nSe este resumo ajudou, partilhe com quem usa o chapa todos os dias.",
+    "linkedin": "Direcções da Semana, 26 de Outubro\n\nHoje não houve informação nova e datada sobre o petróleo nem sobre a tarifa do chapa, por isso a análise mantém os riscos da semana passada. O Brent esteve a 111,24 dólares a 22 de Outubro, o gasóleo continua a 116,25 meticais o litro desde Maio e a tarifa do chapa na Grande Maputo para Novembro está por decidir.\n\nO que ganhou peso foi o Orçamento de 2027. A proposta prevê despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e défice de 4,6% do PIB, contra 7,0% previsto para 2026. A despesa cai 1,8% em termos nominais e, com inflação média de 7%, cerca de 8% em termos reais. O relatório de riscos fiscais indica que salários e serviço da dívida podem absorver cerca de 96% das receitas fiscais. Sobram cerca de 4%, ou perto de 15 mil milhões de meticais, para bens, serviços e emergências.\n\nPara as empresas, o recado é prático: o Estado terá pouco dinheiro livre e o crédito interno fica limitado a 1,9% do PIB. O FDEL tem 1,5 mil milhões de meticais previstos e o Banco de Desenvolvimento deve arrancar em 2027, mas falta saber as regras de acesso.\n\nDirecção\n\nPMEs: não contem com pagamentos rápidos do Estado e perguntem já à administração distrital como funciona a candidatura ao FDEL. Transportadores e comerciantes: guardem margem para um novo aumento do combustível. Investidores: esperem pelo debate no Parlamento antes de assumir compromissos que dependam da despesa pública.\n\nUm Orçamento com 4% de margem não absorve uma seca e um petróleo a 110 dólares ao mesmo tempo. Quem planeia 2027 deve assumir que a resposta pública será curta.\n\n#Moçambique #Economia #Orçamento2027",
+    "instagram": "Orçamento de 2027: salários e dívida podem levar cerca de 96% das receitas fiscais. Sobra pouco para o resto. O chapa espera decisão sobre a tarifa de Novembro e o gasóleo está a 116,25 meticais. Leia a direcção do dia e partilhe. #Moçambique #DirecçõesdaSemana",
+    "facebook": "Bom dia. Aqui fica o resumo de segunda-feira, 26 de Outubro.\n\nO gasóleo continua a 116,25 meticais o litro desde Maio. Na Grande Maputo, o Governo deixou de pagar o subsídio aos chapas e a tarifa de Novembro ainda não foi decidida. Os operadores pedem 30 e 25 meticais, a agência metropolitana oferece mais 3 a 5. Hoje não saiu nenhuma decisão confirmada.\n\nO Orçamento do Estado para 2027 também merece atenção. A proposta prevê gastar 511,2 mil milhões de meticais, menos 1,8% do que em 2026, e o relatório de riscos fiscais diz que salários e dívida podem levar cerca de 96% das receitas fiscais. Sobra pouco dinheiro livre para responder a uma seca ou a preços mais altos. A proposta reserva 1,5 mil milhões de meticais ao FDEL, o fundo de desenvolvimento local.\n\nQuem usa o chapa deve confirmar o valor da tarifa com o município antes de 1 de Novembro. As famílias devem guardar reservas de básicos e comparar preços. A direcção da semana: contar com custos de transporte mais altos e com um Estado com pouca margem.\n\n#Moçambique #DirecçõesdaSemana",
+    "analise_completa": "Resumo da semana\nNesta segunda-feira não apareceu informação nova e datada sobre o chapa, o petróleo ou os preços, por isso os riscos da semana passada mantêm-se. O gasóleo está a 116,25 meticais desde Maio e a tarifa do chapa da Grande Maputo para Novembro continua por decidir. O Orçamento de 2027 deixa pouca margem: salários e dívida podem absorver cerca de 96% das receitas fiscais.\n\nO que mudou face às semanas anteriores\nFace a Outubro, o petróleo continua acima de 105 dólares e a decisão sobre o chapa continua em aberto, com a reunião de 26 de Outubro ainda sem resultado conhecido. A novidade é o peso do Orçamento de 2027, que limita a capacidade do Estado de responder ao El Niño e ao custo de vida.\n\nMundo\nO Brent chegou a 111,24 dólares a 22 de Outubro, o valor mais alto desde 18 de Maio, e oscilou entre 108 e 111 dólares nos dias anteriores. A 26 de Outubro não encontrámos um preço novo e confirmado.\n\nMoçambique\nO gasóleo está a 116,25 meticais o litro e a gasolina a 93,69, preços fixados em Maio. O Governo deixou de pagar o subsídio aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses. A inflação anual desceu para 6,31% em Setembro, mas o milho em grão subiu 10,4% num mês. O Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões, défice de 4,6% do PIB, crescimento de 1,6% e inflação média de 7%.\n\nPESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Concessão da fronteira de Machipanda (int.) | Expectativas da juventude por cumprir (int.); Direitos humanos em Cabo Delgado (int.) |\n| Económica | Crédito às empresas que exportam (int.); Inflação desce para 6,31% (int.) | Brent a 111 dólares (ext.); Fim do subsídio aos chapas (int.) |\n| Social | Agenda de emprego para jovens (int.); Compromisso laboral nos 50 anos da OTM (int.) | Tarifa do chapa pode subir (int.); 1,84 milhões em insegurança grave (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Lei do Conteúdo Local aprovada (int.); Regulamento fiscal para pequenos contribuintes (int.) | Julgamento sem transmissão em directo (int.); Economia contraiu 0,52% em 2025 (int.) |\n\nComo chega ao seu bolso\nPetróleo a 110 dólares: Brent perto de 110 dólares, Importação de gasóleo mais cara, Chapa e carga custam mais, Comida chega mais cara.\nFim do subsídio aos chapas: Subsídio de três meses acaba, Operadores pedem tarifa maior, Tarifa do chapa sobe, Sobra menos para comida.\n\nCenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 15% | O Brent volta abaixo de 95 dólares | Brent abaixo de 95 dólares durante duas semanas |\n| Fica igual | 40% | O Brent fica entre 100 e 112 dólares | Sem nova revisão de preços da ARENE até Dezembro |\n| Piora | 45% | O Brent passa os 115 dólares ou o abastecimento falha | Paragem de chapas a 2 de Novembro ou anúncio de revisão de preços |\n\nRiscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Brent acima de 115 dólares | média | alto |\n| Nova falha no abastecimento de combustíveis | média | alto |\n| Seca do El Niño na campanha agrícola | média | alto |\n| Tensão política antes do julgamento de Mondlane | baixa | médio |\n\nHorizonte\nImediato: Brent perto de 110 dólares, gasóleo a 116,25 meticais desde Maio e abastecimento ainda irregular.\nEm 3 meses: Até Janeiro de 2027: fim da amnistia de armas em Dezembro, regras provisórias de importação a caducar a 31 de Dezembro e início da campanha agrícola com El Niño.\nEm 1 ano: Até Outubro de 2027: Orçamento de 2027 em execução com crescimento de 1,6%, regulamento do Conteúdo Local a ser testado e efeito da colheita sobre os preços da comida.\n\nQuem está mais exposto\nClasse baixa: exposição 3, margem 1.\nClasse média: exposição 2, margem 2.\nTrabalhadores informais e agricultores: exposição 3, margem 1.\n\nQuem ganha, quem perde\nGoverno (-1): pouca margem no Orçamento de 2027.\nClasse baixa (-2): chapa e comida mais caros.\nClasse média (-1): transporte mais caro e juros altos.\nClasse alta e investidores (+1): confiança empresarial a recuperar.\nONGs e parceiros (0): mais procura, menos fundos.\nMacroeconomia (-1): PIB revisto em baixa e petróleo caro.\nPMEs (-1): crédito caro e custos de transporte.\nRamos de negócio (0): ganham energia, mineração e petróleo; perdem transportes.\n\nDirecção\nUtentes do chapa na Grande Maputo: Contar com uma subida da tarifa em Novembro, entre 3 a 5 meticais (oferta da agência) e 10 a 12 (pedido dos operadores), e acompanhar a decisão antes de 1 de Novembro.\nGoverno: Preparar já a resposta ao El Niño nos três distritos de vulnerabilidade máxima.\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\nPMEs: Quem exporta ou substitui importações deve perguntar ao seu banco pelo novo regime de crédito\n\nDirecções anteriores: o que se confirmou\nAinda nenhuma das 18 direcções registadas foi verificada. A primeira verificação é a 2 de Novembro.\n\nSinal a acompanhar\nChapa antes de 1 de Novembro, Brent acima ou abaixo de 105 dólares, Orçamento no Parlamento e inflação de Outubro.\n\nGrau de confiança\nMédia. dados oficiais do INE e da ARENE, três jornais e o PAM; Brent de uma só fonte intradiária; Orçamento de 2027 de duas fontes secundárias.\n\nFontes\nDados oficiais: Banco de Moçambique.\nImprensa económica: Rio Times; Forbes África Lusófona.\nInternacional: Korea Times.\nPreços: ARENE via Lusa; Trading Economics.",
+    "verificar": [
+      "Despesa de 511,2 mil milhões, receitas de 427,8 mil milhões e défice de 4,6% do PIB no Orçamento de 2027",
+      "Cerca de 96% das receitas fiscais para salários e dívida (relatório de riscos fiscais, fonte secundária)",
+      "Resultado da reunião da FEMATRO com o Governo a 26 de Outubro",
+      "Brent: último valor confirmado é de 22 de Outubro, intradiário",
+      "⚠️ Categorias de fontes não consultadas hoje: precos, imprensa_nacional"
+    ],
+    "duvidas": [],
+    "conformidade": [
+      {
+        "criterio": "Notícias do mundo",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Notícias de Moçambique",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Canais de transmissão: como os acontecimentos principais chegam ao bolso",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Três cenários (melhora, fica igual, piora) com probabilidade e sinal",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Riscos com probabilidade e impacto",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Horizonte: imediato, 3 meses, 1 ano",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Vulnerabilidade por grupo",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Impacto em cada um dos 8 grupos",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Direcção prática por público",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Sinal a acompanhar",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Grau de confiança e fontes por categoria",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      },
+      {
+        "criterio": "Ligação à memória: o que mudou face às semanas anteriores",
+        "ok": true,
+        "nota": "Incluído na análise e nos textos."
+      }
+    ]
+  },
+  "memoria_actualizada": {
+    "em": "2026-10-26",
+    "indicadores": 0,
+    "temas": 2,
+    "direccoes": 3
+  },
+  "falhas_conformidade": [
+    "Categorias de fontes não consultadas hoje: precos, imprensa_nacional"
+  ],
+  "incluir_itens": []
+}

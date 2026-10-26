@@ -14,3 +14,4 @@
 - 2026-10-23 (2026-S43): A pesquisa devolve pouco material nacional das últimas 48 horas: o Brent veio de uma fonte intradiária e várias notícias de Lusa só apareceram como títulos.
 - 2026-10-24 (2026-S43): Aos sábados a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.
 - 2026-10-25 (2026-S43): Aos domingos a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.
+- 2026-10-26 (2026-S44): Às segundas a pesquisa devolve pouco material datado das últimas 48 horas: a ronda manteve a análise anterior e só acrescentou o que se confirmou.

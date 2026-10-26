@@ -214,5 +214,41 @@
     "verificar_em": "2026-12-15",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D19",
+    "data": "2026-10-26",
+    "semana": "2026-S44",
+    "publico": "Famílias",
+    "accao": "Planear 2027 com preços e serviços públicos sem melhoria rápida: poupar o que for possível e reduzir dívidas caras.",
+    "tema": "orcamento_2027",
+    "horizonte": "trimestre",
+    "verificar_em": "2026-12-31",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D20",
+    "data": "2026-10-26",
+    "semana": "2026-S44",
+    "publico": "PMEs",
+    "accao": "Perguntar à administração distrital como se candidata ao FDEL e não contar com pagamentos rápidos do Estado.",
+    "tema": "orcamento_2027",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-30",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D21",
+    "data": "2026-10-26",
+    "semana": "2026-S44",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Contar com a tarifa nova em Novembro e confirmar o valor com o município antes de 1 de Novembro.",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-02",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

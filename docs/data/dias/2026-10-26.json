@@ -1,0 +1,243 @@
+{
+  "tipo": "dia",
+  "tema": "Orçamento de 2027: o que sobra depois de salários e dívida",
+  "pergunta": "Orçamento de 2027: quanto sobra para obras, escolas e hospitais?",
+  "facto": {
+    "texto": "A proposta de Orçamento para 2027 prevê despesa de 511,2 mil milhões de meticais, menos 1,8% do que em 2026, e défice de 4,6% do PIB. O relatório de riscos fiscais indica que salários e dívida podem absorver cerca de 96% das receitas fiscais. A proposta ainda não foi debatida no Parlamento.",
+    "numeros": [
+      {
+        "valor": "96%",
+        "legenda": "da receita fiscal em salários e dívida"
+      },
+      {
+        "valor": "511,2 mil M",
+        "legenda": "despesa prevista, em meticais"
+      },
+      {
+        "valor": "4,6%",
+        "legenda": "défice do PIB em 2027"
+      }
+    ],
+    "fonte": "Rio Times (14 Out 2026), a partir do Governo e da Carta de Moçambique; Forbes África Lusófona (19 Out 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Dez 2025",
+      "texto": "Parlamento aprova o Orçamento de 2026, com défice de 7%",
+      "futuro": false
+    },
+    {
+      "data": "13 Out",
+      "texto": "Conselho de Ministros aprova a proposta para 2027",
+      "futuro": false
+    },
+    {
+      "data": "Nov a Dez",
+      "texto": "Debate e votação no Parlamento, datas por confirmar",
+      "futuro": true
+    },
+    {
+      "data": "1 Jan",
+      "texto": "Orçamento de 2027 entra em execução",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Ano de 2025",
+    "o_que_aconteceu": "O défice desceu de 6,2% para cerca de 4,5% do PIB, segundo o FMI, com cortes em bens, serviços e investimento. A economia contraiu 0,52%, segundo o INE.",
+    "licao": "Cortar a despesa cumpriu a meta do défice mas não ajudou o crescimento.",
+    "fonte": "FMI via AIM (Fev 2026); INE via Lusa (2026)"
+  },
+  "porque_importa": "Com 4% da receita fiscal livre, o Estado tem pouco dinheiro para responder a um choque como o El Niño ou ao custo do combustível. Obras, pagamentos a fornecedores e apoios locais dependem dessa fatia pequena. As famílias sentem-no em escolas, hospitais e estradas que demoram mais.",
+  "canal": {
+    "passos": [
+      "Receita fica abaixo da meta",
+      "Estado atrasa pagamentos e obras",
+      "Fornecedores cortam compras e empregos",
+      "Menos dinheiro circula nos distritos"
+    ],
+    "quem_sente": "Fornecedores do Estado, PMEs locais e famílias de baixa renda"
+  },
+  "conta": {
+    "titulo": "Para onde vai cada 100 meticais de imposto",
+    "pressupostos": "Receita de 427,8 mil milhões, 87% de impostos (372,2 mil milhões), e 96% para salários e dívida. Estimativa nossa.",
+    "barras": [
+      {
+        "rotulo": "Salários e dívida",
+        "valor": 96,
+        "texto": "96 MT em cada 100"
+      },
+      {
+        "rotulo": "Todo o resto",
+        "valor": 4,
+        "texto": "4 MT, cerca de 15 mil milhões"
+      }
+    ],
+    "unidade": "MT em cada 100 MT de receita fiscal",
+    "conclusao": "O FDEL, com 1,5 mil milhões de meticais, equivale a cerca de 10% da fatia livre."
+  },
+  "cenarios": [
+    {
+      "nome": "Receita falha, pagamentos atrasam",
+      "tipo": "piora",
+      "probabilidade": 45,
+      "porque_probabilidade": "O Orçamento de 2026 perdeu 14,9 mil milhões de receita antes da aprovação, e o de 2027 assume 1,6% de crescimento.",
+      "gatilho": "Revisão da receita em baixa acima de 10 mil milhões antes da votação",
+      "o_que_acontece": "A receita fica abaixo da meta, o Estado paga tarde a fornecedores e adia obras, e o investimento local seca.",
+      "numeros": "Receita 15 a 30 mil milhões abaixo (estimativa nossa)",
+      "quando": "até Junho de 2027",
+      "ganha": "Quem recebe salário fixo",
+      "perde": "Fornecedores e empregos nos distritos",
+      "se_acontecer": "Cobrar ao Estado cedo, não vender a prazo sem garantia e reduzir despesas não essenciais."
+    },
+    {
+      "nome": "Orçamento cumpre-se com ajustes",
+      "tipo": "fica_igual",
+      "probabilidade": 35,
+      "porque_probabilidade": "Em 2025 a meta do défice foi cumprida por cortes, e o Parlamento costuma aprovar o essencial da proposta.",
+      "gatilho": "Votação com alterações pequenas e FDEL mantido em 1,5 mil milhões",
+      "o_que_acontece": "A despesa executa-se com cortes selectivos, o crescimento é baixo e o FDEL chega a quem já o recebe.",
+      "numeros": "Crescimento 1% a 1,6%, défice até 5,5% do PIB (estimativa)",
+      "quando": "até Dezembro de 2027",
+      "ganha": "Funcionários e beneficiários do FDEL",
+      "perde": "PMEs sem acesso ao crédito",
+      "se_acontecer": "Manter reservas, planear com inflação de 7% e candidatar-se ao FDEL cedo."
+    },
+    {
+      "nome": "Apoio externo cobre a falta",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Não há programa do FMI aprovado nem prazo para um acordo, por isso é o desfecho menos provável.",
+      "gatilho": "Acordo técnico com o FMI ou receita do gás acima do previsto",
+      "o_que_acontece": "Um novo programa do FMI e parceiros dão financiamento barato e o Estado cumpre pagamentos e obras a tempo.",
+      "numeros": "Financiamento extra de 20 a 40 mil milhões (estimativa nossa)",
+      "quando": "até Setembro de 2027",
+      "ganha": "Fornecedores, obras públicas e crédito",
+      "perde": "Ninguém de forma directa",
+      "se_acontecer": "Preparar propostas para obras e fornecimentos que o novo financiamento abrir."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Revisão da receita antes da votação",
+      "limiar": "Mais de 10 mil milhões de meticais a menos",
+      "quando": "até Dezembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Inflação anual de Dezembro",
+      "limiar": "Acima de 7%, meta do Orçamento",
+      "quando": "a 10 de Janeiro de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Acordo técnico com o FMI",
+      "limiar": "Anúncio de acordo ao nível técnico",
+      "quando": "até Junho de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Execução do FDEL nos distritos",
+      "limiar": "Mais de 90% executado, como em 2026",
+      "quando": "até Junho de 2027",
+      "aponta_para": "fica_igual"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Fornecedores do Estado",
+      "saldo": -2,
+      "porque": "pagamentos e obras sob pressão"
+    },
+    {
+      "grupo": "Classe baixa",
+      "saldo": -1,
+      "porque": "menos serviços públicos novos"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": -1,
+      "porque": "crédito interno limitado a 1,9% do PIB"
+    },
+    {
+      "grupo": "Funcionários públicos",
+      "saldo": 0,
+      "porque": "salários pagos primeiro"
+    },
+    {
+      "grupo": "Beneficiários do FDEL",
+      "saldo": 0,
+      "porque": "valor igual ao de 2026"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias",
+      "agora": "Reduzir dívidas caras e guardar uma reserva de comida básica para o primeiro trimestre de 2027.",
+      "se_piorar": "Cortar compras não essenciais e comprar só o que dura."
+    },
+    {
+      "publico": "PMEs e fornecedores do Estado",
+      "agora": "Cobrar facturas cedo e perguntar na administração distrital como se candidata ao FDEL.",
+      "se_piorar": "Não vender a prazo ao Estado sem garantia de pagamento."
+    },
+    {
+      "publico": "Quem tem salário fixo",
+      "agora": "Planear 2027 com a inflação de 7% prevista e sem contar com aumentos grandes.",
+      "se_piorar": "Evitar novas dívidas e reforçar a poupança de emergência."
+    },
+    {
+      "publico": "Governo e Parlamento",
+      "agora": "Publicar o texto completo e o calendário de execução do FDEL antes da votação.",
+      "se_piorar": "Proteger primeiro saúde, educação e a resposta ao El Niño."
+    }
+  ],
+  "visao_contraria": "O Governo argumenta que a contenção da despesa dá disciplina orçamental e reduz o défice de 7% para 4,6%, o que baixa o risco de dívida e abre porta a financiamento externo.",
+  "nao_sabemos": [
+    "O texto completo do Orçamento e a data do debate no Parlamento ainda não foram publicados.",
+    "Crescimento de 2025: o INE diz menos 0,52% e o Rio Times cita menos 0,2%; usámos o INE.",
+    "O 96% vem de uma fonte secundária que cita o relatório de riscos fiscais."
+  ],
+  "sinal": "Revisão da receita em baixa antes da votação no Parlamento.",
+  "confianca": "media",
+  "base_confianca": "Dados do Governo reportados por duas fontes secundárias; precedente de 2025 do FMI e do INE; texto completo do Orçamento ainda não publicado.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA: ORÇAMENTO DE 2027*\n\n*O FACTO*\nA proposta de Orçamento para 2027 prevê despesa de 511,2 mil milhões de meticais, menos 1,8% do que em 2026, e défice de 4,6% do PIB. O relatório de riscos fiscais diz que salários e dívida podem absorver cerca de 96% das receitas fiscais. Sobram cerca de 4%.\n\n*A CONTA*\nDe cada 100 meticais de imposto, 96 vão para salários e dívida e 4 para tudo o resto: obras, escolas, hospitais, emergências. Isso dá perto de 15 mil milhões de meticais. O FDEL, com 1,5 mil milhões, equivale a cerca de 10% dessa fatia. É uma estimativa nossa, com 87% da receita vinda de impostos.\n\n*TRÊS CENÁRIOS*\nPiora, 45%: a receita falha, como já aconteceu no Orçamento de 2026, que perdeu 14,9 mil milhões antes de ser aprovado. O Estado atrasa pagamentos e obras entre Março e Junho de 2027. Perdem fornecedores e empregos nos distritos.\n\nFica igual, 35%: o Orçamento cumpre-se com ajustes pequenos e o crescimento fica entre 1% e 1,6%. O FDEL chega a quem já o recebe.\n\nMelhora, 20%: um novo programa do FMI ou receitas do gás cobrem a falta e o Estado paga a tempo.\n\n*PORQUE ESTAS PROBABILIDADES*\nEm 2025 o défice caiu de 6,2% para cerca de 4,5% com cortes na despesa e a economia contraiu 0,52%. O precedente pesa mais do que a promessa.\n\n*DIRECÇÃO*\nFamílias: reduzam dívidas caras e guardem reserva de básicos. PMEs: cobrem facturas ao Estado cedo e perguntem no distrito como candidatar-se ao FDEL. Quem tem salário fixo: planeie 2027 com a inflação de 7% prevista.\n\nSinal a acompanhar: nova revisão da receita antes da votação no Parlamento.\n\nPartilhe com quem trabalha ou vende ao Estado.",
+    "instagram": "Orçamento de 2027: de cada 100 meticais de imposto, 96 podem ir para salários e dívida. Sobram 4 para obras, escolas, hospitais e emergências. Três cenários, uma conta e o que fazer já, no resumo completo. Partilhe com quem trabalha ou vende ao Estado. #Moçambique #Orçamento2027",
+    "facebook": "Orçamento de 2027: quanto sobra para o resto?\n\nO Governo propõe gastar 511,2 mil milhões de meticais em 2027, menos 1,8% do que em 2026. A inflação média prevista é de 7%, por isso, em termos reais, o corte é de cerca de 8%. O défice desce para 4,6% do PIB.\n\nO relatório de riscos fiscais diz que salários e dívida podem levar cerca de 96% das receitas fiscais. Na prática, de cada 100 meticais de imposto, 4 ficam para obras, escolas, hospitais e emergências. O FDEL, o fundo de desenvolvimento local, tem 1,5 mil milhões de meticais, o mesmo valor de 2026.\n\nO cenário mais provável, com 45%, é que a receita fique abaixo da meta, como aconteceu no Orçamento de 2026, e o Estado atrase pagamentos a fornecedores. Com 35%, o Orçamento cumpre-se com ajustes pequenos. Com 20%, um novo programa do FMI ou receitas do gás aliviam a pressão.\n\nO que fazer já: reduzir dívidas caras, guardar uma reserva de comida básica e, se tem um negócio, cobrar cedo ao Estado e informar-se no distrito sobre o FDEL.\n\nA direcção do dia: contar com um Estado com pouca margem em 2027.\n\n#Moçambique #Orçamento2027",
+    "linkedin": "Orçamento de 2027: o que sobra depois dos salários e da dívida\n\nA proposta do Governo prevê despesa de 511,2 mil milhões de meticais (28,1% do PIB), receitas de 427,8 mil milhões e défice de 4,6% do PIB, contra 7,0% previsto para 2026. A despesa cai 1,8% em termos nominais e cerca de 8% em termos reais, com inflação média de 7%. O relatório de riscos fiscais indica que salários e serviço da dívida podem absorver cerca de 96% das receitas fiscais.\n\nA conta: com 87% da receita vinda de impostos, os 4% restantes valem cerca de 15 mil milhões de meticais. O FDEL, com 1,5 mil milhões, equivale a cerca de 10% dessa fatia. É uma estimativa nossa.\n\nCenários. Piora, 45%: a receita falha e o Estado atrasa pagamentos e obras no primeiro semestre de 2027. O Orçamento de 2026 já perdeu 14,9 mil milhões de receita antes de ser aprovado. Fica igual, 35%: cumpre-se com ajustes e o crescimento fica entre 1% e 1,6%. Melhora, 20%: um novo programa do FMI ou receitas do gás cobrem a falta.\n\nA taxa de base pesa: em 2025 o défice desceu de 6,2% para cerca de 4,5% do PIB, segundo o FMI, por cortes de despesa, e a economia contraiu 0,52%, segundo o INE. Os protestos pós-eleitorais também pesaram.\n\nDirecção\n\nFornecedores do Estado: cobrem cedo e evitem vender a prazo sem garantia. PMEs: informem-se na administração distrital sobre o FDEL. Investidores: esperem pelo texto completo e pelo debate no Parlamento.\n\nSinal: nova revisão da receita acima de 10 mil milhões de meticais antes da votação. Com 4% de margem, o Estado não absorve sozinho um choque.\n\n#Moçambique #Orçamento2027"
+  },
+  "fontes": [
+    {
+      "fonte": "Rio Times",
+      "url": "https://www.riotimesonline.com/mozambique-budget-2027-spending-cut/",
+      "data": "2026-10-14"
+    },
+    {
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19"
+    },
+    {
+      "fonte": "AIM (Parlamento aprova Orçamento de 2026)",
+      "url": "https://aimnews.org/2025/12/14/assembly-approves-2026-plan-and-budget",
+      "data": "2025-12-14"
+    },
+    {
+      "fonte": "AIM (vulnerabilidade da dívida, FMI)",
+      "url": "https://aimnews.org/2026/02/19/mozambiques-debt-vulnerability-affects-financing-conditions-imf/",
+      "data": "2026-02-19"
+    },
+    {
+      "fonte": "AIM (FDEL)",
+      "url": "https://aimnews.org/2026/03/24/fundo-de-desenvolvimento-local-ja-mobiliza-mais-de-12-milhoes-de-dolares-para-projectos-comunitarios/",
+      "data": "2026-03-24"
+    }
+  ],
+  "data": "2026-10-26",
+  "dia_semana": "segunda",
+  "semana": "2026-S44",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}
