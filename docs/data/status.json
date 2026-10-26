@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "A pesquisar notícias de 24 e 25 de Outubro e preços",
-      "em": "2026-10-26T02:07:44.277Z"
+      "estado": "pronto",
+      "msg": "Pouca coisa nova com data; orçamento 2027 confirmado",
+      "em": "2026-10-26T02:09:06.802Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-26T02:09:06.802Z",
+      "agente": "fontes",
+      "msg": "Pouca coisa nova com data; orçamento 2027 confirmado"
+    },
     {
       "em": "2026-10-26T02:07:44.277Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-22T16:58:16.209Z",
       "agente": "fontes",
       "msg": "Sem notícias novas do aprovador"
-    },
-    {
-      "em": "2026-10-22T16:57:55.046Z",
-      "agente": "fontes",
-      "msg": "Modo rever: sem notícias novas do aprovador"
     }
   ],
-  "actualizado": "2026-10-26T02:07:44.277Z",
+  "actualizado": "2026-10-26T02:09:06.802Z",
   "semana": "2026-S44",
   "dia": "2026-10-26",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
