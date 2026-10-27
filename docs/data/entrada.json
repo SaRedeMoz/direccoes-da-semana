@@ -1,24 +1,24 @@
 {
   "modo": "diario",
-  "hoje": "2026-10-26",
+  "hoje": "2026-10-27",
   "semana": "2026-S44",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
-  "dia_semana": "segunda",
+  "dia_semana": "terca",
   "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "imprensa_economica",
-    "internacional"
+    "analise_independente",
+    "regional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-10-26 (dia): Orçamento de 2027: o que sobra depois de salários e dívida",
     "2026-10-23 (dia): El Niño e o fim da ajuda alimentar: o que acontece em Janeiro",
     "2026-10-22 (dia): Gasóleo a 116,25 meticais: haverá nova revisão da ARENE?",
     "2026-10-21 (bolso): O Seu Bolso",
-    "2026-10-20 (dia): Fim do subsídio aos chapas: quanto vai subir a tarifa em Maputo",
-    "2026-10-19 (dia): Estradas de Sofala e Inhambane: obras a tempo ou atrasadas"
+    "2026-10-20 (dia): Fim do subsídio aos chapas: quanto vai subir a tarifa em Maputo"
   ],
   "noticias_do_aprovador": [],
   "sugestoes_novas": [],
