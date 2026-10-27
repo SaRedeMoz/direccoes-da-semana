@@ -215,7 +215,15 @@
     "unidade": "%",
     "base": "prime_rate",
     "regiao": "",
-    "serie": []
+    "serie": [
+      {
+        "data": "2026-08-27",
+        "valor": 15.5,
+        "fonte": "Banco de Moçambique / AMB (prime rate de Setembro de 2026)",
+        "url": "https://bancomoc.mz/media/g0adon5e/2026-08-27-prime-rate-e-spread-de-risco-de-setembro-de-2026-bancos-comerciais-microfinanças.pdf",
+        "nota": "15,50% resulta do Indexante Único (9,30%) mais o prémio de custo (6,20%); sem comunicado de Outubro encontrado"
+      }
+    ]
   },
   "brent": {
     "nome": "Petróleo Brent",

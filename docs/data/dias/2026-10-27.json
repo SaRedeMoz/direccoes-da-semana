@@ -1,0 +1,249 @@
+{
+  "tipo": "dia",
+  "tema": "Conteúdo Local: o gás vai dar contratos às PMEs moçambicanas?",
+  "pergunta": "O gás vai dar contratos às PMEs moçambicanas?",
+  "facto": {
+    "texto": "A 13 de Outubro o Conselho de Ministros aprovou o regulamento da Lei 9/2026 e o estatuto da Autoridade de Conteúdo Local. Um fornecedor nacional pode vencer com preço até 20% acima de um concorrente estrangeiro qualificado. Os planos de aquisição dos operadores têm de ser entregues até 31 de Dezembro.",
+    "numeros": [
+      {
+        "valor": "20%",
+        "legenda": "margem de preferência máxima"
+      },
+      {
+        "valor": "80/20/50%",
+        "legenda": "exigências da exclusividade"
+      },
+      {
+        "valor": "50 a 300 mil USD",
+        "legenda": "multas por infracção"
+      }
+    ],
+    "fonte": "O Económico, 17 de Outubro de 2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "3 Jun",
+      "texto": "Lei 9/2026 publicada",
+      "futuro": false
+    },
+    {
+      "data": "13 Out",
+      "texto": "Governo aprova regulamento e Autoridade",
+      "futuro": false
+    },
+    {
+      "data": "31 Dez",
+      "texto": "Prazo dos planos de aquisição dos operadores",
+      "futuro": true
+    },
+    {
+      "data": "30 Abr",
+      "texto": "Primeiros relatórios anuais de desempenho",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Nigéria, de 2010 a 2021",
+    "o_que_aconteceu": "A Nigéria aprovou a lei do conteúdo local em 2010. A entidade reguladora diz que o peso nacional passou de menos de 5% para 26% em 2016 e 42% em Dezembro de 2021.",
+    "licao": "O arranque foi lento e os números são da própria entidade reguladora.",
+    "fonte": "NCDMB, via Guardian Nigeria e ThisDay"
+  },
+  "porque_importa": "O gás é o maior investimento em Moçambique e a lei decide quem fica com os contratos. Para uma PME, ganhar um contrato de fornecimento pode significar emprego e receita em Cabo Delgado e Sofala. Sem crédito e certificação, a preferência fica no papel.",
+  "canal": {
+    "passos": [
+      "Operador do gás compra serviços",
+      "Regra exige fornecedor certificado",
+      "PME precisa de crédito e certificado",
+      "Contrato fica na província",
+      "Emprego local sobe"
+    ],
+    "quem_sente": "PMEs de Cabo Delgado, Nampula e da zona Centro"
+  },
+  "conta": {
+    "titulo": "Contrato de 11 milhões: o juro custa 390 mil",
+    "pressupostos": "Estrangeiro propõe 10 milhões. PME ganha a 11 milhões, pede 4 milhões por seis meses a 19,5% (prime 15,5% mais 4 pontos supostos).",
+    "barras": [
+      {
+        "rotulo": "Proposta estrangeira",
+        "valor": 10000,
+        "texto": "10 000 000 MT"
+      },
+      {
+        "rotulo": "Contrato da PME",
+        "valor": 11000,
+        "texto": "11 000 000 MT"
+      },
+      {
+        "rotulo": "Juro de seis meses",
+        "valor": 390,
+        "texto": "390 000 MT"
+      }
+    ],
+    "unidade": "milhares de MT",
+    "conclusao": "A preferência cobre o juro e deixa 610 mil de folga, mas só se o crédito chegar a tempo."
+  },
+  "cenarios": [
+    {
+      "nome": "Autoridade e crédito funcionam",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Poucos países chegam depressa a resultados; a Nigéria levou seis anos a chegar a 26% pela sua medida.",
+      "gatilho": "Portal público com planos de aquisição e lista de fornecedores certificados até Janeiro",
+      "o_que_acontece": "Contratos divididos em lotes pequenos, fornecedores certificados e crédito com garantia chegam às PMEs.",
+      "numeros": "Prime rate abaixo de 15% e 30% dos contratos de bens na província",
+      "quando": "até Junho de 2027",
+      "ganha": "PMEs e jovens de Cabo Delgado",
+      "perde": "Importadores e revendedores",
+      "se_acontecer": "Candidatar-se aos lotes pequenos e pedir crédito com o contrato como garantia."
+    },
+    {
+      "nome": "A lei fica no papel",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Precedente de arranque lento, mais Autoridade nova sem portal nem orçamento conhecidos.",
+      "gatilho": "Autoridade sem portal nem nomeações em 31 de Dezembro",
+      "o_que_acontece": "Operadores compram como antes, com os fornecedores que já conhecem; poucos contratos mudam de mãos.",
+      "numeros": "Sem mudança mensurável nos contratos de 2027",
+      "quando": "até Setembro de 2027",
+      "ganha": "Fornecedores já instalados",
+      "perde": "PMEs sem contactos",
+      "se_acontecer": "Procurar subcontratos com fornecedores já qualificados e acompanhar os relatórios de Abril."
+    },
+    {
+      "nome": "Intermediários captam a preferência",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "Registo legal não mede valor acrescentado; a medida de conteúdo ainda não está clara.",
+      "gatilho": "Contratos grandes para empresas com sócio local e produto importado",
+      "o_que_acontece": "Firmas que só importam e revendem ganham a preferência de 20% e as PMEs produtoras ficam de fora.",
+      "numeros": "Preço final até 20% acima do estrangeiro, sem mais valor local",
+      "quando": "a partir de Março de 2027",
+      "ganha": "Intermediários bem ligados",
+      "perde": "PMEs produtoras e o Estado",
+      "se_acontecer": "Denunciar à Autoridade e pedir medição do valor acrescentado."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Autoridade nomeada e portal activo",
+      "limiar": "Portal público antes de 31 de Dezembro",
+      "quando": "31 de Dezembro de 2026",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Planos de aquisição publicados",
+      "limiar": "Pelo menos um operador com plano público",
+      "quando": "Janeiro de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Prime rate dos bancos",
+      "limiar": "Abaixo de 15% em vez de 15,50%",
+      "quando": "Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Lista de fornecedores certificados",
+      "limiar": "Ainda vazia ou com poucas PMEs",
+      "quando": "30 de Março de 2027",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "PMEs",
+      "saldo": 1,
+      "porque": "Procura protegida, mas crédito a 15,5%"
+    },
+    {
+      "grupo": "Jovens de Cabo Delgado",
+      "saldo": 1,
+      "porque": "15% dos empregos semiqualificados reservados"
+    },
+    {
+      "grupo": "Operadores do gás",
+      "saldo": -1,
+      "porque": "Custos de cumprimento e multas"
+    },
+    {
+      "grupo": "Importadores e revendedores",
+      "saldo": -1,
+      "porque": "Perdem contratos se houver medição rigorosa"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "Mais emprego e receita local"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "PMEs fornecedoras",
+      "agora": "Juntar certidões fiscais e laborais e preparar o registo na Autoridade.",
+      "se_piorar": "Procurar subcontratos com fornecedores certificados."
+    },
+    {
+      "publico": "Bancos e fundos",
+      "agora": "Desenhar crédito de capital de giro com o contrato como garantia.",
+      "se_piorar": "Reduzir prazos e garantias exigidos."
+    },
+    {
+      "publico": "Operadores do gás",
+      "agora": "Publicar cedo os planos de aquisição e dividir contratos em lotes.",
+      "se_piorar": "Aceitar auditoria de valor acrescentado."
+    },
+    {
+      "publico": "Jovens e cooperativas",
+      "agora": "Registar-se em formações técnicas ligadas aos projectos.",
+      "se_piorar": "Acompanhar vagas pelas Autoridades distritais."
+    }
+  ],
+  "visao_contraria": "A preferência de 20% pode encarecer e atrasar projectos que já estão sob pressão. Uma exclusividade rígida pode afastar investimento, e as multas pesadas arriscam punir quem cumpre na prática.",
+  "nao_sabemos": [
+    "Como se certifica um fornecedor nacional",
+    "Se o prazo de 31 de Dezembro vale já para 2027",
+    "Se as metas de contratos locais das empresas do gás são verificadas por terceiros"
+  ],
+  "sinal": "Portal da Autoridade e planos de aquisição publicados até 31 de Dezembro.",
+  "confianca": "media",
+  "base_confianca": "Regulamento descrito por uma só fonte (O Económico), mais análise jurídica; números dos operadores não verificados.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA: CONTEÚDO LOCAL*\nVai o gás de Cabo Delgado dar contratos a empresas moçambicanas?\n\n*O FACTO*\nA 13 de Outubro o Conselho de Ministros aprovou o regulamento da Lei 9/2026, do Conteúdo Local. Um fornecedor nacional pode ganhar mesmo com preço até 20% acima de um estrangeiro qualificado. O Mozambique LNG fala em cerca de 3,9 mil milhões de euros em serviços a fornecedores moçambicanos.\n\n*A CONTA*\nUma PME ganha um contrato a 11 milhões de meticais, contra 10 milhões do estrangeiro. Precisa de 4 milhões de capital de giro durante seis meses. Com prime rate de 15,50% mais 4 pontos de spread (pressuposto nosso), o juro é de 390 mil meticais. A preferência cobre o juro e deixa 610 mil de folga, mas só se o crédito chegar.\n\n*TRÊS CENÁRIOS*\nMelhora, 20%: a Autoridade abre o portal e publica os planos de aquisição até Janeiro. Contratos são divididos em lotes que uma PME consegue cumprir.\nFica igual, 45%: a Autoridade demora a arrancar e os operadores compram como antes. Na Nigéria, o conteúdo local passou de menos de 5% em 2010 para 26% em 2016, segundo a própria entidade reguladora.\nPiora, 35%: empresas que só importam e revendem ficam com a preferência e as PMEs ficam de fora por falta de certificado e de crédito.\n\n*A OUTRA VISÃO*\nA preferência pode encarecer os projectos e atrasá-los. Ainda não se sabe como se certifica um fornecedor nacional.\n\n*DIRECÇÃO*\nAgora: juntar certidões fiscais e laborais e preparar o registo. Se piorar: procurar subcontratos com fornecedores já certificados.\nSinal: planos de aquisição publicados até 31 de Dezembro.\n\nSe este post ajudou, partilhe com um empresário que conhece.",
+    "instagram": "Direcção do Dia: o gás de Cabo Delgado vai dar contratos a PMEs moçambicanas? O regulamento do Conteúdo Local dá preferência de até 20% a fornecedores nacionais, mas o crédito está a 15,50% de prime rate. Probabilidades: melhora 20%, fica igual 45%, piora 35%. Sinal a seguir: planos de aquisição até 31 de Dezembro. #ConteúdoLocal #PMEs",
+    "facebook": "Direcção do Dia, 27 de Outubro\n\nO gás de Cabo Delgado vai dar contratos a empresas moçambicanas?\n\nO Governo aprovou a 13 de Outubro o regulamento da Lei do Conteúdo Local. Um fornecedor nacional pode ganhar um contrato mesmo com preço até 20% acima de um estrangeiro qualificado. Para alguns bens e serviços, a empresa tem de ter pelo menos 80% de factores de produção nacionais, 20% de capital moçambicano e 50% da massa salarial paga a moçambicanos.\n\nExemplo: uma PME ganha um contrato de 11 milhões de meticais contra uma proposta estrangeira de 10 milhões. Se pedir 4 milhões de capital de giro por seis meses a 19,5% (prime rate de 15,50% mais 4 pontos que supomos de spread), paga 390 mil meticais de juros. Sobram 610 mil de folga, se o crédito chegar.\n\nO que pode acontecer: 20% de hipótese de as regras funcionarem bem e as PMEs entrarem, 45% de a Autoridade demorar a arrancar, 35% de intermediários que só importam ficarem com a preferência.\n\nO que fazer já: juntar certidões e preparar o registo. O sinal a seguir são os planos de aquisição, que têm de ser entregues até 31 de Dezembro.\n\n#ConteúdoLocal #Moçambique",
+    "linkedin": "Conteúdo Local: o regulamento aprovado e o que falta para as PMEs\n\nA 13 de Outubro o Conselho de Ministros aprovou o regulamento da Lei 9/2026 e o estatuto da Autoridade de Conteúdo Local. O regime tem três vias de compra: preferência, exclusividade e mercado livre. Na preferência, uma proposta nacional pode vencer com preço até 20% acima de um concorrente estrangeiro qualificado. Na exclusividade, são exigidos pelo menos 80% de factores de produção nacionais, 20% de capital moçambicano e 50% da massa salarial nacional. As multas vão de 50 a 300 mil dólares.\n\nA procura existe. O Mozambique LNG fala em cerca de 3,9 mil milhões de euros em serviços a fornecedores moçambicanos e a Eni em até 3 mil milhões de dólares para empresas locais. São números das empresas, ainda sem verificação independente.\n\nO custo do crédito é o obstáculo. Um contrato de 11 milhões de meticais, contra 10 milhões do concorrente estrangeiro, deixa 1 milhão de margem. Com 4 milhões de capital de giro durante seis meses a 19,5%, o juro é de 390 mil, 3,5% do contrato. O pressuposto é a prime rate de 15,50% mais 4 pontos de spread.\n\nOs cenários que consideramos: 20% de funcionamento pleno, 45% de arranque lento, 35% de captura por intermediários. O precedente é a Nigéria, onde a entidade reguladora diz que o conteúdo local passou de menos de 5% em 2010 para 26% em 2016.\n\nDirecção\n\nReunir certidões fiscais e laborais, preparar o registo e negociar prazos de pagamento antes de assinar. O sinal a seguir são os planos de aquisição de 31 de Dezembro.\n\n#ConteúdoLocal #PMEs #Moçambique"
+  },
+  "fontes": [
+    {
+      "fonte": "O Económico, regulamento do Conteúdo Local",
+      "url": "https://www.oeconomico.com/governo-regulamenta-conteudo-local-com-preferencia-de-ate-20-nas-compras-e-multas-de-us-300-mil/",
+      "data": "2026-10-17"
+    },
+    {
+      "fonte": "O Económico, Lei de Conteúdo Local entra na fase decisiva",
+      "url": "https://www.oeconomico.com/lei-de-conteudo-local-entra-na-fase-decisiva-o-regulamento-vai-separar-a-industrializacao-da-intermediacao/",
+      "data": "2026-07-17"
+    },
+    {
+      "fonte": "AIM, prime rate de Agosto",
+      "url": "https://aimnews.org/2026/08/02/prime-rate-de-agosto-mantem-se-em-1550-e-alivia-pressao-sobre-o-custo-do-credito/",
+      "data": "2026-08-02"
+    },
+    {
+      "fonte": "allAfrica, Eni e empresas locais",
+      "url": "https://allafrica.com/stories/202609180039.html",
+      "data": "2026-09-18"
+    },
+    {
+      "fonte": "ThisDay, 15 anos de conteúdo local na Nigéria",
+      "url": "https://thisdaylive.com/index.php/2025/04/25/15-years-of-boosting-the-economy-with-local-content",
+      "data": "2025-04-25"
+    }
+  ],
+  "data": "2026-10-27",
+  "dia_semana": "terca",
+  "semana": "2026-S44",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

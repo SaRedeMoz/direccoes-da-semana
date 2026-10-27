@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos e post do dia gravados",
-      "em": "2026-10-27T02:48:18.027Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-27T02:48:25.246Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-27T02:48:25.246Z",
+      "agente": "editor",
+      "msg": "Edição versão 2 montada"
+    },
+    {
+      "em": "2026-10-27T02:48:25.246Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Conteúdo Local: o gás vai dar contratos às PMEs moçambicanas?"
+    },
     {
       "em": "2026-10-27T02:48:18.027Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-10-23T02:26:05.391Z",
       "agente": "editor",
       "msg": "Edição versão 7 montada"
-    },
-    {
-      "em": "2026-10-23T02:26:05.391Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: El Niño e o fim da ajuda alimentar: o que acontece em Janeiro"
-    },
-    {
-      "em": "2026-10-23T02:25:56.754Z",
-      "agente": "editor",
-      "msg": "Textos e post do dia prontos"
     }
   ],
-  "actualizado": "2026-10-27T02:48:18.027Z",
+  "actualizado": "2026-10-27T02:48:25.246Z",
   "semana": "2026-S44",
   "dia": "2026-10-27",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",

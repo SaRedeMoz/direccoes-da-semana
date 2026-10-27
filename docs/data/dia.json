@@ -1,295 +1,249 @@
 {
   "tipo": "dia",
-  "tema": "Orçamento de 2027: o que sobra depois de salários e dívida",
-  "pergunta": "Orçamento de 2027: quanto sobra para obras, escolas e hospitais?",
+  "tema": "Conteúdo Local: o gás vai dar contratos às PMEs moçambicanas?",
+  "pergunta": "O gás vai dar contratos às PMEs moçambicanas?",
   "facto": {
-    "texto": "A proposta de Orçamento para 2027 prevê despesa de 511,2 mil milhões de meticais, menos 1,8% do que em 2026, e défice de 4,6% do PIB. O relatório de riscos fiscais indica que salários e dívida podem absorver cerca de 96% das receitas fiscais. A proposta ainda não foi debatida no Parlamento.",
+    "texto": "A 13 de Outubro o Conselho de Ministros aprovou o regulamento da Lei 9/2026 e o estatuto da Autoridade de Conteúdo Local. Um fornecedor nacional pode vencer com preço até 20% acima de um concorrente estrangeiro qualificado. Os planos de aquisição dos operadores têm de ser entregues até 31 de Dezembro.",
     "numeros": [
       {
-        "valor": "96%",
-        "legenda": "da receita fiscal em salários e dívida"
+        "valor": "20%",
+        "legenda": "margem de preferência máxima"
       },
       {
-        "valor": "511,2 mil M",
-        "legenda": "despesa prevista, em meticais"
+        "valor": "80/20/50%",
+        "legenda": "exigências da exclusividade"
       },
       {
-        "valor": "4,6%",
-        "legenda": "défice do PIB em 2027"
+        "valor": "50 a 300 mil USD",
+        "legenda": "multas por infracção"
       }
     ],
-    "fonte": "Rio Times (14 Out 2026), a partir do Governo e da Carta de Moçambique; Forbes África Lusófona (19 Out 2026)"
+    "fonte": "O Económico, 17 de Outubro de 2026"
   },
   "linha_do_tempo": [
     {
-      "data": "Dez 2025",
-      "texto": "Parlamento aprova o Orçamento de 2026, com défice de 7%",
+      "data": "3 Jun",
+      "texto": "Lei 9/2026 publicada",
       "futuro": false
     },
     {
       "data": "13 Out",
-      "texto": "Conselho de Ministros aprova a proposta para 2027",
+      "texto": "Governo aprova regulamento e Autoridade",
       "futuro": false
     },
     {
-      "data": "Nov a Dez",
-      "texto": "Debate e votação no Parlamento, datas por confirmar",
+      "data": "31 Dez",
+      "texto": "Prazo dos planos de aquisição dos operadores",
       "futuro": true
     },
     {
-      "data": "1 Jan",
-      "texto": "Orçamento de 2027 entra em execução",
+      "data": "30 Abr",
+      "texto": "Primeiros relatórios anuais de desempenho",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "Ano de 2025",
-    "o_que_aconteceu": "O défice desceu de 6,2% para cerca de 4,5% do PIB, segundo o FMI, com cortes em bens, serviços e investimento. A economia contraiu 0,52%, segundo o INE.",
-    "licao": "Cortar a despesa cumpriu a meta do défice mas não ajudou o crescimento.",
-    "fonte": "FMI via AIM (Fev 2026); INE via Lusa (2026)"
+    "quando": "Nigéria, de 2010 a 2021",
+    "o_que_aconteceu": "A Nigéria aprovou a lei do conteúdo local em 2010. A entidade reguladora diz que o peso nacional passou de menos de 5% para 26% em 2016 e 42% em Dezembro de 2021.",
+    "licao": "O arranque foi lento e os números são da própria entidade reguladora.",
+    "fonte": "NCDMB, via Guardian Nigeria e ThisDay"
   },
-  "porque_importa": "Com 4% da receita fiscal livre, o Estado tem pouco dinheiro para responder a um choque como o El Niño ou ao custo do combustível. Obras, pagamentos a fornecedores e apoios locais dependem dessa fatia pequena. As famílias sentem-no em escolas, hospitais e estradas que demoram mais.",
+  "porque_importa": "O gás é o maior investimento em Moçambique e a lei decide quem fica com os contratos. Para uma PME, ganhar um contrato de fornecimento pode significar emprego e receita em Cabo Delgado e Sofala. Sem crédito e certificação, a preferência fica no papel.",
   "canal": {
     "passos": [
-      "Receita fica abaixo da meta",
-      "Estado atrasa pagamentos e obras",
-      "Fornecedores cortam compras e empregos",
-      "Menos dinheiro circula nos distritos"
+      "Operador do gás compra serviços",
+      "Regra exige fornecedor certificado",
+      "PME precisa de crédito e certificado",
+      "Contrato fica na província",
+      "Emprego local sobe"
     ],
-    "quem_sente": "Fornecedores do Estado, PMEs locais e famílias de baixa renda"
+    "quem_sente": "PMEs de Cabo Delgado, Nampula e da zona Centro"
   },
   "conta": {
-    "titulo": "Para onde vai cada 100 meticais de imposto",
-    "pressupostos": "Receita de 427,8 mil milhões, 87% de impostos (372,2 mil milhões), e 96% para salários e dívida. Estimativa nossa.",
+    "titulo": "Contrato de 11 milhões: o juro custa 390 mil",
+    "pressupostos": "Estrangeiro propõe 10 milhões. PME ganha a 11 milhões, pede 4 milhões por seis meses a 19,5% (prime 15,5% mais 4 pontos supostos).",
     "barras": [
       {
-        "rotulo": "Salários e dívida",
-        "valor": 96,
-        "texto": "96 MT em cada 100"
+        "rotulo": "Proposta estrangeira",
+        "valor": 10000,
+        "texto": "10 000 000 MT"
       },
       {
-        "rotulo": "Todo o resto",
-        "valor": 4,
-        "texto": "4 MT, cerca de 15 mil milhões"
+        "rotulo": "Contrato da PME",
+        "valor": 11000,
+        "texto": "11 000 000 MT"
+      },
+      {
+        "rotulo": "Juro de seis meses",
+        "valor": 390,
+        "texto": "390 000 MT"
       }
     ],
-    "unidade": "MT em cada 100 MT de receita fiscal",
-    "conclusao": "O FDEL, com 1,5 mil milhões de meticais, equivale a cerca de 10% da fatia livre."
+    "unidade": "milhares de MT",
+    "conclusao": "A preferência cobre o juro e deixa 610 mil de folga, mas só se o crédito chegar a tempo."
   },
   "cenarios": [
     {
-      "nome": "Receita falha, pagamentos atrasam",
-      "tipo": "piora",
-      "probabilidade": 45,
-      "porque_probabilidade": "O Orçamento de 2026 perdeu 14,9 mil milhões de receita antes da aprovação, e o de 2027 assume 1,6% de crescimento.",
-      "gatilho": "Revisão da receita em baixa acima de 10 mil milhões antes da votação",
-      "o_que_acontece": "A receita fica abaixo da meta, o Estado paga tarde a fornecedores e adia obras, e o investimento local seca.",
-      "numeros": "Receita 15 a 30 mil milhões abaixo (estimativa nossa)",
-      "quando": "até Junho de 2027",
-      "ganha": "Quem recebe salário fixo",
-      "perde": "Fornecedores e empregos nos distritos",
-      "se_acontecer": "Cobrar ao Estado cedo, não vender a prazo sem garantia e reduzir despesas não essenciais."
-    },
-    {
-      "nome": "Orçamento cumpre-se com ajustes",
-      "tipo": "fica_igual",
-      "probabilidade": 35,
-      "porque_probabilidade": "Em 2025 a meta do défice foi cumprida por cortes, e o Parlamento costuma aprovar o essencial da proposta.",
-      "gatilho": "Votação com alterações pequenas e FDEL mantido em 1,5 mil milhões",
-      "o_que_acontece": "A despesa executa-se com cortes selectivos, o crescimento é baixo e o FDEL chega a quem já o recebe.",
-      "numeros": "Crescimento 1% a 1,6%, défice até 5,5% do PIB (estimativa)",
-      "quando": "até Dezembro de 2027",
-      "ganha": "Funcionários e beneficiários do FDEL",
-      "perde": "PMEs sem acesso ao crédito",
-      "se_acontecer": "Manter reservas, planear com inflação de 7% e candidatar-se ao FDEL cedo."
-    },
-    {
-      "nome": "Apoio externo cobre a falta",
+      "nome": "Autoridade e crédito funcionam",
       "tipo": "melhora",
       "probabilidade": 20,
-      "porque_probabilidade": "Não há programa do FMI aprovado nem prazo para um acordo, por isso é o desfecho menos provável.",
-      "gatilho": "Acordo técnico com o FMI ou receita do gás acima do previsto",
-      "o_que_acontece": "Um novo programa do FMI e parceiros dão financiamento barato e o Estado cumpre pagamentos e obras a tempo.",
-      "numeros": "Financiamento extra de 20 a 40 mil milhões (estimativa nossa)",
+      "porque_probabilidade": "Poucos países chegam depressa a resultados; a Nigéria levou seis anos a chegar a 26% pela sua medida.",
+      "gatilho": "Portal público com planos de aquisição e lista de fornecedores certificados até Janeiro",
+      "o_que_acontece": "Contratos divididos em lotes pequenos, fornecedores certificados e crédito com garantia chegam às PMEs.",
+      "numeros": "Prime rate abaixo de 15% e 30% dos contratos de bens na província",
+      "quando": "até Junho de 2027",
+      "ganha": "PMEs e jovens de Cabo Delgado",
+      "perde": "Importadores e revendedores",
+      "se_acontecer": "Candidatar-se aos lotes pequenos e pedir crédito com o contrato como garantia."
+    },
+    {
+      "nome": "A lei fica no papel",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Precedente de arranque lento, mais Autoridade nova sem portal nem orçamento conhecidos.",
+      "gatilho": "Autoridade sem portal nem nomeações em 31 de Dezembro",
+      "o_que_acontece": "Operadores compram como antes, com os fornecedores que já conhecem; poucos contratos mudam de mãos.",
+      "numeros": "Sem mudança mensurável nos contratos de 2027",
       "quando": "até Setembro de 2027",
-      "ganha": "Fornecedores, obras públicas e crédito",
-      "perde": "Ninguém de forma directa",
-      "se_acontecer": "Preparar propostas para obras e fornecimentos que o novo financiamento abrir."
+      "ganha": "Fornecedores já instalados",
+      "perde": "PMEs sem contactos",
+      "se_acontecer": "Procurar subcontratos com fornecedores já qualificados e acompanhar os relatórios de Abril."
+    },
+    {
+      "nome": "Intermediários captam a preferência",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "Registo legal não mede valor acrescentado; a medida de conteúdo ainda não está clara.",
+      "gatilho": "Contratos grandes para empresas com sócio local e produto importado",
+      "o_que_acontece": "Firmas que só importam e revendem ganham a preferência de 20% e as PMEs produtoras ficam de fora.",
+      "numeros": "Preço final até 20% acima do estrangeiro, sem mais valor local",
+      "quando": "a partir de Março de 2027",
+      "ganha": "Intermediários bem ligados",
+      "perde": "PMEs produtoras e o Estado",
+      "se_acontecer": "Denunciar à Autoridade e pedir medição do valor acrescentado."
     }
   ],
   "sinais": [
     {
-      "o_que": "Revisão da receita antes da votação",
-      "limiar": "Mais de 10 mil milhões de meticais a menos",
-      "quando": "até Dezembro de 2026",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Inflação anual de Dezembro",
-      "limiar": "Acima de 7%, meta do Orçamento",
-      "quando": "a 10 de Janeiro de 2027",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Acordo técnico com o FMI",
-      "limiar": "Anúncio de acordo ao nível técnico",
-      "quando": "até Junho de 2027",
+      "o_que": "Autoridade nomeada e portal activo",
+      "limiar": "Portal público antes de 31 de Dezembro",
+      "quando": "31 de Dezembro de 2026",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Execução do FDEL nos distritos",
-      "limiar": "Mais de 90% executado, como em 2026",
-      "quando": "até Junho de 2027",
-      "aponta_para": "fica_igual"
+      "o_que": "Planos de aquisição publicados",
+      "limiar": "Pelo menos um operador com plano público",
+      "quando": "Janeiro de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Prime rate dos bancos",
+      "limiar": "Abaixo de 15% em vez de 15,50%",
+      "quando": "Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Lista de fornecedores certificados",
+      "limiar": "Ainda vazia ou com poucas PMEs",
+      "quando": "30 de Março de 2027",
+      "aponta_para": "piora"
     }
   ],
   "afectados": [
     {
-      "grupo": "Fornecedores do Estado",
-      "saldo": -2,
-      "porque": "pagamentos e obras sob pressão"
-    },
-    {
-      "grupo": "Classe baixa",
-      "saldo": -1,
-      "porque": "menos serviços públicos novos"
-    },
-    {
       "grupo": "PMEs",
+      "saldo": 1,
+      "porque": "Procura protegida, mas crédito a 15,5%"
+    },
+    {
+      "grupo": "Jovens de Cabo Delgado",
+      "saldo": 1,
+      "porque": "15% dos empregos semiqualificados reservados"
+    },
+    {
+      "grupo": "Operadores do gás",
       "saldo": -1,
-      "porque": "crédito interno limitado a 1,9% do PIB"
+      "porque": "Custos de cumprimento e multas"
     },
     {
-      "grupo": "Funcionários públicos",
-      "saldo": 0,
-      "porque": "salários pagos primeiro"
+      "grupo": "Importadores e revendedores",
+      "saldo": -1,
+      "porque": "Perdem contratos se houver medição rigorosa"
     },
     {
-      "grupo": "Beneficiários do FDEL",
-      "saldo": 0,
-      "porque": "valor igual ao de 2026"
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "Mais emprego e receita local"
     }
   ],
   "direccao": [
     {
-      "publico": "Famílias",
-      "agora": "Reduzir dívidas caras e guardar uma reserva de comida básica para o primeiro trimestre de 2027.",
-      "se_piorar": "Cortar compras não essenciais e comprar só o que dura."
+      "publico": "PMEs fornecedoras",
+      "agora": "Juntar certidões fiscais e laborais e preparar o registo na Autoridade.",
+      "se_piorar": "Procurar subcontratos com fornecedores certificados."
     },
     {
-      "publico": "PMEs e fornecedores do Estado",
-      "agora": "Cobrar facturas cedo e perguntar na administração distrital como se candidata ao FDEL.",
-      "se_piorar": "Não vender a prazo ao Estado sem garantia de pagamento."
+      "publico": "Bancos e fundos",
+      "agora": "Desenhar crédito de capital de giro com o contrato como garantia.",
+      "se_piorar": "Reduzir prazos e garantias exigidos."
     },
     {
-      "publico": "Quem tem salário fixo",
-      "agora": "Planear 2027 com a inflação de 7% prevista e sem contar com aumentos grandes.",
-      "se_piorar": "Evitar novas dívidas e reforçar a poupança de emergência."
+      "publico": "Operadores do gás",
+      "agora": "Publicar cedo os planos de aquisição e dividir contratos em lotes.",
+      "se_piorar": "Aceitar auditoria de valor acrescentado."
     },
     {
-      "publico": "Governo e Parlamento",
-      "agora": "Publicar o texto completo e o calendário de execução do FDEL antes da votação.",
-      "se_piorar": "Proteger primeiro saúde, educação e a resposta ao El Niño."
+      "publico": "Jovens e cooperativas",
+      "agora": "Registar-se em formações técnicas ligadas aos projectos.",
+      "se_piorar": "Acompanhar vagas pelas Autoridades distritais."
     }
   ],
-  "visao_contraria": "O Governo argumenta que a contenção da despesa dá disciplina orçamental e reduz o défice de 7% para 4,6%, o que baixa o risco de dívida e abre porta a financiamento externo.",
+  "visao_contraria": "A preferência de 20% pode encarecer e atrasar projectos que já estão sob pressão. Uma exclusividade rígida pode afastar investimento, e as multas pesadas arriscam punir quem cumpre na prática.",
   "nao_sabemos": [
-    "O texto completo do Orçamento e a data do debate no Parlamento ainda não foram publicados.",
-    "Crescimento de 2025: o INE diz menos 0,52% e o Rio Times cita menos 0,2%; usámos o INE.",
-    "O 96% vem de uma fonte secundária que cita o relatório de riscos fiscais."
+    "Como se certifica um fornecedor nacional",
+    "Se o prazo de 31 de Dezembro vale já para 2027",
+    "Se as metas de contratos locais das empresas do gás são verificadas por terceiros"
   ],
-  "sinal": "Revisão da receita em baixa antes da votação no Parlamento.",
+  "sinal": "Portal da Autoridade e planos de aquisição publicados até 31 de Dezembro.",
   "confianca": "media",
-  "base_confianca": "Dados do Governo reportados por duas fontes secundárias; precedente de 2025 do FMI e do INE; texto completo do Orçamento ainda não publicado.",
+  "base_confianca": "Regulamento descrito por uma só fonte (O Económico), mais análise jurídica; números dos operadores não verificados.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA: ORÇAMENTO DE 2027*\n\n*O FACTO*\nA proposta de Orçamento para 2027 prevê despesa de 511,2 mil milhões de meticais, menos 1,8% do que em 2026, e défice de 4,6% do PIB. O relatório de riscos fiscais diz que salários e dívida podem absorver cerca de 96% das receitas fiscais. Sobram cerca de 4%.\n\n*A CONTA*\nDe cada 100 meticais de imposto, 96 vão para salários e dívida e 4 para tudo o resto: obras, escolas, hospitais, emergências. Isso dá perto de 15 mil milhões de meticais. O FDEL, com 1,5 mil milhões, equivale a cerca de 10% dessa fatia. É uma estimativa nossa, com 87% da receita vinda de impostos.\n\n*TRÊS CENÁRIOS*\nPiora, 45%: a receita falha, como já aconteceu no Orçamento de 2026, que perdeu 14,9 mil milhões antes de ser aprovado. O Estado atrasa pagamentos e obras entre Março e Junho de 2027. Perdem fornecedores e empregos nos distritos.\n\nFica igual, 35%: o Orçamento cumpre-se com ajustes pequenos e o crescimento fica entre 1% e 1,6%. O FDEL chega a quem já o recebe.\n\nMelhora, 20%: um novo programa do FMI ou receitas do gás cobrem a falta e o Estado paga a tempo.\n\n*PORQUE ESTAS PROBABILIDADES*\nEm 2025 o défice caiu de 6,2% para cerca de 4,5% com cortes na despesa e a economia contraiu 0,52%. O precedente pesa mais do que a promessa.\n\n*DIRECÇÃO*\nFamílias: reduzam dívidas caras e guardem reserva de básicos. PMEs: cobrem facturas ao Estado cedo e perguntem no distrito como candidatar-se ao FDEL. Quem tem salário fixo: planeie 2027 com a inflação de 7% prevista.\n\nSinal a acompanhar: nova revisão da receita antes da votação no Parlamento.\n\nPartilhe com quem trabalha ou vende ao Estado.",
-    "instagram": "Orçamento de 2027: de cada 100 meticais de imposto, 96 podem ir para salários e dívida. Sobram 4 para obras, escolas, hospitais e emergências. Três cenários, uma conta e o que fazer já, no resumo completo. Partilhe com quem trabalha ou vende ao Estado. #Moçambique #Orçamento2027",
-    "facebook": "Orçamento de 2027: quanto sobra para o resto?\n\nO Governo propõe gastar 511,2 mil milhões de meticais em 2027, menos 1,8% do que em 2026. A inflação média prevista é de 7%, por isso, em termos reais, o corte é de cerca de 8%. O défice desce para 4,6% do PIB.\n\nO relatório de riscos fiscais diz que salários e dívida podem levar cerca de 96% das receitas fiscais. Na prática, de cada 100 meticais de imposto, 4 ficam para obras, escolas, hospitais e emergências. O FDEL, o fundo de desenvolvimento local, tem 1,5 mil milhões de meticais, o mesmo valor de 2026.\n\nO cenário mais provável, com 45%, é que a receita fique abaixo da meta, como aconteceu no Orçamento de 2026, e o Estado atrase pagamentos a fornecedores. Com 35%, o Orçamento cumpre-se com ajustes pequenos. Com 20%, um novo programa do FMI ou receitas do gás aliviam a pressão.\n\nO que fazer já: reduzir dívidas caras, guardar uma reserva de comida básica e, se tem um negócio, cobrar cedo ao Estado e informar-se no distrito sobre o FDEL.\n\nA direcção do dia: contar com um Estado com pouca margem em 2027.\n\n#Moçambique #Orçamento2027",
-    "linkedin": "Orçamento de 2027: o que sobra depois dos salários e da dívida\n\nA proposta do Governo prevê despesa de 511,2 mil milhões de meticais (28,1% do PIB), receitas de 427,8 mil milhões e défice de 4,6% do PIB, contra 7,0% previsto para 2026. A despesa cai 1,8% em termos nominais e cerca de 8% em termos reais, com inflação média de 7%. O relatório de riscos fiscais indica que salários e serviço da dívida podem absorver cerca de 96% das receitas fiscais.\n\nA conta: com 87% da receita vinda de impostos, os 4% restantes valem cerca de 15 mil milhões de meticais. O FDEL, com 1,5 mil milhões, equivale a cerca de 10% dessa fatia. É uma estimativa nossa.\n\nCenários. Piora, 45%: a receita falha e o Estado atrasa pagamentos e obras no primeiro semestre de 2027. O Orçamento de 2026 já perdeu 14,9 mil milhões de receita antes de ser aprovado. Fica igual, 35%: cumpre-se com ajustes e o crescimento fica entre 1% e 1,6%. Melhora, 20%: um novo programa do FMI ou receitas do gás cobrem a falta.\n\nA taxa de base pesa: em 2025 o défice desceu de 6,2% para cerca de 4,5% do PIB, segundo o FMI, por cortes de despesa, e a economia contraiu 0,52%, segundo o INE. Os protestos pós-eleitorais também pesaram.\n\nDirecção\n\nFornecedores do Estado: cobrem cedo e evitem vender a prazo sem garantia. PMEs: informem-se na administração distrital sobre o FDEL. Investidores: esperem pelo texto completo e pelo debate no Parlamento.\n\nSinal: nova revisão da receita acima de 10 mil milhões de meticais antes da votação. Com 4% de margem, o Estado não absorve sozinho um choque.\n\n#Moçambique #Orçamento2027"
+    "whatsapp": "*DIRECÇÃO DO DIA: CONTEÚDO LOCAL*\nVai o gás de Cabo Delgado dar contratos a empresas moçambicanas?\n\n*O FACTO*\nA 13 de Outubro o Conselho de Ministros aprovou o regulamento da Lei 9/2026, do Conteúdo Local. Um fornecedor nacional pode ganhar mesmo com preço até 20% acima de um estrangeiro qualificado. O Mozambique LNG fala em cerca de 3,9 mil milhões de euros em serviços a fornecedores moçambicanos.\n\n*A CONTA*\nUma PME ganha um contrato a 11 milhões de meticais, contra 10 milhões do estrangeiro. Precisa de 4 milhões de capital de giro durante seis meses. Com prime rate de 15,50% mais 4 pontos de spread (pressuposto nosso), o juro é de 390 mil meticais. A preferência cobre o juro e deixa 610 mil de folga, mas só se o crédito chegar.\n\n*TRÊS CENÁRIOS*\nMelhora, 20%: a Autoridade abre o portal e publica os planos de aquisição até Janeiro. Contratos são divididos em lotes que uma PME consegue cumprir.\nFica igual, 45%: a Autoridade demora a arrancar e os operadores compram como antes. Na Nigéria, o conteúdo local passou de menos de 5% em 2010 para 26% em 2016, segundo a própria entidade reguladora.\nPiora, 35%: empresas que só importam e revendem ficam com a preferência e as PMEs ficam de fora por falta de certificado e de crédito.\n\n*A OUTRA VISÃO*\nA preferência pode encarecer os projectos e atrasá-los. Ainda não se sabe como se certifica um fornecedor nacional.\n\n*DIRECÇÃO*\nAgora: juntar certidões fiscais e laborais e preparar o registo. Se piorar: procurar subcontratos com fornecedores já certificados.\nSinal: planos de aquisição publicados até 31 de Dezembro.\n\nSe este post ajudou, partilhe com um empresário que conhece.",
+    "instagram": "Direcção do Dia: o gás de Cabo Delgado vai dar contratos a PMEs moçambicanas? O regulamento do Conteúdo Local dá preferência de até 20% a fornecedores nacionais, mas o crédito está a 15,50% de prime rate. Probabilidades: melhora 20%, fica igual 45%, piora 35%. Sinal a seguir: planos de aquisição até 31 de Dezembro. #ConteúdoLocal #PMEs",
+    "facebook": "Direcção do Dia, 27 de Outubro\n\nO gás de Cabo Delgado vai dar contratos a empresas moçambicanas?\n\nO Governo aprovou a 13 de Outubro o regulamento da Lei do Conteúdo Local. Um fornecedor nacional pode ganhar um contrato mesmo com preço até 20% acima de um estrangeiro qualificado. Para alguns bens e serviços, a empresa tem de ter pelo menos 80% de factores de produção nacionais, 20% de capital moçambicano e 50% da massa salarial paga a moçambicanos.\n\nExemplo: uma PME ganha um contrato de 11 milhões de meticais contra uma proposta estrangeira de 10 milhões. Se pedir 4 milhões de capital de giro por seis meses a 19,5% (prime rate de 15,50% mais 4 pontos que supomos de spread), paga 390 mil meticais de juros. Sobram 610 mil de folga, se o crédito chegar.\n\nO que pode acontecer: 20% de hipótese de as regras funcionarem bem e as PMEs entrarem, 45% de a Autoridade demorar a arrancar, 35% de intermediários que só importam ficarem com a preferência.\n\nO que fazer já: juntar certidões e preparar o registo. O sinal a seguir são os planos de aquisição, que têm de ser entregues até 31 de Dezembro.\n\n#ConteúdoLocal #Moçambique",
+    "linkedin": "Conteúdo Local: o regulamento aprovado e o que falta para as PMEs\n\nA 13 de Outubro o Conselho de Ministros aprovou o regulamento da Lei 9/2026 e o estatuto da Autoridade de Conteúdo Local. O regime tem três vias de compra: preferência, exclusividade e mercado livre. Na preferência, uma proposta nacional pode vencer com preço até 20% acima de um concorrente estrangeiro qualificado. Na exclusividade, são exigidos pelo menos 80% de factores de produção nacionais, 20% de capital moçambicano e 50% da massa salarial nacional. As multas vão de 50 a 300 mil dólares.\n\nA procura existe. O Mozambique LNG fala em cerca de 3,9 mil milhões de euros em serviços a fornecedores moçambicanos e a Eni em até 3 mil milhões de dólares para empresas locais. São números das empresas, ainda sem verificação independente.\n\nO custo do crédito é o obstáculo. Um contrato de 11 milhões de meticais, contra 10 milhões do concorrente estrangeiro, deixa 1 milhão de margem. Com 4 milhões de capital de giro durante seis meses a 19,5%, o juro é de 390 mil, 3,5% do contrato. O pressuposto é a prime rate de 15,50% mais 4 pontos de spread.\n\nOs cenários que consideramos: 20% de funcionamento pleno, 45% de arranque lento, 35% de captura por intermediários. O precedente é a Nigéria, onde a entidade reguladora diz que o conteúdo local passou de menos de 5% em 2010 para 26% em 2016.\n\nDirecção\n\nReunir certidões fiscais e laborais, preparar o registo e negociar prazos de pagamento antes de assinar. O sinal a seguir são os planos de aquisição de 31 de Dezembro.\n\n#ConteúdoLocal #PMEs #Moçambique"
   },
   "fontes": [
     {
-      "fonte": "Rio Times",
-      "url": "https://www.riotimesonline.com/mozambique-budget-2027-spending-cut/",
-      "data": "2026-10-14"
+      "fonte": "O Económico, regulamento do Conteúdo Local",
+      "url": "https://www.oeconomico.com/governo-regulamenta-conteudo-local-com-preferencia-de-ate-20-nas-compras-e-multas-de-us-300-mil/",
+      "data": "2026-10-17"
     },
     {
-      "fonte": "Forbes África Lusófona",
-      "url": "https://forbesafricalusofona.com/?p=177705",
-      "data": "2026-10-19"
+      "fonte": "O Económico, Lei de Conteúdo Local entra na fase decisiva",
+      "url": "https://www.oeconomico.com/lei-de-conteudo-local-entra-na-fase-decisiva-o-regulamento-vai-separar-a-industrializacao-da-intermediacao/",
+      "data": "2026-07-17"
     },
     {
-      "fonte": "AIM (Parlamento aprova Orçamento de 2026)",
-      "url": "https://aimnews.org/2025/12/14/assembly-approves-2026-plan-and-budget",
-      "data": "2025-12-14"
+      "fonte": "AIM, prime rate de Agosto",
+      "url": "https://aimnews.org/2026/08/02/prime-rate-de-agosto-mantem-se-em-1550-e-alivia-pressao-sobre-o-custo-do-credito/",
+      "data": "2026-08-02"
     },
     {
-      "fonte": "AIM (vulnerabilidade da dívida, FMI)",
-      "url": "https://aimnews.org/2026/02/19/mozambiques-debt-vulnerability-affects-financing-conditions-imf/",
-      "data": "2026-02-19"
+      "fonte": "allAfrica, Eni e empresas locais",
+      "url": "https://allafrica.com/stories/202609180039.html",
+      "data": "2026-09-18"
     },
     {
-      "fonte": "AIM (FDEL)",
-      "url": "https://aimnews.org/2026/03/24/fundo-de-desenvolvimento-local-ja-mobiliza-mais-de-12-milhoes-de-dolares-para-projectos-comunitarios/",
-      "data": "2026-03-24"
+      "fonte": "ThisDay, 15 anos de conteúdo local na Nigéria",
+      "url": "https://thisdaylive.com/index.php/2025/04/25/15-years-of-boosting-the-economy-with-local-content",
+      "data": "2025-04-25"
     }
   ],
-  "data": "2026-10-26",
-  "dia_semana": "segunda",
+  "data": "2026-10-27",
+  "dia_semana": "terca",
   "semana": "2026-S44",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1792980804209
-  }
+  "falhas": []
 }

@@ -326,10 +326,21 @@
       "unidade": "%",
       "base": "prime_rate",
       "regiao": "",
-      "ultimo": null,
+      "ultimo": {
+        "data": "2026-08-27",
+        "valor": 15.5,
+        "fonte": "Banco de Moçambique / AMB (prime rate de Setembro de 2026)",
+        "url": "https://bancomoc.mz/media/g0adon5e/2026-08-27-prime-rate-e-spread-de-risco-de-setembro-de-2026-bancos-comerciais-microfinanças.pdf",
+        "nota": "15,50% resulta do Indexante Único (9,30%) mais o prémio de custo (6,20%); sem comunicado de Outubro encontrado"
+      },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
-      "ultimos": []
+      "ultimos": [
+        [
+          "2026-08-27",
+          15.5
+        ]
+      ]
     },
     {
       "id": "brent",
@@ -377,12 +388,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-10-23",
-          "semana": "2026-S43",
-          "resumo": "O Brent subiu a 111,24 dólares a 22 de Outubro e o gasóleo continua a 116,25 meticais. A FEMATRO volta a reunir com o Governo a 26 de Outubro, sem decisão sobre a tarifa do chapa.",
-          "direccao": "Contar com chapa mais caro em Novembro e acompanhar a decisão do Governo e a ARENE."
-        },
-        {
           "data": "2026-10-25",
           "semana": "2026-S43",
           "resumo": "O gasóleo continua a 116,25 meticais e o Brent esteve a 111,24 dólares a 22 de Outubro. A FEMATRO reúne com o Governo a 26 de Outubro, sem decisão sobre a tarifa do chapa.",
@@ -392,6 +397,12 @@
           "data": "2026-10-26",
           "semana": "2026-S44",
           "resumo": "O gasóleo continua a 116,25 meticais e não houve informação nova e datada sobre o Brent nem sobre a tarifa do chapa. A reunião da FEMATRO com o Governo a 26 de Outubro ainda não tem resultado conhecido.",
+          "direccao": "Contar com chapa mais caro em Novembro e acompanhar a decisão do Governo e a ARENE."
+        },
+        {
+          "data": "2026-10-27",
+          "semana": "2026-S44",
+          "resumo": "O gasóleo continua a 116,25 meticais e não há decisão conhecida sobre a tarifa do chapa depois da reunião de 26 de Outubro. A FEMATRO pede 30 e 25 meticais a partir de 1 de Novembro.",
           "direccao": "Contar com chapa mais caro em Novembro e acompanhar a decisão do Governo e a ARENE."
         }
       ]
@@ -427,12 +438,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-10-16",
-          "semana": "2026-S42",
-          "resumo": "O Parlamento aprovou a Lei 9/2026 por unanimidade e o Governo aprovou o regulamento e o estatuto da Autoridade. O efeito para as PMEs depende das regras de acesso.",
-          "direccao": "Fornecedores devem ler o regulamento e registar-se quando a Autoridade abrir."
-        },
-        {
           "data": "2026-10-17",
           "semana": "2026-S42",
           "resumo": "O Parlamento aprovou a Lei 9/2026 e o Governo aprovou o regulamento. O efeito para as PMEs depende das regras de acesso.",
@@ -443,6 +448,12 @@
           "semana": "2026-S43",
           "resumo": "O Parlamento aprovou a Lei 9/2026 e o Governo aprovou o regulamento. O efeito para as PMEs depende das regras de acesso.",
           "direccao": "Fornecedores devem ler o regulamento e registar-se quando a Autoridade abrir."
+        },
+        {
+          "data": "2026-10-27",
+          "semana": "2026-S44",
+          "resumo": "O regulamento da Lei 9/2026 prevê preferência de até 20% a fornecedores nacionais e exclusividade em certos bens e serviços. Os planos de aquisição têm de ser entregues até 31 de Dezembro e falta saber como se certifica um fornecedor nacional.",
+          "direccao": "Fornecedores devem juntar certidões e registar-se na Autoridade de Conteúdo Local quando abrir."
         }
       ]
     },
@@ -521,16 +532,16 @@
     "confirmada": 0,
     "parcial": 0,
     "nao_confirmada": 0,
-    "pendente": 21
+    "pendente": 23
   },
   "ultimas_licoes": [
-    "- 2026-10-21 (2026-S43): A pesquisa de preços por cidade na Beira e em Nampula continua sem resultados recentes: ir directamente ao SIMA, ao FEWS NET e ao INE.",
     "- 2026-10-22 (2026-S43): A pesquisa devolve pouco material nacional de 21 e 22 de Outubro: o Brent e a tarifa do chapa vieram de fontes secundárias, por isso convém confirmar com a AIM e a ARENE.",
     "- 2026-10-22 (2026-S43): Em modo rever sem sugestões novas, a edição foi só corrigida: cifras sem fonte retiradas e análise completa reduzida ao limite de palavras.",
     "- 2026-10-22 (2026-S43): Em modo rever sem sugestões novas, a edição de 22 de Outubro ficou como estava, porque já cumpria todos os critérios.",
     "- 2026-10-23 (2026-S43): A pesquisa devolve pouco material nacional das últimas 48 horas: o Brent veio de uma fonte intradiária e várias notícias de Lusa só apareceram como títulos.",
     "- 2026-10-24 (2026-S43): Aos sábados a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.",
     "- 2026-10-25 (2026-S43): Aos domingos a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.",
-    "- 2026-10-26 (2026-S44): Às segundas a pesquisa devolve pouco material datado das últimas 48 horas: a ronda manteve a análise anterior e só acrescentou o que se confirmou."
+    "- 2026-10-26 (2026-S44): Às segundas a pesquisa devolve pouco material datado das últimas 48 horas: a ronda manteve a análise anterior e só acrescentou o que se confirmou.",
+    "- 2026-10-27 (2026-S44): Às terças a pesquisa devolve pouco material datado das últimas 48 horas; o regulamento do Conteúdo Local, publicado a 17 de Outubro, deu o assunto mais sólido do dia."
   ]
 }
