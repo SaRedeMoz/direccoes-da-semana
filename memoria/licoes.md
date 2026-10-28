@@ -16,3 +16,4 @@
 - 2026-10-25 (2026-S43): Aos domingos a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.
 - 2026-10-26 (2026-S44): Às segundas a pesquisa devolve pouco material datado das últimas 48 horas: a ronda manteve a análise anterior e só acrescentou o que se confirmou.
 - 2026-10-27 (2026-S44): Às terças a pesquisa devolve pouco material datado das últimas 48 horas; o regulamento do Conteúdo Local, publicado a 17 de Outubro, deu o assunto mais sólido do dia.
+- 2026-10-28 (2026-S44): Às quartas a pesquisa devolve pouco material datado: os preços de milho e arroz nas três capitais continuam sem fonte recente.

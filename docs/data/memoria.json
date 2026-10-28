@@ -388,12 +388,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-10-25",
-          "semana": "2026-S43",
-          "resumo": "O gasóleo continua a 116,25 meticais e o Brent esteve a 111,24 dólares a 22 de Outubro. A FEMATRO reúne com o Governo a 26 de Outubro, sem decisão sobre a tarifa do chapa.",
-          "direccao": "Contar com chapa mais caro em Novembro e acompanhar a decisão do Governo e a ARENE."
-        },
-        {
           "data": "2026-10-26",
           "semana": "2026-S44",
           "resumo": "O gasóleo continua a 116,25 meticais e não houve informação nova e datada sobre o Brent nem sobre a tarifa do chapa. A reunião da FEMATRO com o Governo a 26 de Outubro ainda não tem resultado conhecido.",
@@ -404,6 +398,12 @@
           "semana": "2026-S44",
           "resumo": "O gasóleo continua a 116,25 meticais e não há decisão conhecida sobre a tarifa do chapa depois da reunião de 26 de Outubro. A FEMATRO pede 30 e 25 meticais a partir de 1 de Novembro.",
           "direccao": "Contar com chapa mais caro em Novembro e acompanhar a decisão do Governo e a ARENE."
+        },
+        {
+          "data": "2026-10-28",
+          "semana": "2026-S44",
+          "resumo": "O gasóleo continua a 116,25 meticais e não há decisão conhecida sobre a tarifa do chapa de Novembro. Faltam quatro dias para 1 de Novembro.",
+          "direccao": "Contar com chapa mais caro em Novembro e confirmar a tarifa final antes de 1 de Novembro."
         }
       ]
     },
@@ -488,12 +488,6 @@
       "desde": "2026-10-18",
       "ultimos": [
         {
-          "data": "2026-10-18",
-          "semana": "2026-S42",
-          "resumo": "A inflação anual desceu para 6,31% em Setembro, o terceiro mês seguido de queda. Os alimentos estão a 8,69% e os transportes a 14,77% em Agosto.",
-          "direccao": "Comparar preços e acompanhar a inflação de Outubro, que sai perto do dia 10 de Novembro."
-        },
-        {
           "data": "2026-10-21",
           "semana": "2026-S43",
           "resumo": "A inflação anual está em 6,31% em Setembro, mas o milho em grão subiu 10,4% num mês. A taxa MIMO mantém-se em 9,25%.",
@@ -504,6 +498,12 @@
           "semana": "2026-S43",
           "resumo": "A inflação anual está em 6,31% em Setembro, mas o milho em grão subiu 10,4% num mês. A taxa MIMO mantém-se em 9,25%.",
           "direccao": "Comprar básicos com margem e comparar preços entre mercados."
+        },
+        {
+          "data": "2026-10-28",
+          "semana": "2026-S44",
+          "resumo": "A inflação anual está em 6,31% em Setembro e a de Outubro sai perto de 10 de Novembro. Não há preços novos de milho e arroz nas três capitais.",
+          "direccao": "Comparar preços entre dois mercados antes de comprar em quantidade."
         }
       ]
     },
@@ -535,13 +535,13 @@
     "pendente": 23
   },
   "ultimas_licoes": [
-    "- 2026-10-22 (2026-S43): A pesquisa devolve pouco material nacional de 21 e 22 de Outubro: o Brent e a tarifa do chapa vieram de fontes secundárias, por isso convém confirmar com a AIM e a ARENE.",
     "- 2026-10-22 (2026-S43): Em modo rever sem sugestões novas, a edição foi só corrigida: cifras sem fonte retiradas e análise completa reduzida ao limite de palavras.",
     "- 2026-10-22 (2026-S43): Em modo rever sem sugestões novas, a edição de 22 de Outubro ficou como estava, porque já cumpria todos os critérios.",
     "- 2026-10-23 (2026-S43): A pesquisa devolve pouco material nacional das últimas 48 horas: o Brent veio de uma fonte intradiária e várias notícias de Lusa só apareceram como títulos.",
     "- 2026-10-24 (2026-S43): Aos sábados a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.",
     "- 2026-10-25 (2026-S43): Aos domingos a pesquisa devolve pouco material novo; a edição fica como estava em vez de forçar notícias sem data.",
     "- 2026-10-26 (2026-S44): Às segundas a pesquisa devolve pouco material datado das últimas 48 horas: a ronda manteve a análise anterior e só acrescentou o que se confirmou.",
-    "- 2026-10-27 (2026-S44): Às terças a pesquisa devolve pouco material datado das últimas 48 horas; o regulamento do Conteúdo Local, publicado a 17 de Outubro, deu o assunto mais sólido do dia."
+    "- 2026-10-27 (2026-S44): Às terças a pesquisa devolve pouco material datado das últimas 48 horas; o regulamento do Conteúdo Local, publicado a 17 de Outubro, deu o assunto mais sólido do dia.",
+    "- 2026-10-28 (2026-S44): Às quartas a pesquisa devolve pouco material datado: os preços de milho e arroz nas três capitais continuam sem fonte recente."
   ]
 }
