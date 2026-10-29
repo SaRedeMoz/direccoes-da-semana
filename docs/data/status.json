@@ -16,9 +16,9 @@
       "em": "2026-10-29T03:19:16.008Z"
     },
     "editor": {
-      "estado": "a trabalhar",
-      "msg": "A reescrever os textos do dia",
-      "em": "2026-10-29T03:19:17.165Z"
+      "estado": "pronto",
+      "msg": "Textos gravados",
+      "em": "2026-10-29T03:20:47.440Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-29T03:20:47.440Z",
+      "agente": "editor",
+      "msg": "Textos gravados"
+    },
     {
       "em": "2026-10-29T03:19:17.165Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-26T02:09:06.802Z",
       "agente": "fontes",
       "msg": "Pouca coisa nova com data; orçamento 2027 confirmado"
-    },
-    {
-      "em": "2026-10-26T02:07:44.277Z",
-      "agente": "fontes",
-      "msg": "A pesquisar notícias de 24 e 25 de Outubro e preços"
     }
   ],
-  "actualizado": "2026-10-29T03:19:17.165Z",
+  "actualizado": "2026-10-29T03:20:47.440Z",
   "semana": "2026-S44",
   "dia": "2026-10-29",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
