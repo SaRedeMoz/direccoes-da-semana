@@ -1,342 +1,253 @@
 {
-  "tipo": "bolso",
-  "titulo": "O Seu Bolso",
-  "resumo": "A memória da redacção tem ainda poucas semanas, por isso o quadro usa o que há e diz onde faltam dados. O que mais pesa é o chapa, a quatro dias de 1 de Novembro sem tarifa decidida, e o milho, que subiu 10,4% num mês.",
-  "indicadores": [
-    "gasoleo",
-    "inflacao",
-    "brent",
-    "mimo"
-  ],
-  "comparar": [
-    "chapa",
-    "milho",
-    "arroz"
-  ],
-  "regioes": [
+  "tipo": "dia",
+  "tema": "Tarifa do chapa em Novembro na Grande Maputo",
+  "pergunta": "Quanto vai custar o chapa em Novembro na Grande Maputo?",
+  "facto": {
+    "texto": "O Governo deixou de pagar o apoio de combustível aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15, e a agência metropolitana aceita só 3 a 5. Nenhum município apresentou ainda proposta final.",
+    "numeros": [
+      {
+        "valor": "30 MT",
+        "legenda": "pedido da FEMATRO (rota de 18)"
+      },
+      {
+        "valor": "3 a 5 MT",
+        "legenda": "limite da agência"
+      },
+      {
+        "valor": "10 a 15 dias",
+        "legenda": "aviso antes da tarifa nova"
+      }
+    ],
+    "fonte": "Club of Mozambique, 19 de Outubro de 2026"
+  },
+  "linha_do_tempo": [
     {
-      "regiao": "maputo",
-      "destaque": "Chapa a 15 ou 18 meticais; tarifa de Novembro ainda por decidir.",
-      "direccao": "Junte ao orçamento de Novembro uma subida possível do chapa e confirme a tarifa final no município."
+      "data": "7 Mai",
+      "texto": "Gasóleo sobe 45,5% para 116,25 meticais por litro.",
+      "futuro": false
     },
     {
-      "regiao": "beira",
-      "destaque": "Sem preços recentes de chapa, milho e arroz; o corredor do porto depende do gasóleo.",
-      "direccao": "Confirme a tarifa na paragem e compare dois mercados antes de comprar em quantidade."
+      "data": "8 Mai",
+      "texto": "Operadores param em Maputo e Matola; Governo cria apoio.",
+      "futuro": false
     },
     {
-      "regiao": "nampula",
-      "destaque": "Chapa a 20 meticais desde Maio; faltam preços recentes de milho e arroz.",
-      "direccao": "Compare preços entre mercados e guarde margem para o transporte da mercadoria."
+      "data": "19 Out",
+      "texto": "Governo anuncia o fim do apoio aos chapas.",
+      "futuro": false
+    },
+    {
+      "data": "28 Out",
+      "texto": "Brent fecha a 115,32 dólares, perto do máximo de seis meses.",
+      "futuro": false
+    },
+    {
+      "data": "1 Nov",
+      "texto": "Data pedida pelos operadores para a tarifa nova.",
+      "futuro": true
+    },
+    {
+      "data": "2 Nov",
+      "texto": "FEMATRO avisa de perturbações se o pedido for recusado.",
+      "futuro": true
     }
   ],
-  "o_que_mudou": [
+  "precedente": {
+    "quando": "27 de Julho de 2022",
+    "o_que_aconteceu": "A Assembleia Municipal de Maputo aprovou mais 7 meticais: de 12 para 19 e de 15 para 22. Renamo e MDM votaram contra. Prometeu-se apoio aos passageiros pelo cartão Famba.",
+    "licao": "Quando os operadores pressionam, a subida aprovada pode ser grande e rápida.",
+    "fonte": "Club of Mozambique, 27 de Julho de 2022"
+  },
+  "porque_importa": "Quem vive na Grande Maputo gasta com o chapa uma parte grande do rendimento. A tarifa decide quanto sobra para comida, escola e saúde. Mexe também nos custos de quem vende nas ruas e nos mercados.",
+  "canal": {
+    "passos": [
+      "Apoio aos operadores acaba",
+      "Operadores pedem tarifa maior",
+      "Tarifa sobe ou há paragem",
+      "Sobra menos para comida"
+    ],
+    "quem_sente": "Trabalhadores que usam duas viagens por dia, estudantes e vendedores informais"
+  },
+  "conta": {
+    "titulo": "Quanto custa o chapa num mês",
+    "pressupostos": "Duas viagens por dia, 22 dias de trabalho, uma só viagem de chapa em cada sentido, rota de 18 meticais.",
+    "barras": [
+      {
+        "rotulo": "Hoje, a 18 MT",
+        "valor": 792,
+        "texto": "792 MT/mês"
+      },
+      {
+        "rotulo": "Oferta da agência, 23 MT",
+        "valor": 1012,
+        "texto": "1 012 MT/mês"
+      },
+      {
+        "rotulo": "Pedido da FEMATRO, 30 MT",
+        "valor": 1320,
+        "texto": "1 320 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "O pedido da FEMATRO custa mais 528 meticais por mês do que hoje; a oferta da agência, mais 220."
+  },
+  "cenarios": [
     {
-      "titulo": "Chapa sem tarifa a quatro dias",
-      "explicacao": "O subsídio acabou e a decisão sobre a tarifa de 1 de Novembro continua em aberto, com pedidos de 25 e 30 meticais.",
-      "canal": "Gasóleo, tarifa do chapa, orçamento da família"
+      "nome": "Acordo perto da oferta",
+      "tipo": "melhora",
+      "probabilidade": 25,
+      "porque_probabilidade": "A agência diz que decide ela. Mas em 2022 o pedido dos operadores passou quase por inteiro.",
+      "gatilho": "Agência anuncia tarifa com aviso de 10 a 15 dias",
+      "o_que_acontece": "Os municípios aceitam um valor perto de 3 a 5 meticais e os operadores aguentam sem parar, com ajuda parcial.",
+      "numeros": "21 a 23 MT (rotas de 18) e 18 a 20 MT (rotas de 15)",
+      "quando": "a meio ou fim de Novembro de 2026",
+      "ganha": "Utentes e famílias de baixa renda",
+      "perde": "Operadores com margem apertada",
+      "se_acontecer": "Rever o orçamento do transporte com mais 3 a 5 meticais por viagem e manter reserva."
     },
     {
-      "titulo": "Milho em grão mais caro",
-      "explicacao": "O milho subiu 10,4% em Setembro, mesmo com a inflação anual a descer para 6,31%.",
-      "canal": "Mercado, farinha, refeição da casa"
+      "nome": "Adiamento sem tarifa nova",
+      "tipo": "fica_igual",
+      "probabilidade": 30,
+      "porque_probabilidade": "O aviso de 10 a 15 dias torna improvável a tarifa de 1 de Novembro; em Maio o Governo preferiu apoio a subida.",
+      "gatilho": "Nenhum anúncio de tarifa até 5 de Novembro",
+      "o_que_acontece": "O processo arrasta-se, a tarifa actual fica e os operadores cortam rotas ou cobram a mais nas horas de ponta.",
+      "numeros": "18 e 15 MT oficiais; cobranças informais acima disso",
+      "quando": "até meados de Dezembro de 2026",
+      "ganha": "Utentes, no preço oficial",
+      "perde": "Operadores e quem espera horas",
+      "se_acontecer": "Preparar alternativas de percurso e horários, e exigir o preço afixado."
     },
     {
-      "titulo": "Crédito continua caro",
-      "explicacao": "A taxa MIMO está em 9,25% e a prime rate em 15,50%, sem sinal de corte.",
-      "canal": "Juros, empréstimo, capital de giro"
+      "nome": "Paragem e subida grande",
+      "tipo": "piora",
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2022 passou a subida pedida, em Maio houve paragem. Com o Brent acima de 115 dólares, a pressão sobre custos cresce.",
+      "gatilho": "Paragem de chapas a 2 de Novembro",
+      "o_que_acontece": "A paragem força o Governo e os municípios a ceder, e a nova tarifa fica muito acima da oferta da agência.",
+      "numeros": "24 a 30 MT (rotas de 18) e 20 a 25 MT (rotas de 15)",
+      "quando": "até 30 de Novembro de 2026",
+      "ganha": "Operadores",
+      "perde": "Classe baixa e trabalhadores informais",
+      "se_acontecer": "Cortar outras despesas, partilhar boleias e comparar rotas mais curtas."
     }
   ],
-  "direccoes": [
+  "sinais": [
     {
-      "area": "Transporte",
-      "classe": "ambas",
-      "accao": "Some ao orçamento de Novembro uma subida possível de 3 a 12 meticais por viagem e confirme a tarifa final."
+      "o_que": "Anúncio oficial de tarifa pela agência",
+      "limiar": "Qualquer valor acima de 21 MT nas rotas de 18",
+      "quando": "até 5 de Novembro",
+      "aponta_para": "melhora"
     },
     {
-      "area": "Compras",
-      "classe": "baixa",
-      "accao": "Compre milho e arroz em pequenas quantidades e compare dois mercados, porque o preço do grão está a subir."
+      "o_que": "Ausência de anúncio e de paragem",
+      "limiar": "Nenhuma tarifa publicada",
+      "quando": "até 10 de Novembro",
+      "aponta_para": "fica_igual"
     },
     {
-      "area": "Negócio informal",
-      "classe": "ambas",
-      "accao": "Calcule o transporte da mercadoria com margem de 10% e reveja o preço de venda quando a tarifa mudar."
+      "o_que": "Paragem de chapas na Grande Maputo",
+      "limiar": "Um dia inteiro ou mais",
+      "quando": "2 e 3 de Novembro",
+      "aponta_para": "piora"
     },
     {
-      "area": "Crédito",
-      "classe": "media",
-      "accao": "Evite novas dívidas de prazo longo enquanto os juros estão altos e o transporte pode encarecer."
-    },
-    {
-      "area": "Poupança",
-      "classe": "ambas",
-      "accao": "Separe uma reserva pequena para Novembro e Dezembro, meses em que o orçamento costuma apertar."
+      "o_que": "Preço do Brent",
+      "limiar": "Fecho acima de 115 dólares",
+      "quando": "semana de 2 a 6 de Novembro",
+      "aponta_para": "piora"
     }
   ],
-  "revisao": [],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "gasta muito do rendimento em transporte"
+    },
+    {
+      "grupo": "Trabalhadores informais",
+      "saldo": -2,
+      "porque": "dependem do chapa para vender"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "transporte e combustível mais caros"
+    },
+    {
+      "grupo": "Operadores de chapa",
+      "saldo": 1,
+      "porque": "tarifa maior cobre o gasóleo"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "pressão política sem espaço no Orçamento"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Utentes do chapa",
+      "agora": "Orçar mais 3 a 12 meticais por viagem, mas pagar o valor novo só depois do anúncio oficial.",
+      "se_piorar": "Reduzir viagens não essenciais e agrupar deslocações."
+    },
+    {
+      "publico": "Vendedores e trabalhadores informais",
+      "agora": "Rever o preço de venda e o horário para poupar viagens.",
+      "se_piorar": "Concentrar vendas em menos dias."
+    },
+    {
+      "publico": "Pequenas empresas",
+      "agora": "Falar com os trabalhadores sobre horários e apoio ao transporte.",
+      "se_piorar": "Adiar horários de ponta e flexibilizar a entrada."
+    },
+    {
+      "publico": "Operadores",
+      "agora": "Participar na consulta da agência e guardar recibos dos custos.",
+      "se_piorar": "Negociar apoio parcial antes de parar."
+    }
+  ],
+  "visao_contraria": "A agência pode ter razão: o gasóleo subiu 45,5% em Maio e o pedido da FEMATRO é de 67%, e o apoio de 307 milhões já foi pago.",
+  "nao_sabemos": [
+    "Qual das câmaras municipais apresenta proposta e quando.",
+    "Se o Governo vai substituir o apoio por outro mecanismo.",
+    "Se o Brent se mantém acima de 115 dólares em Novembro."
+  ],
+  "sinal": "Anúncio oficial da tarifa até 5 de Novembro e Brent acima ou abaixo de 115 dólares.",
+  "confianca": "media",
+  "base_confianca": "Duas fontes de imprensa concordam nos números do pedido e da oferta; falta decisão oficial e proposta dos municípios.",
   "textos": {
-    "whatsapp": "*O SEU BOLSO, 28 DE OUTUBRO*\n\nEste quadro usa só o que tem fonte e data.\n\n*O QUE PESA ESTA SEMANA*\nO gasóleo está a 116,25 meticais por litro desde 7 de Maio, sem revisão publicada pela ARENE. O Brent fechou a 111,24 dólares a 22 de Outubro, o valor mais alto desde Maio. A inflação anual desceu para 6,31% em Setembro, mas o milho em grão subiu 10,4% só nesse mês. A taxa MIMO mantém-se em 9,25%, a última decisão que confirmámos, de 25 de Maio.\n\n*TRANSPORTE*\nFaltam quatro dias para 1 de Novembro e não há tarifa decidida para o chapa da Grande Maputo. Hoje a viagem custa 15 ou 18 meticais. Os operadores pedem 25 e 30, a agência metropolitana oferece mais 3 a 5. Uma subida exige aviso prévio, por isso a decisão tem de sair nos próximos dias. Em Nampula o chapa está em 20 meticais desde Maio. Na Beira não temos tarifa recente e não vamos inventar.\n\n*A CONTA*\nQuem faz duas viagens por dia, 22 dias por mês, a 18 meticais gasta 792 meticais. Com mais 5 meticais, gasta 1 012. Com a tarifa que os operadores pedem, 30 meticais, gasta 1 320. São entre 220 e 528 meticais a mais por mês.\n\n*DIRECÇÃO POR REGIÃO*\nMaputo: junte já ao orçamento de Novembro uma subida possível e confirme a tarifa final no município. Beira: o corredor do porto depende do gasóleo, por isso confirme a tarifa na paragem antes de planear. Nampula: compare preços de milho e arroz entre mercados, porque não temos valores recentes.\n\n*DIRECÇÃO PARA A CASA*\nCompre milho e arroz em quantidades pequenas e compare dois mercados. Guarde uma reserva pequena para Novembro e Dezembro, meses em que o orçamento aperta. Evite dívidas de prazo longo com juros altos.\n\n*PRÓXIMA SEMANA*\nVamos ver a decisão sobre o chapa, o boletim da ARENE e a inflação de Outubro, perto de 10 de Novembro.\n\nPartilhe esta mensagem com quem usa o chapa todos os dias.",
-    "instagram": "O Seu Bolso, 28 de Outubro: o chapa de Maputo pode subir 3 a 12 meticais em Novembro, o que dá 220 a 528 meticais a mais por mês a quem faz duas viagens por dia. Gasóleo a 116,25 MT, inflação em 6,31%, milho 10,4% mais caro num mês. Reserve margem no orçamento. #OSeuBolso #Moçambique",
-    "facebook": "O Seu Bolso desta quarta-feira, 28 de Outubro.\n\nO gasóleo continua a 116,25 meticais por litro, sem revisão da ARENE desde 7 de Maio, e o petróleo Brent chegou a 111,24 dólares a 22 de Outubro. A inflação anual desceu para 6,31% em Setembro, mas o milho em grão subiu 10,4% num mês.\n\nNo transporte, faltam quatro dias para 1 de Novembro e a tarifa do chapa na Grande Maputo ainda não está decidida. Hoje a viagem custa 15 ou 18 meticais. Os operadores pedem 25 e 30, a agência metropolitana oferece mais 3 a 5. Quem faz duas viagens por dia pode pagar entre 220 e 528 meticais a mais por mês. Em Nampula o chapa custa 20 meticais desde Maio. Na Beira ainda não temos uma tarifa recente.\n\nA taxa MIMO está em 9,25%, a última decisão que confirmámos. O crédito não deve ficar mais barato tão cedo.\n\nDirecção: some ao orçamento de Novembro uma subida do transporte, compre básicos em pequenas quantidades e compare dois mercados. Quem tem negócio informal deve somar o transporte da mercadoria com margem de 10%. Guarde uma reserva pequena para Novembro e Dezembro.\n\n#OSeuBolso #Moçambique",
-    "linkedin": "O Seu Bolso, 28 de Outubro\n\nA memória da redacção ainda tem poucas semanas de dados, por isso esta leitura usa só o que tem fonte e data.\n\nO gasóleo está a 116,25 meticais por litro desde 7 de Maio e o Brent chegou a 111,24 dólares a 22 de Outubro. A inflação anual desceu para 6,31% em Setembro, o terceiro mês seguido de queda, mas o milho em grão subiu 10,4% num mês. A taxa MIMO está em 9,25%, e a prime rate em 15,50% desde Agosto.\n\nO custo que mais depressa chega às famílias é o transporte. Na Grande Maputo o subsídio aos chapas acabou depois de três meses e 307 milhões de meticais. Os operadores pedem tarifas de 25 e 30 meticais, a agência metropolitana oferece mais 3 a 5, e a decisão está por tomar a quatro dias de 1 de Novembro. Para quem faz duas viagens por dia, 22 dias por mês, a diferença está entre 220 e 528 meticais mensais.\n\nDirecção\n\nPara as PMEs e o comércio informal: calcular o transporte da mercadoria com margem de 10% e rever o preço de venda quando a tarifa for conhecida. Para quem tem emprego fixo: separar uma reserva pequena para Novembro e Dezembro e evitar dívidas de prazo longo com juros altos. Não há preços recentes de milho e arroz na Beira nem em Nampula, e essa lacuna será preenchida assim que haja fonte.\n\nA inflação de Outubro, que sai perto de 10 de Novembro, mostrará se o milho caro já chegou ao índice.\n\n#Moçambique #OSeuBolso #PMEs"
+    "whatsapp": "*DIRECÇÃO DO DIA, 29 DE OUTUBRO*\n*Quanto vai custar o chapa em Novembro na Grande Maputo?*\n\nO Governo deixou de pagar o apoio de combustível aos chapas, que custou 307 milhões de meticais em três meses. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15. A agência metropolitana aceita só 3 a 5. Os operadores avisam de perturbações a 2 de Novembro. O Brent fechou a 115,32 dólares ontem.\n\n*O QUE JÁ SE VIU*\nEm Julho de 2022 a Assembleia Municipal de Maputo aprovou mais 7 meticais, de 12 para 19. Em Maio de 2026 houve paragem e o Governo respondeu com apoio.\n\n*TRÊS CENÁRIOS*\nAcordo perto da oferta, 25%: tarifa de 21 a 23 meticais nas rotas de 18, a meio ou fim de Novembro.\nAdiamento, 30%: sem anúncio até 5 de Novembro, a tarifa actual fica até Dezembro. Uma tarifa nova exige aviso de 10 a 15 dias.\nParagem e subida grande, 45%: paragem a 2 de Novembro e tarifa de 24 a 30 meticais até 30 de Novembro. É o mais provável porque o pedido de 2022 passou quase todo e o petróleo está caro.\n\n*A CONTA*\nCom duas viagens por dia e 22 dias, o chapa a 18 custa 792 meticais por mês. A 23 custa 1 012. A 30 custa 1 320, mais 528 do que hoje.\n\n*A OUTRA VISÃO*\nO gasóleo subiu 45,5% em Maio e o pedido da FEMATRO é de 67%. A agência pode ter razão em recusar.\n\n*DIRECÇÃO*\nOriente o orçamento para mais 3 a 12 meticais por viagem, mas só pague o novo valor depois do anúncio oficial. Se houver paragem, agrupe deslocações e reduza viagens não essenciais.\n\nSe este resumo ajudou, partilhe com alguém que usa o chapa.",
+    "instagram": "Quanto vai custar o chapa em Novembro? A FEMATRO pede 30 meticais, a agência oferece 3 a 5 a mais e o apoio acabou. Com duas viagens por dia, são 792 meticais por mês hoje e até 1 320 se o pedido passar. O mais provável, 45%, é paragem e subida grande. Pague só o valor anunciado oficialmente. #Moçambique #DirecçõesdaSemana",
+    "facebook": "Direcção do Dia, 29 de Outubro\n\nQuanto vai custar o chapa em Novembro na Grande Maputo?\n\nO Governo deixou de pagar o apoio de combustível aos chapas. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15, e a agência metropolitana aceita só mais 3 a 5. Os operadores avisam de perturbações a 2 de Novembro. O gasóleo continua a 116,25 meticais e o petróleo está a 115 dólares.\n\nEm 2022 a Assembleia Municipal aprovou mais 7 meticais, de 12 para 19. Em Maio deste ano, depois de uma paragem, o Governo criou o apoio que agora acabou.\n\nVemos três caminhos. Acordo perto da oferta da agência, com 25% de probabilidade. Adiamento sem tarifa nova até Dezembro, 30%. Paragem seguida de subida grande, 45%, com tarifa de 24 a 30 meticais.\n\nUm trabalhador com duas viagens por dia paga hoje 792 meticais por mês. Com 23 meticais pagaria 1 012 e com 30 pagaria 1 320.\n\nDirecção: conte com mais 3 a 12 meticais por viagem, mas só pague o novo valor depois do anúncio oficial. Uma tarifa nova exige aviso de 10 a 15 dias.\n\n#Moçambique #DirecçõesdaSemana",
+    "linkedin": "Direcção do Dia: o chapa em Novembro na Grande Maputo\n\nO Governo deixou de pagar o apoio de combustível aos chapas, que custou 307 milhões de meticais em três meses a partir de Maio. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15, um aumento de 67%. A agência metropolitana limita-se a 3 a 5 meticais e diz que decide depois de ouvir os municípios. Nenhum município apresentou proposta final. Uma tarifa nova exige aviso de 10 a 15 dias, e os operadores avisam de perturbações a 2 de Novembro.\n\nO contexto pesa: o Brent fechou a 115,32 dólares a 28 de Outubro e o gasóleo está a 116,25 meticais desde Maio. Em 2022 a Assembleia Municipal de Maputo aprovou mais 7 meticais por viagem depois de pressão dos operadores.\n\nCenários: acordo perto da oferta, 25%, com tarifa de 21 a 23 meticais nas rotas de 18. Adiamento sem tarifa nova até meados de Dezembro, 30%. Paragem e subida grande, 45%, com 24 a 30 meticais até 30 de Novembro.\n\nPara um trabalhador com duas viagens por dia e 22 dias, o custo mensal passa de 792 meticais para 1 012 com a oferta da agência e 1 320 com o pedido da FEMATRO.\n\nDirecção: empresas devem falar com os trabalhadores sobre horários e apoio ao transporte antes de 2 de Novembro. Operadores devem participar na consulta da agência e guardar recibos de custos.\n\nA decisão a observar é o anúncio oficial da tarifa até 5 de Novembro.\n\n#Moçambique #Transportes #DirecçõesdaSemana"
   },
   "fontes": [
     {
-      "fonte": "Rio Times (subsídio aos chapas)",
-      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/"
+      "fonte": "Club of Mozambique, fim do apoio aos chapas",
+      "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/",
+      "data": "2026-10-19"
     },
     {
-      "fonte": "ARENE via Lusa",
-      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
+      "fonte": "Rio Times, tarifas e apoio",
+      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
+      "data": "2026-10-20"
     },
     {
-      "fonte": "INE",
-      "url": "https://www.ine.gov.mz"
+      "fonte": "Club of Mozambique, subida de 2022",
+      "url": "https://clubofmozambique.com/news/mozambique-maputo-hikes-its-chapa-fares-by-7-meticais-watch/",
+      "data": "2022-07-27"
     },
     {
-      "fonte": "Banco de Moçambique",
-      "url": "https://www.bancomoc.mz"
+      "fonte": "CNBC, Brent",
+      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+      "data": "2026-10-28"
     }
   ],
-  "data": "2026-10-28",
-  "dia_semana": "quarta",
+  "data": "2026-10-29",
+  "dia_semana": "quinta",
   "semana": "2026-S44",
   "versao": 1,
   "aprovada": false,
-  "series": [
-    {
-      "id": "gasoleo",
-      "nome": "Gasóleo",
-      "unidade": "MT/litro",
-      "ultimo": {
-        "data": "2026-05-07",
-        "valor": 116.25,
-        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
-        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
-        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-05-07",
-          116.25
-        ]
-      ]
-    },
-    {
-      "id": "inflacao",
-      "nome": "Inflação anual",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-10-09",
-        "valor": 6.31,
-        "fonte": "Trading Economics (INE)",
-        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
-        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-10-09",
-          6.31
-        ]
-      ]
-    },
-    {
-      "id": "brent",
-      "nome": "Petróleo Brent",
-      "unidade": "USD/barril",
-      "ultimo": {
-        "data": "2026-10-22",
-        "valor": 111.24,
-        "fonte": "Korea Times (futuros, a meio da sessão)",
-        "url": "https://www.koreatimes.co.kr/world/20261023/oil-hits-5-month-high-as-houthi-attacks-stoke-supply-fears",
-        "nota": "Valor intradiário, não é fecho"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-10-09",
-          104.43
-        ],
-        [
-          "2026-10-16",
-          109.86
-        ],
-        [
-          "2026-10-19",
-          109.55
-        ],
-        [
-          "2026-10-21",
-          108.31
-        ],
-        [
-          "2026-10-22",
-          111.24
-        ]
-      ]
-    },
-    {
-      "id": "mimo",
-      "nome": "Taxa MIMO",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-05-25",
-        "valor": 9.25,
-        "fonte": "AIM / Banco de Moçambique",
-        "url": "https://aimnews.org/2026/05/26/banco-de-mocambique-mantem-taxa-mimo-em-925-por-cento/",
-        "nota": "Mantida a 9,25%; sem decisão posterior encontrada"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-05-25",
-          9.25
-        ]
-      ]
-    }
-  ],
-  "regional": {
-    "regioes": [
-      {
-        "id": "maputo",
-        "nome": "Maputo",
-        "zona": "Sul"
-      },
-      {
-        "id": "beira",
-        "nome": "Beira",
-        "zona": "Centro"
-      },
-      {
-        "id": "nampula",
-        "nome": "Nampula",
-        "zona": "Norte"
-      }
-    ],
-    "linhas": [
-      {
-        "base": "chapa",
-        "nome": "Chapa urbano",
-        "unidade": "MT/viagem",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": 18,
-            "data": "2026-10-19",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": 20,
-            "data": "2026-05-13",
-            "var4": null
-          }
-        ]
-      },
-      {
-        "base": "milho",
-        "nome": "Milho em grão",
-        "unidade": "MT/kg",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": null,
-            "data": "",
-            "var4": null
-          }
-        ]
-      },
-      {
-        "base": "arroz",
-        "nome": "Arroz",
-        "unidade": "MT/kg",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": null,
-            "data": "",
-            "var4": null
-          }
-        ]
-      }
-    ]
-  },
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png"
-    ],
-    "tipos": [
-      "capa-bolso",
-      "indicadores",
-      "regioes-precos",
-      "regioes-direccao",
-      "o-que-mudou",
-      "direccoes",
-      "revisao"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1793156158419
-  }
+  "falhas": []
 }

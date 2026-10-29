@@ -265,6 +265,13 @@
         "fonte": "Korea Times (futuros, a meio da sessão)",
         "url": "https://www.koreatimes.co.kr/world/20261023/oil-hits-5-month-high-as-houthi-attacks-stoke-supply-fears",
         "nota": "Valor intradiário, não é fecho"
+      },
+      {
+        "data": "2026-10-28",
+        "valor": 115.32,
+        "fonte": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+        "nota": "Fecho de 28 de Outubro; outra fonte (World Oil Monitor) dá 111,29; Trading Economics dá 114,28 a 29 de Outubro"
       }
     ]
   }

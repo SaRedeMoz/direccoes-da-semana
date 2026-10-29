@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Edição e post do dia prontos",
-      "em": "2026-10-29T03:20:56.313Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-29T03:21:04.295Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-29T03:21:04.295Z",
+      "agente": "editor",
+      "msg": "Edição versão 4 montada"
+    },
+    {
+      "em": "2026-10-29T03:21:04.295Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Tarifa do chapa em Novembro na Grande Maputo"
+    },
     {
       "em": "2026-10-29T03:20:56.313Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-10-26T02:09:48.220Z",
       "agente": "design",
       "msg": "Capa e 4 slides"
-    },
-    {
-      "em": "2026-10-26T02:09:39.074Z",
-      "agente": "design",
-      "msg": "Capa e slides de notícia"
-    },
-    {
-      "em": "2026-10-26T02:09:37.836Z",
-      "agente": "analise",
-      "msg": "Análise e memória gravadas"
     }
   ],
-  "actualizado": "2026-10-29T03:20:56.313Z",
+  "actualizado": "2026-10-29T03:21:04.295Z",
   "semana": "2026-S44",
   "dia": "2026-10-29",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",

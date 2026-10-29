@@ -1,0 +1,253 @@
+{
+  "tipo": "dia",
+  "tema": "Tarifa do chapa em Novembro na Grande Maputo",
+  "pergunta": "Quanto vai custar o chapa em Novembro na Grande Maputo?",
+  "facto": {
+    "texto": "O Governo deixou de pagar o apoio de combustível aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15, e a agência metropolitana aceita só 3 a 5. Nenhum município apresentou ainda proposta final.",
+    "numeros": [
+      {
+        "valor": "30 MT",
+        "legenda": "pedido da FEMATRO (rota de 18)"
+      },
+      {
+        "valor": "3 a 5 MT",
+        "legenda": "limite da agência"
+      },
+      {
+        "valor": "10 a 15 dias",
+        "legenda": "aviso antes da tarifa nova"
+      }
+    ],
+    "fonte": "Club of Mozambique, 19 de Outubro de 2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "7 Mai",
+      "texto": "Gasóleo sobe 45,5% para 116,25 meticais por litro.",
+      "futuro": false
+    },
+    {
+      "data": "8 Mai",
+      "texto": "Operadores param em Maputo e Matola; Governo cria apoio.",
+      "futuro": false
+    },
+    {
+      "data": "19 Out",
+      "texto": "Governo anuncia o fim do apoio aos chapas.",
+      "futuro": false
+    },
+    {
+      "data": "28 Out",
+      "texto": "Brent fecha a 115,32 dólares, perto do máximo de seis meses.",
+      "futuro": false
+    },
+    {
+      "data": "1 Nov",
+      "texto": "Data pedida pelos operadores para a tarifa nova.",
+      "futuro": true
+    },
+    {
+      "data": "2 Nov",
+      "texto": "FEMATRO avisa de perturbações se o pedido for recusado.",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "27 de Julho de 2022",
+    "o_que_aconteceu": "A Assembleia Municipal de Maputo aprovou mais 7 meticais: de 12 para 19 e de 15 para 22. Renamo e MDM votaram contra. Prometeu-se apoio aos passageiros pelo cartão Famba.",
+    "licao": "Quando os operadores pressionam, a subida aprovada pode ser grande e rápida.",
+    "fonte": "Club of Mozambique, 27 de Julho de 2022"
+  },
+  "porque_importa": "Quem vive na Grande Maputo gasta com o chapa uma parte grande do rendimento. A tarifa decide quanto sobra para comida, escola e saúde. Mexe também nos custos de quem vende nas ruas e nos mercados.",
+  "canal": {
+    "passos": [
+      "Apoio aos operadores acaba",
+      "Operadores pedem tarifa maior",
+      "Tarifa sobe ou há paragem",
+      "Sobra menos para comida"
+    ],
+    "quem_sente": "Trabalhadores que usam duas viagens por dia, estudantes e vendedores informais"
+  },
+  "conta": {
+    "titulo": "Quanto custa o chapa num mês",
+    "pressupostos": "Duas viagens por dia, 22 dias de trabalho, uma só viagem de chapa em cada sentido, rota de 18 meticais.",
+    "barras": [
+      {
+        "rotulo": "Hoje, a 18 MT",
+        "valor": 792,
+        "texto": "792 MT/mês"
+      },
+      {
+        "rotulo": "Oferta da agência, 23 MT",
+        "valor": 1012,
+        "texto": "1 012 MT/mês"
+      },
+      {
+        "rotulo": "Pedido da FEMATRO, 30 MT",
+        "valor": 1320,
+        "texto": "1 320 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "O pedido da FEMATRO custa mais 528 meticais por mês do que hoje; a oferta da agência, mais 220."
+  },
+  "cenarios": [
+    {
+      "nome": "Acordo perto da oferta",
+      "tipo": "melhora",
+      "probabilidade": 25,
+      "porque_probabilidade": "A agência diz que decide ela. Mas em 2022 o pedido dos operadores passou quase por inteiro.",
+      "gatilho": "Agência anuncia tarifa com aviso de 10 a 15 dias",
+      "o_que_acontece": "Os municípios aceitam um valor perto de 3 a 5 meticais e os operadores aguentam sem parar, com ajuda parcial.",
+      "numeros": "21 a 23 MT (rotas de 18) e 18 a 20 MT (rotas de 15)",
+      "quando": "a meio ou fim de Novembro de 2026",
+      "ganha": "Utentes e famílias de baixa renda",
+      "perde": "Operadores com margem apertada",
+      "se_acontecer": "Rever o orçamento do transporte com mais 3 a 5 meticais por viagem e manter reserva."
+    },
+    {
+      "nome": "Adiamento sem tarifa nova",
+      "tipo": "fica_igual",
+      "probabilidade": 30,
+      "porque_probabilidade": "O aviso de 10 a 15 dias torna improvável a tarifa de 1 de Novembro; em Maio o Governo preferiu apoio a subida.",
+      "gatilho": "Nenhum anúncio de tarifa até 5 de Novembro",
+      "o_que_acontece": "O processo arrasta-se, a tarifa actual fica e os operadores cortam rotas ou cobram a mais nas horas de ponta.",
+      "numeros": "18 e 15 MT oficiais; cobranças informais acima disso",
+      "quando": "até meados de Dezembro de 2026",
+      "ganha": "Utentes, no preço oficial",
+      "perde": "Operadores e quem espera horas",
+      "se_acontecer": "Preparar alternativas de percurso e horários, e exigir o preço afixado."
+    },
+    {
+      "nome": "Paragem e subida grande",
+      "tipo": "piora",
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2022 passou a subida pedida, em Maio houve paragem. Com o Brent acima de 115 dólares, a pressão sobre custos cresce.",
+      "gatilho": "Paragem de chapas a 2 de Novembro",
+      "o_que_acontece": "A paragem força o Governo e os municípios a ceder, e a nova tarifa fica muito acima da oferta da agência.",
+      "numeros": "24 a 30 MT (rotas de 18) e 20 a 25 MT (rotas de 15)",
+      "quando": "até 30 de Novembro de 2026",
+      "ganha": "Operadores",
+      "perde": "Classe baixa e trabalhadores informais",
+      "se_acontecer": "Cortar outras despesas, partilhar boleias e comparar rotas mais curtas."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Anúncio oficial de tarifa pela agência",
+      "limiar": "Qualquer valor acima de 21 MT nas rotas de 18",
+      "quando": "até 5 de Novembro",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Ausência de anúncio e de paragem",
+      "limiar": "Nenhuma tarifa publicada",
+      "quando": "até 10 de Novembro",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Paragem de chapas na Grande Maputo",
+      "limiar": "Um dia inteiro ou mais",
+      "quando": "2 e 3 de Novembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Preço do Brent",
+      "limiar": "Fecho acima de 115 dólares",
+      "quando": "semana de 2 a 6 de Novembro",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "gasta muito do rendimento em transporte"
+    },
+    {
+      "grupo": "Trabalhadores informais",
+      "saldo": -2,
+      "porque": "dependem do chapa para vender"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "transporte e combustível mais caros"
+    },
+    {
+      "grupo": "Operadores de chapa",
+      "saldo": 1,
+      "porque": "tarifa maior cobre o gasóleo"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "pressão política sem espaço no Orçamento"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Utentes do chapa",
+      "agora": "Orçar mais 3 a 12 meticais por viagem, mas pagar o valor novo só depois do anúncio oficial.",
+      "se_piorar": "Reduzir viagens não essenciais e agrupar deslocações."
+    },
+    {
+      "publico": "Vendedores e trabalhadores informais",
+      "agora": "Rever o preço de venda e o horário para poupar viagens.",
+      "se_piorar": "Concentrar vendas em menos dias."
+    },
+    {
+      "publico": "Pequenas empresas",
+      "agora": "Falar com os trabalhadores sobre horários e apoio ao transporte.",
+      "se_piorar": "Adiar horários de ponta e flexibilizar a entrada."
+    },
+    {
+      "publico": "Operadores",
+      "agora": "Participar na consulta da agência e guardar recibos dos custos.",
+      "se_piorar": "Negociar apoio parcial antes de parar."
+    }
+  ],
+  "visao_contraria": "A agência pode ter razão: o gasóleo subiu 45,5% em Maio e o pedido da FEMATRO é de 67%, e o apoio de 307 milhões já foi pago.",
+  "nao_sabemos": [
+    "Qual das câmaras municipais apresenta proposta e quando.",
+    "Se o Governo vai substituir o apoio por outro mecanismo.",
+    "Se o Brent se mantém acima de 115 dólares em Novembro."
+  ],
+  "sinal": "Anúncio oficial da tarifa até 5 de Novembro e Brent acima ou abaixo de 115 dólares.",
+  "confianca": "media",
+  "base_confianca": "Duas fontes de imprensa concordam nos números do pedido e da oferta; falta decisão oficial e proposta dos municípios.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA, 29 DE OUTUBRO*\n*Quanto vai custar o chapa em Novembro na Grande Maputo?*\n\nO Governo deixou de pagar o apoio de combustível aos chapas, que custou 307 milhões de meticais em três meses. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15. A agência metropolitana aceita só 3 a 5. Os operadores avisam de perturbações a 2 de Novembro. O Brent fechou a 115,32 dólares ontem.\n\n*O QUE JÁ SE VIU*\nEm Julho de 2022 a Assembleia Municipal de Maputo aprovou mais 7 meticais, de 12 para 19. Em Maio de 2026 houve paragem e o Governo respondeu com apoio.\n\n*TRÊS CENÁRIOS*\nAcordo perto da oferta, 25%: tarifa de 21 a 23 meticais nas rotas de 18, a meio ou fim de Novembro.\nAdiamento, 30%: sem anúncio até 5 de Novembro, a tarifa actual fica até Dezembro. Uma tarifa nova exige aviso de 10 a 15 dias.\nParagem e subida grande, 45%: paragem a 2 de Novembro e tarifa de 24 a 30 meticais até 30 de Novembro. É o mais provável porque o pedido de 2022 passou quase todo e o petróleo está caro.\n\n*A CONTA*\nCom duas viagens por dia e 22 dias, o chapa a 18 custa 792 meticais por mês. A 23 custa 1 012. A 30 custa 1 320, mais 528 do que hoje.\n\n*A OUTRA VISÃO*\nO gasóleo subiu 45,5% em Maio e o pedido da FEMATRO é de 67%. A agência pode ter razão em recusar.\n\n*DIRECÇÃO*\nOriente o orçamento para mais 3 a 12 meticais por viagem, mas só pague o novo valor depois do anúncio oficial. Se houver paragem, agrupe deslocações e reduza viagens não essenciais.\n\nSe este resumo ajudou, partilhe com alguém que usa o chapa.",
+    "instagram": "Quanto vai custar o chapa em Novembro? A FEMATRO pede 30 meticais, a agência oferece 3 a 5 a mais e o apoio acabou. Com duas viagens por dia, são 792 meticais por mês hoje e até 1 320 se o pedido passar. O mais provável, 45%, é paragem e subida grande. Pague só o valor anunciado oficialmente. #Moçambique #DirecçõesdaSemana",
+    "facebook": "Direcção do Dia, 29 de Outubro\n\nQuanto vai custar o chapa em Novembro na Grande Maputo?\n\nO Governo deixou de pagar o apoio de combustível aos chapas. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15, e a agência metropolitana aceita só mais 3 a 5. Os operadores avisam de perturbações a 2 de Novembro. O gasóleo continua a 116,25 meticais e o petróleo está a 115 dólares.\n\nEm 2022 a Assembleia Municipal aprovou mais 7 meticais, de 12 para 19. Em Maio deste ano, depois de uma paragem, o Governo criou o apoio que agora acabou.\n\nVemos três caminhos. Acordo perto da oferta da agência, com 25% de probabilidade. Adiamento sem tarifa nova até Dezembro, 30%. Paragem seguida de subida grande, 45%, com tarifa de 24 a 30 meticais.\n\nUm trabalhador com duas viagens por dia paga hoje 792 meticais por mês. Com 23 meticais pagaria 1 012 e com 30 pagaria 1 320.\n\nDirecção: conte com mais 3 a 12 meticais por viagem, mas só pague o novo valor depois do anúncio oficial. Uma tarifa nova exige aviso de 10 a 15 dias.\n\n#Moçambique #DirecçõesdaSemana",
+    "linkedin": "Direcção do Dia: o chapa em Novembro na Grande Maputo\n\nO Governo deixou de pagar o apoio de combustível aos chapas, que custou 307 milhões de meticais em três meses a partir de Maio. A FEMATRO pede 30 meticais nas rotas de 18 e 25 nas de 15, um aumento de 67%. A agência metropolitana limita-se a 3 a 5 meticais e diz que decide depois de ouvir os municípios. Nenhum município apresentou proposta final. Uma tarifa nova exige aviso de 10 a 15 dias, e os operadores avisam de perturbações a 2 de Novembro.\n\nO contexto pesa: o Brent fechou a 115,32 dólares a 28 de Outubro e o gasóleo está a 116,25 meticais desde Maio. Em 2022 a Assembleia Municipal de Maputo aprovou mais 7 meticais por viagem depois de pressão dos operadores.\n\nCenários: acordo perto da oferta, 25%, com tarifa de 21 a 23 meticais nas rotas de 18. Adiamento sem tarifa nova até meados de Dezembro, 30%. Paragem e subida grande, 45%, com 24 a 30 meticais até 30 de Novembro.\n\nPara um trabalhador com duas viagens por dia e 22 dias, o custo mensal passa de 792 meticais para 1 012 com a oferta da agência e 1 320 com o pedido da FEMATRO.\n\nDirecção: empresas devem falar com os trabalhadores sobre horários e apoio ao transporte antes de 2 de Novembro. Operadores devem participar na consulta da agência e guardar recibos de custos.\n\nA decisão a observar é o anúncio oficial da tarifa até 5 de Novembro.\n\n#Moçambique #Transportes #DirecçõesdaSemana"
+  },
+  "fontes": [
+    {
+      "fonte": "Club of Mozambique, fim do apoio aos chapas",
+      "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/",
+      "data": "2026-10-19"
+    },
+    {
+      "fonte": "Rio Times, tarifas e apoio",
+      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
+      "data": "2026-10-20"
+    },
+    {
+      "fonte": "Club of Mozambique, subida de 2022",
+      "url": "https://clubofmozambique.com/news/mozambique-maputo-hikes-its-chapa-fares-by-7-meticais-watch/",
+      "data": "2022-07-27"
+    },
+    {
+      "fonte": "CNBC, Brent",
+      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+      "data": "2026-10-28"
+    }
+  ],
+  "data": "2026-10-29",
+  "dia_semana": "quinta",
+  "semana": "2026-S44",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}
