@@ -6,9 +6,9 @@
       "em": "2026-10-29T03:17:57.903Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "A actualizar a análise com Brent e chapa",
-      "em": "2026-10-29T03:17:59.144Z"
+      "estado": "pronto",
+      "msg": "Análise actualizada com Brent a 115 dólares",
+      "em": "2026-10-29T03:18:16.084Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-29T03:18:16.084Z",
+      "agente": "analise",
+      "msg": "Análise actualizada com Brent a 115 dólares"
+    },
     {
       "em": "2026-10-29T03:17:59.144Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-25T02:07:13.817Z",
       "agente": "editor",
       "msg": "Edição versão 9 montada"
-    },
-    {
-      "em": "2026-10-25T02:07:08.287Z",
-      "agente": "editor",
-      "msg": "Textos mantidos"
     }
   ],
-  "actualizado": "2026-10-29T03:17:59.144Z",
+  "actualizado": "2026-10-29T03:18:16.084Z",
   "semana": "2026-S44",
   "dia": "2026-10-29",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
