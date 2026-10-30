@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Edição e post do dia prontos",
-      "em": "2026-10-30T03:21:25.333Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-30T03:21:35.503Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-30T03:21:35.503Z",
+      "agente": "editor",
+      "msg": "Edição versão 5 montada"
+    },
+    {
+      "em": "2026-10-30T03:21:35.503Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Gasóleo: o preço de Maio aguenta com o Brent acima de 115 dólares?"
+    },
     {
       "em": "2026-10-30T03:21:25.333Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-10-27T02:47:15.473Z",
       "agente": "design",
       "msg": "Design gravado"
-    },
-    {
-      "em": "2026-10-27T02:47:14.276Z",
-      "agente": "analise",
-      "msg": "Análise e memória gravadas"
-    },
-    {
-      "em": "2026-10-27T02:45:54.131Z",
-      "agente": "fontes",
-      "msg": "Pouco material novo; regulamento do conteúdo local e prime rate"
     }
   ],
-  "actualizado": "2026-10-30T03:21:25.333Z",
+  "actualizado": "2026-10-30T03:21:35.503Z",
   "semana": "2026-S44",
   "dia": "2026-10-30",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",

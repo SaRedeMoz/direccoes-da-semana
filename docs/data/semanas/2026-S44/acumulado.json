@@ -54,7 +54,7 @@
     },
     {
       "titulo": "FEMATRO avisa de perturbações a 2 de Novembro se a tarifa do chapa não subir",
-      "resumo": "Depois do fim da compensação do combustível, a FEMATRO propõe subidas a partir de 1 de Novembro e a agência metropolitana oferece entre 3 e 5 meticais. Não há acordo publicado sobre o valor nem sobre a data.",
+      "resumo": "Depois do fim da compensação do combustível, a FEMATRO propõe subidas a partir de 1 de Novembro e a agência metropolitana oferece entre 3 e 5 meticais. Não há acordo publicado sobre o valor nem sobre a data. Actualização (2026-10-30): Até 30 de Outubro não se encontrou decisão publicada sobre a tarifa do chapa; o prazo de 1 de Novembro está a dois dias.",
       "ambito": "nacional",
       "dimensao": "Social",
       "categoria": "imprensa_economica",
@@ -68,7 +68,7 @@
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 4,
+  "versao": 5,
   "proximo_n": 6,
   "lacunas": [
     "Decisão final sobre a tarifa do chapa em Maputo",
@@ -167,6 +167,30 @@
       "fonte": "Trading Economics",
       "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
       "data": "2026-10-29"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Pesquisa sobre tarifa do chapa em Maputo",
+      "url": "https://clubofmozambique.com",
+      "data": "2026-10-30"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "Pesquisa sobre preços da ARENE",
+      "url": "https://www.arene.gov.mz",
+      "data": "2026-10-30"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "Pesquisa de preços FEWS NET (Beira, Nampula)",
+      "url": "https://fews.net/southern-africa/mozambique",
+      "data": "2026-10-30"
+    },
+    {
+      "categoria": "regional",
+      "fonte": "Pesquisa de notícias de 29 de Outubro",
+      "url": "https://aimnews.org",
+      "data": "2026-10-30"
     }
   ],
   "analise": {
@@ -506,7 +530,7 @@
     ],
     "sinal": "Decisão sobre a tarifa do chapa antes de 1 de Novembro, Brent acima ou abaixo de 105 dólares, reunião da OPEC+ a 1 de Novembro, revisão de preços da ARENE, financiamento do PAM para Janeiro, debate do Orçamento de 2027 no Parlamento, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.",
     "sintese": "O Brent fechou a 115,32 dólares a 28 de Outubro, perto do máximo de seis meses, e o gasóleo continua a 116,25 meticais. Sem decisão conhecida sobre o chapa, a FEMATRO avisa de perturbações a 2 de Novembro. O Orçamento de 2027 deixa pouca margem, com salários e dívida a poderem absorver cerca de 96% das receitas fiscais.",
-    "o_que_mudou_hoje": "O Brent subiu para 115,32 dólares e já passou o limiar de 115 que a redacção seguia como risco. A tarifa do chapa continua por decidir a três dias de 1 de Novembro.",
+    "o_que_mudou_hoje": "Não apareceu decisão publicada sobre a tarifa do chapa nem revisão de preços da ARENE. O gasóleo mantém os 116,25 meticais fixados a 7 de Maio, há 25 semanas.",
     "canais": [
       {
         "choque": "Petróleo acima de 115 dólares",
@@ -641,7 +665,7 @@
       "grau": "media",
       "base": "Dados do INE, do Banco de Moçambique, da CNBC (Brent, com fontes a divergir entre 111 e 115 dólares) e de jornais; sem fonte nova sobre preços regionais."
     },
-    "continuidade": "Face a ontem, o petróleo subiu de cerca de 110 para mais de 115 dólares, o que torna o cenário de piora mais provável. O chapa e o gasóleo (116,25 meticais) não mudaram, mas o prazo de 1 de Novembro está a três dias."
+    "continuidade": "Face a ontem, nada mudou nos números: Brent a 115,32 dólares (28 de Outubro, CNBC) e gasóleo a 116,25 meticais. O prazo de 1 de Novembro para a tarifa do chapa está a dois dias e o tema do combustível mantém-se activo desde 16 de Outubro."
   },
   "design": {
     "slides": [
@@ -705,7 +729,8 @@
       "Pedido da FEMATRO de 30 e 25 meticais e oferta de 3 a 5 meticais da agência (Club of Mozambique, 19 de Outubro)",
       "Prazo de aviso de 10 a 15 dias para nova tarifa, segundo o Club of Mozambique",
       "Sem decisão sobre a tarifa do chapa a 29 de Outubro: confirmar com a agência metropolitana e os municípios",
-      "⚠️ Categorias de fontes não consultadas hoje: oficiais, imprensa_nacional, analise_independente"
+      "Categorias de fontes não consultadas hoje: oficiais, imprensa_nacional, analise_independente",
+      "⚠️ Categorias de fontes não consultadas hoje: humanitario"
     ],
     "duvidas": [],
     "conformidade": [
@@ -777,13 +802,13 @@
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-10-29",
-    "indicadores": 1,
+    "em": "2026-10-30",
+    "indicadores": 0,
     "temas": 1,
     "direccoes": 2
   },
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: oficiais, imprensa_nacional, analise_independente"
+    "Categorias de fontes não consultadas hoje: humanitario"
   ],
   "incluir_itens": []
 }

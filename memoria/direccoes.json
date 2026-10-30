@@ -298,5 +298,29 @@
     "verificar_em": "2026-11-30",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D26",
+    "data": "2026-10-30",
+    "semana": "2026-S44",
+    "publico": "Famílias da Grande Maputo",
+    "accao": "Reservar valor extra para o chapa em Novembro e confirmar a tarifa final",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-06",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D27",
+    "data": "2026-10-30",
+    "semana": "2026-S44",
+    "publico": "PMEs com transporte próprio",
+    "accao": "Contar com gasóleo mais caro e rever preços de entrega",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-30",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

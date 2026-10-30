@@ -1,0 +1,248 @@
+{
+  "tipo": "dia",
+  "tema": "Gasóleo: o preço de Maio aguenta com o Brent acima de 115 dólares?",
+  "pergunta": "O gasóleo vai subir outra vez em Moçambique?",
+  "facto": {
+    "texto": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, depois de uma subida de 45,5%. Desde então não se conhece nenhuma revisão da ARENE. O Brent fechou a 115,32 dólares a 28 de Outubro.",
+    "numeros": [
+      {
+        "valor": "116,25 MT",
+        "legenda": "gasóleo por litro desde Maio"
+      },
+      {
+        "valor": "25 semanas",
+        "legenda": "sem revisão de preço"
+      },
+      {
+        "valor": "115,32 USD",
+        "legenda": "Brent a 28 de Outubro"
+      }
+    ],
+    "fonte": "Notícias ao Minuto (6 de Maio) e CNBC (28 de Outubro de 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "7 Mai",
+      "texto": "Gasóleo sobe 45,5% para 116,25 meticais.",
+      "futuro": false
+    },
+    {
+      "data": "8 Mai",
+      "texto": "Operadores param em Maputo e Matola.",
+      "futuro": false
+    },
+    {
+      "data": "19 Out",
+      "texto": "Governo anuncia o fim do apoio aos chapas.",
+      "futuro": false
+    },
+    {
+      "data": "28 Out",
+      "texto": "Brent fecha a 115,32 dólares.",
+      "futuro": false
+    },
+    {
+      "data": "1 Nov",
+      "texto": "Reunião da OPEC+ e data pedida para a tarifa do chapa.",
+      "futuro": true
+    },
+    {
+      "data": "30 Nov",
+      "texto": "Prazo para ver se o Brent aguenta acima de 110.",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Maio de 2026",
+    "o_que_aconteceu": "A ARENE reviu os preços cerca de cinco semanas depois de começar a pressão do petróleo, e os operadores pararam no dia seguinte.",
+    "licao": "A revisão veio com atraso e foi grande, e a reacção dos transportes foi imediata.",
+    "fonte": "Notícias ao Minuto, 6 de Maio de 2026"
+  },
+  "porque_importa": "O gasóleo move o chapa, a carga e os alimentos. Uma nova subida chegaria depois do fim do apoio aos chapas, e o Orçamento de 2027 tem pouca margem para pagar a diferença.",
+  "canal": {
+    "passos": [
+      "Brent fica acima de 110",
+      "ARENE revê o gasóleo",
+      "Carga e chapa sobem",
+      "Alimentos mais caros no mercado"
+    ],
+    "quem_sente": "Transportadores, agricultores, famílias urbanas e PMEs"
+  },
+  "conta": {
+    "titulo": "Carrinha de uma PME com 200 litros",
+    "pressupostos": "200 litros de gasóleo por mês, preço de 116,25 meticais. Subidas de 10% e 20% como hipótese, sem outros custos.",
+    "barras": [
+      {
+        "rotulo": "Hoje",
+        "valor": 23250,
+        "texto": "23 250 MT/mês"
+      },
+      {
+        "rotulo": "Com mais 10%",
+        "valor": 25575,
+        "texto": "25 575 MT/mês"
+      },
+      {
+        "rotulo": "Com mais 20%",
+        "valor": 27900,
+        "texto": "27 900 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "Cada 10% de subida custa 2 325 meticais por mês a uma PME deste tamanho."
+  },
+  "cenarios": [
+    {
+      "nome": "ARENE sobe o gasóleo",
+      "tipo": "piora",
+      "probabilidade": 30,
+      "porque_probabilidade": "Nenhuma revisão em 25 semanas pesa contra, mas o Brent está acima de 115 e o apoio ao transporte acabou.",
+      "gatilho": "Brent acima de 110 dólares até 30 de Novembro e tabela nova da ARENE",
+      "o_que_acontece": "A ARENE repassa o petróleo ao preço de venda para limitar a falta de divisas e o custo público.",
+      "numeros": "Gasóleo de 128 a 140 MT por litro, mais 10% a 20%",
+      "quando": "Entre Dezembro de 2026 e Janeiro de 2027",
+      "ganha": "Orçamento do Estado e importadoras",
+      "perde": "Transportadores, agricultores e famílias",
+      "se_acontecer": "Rever tarifas e preços de entrega de imediato e comprar alimentos com antecedência."
+    },
+    {
+      "nome": "Preço fica e a falta aparece",
+      "tipo": "fica_igual",
+      "probabilidade": 55,
+      "porque_probabilidade": "Taxa de base: zero revisões em 25 semanas, com pressão durante todo esse tempo. Desconto por Brent mais alto agora.",
+      "gatilho": "Sem tabela nova da ARENE até ao fim de Novembro",
+      "o_que_acontece": "O Estado e as importadoras absorvem o custo e o risco passa para filas e escassez nas bombas, não para o preço.",
+      "numeros": "Gasóleo a 116,25 MT; filas e limites de compra possíveis",
+      "quando": "Até Março de 2027",
+      "ganha": "Consumidores no preço de bomba",
+      "perde": "Orçamento de 2027 e quem depende de abastecimento",
+      "se_acontecer": "Planear compras de combustível com antecedência e ter alternativas de transporte."
+    },
+    {
+      "nome": "Petróleo recua",
+      "tipo": "melhora",
+      "probabilidade": 15,
+      "porque_probabilidade": "Exige menos ataques a petroleiros e Ormuz a normalizar, sem sinais disso nas últimas duas semanas.",
+      "gatilho": "Brent abaixo de 100 dólares durante duas semanas seguidas",
+      "o_que_acontece": "A pressão sobre as importações diminui e a ARENE deixa de ter motivo para rever os preços.",
+      "numeros": "Brent de 90 a 100 USD por barril",
+      "quando": "Até 31 de Dezembro de 2026",
+      "ganha": "Transportadores e Orçamento",
+      "perde": "Poucos, talvez produtores de petróleo",
+      "se_acontecer": "Manter reservas, mas adiar compras de grande valor ligadas ao combustível."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Brent no fecho diário",
+      "limiar": "Acima de 110 dólares durante 3 semanas",
+      "quando": "Até 30 de Novembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Tabela de preços da ARENE",
+      "limiar": "Qualquer valor acima de 116,25 MT",
+      "quando": "Até 31 de Dezembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Filas e limites de compra nas bombas",
+      "limiar": "Relatos em mais de uma cidade",
+      "quando": "Até 30 de Novembro",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Brent no fecho diário",
+      "limiar": "Abaixo de 100 dólares durante 2 semanas",
+      "quando": "Até 31 de Dezembro",
+      "aponta_para": "melhora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "chapa e comida mais caros"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "transporte e produtos mais caros"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": -2,
+      "porque": "custo de entrega sobe de imediato"
+    },
+    {
+      "grupo": "Agricultores",
+      "saldo": -1,
+      "porque": "transporte e insumos mais caros"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "pouca margem para pagar a diferença"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Transportadores e PMEs",
+      "agora": "Contar com gasóleo mais caro no primeiro trimestre e rever os preços de entrega.",
+      "se_piorar": "Aplicar a tarifa nova de imediato e agrupar entregas."
+    },
+    {
+      "publico": "Famílias urbanas",
+      "agora": "Guardar uma margem para o chapa e comprar básicos com antecedência.",
+      "se_piorar": "Cortar viagens e compras que podem esperar."
+    },
+    {
+      "publico": "Agricultores",
+      "agora": "Comprar insumos cedo e combinar transporte colectivo para a produção.",
+      "se_piorar": "Vender perto do local de produção."
+    },
+    {
+      "publico": "Governo e ARENE",
+      "agora": "Publicar a base de cálculo do preço de Maio e o calendário de revisão.",
+      "se_piorar": "Anunciar a subida com aviso e apoio ao transporte."
+    }
+  ],
+  "visao_contraria": "O Governo pode preferir esperar pelo Orçamento de 2027 e manter o preço, porque o salto de Maio já foi grande e a subida custaria apoio político.",
+  "nao_sabemos": [
+    "Que preço internacional a ARENE usou como base em Maio.",
+    "Outras fontes dão o Brent mais baixo que a CNBC; usámos a fonte datada.",
+    "Quanto tempo o Estado aguenta absorver o custo."
+  ],
+  "sinal": "Brent acima de 110 dólares até 30 de Novembro e uma tabela nova da ARENE.",
+  "confianca": "media",
+  "base_confianca": "Preço de Maio confirmado pela ARENE via Lusa; Brent de uma só fonte datada e sem revisão oficial conhecida desde então.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA: O GASÓLEO VAI SUBIR OUTRA VEZ?*\n\nO gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5%. São 25 semanas sem revisão. Entretanto, o Brent fechou a 115,32 dólares a 28 de Outubro (CNBC), perto do máximo de seis meses, e o Governo deixou de pagar o apoio aos chapas da Grande Maputo.\n\n*O QUE PODE ACONTECER*\n\nPiora, 30%: a ARENE revê os preços para cima. Acontece se o Brent ficar acima de 110 dólares até ao fim de Novembro. O gasóleo passaria para 128 a 140 meticais, entre Dezembro e Janeiro de 2027. Perdem os transportadores, os agricultores e quem compra alimentos transportados.\n\nFica igual, 55%: o preço mantém-se, porque em 25 semanas não houve revisão, mesmo com a pressão. O custo fica no Estado e nas importadoras, e a escassez de divisas pode voltar às bombas. Quem perde é o Orçamento de 2027, que já tem pouca margem.\n\nMelhora, 15%: o Brent cai abaixo de 100 dólares com menos ataques a petroleiros. O preço não desce logo, mas o risco de subida desaparece.\n\n*A CONTA*\n\nUma PME com uma carrinha gasta 200 litros por mês. Hoje paga 23 250 meticais. Com mais 10% paga 25 575, com mais 20% paga 27 900. São 2 325 a 4 650 meticais por mês a mais.\n\n*SINAIS*\n\nBrent acima de 110 dólares até 30 de Novembro aponta para a piora. Uma tabela nova da ARENE confirma-a. Filas nas bombas sem subida de preço apontam para o cenário de preço igual com escassez.\n\n*A OUTRA VISÃO*\n\nO preço de Maio já foi um salto grande e o Governo pode preferir esperar pelo Orçamento de 2027. Não sabemos o preço que a ARENE usou como base em Maio.\n\n*DIRECÇÃO*\n\nTransportadores e PMEs: contar com gasóleo mais caro no primeiro trimestre e rever preços de entrega. Famílias: guardar uma margem para o chapa e para os alimentos.\n\nPartilhe com quem precisa de planear Novembro.",
+    "instagram": "O gasóleo está a 116,25 meticais desde 7 de Maio, 25 semanas sem revisão. O Brent está acima de 115 dólares. Preço igual: 55%. Subida da ARENE: 30%. Descida do risco: 15%. Para uma PME com 200 litros por mês, mais 10% custam 2 325 meticais. Sinal a seguir: Brent acima de 110 dólares até 30 de Novembro.",
+    "facebook": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5%. Desde então não houve revisão de preços, mas o petróleo Brent fechou a 115,32 dólares a 28 de Outubro, perto do máximo de seis meses.\n\nO que achamos mais provável, com 55%, é que o preço se mantenha, como aconteceu nestas 25 semanas. O custo fica então no Estado e nas importadoras, e há risco de falta de divisas e de filas nas bombas. Com 30%, a ARENE revê os preços para cima, se o Brent ficar acima de 110 dólares até ao fim de Novembro. Com 15%, o petróleo cai abaixo de 100 dólares e o risco desaparece.\n\nUma PME com uma carrinha que gasta 200 litros por mês paga hoje 23 250 meticais. Com mais 10% paga 25 575. Com mais 20% paga 27 900.\n\nNão sabemos que preço internacional a ARENE usou como base em Maio, e por isso a probabilidade de subida tem margem de erro.\n\nDirecção: transportadores e PMEs devem contar com gasóleo mais caro no primeiro trimestre e rever preços de entrega. As famílias devem guardar uma margem para o chapa e para os alimentos.",
+    "linkedin": "O gasóleo em Moçambique custa 116,25 meticais por litro desde 7 de Maio, depois de uma subida de 45,5%. Passaram 25 semanas sem revisão da ARENE. Nesse tempo, o Brent fechou a 115,32 dólares a 28 de Outubro, segundo a CNBC, e o Governo deixou de pagar o apoio de combustível aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses.\n\nEm Maio, a ARENE justificou a subida com os preços internacionais desde o início de Abril. Cerca de 80% das importações de combustível passam pelo Médio Oriente, e a falta de divisas pode limitar compras.\n\nVemos três caminhos. Com 55%, o preço mantém-se, porque a taxa de base destas 25 semanas é de nenhuma revisão. Com 30%, a ARENE sobe os preços, se o Brent ficar acima de 110 dólares até 30 de Novembro: o gasóleo iria para 128 a 140 meticais. Com 15%, o petróleo cai abaixo de 100 dólares.\n\nPara uma PME com 200 litros por mês, cada 10% de aumento custa 2 325 meticais mensais.\n\nOs sinais são simples de seguir: o fecho diário do Brent e qualquer tabela nova da ARENE com valor acima de 116,25 meticais. Se o Brent descer abaixo de 100 dólares durante duas semanas, o risco de subida diminui.\n\nDirecção. Transportadores e PMEs devem rever preços de entrega para o primeiro trimestre de 2027. Bancos e investidores devem acompanhar o Orçamento de 2027, que não tem margem para absorver o custo.\n\nConclusão: o preço de Maio aguenta enquanto o Estado puder pagar a diferença, e o sinal para observar é o Brent acima de 110 dólares em Novembro."
+  },
+  "fontes": [
+    {
+      "fonte": "Notícias ao Minuto (Lusa), preços da ARENE",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+      "data": "2026-05-06"
+    },
+    {
+      "fonte": "CNBC, preço do petróleo",
+      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+      "data": "2026-10-28"
+    },
+    {
+      "fonte": "Rio Times, fim do apoio aos chapas",
+      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
+      "data": "2026-10-19"
+    }
+  ],
+  "data": "2026-10-30",
+  "dia_semana": "sexta",
+  "semana": "2026-S44",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

@@ -18,3 +18,4 @@
 - 2026-10-27 (2026-S44): Às terças a pesquisa devolve pouco material datado das últimas 48 horas; o regulamento do Conteúdo Local, publicado a 17 de Outubro, deu o assunto mais sólido do dia.
 - 2026-10-28 (2026-S44): Às quartas a pesquisa devolve pouco material datado: os preços de milho e arroz nas três capitais continuam sem fonte recente.
 - 2026-10-29 (2026-S44): Às quintas a pesquisa devolve pouco material nacional datado; o Brent e o prazo de aviso da tarifa do chapa foram o que mudou.
+- 2026-10-30 (2026-S44): Às sextas a pesquisa devolve pouco material datado: o Brent surge com valores diferentes conforme a fonte, por isso a redacção fica com a fonte datada (CNBC).
