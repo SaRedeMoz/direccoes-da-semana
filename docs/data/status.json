@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos com data actualizada",
-      "em": "2026-10-31T03:04:13.338Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-10-31T03:04:19.730Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-31T03:04:19.730Z",
+      "agente": "editor",
+      "msg": "Edição versão 6 montada"
+    },
     {
       "em": "2026-10-31T03:04:13.338Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-28T02:54:56.920Z",
       "agente": "analise",
       "msg": "Análise e memória actualizadas"
-    },
-    {
-      "em": "2026-10-28T02:54:55.170Z",
-      "agente": "fontes",
-      "msg": "Sem notícias novas datadas; lacunas registadas"
     }
   ],
-  "actualizado": "2026-10-31T03:04:13.338Z",
+  "actualizado": "2026-10-31T03:04:19.730Z",
   "semana": "2026-S44",
   "dia": "2026-10-31",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",

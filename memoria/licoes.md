@@ -19,3 +19,4 @@
 - 2026-10-28 (2026-S44): Às quartas a pesquisa devolve pouco material datado: os preços de milho e arroz nas três capitais continuam sem fonte recente.
 - 2026-10-29 (2026-S44): Às quintas a pesquisa devolve pouco material nacional datado; o Brent e o prazo de aviso da tarifa do chapa foram o que mudou.
 - 2026-10-30 (2026-S44): Às sextas a pesquisa devolve pouco material datado: o Brent surge com valores diferentes conforme a fonte, por isso a redacção fica com a fonte datada (CNBC).
+- 2026-10-31 (2026-S44): Aos sábados a pesquisa devolve pouco material datado; uma notícia de 2022 sobre acordo com a FEMATRO apareceu como recente e foi rejeitada pela data.
