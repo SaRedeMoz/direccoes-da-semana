@@ -16,9 +16,9 @@
       "em": "2026-10-31T03:04:11.904Z"
     },
     "editor": {
-      "estado": "parado",
-      "msg": "À espera da sua vez",
-      "em": "2026-10-31T03:02:46.100Z"
+      "estado": "pronto",
+      "msg": "Textos com data actualizada",
+      "em": "2026-10-31T03:04:13.338Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-31T03:04:13.338Z",
+      "agente": "editor",
+      "msg": "Textos com data actualizada"
+    },
     {
       "em": "2026-10-31T03:04:11.904Z",
       "agente": "design",
@@ -221,14 +226,9 @@
       "em": "2026-10-28T02:54:55.170Z",
       "agente": "fontes",
       "msg": "Sem notícias novas datadas; lacunas registadas"
-    },
-    {
-      "em": "2026-10-28T02:53:34.100Z",
-      "agente": "fontes",
-      "msg": "Pesquisa de notícias e preços nas três capitais"
     }
   ],
-  "actualizado": "2026-10-31T03:04:11.904Z",
+  "actualizado": "2026-10-31T03:04:13.338Z",
   "semana": "2026-S44",
   "dia": "2026-10-31",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
