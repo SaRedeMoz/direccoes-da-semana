@@ -1,24 +1,25 @@
 {
   "modo": "diario",
-  "hoje": "2026-10-30",
+  "hoje": "2026-10-31",
   "semana": "2026-S44",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
-  "dia_semana": "sexta",
-  "post_do_dia": "dia",
+  "dia_semana": "sabado",
+  "post_do_dia": "nenhum",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "analise_independente",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-10-30 (dia): Gasóleo: o preço de Maio aguenta com o Brent acima de 115 dólares?",
     "2026-10-29 (dia): Tarifa do chapa em Novembro na Grande Maputo",
     "2026-10-28 (bolso): O Seu Bolso",
     "2026-10-27 (dia): Conteúdo Local: o gás vai dar contratos às PMEs moçambicanas?",
-    "2026-10-26 (dia): Orçamento de 2027: o que sobra depois de salários e dívida",
-    "2026-10-23 (dia): El Niño e o fim da ajuda alimentar: o que acontece em Janeiro"
+    "2026-10-26 (dia): Orçamento de 2027: o que sobra depois de salários e dívida"
   ],
   "noticias_do_aprovador": [],
   "sugestoes_novas": [],
