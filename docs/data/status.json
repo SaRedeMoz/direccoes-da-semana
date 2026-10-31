@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "A pesquisar notícias das últimas 48 horas",
-      "em": "2026-10-31T03:03:22.451Z"
+      "estado": "pronto",
+      "msg": "Sem notícias novas datadas; edição mantida",
+      "em": "2026-10-31T03:04:07.436Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-10-31T03:04:07.436Z",
+      "agente": "fontes",
+      "msg": "Sem notícias novas datadas; edição mantida"
+    },
     {
       "em": "2026-10-31T03:03:22.451Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-27T02:48:25.246Z",
       "agente": "editor",
       "msg": "Edição versão 2 montada"
-    },
-    {
-      "em": "2026-10-27T02:48:25.246Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: Conteúdo Local: o gás vai dar contratos às PMEs moçambicanas?"
     }
   ],
-  "actualizado": "2026-10-31T03:03:22.451Z",
+  "actualizado": "2026-10-31T03:04:07.436Z",
   "semana": "2026-S44",
   "dia": "2026-10-31",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
