@@ -21,12 +21,17 @@
       "em": "2026-11-01T02:59:30.271Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-11-01T02:58:06.779Z"
+      "estado": "à espera",
+      "msg": "À espera da sua aprovação",
+      "em": "2026-11-01T03:00:15.070Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-01T03:00:15.070Z",
+      "agente": "aprovacao",
+      "msg": "À espera da sua aprovação"
+    },
     {
       "em": "2026-11-01T02:59:30.271Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-10-29T03:17:59.144Z",
       "agente": "analise",
       "msg": "A actualizar a análise com Brent e chapa"
-    },
-    {
-      "em": "2026-10-29T03:17:57.903Z",
-      "agente": "fontes",
-      "msg": "2 itens novos e Brent a 115 dólares"
     }
   ],
-  "actualizado": "2026-11-01T02:59:30.271Z",
+  "actualizado": "2026-11-01T03:00:15.070Z",
   "semana": "2026-S44",
   "dia": "2026-11-01",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
