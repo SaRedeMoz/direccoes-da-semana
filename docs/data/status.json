@@ -2,8 +2,8 @@
   "estagios": {
     "fontes": {
       "estado": "a trabalhar",
-      "msg": "A começar a pesquisa do dia…",
-      "em": "2026-11-02T03:06:51.268Z"
+      "msg": "Pesquisar notícias de 1 e 2 de Novembro",
+      "em": "2026-11-02T03:07:19.602Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-02T03:07:19.602Z",
+      "agente": "fontes",
+      "msg": "Pesquisar notícias de 1 e 2 de Novembro"
+    },
     {
       "em": "2026-11-02T03:06:51.268Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-10-29T03:19:11.194Z",
       "agente": "design",
       "msg": "A preparar capa e slides"
-    },
-    {
-      "em": "2026-10-29T03:18:16.084Z",
-      "agente": "analise",
-      "msg": "Análise actualizada com Brent a 115 dólares"
     }
   ],
-  "actualizado": "2026-11-02T03:06:51.268Z",
+  "actualizado": "2026-11-02T03:07:19.602Z",
   "semana": "2026-S45",
   "dia": "2026-11-02",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
