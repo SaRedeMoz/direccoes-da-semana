@@ -100,6 +100,12 @@
         "semana": "2026-S44",
         "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não há tarifa final do chapa publicada a 1 de Novembro. O Brent fechou a 115,32 dólares a 28 de Outubro.",
         "direccao": "Contar com chapa mais caro em Novembro e confirmar a tarifa final com a agência metropolitana e o município."
+      },
+      {
+        "data": "2026-11-02",
+        "semana": "2026-S45",
+        "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa nem confirmação de paragem a 2 de Novembro. O Brent fechou a 115,32 dólares a 28 de Outubro.",
+        "direccao": "Contar com chapa mais caro e confirmar a tarifa com o município antes de pagar a mais."
       }
     ]
   },
@@ -131,6 +137,12 @@
         "data": "2026-10-23",
         "semana": "2026-S43",
         "resumo": "O PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro de 2027. A FEWS NET projecta 1,5 a 1,99 milhões a precisar de ajuda alimentar entre Dezembro e Janeiro.",
+        "direccao": "Guardar reservas de básicos e comprar insumos agrícolas cedo."
+      },
+      {
+        "data": "2026-11-02",
+        "semana": "2026-S45",
+        "resumo": "O Governo diz ter garantido 125 milhões de dólares e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e a FEWS NET espera 1,5 a 1,99 milhões a precisar de ajuda entre Dezembro e Janeiro.",
         "direccao": "Guardar reservas de básicos e comprar insumos agrícolas cedo."
       }
     ]

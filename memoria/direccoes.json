@@ -165,7 +165,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "Sem tarifa final publicada encontrada em 2 de Novembro.",
+    "verificada_em": "2026-11-02"
   },
   {
     "id": "D15",
@@ -201,7 +202,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "Reunião de 26 de Outubro sem resultado público encontrado.",
+    "verificada_em": "2026-11-02"
   },
   {
     "id": "D18",
@@ -249,7 +251,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "Sem confirmação da tarifa de Novembro com o município.",
+    "verificada_em": "2026-11-02"
   },
   {
     "id": "D22",
@@ -320,6 +323,42 @@
     "tema": "combustivel",
     "horizonte": "mes",
     "verificar_em": "2026-11-30",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D28",
+    "data": "2026-11-02",
+    "semana": "2026-S45",
+    "publico": "Famílias rurais e urbanas",
+    "accao": "Guardar reservas de milho e comprar insumos antes de a chuva se confirmar",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-02",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D29",
+    "data": "2026-11-02",
+    "semana": "2026-S45",
+    "publico": "Governo e parceiros",
+    "accao": "Fechar o financiamento do PAM para Janeiro antes de 15 de Dezembro",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D30",
+    "data": "2026-11-02",
+    "semana": "2026-S45",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Pagar a tarifa nova só depois do anúncio oficial do município",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-09",
     "resultado": "pendente",
     "nota": ""
   }

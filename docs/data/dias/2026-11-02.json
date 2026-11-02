@@ -1,0 +1,253 @@
+{
+  "tipo": "dia",
+  "tema": "El Niño: o milho vai encarecer antes de a ajuda chegar?",
+  "pergunta": "O El Niño vai encarecer o milho antes de a ajuda chegar?",
+  "facto": {
+    "texto": "O Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro de 2027. A FEWS NET espera 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.",
+    "numeros": [
+      {
+        "valor": "125 milhões USD",
+        "legenda": "garantidos pelo Governo"
+      },
+      {
+        "valor": "343 773",
+        "legenda": "pessoas com ajuda de emergência"
+      },
+      {
+        "valor": "1,5 a 1,99 milhões",
+        "legenda": "precisam de ajuda até Janeiro"
+      }
+    ],
+    "fonte": "AllAfrica (21 de Setembro de 2026), FEWS NET e PAM (22 e 23 de Outubro de 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "2015/16",
+      "texto": "Seca do El Niño: 1,5 milhões em insegurança alimentar.",
+      "futuro": false
+    },
+    {
+      "data": "5 Ago",
+      "texto": "INGD reforça ajuda a 250 mil pessoas em Sofala.",
+      "futuro": false
+    },
+    {
+      "data": "21 Set",
+      "texto": "Governo anuncia 125 milhões e restrições de água.",
+      "futuro": false
+    },
+    {
+      "data": "Dez",
+      "texto": "PAM mantém a ajuda actual só até este mês.",
+      "futuro": true
+    },
+    {
+      "data": "Jan",
+      "texto": "PAM prevê cortes; pico de necessidades.",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "2015 e 2016, seca do El Niño",
+    "o_que_aconteceu": "Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar. Em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos.",
+    "licao": "O preço do milho reage antes de a ajuda chegar às famílias.",
+    "fonte": "ReliefWeb/SETSAN e FEWS NET (Janeiro de 2016)"
+  },
+  "porque_importa": "O milho é a base da comida de grande parte das famílias do Centro e do Sul. Quando o preço sobe, a classe baixa gasta mais do rendimento em comida e o orçamento do transporte também aperta. Com o Orçamento de 2027 sem margem, a resposta depende de ajuda externa que já tem data para diminuir.",
+  "canal": {
+    "passos": [
+      "Chuva fraca no Sul e Centro",
+      "Colheita de milho abaixo do normal",
+      "Preço do milho sobe no mercado",
+      "Famílias gastam mais em comida"
+    ],
+    "quem_sente": "Pequenos agricultores, famílias urbanas pobres e comerciantes de grão"
+  },
+  "conta": {
+    "titulo": "Família que compra 100 kg de milho",
+    "pressupostos": "Hipótese de 25 meticais por quilo, sem preço observado. Subidas de 60% e 163% como cenários, sem outros custos.",
+    "barras": [
+      {
+        "rotulo": "Hoje",
+        "valor": 2500,
+        "texto": "2 500 MT/mês"
+      },
+      {
+        "rotulo": "Com mais 60%",
+        "valor": 4000,
+        "texto": "4 000 MT/mês"
+      },
+      {
+        "rotulo": "Com mais 163%",
+        "valor": 6575,
+        "texto": "6 575 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "No pior caso, a mesma comida custa 4 075 meticais por mês a mais."
+  },
+  "cenarios": [
+    {
+      "nome": "Chuva atrasada, campanha recupera",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Dois episódios recentes de El Niño trouxeram seca, por isso a taxa de base é baixa. Descontamos a favor o milho 15,6% mais barato.",
+      "gatilho": "Chuva acima da média em Dezembro e Janeiro nas estações do INAM",
+      "o_que_acontece": "A chuva chega tarde mas chega, a sementeira recupera e a colheita de Abril fica perto do normal.",
+      "numeros": "Milho entre 0% e 15% acima do nível de hoje",
+      "quando": "Até Abril de 2027",
+      "ganha": "Agricultores e famílias pobres",
+      "perde": "Importadores de grão",
+      "se_acontecer": "Manter reservas, mas voltar a comprar com preços normais."
+    },
+    {
+      "nome": "Seca moderada, ajuda cobre o essencial",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Os 125 milhões e a ajuda a 343 773 pessoas já estão previstos, mas a seca atinge o Sul e o Centro.",
+      "gatilho": "Chuva abaixo do normal em Novembro e Dezembro, segundo a SADC",
+      "o_que_acontece": "A colheita no Sul e Centro é fraca, o milho sobe e o Estado e os parceiros cobrem só os distritos mais graves.",
+      "numeros": "Milho 30% a 60% acima do nível de hoje",
+      "quando": "De Janeiro a Março de 2027",
+      "ganha": "Comerciantes com stock",
+      "perde": "Agricultores de sequeiro",
+      "se_acontecer": "Comprar milho cedo, guardar reservas e procurar ajuda do INGD."
+    },
+    {
+      "nome": "Chuva falha e o PAM corta",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "Em 2015 e 2016 o preço disparou; agora junta-se o corte do PAM em Janeiro e a ureia 41,5% mais cara.",
+      "gatilho": "PAM sem financiamento confirmado até 15 de Dezembro e chuva fraca",
+      "o_que_acontece": "A colheita falha e a ajuda diminui no pico da fome, por isso o milho dispara e as famílias vendem bens.",
+      "numeros": "Milho 100% a 160% acima do nível de hoje",
+      "quando": "Até Março de 2027",
+      "ganha": "Comerciantes de grão",
+      "perde": "Famílias pobres e agricultores",
+      "se_acontecer": "Pedir ajuda cedo, vender menos bens e partilhar transporte de comida."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Chuva nas estações do INAM",
+      "limiar": "Abaixo do normal em Novembro e Dezembro",
+      "quando": "Até 31 de Dezembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Preço do milho na FEWS NET",
+      "limiar": "50% acima da média de cinco anos",
+      "quando": "Até 31 de Janeiro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Financiamento do PAM para Janeiro",
+      "limiar": "Confirmado e sem cortes",
+      "quando": "Até 15 de Dezembro",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Chuva nas estações do INAM",
+      "limiar": "Acima da média em Dezembro e Janeiro",
+      "quando": "Até 31 de Janeiro",
+      "aponta_para": "melhora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "milho e transporte mais caros"
+    },
+    {
+      "grupo": "Pequenos agricultores",
+      "saldo": -2,
+      "porque": "colheita fraca e insumos caros"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "comida mais cara no orçamento"
+    },
+    {
+      "grupo": "ONGs e parceiros",
+      "saldo": -1,
+      "porque": "mais procura, menos fundos"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "pouca margem no Orçamento de 2027"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias",
+      "agora": "Guardar reservas de milho e feijão e comprar em quantidade só depois de comparar preços.",
+      "se_piorar": "Cortar compras que podem esperar e procurar ajuda do INGD."
+    },
+    {
+      "publico": "Agricultores",
+      "agora": "Comprar sementes e insumos cedo, porque a ureia custa mais 41,5%.",
+      "se_piorar": "Vender perto do local e guardar semente."
+    },
+    {
+      "publico": "Governo e parceiros",
+      "agora": "Fechar o financiamento do PAM para Janeiro antes de 15 de Dezembro.",
+      "se_piorar": "Antecipar a ajuda aos distritos de maior risco."
+    },
+    {
+      "publico": "Comerciantes",
+      "agora": "Guardar stock com margem, sem retenção abusiva.",
+      "se_piorar": "Manter preços justos e acompanhar a FEWS NET."
+    }
+  ],
+  "visao_contraria": "O milho está 15,6% mais barato que há um ano e a insegurança alimentar grave caiu 48% entre Agosto e Setembro. A chuva pode ainda chegar a tempo e o plano pode funcionar.",
+  "nao_sabemos": [
+    "Quanto da chuva de Novembro e Dezembro vai cair no Sul e no Centro.",
+    "Se os 125 milhões estão todos desembolsados ou só garantidos.",
+    "Como o PAM vai repartir a ajuda a partir de Janeiro."
+  ],
+  "sinal": "Chuva abaixo do normal em Novembro e Dezembro e financiamento do PAM por confirmar até 15 de Dezembro.",
+  "confianca": "media",
+  "base_confianca": "Plano do Governo confirmado por uma fonte de imprensa, FEWS NET e PAM de Outubro e precedente de 2015 e 2016; sem dados de preço do milho por cidade.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA: O EL NIÑO VAI DEIXAR A MESA VAZIA?*\n\nO Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda alimentar de emergência a 343 773 pessoas (AllAfrica, 21 de Setembro). Mas o PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro. A FEWS NET espera 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.\n\n*O PRECEDENTE*\nEm 2015 e 2016, a seca do El Niño deixou cerca de 1,5 milhões de pessoas em insegurança alimentar. Em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos (FEWS NET). O preço sobe antes de a ajuda chegar.\n\n*O QUE PODE ACONTECER*\nPiora, 35%: a chuva falha no Sul e Centro e a ajuda do PAM corta em Janeiro. O milho pode subir 100% a 160% acima da média até Março de 2027. Perdem os pequenos agricultores e as famílias urbanas pobres.\n\nFica igual, 45%: seca moderada. A colheita é fraca, o milho sobe 30% a 60% e os 125 milhões cobrem o essencial.\n\nMelhora, 20%: a chuva chega só com atraso e a campanha recupera. O milho mantém-se perto do nível de hoje, 15,6% abaixo do de há um ano.\n\n*A CONTA*\nUma família compra 100 kg de milho por mês. Como hipótese, a 25 meticais por quilo paga 2 500 meticais. Com mais 60% paga 4 000. Com mais 163% paga 6 575.\n\n*SINAIS*\nChuva abaixo do normal em Novembro e Dezembro, segundo a SADC e o INAM. Milho 50% acima da média de cinco anos na FEWS NET, até Janeiro. PAM sem financiamento confirmado até 15 de Dezembro.\n\n*A OUTRA VISÃO*\nO milho está 15,6% mais barato que há um ano e a insegurança alimentar grave caiu 48% entre Agosto e Setembro. A chuva pode ainda chegar.\n\n*DIRECÇÃO*\nFamílias: guardar reservas de milho e feijão já. Agricultores: comprar sementes e insumos cedo, a ureia custa mais 41,5%. Governo e parceiros: fechar o financiamento de Janeiro antes de 15 de Dezembro.\n\nPartilhe com quem planeia a campanha agrícola.",
+    "instagram": "O Governo diz ter 125 milhões de dólares para o El Niño, mas o PAM só mantém a ajuda até Dezembro. Em 2015 o milho chegou a 163% acima da média. Piora 35%, igual 45%, melhora 20%. Direcção: guardar reservas de milho e comprar insumos cedo. #Moçambique",
+    "facebook": "Direcção do Dia: o El Niño vai encarecer o milho?\n\nO Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda alimentar a 343 773 pessoas. Mas o PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro.\n\nEm 2015 e 2016, uma seca do El Niño deixou cerca de 1,5 milhões de pessoas em insegurança alimentar. O milho em Maxixe chegou a estar 163% acima da média de cinco anos.\n\nO que pode acontecer, e com que probabilidade: piora a 35%, com chuva fraca e corte da ajuda; fica igual a 45%, com seca moderada; melhora a 20%, com chuva atrasada mas suficiente.\n\nA conta de uma família que compra 100 kg de milho por mês, com a hipótese de 25 meticais por quilo: 2 500 meticais hoje, 4 000 se o preço subir 60%, 6 575 se subir 163%.\n\nDirecção da semana: guarde reservas de milho e feijão já, não espere por Janeiro, e quem planta deve comprar sementes e insumos cedo, porque a ureia custa mais 41,5%.\n\n#Moçambique #DirecçõesdaSemana",
+    "linkedin": "Direcção do Dia: o El Niño e o preço do milho\n\nO Governo diz ter garantido 125 milhões de dólares para responder ao El Niño e prevê ajuda alimentar de emergência a 343 773 pessoas, com protecção social para cerca de 234 mil agregados (AllAfrica, 21 de Setembro). O PAM, porém, só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro de 2027. A FEWS NET projecta 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.\n\nO precedente de 2015 e 2016 mostra o risco. Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar e, em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos. O preço reagiu antes da ajuda.\n\nOs cenários que consideramos: piora a 35%, com chuva fraca no Sul e Centro e corte do PAM em Janeiro, milho 100% a 160% acima da média até Março de 2027; igual a 45%, com seca moderada e milho 30% a 60% mais caro; melhora a 20%, com chuva atrasada mas suficiente. Partimos da taxa de base de dois episódios recentes de seca ligada ao El Niño e descontamos a favor o milho 15,6% mais barato que há um ano.\n\nUma família que compra 100 kg de milho por mês paga, como hipótese de 25 meticais por quilo, 2 500 meticais hoje, 4 000 com mais 60% e 6 575 com mais 163%.\n\nDirecção\n\nEmpresas do agronegócio devem comprar insumos já, porque a ureia custa mais 41,5%. Parceiros devem confirmar o financiamento de Janeiro antes de 15 de Dezembro.\n\nO sinal a seguir é a chuva de Novembro e Dezembro e o preço do milho face à média de cinco anos.\n\n#Moçambique #DirecçõesdaSemana #ElNiño"
+  },
+  "fontes": [
+    {
+      "fonte": "AllAfrica, restrições de água e El Niño",
+      "url": "https://allafrica.com/stories/202609210066.html",
+      "data": "2026-09-21"
+    },
+    {
+      "fonte": "Observador/Lusa, Sofala",
+      "url": "https://observador.pt/2026/08/05/autoridades-mocambicanas-reforcam-assistencia-a-250-mil-pessoas-perante-risco-de-seca/",
+      "data": "2026-08-05"
+    },
+    {
+      "fonte": "ReliefWeb, seca de 2015 e 2016",
+      "url": "https://m.reliefweb.int/report/1473171",
+      "data": "2016"
+    },
+    {
+      "fonte": "FEWS NET, Janeiro de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/key-message-update/january-2016",
+      "data": "2016-01"
+    },
+    {
+      "fonte": "FEWS NET e PMA via memória da redacção",
+      "url": "https://fews.net/southern-africa/mozambique",
+      "data": "2026-10-23"
+    }
+  ],
+  "data": "2026-11-02",
+  "dia_semana": "segunda",
+  "semana": "2026-S45",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

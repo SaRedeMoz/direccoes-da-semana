@@ -1,160 +1,155 @@
 {
   "tipo": "dia",
-  "tema": "Gasóleo: o preço de Maio aguenta com o Brent acima de 115 dólares?",
-  "pergunta": "O gasóleo vai subir outra vez em Moçambique?",
+  "tema": "El Niño: o milho vai encarecer antes de a ajuda chegar?",
+  "pergunta": "O El Niño vai encarecer o milho antes de a ajuda chegar?",
   "facto": {
-    "texto": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, depois de uma subida de 45,5%. Desde então não se conhece nenhuma revisão da ARENE. O Brent fechou a 115,32 dólares a 28 de Outubro.",
+    "texto": "O Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro de 2027. A FEWS NET espera 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.",
     "numeros": [
       {
-        "valor": "116,25 MT",
-        "legenda": "gasóleo por litro desde Maio"
+        "valor": "125 milhões USD",
+        "legenda": "garantidos pelo Governo"
       },
       {
-        "valor": "25 semanas",
-        "legenda": "sem revisão de preço"
+        "valor": "343 773",
+        "legenda": "pessoas com ajuda de emergência"
       },
       {
-        "valor": "115,32 USD",
-        "legenda": "Brent a 28 de Outubro"
+        "valor": "1,5 a 1,99 milhões",
+        "legenda": "precisam de ajuda até Janeiro"
       }
     ],
-    "fonte": "Notícias ao Minuto (6 de Maio) e CNBC (28 de Outubro de 2026)"
+    "fonte": "AllAfrica (21 de Setembro de 2026), FEWS NET e PAM (22 e 23 de Outubro de 2026)"
   },
   "linha_do_tempo": [
     {
-      "data": "7 Mai",
-      "texto": "Gasóleo sobe 45,5% para 116,25 meticais.",
+      "data": "2015/16",
+      "texto": "Seca do El Niño: 1,5 milhões em insegurança alimentar.",
       "futuro": false
     },
     {
-      "data": "8 Mai",
-      "texto": "Operadores param em Maputo e Matola.",
+      "data": "5 Ago",
+      "texto": "INGD reforça ajuda a 250 mil pessoas em Sofala.",
       "futuro": false
     },
     {
-      "data": "19 Out",
-      "texto": "Governo anuncia o fim do apoio aos chapas.",
+      "data": "21 Set",
+      "texto": "Governo anuncia 125 milhões e restrições de água.",
       "futuro": false
     },
     {
-      "data": "28 Out",
-      "texto": "Brent fecha a 115,32 dólares.",
-      "futuro": false
-    },
-    {
-      "data": "1 Nov",
-      "texto": "Reunião da OPEC+ e data pedida para a tarifa do chapa.",
+      "data": "Dez",
+      "texto": "PAM mantém a ajuda actual só até este mês.",
       "futuro": true
     },
     {
-      "data": "30 Nov",
-      "texto": "Prazo para ver se o Brent aguenta acima de 110.",
+      "data": "Jan",
+      "texto": "PAM prevê cortes; pico de necessidades.",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "Maio de 2026",
-    "o_que_aconteceu": "A ARENE reviu os preços cerca de cinco semanas depois de começar a pressão do petróleo, e os operadores pararam no dia seguinte.",
-    "licao": "A revisão veio com atraso e foi grande, e a reacção dos transportes foi imediata.",
-    "fonte": "Notícias ao Minuto, 6 de Maio de 2026"
+    "quando": "2015 e 2016, seca do El Niño",
+    "o_que_aconteceu": "Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar. Em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos.",
+    "licao": "O preço do milho reage antes de a ajuda chegar às famílias.",
+    "fonte": "ReliefWeb/SETSAN e FEWS NET (Janeiro de 2016)"
   },
-  "porque_importa": "O gasóleo move o chapa, a carga e os alimentos. Uma nova subida chegaria depois do fim do apoio aos chapas, e o Orçamento de 2027 tem pouca margem para pagar a diferença.",
+  "porque_importa": "O milho é a base da comida de grande parte das famílias do Centro e do Sul. Quando o preço sobe, a classe baixa gasta mais do rendimento em comida e o orçamento do transporte também aperta. Com o Orçamento de 2027 sem margem, a resposta depende de ajuda externa que já tem data para diminuir.",
   "canal": {
     "passos": [
-      "Brent fica acima de 110",
-      "ARENE revê o gasóleo",
-      "Carga e chapa sobem",
-      "Alimentos mais caros no mercado"
+      "Chuva fraca no Sul e Centro",
+      "Colheita de milho abaixo do normal",
+      "Preço do milho sobe no mercado",
+      "Famílias gastam mais em comida"
     ],
-    "quem_sente": "Transportadores, agricultores, famílias urbanas e PMEs"
+    "quem_sente": "Pequenos agricultores, famílias urbanas pobres e comerciantes de grão"
   },
   "conta": {
-    "titulo": "Carrinha de uma PME com 200 litros",
-    "pressupostos": "200 litros de gasóleo por mês, preço de 116,25 meticais. Subidas de 10% e 20% como hipótese, sem outros custos.",
+    "titulo": "Família que compra 100 kg de milho",
+    "pressupostos": "Hipótese de 25 meticais por quilo, sem preço observado. Subidas de 60% e 163% como cenários, sem outros custos.",
     "barras": [
       {
         "rotulo": "Hoje",
-        "valor": 23250,
-        "texto": "23 250 MT/mês"
+        "valor": 2500,
+        "texto": "2 500 MT/mês"
       },
       {
-        "rotulo": "Com mais 10%",
-        "valor": 25575,
-        "texto": "25 575 MT/mês"
+        "rotulo": "Com mais 60%",
+        "valor": 4000,
+        "texto": "4 000 MT/mês"
       },
       {
-        "rotulo": "Com mais 20%",
-        "valor": 27900,
-        "texto": "27 900 MT/mês"
+        "rotulo": "Com mais 163%",
+        "valor": 6575,
+        "texto": "6 575 MT/mês"
       }
     ],
     "unidade": "MT por mês",
-    "conclusao": "Cada 10% de subida custa 2 325 meticais por mês a uma PME deste tamanho."
+    "conclusao": "No pior caso, a mesma comida custa 4 075 meticais por mês a mais."
   },
   "cenarios": [
     {
-      "nome": "ARENE sobe o gasóleo",
-      "tipo": "piora",
-      "probabilidade": 30,
-      "porque_probabilidade": "Nenhuma revisão em 25 semanas pesa contra, mas o Brent está acima de 115 e o apoio ao transporte acabou.",
-      "gatilho": "Brent acima de 110 dólares até 30 de Novembro e tabela nova da ARENE",
-      "o_que_acontece": "A ARENE repassa o petróleo ao preço de venda para limitar a falta de divisas e o custo público.",
-      "numeros": "Gasóleo de 128 a 140 MT por litro, mais 10% a 20%",
-      "quando": "Entre Dezembro de 2026 e Janeiro de 2027",
-      "ganha": "Orçamento do Estado e importadoras",
-      "perde": "Transportadores, agricultores e famílias",
-      "se_acontecer": "Rever tarifas e preços de entrega de imediato e comprar alimentos com antecedência."
-    },
-    {
-      "nome": "Preço fica e a falta aparece",
-      "tipo": "fica_igual",
-      "probabilidade": 55,
-      "porque_probabilidade": "Taxa de base: zero revisões em 25 semanas, com pressão durante todo esse tempo. Desconto por Brent mais alto agora.",
-      "gatilho": "Sem tabela nova da ARENE até ao fim de Novembro",
-      "o_que_acontece": "O Estado e as importadoras absorvem o custo e o risco passa para filas e escassez nas bombas, não para o preço.",
-      "numeros": "Gasóleo a 116,25 MT; filas e limites de compra possíveis",
-      "quando": "Até Março de 2027",
-      "ganha": "Consumidores no preço de bomba",
-      "perde": "Orçamento de 2027 e quem depende de abastecimento",
-      "se_acontecer": "Planear compras de combustível com antecedência e ter alternativas de transporte."
-    },
-    {
-      "nome": "Petróleo recua",
+      "nome": "Chuva atrasada, campanha recupera",
       "tipo": "melhora",
-      "probabilidade": 15,
-      "porque_probabilidade": "Exige menos ataques a petroleiros e Ormuz a normalizar, sem sinais disso nas últimas duas semanas.",
-      "gatilho": "Brent abaixo de 100 dólares durante duas semanas seguidas",
-      "o_que_acontece": "A pressão sobre as importações diminui e a ARENE deixa de ter motivo para rever os preços.",
-      "numeros": "Brent de 90 a 100 USD por barril",
-      "quando": "Até 31 de Dezembro de 2026",
-      "ganha": "Transportadores e Orçamento",
-      "perde": "Poucos, talvez produtores de petróleo",
-      "se_acontecer": "Manter reservas, mas adiar compras de grande valor ligadas ao combustível."
+      "probabilidade": 20,
+      "porque_probabilidade": "Dois episódios recentes de El Niño trouxeram seca, por isso a taxa de base é baixa. Descontamos a favor o milho 15,6% mais barato.",
+      "gatilho": "Chuva acima da média em Dezembro e Janeiro nas estações do INAM",
+      "o_que_acontece": "A chuva chega tarde mas chega, a sementeira recupera e a colheita de Abril fica perto do normal.",
+      "numeros": "Milho entre 0% e 15% acima do nível de hoje",
+      "quando": "Até Abril de 2027",
+      "ganha": "Agricultores e famílias pobres",
+      "perde": "Importadores de grão",
+      "se_acontecer": "Manter reservas, mas voltar a comprar com preços normais."
+    },
+    {
+      "nome": "Seca moderada, ajuda cobre o essencial",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Os 125 milhões e a ajuda a 343 773 pessoas já estão previstos, mas a seca atinge o Sul e o Centro.",
+      "gatilho": "Chuva abaixo do normal em Novembro e Dezembro, segundo a SADC",
+      "o_que_acontece": "A colheita no Sul e Centro é fraca, o milho sobe e o Estado e os parceiros cobrem só os distritos mais graves.",
+      "numeros": "Milho 30% a 60% acima do nível de hoje",
+      "quando": "De Janeiro a Março de 2027",
+      "ganha": "Comerciantes com stock",
+      "perde": "Agricultores de sequeiro",
+      "se_acontecer": "Comprar milho cedo, guardar reservas e procurar ajuda do INGD."
+    },
+    {
+      "nome": "Chuva falha e o PAM corta",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "Em 2015 e 2016 o preço disparou; agora junta-se o corte do PAM em Janeiro e a ureia 41,5% mais cara.",
+      "gatilho": "PAM sem financiamento confirmado até 15 de Dezembro e chuva fraca",
+      "o_que_acontece": "A colheita falha e a ajuda diminui no pico da fome, por isso o milho dispara e as famílias vendem bens.",
+      "numeros": "Milho 100% a 160% acima do nível de hoje",
+      "quando": "Até Março de 2027",
+      "ganha": "Comerciantes de grão",
+      "perde": "Famílias pobres e agricultores",
+      "se_acontecer": "Pedir ajuda cedo, vender menos bens e partilhar transporte de comida."
     }
   ],
   "sinais": [
     {
-      "o_que": "Brent no fecho diário",
-      "limiar": "Acima de 110 dólares durante 3 semanas",
-      "quando": "Até 30 de Novembro",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Tabela de preços da ARENE",
-      "limiar": "Qualquer valor acima de 116,25 MT",
+      "o_que": "Chuva nas estações do INAM",
+      "limiar": "Abaixo do normal em Novembro e Dezembro",
       "quando": "Até 31 de Dezembro",
       "aponta_para": "piora"
     },
     {
-      "o_que": "Filas e limites de compra nas bombas",
-      "limiar": "Relatos em mais de uma cidade",
-      "quando": "Até 30 de Novembro",
+      "o_que": "Preço do milho na FEWS NET",
+      "limiar": "50% acima da média de cinco anos",
+      "quando": "Até 31 de Janeiro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Financiamento do PAM para Janeiro",
+      "limiar": "Confirmado e sem cortes",
+      "quando": "Até 15 de Dezembro",
       "aponta_para": "fica_igual"
     },
     {
-      "o_que": "Brent no fecho diário",
-      "limiar": "Abaixo de 100 dólares durante 2 semanas",
-      "quando": "Até 31 de Dezembro",
+      "o_que": "Chuva nas estações do INAM",
+      "limiar": "Acima da média em Dezembro e Janeiro",
+      "quando": "Até 31 de Janeiro",
       "aponta_para": "melhora"
     }
   ],
@@ -162,139 +157,97 @@
     {
       "grupo": "Classe baixa",
       "saldo": -2,
-      "porque": "chapa e comida mais caros"
+      "porque": "milho e transporte mais caros"
+    },
+    {
+      "grupo": "Pequenos agricultores",
+      "saldo": -2,
+      "porque": "colheita fraca e insumos caros"
     },
     {
       "grupo": "Classe média",
       "saldo": -1,
-      "porque": "transporte e produtos mais caros"
+      "porque": "comida mais cara no orçamento"
     },
     {
-      "grupo": "PMEs",
-      "saldo": -2,
-      "porque": "custo de entrega sobe de imediato"
-    },
-    {
-      "grupo": "Agricultores",
+      "grupo": "ONGs e parceiros",
       "saldo": -1,
-      "porque": "transporte e insumos mais caros"
+      "porque": "mais procura, menos fundos"
     },
     {
       "grupo": "Governo",
       "saldo": -1,
-      "porque": "pouca margem para pagar a diferença"
+      "porque": "pouca margem no Orçamento de 2027"
     }
   ],
   "direccao": [
     {
-      "publico": "Transportadores e PMEs",
-      "agora": "Contar com gasóleo mais caro no primeiro trimestre e rever os preços de entrega.",
-      "se_piorar": "Aplicar a tarifa nova de imediato e agrupar entregas."
-    },
-    {
-      "publico": "Famílias urbanas",
-      "agora": "Guardar uma margem para o chapa e comprar básicos com antecedência.",
-      "se_piorar": "Cortar viagens e compras que podem esperar."
+      "publico": "Famílias",
+      "agora": "Guardar reservas de milho e feijão e comprar em quantidade só depois de comparar preços.",
+      "se_piorar": "Cortar compras que podem esperar e procurar ajuda do INGD."
     },
     {
       "publico": "Agricultores",
-      "agora": "Comprar insumos cedo e combinar transporte colectivo para a produção.",
-      "se_piorar": "Vender perto do local de produção."
+      "agora": "Comprar sementes e insumos cedo, porque a ureia custa mais 41,5%.",
+      "se_piorar": "Vender perto do local e guardar semente."
     },
     {
-      "publico": "Governo e ARENE",
-      "agora": "Publicar a base de cálculo do preço de Maio e o calendário de revisão.",
-      "se_piorar": "Anunciar a subida com aviso e apoio ao transporte."
+      "publico": "Governo e parceiros",
+      "agora": "Fechar o financiamento do PAM para Janeiro antes de 15 de Dezembro.",
+      "se_piorar": "Antecipar a ajuda aos distritos de maior risco."
+    },
+    {
+      "publico": "Comerciantes",
+      "agora": "Guardar stock com margem, sem retenção abusiva.",
+      "se_piorar": "Manter preços justos e acompanhar a FEWS NET."
     }
   ],
-  "visao_contraria": "O Governo pode preferir esperar pelo Orçamento de 2027 e manter o preço, porque o salto de Maio já foi grande e a subida custaria apoio político.",
+  "visao_contraria": "O milho está 15,6% mais barato que há um ano e a insegurança alimentar grave caiu 48% entre Agosto e Setembro. A chuva pode ainda chegar a tempo e o plano pode funcionar.",
   "nao_sabemos": [
-    "Que preço internacional a ARENE usou como base em Maio.",
-    "Outras fontes dão o Brent mais baixo que a CNBC; usámos a fonte datada.",
-    "Quanto tempo o Estado aguenta absorver o custo."
+    "Quanto da chuva de Novembro e Dezembro vai cair no Sul e no Centro.",
+    "Se os 125 milhões estão todos desembolsados ou só garantidos.",
+    "Como o PAM vai repartir a ajuda a partir de Janeiro."
   ],
-  "sinal": "Brent acima de 110 dólares até 30 de Novembro e uma tabela nova da ARENE.",
+  "sinal": "Chuva abaixo do normal em Novembro e Dezembro e financiamento do PAM por confirmar até 15 de Dezembro.",
   "confianca": "media",
-  "base_confianca": "Preço de Maio confirmado pela ARENE via Lusa; Brent de uma só fonte datada e sem revisão oficial conhecida desde então.",
+  "base_confianca": "Plano do Governo confirmado por uma fonte de imprensa, FEWS NET e PAM de Outubro e precedente de 2015 e 2016; sem dados de preço do milho por cidade.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA: O GASÓLEO VAI SUBIR OUTRA VEZ?*\n\nO gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5%. São 25 semanas sem revisão. Entretanto, o Brent fechou a 115,32 dólares a 28 de Outubro (CNBC), perto do máximo de seis meses, e o Governo deixou de pagar o apoio aos chapas da Grande Maputo.\n\n*O QUE PODE ACONTECER*\n\nPiora, 30%: a ARENE revê os preços para cima. Acontece se o Brent ficar acima de 110 dólares até ao fim de Novembro. O gasóleo passaria para 128 a 140 meticais, entre Dezembro e Janeiro de 2027. Perdem os transportadores, os agricultores e quem compra alimentos transportados.\n\nFica igual, 55%: o preço mantém-se, porque em 25 semanas não houve revisão, mesmo com a pressão. O custo fica no Estado e nas importadoras, e a escassez de divisas pode voltar às bombas. Quem perde é o Orçamento de 2027, que já tem pouca margem.\n\nMelhora, 15%: o Brent cai abaixo de 100 dólares com menos ataques a petroleiros. O preço não desce logo, mas o risco de subida desaparece.\n\n*A CONTA*\n\nUma PME com uma carrinha gasta 200 litros por mês. Hoje paga 23 250 meticais. Com mais 10% paga 25 575, com mais 20% paga 27 900. São 2 325 a 4 650 meticais por mês a mais.\n\n*SINAIS*\n\nBrent acima de 110 dólares até 30 de Novembro aponta para a piora. Uma tabela nova da ARENE confirma-a. Filas nas bombas sem subida de preço apontam para o cenário de preço igual com escassez.\n\n*A OUTRA VISÃO*\n\nO preço de Maio já foi um salto grande e o Governo pode preferir esperar pelo Orçamento de 2027. Não sabemos o preço que a ARENE usou como base em Maio.\n\n*DIRECÇÃO*\n\nTransportadores e PMEs: contar com gasóleo mais caro no primeiro trimestre e rever preços de entrega. Famílias: guardar uma margem para o chapa e para os alimentos.\n\nPartilhe com quem precisa de planear Novembro.",
-    "instagram": "O gasóleo está a 116,25 meticais desde 7 de Maio, 25 semanas sem revisão. O Brent está acima de 115 dólares. Preço igual: 55%. Subida da ARENE: 30%. Descida do risco: 15%. Para uma PME com 200 litros por mês, mais 10% custam 2 325 meticais. Sinal a seguir: Brent acima de 110 dólares até 30 de Novembro.",
-    "facebook": "O gasóleo custa 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5%. Desde então não houve revisão de preços, mas o petróleo Brent fechou a 115,32 dólares a 28 de Outubro, perto do máximo de seis meses.\n\nO que achamos mais provável, com 55%, é que o preço se mantenha, como aconteceu nestas 25 semanas. O custo fica então no Estado e nas importadoras, e há risco de falta de divisas e de filas nas bombas. Com 30%, a ARENE revê os preços para cima, se o Brent ficar acima de 110 dólares até ao fim de Novembro. Com 15%, o petróleo cai abaixo de 100 dólares e o risco desaparece.\n\nUma PME com uma carrinha que gasta 200 litros por mês paga hoje 23 250 meticais. Com mais 10% paga 25 575. Com mais 20% paga 27 900.\n\nNão sabemos que preço internacional a ARENE usou como base em Maio, e por isso a probabilidade de subida tem margem de erro.\n\nDirecção: transportadores e PMEs devem contar com gasóleo mais caro no primeiro trimestre e rever preços de entrega. As famílias devem guardar uma margem para o chapa e para os alimentos.",
-    "linkedin": "O gasóleo em Moçambique custa 116,25 meticais por litro desde 7 de Maio, depois de uma subida de 45,5%. Passaram 25 semanas sem revisão da ARENE. Nesse tempo, o Brent fechou a 115,32 dólares a 28 de Outubro, segundo a CNBC, e o Governo deixou de pagar o apoio de combustível aos chapas da Grande Maputo, que custou 307 milhões de meticais em três meses.\n\nEm Maio, a ARENE justificou a subida com os preços internacionais desde o início de Abril. Cerca de 80% das importações de combustível passam pelo Médio Oriente, e a falta de divisas pode limitar compras.\n\nVemos três caminhos. Com 55%, o preço mantém-se, porque a taxa de base destas 25 semanas é de nenhuma revisão. Com 30%, a ARENE sobe os preços, se o Brent ficar acima de 110 dólares até 30 de Novembro: o gasóleo iria para 128 a 140 meticais. Com 15%, o petróleo cai abaixo de 100 dólares.\n\nPara uma PME com 200 litros por mês, cada 10% de aumento custa 2 325 meticais mensais.\n\nOs sinais são simples de seguir: o fecho diário do Brent e qualquer tabela nova da ARENE com valor acima de 116,25 meticais. Se o Brent descer abaixo de 100 dólares durante duas semanas, o risco de subida diminui.\n\nDirecção. Transportadores e PMEs devem rever preços de entrega para o primeiro trimestre de 2027. Bancos e investidores devem acompanhar o Orçamento de 2027, que não tem margem para absorver o custo.\n\nConclusão: o preço de Maio aguenta enquanto o Estado puder pagar a diferença, e o sinal para observar é o Brent acima de 110 dólares em Novembro."
+    "whatsapp": "*DIRECÇÃO DO DIA: O EL NIÑO VAI DEIXAR A MESA VAZIA?*\n\nO Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda alimentar de emergência a 343 773 pessoas (AllAfrica, 21 de Setembro). Mas o PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro. A FEWS NET espera 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.\n\n*O PRECEDENTE*\nEm 2015 e 2016, a seca do El Niño deixou cerca de 1,5 milhões de pessoas em insegurança alimentar. Em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos (FEWS NET). O preço sobe antes de a ajuda chegar.\n\n*O QUE PODE ACONTECER*\nPiora, 35%: a chuva falha no Sul e Centro e a ajuda do PAM corta em Janeiro. O milho pode subir 100% a 160% acima da média até Março de 2027. Perdem os pequenos agricultores e as famílias urbanas pobres.\n\nFica igual, 45%: seca moderada. A colheita é fraca, o milho sobe 30% a 60% e os 125 milhões cobrem o essencial.\n\nMelhora, 20%: a chuva chega só com atraso e a campanha recupera. O milho mantém-se perto do nível de hoje, 15,6% abaixo do de há um ano.\n\n*A CONTA*\nUma família compra 100 kg de milho por mês. Como hipótese, a 25 meticais por quilo paga 2 500 meticais. Com mais 60% paga 4 000. Com mais 163% paga 6 575.\n\n*SINAIS*\nChuva abaixo do normal em Novembro e Dezembro, segundo a SADC e o INAM. Milho 50% acima da média de cinco anos na FEWS NET, até Janeiro. PAM sem financiamento confirmado até 15 de Dezembro.\n\n*A OUTRA VISÃO*\nO milho está 15,6% mais barato que há um ano e a insegurança alimentar grave caiu 48% entre Agosto e Setembro. A chuva pode ainda chegar.\n\n*DIRECÇÃO*\nFamílias: guardar reservas de milho e feijão já. Agricultores: comprar sementes e insumos cedo, a ureia custa mais 41,5%. Governo e parceiros: fechar o financiamento de Janeiro antes de 15 de Dezembro.\n\nPartilhe com quem planeia a campanha agrícola.",
+    "instagram": "O Governo diz ter 125 milhões de dólares para o El Niño, mas o PAM só mantém a ajuda até Dezembro. Em 2015 o milho chegou a 163% acima da média. Piora 35%, igual 45%, melhora 20%. Direcção: guardar reservas de milho e comprar insumos cedo. #Moçambique",
+    "facebook": "Direcção do Dia: o El Niño vai encarecer o milho?\n\nO Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda alimentar a 343 773 pessoas. Mas o PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro.\n\nEm 2015 e 2016, uma seca do El Niño deixou cerca de 1,5 milhões de pessoas em insegurança alimentar. O milho em Maxixe chegou a estar 163% acima da média de cinco anos.\n\nO que pode acontecer, e com que probabilidade: piora a 35%, com chuva fraca e corte da ajuda; fica igual a 45%, com seca moderada; melhora a 20%, com chuva atrasada mas suficiente.\n\nA conta de uma família que compra 100 kg de milho por mês, com a hipótese de 25 meticais por quilo: 2 500 meticais hoje, 4 000 se o preço subir 60%, 6 575 se subir 163%.\n\nDirecção da semana: guarde reservas de milho e feijão já, não espere por Janeiro, e quem planta deve comprar sementes e insumos cedo, porque a ureia custa mais 41,5%.\n\n#Moçambique #DirecçõesdaSemana",
+    "linkedin": "Direcção do Dia: o El Niño e o preço do milho\n\nO Governo diz ter garantido 125 milhões de dólares para responder ao El Niño e prevê ajuda alimentar de emergência a 343 773 pessoas, com protecção social para cerca de 234 mil agregados (AllAfrica, 21 de Setembro). O PAM, porém, só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro de 2027. A FEWS NET projecta 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.\n\nO precedente de 2015 e 2016 mostra o risco. Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar e, em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos. O preço reagiu antes da ajuda.\n\nOs cenários que consideramos: piora a 35%, com chuva fraca no Sul e Centro e corte do PAM em Janeiro, milho 100% a 160% acima da média até Março de 2027; igual a 45%, com seca moderada e milho 30% a 60% mais caro; melhora a 20%, com chuva atrasada mas suficiente. Partimos da taxa de base de dois episódios recentes de seca ligada ao El Niño e descontamos a favor o milho 15,6% mais barato que há um ano.\n\nUma família que compra 100 kg de milho por mês paga, como hipótese de 25 meticais por quilo, 2 500 meticais hoje, 4 000 com mais 60% e 6 575 com mais 163%.\n\nDirecção\n\nEmpresas do agronegócio devem comprar insumos já, porque a ureia custa mais 41,5%. Parceiros devem confirmar o financiamento de Janeiro antes de 15 de Dezembro.\n\nO sinal a seguir é a chuva de Novembro e Dezembro e o preço do milho face à média de cinco anos.\n\n#Moçambique #DirecçõesdaSemana #ElNiño"
   },
   "fontes": [
     {
-      "fonte": "Notícias ao Minuto (Lusa), preços da ARENE",
-      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
-      "data": "2026-05-06"
+      "fonte": "AllAfrica, restrições de água e El Niño",
+      "url": "https://allafrica.com/stories/202609210066.html",
+      "data": "2026-09-21"
     },
     {
-      "fonte": "CNBC, preço do petróleo",
-      "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
-      "data": "2026-10-28"
+      "fonte": "Observador/Lusa, Sofala",
+      "url": "https://observador.pt/2026/08/05/autoridades-mocambicanas-reforcam-assistencia-a-250-mil-pessoas-perante-risco-de-seca/",
+      "data": "2026-08-05"
     },
     {
-      "fonte": "Rio Times, fim do apoio aos chapas",
-      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
-      "data": "2026-10-19"
+      "fonte": "ReliefWeb, seca de 2015 e 2016",
+      "url": "https://m.reliefweb.int/report/1473171",
+      "data": "2016"
+    },
+    {
+      "fonte": "FEWS NET, Janeiro de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/key-message-update/january-2016",
+      "data": "2016-01"
+    },
+    {
+      "fonte": "FEWS NET e PMA via memória da redacção",
+      "url": "https://fews.net/southern-africa/mozambique",
+      "data": "2026-10-23"
     }
   ],
-  "data": "2026-10-30",
-  "dia_semana": "sexta",
-  "semana": "2026-S44",
+  "data": "2026-11-02",
+  "dia_semana": "segunda",
+  "semana": "2026-S45",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1793330552789
-  }
+  "falhas": []
 }

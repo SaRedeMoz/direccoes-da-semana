@@ -21,3 +21,4 @@
 - 2026-10-30 (2026-S44): Às sextas a pesquisa devolve pouco material datado: o Brent surge com valores diferentes conforme a fonte, por isso a redacção fica com a fonte datada (CNBC).
 - 2026-10-31 (2026-S44): Aos sábados a pesquisa devolve pouco material datado; uma notícia de 2022 sobre acordo com a FEMATRO apareceu como recente e foi rejeitada pela data.
 - 2026-11-01 (2026-S44): Aos domingos a pesquisa devolve pouco material datado; uma notícia de 2023 sobre adiamento da tarifa do chapa apareceu nos resultados e foi rejeitada pela data.
+- 2026-11-02 (2026-S45): Às segundas a pesquisa devolve pouco material datado de domingo e segunda: a redacção fica com o que tem fonte e data e regista o resto como lacuna.
