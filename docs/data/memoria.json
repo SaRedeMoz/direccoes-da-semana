@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-01",
+  "actualizado": "2026-11-02",
   "indicadores": [
     {
       "id": "gasolina",
@@ -531,7 +531,44 @@
       ]
     }
   ],
-  "direccoes_a_verificar": [],
+  "direccoes_a_verificar": [
+    {
+      "id": "D14",
+      "data": "2026-10-22",
+      "semana": "2026-S43",
+      "publico": "Utentes do chapa",
+      "accao": "Contar com tarifa mais alta em Novembro e reservar 3 a 12 meticais por viagem no orçamento do transporte",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-02",
+      "resultado": "pendente",
+      "nota": ""
+    },
+    {
+      "id": "D17",
+      "data": "2026-10-23",
+      "semana": "2026-S43",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Contar com tarifa mais alta em Novembro e acompanhar a reunião de 26 de Outubro.",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-02",
+      "resultado": "pendente",
+      "nota": ""
+    },
+    {
+      "id": "D21",
+      "data": "2026-10-26",
+      "semana": "2026-S44",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Contar com a tarifa nova em Novembro e confirmar o valor com o município antes de 1 de Novembro.",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-02",
+      "resultado": "pendente",
+      "nota": ""
+    }
+  ],
   "balanco_direccoes": {
     "confirmada": 0,
     "parcial": 0,

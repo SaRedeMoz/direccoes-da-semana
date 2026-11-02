@@ -1,16 +1,16 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-01",
-  "semana": "2026-S44",
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/6",
-  "dia_semana": "domingo",
-  "post_do_dia": "nenhum",
+  "hoje": "2026-11-02",
+  "semana": "2026-S45",
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
+  "dia_semana": "segunda",
+  "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
