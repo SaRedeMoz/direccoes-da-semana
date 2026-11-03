@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02",
+  "actualizado": "2026-11-03",
   "indicadores": [
     {
       "id": "gasolina",
@@ -533,6 +533,18 @@
   ],
   "direccoes_a_verificar": [
     {
+      "id": "D10",
+      "data": "2026-10-20",
+      "semana": "2026-S43",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Contar com subida da tarifa em Novembro e orçamentar o transporte diário.",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-03",
+      "resultado": "pendente",
+      "nota": ""
+    },
+    {
       "id": "D14",
       "data": "2026-10-22",
       "semana": "2026-S43",
@@ -570,6 +582,18 @@
       "resultado": "pendente",
       "nota": "Sem confirmação da tarifa de Novembro com o município.",
       "verificada_em": "2026-11-02"
+    },
+    {
+      "id": "D23",
+      "data": "2026-10-27",
+      "semana": "2026-S44",
+      "publico": "Utentes do chapa",
+      "accao": "Orçar o transporte de Novembro com tarifa acima de 18 meticais até haver decisão oficial",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-03",
+      "resultado": "pendente",
+      "nota": ""
     }
   ],
   "balanco_direccoes": {
