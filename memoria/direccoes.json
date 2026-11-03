@@ -117,7 +117,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-03",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "Sem tarifa final publicada encontrada em 3 de Novembro.",
+    "verificada_em": "2026-11-03"
   },
   {
     "id": "D11",
@@ -276,7 +277,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-03",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "Sem decisão oficial encontrada em 3 de Novembro.",
+    "verificada_em": "2026-11-03"
   },
   {
     "id": "D24",
@@ -359,6 +361,42 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-09",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D31",
+    "data": "2026-11-03",
+    "semana": "2026-S45",
+    "publico": "Famílias e pequenos negócios",
+    "accao": "Contar com menos apoio do Estado em 2027 e criar reserva para transporte e comida antes de Janeiro.",
+    "tema": "orcamento_2027",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-31",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D32",
+    "data": "2026-11-03",
+    "semana": "2026-S45",
+    "publico": "PMEs",
+    "accao": "Perguntar na administração do distrito como se pede o FDEL e preparar os documentos antes da aprovação.",
+    "tema": "orcamento_2027",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D33",
+    "data": "2026-11-03",
+    "semana": "2026-S45",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Orçar o transporte com tarifa acima de 18 meticais até haver decisão oficial.",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-10",
     "resultado": "pendente",
     "nota": ""
   }

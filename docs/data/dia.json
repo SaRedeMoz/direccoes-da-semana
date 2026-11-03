@@ -1,305 +1,238 @@
 {
   "tipo": "dia",
-  "tema": "El Niño: o milho vai encarecer antes de a ajuda chegar?",
-  "pergunta": "O El Niño vai encarecer o milho antes de a ajuda chegar?",
+  "tema": "Orçamento de 2027: o corte chega primeiro a quem vende ao Estado?",
+  "pergunta": "Orçamento de 2027 corta 8%: quem sente primeiro?",
   "facto": {
-    "texto": "O Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro de 2027. A FEWS NET espera 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.",
+    "texto": "A proposta de Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais e receitas de 427,8 mil milhões. O défice é de 83,4 mil milhões, 4,6% do PIB. A despesa cai 1,8% em termos nominais e, com inflação de 7%, cerca de 8% em termos reais.",
     "numeros": [
       {
-        "valor": "125 milhões USD",
-        "legenda": "garantidos pelo Governo"
+        "valor": "511,2 mil milhões",
+        "legenda": "Despesa em 2027"
       },
       {
-        "valor": "343 773",
-        "legenda": "pessoas com ajuda de emergência"
+        "valor": "-8%",
+        "legenda": "Despesa real"
       },
       {
-        "valor": "1,5 a 1,99 milhões",
-        "legenda": "precisam de ajuda até Janeiro"
+        "valor": "4,6%",
+        "legenda": "Défice do PIB"
       }
     ],
-    "fonte": "AllAfrica (21 de Setembro de 2026), FEWS NET e PAM (22 e 23 de Outubro de 2026)"
+    "fonte": "Forbes África Lusófona, 19 de Outubro de 2026"
   },
   "linha_do_tempo": [
     {
-      "data": "2015/16",
-      "texto": "Seca do El Niño: 1,5 milhões em insegurança alimentar.",
+      "data": "28 Ago",
+      "texto": "Folha salarial do 1.º semestre cai 3,9%",
       "futuro": false
     },
     {
-      "data": "5 Ago",
-      "texto": "INGD reforça ajuda a 250 mil pessoas em Sofala.",
-      "futuro": false
-    },
-    {
-      "data": "21 Set",
-      "texto": "Governo anuncia 125 milhões e restrições de água.",
+      "data": "19 Out",
+      "texto": "Proposta de Orçamento de 2027 publicada",
       "futuro": false
     },
     {
       "data": "Dez",
-      "texto": "PAM mantém a ajuda actual só até este mês.",
+      "texto": "Votação no Parlamento, data por confirmar",
       "futuro": true
     },
     {
       "data": "Jan",
-      "texto": "PAM prevê cortes; pico de necessidades.",
+      "texto": "PAM reduz ajuda alimentar",
+      "futuro": true
+    },
+    {
+      "data": "Jun 2027",
+      "texto": "Prazo para o FDEL chegar aos distritos",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "2015 e 2016, seca do El Niño",
-    "o_que_aconteceu": "Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar. Em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos.",
-    "licao": "O preço do milho reage antes de a ajuda chegar às famílias.",
-    "fonte": "ReliefWeb/SETSAN e FEWS NET (Janeiro de 2016)"
+    "quando": "2025",
+    "o_que_aconteceu": "A folha salarial fechou em 209,068 mil milhões de meticais, acima dos 205,555 mil milhões orçamentados, ou seja 3,5 mil milhões a mais.",
+    "licao": "Metas de salários falham na execução, e o ajuste cai noutras rubricas.",
+    "fonte": "AllAfrica, 28 de Agosto de 2026"
   },
-  "porque_importa": "O milho é a base da comida de grande parte das famílias do Centro e do Sul. Quando o preço sobe, a classe baixa gasta mais do rendimento em comida e o orçamento do transporte também aperta. Com o Orçamento de 2027 sem margem, a resposta depende de ajuda externa que já tem data para diminuir.",
+  "porque_importa": "O Estado é cliente de muitas PMEs e empregador de cerca de 357 mil trabalhadores. Se gasta menos em termos reais, o ajuste chega por atrasos, adiamentos e menos investimento. Com o El Niño e o petróleo a mais de 115 dólares, a folga para emergências é pequena.",
   "canal": {
     "passos": [
-      "Chuva fraca no Sul e Centro",
-      "Colheita de milho abaixo do normal",
-      "Preço do milho sobe no mercado",
-      "Famílias gastam mais em comida"
+      "Despesa cai 8% em termos reais",
+      "Estado adia pagamentos e obras",
+      "PMEs recebem tarde e emprestam",
+      "Menos emprego e compras locais"
     ],
-    "quem_sente": "Pequenos agricultores, famílias urbanas pobres e comerciantes de grão"
+    "quem_sente": "PMEs fornecedoras do Estado e famílias dependentes de apoios"
   },
   "conta": {
-    "titulo": "Família que compra 100 kg de milho",
-    "pressupostos": "Hipótese de 25 meticais por quilo, sem preço observado. Subidas de 60% e 163% como cenários, sem outros custos.",
+    "titulo": "Custo de esperar 3 meses por 500 mil",
+    "pressupostos": "PME com 500 mil meticais presos três meses, crédito a 15,5% ao ano (prime rate), sem outras receitas.",
     "barras": [
       {
-        "rotulo": "Hoje",
-        "valor": 2500,
-        "texto": "2 500 MT/mês"
+        "rotulo": "Valor preso",
+        "valor": 500000,
+        "texto": "500 000 MT"
       },
       {
-        "rotulo": "Com mais 60%",
-        "valor": 4000,
-        "texto": "4 000 MT/mês"
-      },
-      {
-        "rotulo": "Com mais 163%",
-        "valor": 6575,
-        "texto": "6 575 MT/mês"
+        "rotulo": "Juros em 3 meses",
+        "valor": 19375,
+        "texto": "19 375 MT"
       }
     ],
-    "unidade": "MT por mês",
-    "conclusao": "No pior caso, a mesma comida custa 4 075 meticais por mês a mais."
+    "unidade": "meticais",
+    "conclusao": "Cada 500 mil pagos com três meses de atraso custam cerca de 19 mil meticais em juros."
   },
   "cenarios": [
     {
-      "nome": "Chuva atrasada, campanha recupera",
+      "nome": "Disciplina e FDEL no distrito",
       "tipo": "melhora",
       "probabilidade": 20,
-      "porque_probabilidade": "Dois episódios recentes de El Niño trouxeram seca, por isso a taxa de base é baixa. Descontamos a favor o milho 15,6% mais barato.",
-      "gatilho": "Chuva acima da média em Dezembro e Janeiro nas estações do INAM",
-      "o_que_acontece": "A chuva chega tarde mas chega, a sementeira recupera e a colheita de Abril fica perto do normal.",
-      "numeros": "Milho entre 0% e 15% acima do nível de hoje",
-      "quando": "Até Abril de 2027",
-      "ganha": "Agricultores e famílias pobres",
-      "perde": "Importadores de grão",
-      "se_acontecer": "Manter reservas, mas voltar a comprar com preços normais."
+      "porque_probabilidade": "Em 2025 a folha salarial falhou a meta, por isso a base é baixa. Ajusto pouco, pois a de 2026 caiu 3,9%.",
+      "gatilho": "Parlamento aprova o orçamento até Dezembro e o FDEL tem regulamento até Março.",
+      "o_que_acontece": "A folha salarial desce para 12% do PIB, os pagamentos mantêm-se em dia e o FDEL de 1,5 mil milhões chega aos distritos.",
+      "numeros": "Pagamentos a fornecedores até 60 dias; FDEL 1,5 mil milhões.",
+      "quando": "até Junho de 2027",
+      "ganha": "PMEs locais e distritos",
+      "perde": "Funcionários sem diuturnidades",
+      "se_acontecer": "Candidatar-se ao FDEL e aumentar vendas ao Estado com prazos escritos."
     },
     {
-      "nome": "Seca moderada, ajuda cobre o essencial",
+      "nome": "Corte por atrasos",
       "tipo": "fica_igual",
       "probabilidade": 45,
-      "porque_probabilidade": "Os 125 milhões e a ajuda a 343 773 pessoas já estão previstos, mas a seca atinge o Sul e o Centro.",
-      "gatilho": "Chuva abaixo do normal em Novembro e Dezembro, segundo a SADC",
-      "o_que_acontece": "A colheita no Sul e Centro é fraca, o milho sobe e o Estado e os parceiros cobrem só os distritos mais graves.",
-      "numeros": "Milho 30% a 60% acima do nível de hoje",
-      "quando": "De Janeiro a Março de 2027",
-      "ganha": "Comerciantes com stock",
-      "perde": "Agricultores de sequeiro",
-      "se_acontecer": "Comprar milho cedo, guardar reservas e procurar ajuda do INGD."
+      "porque_probabilidade": "O corte nominal de 1,8% com inflação de 7% obriga a adiar pagamentos, como em anos de aperto.",
+      "gatilho": "Atrasos superiores a 90 dias em pagamentos a fornecedores.",
+      "o_que_acontece": "O orçamento passa sem alterações, mas o Estado paga tarde e o FDEL só sai no segundo semestre, com menos obras.",
+      "numeros": "Atrasos de 90 a 180 dias; despesa real 7% a 9% abaixo de 2026.",
+      "quando": "até Setembro de 2027",
+      "ganha": "Quem tem reserva de caixa",
+      "perde": "PMEs que vendem ao Estado",
+      "se_acontecer": "Pedir adiantamento, reduzir vendas a prazo ao Estado e priorizar clientes privados."
     },
     {
-      "nome": "Chuva falha e o PAM corta",
+      "nome": "Choque e orçamento rectificativo",
       "tipo": "piora",
       "probabilidade": 35,
-      "porque_probabilidade": "Em 2015 e 2016 o preço disparou; agora junta-se o corte do PAM em Janeiro e a ureia 41,5% mais cara.",
-      "gatilho": "PAM sem financiamento confirmado até 15 de Dezembro e chuva fraca",
-      "o_que_acontece": "A colheita falha e a ajuda diminui no pico da fome, por isso o milho dispara e as famílias vendem bens.",
-      "numeros": "Milho 100% a 160% acima do nível de hoje",
-      "quando": "Até Março de 2027",
-      "ganha": "Comerciantes de grão",
-      "perde": "Famílias pobres e agricultores",
-      "se_acontecer": "Pedir ajuda cedo, vender menos bens e partilhar transporte de comida."
+      "porque_probabilidade": "Brent acima de 115 dólares e El Niño forte tornam provável um choque; o PIB de 2026 já foi revisto para 0,6%.",
+      "gatilho": "Brent acima de 115 dólares por duas semanas ou chuva abaixo da média até Janeiro.",
+      "o_que_acontece": "O Governo desvia dinheiro para emergência e combustível e corta investimento e saúde.",
+      "numeros": "Inflação acima de 8%; défice acima de 4,6% do PIB.",
+      "quando": "até Março de 2027",
+      "ganha": "Importadores de alimentos",
+      "perde": "Famílias pobres e investimento público",
+      "se_acontecer": "Comprar básicos cedo, guardar reserva e adiar investimentos que dependam do Estado."
     }
   ],
   "sinais": [
     {
-      "o_que": "Chuva nas estações do INAM",
-      "limiar": "Abaixo do normal em Novembro e Dezembro",
+      "o_que": "Atraso de pagamentos do Estado a fornecedores",
+      "limiar": "Acima de 90 dias",
+      "quando": "Até 31 de Março de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Brent em dólares por barril",
+      "limiar": "Acima de 115 por duas semanas",
       "quando": "Até 31 de Dezembro",
       "aponta_para": "piora"
     },
     {
-      "o_que": "Preço do milho na FEWS NET",
-      "limiar": "50% acima da média de cinco anos",
-      "quando": "Até 31 de Janeiro",
-      "aponta_para": "piora"
+      "o_que": "Regulamento do FDEL publicado",
+      "limiar": "Publicado até Março",
+      "quando": "Até 31 de Março de 2027",
+      "aponta_para": "melhora"
     },
     {
-      "o_que": "Financiamento do PAM para Janeiro",
-      "limiar": "Confirmado e sem cortes",
-      "quando": "Até 15 de Dezembro",
-      "aponta_para": "fica_igual"
-    },
-    {
-      "o_que": "Chuva nas estações do INAM",
-      "limiar": "Acima da média em Dezembro e Janeiro",
-      "quando": "Até 31 de Janeiro",
+      "o_que": "Inflação anual do INE",
+      "limiar": "Abaixo de 7% em Dezembro",
+      "quando": "Até 10 de Janeiro de 2027",
       "aponta_para": "melhora"
     }
   ],
   "afectados": [
     {
-      "grupo": "Classe baixa",
-      "saldo": -2,
-      "porque": "milho e transporte mais caros"
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "menos folga para emergências"
     },
     {
-      "grupo": "Pequenos agricultores",
+      "grupo": "Classe baixa",
       "saldo": -2,
-      "porque": "colheita fraca e insumos caros"
+      "porque": "menos apoio e comida cara"
     },
     {
       "grupo": "Classe média",
       "saldo": -1,
-      "porque": "comida mais cara no orçamento"
+      "porque": "diuturnidades podem ser cortadas"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": -1,
+      "porque": "pagamentos tardios do Estado"
     },
     {
       "grupo": "ONGs e parceiros",
-      "saldo": -1,
+      "saldo": 0,
       "porque": "mais procura, menos fundos"
-    },
-    {
-      "grupo": "Governo",
-      "saldo": -1,
-      "porque": "pouca margem no Orçamento de 2027"
     }
   ],
   "direccao": [
     {
       "publico": "Famílias",
-      "agora": "Guardar reservas de milho e feijão e comprar em quantidade só depois de comparar preços.",
-      "se_piorar": "Cortar compras que podem esperar e procurar ajuda do INGD."
+      "agora": "Guardar reserva de dois meses de transporte e comida antes de Janeiro.",
+      "se_piorar": "Comprar básicos em quantidade moderada e comparar preços."
     },
     {
-      "publico": "Agricultores",
-      "agora": "Comprar sementes e insumos cedo, porque a ureia custa mais 41,5%.",
-      "se_piorar": "Vender perto do local e guardar semente."
+      "publico": "PMEs que vendem ao Estado",
+      "agora": "Escrever prazos de pagamento nos contratos e diversificar clientes.",
+      "se_piorar": "Reduzir vendas a prazo ao Estado e cobrar adiantamento."
     },
     {
-      "publico": "Governo e parceiros",
-      "agora": "Fechar o financiamento do PAM para Janeiro antes de 15 de Dezembro.",
-      "se_piorar": "Antecipar a ajuda aos distritos de maior risco."
+      "publico": "Empresas e produtores locais",
+      "agora": "Perguntar na administração do distrito como se pede o FDEL.",
+      "se_piorar": "Candidatar-se logo que abra e juntar documentos."
     },
     {
-      "publico": "Comerciantes",
-      "agora": "Guardar stock com margem, sem retenção abusiva.",
-      "se_piorar": "Manter preços justos e acompanhar a FEWS NET."
+      "publico": "Funcionários públicos",
+      "agora": "Confirmar com a direcção de recursos humanos o que muda nas diuturnidades.",
+      "se_piorar": "Evitar crédito novo até o salário estar certo."
     }
   ],
-  "visao_contraria": "O milho está 15,6% mais barato que há um ano e a insegurança alimentar grave caiu 48% entre Agosto e Setembro. A chuva pode ainda chegar a tempo e o plano pode funcionar.",
+  "visao_contraria": "Um corte nominal pode ser disciplina fiscal: baixa a dívida de 72,1% para 70,5% do PIB e liberta crédito para o privado, se o Estado pagar a tempo.",
   "nao_sabemos": [
-    "Quanto da chuva de Novembro e Dezembro vai cair no Sul e no Centro.",
-    "Se os 125 milhões estão todos desembolsados ou só garantidos.",
-    "Como o PAM vai repartir a ajuda a partir de Janeiro."
+    "Data da votação do orçamento no Parlamento.",
+    "Défice: 4,6% na proposta e 4,3% no cenário de médio prazo.",
+    "Quanto do corte cai em investimento e quanto em salários."
   ],
-  "sinal": "Chuva abaixo do normal em Novembro e Dezembro e financiamento do PAM por confirmar até 15 de Dezembro.",
+  "sinal": "Atrasos de pagamento do Estado, Brent acima de 115 dólares e regulamento do FDEL.",
   "confianca": "media",
-  "base_confianca": "Plano do Governo confirmado por uma fonte de imprensa, FEWS NET e PAM de Outubro e precedente de 2015 e 2016; sem dados de preço do milho por cidade.",
+  "base_confianca": "Números de duas fontes jornalísticas, sem o documento oficial; o RTP não data o artigo sobre a massa salarial.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA: O EL NIÑO VAI DEIXAR A MESA VAZIA?*\n\nO Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda alimentar de emergência a 343 773 pessoas (AllAfrica, 21 de Setembro). Mas o PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro. A FEWS NET espera 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.\n\n*O PRECEDENTE*\nEm 2015 e 2016, a seca do El Niño deixou cerca de 1,5 milhões de pessoas em insegurança alimentar. Em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos (FEWS NET). O preço sobe antes de a ajuda chegar.\n\n*O QUE PODE ACONTECER*\nPiora, 35%: a chuva falha no Sul e Centro e a ajuda do PAM corta em Janeiro. O milho pode subir 100% a 160% acima da média até Março de 2027. Perdem os pequenos agricultores e as famílias urbanas pobres.\n\nFica igual, 45%: seca moderada. A colheita é fraca, o milho sobe 30% a 60% e os 125 milhões cobrem o essencial.\n\nMelhora, 20%: a chuva chega só com atraso e a campanha recupera. O milho mantém-se perto do nível de hoje, 15,6% abaixo do de há um ano.\n\n*A CONTA*\nUma família compra 100 kg de milho por mês. Como hipótese, a 25 meticais por quilo paga 2 500 meticais. Com mais 60% paga 4 000. Com mais 163% paga 6 575.\n\n*SINAIS*\nChuva abaixo do normal em Novembro e Dezembro, segundo a SADC e o INAM. Milho 50% acima da média de cinco anos na FEWS NET, até Janeiro. PAM sem financiamento confirmado até 15 de Dezembro.\n\n*A OUTRA VISÃO*\nO milho está 15,6% mais barato que há um ano e a insegurança alimentar grave caiu 48% entre Agosto e Setembro. A chuva pode ainda chegar.\n\n*DIRECÇÃO*\nFamílias: guardar reservas de milho e feijão já. Agricultores: comprar sementes e insumos cedo, a ureia custa mais 41,5%. Governo e parceiros: fechar o financiamento de Janeiro antes de 15 de Dezembro.\n\nPartilhe com quem planeia a campanha agrícola.",
-    "instagram": "O Governo diz ter 125 milhões de dólares para o El Niño, mas o PAM só mantém a ajuda até Dezembro. Em 2015 o milho chegou a 163% acima da média. Piora 35%, igual 45%, melhora 20%. Direcção: guardar reservas de milho e comprar insumos cedo. #Moçambique",
-    "facebook": "Direcção do Dia: o El Niño vai encarecer o milho?\n\nO Governo diz ter garantido 125 milhões de dólares para o El Niño e prevê ajuda alimentar a 343 773 pessoas. Mas o PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro.\n\nEm 2015 e 2016, uma seca do El Niño deixou cerca de 1,5 milhões de pessoas em insegurança alimentar. O milho em Maxixe chegou a estar 163% acima da média de cinco anos.\n\nO que pode acontecer, e com que probabilidade: piora a 35%, com chuva fraca e corte da ajuda; fica igual a 45%, com seca moderada; melhora a 20%, com chuva atrasada mas suficiente.\n\nA conta de uma família que compra 100 kg de milho por mês, com a hipótese de 25 meticais por quilo: 2 500 meticais hoje, 4 000 se o preço subir 60%, 6 575 se subir 163%.\n\nDirecção da semana: guarde reservas de milho e feijão já, não espere por Janeiro, e quem planta deve comprar sementes e insumos cedo, porque a ureia custa mais 41,5%.\n\n#Moçambique #DirecçõesdaSemana",
-    "linkedin": "Direcção do Dia: o El Niño e o preço do milho\n\nO Governo diz ter garantido 125 milhões de dólares para responder ao El Niño e prevê ajuda alimentar de emergência a 343 773 pessoas, com protecção social para cerca de 234 mil agregados (AllAfrica, 21 de Setembro). O PAM, porém, só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro de 2027. A FEWS NET projecta 1,5 a 1,99 milhões de pessoas a precisar de ajuda entre Dezembro e Janeiro.\n\nO precedente de 2015 e 2016 mostra o risco. Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar e, em Dezembro de 2015, o milho em Maxixe estava 163% acima da média de cinco anos. O preço reagiu antes da ajuda.\n\nOs cenários que consideramos: piora a 35%, com chuva fraca no Sul e Centro e corte do PAM em Janeiro, milho 100% a 160% acima da média até Março de 2027; igual a 45%, com seca moderada e milho 30% a 60% mais caro; melhora a 20%, com chuva atrasada mas suficiente. Partimos da taxa de base de dois episódios recentes de seca ligada ao El Niño e descontamos a favor o milho 15,6% mais barato que há um ano.\n\nUma família que compra 100 kg de milho por mês paga, como hipótese de 25 meticais por quilo, 2 500 meticais hoje, 4 000 com mais 60% e 6 575 com mais 163%.\n\nDirecção\n\nEmpresas do agronegócio devem comprar insumos já, porque a ureia custa mais 41,5%. Parceiros devem confirmar o financiamento de Janeiro antes de 15 de Dezembro.\n\nO sinal a seguir é a chuva de Novembro e Dezembro e o preço do milho face à média de cinco anos.\n\n#Moçambique #DirecçõesdaSemana #ElNiño"
+    "whatsapp": "*DIRECÇÃO DO DIA, 3 DE NOVEMBRO*\n\n*O Orçamento de 2027 gasta menos. Quem sente primeiro?*\n\nA proposta do Governo prevê despesa de 511,2 mil milhões de meticais e receitas de 427,8 mil milhões. A diferença, 83,4 mil milhões, é o défice de 4,6% do PIB. A despesa cai 1,8% em termos nominais. Com inflação média de 7%, o Estado gasta cerca de 8% menos em termos reais.\n\nJá aconteceu um sinal parecido. Em 2025 a folha salarial ficou em 209,1 mil milhões, acima dos 205,6 mil milhões orçamentados. Cortar no papel é mais fácil do que cortar na execução.\n\n*TRÊS CENÁRIOS*\n\n*Disciplina e FDEL no distrito, 20%.* A folha salarial desce para 12% do PIB e o FDEL de 1,5 mil milhões chega aos distritos até Junho de 2027. Ganham as PMEs locais.\n\n*Corte por atrasos, 45%.* O orçamento passa, mas o Estado paga tarde a fornecedores e o FDEL só sai no segundo semestre. Perdem as PMEs que vendem ao Estado.\n\n*Choque e orçamento rectificativo, 35%.* Seca do El Niño ou petróleo acima de 115 dólares obrigam a gastar mais em emergência e a cortar o resto. Perdem investimento e saúde.\n\n*A CONTA*\nUma PME que vende 2 milhões de meticais por ano ao Estado e recebe com 90 dias de atraso fica com cerca de 500 mil meticais presos de cada vez. Com crédito a 15,5% ao ano, o custo de esperar três meses é de cerca de 19 mil meticais.\n\n*DIRECÇÃO*\nAgora: guardar reserva para Janeiro e perguntar na administração do distrito como se pede o FDEL. Se o cenário mau se confirmar: reduzir vendas a prazo ao Estado e priorizar clientes privados.\n\nSe isto ajudou, partilhe com quem vende ao Estado.",
+    "instagram": "Orçamento de 2027: a despesa cai 1,8% em termos nominais. Com inflação de 7%, é um corte real de cerca de 8%. Em 2025 a folha salarial já ficou acima do previsto. Cenário mais provável, 45%: o corte faz-se por atrasos nos pagamentos. Guarde reserva para Janeiro e pergunte no distrito pelo FDEL. #Moçambique",
+    "facebook": "Direcção do Dia, terça, 3 de Novembro\n\nO Orçamento de 2027 gasta menos do que o de 2026. A proposta prevê despesa de 511,2 mil milhões de meticais, menos 1,8% em termos nominais. Com inflação de 7%, o corte real é de cerca de 8%.\n\nPara as famílias, isto quer dizer menos folga se a seca do El Niño ou o petróleo caro obrigarem o Estado a gastar em emergência. Para as PMEs, quer dizer risco de pagamentos tardios e de apoios que demoram a chegar. O FDEL tem 1,5 mil milhões, o PRO-MULHER tem 500 milhões e o Banco de Desenvolvimento deve arrancar em 2027.\n\nJá houve um aviso: em 2025 a folha salarial ficou em 209,1 mil milhões, acima dos 205,6 mil milhões previstos.\n\nOs nossos três cenários: 20% de o plano correr bem e o FDEL chegar aos distritos até Junho, 45% de o corte se fazer por atrasos nos pagamentos, e 35% de um choque obrigar a rever o orçamento.\n\nA conta: uma PME com 500 mil meticais presos três meses, com crédito a 15,5% ao ano, perde cerca de 19 mil meticais só em juros. Se vende ao Estado, o custo repete-se a cada factura.\n\nDirecção principal: guardar reserva para Janeiro e perguntar no distrito como se pede o FDEL.",
+    "linkedin": "Direcção do Dia: o Orçamento de 2027 e o custo de esperar\n\nA proposta de Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais e receitas de 427,8 mil milhões. O défice é de 83,4 mil milhões, 4,6% do PIB. A despesa cai 1,8% em termos nominais e cerca de 8% em termos reais, com inflação média de 7%. O crescimento previsto é de 1,6%, depois de 0,6% em 2026.\n\nO precedente pede cautela. Em 2025 a folha salarial ficou em 209,1 mil milhões, 3,5 mil milhões acima do orçamentado. No primeiro semestre de 2026 caiu 3,9%. O cenário de médio prazo põe a massa salarial em 12% do PIB em 2027 e 10,7% em 2029.\n\nCenários. Com 20%, a disciplina cumpre-se e o FDEL de 1,5 mil milhões chega aos distritos até Junho de 2027. Com 45%, o corte faz-se por atrasos: o orçamento passa, mas fornecedores recebem tarde. Com 35%, a seca ou o petróleo acima de 115 dólares obrigam a um orçamento rectificativo.\n\nA conta. Uma PME com 500 mil meticais presos três meses, com crédito a 15,5% ao ano, paga cerca de 19 mil meticais de juros. A taxa e os prazos são pressupostos nossos, não dados oficiais.\n\nA outra visão: um corte nominal pode ser disciplina fiscal que baixa a dívida de 72,1% para 70,5% do PIB e liberta crédito para o privado.\n\nDirecção. Empresas que vendem ao Estado devem negociar prazos, reduzir exposição e diversificar clientes. Quem pede o FDEL deve preparar documentos antes da aprovação.\n\nConclusão: a proposta só é boa para as PMEs se o dinheiro sair a tempo.\n\n#Moçambique #Orçamento2027"
   },
   "fontes": [
     {
-      "fonte": "AllAfrica, restrições de água e El Niño",
-      "url": "https://allafrica.com/stories/202609210066.html",
-      "data": "2026-09-21"
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19"
     },
     {
-      "fonte": "Observador/Lusa, Sofala",
-      "url": "https://observador.pt/2026/08/05/autoridades-mocambicanas-reforcam-assistencia-a-250-mil-pessoas-perante-risco-de-seca/",
-      "data": "2026-08-05"
+      "fonte": "RTP/Lusa",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
+      "data": "2026-10"
     },
     {
-      "fonte": "ReliefWeb, seca de 2015 e 2016",
-      "url": "https://m.reliefweb.int/report/1473171",
-      "data": "2016"
-    },
-    {
-      "fonte": "FEWS NET, Janeiro de 2016",
-      "url": "https://fews.net/southern-africa/mozambique/key-message-update/january-2016",
-      "data": "2016-01"
-    },
-    {
-      "fonte": "FEWS NET e PMA via memória da redacção",
-      "url": "https://fews.net/southern-africa/mozambique",
-      "data": "2026-10-23"
+      "fonte": "AllAfrica",
+      "url": "https://allafrica.com/stories/202608280546.html",
+      "data": "2026-08-28"
     }
   ],
-  "data": "2026-11-02",
-  "dia_semana": "segunda",
+  "data": "2026-11-03",
+  "dia_semana": "terca",
   "semana": "2026-S45",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1793589078596
-  }
+  "falhas": []
 }

@@ -392,12 +392,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-10-31",
-          "semana": "2026-S44",
-          "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não há decisão publicada sobre a tarifa do chapa a um dia de 1 de Novembro. O Brent fechou a 115,32 dólares a 28 de Outubro.",
-          "direccao": "Contar com chapa mais caro em Novembro e confirmar a tarifa final com a agência metropolitana e o município."
-        },
-        {
           "data": "2026-11-01",
           "semana": "2026-S44",
           "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não há tarifa final do chapa publicada a 1 de Novembro. O Brent fechou a 115,32 dólares a 28 de Outubro.",
@@ -408,6 +402,12 @@
           "semana": "2026-S45",
           "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa nem confirmação de paragem a 2 de Novembro. O Brent fechou a 115,32 dólares a 28 de Outubro.",
           "direccao": "Contar com chapa mais caro e confirmar a tarifa com o município antes de pagar a mais."
+        },
+        {
+          "data": "2026-11-03",
+          "semana": "2026-S45",
+          "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa. O Brent fechou a 115,32 dólares a 28 de Outubro.",
+          "direccao": "Orçar o transporte com tarifa acima de 18 meticais até haver decisão oficial do município."
         }
       ]
     },
@@ -467,12 +467,6 @@
       "desde": "2026-10-17",
       "ultimos": [
         {
-          "data": "2026-10-18",
-          "semana": "2026-S42",
-          "resumo": "A proposta prevê crescimento de 1,6%, inflação de 7% e défice de 4,6% do PIB. O crescimento de 2026 foi revisto para 0,6% depois das cheias, o que pede cautela com as metas.",
-          "direccao": "Acompanhar o debate no Parlamento e confirmar se o apoio do FDEL chega ao distrito."
-        },
-        {
           "data": "2026-10-22",
           "semana": "2026-S43",
           "resumo": "A proposta prevê despesa de 511 mil milhões de meticais, menos 1,8% em termos nominais, e receitas de 427,8 mil milhões. O crescimento previsto é de 1,6%.",
@@ -483,6 +477,12 @@
           "semana": "2026-S44",
           "resumo": "A proposta prevê despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e défice de 4,6% do PIB. Salários e dívida podem absorver cerca de 96% das receitas fiscais.",
           "direccao": "Acompanhar o debate no Parlamento e confirmar se o FDEL de 1,5 mil milhões chega aos distritos."
+        },
+        {
+          "data": "2026-11-03",
+          "semana": "2026-S45",
+          "resumo": "A proposta tem despesa de 511,2 mil milhões e receitas de 427,8 mil milhões, com défice de 4,6% do PIB. Com inflação de 7%, a despesa cai cerca de 8% em termos reais.",
+          "direccao": "Acompanhar o debate no Parlamento e confirmar se o FDEL de 1,5 mil milhões chega ao distrito."
         }
       ]
     },
@@ -542,7 +542,8 @@
       "horizonte": "semana",
       "verificar_em": "2026-11-03",
       "resultado": "pendente",
-      "nota": ""
+      "nota": "Sem tarifa final publicada encontrada em 3 de Novembro.",
+      "verificada_em": "2026-11-03"
     },
     {
       "id": "D14",
@@ -593,23 +594,24 @@
       "horizonte": "semana",
       "verificar_em": "2026-11-03",
       "resultado": "pendente",
-      "nota": ""
+      "nota": "Sem decisão oficial encontrada em 3 de Novembro.",
+      "verificada_em": "2026-11-03"
     }
   ],
   "balanco_direccoes": {
     "confirmada": 0,
     "parcial": 0,
     "nao_confirmada": 0,
-    "pendente": 30
+    "pendente": 33
   },
   "ultimas_licoes": [
-    "- 2026-10-26 (2026-S44): Às segundas a pesquisa devolve pouco material datado das últimas 48 horas: a ronda manteve a análise anterior e só acrescentou o que se confirmou.",
     "- 2026-10-27 (2026-S44): Às terças a pesquisa devolve pouco material datado das últimas 48 horas; o regulamento do Conteúdo Local, publicado a 17 de Outubro, deu o assunto mais sólido do dia.",
     "- 2026-10-28 (2026-S44): Às quartas a pesquisa devolve pouco material datado: os preços de milho e arroz nas três capitais continuam sem fonte recente.",
     "- 2026-10-29 (2026-S44): Às quintas a pesquisa devolve pouco material nacional datado; o Brent e o prazo de aviso da tarifa do chapa foram o que mudou.",
     "- 2026-10-30 (2026-S44): Às sextas a pesquisa devolve pouco material datado: o Brent surge com valores diferentes conforme a fonte, por isso a redacção fica com a fonte datada (CNBC).",
     "- 2026-10-31 (2026-S44): Aos sábados a pesquisa devolve pouco material datado; uma notícia de 2022 sobre acordo com a FEMATRO apareceu como recente e foi rejeitada pela data.",
     "- 2026-11-01 (2026-S44): Aos domingos a pesquisa devolve pouco material datado; uma notícia de 2023 sobre adiamento da tarifa do chapa apareceu nos resultados e foi rejeitada pela data.",
-    "- 2026-11-02 (2026-S45): Às segundas a pesquisa devolve pouco material datado de domingo e segunda: a redacção fica com o que tem fonte e data e regista o resto como lacuna."
+    "- 2026-11-02 (2026-S45): Às segundas a pesquisa devolve pouco material datado de domingo e segunda: a redacção fica com o que tem fonte e data e regista o resto como lacuna.",
+    "- 2026-11-03 (2026-S45): Às terças a pesquisa devolve pouco material datado: o detalhe do Orçamento de 2027 deu o assunto mais sólido do dia, e o RTP não data o artigo sobre a massa salarial."
   ]
 }
