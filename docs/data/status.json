@@ -6,9 +6,9 @@
       "em": "2026-11-03T04:26:39.091Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "A actualizar a análise com o Orçamento de 2027",
-      "em": "2026-11-03T04:26:40.562Z"
+      "estado": "pronto",
+      "msg": "Análise e memória gravadas",
+      "em": "2026-11-03T04:26:53.044Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-03T04:26:53.044Z",
+      "agente": "analise",
+      "msg": "Análise e memória gravadas"
+    },
     {
       "em": "2026-11-03T04:26:40.562Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-10-30T03:20:43.201Z",
       "agente": "analise",
       "msg": "Análise mantida e ligada à memória"
-    },
-    {
-      "em": "2026-10-30T03:20:41.886Z",
-      "agente": "analise",
-      "msg": "A actualizar a análise com a memória"
     }
   ],
-  "actualizado": "2026-11-03T04:26:40.562Z",
+  "actualizado": "2026-11-03T04:26:53.044Z",
   "semana": "2026-S45",
   "dia": "2026-11-03",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
