@@ -117,8 +117,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-03",
     "resultado": "pendente",
-    "nota": "Sem tarifa final publicada encontrada em 3 de Novembro.",
-    "verificada_em": "2026-11-03"
+    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+    "verificada_em": "2026-11-04"
   },
   {
     "id": "D11",
@@ -166,8 +166,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
     "resultado": "pendente",
-    "nota": "Sem tarifa final publicada encontrada em 2 de Novembro.",
-    "verificada_em": "2026-11-02"
+    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+    "verificada_em": "2026-11-04"
   },
   {
     "id": "D15",
@@ -203,8 +203,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
     "resultado": "pendente",
-    "nota": "Reunião de 26 de Outubro sem resultado público encontrado.",
-    "verificada_em": "2026-11-02"
+    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+    "verificada_em": "2026-11-04"
   },
   {
     "id": "D18",
@@ -252,8 +252,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
     "resultado": "pendente",
-    "nota": "Sem confirmação da tarifa de Novembro com o município.",
-    "verificada_em": "2026-11-02"
+    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+    "verificada_em": "2026-11-04"
   },
   {
     "id": "D22",
@@ -277,8 +277,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-03",
     "resultado": "pendente",
-    "nota": "Sem decisão oficial encontrada em 3 de Novembro.",
-    "verificada_em": "2026-11-03"
+    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+    "verificada_em": "2026-11-04"
   },
   {
     "id": "D24",
@@ -397,6 +397,30 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-10",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D34",
+    "data": "2026-11-04",
+    "semana": "2026-S45",
+    "publico": "Utentes do chapa",
+    "accao": "Orçar o chapa acima de 18 meticais e exigir o valor afixado até haver tarifa oficial",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-10",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D35",
+    "data": "2026-11-04",
+    "semana": "2026-S45",
+    "publico": "Famílias de classe média e baixa",
+    "accao": "Adiar dívida nova com prime rate de 15,50% e separar o aumento provável do transporte",
+    "tema": "inflacao_precos",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-04",
     "resultado": "pendente",
     "nota": ""
   }

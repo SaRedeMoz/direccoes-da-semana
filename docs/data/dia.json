@@ -1,290 +1,275 @@
 {
-  "tipo": "dia",
-  "tema": "Orçamento de 2027: o corte chega primeiro a quem vende ao Estado?",
-  "pergunta": "Orçamento de 2027 corta 8%: quem sente primeiro?",
-  "facto": {
-    "texto": "A proposta de Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais e receitas de 427,8 mil milhões. O défice é de 83,4 mil milhões, 4,6% do PIB. A despesa cai 1,8% em termos nominais e, com inflação de 7%, cerca de 8% em termos reais.",
-    "numeros": [
-      {
-        "valor": "511,2 mil milhões",
-        "legenda": "Despesa em 2027"
-      },
-      {
-        "valor": "-8%",
-        "legenda": "Despesa real"
-      },
-      {
-        "valor": "4,6%",
-        "legenda": "Défice do PIB"
-      }
-    ],
-    "fonte": "Forbes África Lusófona, 19 de Outubro de 2026"
-  },
-  "linha_do_tempo": [
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "resumo": "A memória ainda tem poucas semanas de dados, por isso este balanço mostra tendências curtas e assinala o que falta. O combustível está mais caro desde Maio, o chapa espera tarifa e a inflação de Outubro sai perto de 10 de Novembro.",
+  "indicadores": [
+    "gasoleo",
+    "gasolina",
+    "inflacao",
+    "usd_mzn"
+  ],
+  "comparar": [
+    "chapa",
+    "inflacao"
+  ],
+  "regioes": [
     {
-      "data": "28 Ago",
-      "texto": "Folha salarial do 1.º semestre cai 3,9%",
-      "futuro": false
+      "regiao": "maputo",
+      "destaque": "Chapa a 18 e 15 meticais, sem subsídio e sem tarifa final publicada.",
+      "direccao": "Orçar o chapa acima de 18 meticais e pedir o valor afixado antes de pagar."
     },
     {
-      "data": "19 Out",
-      "texto": "Proposta de Orçamento de 2027 publicada",
-      "futuro": false
+      "regiao": "beira",
+      "destaque": "Sem preço do chapa, do milho nem do arroz com fonte recente.",
+      "direccao": "Comparar preços em dois mercados antes de comprar em quantidade e guardar os recibos."
     },
     {
-      "data": "Dez",
-      "texto": "Votação no Parlamento, data por confirmar",
-      "futuro": true
-    },
-    {
-      "data": "Jan",
-      "texto": "PAM reduz ajuda alimentar",
-      "futuro": true
-    },
-    {
-      "data": "Jun 2027",
-      "texto": "Prazo para o FDEL chegar aos distritos",
-      "futuro": true
+      "regiao": "nampula",
+      "destaque": "Chapa a 20 meticais desde Maio, sem confirmação para Outubro; milho e arroz sem preço recente.",
+      "direccao": "Confirmar a tarifa em vigor e comprar cereais cedo, antes de uma possível subida."
     }
   ],
-  "precedente": {
-    "quando": "2025",
-    "o_que_aconteceu": "A folha salarial fechou em 209,068 mil milhões de meticais, acima dos 205,555 mil milhões orçamentados, ou seja 3,5 mil milhões a mais.",
-    "licao": "Metas de salários falham na execução, e o ajuste cai noutras rubricas.",
-    "fonte": "AllAfrica, 28 de Agosto de 2026"
-  },
-  "porque_importa": "O Estado é cliente de muitas PMEs e empregador de cerca de 357 mil trabalhadores. Se gasta menos em termos reais, o ajuste chega por atrasos, adiamentos e menos investimento. Com o El Niño e o petróleo a mais de 115 dólares, a folga para emergências é pequena.",
-  "canal": {
-    "passos": [
-      "Despesa cai 8% em termos reais",
-      "Estado adia pagamentos e obras",
-      "PMEs recebem tarde e emprestam",
-      "Menos emprego e compras locais"
-    ],
-    "quem_sente": "PMEs fornecedoras do Estado e famílias dependentes de apoios"
-  },
-  "conta": {
-    "titulo": "Custo de esperar 3 meses por 500 mil",
-    "pressupostos": "PME com 500 mil meticais presos três meses, crédito a 15,5% ao ano (prime rate), sem outras receitas.",
-    "barras": [
-      {
-        "rotulo": "Valor preso",
-        "valor": 500000,
-        "texto": "500 000 MT"
-      },
-      {
-        "rotulo": "Juros em 3 meses",
-        "valor": 19375,
-        "texto": "19 375 MT"
-      }
-    ],
-    "unidade": "meticais",
-    "conclusao": "Cada 500 mil pagos com três meses de atraso custam cerca de 19 mil meticais em juros."
-  },
-  "cenarios": [
+  "o_que_mudou": [
     {
-      "nome": "Disciplina e FDEL no distrito",
-      "tipo": "melhora",
-      "probabilidade": 20,
-      "porque_probabilidade": "Em 2025 a folha salarial falhou a meta, por isso a base é baixa. Ajusto pouco, pois a de 2026 caiu 3,9%.",
-      "gatilho": "Parlamento aprova o orçamento até Dezembro e o FDEL tem regulamento até Março.",
-      "o_que_acontece": "A folha salarial desce para 12% do PIB, os pagamentos mantêm-se em dia e o FDEL de 1,5 mil milhões chega aos distritos.",
-      "numeros": "Pagamentos a fornecedores até 60 dias; FDEL 1,5 mil milhões.",
-      "quando": "até Junho de 2027",
-      "ganha": "PMEs locais e distritos",
-      "perde": "Funcionários sem diuturnidades",
-      "se_acontecer": "Candidatar-se ao FDEL e aumentar vendas ao Estado com prazos escritos."
+      "titulo": "Chapa continua sem tarifa final",
+      "explicacao": "Passou o prazo de 2 de Novembro dos operadores e não encontrámos tarifa publicada nem paragem confirmada.",
+      "canal": "Combustível, tarifa, orçamento da família"
     },
     {
-      "nome": "Corte por atrasos",
-      "tipo": "fica_igual",
-      "probabilidade": 45,
-      "porque_probabilidade": "O corte nominal de 1,8% com inflação de 7% obriga a adiar pagamentos, como em anos de aperto.",
-      "gatilho": "Atrasos superiores a 90 dias em pagamentos a fornecedores.",
-      "o_que_acontece": "O orçamento passa sem alterações, mas o Estado paga tarde e o FDEL só sai no segundo semestre, com menos obras.",
-      "numeros": "Atrasos de 90 a 180 dias; despesa real 7% a 9% abaixo de 2026.",
-      "quando": "até Setembro de 2027",
-      "ganha": "Quem tem reserva de caixa",
-      "perde": "PMEs que vendem ao Estado",
-      "se_acontecer": "Pedir adiantamento, reduzir vendas a prazo ao Estado e priorizar clientes privados."
+      "titulo": "Gasóleo parado, Brent alto",
+      "explicacao": "O gasóleo está a 116,25 meticais desde Maio; o Brent fechou a 115,32 dólares a 28 de Outubro.",
+      "canal": "Petróleo, gasóleo, carga e comida"
     },
     {
-      "nome": "Choque e orçamento rectificativo",
-      "tipo": "piora",
-      "probabilidade": 35,
-      "porque_probabilidade": "Brent acima de 115 dólares e El Niño forte tornam provável um choque; o PIB de 2026 já foi revisto para 0,6%.",
-      "gatilho": "Brent acima de 115 dólares por duas semanas ou chuva abaixo da média até Janeiro.",
-      "o_que_acontece": "O Governo desvia dinheiro para emergência e combustível e corta investimento e saúde.",
-      "numeros": "Inflação acima de 8%; défice acima de 4,6% do PIB.",
-      "quando": "até Março de 2027",
-      "ganha": "Importadores de alimentos",
-      "perde": "Famílias pobres e investimento público",
-      "se_acontecer": "Comprar básicos cedo, guardar reserva e adiar investimentos que dependam do Estado."
+      "titulo": "Inflação desce, comida não",
+      "explicacao": "Setembro ficou em 6,31%, mas os alimentos subiram 8,69% em termos anuais.",
+      "canal": "Preço dos alimentos, compras da semana"
     }
   ],
-  "sinais": [
+  "direccoes": [
     {
-      "o_que": "Atraso de pagamentos do Estado a fornecedores",
-      "limiar": "Acima de 90 dias",
-      "quando": "Até 31 de Março de 2027",
-      "aponta_para": "fica_igual"
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Orçar o chapa acima de 18 meticais até haver tarifa oficial e exigir o valor afixado."
     },
     {
-      "o_que": "Brent em dólares por barril",
-      "limiar": "Acima de 115 por duas semanas",
-      "quando": "Até 31 de Dezembro",
-      "aponta_para": "piora"
+      "area": "Compras",
+      "classe": "baixa",
+      "accao": "Comprar básicos de longa duração aos poucos, antes das chuvas, e comparar preços em dois mercados."
     },
     {
-      "o_que": "Regulamento do FDEL publicado",
-      "limiar": "Publicado até Março",
-      "quando": "Até 31 de Março de 2027",
-      "aponta_para": "melhora"
+      "area": "Poupança",
+      "classe": "media",
+      "accao": "Separar já 130 a 220 meticais por mês para o aumento provável do transporte."
     },
     {
-      "o_que": "Inflação anual do INE",
-      "limiar": "Abaixo de 7% em Dezembro",
-      "quando": "Até 10 de Janeiro de 2027",
-      "aponta_para": "melhora"
+      "area": "Crédito",
+      "classe": "ambas",
+      "accao": "Adiar dívida nova enquanto a prime rate estiver em 15,50% e pagar primeiro o crédito mais caro."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Contar com transporte de mercadoria mais caro e rever o preço de venda de forma gradual."
+    },
+    {
+      "area": "Escola e saúde",
+      "classe": "ambas",
+      "accao": "Planear o transporte para a escola e o centro de saúde no orçamento de Novembro."
     }
   ],
-  "afectados": [
-    {
-      "grupo": "Governo",
-      "saldo": -1,
-      "porque": "menos folga para emergências"
-    },
-    {
-      "grupo": "Classe baixa",
-      "saldo": -2,
-      "porque": "menos apoio e comida cara"
-    },
-    {
-      "grupo": "Classe média",
-      "saldo": -1,
-      "porque": "diuturnidades podem ser cortadas"
-    },
-    {
-      "grupo": "PMEs",
-      "saldo": -1,
-      "porque": "pagamentos tardios do Estado"
-    },
-    {
-      "grupo": "ONGs e parceiros",
-      "saldo": 0,
-      "porque": "mais procura, menos fundos"
-    }
-  ],
-  "direccao": [
-    {
-      "publico": "Famílias",
-      "agora": "Guardar reserva de dois meses de transporte e comida antes de Janeiro.",
-      "se_piorar": "Comprar básicos em quantidade moderada e comparar preços."
-    },
-    {
-      "publico": "PMEs que vendem ao Estado",
-      "agora": "Escrever prazos de pagamento nos contratos e diversificar clientes.",
-      "se_piorar": "Reduzir vendas a prazo ao Estado e cobrar adiantamento."
-    },
-    {
-      "publico": "Empresas e produtores locais",
-      "agora": "Perguntar na administração do distrito como se pede o FDEL.",
-      "se_piorar": "Candidatar-se logo que abra e juntar documentos."
-    },
-    {
-      "publico": "Funcionários públicos",
-      "agora": "Confirmar com a direcção de recursos humanos o que muda nas diuturnidades.",
-      "se_piorar": "Evitar crédito novo até o salário estar certo."
-    }
-  ],
-  "visao_contraria": "Um corte nominal pode ser disciplina fiscal: baixa a dívida de 72,1% para 70,5% do PIB e liberta crédito para o privado, se o Estado pagar a tempo.",
-  "nao_sabemos": [
-    "Data da votação do orçamento no Parlamento.",
-    "Défice: 4,6% na proposta e 4,3% no cenário de médio prazo.",
-    "Quanto do corte cai em investimento e quanto em salários."
-  ],
-  "sinal": "Atrasos de pagamento do Estado, Brent acima de 115 dólares e regulamento do FDEL.",
-  "confianca": "media",
-  "base_confianca": "Números de duas fontes jornalísticas, sem o documento oficial; o RTP não data o artigo sobre a massa salarial.",
+  "revisao": [],
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA, 3 DE NOVEMBRO*\n\n*O Orçamento de 2027 gasta menos. Quem sente primeiro?*\n\nA proposta do Governo prevê despesa de 511,2 mil milhões de meticais e receitas de 427,8 mil milhões. A diferença, 83,4 mil milhões, é o défice de 4,6% do PIB. A despesa cai 1,8% em termos nominais. Com inflação média de 7%, o Estado gasta cerca de 8% menos em termos reais.\n\nJá aconteceu um sinal parecido. Em 2025 a folha salarial ficou em 209,1 mil milhões, acima dos 205,6 mil milhões orçamentados. Cortar no papel é mais fácil do que cortar na execução.\n\n*TRÊS CENÁRIOS*\n\n*Disciplina e FDEL no distrito, 20%.* A folha salarial desce para 12% do PIB e o FDEL de 1,5 mil milhões chega aos distritos até Junho de 2027. Ganham as PMEs locais.\n\n*Corte por atrasos, 45%.* O orçamento passa, mas o Estado paga tarde a fornecedores e o FDEL só sai no segundo semestre. Perdem as PMEs que vendem ao Estado.\n\n*Choque e orçamento rectificativo, 35%.* Seca do El Niño ou petróleo acima de 115 dólares obrigam a gastar mais em emergência e a cortar o resto. Perdem investimento e saúde.\n\n*A CONTA*\nUma PME que vende 2 milhões de meticais por ano ao Estado e recebe com 90 dias de atraso fica com cerca de 500 mil meticais presos de cada vez. Com crédito a 15,5% ao ano, o custo de esperar três meses é de cerca de 19 mil meticais.\n\n*DIRECÇÃO*\nAgora: guardar reserva para Janeiro e perguntar na administração do distrito como se pede o FDEL. Se o cenário mau se confirmar: reduzir vendas a prazo ao Estado e priorizar clientes privados.\n\nSe isto ajudou, partilhe com quem vende ao Estado.",
-    "instagram": "Orçamento de 2027: a despesa cai 1,8% em termos nominais. Com inflação de 7%, é um corte real de cerca de 8%. Em 2025 a folha salarial já ficou acima do previsto. Cenário mais provável, 45%: o corte faz-se por atrasos nos pagamentos. Guarde reserva para Janeiro e pergunte no distrito pelo FDEL. #Moçambique",
-    "facebook": "Direcção do Dia, terça, 3 de Novembro\n\nO Orçamento de 2027 gasta menos do que o de 2026. A proposta prevê despesa de 511,2 mil milhões de meticais, menos 1,8% em termos nominais. Com inflação de 7%, o corte real é de cerca de 8%.\n\nPara as famílias, isto quer dizer menos folga se a seca do El Niño ou o petróleo caro obrigarem o Estado a gastar em emergência. Para as PMEs, quer dizer risco de pagamentos tardios e de apoios que demoram a chegar. O FDEL tem 1,5 mil milhões, o PRO-MULHER tem 500 milhões e o Banco de Desenvolvimento deve arrancar em 2027.\n\nJá houve um aviso: em 2025 a folha salarial ficou em 209,1 mil milhões, acima dos 205,6 mil milhões previstos.\n\nOs nossos três cenários: 20% de o plano correr bem e o FDEL chegar aos distritos até Junho, 45% de o corte se fazer por atrasos nos pagamentos, e 35% de um choque obrigar a rever o orçamento.\n\nA conta: uma PME com 500 mil meticais presos três meses, com crédito a 15,5% ao ano, perde cerca de 19 mil meticais só em juros. Se vende ao Estado, o custo repete-se a cada factura.\n\nDirecção principal: guardar reserva para Janeiro e perguntar no distrito como se pede o FDEL.",
-    "linkedin": "Direcção do Dia: o Orçamento de 2027 e o custo de esperar\n\nA proposta de Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais e receitas de 427,8 mil milhões. O défice é de 83,4 mil milhões, 4,6% do PIB. A despesa cai 1,8% em termos nominais e cerca de 8% em termos reais, com inflação média de 7%. O crescimento previsto é de 1,6%, depois de 0,6% em 2026.\n\nO precedente pede cautela. Em 2025 a folha salarial ficou em 209,1 mil milhões, 3,5 mil milhões acima do orçamentado. No primeiro semestre de 2026 caiu 3,9%. O cenário de médio prazo põe a massa salarial em 12% do PIB em 2027 e 10,7% em 2029.\n\nCenários. Com 20%, a disciplina cumpre-se e o FDEL de 1,5 mil milhões chega aos distritos até Junho de 2027. Com 45%, o corte faz-se por atrasos: o orçamento passa, mas fornecedores recebem tarde. Com 35%, a seca ou o petróleo acima de 115 dólares obrigam a um orçamento rectificativo.\n\nA conta. Uma PME com 500 mil meticais presos três meses, com crédito a 15,5% ao ano, paga cerca de 19 mil meticais de juros. A taxa e os prazos são pressupostos nossos, não dados oficiais.\n\nA outra visão: um corte nominal pode ser disciplina fiscal que baixa a dívida de 72,1% para 70,5% do PIB e liberta crédito para o privado.\n\nDirecção. Empresas que vendem ao Estado devem negociar prazos, reduzir exposição e diversificar clientes. Quem pede o FDEL deve preparar documentos antes da aprovação.\n\nConclusão: a proposta só é boa para as PMEs se o dinheiro sair a tempo.\n\n#Moçambique #Orçamento2027"
+    "whatsapp": "*O SEU BOLSO, 4 DE NOVEMBRO*\n\n*O QUE MUDOU*\nA memória da redacção ainda tem poucas semanas de dados, por isso este balanço mostra tendências curtas e diz onde faltam números. O gasóleo está a 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5% face aos 79,88 anteriores. A gasolina está a 93,69. A inflação anual foi de 6,31% em Setembro, abaixo dos 6,45% de Agosto, mas a dos alimentos ficou em 8,69%. O dólar anda perto de 63,91 meticais, valor indicativo de um agregador.\n\n*TRANSPORTE*\nO Governo acabou o subsídio aos chapas da Grande Maputo. O chapa custa 18 meticais em algumas rotas e 15 noutras, e os operadores pedem aumento. Não encontrámos tarifa final publicada. Em Nampula a tarifa aprovada em Maio foi de 20 meticais, sem confirmação para Outubro. Na Beira não temos preço com fonte.\n\n*POR CAPITAL*\nMaputo: o que pesa é o chapa. Beira: faltam preços, por isso não comparamos. Nampula: o último chapa confirmado é de Maio, a 20 meticais, e milho e arroz estão sem preço recente.\n\n*A CONTA*\nSe a tarifa subir 3 a 5 meticais e fizer duas viagens por dia, em 22 dias de trabalho são 132 a 220 meticais a mais por mês.\n\n*DIRECÇÃO*\nCompras: comprar básicos de longa duração aos poucos, antes da época das chuvas. Transporte: orçar o chapa acima de 18 meticais até haver tarifa oficial e exigir o valor afixado. Poupança: separar já o aumento do transporte. Crédito: evitar dívida nova com prime rate de 15,50%. Negócio informal: contar com custo de transporte de mercadoria mais alto.\n\n*PRÓXIMA SEMANA*\nInflação de Outubro, perto de 10 de Novembro, e a tarifa do chapa.\n\nSe este resumo ajudou, partilhe com alguém que também precisa dele.",
+    "instagram": "O Seu Bolso, 4 de Novembro. O gasóleo está a 116,25 meticais desde Maio e o chapa não tem tarifa final. Se subir 3 a 5 meticais, são 132 a 220 meticais a mais por mês. Oriente já o orçamento do transporte. #Moçambique #OSeuBolso",
+    "facebook": "O Seu Bolso, quarta, 4 de Novembro.\n\nA redacção ainda tem poucas semanas de dados guardados, por isso este balanço é curto e diz onde faltam números.\n\nO gasóleo está a 116,25 meticais por litro desde Maio. A gasolina está a 93,69. A inflação anual foi de 6,31% em Setembro, mas a dos alimentos foi de 8,69%, e é aí que as famílias sentem mais.\n\nO chapa na Grande Maputo custa 18 meticais em algumas rotas e 15 noutras. O Governo acabou o subsídio e os operadores pedem aumento. Ainda não há tarifa final publicada. Se subir 3 a 5 meticais e fizer duas viagens por dia, vai pagar 132 a 220 meticais a mais por mês.\n\nNa Beira não temos preço do chapa com fonte, e em Nampula o último valor confirmado é de Maio, a 20 meticais. Preferimos dizer isso a inventar um número. O mesmo vale para o milho e o arroz nas três capitais, onde não encontrámos preços recentes com fonte e data.\n\nDirecção: orce o transporte acima de 18 meticais até haver tarifa oficial, peça o valor afixado antes de pagar e compre os básicos de longa duração aos poucos, antes das chuvas.\n\n#Moçambique #OSeuBolso",
+    "linkedin": "O Seu Bolso, 4 de Novembro\n\nEsta leitura parte da memória da redacção, que ainda tem poucas semanas de dados. Por isso mostra tendências curtas e diz onde faltam números.\n\nO gasóleo está a 116,25 meticais por litro desde 7 de Maio, mais 45,5% do que os 79,88 anteriores. A gasolina está a 93,69. A inflação anual foi de 6,31% em Setembro, contra 6,45% em Agosto, mas a dos alimentos ficou em 8,69%. A taxa MIMO está em 9,25% e a prime rate dos bancos em 15,50%, o que mantém o crédito caro para famílias e pequenos negócios.\n\nO Governo acabou o subsídio aos chapas da Grande Maputo. O chapa custa 18 meticais em algumas rotas e 15 noutras, os operadores pedem aumento e não encontrámos tarifa final publicada. Em Nampula a tarifa de Maio foi de 20 meticais. Na Beira não temos preço com fonte, e o mesmo vale para milho e arroz nas três capitais.\n\nDirecção\n\nPara a classe média e a classe baixa, o que mexe primeiro é o transporte. Uma subida de 3 a 5 meticais, com duas viagens por dia, custa 132 a 220 meticais a mais por mês. Convém orçar já esse valor, adiar dívida nova com juros altos e guardar básicos de longa duração antes das chuvas.\n\nPara as PMEs e os pequenos vendedores, o custo do transporte de mercadoria segue o mesmo caminho do gasóleo, e o preço de venda deve ser revisto aos poucos, sem sobressaltos para o cliente. Esta leitura não substitui aconselhamento financeiro individual.\n\nO que falta saber: a tarifa oficial do chapa e a inflação de Outubro, que o INE publica perto de 10 de Novembro.\n\n#Moçambique #OSeuBolso"
   },
   "fontes": [
     {
-      "fonte": "Forbes África Lusófona",
-      "url": "https://forbesafricalusofona.com/?p=177705",
-      "data": "2026-10-19"
+      "fonte": "ARENE via Lusa (preços fixados a 7 de Maio)",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
     },
     {
-      "fonte": "RTP/Lusa",
-      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
-      "data": "2026-10"
+      "fonte": "Club of Mozambique (fim do subsídio aos chapas)",
+      "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/"
     },
     {
-      "fonte": "AllAfrica",
-      "url": "https://allafrica.com/stories/202608280546.html",
-      "data": "2026-08-28"
+      "fonte": "360 Mozambique (tarifa de Nampula)",
+      "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/"
+    },
+    {
+      "fonte": "INE via Trading Economics (inflação de Setembro)",
+      "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844"
+    },
+    {
+      "fonte": "Banco de Moçambique (MIMO a 9,25%)",
+      "url": "https://bancomoc.mz/en/media/highlights/mimo-policy-rate-unchanged-at-9-25-29-07-26/"
     }
   ],
-  "data": "2026-11-03",
-  "dia_semana": "terca",
+  "data": "2026-11-04",
+  "dia_semana": "quarta",
   "semana": "2026-S45",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
+  "series": [
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
+    },
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          93.69
+        ]
+      ]
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-10-09",
+        "valor": 6.31,
+        "fonte": "Trading Economics (INE)",
+        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ]
+      ]
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "ultimo": {
+        "data": "2026-10-12",
+        "valor": 63.91,
+        "fonte": "Agregador de câmbios (exchangerate.guru)",
+        "url": "https://exchangerate.guru/bmd/mzn/6/",
+        "nota": "Valor indicativo de agregador, não oficial"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-12",
+          63.91
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
     ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1793680153176
-  }
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 18,
+            "data": "2026-10-19",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "inflacao",
+        "nome": "Inflação anual",
+        "unidade": "%",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
 }

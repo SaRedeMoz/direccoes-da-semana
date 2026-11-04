@@ -392,12 +392,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-11-01",
-          "semana": "2026-S44",
-          "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não há tarifa final do chapa publicada a 1 de Novembro. O Brent fechou a 115,32 dólares a 28 de Outubro.",
-          "direccao": "Contar com chapa mais caro em Novembro e confirmar a tarifa final com a agência metropolitana e o município."
-        },
-        {
           "data": "2026-11-02",
           "semana": "2026-S45",
           "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa nem confirmação de paragem a 2 de Novembro. O Brent fechou a 115,32 dólares a 28 de Outubro.",
@@ -408,6 +402,12 @@
           "semana": "2026-S45",
           "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa. O Brent fechou a 115,32 dólares a 28 de Outubro.",
           "direccao": "Orçar o transporte com tarifa acima de 18 meticais até haver decisão oficial do município."
+        },
+        {
+          "data": "2026-11-04",
+          "semana": "2026-S45",
+          "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa nem paragem confirmada. O Brent fechou a 115,32 dólares a 28 de Outubro.",
+          "direccao": "Orçar o transporte com tarifa acima de 18 meticais até haver decisão oficial."
         }
       ]
     },
@@ -488,15 +488,9 @@
     },
     {
       "id": "inflacao_precos",
-      "nome": "Inflação e preços",
+      "nome": "Inflação e preços dos alimentos",
       "desde": "2026-10-18",
       "ultimos": [
-        {
-          "data": "2026-10-21",
-          "semana": "2026-S43",
-          "resumo": "A inflação anual está em 6,31% em Setembro, mas o milho em grão subiu 10,4% num mês. A taxa MIMO mantém-se em 9,25%.",
-          "direccao": "Comprar básicos com margem e comparar preços entre mercados."
-        },
         {
           "data": "2026-10-22",
           "semana": "2026-S43",
@@ -508,6 +502,12 @@
           "semana": "2026-S44",
           "resumo": "A inflação anual está em 6,31% em Setembro e a de Outubro sai perto de 10 de Novembro. Não há preços novos de milho e arroz nas três capitais.",
           "direccao": "Comparar preços entre dois mercados antes de comprar em quantidade."
+        },
+        {
+          "data": "2026-11-04",
+          "semana": "2026-S45",
+          "resumo": "A inflação anual está em 6,31% em Setembro, com alimentos a 8,69%; a de Outubro sai perto de 10 de Novembro. Continuam sem preços recentes de milho e arroz nas três capitais.",
+          "direccao": "Comprar básicos de longa duração aos poucos e comparar preços em dois mercados."
         }
       ]
     },
@@ -542,8 +542,8 @@
       "horizonte": "semana",
       "verificar_em": "2026-11-03",
       "resultado": "pendente",
-      "nota": "Sem tarifa final publicada encontrada em 3 de Novembro.",
-      "verificada_em": "2026-11-03"
+      "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+      "verificada_em": "2026-11-04"
     },
     {
       "id": "D14",
@@ -555,8 +555,8 @@
       "horizonte": "semana",
       "verificar_em": "2026-11-02",
       "resultado": "pendente",
-      "nota": "Sem tarifa final publicada encontrada em 2 de Novembro.",
-      "verificada_em": "2026-11-02"
+      "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+      "verificada_em": "2026-11-04"
     },
     {
       "id": "D17",
@@ -568,8 +568,8 @@
       "horizonte": "semana",
       "verificar_em": "2026-11-02",
       "resultado": "pendente",
-      "nota": "Reunião de 26 de Outubro sem resultado público encontrado.",
-      "verificada_em": "2026-11-02"
+      "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+      "verificada_em": "2026-11-04"
     },
     {
       "id": "D21",
@@ -581,8 +581,8 @@
       "horizonte": "semana",
       "verificar_em": "2026-11-02",
       "resultado": "pendente",
-      "nota": "Sem confirmação da tarifa de Novembro com o município.",
-      "verificada_em": "2026-11-02"
+      "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+      "verificada_em": "2026-11-04"
     },
     {
       "id": "D23",
@@ -594,24 +594,24 @@
       "horizonte": "semana",
       "verificar_em": "2026-11-03",
       "resultado": "pendente",
-      "nota": "Sem decisão oficial encontrada em 3 de Novembro.",
-      "verificada_em": "2026-11-03"
+      "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
+      "verificada_em": "2026-11-04"
     }
   ],
   "balanco_direccoes": {
     "confirmada": 0,
     "parcial": 0,
     "nao_confirmada": 0,
-    "pendente": 33
+    "pendente": 35
   },
   "ultimas_licoes": [
-    "- 2026-10-27 (2026-S44): Às terças a pesquisa devolve pouco material datado das últimas 48 horas; o regulamento do Conteúdo Local, publicado a 17 de Outubro, deu o assunto mais sólido do dia.",
     "- 2026-10-28 (2026-S44): Às quartas a pesquisa devolve pouco material datado: os preços de milho e arroz nas três capitais continuam sem fonte recente.",
     "- 2026-10-29 (2026-S44): Às quintas a pesquisa devolve pouco material nacional datado; o Brent e o prazo de aviso da tarifa do chapa foram o que mudou.",
     "- 2026-10-30 (2026-S44): Às sextas a pesquisa devolve pouco material datado: o Brent surge com valores diferentes conforme a fonte, por isso a redacção fica com a fonte datada (CNBC).",
     "- 2026-10-31 (2026-S44): Aos sábados a pesquisa devolve pouco material datado; uma notícia de 2022 sobre acordo com a FEMATRO apareceu como recente e foi rejeitada pela data.",
     "- 2026-11-01 (2026-S44): Aos domingos a pesquisa devolve pouco material datado; uma notícia de 2023 sobre adiamento da tarifa do chapa apareceu nos resultados e foi rejeitada pela data.",
     "- 2026-11-02 (2026-S45): Às segundas a pesquisa devolve pouco material datado de domingo e segunda: a redacção fica com o que tem fonte e data e regista o resto como lacuna.",
-    "- 2026-11-03 (2026-S45): Às terças a pesquisa devolve pouco material datado: o detalhe do Orçamento de 2027 deu o assunto mais sólido do dia, e o RTP não data o artigo sobre a massa salarial."
+    "- 2026-11-03 (2026-S45): Às terças a pesquisa devolve pouco material datado: o detalhe do Orçamento de 2027 deu o assunto mais sólido do dia, e o RTP não data o artigo sobre a massa salarial.",
+    "- 2026-11-04 (2026-S45): Às quartas a pesquisa devolve pouco material datado: o fecho de preços do chapa e do Brent segue sem fonte de 3 e 4 de Novembro."
   ]
 }

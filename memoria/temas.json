@@ -112,6 +112,12 @@
         "semana": "2026-S45",
         "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa. O Brent fechou a 115,32 dólares a 28 de Outubro.",
         "direccao": "Orçar o transporte com tarifa acima de 18 meticais até haver decisão oficial do município."
+      },
+      {
+        "data": "2026-11-04",
+        "semana": "2026-S45",
+        "resumo": "O gasóleo continua a 116,25 meticais, fixado a 7 de Maio, e não encontrámos tarifa final do chapa nem paragem confirmada. O Brent fechou a 115,32 dólares a 28 de Outubro.",
+        "direccao": "Orçar o transporte com tarifa acima de 18 meticais até haver decisão oficial."
       }
     ]
   },
@@ -225,7 +231,7 @@
   },
   {
     "id": "inflacao_precos",
-    "nome": "Inflação e preços",
+    "nome": "Inflação e preços dos alimentos",
     "estado": "activo",
     "inicio": "2026-10-18",
     "historial": [
@@ -252,6 +258,12 @@
         "semana": "2026-S44",
         "resumo": "A inflação anual está em 6,31% em Setembro e a de Outubro sai perto de 10 de Novembro. Não há preços novos de milho e arroz nas três capitais.",
         "direccao": "Comparar preços entre dois mercados antes de comprar em quantidade."
+      },
+      {
+        "data": "2026-11-04",
+        "semana": "2026-S45",
+        "resumo": "A inflação anual está em 6,31% em Setembro, com alimentos a 8,69%; a de Outubro sai perto de 10 de Novembro. Continuam sem preços recentes de milho e arroz nas três capitais.",
+        "direccao": "Comprar básicos de longa duração aos poucos e comparar preços em dois mercados."
       }
     ]
   },

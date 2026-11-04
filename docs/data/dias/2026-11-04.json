@@ -1,0 +1,275 @@
+{
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "resumo": "A memória ainda tem poucas semanas de dados, por isso este balanço mostra tendências curtas e assinala o que falta. O combustível está mais caro desde Maio, o chapa espera tarifa e a inflação de Outubro sai perto de 10 de Novembro.",
+  "indicadores": [
+    "gasoleo",
+    "gasolina",
+    "inflacao",
+    "usd_mzn"
+  ],
+  "comparar": [
+    "chapa",
+    "inflacao"
+  ],
+  "regioes": [
+    {
+      "regiao": "maputo",
+      "destaque": "Chapa a 18 e 15 meticais, sem subsídio e sem tarifa final publicada.",
+      "direccao": "Orçar o chapa acima de 18 meticais e pedir o valor afixado antes de pagar."
+    },
+    {
+      "regiao": "beira",
+      "destaque": "Sem preço do chapa, do milho nem do arroz com fonte recente.",
+      "direccao": "Comparar preços em dois mercados antes de comprar em quantidade e guardar os recibos."
+    },
+    {
+      "regiao": "nampula",
+      "destaque": "Chapa a 20 meticais desde Maio, sem confirmação para Outubro; milho e arroz sem preço recente.",
+      "direccao": "Confirmar a tarifa em vigor e comprar cereais cedo, antes de uma possível subida."
+    }
+  ],
+  "o_que_mudou": [
+    {
+      "titulo": "Chapa continua sem tarifa final",
+      "explicacao": "Passou o prazo de 2 de Novembro dos operadores e não encontrámos tarifa publicada nem paragem confirmada.",
+      "canal": "Combustível, tarifa, orçamento da família"
+    },
+    {
+      "titulo": "Gasóleo parado, Brent alto",
+      "explicacao": "O gasóleo está a 116,25 meticais desde Maio; o Brent fechou a 115,32 dólares a 28 de Outubro.",
+      "canal": "Petróleo, gasóleo, carga e comida"
+    },
+    {
+      "titulo": "Inflação desce, comida não",
+      "explicacao": "Setembro ficou em 6,31%, mas os alimentos subiram 8,69% em termos anuais.",
+      "canal": "Preço dos alimentos, compras da semana"
+    }
+  ],
+  "direccoes": [
+    {
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Orçar o chapa acima de 18 meticais até haver tarifa oficial e exigir o valor afixado."
+    },
+    {
+      "area": "Compras",
+      "classe": "baixa",
+      "accao": "Comprar básicos de longa duração aos poucos, antes das chuvas, e comparar preços em dois mercados."
+    },
+    {
+      "area": "Poupança",
+      "classe": "media",
+      "accao": "Separar já 130 a 220 meticais por mês para o aumento provável do transporte."
+    },
+    {
+      "area": "Crédito",
+      "classe": "ambas",
+      "accao": "Adiar dívida nova enquanto a prime rate estiver em 15,50% e pagar primeiro o crédito mais caro."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Contar com transporte de mercadoria mais caro e rever o preço de venda de forma gradual."
+    },
+    {
+      "area": "Escola e saúde",
+      "classe": "ambas",
+      "accao": "Planear o transporte para a escola e o centro de saúde no orçamento de Novembro."
+    }
+  ],
+  "revisao": [],
+  "textos": {
+    "whatsapp": "*O SEU BOLSO, 4 DE NOVEMBRO*\n\n*O QUE MUDOU*\nA memória da redacção ainda tem poucas semanas de dados, por isso este balanço mostra tendências curtas e diz onde faltam números. O gasóleo está a 116,25 meticais por litro desde 7 de Maio, quando subiu 45,5% face aos 79,88 anteriores. A gasolina está a 93,69. A inflação anual foi de 6,31% em Setembro, abaixo dos 6,45% de Agosto, mas a dos alimentos ficou em 8,69%. O dólar anda perto de 63,91 meticais, valor indicativo de um agregador.\n\n*TRANSPORTE*\nO Governo acabou o subsídio aos chapas da Grande Maputo. O chapa custa 18 meticais em algumas rotas e 15 noutras, e os operadores pedem aumento. Não encontrámos tarifa final publicada. Em Nampula a tarifa aprovada em Maio foi de 20 meticais, sem confirmação para Outubro. Na Beira não temos preço com fonte.\n\n*POR CAPITAL*\nMaputo: o que pesa é o chapa. Beira: faltam preços, por isso não comparamos. Nampula: o último chapa confirmado é de Maio, a 20 meticais, e milho e arroz estão sem preço recente.\n\n*A CONTA*\nSe a tarifa subir 3 a 5 meticais e fizer duas viagens por dia, em 22 dias de trabalho são 132 a 220 meticais a mais por mês.\n\n*DIRECÇÃO*\nCompras: comprar básicos de longa duração aos poucos, antes da época das chuvas. Transporte: orçar o chapa acima de 18 meticais até haver tarifa oficial e exigir o valor afixado. Poupança: separar já o aumento do transporte. Crédito: evitar dívida nova com prime rate de 15,50%. Negócio informal: contar com custo de transporte de mercadoria mais alto.\n\n*PRÓXIMA SEMANA*\nInflação de Outubro, perto de 10 de Novembro, e a tarifa do chapa.\n\nSe este resumo ajudou, partilhe com alguém que também precisa dele.",
+    "instagram": "O Seu Bolso, 4 de Novembro. O gasóleo está a 116,25 meticais desde Maio e o chapa não tem tarifa final. Se subir 3 a 5 meticais, são 132 a 220 meticais a mais por mês. Oriente já o orçamento do transporte. #Moçambique #OSeuBolso",
+    "facebook": "O Seu Bolso, quarta, 4 de Novembro.\n\nA redacção ainda tem poucas semanas de dados guardados, por isso este balanço é curto e diz onde faltam números.\n\nO gasóleo está a 116,25 meticais por litro desde Maio. A gasolina está a 93,69. A inflação anual foi de 6,31% em Setembro, mas a dos alimentos foi de 8,69%, e é aí que as famílias sentem mais.\n\nO chapa na Grande Maputo custa 18 meticais em algumas rotas e 15 noutras. O Governo acabou o subsídio e os operadores pedem aumento. Ainda não há tarifa final publicada. Se subir 3 a 5 meticais e fizer duas viagens por dia, vai pagar 132 a 220 meticais a mais por mês.\n\nNa Beira não temos preço do chapa com fonte, e em Nampula o último valor confirmado é de Maio, a 20 meticais. Preferimos dizer isso a inventar um número. O mesmo vale para o milho e o arroz nas três capitais, onde não encontrámos preços recentes com fonte e data.\n\nDirecção: orce o transporte acima de 18 meticais até haver tarifa oficial, peça o valor afixado antes de pagar e compre os básicos de longa duração aos poucos, antes das chuvas.\n\n#Moçambique #OSeuBolso",
+    "linkedin": "O Seu Bolso, 4 de Novembro\n\nEsta leitura parte da memória da redacção, que ainda tem poucas semanas de dados. Por isso mostra tendências curtas e diz onde faltam números.\n\nO gasóleo está a 116,25 meticais por litro desde 7 de Maio, mais 45,5% do que os 79,88 anteriores. A gasolina está a 93,69. A inflação anual foi de 6,31% em Setembro, contra 6,45% em Agosto, mas a dos alimentos ficou em 8,69%. A taxa MIMO está em 9,25% e a prime rate dos bancos em 15,50%, o que mantém o crédito caro para famílias e pequenos negócios.\n\nO Governo acabou o subsídio aos chapas da Grande Maputo. O chapa custa 18 meticais em algumas rotas e 15 noutras, os operadores pedem aumento e não encontrámos tarifa final publicada. Em Nampula a tarifa de Maio foi de 20 meticais. Na Beira não temos preço com fonte, e o mesmo vale para milho e arroz nas três capitais.\n\nDirecção\n\nPara a classe média e a classe baixa, o que mexe primeiro é o transporte. Uma subida de 3 a 5 meticais, com duas viagens por dia, custa 132 a 220 meticais a mais por mês. Convém orçar já esse valor, adiar dívida nova com juros altos e guardar básicos de longa duração antes das chuvas.\n\nPara as PMEs e os pequenos vendedores, o custo do transporte de mercadoria segue o mesmo caminho do gasóleo, e o preço de venda deve ser revisto aos poucos, sem sobressaltos para o cliente. Esta leitura não substitui aconselhamento financeiro individual.\n\nO que falta saber: a tarifa oficial do chapa e a inflação de Outubro, que o INE publica perto de 10 de Novembro.\n\n#Moçambique #OSeuBolso"
+  },
+  "fontes": [
+    {
+      "fonte": "ARENE via Lusa (preços fixados a 7 de Maio)",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
+    },
+    {
+      "fonte": "Club of Mozambique (fim do subsídio aos chapas)",
+      "url": "https://clubofmozambique.com/news/mozambique-government-ends-fuel-subsidy-for-chapas/"
+    },
+    {
+      "fonte": "360 Mozambique (tarifa de Nampula)",
+      "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/"
+    },
+    {
+      "fonte": "INE via Trading Economics (inflação de Setembro)",
+      "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844"
+    },
+    {
+      "fonte": "Banco de Moçambique (MIMO a 9,25%)",
+      "url": "https://bancomoc.mz/en/media/highlights/mimo-policy-rate-unchanged-at-9-25-29-07-26/"
+    }
+  ],
+  "data": "2026-11-04",
+  "dia_semana": "quarta",
+  "semana": "2026-S45",
+  "versao": 1,
+  "aprovada": false,
+  "series": [
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
+    },
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          93.69
+        ]
+      ]
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-10-09",
+        "valor": 6.31,
+        "fonte": "Trading Economics (INE)",
+        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ]
+      ]
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "ultimo": {
+        "data": "2026-10-12",
+        "valor": 63.91,
+        "fonte": "Agregador de câmbios (exchangerate.guru)",
+        "url": "https://exchangerate.guru/bmd/mzn/6/",
+        "nota": "Valor indicativo de agregador, não oficial"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-12",
+          63.91
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
+    ],
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 18,
+            "data": "2026-10-19",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "inflacao",
+        "nome": "Inflação anual",
+        "unidade": "%",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
+}
