@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "A pesquisar notícias do dia e indicadores",
-      "em": "2026-11-05T04:01:20.003Z"
+      "estado": "pronto",
+      "msg": "1 notícia nova: chapa sobe 5 MT a 7 de Novembro",
+      "em": "2026-11-05T04:02:41.626Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-05T04:02:41.626Z",
+      "agente": "fontes",
+      "msg": "1 notícia nova: chapa sobe 5 MT a 7 de Novembro"
+    },
     {
       "em": "2026-11-05T04:01:20.003Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-01T02:59:19.106Z",
       "agente": "analise",
       "msg": "A actualizar a análise de domingo"
-    },
-    {
-      "em": "2026-11-01T02:59:17.744Z",
-      "agente": "fontes",
-      "msg": "Sem material novo datado; edição mantida"
     }
   ],
-  "actualizado": "2026-11-05T04:01:20.003Z",
+  "actualizado": "2026-11-05T04:02:41.626Z",
   "semana": "2026-S45",
   "dia": "2026-11-05",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
