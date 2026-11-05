@@ -116,9 +116,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-03",
-    "resultado": "pendente",
-    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
-    "verificada_em": "2026-11-04"
+    "resultado": "parcial",
+    "nota": "O ajuste de 5 meticais anunciado a 30 de Outubro fica no limite baixo da expectativa, mas não há deliberação municipal nem tabela final por rota.",
+    "verificada_em": "2026-11-05"
   },
   {
     "id": "D11",
@@ -141,8 +141,9 @@
     "tema": "combustivel",
     "horizonte": "mes",
     "verificar_em": "2026-11-05",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "parcial",
+    "nota": "O ajuste de 5 meticais anunciado a 30 de Outubro fica no limite baixo da expectativa, mas não há deliberação municipal nem tabela final por rota.",
+    "verificada_em": "2026-11-05"
   },
   {
     "id": "D13",
@@ -165,9 +166,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
-    "resultado": "pendente",
-    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
-    "verificada_em": "2026-11-04"
+    "resultado": "parcial",
+    "nota": "O ajuste de 5 meticais anunciado a 30 de Outubro fica no limite baixo da expectativa, mas não há deliberação municipal nem tabela final por rota.",
+    "verificada_em": "2026-11-05"
   },
   {
     "id": "D15",
@@ -202,9 +203,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
-    "resultado": "pendente",
-    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
-    "verificada_em": "2026-11-04"
+    "resultado": "parcial",
+    "nota": "O ajuste de 5 meticais anunciado a 30 de Outubro fica no limite baixo da expectativa, mas não há deliberação municipal nem tabela final por rota.",
+    "verificada_em": "2026-11-05"
   },
   {
     "id": "D18",
@@ -251,9 +252,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-02",
-    "resultado": "pendente",
-    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
-    "verificada_em": "2026-11-04"
+    "resultado": "parcial",
+    "nota": "O ajuste de 5 meticais anunciado a 30 de Outubro fica no limite baixo da expectativa, mas não há deliberação municipal nem tabela final por rota.",
+    "verificada_em": "2026-11-05"
   },
   {
     "id": "D22",
@@ -276,9 +277,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-03",
-    "resultado": "pendente",
-    "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
-    "verificada_em": "2026-11-04"
+    "resultado": "parcial",
+    "nota": "O ajuste de 5 meticais anunciado a 30 de Outubro fica no limite baixo da expectativa, mas não há deliberação municipal nem tabela final por rota.",
+    "verificada_em": "2026-11-05"
   },
   {
     "id": "D24",
@@ -289,8 +290,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-05",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "parcial",
+    "nota": "O ajuste de 5 meticais anunciado a 30 de Outubro fica no limite baixo da expectativa, mas não há deliberação municipal nem tabela final por rota.",
+    "verificada_em": "2026-11-05"
   },
   {
     "id": "D25",
@@ -421,6 +423,42 @@
     "tema": "inflacao_precos",
     "horizonte": "mes",
     "verificar_em": "2026-12-04",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D36",
+    "data": "2026-11-05",
+    "semana": "2026-S45",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Orçar mais 5 meticais por rota desde 7 de Novembro e exigir o valor da rota afixado ou confirmado pela associação.",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-09",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D37",
+    "data": "2026-11-05",
+    "semana": "2026-S45",
+    "publico": "Pequenos transportadores e comerciantes",
+    "accao": "Guardar margem para nova revisão do gasóleo enquanto o Brent estiver acima de 105 dólares.",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-11-30",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D38",
+    "data": "2026-11-05",
+    "semana": "2026-S45",
+    "publico": "Famílias de baixa renda",
+    "accao": "Reservar cerca de 220 meticais por mês por pessoa que viaja duas vezes por dia no chapa e cortar noutro gasto fixo.",
+    "tema": "combustivel",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-05",
     "resultado": "pendente",
     "nota": ""
   }
