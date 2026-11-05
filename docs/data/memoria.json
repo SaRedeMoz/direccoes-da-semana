@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-04",
+  "actualizado": "2026-11-05",
   "indicadores": [
     {
       "id": "gasolina",
@@ -546,6 +546,18 @@
       "verificada_em": "2026-11-04"
     },
     {
+      "id": "D12",
+      "data": "2026-10-21",
+      "semana": "2026-S43",
+      "publico": "Famílias da Grande Maputo",
+      "accao": "Reservar no orçamento de Novembro uma subida do chapa de 5 a 12 meticais por viagem",
+      "tema": "combustivel",
+      "horizonte": "mes",
+      "verificar_em": "2026-11-05",
+      "resultado": "pendente",
+      "nota": ""
+    },
+    {
       "id": "D14",
       "data": "2026-10-22",
       "semana": "2026-S43",
@@ -596,6 +608,18 @@
       "resultado": "pendente",
       "nota": "Sem tarifa final publicada encontrada em 4 de Novembro.",
       "verificada_em": "2026-11-04"
+    },
+    {
+      "id": "D24",
+      "data": "2026-10-29",
+      "semana": "2026-S44",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Contar com a tarifa actual até haver anúncio oficial e orçar uma subida de 3 a 12 meticais por viagem.",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-05",
+      "resultado": "pendente",
+      "nota": ""
     }
   ],
   "balanco_direccoes": {
