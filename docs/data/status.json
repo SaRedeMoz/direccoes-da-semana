@@ -16,9 +16,9 @@
       "em": "2026-11-05T04:05:47.798Z"
     },
     "editor": {
-      "estado": "a trabalhar",
-      "msg": "A preparar o post do dia sobre o chapa",
-      "em": "2026-11-05T04:03:20.703Z"
+      "estado": "pronto",
+      "msg": "Textos e post do dia gravados",
+      "em": "2026-11-05T04:05:49.361Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-05T04:05:49.361Z",
+      "agente": "editor",
+      "msg": "Textos e post do dia gravados"
+    },
     {
       "em": "2026-11-05T04:05:47.798Z",
       "agente": "design",
@@ -221,14 +226,9 @@
       "em": "2026-11-01T03:00:15.070Z",
       "agente": "aprovacao",
       "msg": "À espera da sua aprovação"
-    },
-    {
-      "em": "2026-11-01T02:59:30.271Z",
-      "agente": "editor",
-      "msg": "Edição versão 7 montada"
     }
   ],
-  "actualizado": "2026-11-05T04:05:47.798Z",
+  "actualizado": "2026-11-05T04:05:49.361Z",
   "semana": "2026-S45",
   "dia": "2026-11-05",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
