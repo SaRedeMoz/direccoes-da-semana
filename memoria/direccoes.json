@@ -316,7 +316,8 @@
     "horizonte": "semana",
     "verificar_em": "2026-11-06",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "A subida entra em vigor a 7 de Novembro; falta confirmar o valor cobrado e a deliberação municipal.",
+    "verificada_em": "2026-11-06"
   },
   {
     "id": "D27",
@@ -459,6 +460,30 @@
     "tema": "combustivel",
     "horizonte": "mes",
     "verificar_em": "2026-12-05",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D39",
+    "data": "2026-11-06",
+    "semana": "2026-S45",
+    "publico": "Fornecedores nacionais do petróleo e gás",
+    "accao": "Preparar certidões e esperar o regulamento publicado antes de pagar a intermediários pelo registo",
+    "tema": "conteudo_local",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-04",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D40",
+    "data": "2026-11-06",
+    "semana": "2026-S45",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Contar com mais 5 meticais por rota e pedir o valor afixado",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-13",
     "resultado": "pendente",
     "nota": ""
   }

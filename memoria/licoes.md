@@ -25,3 +25,4 @@
 - 2026-11-03 (2026-S45): Às terças a pesquisa devolve pouco material datado: o detalhe do Orçamento de 2027 deu o assunto mais sólido do dia, e o RTP não data o artigo sobre a massa salarial.
 - 2026-11-04 (2026-S45): Às quartas a pesquisa devolve pouco material datado: o fecho de preços do chapa e do Brent segue sem fonte de 3 e 4 de Novembro.
 - 2026-11-05 (2026-S45): Uma subida do chapa pode ser anunciada pela FEMATRO sem sair nas fontes que a redacção segue; convém procurar também no Club of Mozambique e na Lusa.
+- 2026-11-06 (2026-S45): Às sextas o Brent só aparece numa cotação à vista sem fecho oficial; o prazo de 31 de Dezembro dos planos de aquisição do Conteúdo Local não consta das fontes jurídicas e passou a ser tratado como não confirmado.

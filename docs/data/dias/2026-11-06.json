@@ -1,0 +1,244 @@
+{
+  "tipo": "dia",
+  "tema": "Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?",
+  "pergunta": "Lei do Conteúdo Local: as PMEs vão mesmo entrar no gás?",
+  "facto": {
+    "texto": "A Lei 9/2026, de 3 de Junho, obriga as empresas de petróleo e gás a comprar a fornecedores nacionais. Um fornecedor de capital maioritário moçambicano tem preferência se o seu preço, com impostos, não passar 20% do de um estrangeiro qualificado. O regulamento foi aprovado a 14 de Outubro e aguarda publicação.",
+    "numeros": [
+      {
+        "valor": "20%",
+        "legenda": "margem de preço para nacionais"
+      },
+      {
+        "valor": "50 a 300 mil USD",
+        "legenda": "multas por incumprimento"
+      },
+      {
+        "valor": "43 dias",
+        "legenda": "de atraso do regulamento"
+      }
+    ],
+    "fonte": "Lei 9/2026 (resumo da LexAfrica, 20 de Julho de 2026) e Club of Mozambique, 14 de Outubro de 2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "3 Jun",
+      "texto": "Lei 9/2026 publicada e em vigor",
+      "futuro": false
+    },
+    {
+      "data": "1 Set",
+      "texto": "Fim dos 90 dias para os regulamentos",
+      "futuro": false
+    },
+    {
+      "data": "14 Out",
+      "texto": "Conselho de Ministros aprova o regulamento",
+      "futuro": false
+    },
+    {
+      "data": "30 Nov",
+      "texto": "Publicação esperada no Boletim da República",
+      "futuro": true
+    },
+    {
+      "data": "Mar 2027",
+      "texto": "Lista pública de fornecedores certificados",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Nigéria, 2010 a 2017",
+    "o_que_aconteceu": "Depois da lei de 2010, o conteúdo local passou de cerca de 5% para perto de 30% em sete anos, segundo o regulador NCDMB, e o objectivo de 60% não foi atingido.",
+    "licao": "O avanço foi real mas lento, e mede-o o próprio regulador.",
+    "fonte": "NCDMB, via Guardian Nigeria"
+  },
+  "porque_importa": "Os contratos do gás movem milhares de milhões de dólares e o Estado quer que parte fique com empresas moçambicanas. Para uma PME, a diferença entre ganhar e perder um lote pode ser a sobrevivência do negócio. Se a certificação falhar, a margem de 20% não chega a ninguém.",
+  "canal": {
+    "passos": [
+      "Regulamento publicado",
+      "Entidades certificadoras acreditadas",
+      "PME obtém certificado",
+      "Concorre com margem de 20%",
+      "Contrato e emprego locais"
+    ],
+    "quem_sente": "PMEs fornecedoras, trabalhadores e municípios das zonas dos projectos"
+  },
+  "conta": {
+    "titulo": "Quanto vale a margem de 20%",
+    "pressupostos": "Melhor proposta estrangeira qualificada de 50 milhões de meticais, preços com impostos, PME de capital maioritário nacional e certificada.",
+    "barras": [
+      {
+        "rotulo": "Proposta estrangeira",
+        "valor": 50,
+        "texto": "50 milhões MT"
+      },
+      {
+        "rotulo": "Limite para a PME ganhar",
+        "valor": 60,
+        "texto": "60 milhões MT"
+      }
+    ],
+    "unidade": "milhões de meticais",
+    "conclusao": "A margem é de 10 milhões, mas só existe com certificado de conteúdo local."
+  },
+  "cenarios": [
+    {
+      "nome": "Certificação barra as PMEs",
+      "tipo": "piora",
+      "probabilidade": 45,
+      "porque_probabilidade": "Na Nigéria o avanço foi lento e cá o regulamento já atrasou 43 dias, por isso o gargalo do certificado é o mais provável.",
+      "gatilho": "Regulamento por publicar a 31 de Dezembro ou sem entidades certificadoras acreditadas",
+      "o_que_acontece": "Sem certificado, ninguém usa a margem de 20%. As empresas maiores, com sócios estrangeiros, certificam-se primeiro e ficam com os contratos.",
+      "numeros": "Poucos certificados emitidos até Março de 2027",
+      "quando": "até Março de 2027",
+      "ganha": "Grandes empresas com sócios fortes",
+      "perde": "PMEs sem capital nem contactos",
+      "se_acontecer": "Procurar sócio ou subcontratação com empresa maior, e pedir à Autoridade o calendário de acreditação."
+    },
+    {
+      "nome": "Lei no papel, contratos já fechados",
+      "tipo": "fica_igual",
+      "probabilidade": 35,
+      "porque_probabilidade": "A lei é de Junho e os grandes contratos podem já estar adjudicados; a preferência só vale em concursos novos.",
+      "gatilho": "Poucos concursos novos com lotes pequenos até Março de 2027",
+      "o_que_acontece": "O regulamento sai, mas os grandes contratos já estão fechados e a preferência quase não se aplica em 2027.",
+      "numeros": "Poucos concursos novos abertos em 2027",
+      "quando": "até meados de 2027",
+      "ganha": "Operadoras com contratos fechados",
+      "perde": "PMEs à espera de concursos",
+      "se_acontecer": "Acompanhar os planos de aquisição publicados e candidatar-se aos lotes que abrirem."
+    },
+    {
+      "nome": "PMEs entram como subcontratadas",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Exige regulamento, certificação e lotes pequenos ao mesmo tempo; na Nigéria só se viu ao fim de vários anos.",
+      "gatilho": "Lista pública de fornecedores certificados com PMEs até Março de 2027",
+      "o_que_acontece": "As operadoras dividem os contratos em lotes pequenos e as PMEs certificadas entram como subcontratadas, com contratos mais pequenos mas regulares.",
+      "numeros": "Lista pública com PMEs até Março de 2027",
+      "quando": "a partir de Março de 2027",
+      "ganha": "PMEs certificadas e trabalhadores locais",
+      "perde": "Intermediários que cobram o registo",
+      "se_acontecer": "Certificar-se cedo, juntar contabilidade em dia e candidatar-se aos primeiros lotes."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Regulamento publicado no Boletim da República",
+      "limiar": "Publicação até 30 de Novembro",
+      "quando": "30 de Novembro de 2026",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Regulamento ainda por publicar",
+      "limiar": "Sem publicação a 31 de Dezembro",
+      "quando": "31 de Dezembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Entidades certificadoras acreditadas pela Autoridade",
+      "limiar": "Pelo menos uma entidade acreditada",
+      "quando": "31 de Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Concursos novos com lotes pequenos",
+      "limiar": "Poucos concursos abertos",
+      "quando": "31 de Março de 2027",
+      "aponta_para": "fica_igual"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "PMEs de capital nacional",
+      "saldo": 1,
+      "porque": "Margem de 20%, se houver certificado"
+    },
+    {
+      "grupo": "Operadoras de petróleo e gás",
+      "saldo": -1,
+      "porque": "Mais custos e multas até 300 mil dólares"
+    },
+    {
+      "grupo": "Fornecedores estrangeiros",
+      "saldo": -1,
+      "porque": "Perdem concursos até 20% mais caros"
+    },
+    {
+      "grupo": "Trabalhadores locais",
+      "saldo": 1,
+      "porque": "Mais emprego com mão-de-obra moçambicana"
+    },
+    {
+      "grupo": "Estado",
+      "saldo": 0,
+      "porque": "Ganha controlo, mas tem de acreditar e fiscalizar"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "PMEs fornecedoras",
+      "agora": "Juntar certidões e contabilidade em dia e não pagar a intermediários antes de o regulamento sair.",
+      "se_piorar": "Procurar sócio ou subcontratação com empresa maior."
+    },
+    {
+      "publico": "Associações empresariais",
+      "agora": "Pedir à Autoridade de Conteúdo Local o calendário de acreditação e de registo.",
+      "se_piorar": "Levar o atraso a público e ao Parlamento."
+    },
+    {
+      "publico": "Governo",
+      "agora": "Publicar o regulamento e a lista de entidades certificadoras.",
+      "se_piorar": "Fixar um prazo curto e transitório de registo."
+    },
+    {
+      "publico": "Operadoras de petróleo e gás",
+      "agora": "Publicar os planos de aquisição com lotes que caibam a PMEs.",
+      "se_piorar": "Expor o plano de subcontratação à Autoridade."
+    }
+  ],
+  "visao_contraria": "Pode haver um regulamento rápido e uma Autoridade activa, e a margem de 20% é maior do que a de 10% do regime anterior. Aí as PMEs avançariam mais depressa do que na Nigéria.",
+  "nao_sabemos": [
+    "Não confirmámos o prazo de 31 de Dezembro para os planos de aquisição.",
+    "Não vimos o texto publicado do regulamento nem o custo do certificado.",
+    "As cifras da Nigéria são do próprio regulador."
+  ],
+  "sinal": "Publicação do regulamento no Boletim da República até 30 de Novembro e primeiras entidades certificadoras acreditadas até Março de 2027.",
+  "confianca": "media",
+  "base_confianca": "Lei resumida por escritórios de advogados e regulamento noticiado numa só fonte; o precedente da Nigéria vem do regulador.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA, 6 DE NOVEMBRO*\n\n*Conteúdo Local: as PMEs vão mesmo entrar no gás?*\n\nA Lei 9/2026, de 3 de Junho, obriga as empresas de petróleo e gás a comprar bens e serviços a fornecedores moçambicanos. Um fornecedor de capital maioritário nacional tem preferência se o seu preço, com impostos, não passar 20% do preço de um estrangeiro qualificado. As multas vão de 50 mil a 300 mil dólares. O regulamento devia sair em 90 dias, até 1 de Setembro. O Conselho de Ministros aprovou-o a 14 de Outubro, 43 dias depois, e ainda não foi publicado.\n\n*A CONTA*\nNuma compra em que a melhor proposta estrangeira é de 50 milhões de meticais, uma PME nacional pode ganhar até 60 milhões. São 10 milhões de margem, mas só com certificado de conteúdo local, que ainda não se sabe quem emite.\n\n*TRÊS CAMINHOS*\nPiora, 45%: a certificação atrasa, as entidades certificadoras não ficam acreditadas e só as grandes empresas, com sócios fortes, ganham. Sinal: regulamento por publicar a 31 de Dezembro.\n\nFica igual, 35%: a lei existe, mas os grandes contratos já estão fechados e a preferência quase não se aplica em 2027. Sinal: poucos concursos com lotes pequenos até Março.\n\nMelhora, 20%: as operadoras dividem os contratos em lotes pequenos e PMEs entram como subcontratadas. Sinal: lista pública de fornecedores certificados até Março de 2027.\n\n*PORQUÊ ESTES NÚMEROS*\nNa Nigéria, o conteúdo local passou de cerca de 5% para perto de 30% em sete anos, segundo o regulador, que é quem mede. O avanço foi lento, e cá o regulamento já atrasou.\n\n*DIRECÇÃO*\nFornecedores: juntem certidões e esperem o regulamento publicado antes de pagar a quem promete registo. Se o cenário mau se confirmar, procurem sócio ou contrato de subcontratação com uma empresa maior.\n\nNão confirmámos o prazo de 31 de Dezembro para os planos de aquisição.\n\nPartilhe com um fornecedor que conhece.",
+    "instagram": "Lei do Conteúdo Local: 20% de margem para fornecedores nacionais no petróleo e gás. Uma PME pode ganhar com 60 milhões contra 50 milhões estrangeiros, mas só com certificado, e o regulamento ainda não saiu. Direcção: junte certidões e não pague a intermediários.",
+    "facebook": "Uma lei nova pode abrir contratos de petróleo e gás às empresas moçambicanas. A Lei 9/2026, de 3 de Junho, diz que um fornecedor de capital maioritário nacional tem preferência se o preço não passar 20% do de um estrangeiro qualificado.\n\nUm exemplo: se a melhor proposta de fora for de 50 milhões de meticais, uma PME nacional pode ganhar com até 60 milhões. Mas só com certificado de conteúdo local, e ainda não se sabe quem o emite.\n\nO regulamento devia sair até 1 de Setembro. O Governo aprovou-o a 14 de Outubro e falta a publicação.\n\nO mais provável, com 45%, é a certificação atrasar e só as grandes empresas aproveitarem. Com 35%, a lei fica no papel porque os grandes contratos já estão fechados. Com 20%, as PMEs entram como subcontratadas em lotes pequenos.\n\nA lei prevê multas de 50 mil a 300 mil dólares para as empresas que não cumprirem, mas o peso maior recai sobre quem tem de se certificar.\n\nQuem fornece bens ou serviços deve juntar certidões e esperar o regulamento publicado antes de pagar a quem promete registo rápido.\n\nNão confirmámos o prazo de 31 de Dezembro para os planos de aquisição.\n\n#Moçambique #ConteúdoLocal",
+    "linkedin": "A Lei do Conteúdo Local, a 9/2026, foi publicada a 3 de Junho e aplica-se só ao petróleo e gás. Um fornecedor de capital maioritário moçambicano tem preferência se o seu preço, com impostos, não passar 20% do de um fornecedor estrangeiro qualificado. As multas vão de 50 mil a 300 mil dólares e a certificação cabe a entidades acreditadas pela Autoridade de Conteúdo Local.\n\nO regulamento devia estar pronto 90 dias depois da publicação, a 1 de Setembro. O Conselho de Ministros aprovou-o a 14 de Outubro, 43 dias depois do prazo, e a publicação continua por confirmar.\n\nNum exemplo simples, se a melhor proposta estrangeira for de 50 milhões de meticais, uma PME nacional certificada pode ganhar com até 60 milhões. A margem de 10 milhões só existe com certificado, e ainda não sabemos quem o emite nem em quanto tempo.\n\nVemos três cenários. Com 45%, a certificação atrasa e só as grandes empresas, com sócios estrangeiros, beneficiam. Com 35%, a lei fica no papel porque os grandes contratos já estão adjudicados. Com 20%, as operadoras dividem os contratos em lotes pequenos e as PMEs entram como subcontratadas. A taxa de base vem da Nigéria, onde o conteúdo local subiu de cerca de 5% para perto de 30% em sete anos, segundo o regulador, e cá o regulamento já atrasou.\n\nSinais a seguir: publicação do regulamento até 30 de Novembro, lista pública de fornecedores certificados até Março de 2027 e concursos com lotes pequenos.\n\nDirecção. PMEs fornecedoras: preparar certidões e não pagar a intermediários antes de o regulamento sair. Associações empresariais: pedir à Autoridade o calendário de acreditação. Governo: publicar o regulamento e a lista de entidades certificadoras.\n\nNão confirmámos o prazo de 31 de Dezembro para os planos de aquisição.\n\nA lei dá uma margem de 20%, mas sem certificado essa margem não chega a ninguém.\n\n#Moçambique #ConteúdoLocal #PMEs"
+  },
+  "fontes": [
+    {
+      "fonte": "LexAfrica, Lei do Conteúdo Local",
+      "url": "https://lexafrica.com/2026/07/local-content-law-in-mozambique/",
+      "data": "2026-07-20"
+    },
+    {
+      "fonte": "Club of Mozambique, BCL e o regulamento",
+      "url": "https://clubofmozambique.com/news/bcl-highlights-new-phase-in-mozambiques-local-content-implementation/",
+      "data": "2026-10-14"
+    },
+    {
+      "fonte": "PLMJ, nota sobre a lei",
+      "url": "https://www.plmj.com/xms/files/03_Novidades_legislativas/2026/NI_Local_Content_law.pdf",
+      "data": "2026-06"
+    },
+    {
+      "fonte": "Guardian Nigeria, uma década de conteúdo local",
+      "url": "https://guardian.ng/?p=1219946",
+      "data": ""
+    }
+  ],
+  "data": "2026-11-06",
+  "dia_semana": "sexta",
+  "semana": "2026-S45",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

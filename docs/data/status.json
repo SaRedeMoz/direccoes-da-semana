@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos e post do dia prontos",
-      "em": "2026-11-06T04:04:42.861Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-06T04:04:51.946Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-06T04:04:51.946Z",
+      "agente": "editor",
+      "msg": "Edição versão 5 montada"
+    },
+    {
+      "em": "2026-11-06T04:04:51.946Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?"
+    },
     {
       "em": "2026-11-06T04:04:42.861Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-11-03T04:25:11.844Z",
       "agente": "fontes",
       "msg": "A pesquisar notícias de 2 a 3 de Novembro"
-    },
-    {
-      "em": "2026-11-03T04:24:43.106Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
-    },
-    {
-      "em": "2026-11-02T03:11:21.842Z",
-      "agente": "aprovacao",
-      "msg": "Post do dia à espera da sua aprovação"
     }
   ],
-  "actualizado": "2026-11-06T04:04:42.861Z",
+  "actualizado": "2026-11-06T04:04:51.946Z",
   "semana": "2026-S45",
   "dia": "2026-11-06",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",

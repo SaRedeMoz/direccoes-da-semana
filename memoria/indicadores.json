@@ -279,6 +279,13 @@
         "fonte": "CNBC",
         "url": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
         "nota": "Fecho de 28 de Outubro; outra fonte (World Oil Monitor) dá 111,29; Trading Economics dá 114,28 a 29 de Outubro"
+      },
+      {
+        "data": "2026-11-05",
+        "valor": 104.63,
+        "fonte": "MarketScreener (preço à vista)",
+        "url": "https://uk.marketscreener.com/quote/commodity/BRENT-CRUDE-OIL-SPOT-4948/graphics-relative-strength/",
+        "nota": "Preço à vista, uma só fonte; o fecho de 28 de Outubro foi 115,32"
       }
     ]
   }

@@ -1,305 +1,244 @@
 {
   "tipo": "dia",
-  "tema": "Chapa da Grande Maputo: o ajuste de 5 meticais",
-  "pergunta": "Chapa mais 5 meticais a 7 de Novembro: quem paga a diferença?",
+  "tema": "Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?",
+  "pergunta": "Lei do Conteúdo Local: as PMEs vão mesmo entrar no gás?",
   "facto": {
-    "texto": "A FEMATRO anunciou um ajuste de 5 meticais nas tarifas do chapa da Grande Maputo a partir de 7 de Novembro, depois de negociar com o Governo. A tarifa mínima actual é de 15 meticais por rota. Não encontrámos deliberação municipal nem tabela final por rota.",
+    "texto": "A Lei 9/2026, de 3 de Junho, obriga as empresas de petróleo e gás a comprar a fornecedores nacionais. Um fornecedor de capital maioritário moçambicano tem preferência se o seu preço, com impostos, não passar 20% do de um estrangeiro qualificado. O regulamento foi aprovado a 14 de Outubro e aguarda publicação.",
     "numeros": [
       {
-        "valor": "+5 MT",
-        "legenda": "ajuste por rota"
+        "valor": "20%",
+        "legenda": "margem de preço para nacionais"
       },
       {
-        "valor": "15 MT",
-        "legenda": "tarifa mínima actual"
+        "valor": "50 a 300 mil USD",
+        "legenda": "multas por incumprimento"
       },
       {
-        "valor": "116,25 MT",
-        "legenda": "litro de gasóleo"
+        "valor": "43 dias",
+        "legenda": "de atraso do regulamento"
       }
     ],
-    "fonte": "Club of Mozambique (via Lusa), 30 de Outubro de 2026"
+    "fonte": "Lei 9/2026 (resumo da LexAfrica, 20 de Julho de 2026) e Club of Mozambique, 14 de Outubro de 2026"
   },
   "linha_do_tempo": [
     {
-      "data": "7 Mai",
-      "texto": "Gasóleo sobe 45,5% para 116,25 meticais",
+      "data": "3 Jun",
+      "texto": "Lei 9/2026 publicada e em vigor",
       "futuro": false
     },
     {
-      "data": "Mai",
-      "texto": "Subsídio de três meses, 35 mil MT por minibus",
+      "data": "1 Set",
+      "texto": "Fim dos 90 dias para os regulamentos",
       "futuro": false
     },
     {
-      "data": "20 Out",
-      "texto": "Rio Times: subsídio aos chapas terminou",
+      "data": "14 Out",
+      "texto": "Conselho de Ministros aprova o regulamento",
       "futuro": false
     },
     {
-      "data": "30 Out",
-      "texto": "FEMATRO anuncia ajuste de 5 meticais",
-      "futuro": false
-    },
-    {
-      "data": "7 Nov",
-      "texto": "Ajuste previsto entra em vigor",
+      "data": "30 Nov",
+      "texto": "Publicação esperada no Boletim da República",
       "futuro": true
     },
     {
-      "data": "10 Nov",
-      "texto": "INE publica a inflação de Outubro",
+      "data": "Mar 2027",
+      "texto": "Lista pública de fornecedores certificados",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "Fevereiro de 2023",
-    "o_que_aconteceu": "A FEMATRO anunciou subidas de 7 meticais sem consultar os municípios. O Governo interveio e a data passou de 13 para 20 de Fevereiro.",
-    "licao": "O anúncio da FEMATRO não é tarifa em vigor: o valor final sai da negociação.",
-    "fonte": "AIM, 13 de Fevereiro de 2023"
+    "quando": "Nigéria, 2010 a 2017",
+    "o_que_aconteceu": "Depois da lei de 2010, o conteúdo local passou de cerca de 5% para perto de 30% em sete anos, segundo o regulador NCDMB, e o objectivo de 60% não foi atingido.",
+    "licao": "O avanço foi real mas lento, e mede-o o próprio regulador.",
+    "fonte": "NCDMB, via Guardian Nigeria"
   },
-  "porque_importa": "O transporte é o primeiro gasto que sobe depois do combustível. Para quem viaja todos os dias, 220 meticais por mês saem do dinheiro da comida. Se os operadores não recuperarem a perda do subsídio, voltam a pedir mais, o que torna a decisão de hoje provisória.",
+  "porque_importa": "Os contratos do gás movem milhares de milhões de dólares e o Estado quer que parte fique com empresas moçambicanas. Para uma PME, a diferença entre ganhar e perder um lote pode ser a sobrevivência do negócio. Se a certificação falhar, a margem de 20% não chega a ninguém.",
   "canal": {
     "passos": [
-      "Gasóleo sobe 45,5% em Maio",
-      "Subsídio acaba em Outubro",
-      "Chapa sobe 5 meticais",
-      "Sobra menos para comida"
+      "Regulamento publicado",
+      "Entidades certificadoras acreditadas",
+      "PME obtém certificado",
+      "Concorre com margem de 20%",
+      "Contrato e emprego locais"
     ],
-    "quem_sente": "Utentes diários da Grande Maputo, sobretudo classe baixa e trabalhadores informais"
+    "quem_sente": "PMEs fornecedoras, trabalhadores e municípios das zonas dos projectos"
   },
   "conta": {
-    "titulo": "Duas viagens por dia, 22 dias por mês",
-    "pressupostos": "Uma só rota de 15 meticais, 2 viagens por dia, 22 dias por mês. Sem transbordos nem mudança de rota.",
+    "titulo": "Quanto vale a margem de 20%",
+    "pressupostos": "Melhor proposta estrangeira qualificada de 50 milhões de meticais, preços com impostos, PME de capital maioritário nacional e certificada.",
     "barras": [
       {
-        "rotulo": "Hoje (15 MT)",
-        "valor": 660,
-        "texto": "660 MT/mês"
+        "rotulo": "Proposta estrangeira",
+        "valor": 50,
+        "texto": "50 milhões MT"
       },
       {
-        "rotulo": "Depois (20 MT)",
-        "valor": 880,
-        "texto": "880 MT/mês"
+        "rotulo": "Limite para a PME ganhar",
+        "valor": 60,
+        "texto": "60 milhões MT"
       }
     ],
-    "unidade": "MT/mês",
-    "conclusao": "São mais 220 meticais por mês, 33% a mais. A tarifa sobe menos do que o gasóleo (45,5%)."
+    "unidade": "milhões de meticais",
+    "conclusao": "A margem é de 10 milhões, mas só existe com certificado de conteúdo local."
   },
   "cenarios": [
     {
-      "nome": "Os 20 meticais ficam",
-      "tipo": "melhora",
-      "probabilidade": 15,
-      "porque_probabilidade": "O gasóleo não foi revisto em seis meses, mas o Brent a 115 dólares torna uma queda rápida pouco provável.",
-      "gatilho": "Brent abaixo de 105 dólares durante duas semanas e ARENE sem nova revisão",
-      "o_que_acontece": "O petróleo recua, o gasóleo fica em 116,25 meticais e os operadores aceitam os 5 meticais sem novo pedido.",
-      "numeros": "Tarifa de 20 MT (rota de 15) e 23 MT (rota de 18)",
-      "quando": "até Dezembro de 2026",
-      "ganha": "Utentes diários",
-      "perde": "Operadores sem subsídio",
-      "se_acontecer": "Orçar 880 meticais por mês e guardar a diferença de qualquer descida."
-    },
-    {
-      "nome": "Cobranças desiguais",
-      "tipo": "fica_igual",
-      "probabilidade": 45,
-      "porque_probabilidade": "Em 2023 e 2026 a data foi adiada; sem tabela municipal visível, o cobrador decide.",
-      "gatilho": "Sem tabela por rota afixada até 9 de Novembro",
-      "o_que_acontece": "O ajuste vale em teoria, mas cada rota cobra um valor diferente até a autarquia fixar a tabela.",
-      "numeros": "Cobranças entre 18 e 25 MT na rota de 15",
-      "quando": "até 30 de Novembro de 2026",
-      "ganha": "Operadores com rotas cheias",
-      "perde": "Utentes de rotas longas",
-      "se_acontecer": "Pedir o valor à associação e guardar o comprovativo ou a indicação do cobrador."
-    },
-    {
-      "nome": "Nova ronda de aumentos",
+      "nome": "Certificação barra as PMEs",
       "tipo": "piora",
-      "probabilidade": 40,
-      "porque_probabilidade": "O gasóleo subiu 45,5% e a tarifa só 33%; com Brent acima de 115 a ARENE pode rever.",
-      "gatilho": "Comunicado da ARENE com gasóleo acima de 116,25 MT",
-      "o_que_acontece": "O combustível sobe outra vez, a margem dos operadores fica negativa e a FEMATRO pede nova tarifa.",
-      "numeros": "Tarifa de 22 a 25 MT na rota de 15",
+      "probabilidade": 45,
+      "porque_probabilidade": "Na Nigéria o avanço foi lento e cá o regulamento já atrasou 43 dias, por isso o gargalo do certificado é o mais provável.",
+      "gatilho": "Regulamento por publicar a 31 de Dezembro ou sem entidades certificadoras acreditadas",
+      "o_que_acontece": "Sem certificado, ninguém usa a margem de 20%. As empresas maiores, com sócios estrangeiros, certificam-se primeiro e ficam com os contratos.",
+      "numeros": "Poucos certificados emitidos até Março de 2027",
       "quando": "até Março de 2027",
-      "ganha": "Nenhum grupo claro",
-      "perde": "Utentes e operadores",
-      "se_acontecer": "Cortar uma viagem não essencial por semana e agrupar as deslocações."
+      "ganha": "Grandes empresas com sócios fortes",
+      "perde": "PMEs sem capital nem contactos",
+      "se_acontecer": "Procurar sócio ou subcontratação com empresa maior, e pedir à Autoridade o calendário de acreditação."
+    },
+    {
+      "nome": "Lei no papel, contratos já fechados",
+      "tipo": "fica_igual",
+      "probabilidade": 35,
+      "porque_probabilidade": "A lei é de Junho e os grandes contratos podem já estar adjudicados; a preferência só vale em concursos novos.",
+      "gatilho": "Poucos concursos novos com lotes pequenos até Março de 2027",
+      "o_que_acontece": "O regulamento sai, mas os grandes contratos já estão fechados e a preferência quase não se aplica em 2027.",
+      "numeros": "Poucos concursos novos abertos em 2027",
+      "quando": "até meados de 2027",
+      "ganha": "Operadoras com contratos fechados",
+      "perde": "PMEs à espera de concursos",
+      "se_acontecer": "Acompanhar os planos de aquisição publicados e candidatar-se aos lotes que abrirem."
+    },
+    {
+      "nome": "PMEs entram como subcontratadas",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Exige regulamento, certificação e lotes pequenos ao mesmo tempo; na Nigéria só se viu ao fim de vários anos.",
+      "gatilho": "Lista pública de fornecedores certificados com PMEs até Março de 2027",
+      "o_que_acontece": "As operadoras dividem os contratos em lotes pequenos e as PMEs certificadas entram como subcontratadas, com contratos mais pequenos mas regulares.",
+      "numeros": "Lista pública com PMEs até Março de 2027",
+      "quando": "a partir de Março de 2027",
+      "ganha": "PMEs certificadas e trabalhadores locais",
+      "perde": "Intermediários que cobram o registo",
+      "se_acontecer": "Certificar-se cedo, juntar contabilidade em dia e candidatar-se aos primeiros lotes."
     }
   ],
   "sinais": [
     {
-      "o_que": "Valor cobrado na rota de 15 meticais",
-      "limiar": "Mais de 20 meticais",
-      "quando": "9 de Novembro",
-      "aponta_para": "fica_igual"
-    },
-    {
-      "o_que": "Fecho do Brent",
-      "limiar": "Abaixo de 105 dólares",
-      "quando": "duas semanas até 21 de Novembro",
+      "o_que": "Regulamento publicado no Boletim da República",
+      "limiar": "Publicação até 30 de Novembro",
+      "quando": "30 de Novembro de 2026",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Comunicado da ARENE sobre o gasóleo",
-      "limiar": "Preço acima de 116,25 MT/l",
-      "quando": "até 31 de Dezembro",
+      "o_que": "Regulamento ainda por publicar",
+      "limiar": "Sem publicação a 31 de Dezembro",
+      "quando": "31 de Dezembro de 2026",
       "aponta_para": "piora"
     },
     {
-      "o_que": "Novo pedido de tarifa da FEMATRO",
-      "limiar": "Qualquer pedido acima de 20 MT",
-      "quando": "até 31 de Dezembro",
-      "aponta_para": "piora"
+      "o_que": "Entidades certificadoras acreditadas pela Autoridade",
+      "limiar": "Pelo menos uma entidade acreditada",
+      "quando": "31 de Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Concursos novos com lotes pequenos",
+      "limiar": "Poucos concursos abertos",
+      "quando": "31 de Março de 2027",
+      "aponta_para": "fica_igual"
     }
   ],
   "afectados": [
     {
-      "grupo": "Classe baixa",
-      "saldo": -2,
-      "porque": "220 meticais a mais por mês no transporte"
+      "grupo": "PMEs de capital nacional",
+      "saldo": 1,
+      "porque": "Margem de 20%, se houver certificado"
     },
     {
-      "grupo": "Trabalhadores informais",
-      "saldo": -2,
-      "porque": "dependem do chapa e não têm margem"
-    },
-    {
-      "grupo": "Classe média",
+      "grupo": "Operadoras de petróleo e gás",
       "saldo": -1,
-      "porque": "transporte e crédito mais caros"
+      "porque": "Mais custos e multas até 300 mil dólares"
     },
     {
-      "grupo": "Operadores de chapa",
+      "grupo": "Fornecedores estrangeiros",
       "saldo": -1,
-      "porque": "perdem subsídio, ganham 5 meticais"
+      "porque": "Perdem concursos até 20% mais caros"
     },
     {
-      "grupo": "Municípios e agência",
-      "saldo": -1,
-      "porque": "pressão para fixar a tabela"
+      "grupo": "Trabalhadores locais",
+      "saldo": 1,
+      "porque": "Mais emprego com mão-de-obra moçambicana"
+    },
+    {
+      "grupo": "Estado",
+      "saldo": 0,
+      "porque": "Ganha controlo, mas tem de acreditar e fiscalizar"
     }
   ],
   "direccao": [
     {
-      "publico": "Utentes do chapa",
-      "agora": "Orçar mais 220 meticais por mês e pedir à associação o valor afixado da sua rota.",
-      "se_piorar": "Cortar uma viagem não essencial e agrupar deslocações."
+      "publico": "PMEs fornecedoras",
+      "agora": "Juntar certidões e contabilidade em dia e não pagar a intermediários antes de o regulamento sair.",
+      "se_piorar": "Procurar sócio ou subcontratação com empresa maior."
     },
     {
-      "publico": "Operadores de chapa",
-      "agora": "Afixar a tarifa da rota e guardar registo das viagens para negociar com o município.",
-      "se_piorar": "Pedir revisão formal com contas de combustível."
+      "publico": "Associações empresariais",
+      "agora": "Pedir à Autoridade de Conteúdo Local o calendário de acreditação e de registo.",
+      "se_piorar": "Levar o atraso a público e ao Parlamento."
     },
     {
-      "publico": "Famílias de baixa renda",
-      "agora": "Reservar a diferença do transporte antes de comprar comida em quantidade.",
-      "se_piorar": "Comparar preços em dois mercados e comprar menos de cada vez."
+      "publico": "Governo",
+      "agora": "Publicar o regulamento e a lista de entidades certificadoras.",
+      "se_piorar": "Fixar um prazo curto e transitório de registo."
     },
     {
-      "publico": "PMEs com entregas",
-      "agora": "Rever o custo de transporte de trabalhadores e mercadorias para Novembro.",
-      "se_piorar": "Negociar horários para reduzir deslocações."
+      "publico": "Operadoras de petróleo e gás",
+      "agora": "Publicar os planos de aquisição com lotes que caibam a PMEs.",
+      "se_piorar": "Expor o plano de subcontratação à Autoridade."
     }
   ],
-  "visao_contraria": "A FEMATRO pode ter razão em que 5 meticais não cobrem o fim do subsídio de 35 mil meticais por minibus: seriam precisos cerca de 7 000 passageiros pagantes a mais por mês para o repor.",
+  "visao_contraria": "Pode haver um regulamento rápido e uma Autoridade activa, e a margem de 20% é maior do que a de 10% do regime anterior. Aí as PMEs avançariam mais depressa do que na Nigéria.",
   "nao_sabemos": [
-    "Se a autarquia aprovou o ajuste e a tabela por rota.",
-    "O desfecho final da subida de 2023.",
-    "Quantos minibuses ainda circulam com o subsídio terminado."
+    "Não confirmámos o prazo de 31 de Dezembro para os planos de aquisição.",
+    "Não vimos o texto publicado do regulamento nem o custo do certificado.",
+    "As cifras da Nigéria são do próprio regulador."
   ],
-  "sinal": "Valor cobrado nas rotas a 9 de Novembro, comunicado da ARENE e Brent abaixo de 105 dólares.",
+  "sinal": "Publicação do regulamento no Boletim da República até 30 de Novembro e primeiras entidades certificadoras acreditadas até Março de 2027.",
   "confianca": "media",
-  "base_confianca": "O ajuste assenta numa só notícia (Lusa, via Club of Mozambique); o subsídio vem de duas fontes; a taxa de base tem só dois casos.",
+  "base_confianca": "Lei resumida por escritórios de advogados e regulamento noticiado numa só fonte; o precedente da Nigéria vem do regulador.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA, 5 DE NOVEMBRO*\n*O chapa sobe 5 meticais a 7 de Novembro. Quem paga a diferença?*\n\n*O FACTO*\nA FEMATRO anunciou, depois de negociar com o Governo, um ajuste de 5 meticais nas tarifas do chapa da Grande Maputo a partir de 7 de Novembro. A tarifa mínima actual é de 15 meticais por rota. Os operadores pediam 30 e 25 meticais; a agência oferecia 3 a 5. O subsídio de 35 mil meticais por mês a cada minibus, pago durante três meses, já terminou. Não encontrámos deliberação do município nem a tabela por rota.\n\n*A CONTA*\nQuem viaja duas vezes por dia, 22 dias por mês, paga hoje 660 meticais numa rota de 15 e passa a pagar 880. São mais 220 meticais por mês, uma subida de 33%. Numa rota de 18 meticais a subida é de 28%. O gasóleo subiu 45,5% em Maio e custa 116,25 meticais o litro.\n\n*TRÊS CENÁRIOS*\nOs 20 meticais ficam (15%): o Brent desce abaixo de 105 dólares até Dezembro, a ARENE não mexe no gasóleo e não há novo pedido.\nOs 5 meticais valem, com cobranças desiguais (45%): sem tabela oficial cada rota cobra o seu valor, e as queixas chegam até ao fim de Novembro.\nNova ronda de aumentos (40%): o gasóleo sobe outra vez, a FEMATRO volta a pedir e o chapa passa dos 20 meticais até Março de 2027.\nTaxa de base: em 2023 a FEMATRO anunciou 7 meticais e recuou uma semana depois de o Governo intervir. Em 2026 a data passou de 1 para 7 de Novembro. Duas em duas vezes houve adiamento.\n\n*DIRECÇÃO*\nJá: contar com mais 5 meticais por rota e pedir à associação o valor da sua rota. Se piorar: cortar uma viagem não essencial por semana e agrupar as deslocações.\n\n*SINAL*\nSe na rota de 15 meticais lhe pedirem mais de 20 até 9 de Novembro, o cenário de cobranças desiguais está a confirmar-se.\n\nSe este resumo lhe serviu, partilhe com quem usa o chapa todos os dias.",
-    "instagram": "O chapa da Grande Maputo sobe 5 meticais a 7 de Novembro. Quem viaja duas vezes por dia, 22 dias, paga mais 220 meticais por mês. O gasóleo subiu 45,5% desde Maio e o subsídio acabou. Peça sempre o valor da sua rota antes de pagar a mais.",
-    "facebook": "O chapa da Grande Maputo vai ficar mais caro. A FEMATRO anunciou, depois de negociar com o Governo, um ajuste de 5 meticais a partir de 7 de Novembro. A tarifa mínima actual é de 15 meticais por rota.\n\nA conta é simples. Quem viaja duas vezes por dia, 22 dias por mês, paga hoje 660 meticais e passa a pagar 880. São mais 220 meticais por mês, uma subida de 33%.\n\nOs operadores tinham pedido 30 e 25 meticais. Ficaram em 5, depois de o subsídio de 35 mil meticais por mês a cada minibus ter terminado e com o gasóleo a 116,25 meticais. Há por isso o risco de nova ronda de pedidos se o petróleo continuar acima de 105 dólares, porque o gasóleo subiu 45,5% e a tarifa apenas 33%.\n\nAinda não encontrámos deliberação do município nem a tabela por rota. Em 2023, um anúncio parecido foi adiado uma semana.\n\nA direcção principal: contar com mais 5 meticais por rota e confirmar o valor da sua rota com a associação antes de pagar a mais.\n\n#Moçambique #DirecçõesdaSemana",
-    "linkedin": "O chapa da Grande Maputo vai subir 5 meticais a partir de 7 de Novembro, segundo a FEMATRO, que anunciou o ajuste depois de negociar com o Governo. A tarifa mínima actual é de 15 meticais por rota.\n\nO que mudou. O Governo pagou durante três meses 35 mil meticais por mês a cada minibus de 15 lugares, num total de 307 milhões de meticais, e deixou de pagar. O gasóleo subiu 45,5% a 7 de Maio, para 116,25 meticais o litro. A FEMATRO pedia 30 e 25 meticais e a agência metropolitana oferecia 3 a 5.\n\nA conta do utente. Duas viagens por dia, 22 dias por mês: 660 meticais passam a 880, mais 220 por mês e 33% a mais numa rota de 15. A tarifa sobe menos do que o gasóleo, que subiu 45,5%, por isso a margem dos operadores continua apertada. Para recuperar 35 mil meticais por mês com 5 meticais por passageiro, um minibus precisa de 7 000 passageiros pagantes a mais, cerca de 233 por dia ao longo de 30 dias.\n\nCenários. Os 20 meticais ficam, com o Brent abaixo de 105 dólares (15%). Os 5 meticais valem, mas com cobranças desiguais por falta de tabela oficial (45%). Nova ronda de pedidos se o gasóleo subir outra vez (40%). A taxa de base é curta: em 2023 e em 2026 o anúncio da FEMATRO foi adiado.\n\nA outra visão. A FEMATRO pode estar certa de que 5 meticais não cobrem a perda do subsídio. Não sabemos ainda se o município aprovou o valor.\n\nDirecção. Utentes: orçar mais 220 meticais por mês e pedir o valor da rota. Operadores e PMEs de transporte: guardar margem para nova revisão do gasóleo. O sinal a seguir é o valor cobrado nas rotas a 9 de Novembro e o comunicado da ARENE.\n\n#Moçambique #Transportes"
+    "whatsapp": "*DIRECÇÃO DO DIA, 6 DE NOVEMBRO*\n\n*Conteúdo Local: as PMEs vão mesmo entrar no gás?*\n\nA Lei 9/2026, de 3 de Junho, obriga as empresas de petróleo e gás a comprar bens e serviços a fornecedores moçambicanos. Um fornecedor de capital maioritário nacional tem preferência se o seu preço, com impostos, não passar 20% do preço de um estrangeiro qualificado. As multas vão de 50 mil a 300 mil dólares. O regulamento devia sair em 90 dias, até 1 de Setembro. O Conselho de Ministros aprovou-o a 14 de Outubro, 43 dias depois, e ainda não foi publicado.\n\n*A CONTA*\nNuma compra em que a melhor proposta estrangeira é de 50 milhões de meticais, uma PME nacional pode ganhar até 60 milhões. São 10 milhões de margem, mas só com certificado de conteúdo local, que ainda não se sabe quem emite.\n\n*TRÊS CAMINHOS*\nPiora, 45%: a certificação atrasa, as entidades certificadoras não ficam acreditadas e só as grandes empresas, com sócios fortes, ganham. Sinal: regulamento por publicar a 31 de Dezembro.\n\nFica igual, 35%: a lei existe, mas os grandes contratos já estão fechados e a preferência quase não se aplica em 2027. Sinal: poucos concursos com lotes pequenos até Março.\n\nMelhora, 20%: as operadoras dividem os contratos em lotes pequenos e PMEs entram como subcontratadas. Sinal: lista pública de fornecedores certificados até Março de 2027.\n\n*PORQUÊ ESTES NÚMEROS*\nNa Nigéria, o conteúdo local passou de cerca de 5% para perto de 30% em sete anos, segundo o regulador, que é quem mede. O avanço foi lento, e cá o regulamento já atrasou.\n\n*DIRECÇÃO*\nFornecedores: juntem certidões e esperem o regulamento publicado antes de pagar a quem promete registo. Se o cenário mau se confirmar, procurem sócio ou contrato de subcontratação com uma empresa maior.\n\nNão confirmámos o prazo de 31 de Dezembro para os planos de aquisição.\n\nPartilhe com um fornecedor que conhece.",
+    "instagram": "Lei do Conteúdo Local: 20% de margem para fornecedores nacionais no petróleo e gás. Uma PME pode ganhar com 60 milhões contra 50 milhões estrangeiros, mas só com certificado, e o regulamento ainda não saiu. Direcção: junte certidões e não pague a intermediários.",
+    "facebook": "Uma lei nova pode abrir contratos de petróleo e gás às empresas moçambicanas. A Lei 9/2026, de 3 de Junho, diz que um fornecedor de capital maioritário nacional tem preferência se o preço não passar 20% do de um estrangeiro qualificado.\n\nUm exemplo: se a melhor proposta de fora for de 50 milhões de meticais, uma PME nacional pode ganhar com até 60 milhões. Mas só com certificado de conteúdo local, e ainda não se sabe quem o emite.\n\nO regulamento devia sair até 1 de Setembro. O Governo aprovou-o a 14 de Outubro e falta a publicação.\n\nO mais provável, com 45%, é a certificação atrasar e só as grandes empresas aproveitarem. Com 35%, a lei fica no papel porque os grandes contratos já estão fechados. Com 20%, as PMEs entram como subcontratadas em lotes pequenos.\n\nA lei prevê multas de 50 mil a 300 mil dólares para as empresas que não cumprirem, mas o peso maior recai sobre quem tem de se certificar.\n\nQuem fornece bens ou serviços deve juntar certidões e esperar o regulamento publicado antes de pagar a quem promete registo rápido.\n\nNão confirmámos o prazo de 31 de Dezembro para os planos de aquisição.\n\n#Moçambique #ConteúdoLocal",
+    "linkedin": "A Lei do Conteúdo Local, a 9/2026, foi publicada a 3 de Junho e aplica-se só ao petróleo e gás. Um fornecedor de capital maioritário moçambicano tem preferência se o seu preço, com impostos, não passar 20% do de um fornecedor estrangeiro qualificado. As multas vão de 50 mil a 300 mil dólares e a certificação cabe a entidades acreditadas pela Autoridade de Conteúdo Local.\n\nO regulamento devia estar pronto 90 dias depois da publicação, a 1 de Setembro. O Conselho de Ministros aprovou-o a 14 de Outubro, 43 dias depois do prazo, e a publicação continua por confirmar.\n\nNum exemplo simples, se a melhor proposta estrangeira for de 50 milhões de meticais, uma PME nacional certificada pode ganhar com até 60 milhões. A margem de 10 milhões só existe com certificado, e ainda não sabemos quem o emite nem em quanto tempo.\n\nVemos três cenários. Com 45%, a certificação atrasa e só as grandes empresas, com sócios estrangeiros, beneficiam. Com 35%, a lei fica no papel porque os grandes contratos já estão adjudicados. Com 20%, as operadoras dividem os contratos em lotes pequenos e as PMEs entram como subcontratadas. A taxa de base vem da Nigéria, onde o conteúdo local subiu de cerca de 5% para perto de 30% em sete anos, segundo o regulador, e cá o regulamento já atrasou.\n\nSinais a seguir: publicação do regulamento até 30 de Novembro, lista pública de fornecedores certificados até Março de 2027 e concursos com lotes pequenos.\n\nDirecção. PMEs fornecedoras: preparar certidões e não pagar a intermediários antes de o regulamento sair. Associações empresariais: pedir à Autoridade o calendário de acreditação. Governo: publicar o regulamento e a lista de entidades certificadoras.\n\nNão confirmámos o prazo de 31 de Dezembro para os planos de aquisição.\n\nA lei dá uma margem de 20%, mas sem certificado essa margem não chega a ninguém.\n\n#Moçambique #ConteúdoLocal #PMEs"
   },
   "fontes": [
     {
-      "fonte": "Club of Mozambique: chapa sobe 5 meticais",
-      "url": "https://clubofmozambique.com/news/mozambique-transport-fares-in-greater-maputo-to-rise-by-five-meticais-from-november/",
-      "data": "2026-10-30"
+      "fonte": "LexAfrica, Lei do Conteúdo Local",
+      "url": "https://lexafrica.com/2026/07/local-content-law-in-mozambique/",
+      "data": "2026-07-20"
     },
     {
-      "fonte": "Rio Times: fim do subsídio aos chapas",
-      "url": "https://www.riotimesonline.com/mozambique-ends-chapa-fuel-subsidy-fares-2026/",
-      "data": "2026-10-20"
+      "fonte": "Club of Mozambique, BCL e o regulamento",
+      "url": "https://clubofmozambique.com/news/bcl-highlights-new-phase-in-mozambiques-local-content-implementation/",
+      "data": "2026-10-14"
     },
     {
-      "fonte": "AIM: subida adiada em 2023",
-      "url": "https://aimnews.org/2023/02/13/maputo-fare-rise-delayed-by-a-week/",
-      "data": "2023-02-13"
+      "fonte": "PLMJ, nota sobre a lei",
+      "url": "https://www.plmj.com/xms/files/03_Novidades_legislativas/2026/NI_Local_Content_law.pdf",
+      "data": "2026-06"
     },
     {
-      "fonte": "Club of Mozambique: subida adiada",
-      "url": "https://clubofmozambique.com/news/greater-maputo-chapa-price-hike-postponed/",
-      "data": "2023-02-12"
-    },
-    {
-      "fonte": "360 Mozambique: despesa com o subsídio",
-      "url": "https://360mozambique.com/business/logistics/state-spent-1-6-million-to-contain-rise-in-transport-fares/",
-      "data": "2026-06-16"
+      "fonte": "Guardian Nigeria, uma década de conteúdo local",
+      "url": "https://guardian.ng/?p=1219946",
+      "data": ""
     }
   ],
-  "data": "2026-11-05",
-  "dia_semana": "quinta",
+  "data": "2026-11-06",
+  "dia_semana": "sexta",
   "semana": "2026-S45",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1793851636465
-  }
+  "falhas": []
 }
