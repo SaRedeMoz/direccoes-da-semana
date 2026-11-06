@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-05",
+  "actualizado": "2026-11-06",
   "indicadores": [
     {
       "id": "gasolina",
@@ -535,7 +535,20 @@
       ]
     }
   ],
-  "direccoes_a_verificar": [],
+  "direccoes_a_verificar": [
+    {
+      "id": "D26",
+      "data": "2026-10-30",
+      "semana": "2026-S44",
+      "publico": "Famílias da Grande Maputo",
+      "accao": "Reservar valor extra para o chapa em Novembro e confirmar a tarifa final",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-06",
+      "resultado": "pendente",
+      "nota": ""
+    }
+  ],
   "balanco_direccoes": {
     "confirmada": 0,
     "parcial": 7,
