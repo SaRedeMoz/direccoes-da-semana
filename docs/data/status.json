@@ -2,8 +2,8 @@
   "estagios": {
     "fontes": {
       "estado": "a trabalhar",
-      "msg": "A começar a pesquisa do dia…",
-      "em": "2026-11-07T03:34:35.281Z"
+      "msg": "Pesquisar notícias de 5 a 7 de Novembro",
+      "em": "2026-11-07T03:35:00.794Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-07T03:35:00.794Z",
+      "agente": "fontes",
+      "msg": "Pesquisar notícias de 5 a 7 de Novembro"
+    },
     {
       "em": "2026-11-07T03:34:35.281Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-03T04:26:53.044Z",
       "agente": "analise",
       "msg": "Análise e memória gravadas"
-    },
-    {
-      "em": "2026-11-03T04:26:40.562Z",
-      "agente": "analise",
-      "msg": "A actualizar a análise com o Orçamento de 2027"
     }
   ],
-  "actualizado": "2026-11-07T03:34:35.281Z",
+  "actualizado": "2026-11-07T03:35:00.794Z",
   "semana": "2026-S45",
   "dia": "2026-11-07",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
