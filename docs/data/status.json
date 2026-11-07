@@ -21,12 +21,17 @@
       "em": "2026-11-07T03:36:12.577Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "1 dúvida(s) para si",
-      "em": "2026-11-07T03:36:50.146Z"
+      "estado": "aprovado",
+      "msg": "Post do dia aprovado",
+      "em": "2026-11-07T08:50:10.592Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-07T08:50:10.592Z",
+      "agente": "aprovacao",
+      "msg": "Post do dia aprovado"
+    },
     {
       "em": "2026-11-07T03:36:50.146Z",
       "agente": "aprovacao",
@@ -221,14 +226,9 @@
       "em": "2026-11-04T03:42:37.253Z",
       "agente": "fontes",
       "msg": "A começar a pesquisa do dia…"
-    },
-    {
-      "em": "2026-11-03T04:29:16.867Z",
-      "agente": "aprovacao",
-      "msg": "Post do dia à espera da sua aprovação"
     }
   ],
-  "actualizado": "2026-11-07T03:36:50.146Z",
+  "actualizado": "2026-11-07T08:50:10.592Z",
   "semana": "2026-S45",
   "dia": "2026-11-07",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
