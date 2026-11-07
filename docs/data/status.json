@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos actualizados para 7 de Novembro",
-      "em": "2026-11-07T03:36:03.293Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-07T03:36:12.577Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-07T03:36:12.577Z",
+      "agente": "editor",
+      "msg": "Edição versão 6 montada"
+    },
     {
       "em": "2026-11-07T03:36:03.293Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-11-03T04:28:03.092Z",
       "agente": "editor",
       "msg": "Edição versão 2 montada"
-    },
-    {
-      "em": "2026-11-03T04:28:03.092Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: Orçamento de 2027: o corte chega primeiro a quem vende ao Estado?"
     }
   ],
-  "actualizado": "2026-11-07T03:36:03.293Z",
+  "actualizado": "2026-11-07T03:36:12.577Z",
   "semana": "2026-S45",
   "dia": "2026-11-07",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",

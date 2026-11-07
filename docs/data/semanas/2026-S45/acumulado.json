@@ -28,7 +28,7 @@
     },
     {
       "titulo": "Brent recua para cerca de 104,6 dólares a 5 de Novembro",
-      "resumo": "O preço à vista do Brent estava perto de 104,63 dólares a 5 de Novembro, abaixo dos 115,32 do fecho de 28 de Outubro. Vem de uma só cotação e não de um fecho oficial, por isso fica como valor provisório.",
+      "resumo": "O preço à vista do Brent estava perto de 104,63 dólares a 5 de Novembro, abaixo dos 115,32 do fecho de 28 de Outubro. Vem de uma só cotação e não de um fecho oficial, por isso fica como valor provisório. Actualização (2026-11-07): Não há fecho oficial de 6 de Novembro nas fontes consultadas; uma cotação indica 103,60 dólares a 3 de Novembro, mas só numa fonte, por isso fica por confirmar.",
       "ambito": "mundo",
       "dimensao": "Económica",
       "categoria": "precos",
@@ -42,14 +42,14 @@
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 5,
+  "versao": 6,
   "proximo_n": 4,
   "lacunas": [
-    "Deliberação municipal sobre a tarifa do chapa e tabela final por rota",
-    "Fecho oficial do Brent de 5 de Novembro",
-    "Texto publicado do regulamento do Conteúdo Local",
+    "Valor cobrado nas rotas do chapa a 7 de Novembro e deliberação municipal",
+    "Fecho do Brent de 6 de Novembro",
     "Preços de milho, arroz e chapa na Beira e em Nampula",
-    "Preços novos dos combustíveis pela ARENE"
+    "Resultado da votação na generalidade do Orçamento de 2027",
+    "Inflação de Outubro (INE, perto de 10 de Novembro)"
   ],
   "fontes_consultadas": [
     {
@@ -195,6 +195,18 @@
       "fonte": "ARENE (via Club of Mozambique)",
       "url": "https://clubofmozambique.com/news/mozambique-fuel-prices-rise-watch-219918/",
       "data": "2026-11-06"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+      "data": "2026-11-07"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo",
+      "data": "2026-11-07"
     }
   ],
   "analise": {
@@ -533,9 +545,9 @@
         "accao": "Guardar margem para novo aumento do combustível e acompanhar os boletins da ARENE antes de fixar preços."
       }
     ],
-    "sinal": "Valor cobrado nas rotas do chapa a 7 de Novembro e deliberação municipal, Brent acima ou abaixo de 105 dólares, revisão de preços da ARENE, publicação do regulamento do Conteúdo Local, chuva de Novembro e Dezembro, financiamento do PAM para Janeiro, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.",
+    "sinal": "Valor cobrado nas rotas do chapa e deliberação municipal, Brent acima ou abaixo de 105 dólares, revisão de preços da ARENE, inflação de Outubro (perto de 10 de Novembro), publicação do regulamento do Conteúdo Local e julgamento de Mondlane a 17 de Novembro.",
     "sintese": "A FEMATRO anunciou um ajuste de 5 meticais no chapa da Grande Maputo a partir de 7 de Novembro, bem abaixo dos 30 e 25 meticais que pedia. O gasóleo continua a 116,25 meticais, mas o Brent recuou para cerca de 104,6 dólares a 5 de Novembro, segundo uma só cotação. O Orçamento de 2027 corta a despesa real cerca de 8% quando o El Niño e o fim da ajuda do PAM em Janeiro pedem mais resposta.",
-    "o_que_mudou_hoje": "O Brent aparece a cerca de 104,6 dólares a 5 de Novembro, menos 10 dólares do que o último fecho conhecido, mas só numa cotação. O chapa sobe amanhã e continua sem deliberação municipal visível. O regulamento do Conteúdo Local, aprovado a 14 de Outubro, ainda não foi publicado.",
+    "o_que_mudou_hoje": "O chapa da Grande Maputo sobe hoje 5 meticais, segundo o anúncio da FEMATRO, mas continua sem deliberação municipal nem tabela por rota visíveis. Não há fecho oficial do Brent de 6 de Novembro. A taxa MIMO foi mantida a 9,25% a 30 de Setembro.",
     "canais": [
       {
         "choque": "Petróleo acima de 100 dólares",
@@ -630,7 +642,7 @@
       }
     ],
     "horizonte": {
-      "imediato": "Chapa mais 5 meticais a 7 de Novembro, Brent perto de 105 dólares, gasóleo a 116,25 meticais desde Maio e abastecimento ainda irregular.",
+      "imediato": "Chapa mais 5 meticais desde 7 de Novembro, Brent perto de 105 dólares, gasóleo a 116,25 meticais desde Maio e abastecimento ainda irregular.",
       "tres_meses": "Até Janeiro de 2027: fim da amnistia de armas em Dezembro, regras provisórias de importação a caducar a 31 de Dezembro e início da campanha agrícola com El Niño.",
       "um_ano": "Até Outubro de 2027: Orçamento de 2027 em execução com crescimento de 1,6%, regulamento do Conteúdo Local a ser testado e efeito da colheita sobre os preços da comida."
     },
@@ -668,9 +680,9 @@
     ],
     "confianca": {
       "grau": "media",
-      "base": "Dados do INE, do Banco de Moçambique, da Lusa e do Club of Mozambique; o ajuste do chapa assenta numa só notícia, sem deliberação municipal; o Brent de 5 de Novembro vem de uma só cotação."
+      "base": "Dados do INE, do Banco de Moçambique, da Lusa e do Club of Mozambique; o ajuste do chapa assenta numa só notícia, sem deliberação municipal; o Brent de 5 de Novembro vem de uma só cotação; hoje não houve notícias novas datadas."
     },
-    "continuidade": "Face a ontem, mudou o petróleo: recuou para perto de 104,6 dólares, o que alivia o risco de nova subida do gasóleo, sem o afastar. O Orçamento de 2027 e o El Niño mantêm a direcção: o Estado gasta menos em termos reais quando a seca e o combustível pedem mais resposta."
+    "continuidade": "Face a ontem, a subida do chapa deixou de ser previsão e passou a ser o dia de entrada em vigor, por confirmar quanto se cobra em cada rota. O petróleo, o Orçamento de 2027 e o El Niño mantêm a direcção da semana, e a taxa MIMO parada em 9,25% não alivia o crédito."
   },
   "design": {
     "slides": [
@@ -681,7 +693,7 @@
         "imagem_termos": "Mozambique coast landscape"
       },
       {
-        "titulo": "Chapa sobe 5 meticais a 7 Novembro",
+        "titulo": "Chapa sobe 5 meticais hoje",
         "texto": "A FEMATRO anunciou o ajuste na Grande Maputo, sobre uma tarifa mínima de 15 meticais. Não há deliberação municipal confirmada nem tabela por rota.",
         "tom": "alerta",
         "imagem_termos": "minibus taxi Maputo"
@@ -705,13 +717,13 @@
         "imagem_termos": "maize field Africa drought"
       }
     ],
-    "manchete": "Chapa sobe amanhã, Brent recua e Orçamento sem folga",
+    "manchete": "Chapa sobe hoje, Brent recua e Orçamento sem folga",
     "destaques_capa": [
-      "Chapa mais 5 meticais a 7 Novembro",
+      "Chapa mais 5 meticais desde hoje",
       "Brent recua para cerca de 105 dólares",
       "Orçamento corta 8% em termos reais"
     ],
-    "legenda": "Sexta, 6 de Novembro. O chapa da Grande Maputo sobe 5 meticais amanhã, sem deliberação municipal visível. O Brent recuou para cerca de 104,6 dólares, mas o gasóleo continua a 116,25 meticais.",
+    "legenda": "Sábado, 7 de Novembro. O chapa da Grande Maputo sobe hoje 5 meticais, sem deliberação municipal visível. O Brent recuou para cerca de 104,6 dólares, mas o gasóleo continua a 116,25 meticais.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesdaSemana"
@@ -723,18 +735,19 @@
     ]
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, 6 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent recuou para cerca de 104,6 dólares a 5 de Novembro, depois de fechar a 115,32 a 28 de Outubro. É uma só cotação, não um fecho oficial. Moçambique importa combustível, por isso o preço pesa no chapa e nos alimentos.\n\n*MOÇAMBIQUE*\nA FEMATRO anunciou, depois de negociar com o Governo, um ajuste de 5 meticais no chapa da Grande Maputo a partir de 7 de Novembro. A tarifa mínima actual é de 15 meticais e os operadores pediam 30 e 25. Falta a deliberação municipal e a tabela por rota. O gasóleo continua a 116,25 meticais. O Orçamento de 2027 corta a despesa em cerca de 8% em termos reais, com o El Niño à porta e o PAM sem fundos garantidos depois de Dezembro.\n\n*QUEM GANHA E QUEM PERDE*\nPerde mais a classe baixa: quem viaja duas vezes por dia paga mais 220 meticais por mês. Ganham os fornecedores nacionais do petróleo e gás, com preferência de até 20% sobre o preço estrangeiro, se o regulamento for publicado.\n\n*DIRECÇÃO*\nQuem usa o chapa deve contar com mais 5 meticais por rota e pedir o valor afixado da sua rota. As famílias devem guardar reservas de milho e comprar insumos cedo.\n\n*PRÓXIMA SEMANA*\nValor cobrado nas rotas a 7 de Novembro, inflação de Outubro perto de 10 de Novembro e Brent abaixo ou acima de 105 dólares e publicação do regulamento do Conteúdo Local.\n\nSe este resumo ajudou, partilhe com alguém que também precisa dele.",
-    "linkedin": "O chapa da Grande Maputo vai custar mais 5 meticais a partir de 7 de Novembro, segundo a FEMATRO. A tarifa mínima actual é de 15 meticais por rota, e os operadores pediam 30 e 25. Não encontrámos ainda deliberação municipal nem a tabela por rota.\n\nO pano de fundo é o combustível. O gasóleo custa 116,25 meticais o litro desde 7 de Maio, mais 45,5%, e o Brent recuou para cerca de 104,6 dólares a 5 de Novembro, depois de fechar a 115,32 a 28 de Outubro. O subsídio aos minibuses, de 35 mil meticais por mês durante três meses, terminou. A tarifa sobe 33% numa rota de 15 meticais, menos do que o gasóleo.\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, menos 1,8% em termos nominais. Com inflação de 7%, é uma queda real de cerca de 8%, e salários e dívida podem absorver cerca de 96% das receitas fiscais. O El Niño e o fim da ajuda do PAM em Janeiro pedem mais resposta do Estado do que a folga permite.\n\nDirecção. Utentes do chapa: orçar mais 220 meticais por mês por quem viaja duas vezes por dia. PMEs de transporte e comércio: guardar margem para nova revisão do gasóleo. Fornecedores do petróleo e gás: juntar certidões e esperar a publicação do regulamento do Conteúdo Local antes de pagar a intermediários pelo registo.\n\nA semana mostra um Estado com pouca folga e famílias a pagar a diferença no transporte e na comida.\n\n#Moçambique #Economia #Transportes",
-    "instagram": "Chapa na Grande Maputo sobe 5 meticais a 7 de Novembro. Quem viaja duas vezes por dia paga mais 220 meticais por mês. O gasóleo continua a 116,25 e o Orçamento de 2027 corta cerca de 8% em termos reais. Direcção: peça sempre o valor da sua rota.",
-    "facebook": "O chapa da Grande Maputo vai subir 5 meticais a partir de 7 de Novembro, segundo a FEMATRO. A tarifa mínima actual é de 15 meticais por rota e os operadores pediam 30 e 25.\n\nPara quem viaja duas vezes por dia, são mais 220 meticais por mês. O gasóleo está a 116,25 meticais desde Maio e o subsídio aos minibuses já acabou.\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais. Com inflação de 7%, o corte real é de cerca de 8%, numa altura em que o El Niño ameaça as colheitas e o PAM só garante a ajuda actual até Dezembro.\n\nAinda não há deliberação municipal nem tabela por rota, por isso o valor pode variar.\n\nA direcção principal da semana: contar com mais 5 meticais por rota e pedir o valor da sua rota antes de pagar a mais.\n\n#Moçambique #DirecçõesdaSemana",
-    "analise_completa": "## Resumo da semana\nA pesquisa de hoje não encontrou deliberação municipal sobre o chapa, que sobe 5 meticais amanhã, 7 de Novembro, sobre uma tarifa mínima de 15 meticais por rota. O Brent aparece a cerca de 104,6 dólares a 5 de Novembro, numa só cotação.\n\n## O que mudou face às semanas anteriores\nFace a ontem, mudou o petróleo: recuou para perto de 104,6 dólares, o que alivia o risco de nova subida do gasóleo, sem o afastar. O chapa mantém o ajuste de 5 meticais anunciado a 30 de Outubro, ainda sem deliberação municipal visível. O Orçamento de 2027 e o El Niño mantêm a direcção: o Estado gasta menos em termos reais quando a seca e o combustível pedem mais resposta.\n\n## Mundo\nO Brent fechou a 115,32 dólares a 28 de Outubro e rondava 104,6 dólares a 5 de Novembro, segundo uma só cotação à vista. Não encontrámos o fecho oficial nem o resultado da OPEC+.\n\n## Moçambique\nO gasóleo custa 116,25 meticais o litro desde 7 de Maio, mais 45,5%. O Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e défice de 4,6% do PIB, o que dá uma queda real da despesa de cerca de 8% com inflação de 7%. O Governo diz ter garantido 125 milhões de dólares para o El Niño, mas o PAM só mantém a ajuda actual até Dezembro.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Concessão da fronteira de Machipanda (int.) | Expectativas da juventude por cumprir (int.); Direitos humanos em Cabo Delgado (int.) |\n| Económica | Crédito às empresas que exportam (int.); Inflação desce para 6,31% (int.) | Brent acima de 100 dólares (ext.); Fim do subsídio aos chapas (int.) |\n| Social | Agenda de emprego para jovens (int.); Compromisso laboral nos 50 anos da OTM (int.) | Chapa mais 5 meticais a 7 Nov (int.); 1,84 milhões em insegurança grave (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Preferência de 20% no petróleo e gás (int.); Regulamento fiscal para pequenos contribuintes (int.) | Julgamento sem transmissão em directo (int.); Certificação pode excluir PMEs (int.) |\n\n## Como chega ao seu bolso\nPetróleo acima de 100 dólares: Brent acima de 100 dólares, Importação de gasóleo mais cara, Chapa e carga custam mais, Comida chega mais cara.\n\nFim do subsídio aos chapas: Subsídio de três meses acaba, FEMATRO e Governo acordam mais 5, Chapa sobe a 7 de Novembro, Sobra menos para comida.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 10% | O Brent volta abaixo de 95 dólares e o abastecimento normaliza, sem novo pedido de aumento do chapa. | Brent abaixo de 95 dólares durante duas semanas |\n| Fica igual | 45% | O Brent fica entre 100 e 112 dólares, o gasóleo mantém-se a 116,25 meticais e o chapa fica com os 5 meticais. | Sem nova revisão de preços da ARENE até Dezembro |\n| Piora | 45% | O Brent fica acima de 115 dólares, o Governo revê o gasóleo e os operadores voltam a pedir mais. | Anúncio de revisão de preços da ARENE ou novo pedido da FEMATRO |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Brent volta acima de 115 dólares | 2/3 | 3/3 |\n| Nova falha no abastecimento de combustíveis | 2/3 | 3/3 |\n| Seca do El Niño na campanha agrícola | 2/3 | 3/3 |\n| Tensão política antes do julgamento de Mondlane | 1/3 | 2/3 |\n\n## Horizonte\nImediato: Chapa mais 5 meticais a 7 de Novembro, Brent perto de 105 dólares, gasóleo a 116,25 meticais desde Maio e abastecimento ainda irregular.\n\nTrês meses: Dezembro e Janeiro, com a amnistia de armas a acabar e o início da campanha agrícola com El Niño.\n\nUm ano: Orçamento de 2027 em execução e efeito da colheita nos preços da comida.\n\n## Quem está mais exposto\nClasse baixa: exposição 3/3, margem 1/3.\nClasse média: exposição 2/3, margem 2/3.\nTrabalhadores informais e agricultores: exposição 3/3, margem 1/3.\n\n## Quem ganha, quem perde\nGoverno: pouca margem no Orçamento de 2027.\nClasse baixa: chapa e comida mais caros.\nClasse média: transporte mais caro e juros altos.\nClasse alta e investidores: confiança empresarial a recuperar.\nONGs e parceiros: mais procura, menos fundos.\nMacroeconomia: PIB revisto em baixa e petróleo caro.\nPMEs: crédito caro e custos de transporte.\nRamos de negócio: ganham energia e mineração; perdem transportes e comida.\n\n## Direcção\nUtentes do chapa na Grande Maputo: Contar com mais 5 meticais por rota a partir de 7 de Novembro e confirmar o valor da sua rota com a associação ou o município antes de pagar a mais.\n\nGoverno: Publicar o calendário de entrega dos 125 milhões de dólares do plano El Niño e fechar com o PAM o financiamento de Janeiro.\n\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\n\n## Direcções anteriores: o que se confirmou\nSete direcções sobre a tarifa do chapa estavam pendentes. Todas ficam como parcialmente confirmadas: o ajuste de 5 meticais cai no limite baixo da subida que se esperava, mas falta a deliberação municipal e a tabela final por rota.\n\n## Sinal a acompanhar\nValor cobrado nas rotas do chapa a 7 de Novembro e deliberação municipal, Brent acima ou abaixo de 105 dólares, revisão de preços da ARENE, publicação do regulamento do Conteúdo Local, chuva de Novembro e Dezembro, financiamento do PAM para Janeiro, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.\n\n## Grau de confiança\nMédia. Dados do INE, do Banco de Moçambique, da Lusa e do Club of Mozambique; o ajuste do chapa assenta numa só notícia, sem deliberação municipal; o Brent de 5 de Novembro vem de uma só cotação.\n\n## Fontes\nImprensa económica: [Club of Mozambique, chapa sobe 5 meticais](https://clubofmozambique.com/news/mozambique-transport-fares-in-greater-maputo-to-rise-by-five-meticais-from-november/)\nImprensa nacional: [AIM, subida adiada em 2023](https://aimnews.org/2023/02/13/maputo-fare-rise-delayed-by-a-week/)\nInternacional: [Trading Economics, Brent](https://tradingeconomics.com/commodity/brent-crude-oil)\nAnálise independente: [CIP](https://www.cipmoz.org)\nOficiais: [ARENE](https://www.arene.gov.mz)",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 7 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent recuou para cerca de 104,6 dólares a 5 de Novembro, depois de fechar a 115,32 a 28 de Outubro. É uma só cotação, não um fecho oficial. Moçambique importa combustível, por isso o preço pesa no chapa e nos alimentos.\n\n*MOÇAMBIQUE*\nA FEMATRO anunciou, depois de negociar com o Governo, um ajuste de 5 meticais no chapa da Grande Maputo a partir de 7 de Novembro. A tarifa mínima actual é de 15 meticais e os operadores pediam 30 e 25. Falta a deliberação municipal e a tabela por rota. O gasóleo continua a 116,25 meticais. O Orçamento de 2027 corta a despesa em cerca de 8% em termos reais, com o El Niño à porta e o PAM sem fundos garantidos depois de Dezembro.\n\n*QUEM GANHA E QUEM PERDE*\nPerde mais a classe baixa: quem viaja duas vezes por dia paga mais 220 meticais por mês. Ganham os fornecedores nacionais do petróleo e gás, com preferência de até 20% sobre o preço estrangeiro, se o regulamento for publicado.\n\n*DIRECÇÃO*\nQuem usa o chapa deve contar com mais 5 meticais por rota e pedir o valor afixado da sua rota. As famílias devem guardar reservas de milho e comprar insumos cedo.\n\n*PRÓXIMA SEMANA*\nValor cobrado nas rotas do chapa, inflação de Outubro perto de 10 de Novembro e Brent abaixo ou acima de 105 dólares e publicação do regulamento do Conteúdo Local.\n\nSe este resumo ajudou, partilhe com alguém que também precisa dele.",
+    "linkedin": "O chapa da Grande Maputo custa mais 5 meticais desde 7 de Novembro, segundo a FEMATRO. A tarifa mínima actual é de 15 meticais por rota, e os operadores pediam 30 e 25. Não encontrámos ainda deliberação municipal nem a tabela por rota.\n\nO pano de fundo é o combustível. O gasóleo custa 116,25 meticais o litro desde 7 de Maio, mais 45,5%, e o Brent recuou para cerca de 104,6 dólares a 5 de Novembro, depois de fechar a 115,32 a 28 de Outubro. O subsídio aos minibuses, de 35 mil meticais por mês durante três meses, terminou. A tarifa sobe 33% numa rota de 15 meticais, menos do que o gasóleo.\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, menos 1,8% em termos nominais. Com inflação de 7%, é uma queda real de cerca de 8%, e salários e dívida podem absorver cerca de 96% das receitas fiscais. O El Niño e o fim da ajuda do PAM em Janeiro pedem mais resposta do Estado do que a folga permite.\n\nDirecção. Utentes do chapa: orçar mais 220 meticais por mês por quem viaja duas vezes por dia. PMEs de transporte e comércio: guardar margem para nova revisão do gasóleo. Fornecedores do petróleo e gás: juntar certidões e esperar a publicação do regulamento do Conteúdo Local antes de pagar a intermediários pelo registo.\n\nA semana mostra um Estado com pouca folga e famílias a pagar a diferença no transporte e na comida.\n\n#Moçambique #Economia #Transportes",
+    "instagram": "Chapa na Grande Maputo sobe 5 meticais desde 7 de Novembro. Quem viaja duas vezes por dia paga mais 220 meticais por mês. O gasóleo continua a 116,25 e o Orçamento de 2027 corta cerca de 8% em termos reais. Direcção: peça sempre o valor da sua rota.",
+    "facebook": "O chapa da Grande Maputo sobe 5 meticais desde 7 de Novembro, segundo a FEMATRO. A tarifa mínima actual é de 15 meticais por rota e os operadores pediam 30 e 25.\n\nPara quem viaja duas vezes por dia, são mais 220 meticais por mês. O gasóleo está a 116,25 meticais desde Maio e o subsídio aos minibuses já acabou.\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais. Com inflação de 7%, o corte real é de cerca de 8%, numa altura em que o El Niño ameaça as colheitas e o PAM só garante a ajuda actual até Dezembro.\n\nAinda não há deliberação municipal nem tabela por rota, por isso o valor pode variar.\n\nA direcção principal da semana: contar com mais 5 meticais por rota e pedir o valor da sua rota antes de pagar a mais.\n\n#Moçambique #DirecçõesdaSemana",
+    "analise_completa": "## Resumo da semana\nA pesquisa de hoje não encontrou deliberação municipal sobre o chapa, que sobe hoje 5 meticais, 7 de Novembro, sobre uma tarifa mínima de 15 meticais por rota. O Brent aparece a cerca de 104,6 dólares a 5 de Novembro, numa só cotação.\n\n## O que mudou face às semanas anteriores\nFace a ontem, mudou o petróleo: recuou para perto de 104,6 dólares, o que alivia o risco de nova subida do gasóleo, sem o afastar. O chapa mantém o ajuste de 5 meticais anunciado a 30 de Outubro, ainda sem deliberação municipal visível. O Orçamento de 2027 e o El Niño mantêm a direcção: o Estado gasta menos em termos reais quando a seca e o combustível pedem mais resposta.\n\n## Mundo\nO Brent fechou a 115,32 dólares a 28 de Outubro e rondava 104,6 dólares a 5 de Novembro, segundo uma só cotação à vista. Não encontrámos o fecho oficial nem o resultado da OPEC+.\n\n## Moçambique\nO gasóleo custa 116,25 meticais o litro desde 7 de Maio, mais 45,5%. O Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e défice de 4,6% do PIB, o que dá uma queda real da despesa de cerca de 8% com inflação de 7%. O Governo diz ter garantido 125 milhões de dólares para o El Niño, mas o PAM só mantém a ajuda actual até Dezembro.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Paz ligada a emprego e produção (int.); Concessão da fronteira de Machipanda (int.) | Expectativas da juventude por cumprir (int.); Direitos humanos em Cabo Delgado (int.) |\n| Económica | Crédito às empresas que exportam (int.); Inflação desce para 6,31% (int.) | Brent acima de 100 dólares (ext.); Fim do subsídio aos chapas (int.) |\n| Social | Agenda de emprego para jovens (int.); Compromisso laboral nos 50 anos da OTM (int.) | Chapa mais 5 meticais a 7 Nov (int.); 1,84 milhões em insegurança grave (int.) |\n| Tecnológica | Fábrica da SLB em Pemba (int.); Industrialização como prioridade declarada (int.) | Ligações solares fora da rede a cair (int.); Sem sinais concretos de investimento (int.) |\n| Ambiental | Atenção internacional ao clima (ext.); Apoio belga a financiamento climático (ext.) | El Niño: 5,3 milhões em risco (ext.); Chuva forte prevista em Sofala (ext.) |\n| Legal | Preferência de 20% no petróleo e gás (int.); Regulamento fiscal para pequenos contribuintes (int.) | Julgamento sem transmissão em directo (int.); Certificação pode excluir PMEs (int.) |\n\n## Como chega ao seu bolso\nPetróleo acima de 100 dólares: Brent acima de 100 dólares, Importação de gasóleo mais cara, Chapa e carga custam mais, Comida chega mais cara.\n\nFim do subsídio aos chapas: Subsídio de três meses acaba, FEMATRO e Governo acordam mais 5, Chapa sobe a 7 de Novembro, Sobra menos para comida.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 10% | O Brent volta abaixo de 95 dólares e o abastecimento normaliza, sem novo pedido de aumento do chapa. | Brent abaixo de 95 dólares durante duas semanas |\n| Fica igual | 45% | O Brent fica entre 100 e 112 dólares, o gasóleo mantém-se a 116,25 meticais e o chapa fica com os 5 meticais. | Sem nova revisão de preços da ARENE até Dezembro |\n| Piora | 45% | O Brent fica acima de 115 dólares, o Governo revê o gasóleo e os operadores voltam a pedir mais. | Anúncio de revisão de preços da ARENE ou novo pedido da FEMATRO |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Brent volta acima de 115 dólares | 2/3 | 3/3 |\n| Nova falha no abastecimento de combustíveis | 2/3 | 3/3 |\n| Seca do El Niño na campanha agrícola | 2/3 | 3/3 |\n| Tensão política antes do julgamento de Mondlane | 1/3 | 2/3 |\n\n## Horizonte\nImediato: Chapa mais 5 meticais a 7 de Novembro, Brent perto de 105 dólares, gasóleo a 116,25 meticais desde Maio e abastecimento ainda irregular.\n\nTrês meses: Dezembro e Janeiro, com a amnistia de armas a acabar e o início da campanha agrícola com El Niño.\n\nUm ano: Orçamento de 2027 em execução e efeito da colheita nos preços da comida.\n\n## Quem está mais exposto\nClasse baixa: exposição 3/3, margem 1/3.\nClasse média: exposição 2/3, margem 2/3.\nTrabalhadores informais e agricultores: exposição 3/3, margem 1/3.\n\n## Quem ganha, quem perde\nGoverno: pouca margem no Orçamento de 2027.\nClasse baixa: chapa e comida mais caros.\nClasse média: transporte mais caro e juros altos.\nClasse alta e investidores: confiança empresarial a recuperar.\nONGs e parceiros: mais procura, menos fundos.\nMacroeconomia: PIB revisto em baixa e petróleo caro.\nPMEs: crédito caro e custos de transporte.\nRamos de negócio: ganham energia e mineração; perdem transportes e comida.\n\n## Direcção\nUtentes do chapa na Grande Maputo: Contar com mais 5 meticais por rota a partir de 7 de Novembro e confirmar o valor da sua rota com a associação ou o município antes de pagar a mais.\n\nGoverno: Publicar o calendário de entrega dos 125 milhões de dólares do plano El Niño e fechar com o PAM o financiamento de Janeiro.\n\nFamílias: Guardar reservas de alimentos básicos e comparar preços antes de comprar em quantidade.\n\n## Direcções anteriores: o que se confirmou\nSete direcções sobre a tarifa do chapa estavam pendentes. Todas ficam como parcialmente confirmadas: o ajuste de 5 meticais cai no limite baixo da subida que se esperava, mas falta a deliberação municipal e a tabela final por rota.\n\n## Sinal a acompanhar\nValor cobrado nas rotas do chapa a 7 de Novembro e deliberação municipal, Brent acima ou abaixo de 105 dólares, revisão de preços da ARENE, publicação do regulamento do Conteúdo Local, chuva de Novembro e Dezembro, financiamento do PAM para Janeiro, inflação de Outubro (perto de 10 de Novembro) e julgamento de Mondlane a 17 de Novembro.\n\n## Grau de confiança\nMédia. Dados do INE, do Banco de Moçambique, da Lusa e do Club of Mozambique; o ajuste do chapa assenta numa só notícia, sem deliberação municipal; o Brent de 5 de Novembro vem de uma só cotação.\n\n## Fontes\nImprensa económica: [Club of Mozambique, chapa sobe 5 meticais](https://clubofmozambique.com/news/mozambique-transport-fares-in-greater-maputo-to-rise-by-five-meticais-from-november/)\nImprensa nacional: [AIM, subida adiada em 2023](https://aimnews.org/2023/02/13/maputo-fare-rise-delayed-by-a-week/)\nInternacional: [Trading Economics, Brent](https://tradingeconomics.com/commodity/brent-crude-oil)\nAnálise independente: [CIP](https://www.cipmoz.org)\nOficiais: [ARENE](https://www.arene.gov.mz)",
     "verificar": [
       "Ajuste de 5 meticais a 7 de Novembro e tarifa mínima de 15 meticais (Lusa via Club of Mozambique, 30 de Outubro)",
       "Se o município aprovou o valor e a tabela por rota",
       "Brent de cerca de 104,6 dólares a 5 de Novembro (cotação à vista, uma só fonte) e fecho de 115,32 a 28 de Outubro",
       "Subsídio de 35 mil meticais por minibus e mês durante três meses (Rio Times, 20 de Outubro)",
       "Prazo de 31 de Dezembro para os planos de aquisição do Conteúdo Local, que a redacção não conseguiu confirmar",
-      "⚠️ Categorias de fontes não consultadas hoje: imprensa_nacional, regional, humanitario"
+      "Taxa MIMO mantida a 9,25% a 30 de Setembro (Trading Economics, a partir do Banco de Moçambique)",
+      "⚠️ Categorias de fontes não consultadas hoje: internacional"
     ],
     "duvidas": [
       "Tem a deliberação municipal ou a tabela por rota do chapa, para confirmarmos o valor cobrado?"
@@ -808,13 +821,13 @@
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-11-06",
+    "em": "2026-11-07",
     "indicadores": 1,
-    "temas": 2,
-    "direccoes": 2
+    "temas": 1,
+    "direccoes": 0
   },
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: imprensa_nacional, regional, humanitario"
+    "Categorias de fontes não consultadas hoje: internacional"
   ],
   "incluir_itens": []
 }
