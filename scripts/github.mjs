@@ -67,6 +67,24 @@ async function issueDaSemana() {
     `Conversa da semana **${SEMANA}**.\n\n- **Notícia:** … para acrescentar uma notícia (texto ou link)\n- Comentário normal = sugestão para a próxima ronda\n- **Tema:** … para escolher o assunto do próximo post do dia\n- **/rever** para refazer já com as suas sugestões\n- **aprovado** (post do dia), **aprovado semana** (edição da semana) ou **aprovado tudo**\n\nEscritório: ${PAGE}` }) });
 }
 
+// Área sugerida para a Direcção do Dia: roda pelas áreas do dia da semana, evitando as dos últimos 3 posts
+function areaSugerida() {
+  const L = ler("config/linha-editorial.json", {}), opc = (L.area_por_dia || {})[DIA_SEMANA] || [];
+  if (!opc.length) return "";
+  const usadas = ler(`${D}/dias/lista.json`, []).filter((x) => x.tipo === "dia").slice(0, 3).map((x) => x.area);
+  const n = +SEMANA.split("-S")[1] || 0;
+  const ordem = opc.map((_, k) => opc[(n + k) % opc.length]);
+  return ordem.find((a) => !usadas.includes(a)) || ordem[0];
+}
+// Títulos da edição semanal anterior (para não repetir assuntos sem facto novo)
+function edicaoAnterior() {
+  const ed = ler(`${D}/edicao.json`, {});
+  const tit = (x) => ((x?.design?.slides) || []).slice(1).map((s) => s.titulo).filter(Boolean);
+  if (ed.semana && ed.semana !== SEMANA) return tit(ed);
+  const [a, w] = SEMANA.split("-S"); const prev = `${a}-S${String((+w || 1) - 1).padStart(2, "0")}`;
+  return tit(ler(`${D}/semanas/${prev}/acumulado.json`, {}));
+}
+
 async function preparar() {
   const issue = await issueDaSemana();
   const COM = (process.env.COMENTARIO || "").trim();
@@ -104,6 +122,9 @@ async function preparar() {
     dia_semana: DIA_SEMANA, post_do_dia: POST_DO_DIA, categorias_hoje,
     tema_pedido: temaCom ? temaCom.body.trim().replace(/^tema\s*:/i, "").trim() : "",
     ultimos_temas_dia: ler(`${D}/dias/lista.json`, []).slice(0, 5).map((x) => `${x.data} (${x.tipo}): ${x.tema || ""}`),
+    ultimas_areas_dia: ler(`${D}/dias/lista.json`, []).filter((x) => x.tipo === "dia").slice(0, 3).map((x) => x.area || x.tema || ""),
+    area_sugerida: areaSugerida(),
+    edicao_anterior: edicaoAnterior(),
     noticias_do_aprovador: novos.filter((c) => eNoticia(c.body)).map((c) => c.body.trim().replace(/^not[ií]cia\s*:/i, "").trim()),
     sugestoes_novas: novos.filter((c) => !eNoticia(c.body) && !eTema(c.body) && !/^\/?incluir\b/i.test(c.body.trim())).map((c) => c.body.trim()),
     incluir_itens: [...new Set([...(acum.incluir_itens || []), ...novos.filter((c) => /^\/?incluir\b/i.test(c.body.trim())).flatMap((c) => (c.body.match(/\d+/g) || []).map(Number))])],

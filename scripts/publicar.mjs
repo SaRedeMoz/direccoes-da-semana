@@ -60,10 +60,33 @@ if (faltam.length) {
   process.exit(1);
 }
 
+const COMBUST = /combust|gasó|gasol|brent|petról|chapa|arene|transportes/i;
+// Frases que falam do nosso processo interno em vez de informar o leitor
+const PROCESSO = [/mem[oó]ria da redac/i, /a nossa mem[oó]ria/i, /\bo quadro usa\b/i, /fonte e data/i, /n[aã]o vamos inventar/i,
+  /n[aã]o temos (dados|valores|tarifa|pre[cç]o|n[uú]meros)/i, /\b(confirm|regist|encontr)[aá]mos\b/i, /\ba redac[cç][aã]o\b/i,
+  /\ba equipa\b/i, /poucas semanas de dados/i, /as fontes divergem/i, /neste (post|quadro)/i, /sem dados (recentes|suficientes)/i];
+// Remove as frases mais claras de processo interno e devolve as que ficaram para aviso
+const FORTES = [/mem[oó]ria da redac/i, /\bo quadro usa\b/i, /fonte e data/i, /n[aã]o vamos inventar/i, /a nossa mem[oó]ria/i];
+function tiraProcesso(t) {
+  if (typeof t !== "string") return t;
+  // Separa em frases mantendo os espaços e quebras de linha originais
+  const partes = t.split(/((?<=[.!?])[ \t]+|\n+)/);
+  let out = "";
+  for (let k = 0; k < partes.length; k += 2) if (!FORTES.some((r) => r.test(partes[k]))) out += partes[k] + (partes[k + 1] || "");
+    else if (/\n/.test(partes[k + 1] || "")) out += partes[k + 1];
+  return out.replace(/\n{3,}/g, "\n\n").trim();
+}
+function processo(o) {
+  const out = [];
+  const anda = (v) => { if (typeof v === "string") { for (const f of v.split(/(?<=[.!?\n])\s*/)) if (PROCESSO.some((r) => r.test(f))) out.push(f.trim().slice(0, 90)); }
+    else if (Array.isArray(v)) v.forEach(anda); else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) if (!["base_confianca", "url", "fonte", "fontes", "series", "regional", "imagens"].includes(k)) anda(x); };
+  anda(o); return [...new Set(out)].slice(0, 5);
+}
+
 // Limpeza automática de marcas típicas de IA (travessões, emojis, setas, símbolos)
 function limpaIA(t) {
   if (typeof t !== "string") return t;
-  return t
+  return tiraProcesso(t)
     .replace(/(\d{1,2}(?:\s+de)?\s+\p{L}+)\s*[–—]\s*(\d{1,2})/gu, "$1 a $2")   // intervalos de datas
     .replace(/(\d)\s*[–—]\s*(\d)/g, "$1 a $2")                                   // intervalos de números
     .replace(/\s*[—–]\s*/g, ", ")                                                  // travessões como pontuação
@@ -108,6 +131,16 @@ if (ent.modo === "diario") {
   const faltamCat = (ent.categorias_hoje || []).filter((c) => !cobertas.has(c));
   if (faltamCat.length) falhas.push(`Categorias de fontes não consultadas hoje: ${faltamCat.join(", ")}`);
 }
+// Diversidade de assuntos na edição semanal
+const slidesNot = (acum.design?.slides || []).slice(1);
+const nComb = slidesNot.filter((x) => COMBUST.test(`${x.titulo} ${x.texto}`)).length;
+if (nComb > 1) falhas.push(`${nComb} notícias sobre combustível ou chapa na edição (máximo 1)`);
+const usadas = (acum.itens || []).filter((i) => (acum.design?.fontes_usadas || []).includes(i.n));
+const dimsUsadas = new Set(usadas.map((i) => i.dimensao).filter(Boolean));
+if (usadas.length && dimsUsadas.size < 4) falhas.push(`A edição só cobre ${dimsUsadas.size} dimensões do PESTAL (mínimo 4)`);
+const ant = (ent.edicao_anterior || [])[0] || "";
+if (ant && COMBUST.test(ant) && slidesNot[0] && COMBUST.test(`${slidesNot[0].titulo}`)) falhas.push("Combustível a abrir a edição duas semanas seguidas");
+falhas.push(...processo({ t: acum.textos, d: acum.design }).map((f) => `Fala do processo interno: "${f}"`));
 for (const c of acum.textos.conformidade || []) if (c.ok === false) falhas.push(`Auto-verificação: ${c.criterio}`);
 acum.textos.verificar = [...(acum.textos.verificar || []), ...falhas.map((f) => "⚠️ " + f)];
 acum.falhas_conformidade = falhas;
@@ -164,12 +197,18 @@ if (ent.post_do_dia && ent.post_do_dia !== "nenhum") {
       if (!limpo.precedente?.o_que_aconteceu) falhasDia.push("Falta o precedente");
       if (!limpo.visao_contraria) falhasDia.push("Falta a visão contrária");
       if ((limpo.fontes || []).length < 3) falhasDia.push("Menos de 3 fontes no post do dia");
+      if (!limpo.area) falhasDia.push("Post do dia sem área temática");
+      else if ((ent.ultimas_areas_dia || []).includes(limpo.area) && !ent.tema_pedido) falhasDia.push(`Área repetida dos últimos 3 posts: ${limpo.area}`);
+      const recentes = ler("docs/data/dias/lista.json", []).filter((h) => h.tipo === "dia" && h.data !== ent.hoje).slice(0, 7);
+      if (COMBUST.test(`${limpo.area} ${limpo.tema}`) && recentes.some((h) => COMBUST.test(`${h.area || ""} ${h.tema || ""}`)) && !ent.tema_pedido)
+        falhasDia.push("Combustível ou chapa outra vez em menos de duas semanas");
     }
+    falhasDia.push(...processo(limpo).map((f) => `Fala do processo interno: "${f}"`));
     limpo.falhas = falhasDia;
     gravar("docs/data/dia.json", limpo);
     gravar(`docs/data/dias/${ent.hoje}.json`, limpo);
     const hist = ler("docs/data/dias/lista.json", []);
-    gravar("docs/data/dias/lista.json", [{ data: ent.hoje, tipo: limpo.tipo, tema: limpo.tema || limpo.titulo }, ...hist.filter((h) => h.data !== ent.hoje)].slice(0, 120));
+    gravar("docs/data/dias/lista.json", [{ data: ent.hoje, tipo: limpo.tipo, area: limpo.area || "", tema: limpo.tema || limpo.manchete || limpo.titulo }, ...hist.filter((h) => h.data !== ent.hoje)].slice(0, 120));
     diaMsg = limpo.tipo === "bolso" ? "O Seu Bolso pronto" : `Direcção do Dia: ${limpo.tema || ""}`;
   } else diaMsg = "Post do dia não ficou pronto";
 }

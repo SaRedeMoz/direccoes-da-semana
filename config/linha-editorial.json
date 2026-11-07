@@ -35,7 +35,7 @@
     "Direcção prática por público",
     "Sinal a acompanhar",
     "Grau de confiança e fontes por categoria",
-    "Ligação à memória: o que mudou face às semanas anteriores"
+    "O que mudou face às semanas anteriores, só quando o assunto volta com facto novo"
   ],
   "proposito": "Mostrar como os acontecimentos afectam as diferentes facetas da vida em Moçambique e dar a direcção certa a seguir, com memória do que já se viu.",
   "posts_diarios": {
@@ -48,5 +48,49 @@
     ],
     "quarta": "O Seu Bolso (classe média e baixa)",
     "outros": "Direcção do Dia (um assunto a fundo)"
-  }
+  },
+  "areas_tematicas": [
+    "Combustíveis e transportes",
+    "Alimentos e agricultura",
+    "Finanças públicas e impostos",
+    "Crédito, banca e câmbio",
+    "Emprego e trabalho",
+    "Saúde",
+    "Educação",
+    "Água, energia e saneamento",
+    "Segurança e justiça",
+    "Clima e desastres",
+    "Gás, minas e recursos naturais",
+    "Negócios e PMEs",
+    "Tecnologia e telecomunicações",
+    "Região e mundo (SADC, comércio, doadores)",
+    "Habitação e cidades",
+    "Governação e política"
+  ],
+  "area_por_dia": {
+    "segunda": [
+      "Finanças públicas e impostos",
+      "Crédito, banca e câmbio",
+      "Negócios e PMEs"
+    ],
+    "terca": [
+      "Saúde",
+      "Educação",
+      "Emprego e trabalho"
+    ],
+    "quinta": [
+      "Região e mundo (SADC, comércio, doadores)",
+      "Segurança e justiça",
+      "Gás, minas e recursos naturais",
+      "Governação e política"
+    ],
+    "sexta": [
+      "Alimentos e agricultura",
+      "Clima e desastres",
+      "Água, energia e saneamento",
+      "Tecnologia e telecomunicações",
+      "Habitação e cidades"
+    ]
+  },
+  "voz": "Informar e explicar como um jornal. Nunca falar do processo interno da redacção, da memória ou da falta de dados."
 }

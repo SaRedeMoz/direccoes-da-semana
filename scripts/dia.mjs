@@ -219,7 +219,7 @@ function slidesDia() {
     const fts = (dia.fontes || []).map((x) => x.fonte || x).filter(Boolean).slice(0, 5).join(", ");
     return `<div style="font-size:${story ? 50 : 42}px;line-height:1.24;font-weight:500">${esc(corta(dia.sinal, 170))}</div>
       ${nivel ? `<div style="margin-top:${story ? 70 : 44}px"><div class="rot" style="margin-bottom:14px">Grau de confiança: ${nomeN}</div>${barras}
-        ${dia.base_confianca ? `<div style="font-size:${story ? 26 : 22}px;color:#cfd6d2;margin-top:16px;line-height:1.3">${esc(corta(dia.base_confianca, 160))}</div>` : ""}</div>` : ""}
+</div>` : ""}
       ${fts ? `<div style="font-size:${story ? 22 : 19}px;color:#8c968f;margin-top:${story ? 40 : 24}px">Fontes: ${esc(corta(fts, 170))}</div>` : ""}
       <div class="row" style="margin-top:${story ? 56 : 32}px"><span class="ch">${CHEV}</span><span class="g" style="font-size:${story ? 29 : 26}px">SIGA S.A REDES: UM ASSUNTO A FUNDO, TODOS OS DIAS ÚTEIS</span></div>`;
   }});
@@ -237,8 +237,9 @@ function capaBolso(W, H) {
   .sem{position:absolute;left:90px;top:${story ? 130 : 70}px;font-weight:600;font-size:26px;letter-spacing:.04em;color:${SEG}}
   .barra{position:absolute;left:90px;top:${story ? 640 : 420}px;width:160px;height:14px;background:${AMARELO}}
   h1{position:absolute;left:84px;right:90px;top:${story ? 680 : 455}px;font-weight:800;font-size:${story ? 150 : 128}px;line-height:.95;text-transform:uppercase;letter-spacing:-.02em}
-  .sub{position:absolute;left:90px;top:${story ? 1000 : 735}px;font-weight:600;font-size:${story ? 34 : 30}px;color:${INDICO}}
-  .res{position:absolute;left:90px;right:90px;top:${story ? 1090 : 810}px;font-family:"DM Sans",sans-serif;font-size:${story ? 40 : 34}px;line-height:1.32;color:${SEG}}
+  .info{position:absolute;left:90px;right:90px;top:${story ? 1000 : 735}px}
+  .sub{font-weight:700;font-size:${story ? 42 : 36}px;line-height:1.15;color:${INDICO}}
+  .res{margin-top:${story ? 26 : 18}px;font-family:"DM Sans",sans-serif;font-size:${story ? 36 : 30}px;line-height:1.32;color:${SEG}}
   .marca{position:absolute;left:56px;bottom:44px;font-weight:700;font-size:30px;letter-spacing:.08em;display:flex;align-items:center;gap:14px}
   .seta{position:absolute;right:56px;bottom:32px;width:92px;height:92px;border-radius:50%;background:${AMARELO};color:${TINTA};padding:21px}
   </style></head><body>
@@ -246,8 +247,8 @@ function capaBolso(W, H) {
   <div class="sem">${esc(quando)}</div>
   <div class="barra"></div>
   <h1>O seu<br>bolso</h1>
-  <div class="sub">Para a classe média e a classe baixa</div>
-  <div class="res">${esc(corta(dia.resumo, story ? 240 : 190))}</div>
+  <div class="info"><div class="sub">${dia.manchete ? esc(corta(dia.manchete, 90)) : "Para a classe média e a classe baixa"}</div>
+  <div class="res">${esc(corta(dia.resumo, story ? 240 : 170))}</div></div>
   <div class="marca">${selo(TINTA, 56)}S.A REDES</div><div class="seta">${SETA}</div>
   </body></html>`;
 }
@@ -275,7 +276,7 @@ function moldeBolso(W, H, i, n, titulo, corpo, zoom = 1) {
 // Linha de tendência sem eixos (pequenos múltiplos, um indicador por cartão, uma só cor)
 function sparkline(pontos, w, h) {
   const vs = pontos.map((p) => +p[1]).filter((v) => Number.isFinite(v));
-  if (vs.length < 2) return `<div style="height:${h}px;display:flex;align-items:center;font-size:20px;color:${MUDO}">A série começa agora: mais pontos nas próximas semanas.</div>`;
+  if (vs.length < 2) return "";
   let lo = Math.min(...vs), hi = Math.max(...vs);
   // Escala honesta: a amplitude mínima é 8% do nível, para que pequenas oscilações pareçam pequenas
   const meio = (hi + lo) / 2, minimo = Math.abs(meio) * 0.08 || 1;
@@ -289,6 +290,7 @@ function sparkline(pontos, w, h) {
     <path d="${d}" fill="none" stroke="${INDICO}" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"></path>
     <circle cx="${lx}" cy="${ly}" r="9" fill="${INDICO}" stroke="#FFFFFF" stroke-width="3"></circle></svg>`;
 }
+const fontesTxt = () => { const f = [...new Set((dia.fontes || []).map((x) => x.fonte || x).filter(Boolean))].slice(0, 4); return f.length ? `Fontes: ${f.join(", ")}.` : ""; };
 const curta = (iso) => { const [, m, d] = String(iso || "").split("-"); return d ? `${+d}/${+m}` : ""; };
 const variacaoTxt = (v, rot) => v === null || v === undefined ? "" :
   `<span style="white-space:nowrap">${rot}: <b style="color:${TINTA}">${v > 0 ? "sobe" : v < 0 ? "desce" : "igual"}${v ? " " + num(Math.abs(v), 1) + "%" : ""}</b></span>`;
@@ -310,10 +312,12 @@ function slidesBolso() {
         <div style="display:flex;flex-wrap:wrap;gap:4px 18px;font-size:${story ? 24 : 21}px;color:${SEG};margin-top:${story ? 14 : 8}px">${variacaoTxt(s.var4, "4 semanas")}${variacaoTxt(s.var12, "12 semanas")}</div>
       </div>`; }).join("");
     return `<div style="display:grid;grid-template-columns:1fr 1fr;gap:${story ? 32 : 24}px 32px">${cart}</div>
-      <div style="font-size:${story ? 23 : 20}px;color:${MUDO};margin-top:${story ? 26 : 16}px">Valores registados semana a semana pela redacção. Fontes nos textos do post.</div>`;
+      <div style="font-size:${story ? 23 : 20}px;color:${MUDO};margin-top:${story ? 26 : 16}px">${esc(fontesTxt())}</div>`;
   }});
   // Três capitais regionais: cada indicador com a sua escala; barras de uma só cor, cidade identificada pelo nome
-  const rg = dia.regional || {}, linhas = (rg.linhas || []).filter((l) => l.cidades.some((c) => c.valor !== null)).slice(0, 4);
+  // Só se comparam cidades com preço publicado; um indicador precisa de pelo menos duas cidades
+  const rg = dia.regional || {}, linhas = (rg.linhas || []).map((l) => ({ ...l, cidades: l.cidades.filter((c) => c.valor !== null && c.valor !== undefined) }))
+    .filter((l) => l.cidades.length >= 2).slice(0, 4);
   if (linhas.length) out.push({ tipo: "regioes-precos", zoom: [1.1, 1.3], titulo: "Sul, Centro<br>e Norte", corpo: (W, H) => {
     const story = H > 1500;
     const ZONA = Object.fromEntries((rg.regioes || []).map((g) => [g.id, g.zona]));
@@ -330,7 +334,7 @@ function slidesBolso() {
             <span style="height:${story ? 22 : 18}px;border-radius:4px;${tem ? `background:#E7E3DA` : `border:2px dashed ${LINHA}`}">${tem ? `<span style="display:block;height:100%;width:${w}%;background:${INDICO};border-radius:0 4px 4px 0"></span>` : ""}</span>
             <span style="text-align:right;font-family:Poppins,sans-serif;font-weight:700;font-size:${story ? 28 : 24}px">${tem ? esc(num(c.valor)) : `<span style="font-family:'DM Sans',sans-serif;font-weight:400;color:${MUDO};font-size:.75em;white-space:nowrap">sem dados</span>`}</span>
             <span style="font-size:${story ? 20 : 17}px;color:${SEG};line-height:1.15">${varT ? `${varT}<br><span style="color:${MUDO}">em 4 semanas</span>` : ""}</span></div>`; }).join("")}</div>`; };
-    return linhas.map(grupo).join("") + `<div style="font-size:${story ? 20 : 17}px;color:${MUDO}">Preços registados pela redacção nas três capitais regionais. Cada indicador tem a sua escala.</div>`;
+    return linhas.map(grupo).join("") + `<div style="font-size:${story ? 20 : 17}px;color:${MUDO}">Preços nas três capitais regionais. ${esc(fontesTxt())}</div>`;
   }});
   const regs = (dia.regioes || []).slice(0, 3);
   if (regs.length) out.push({ tipo: "regioes-direccao", zoom: [1.15, 1.35], titulo: "Cada região,<br>a sua direcção", corpo: (W, H) => {
@@ -360,10 +364,10 @@ function slidesBolso() {
       <span style="width:${story ? 52 : 46}px;height:${story ? 52 : 46}px;border-radius:50%;background:${INDICO};color:#FFFFFF;display:flex;align-items:center;justify-content:center">${CHEV}</span>
       <span><span style="font-family:Poppins,sans-serif;font-weight:700;font-size:${f}px;text-transform:uppercase">${esc(corta(d.area, 24))}</span>
         <span style="font-size:${f - 6}px;font-weight:700;color:${MUDO};margin-left:12px;letter-spacing:.04em">${esc(CL[String(d.classe || "").toLowerCase()] || "")}</span>
-        <span style="display:block;font-size:${f}px;line-height:1.28;color:${SEG};margin-top:4px">${esc(corta(d.accao, 120))}</span></span></div>`).join("");
+        <span style="display:block;font-size:${f}px;line-height:1.28;color:${SEG};margin-top:4px">${esc(corta(d.accao, 120))}</span></span></div>`).join("") + `<div style="font-size:${story ? 21 : 18}px;color:${MUDO};margin-top:${story ? 24 : 14}px">Orientação geral para famílias e pequenos negócios, não é aconselhamento financeiro individual.</div>`;
   }});
   const rev = (dia.revisao || []).slice(0, 3);
-  out.push({ tipo: "revisao", zoom: [1.3, 1.5], titulo: rev.length ? "O que dissemos<br>e o que houve" : "Para ter<br>em conta", corpo: (W, H) => {
+  if (rev.length) out.push({ tipo: "revisao", zoom: [1.3, 1.5], titulo: "O que dissemos<br>e o que houve", corpo: (W, H) => {
     const story = H > 1500;
     // Resultado com ícone e palavra, nunca só pela cor
     const ICO = {
@@ -376,7 +380,7 @@ function slidesBolso() {
         <span style="width:56px;height:56px;border-radius:50%;background:${cor};display:flex;align-items:center;justify-content:center"><svg width="32" height="32" viewBox="0 0 24 24">${ic}</svg></span>
         <span><span style="display:block;font-size:${story ? 29 : 25}px;line-height:1.28">${esc(corta(r.direccao, 110))}</span>
           <span style="display:block;font-size:${story ? 23 : 20}px;color:${SEG};margin-top:6px"><b style="color:${TINTA}">${nome}.</b> ${esc(corta(r.nota, 80))}</span></span></div>`; }).join("");
-    return `${lista || `<div style="font-size:${story ? 32 : 28}px;line-height:1.32;color:${SEG}">Cada quarta-feira revemos as direcções anteriores e dizemos se se confirmaram. A memória da redacção cresce de semana para semana.</div>`}
+    return `${lista}
       <div style="background:#FFFFFF;border:1px solid ${LINHA};border-radius:12px;padding:${story ? 30 : 22}px 28px;margin-top:${story ? 50 : 26}px;font-size:${story ? 23 : 20}px;line-height:1.35;color:${SEG}">
         Orientação geral para famílias e pequenos negócios. Não é aconselhamento financeiro individual nem recomenda bancos ou produtos.</div>
       <div style="font-family:Poppins,sans-serif;font-weight:700;font-size:${story ? 27 : 24}px;margin-top:${story ? 44 : 26}px;color:${INDICO}">Todas as quartas, na S.A REDES.</div>`;
