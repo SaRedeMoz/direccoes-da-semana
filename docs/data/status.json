@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Ronda de domingo concluída",
-      "em": "2026-11-08T03:06:13.863Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-08T03:06:23.694Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-08T03:06:23.694Z",
+      "agente": "editor",
+      "msg": "Edição versão 7 montada"
+    },
     {
       "em": "2026-11-08T03:06:15.147Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-04T03:44:52.496Z",
       "agente": "editor",
       "msg": "Edição versão 3 montada"
-    },
-    {
-      "em": "2026-11-04T03:44:52.496Z",
-      "agente": "editor",
-      "msg": "O Seu Bolso pronto"
     }
   ],
-  "actualizado": "2026-11-08T03:06:15.147Z",
+  "actualizado": "2026-11-08T03:06:23.694Z",
   "semana": "2026-S45",
   "dia": "2026-11-08",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",

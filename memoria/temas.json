@@ -1,7 +1,7 @@
 [
   {
     "id": "combustivel",
-    "nome": "Combustíveis e transporte",
+    "nome": "Combustível e chapa",
     "estado": "activo",
     "inicio": "2026-10-16",
     "historial": [
@@ -136,6 +136,12 @@
         "semana": "2026-S45",
         "resumo": "O chapa da Grande Maputo sobe 5 meticais a 7 de Novembro, sem deliberação municipal visível. O gasóleo continua a 116,25 meticais e o Brent rondava 104,6 dólares a 5 de Novembro, numa só cotação.",
         "direccao": "Contar com mais 5 meticais por rota e pedir o valor afixado da rota antes de pagar a mais."
+      },
+      {
+        "data": "2026-11-08",
+        "semana": "2026-S45",
+        "resumo": "O gasóleo está a 116,25 meticais desde Maio e o Brent recuou para perto de 105 dólares. O Governo diz que a subida de 5 meticais no chapa de Maputo ainda não tem aprovação municipal.",
+        "direccao": "Pagar a tarifa afixada e guardar folga para uma subida sem data."
       }
     ]
   },

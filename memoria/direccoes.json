@@ -315,9 +315,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-06",
-    "resultado": "pendente",
-    "nota": "A subida entra hoje em vigor; falta confirmar o valor cobrado por rota e a deliberação municipal.",
-    "verificada_em": "2026-11-07"
+    "resultado": "parcial",
+    "nota": "A subida de 5 meticais não arrancou a 7 de Novembro porque nenhum município a aprovou, segundo o Governo.",
+    "verificada_em": "2026-11-08"
   },
   {
     "id": "D27",
@@ -484,6 +484,30 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-13",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D41",
+    "data": "2026-11-08",
+    "semana": "2026-S45",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Pagar a tarifa afixada e guardar folga de 5 meticais por viagem",
+    "tema": "combustivel",
+    "horizonte": "semana",
+    "verificar_em": "2026-11-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D42",
+    "data": "2026-11-08",
+    "semana": "2026-S45",
+    "publico": "Famílias",
+    "accao": "Guardar reservas de milho e comparar preços antes do El Niño",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-31",
     "resultado": "pendente",
     "nota": ""
   }

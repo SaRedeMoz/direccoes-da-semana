@@ -400,15 +400,9 @@
   "temas_activos": [
     {
       "id": "combustivel",
-      "nome": "Combustíveis e transporte",
+      "nome": "Combustível e chapa",
       "desde": "2026-10-16",
       "ultimos": [
-        {
-          "data": "2026-11-05",
-          "semana": "2026-S45",
-          "resumo": "A FEMATRO anunciou um ajuste de 5 meticais no chapa da Grande Maputo a partir de 7 de Novembro, sobre uma tarifa mínima de 15. O gasóleo continua a 116,25 meticais e o Brent fechou a 115,32 dólares a 28 de Outubro.",
-          "direccao": "Contar com mais 5 meticais por rota a 7 de Novembro e confirmar o valor da rota antes de pagar a mais."
-        },
         {
           "data": "2026-11-06",
           "semana": "2026-S45",
@@ -420,6 +414,12 @@
           "semana": "2026-S45",
           "resumo": "O chapa da Grande Maputo sobe 5 meticais a 7 de Novembro, sem deliberação municipal visível. O gasóleo continua a 116,25 meticais e o Brent rondava 104,6 dólares a 5 de Novembro, numa só cotação.",
           "direccao": "Contar com mais 5 meticais por rota e pedir o valor afixado da rota antes de pagar a mais."
+        },
+        {
+          "data": "2026-11-08",
+          "semana": "2026-S45",
+          "resumo": "O gasóleo está a 116,25 meticais desde Maio e o Brent recuou para perto de 105 dólares. O Governo diz que a subida de 5 meticais no chapa de Maputo ainda não tem aprovação municipal.",
+          "direccao": "Pagar a tarifa afixada e guardar folga para uma subida sem data."
         }
       ]
     },
@@ -543,35 +543,21 @@
       ]
     }
   ],
-  "direccoes_a_verificar": [
-    {
-      "id": "D26",
-      "data": "2026-10-30",
-      "semana": "2026-S44",
-      "publico": "Famílias da Grande Maputo",
-      "accao": "Reservar valor extra para o chapa em Novembro e confirmar a tarifa final",
-      "tema": "combustivel",
-      "horizonte": "semana",
-      "verificar_em": "2026-11-06",
-      "resultado": "pendente",
-      "nota": "A subida entra hoje em vigor; falta confirmar o valor cobrado por rota e a deliberação municipal.",
-      "verificada_em": "2026-11-07"
-    }
-  ],
+  "direccoes_a_verificar": [],
   "balanco_direccoes": {
     "confirmada": 0,
-    "parcial": 7,
+    "parcial": 8,
     "nao_confirmada": 0,
-    "pendente": 33
+    "pendente": 34
   },
   "ultimas_licoes": [
-    "- 2026-10-31 (2026-S44): Aos sábados a pesquisa devolve pouco material datado; uma notícia de 2022 sobre acordo com a FEMATRO apareceu como recente e foi rejeitada pela data.",
     "- 2026-11-01 (2026-S44): Aos domingos a pesquisa devolve pouco material datado; uma notícia de 2023 sobre adiamento da tarifa do chapa apareceu nos resultados e foi rejeitada pela data.",
     "- 2026-11-02 (2026-S45): Às segundas a pesquisa devolve pouco material datado de domingo e segunda: a redacção fica com o que tem fonte e data e regista o resto como lacuna.",
     "- 2026-11-03 (2026-S45): Às terças a pesquisa devolve pouco material datado: o detalhe do Orçamento de 2027 deu o assunto mais sólido do dia, e o RTP não data o artigo sobre a massa salarial.",
     "- 2026-11-04 (2026-S45): Às quartas a pesquisa devolve pouco material datado: o fecho de preços do chapa e do Brent segue sem fonte de 3 e 4 de Novembro.",
     "- 2026-11-05 (2026-S45): Uma subida do chapa pode ser anunciada pela FEMATRO sem sair nas fontes que a redacção segue; convém procurar também no Club of Mozambique e na Lusa.",
     "- 2026-11-06 (2026-S45): Às sextas o Brent só aparece numa cotação à vista sem fecho oficial; o prazo de 31 de Dezembro dos planos de aquisição do Conteúdo Local não consta das fontes jurídicas e passou a ser tratado como não confirmado.",
-    "- 2026-11-07 (2026-S45): Aos sábados a pesquisa devolve pouco material datado de sexta e sábado: o fecho do Brent de 6 de Novembro não apareceu e a taxa MIMO de 30 de Setembro só foi confirmada por agregador."
+    "- 2026-11-07 (2026-S45): Aos sábados a pesquisa devolve pouco material datado de sexta e sábado: o fecho do Brent de 6 de Novembro não apareceu e a taxa MIMO de 30 de Setembro só foi confirmada por agregador.",
+    "- 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal."
   ]
 }

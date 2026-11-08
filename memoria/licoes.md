@@ -27,3 +27,4 @@
 - 2026-11-05 (2026-S45): Uma subida do chapa pode ser anunciada pela FEMATRO sem sair nas fontes que a redacção segue; convém procurar também no Club of Mozambique e na Lusa.
 - 2026-11-06 (2026-S45): Às sextas o Brent só aparece numa cotação à vista sem fecho oficial; o prazo de 31 de Dezembro dos planos de aquisição do Conteúdo Local não consta das fontes jurídicas e passou a ser tratado como não confirmado.
 - 2026-11-07 (2026-S45): Aos sábados a pesquisa devolve pouco material datado de sexta e sábado: o fecho do Brent de 6 de Novembro não apareceu e a taxa MIMO de 30 de Setembro só foi confirmada por agregador.
+- 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal.
