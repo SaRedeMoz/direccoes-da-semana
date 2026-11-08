@@ -1,32 +1,37 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "pronto",
-      "msg": "Sem notícias novas datadas; MIMO confirmada em 9,25%",
-      "em": "2026-11-07T03:35:40.150Z"
+      "estado": "a trabalhar",
+      "msg": "A começar a pesquisa do dia…",
+      "em": "2026-11-08T03:04:17.938Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "Análise e memória actualizadas",
-      "em": "2026-11-07T03:36:00.839Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-08T03:04:17.938Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "Capa e notícias actualizadas",
-      "em": "2026-11-07T03:36:02.076Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-08T03:04:17.938Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-11-07T03:36:12.577Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-08T03:04:17.938Z"
     },
     "aprovacao": {
-      "estado": "aprovado",
-      "msg": "Post do dia aprovado",
-      "em": "2026-11-07T08:50:10.592Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-11-08T03:04:17.938Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-08T03:04:17.938Z",
+      "agente": "fontes",
+      "msg": "A começar a pesquisa do dia…"
+    },
     {
       "em": "2026-11-07T08:50:10.592Z",
       "agente": "aprovacao",
@@ -221,16 +226,11 @@
       "em": "2026-11-04T03:43:08.368Z",
       "agente": "fontes",
       "msg": "Pesquisar notícias e preços de 3 e 4 de Novembro"
-    },
-    {
-      "em": "2026-11-04T03:42:37.253Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
     }
   ],
-  "actualizado": "2026-11-07T08:50:10.592Z",
+  "actualizado": "2026-11-08T03:04:17.938Z",
   "semana": "2026-S45",
-  "dia": "2026-11-07",
+  "dia": "2026-11-08",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
   "ultimo_notificado": "semana"
 }
