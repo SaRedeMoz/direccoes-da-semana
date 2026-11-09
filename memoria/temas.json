@@ -142,6 +142,12 @@
         "semana": "2026-S45",
         "resumo": "O gasóleo está a 116,25 meticais desde Maio e o Brent recuou para perto de 105 dólares. O Governo diz que a subida de 5 meticais no chapa de Maputo ainda não tem aprovação municipal.",
         "direccao": "Pagar a tarifa afixada e guardar folga para uma subida sem data."
+      },
+      {
+        "data": "2026-11-09",
+        "semana": "2026-S46",
+        "resumo": "O Governo manteve a tarifa do chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
+        "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
       }
     ]
   },
@@ -314,6 +320,48 @@
         "semana": "2026-S43",
         "resumo": "A Frelimo vai apoiar a recandidatura de Chapo em 2029, segundo a Lusa. O julgamento de Mondlane está marcado para 17 de Novembro, sem transmissão em directo.",
         "direccao": "Acompanhar o julgamento e o clima político antes de decisões de investimento."
+      }
+    ]
+  },
+  {
+    "id": "credito",
+    "nome": "Crédito e juros",
+    "estado": "activo",
+    "inicio": "2026-11-09",
+    "historial": [
+      {
+        "data": "2026-11-09",
+        "semana": "2026-S46",
+        "resumo": "O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais. A taxa média a um ano subiu para 22,26% e a prime rate ficou em 15,50%.",
+        "direccao": "Comparar propostas de bancos e evitar crédito caro ao consumo."
+      }
+    ]
+  },
+  {
+    "id": "divida",
+    "nome": "Dívida pública e FMI",
+    "estado": "activo",
+    "inicio": "2026-11-09",
+    "historial": [
+      {
+        "data": "2026-11-09",
+        "semana": "2026-S46",
+        "resumo": "A estratégia da dívida 2025-2029 foi aprovada a 4 de Novembro, com dívida recorde de 1,072 biliões de meticais. O Governo espera um programa do FMI até ao fim do ano.",
+        "direccao": "Acompanhar o programa do FMI e o custo do crédito."
+      }
+    ]
+  },
+  {
+    "id": "ensino_privado",
+    "nome": "Ensino privado",
+    "estado": "activo",
+    "inicio": "2026-11-09",
+    "historial": [
+      {
+        "data": "2026-11-09",
+        "semana": "2026-S46",
+        "resumo": "O Decreto 54/2026 torna o ensino privado presencial e dá 18 meses às escolas para se adaptarem.",
+        "direccao": "Escolas privadas devem rever licenças e currículos."
       }
     ]
   }

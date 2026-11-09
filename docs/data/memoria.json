@@ -74,11 +74,11 @@
       "base": "chapa",
       "regiao": "maputo",
       "ultimo": {
-        "data": "2026-10-30",
+        "data": "2026-11-06",
         "valor": 15,
-        "fonte": "Club of Mozambique (via Lusa)",
-        "url": "https://clubofmozambique.com/news/mozambique-transport-fares-in-greater-maputo-to-rise-by-five-meticais-from-november/",
-        "nota": "Tarifa mínima actual de 15 meticais por rota; ajuste de 5 meticais previsto a 7 de Novembro (20 MT), sem deliberação municipal confirmada"
+        "fonte": "Lusa",
+        "url": "https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo",
+        "nota": "Tarifa mínima mantida pelo Governo"
       },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
@@ -89,6 +89,10 @@
         ],
         [
           "2026-10-30",
+          15
+        ],
+        [
+          "2026-11-06",
           15
         ]
       ]
@@ -309,11 +313,11 @@
       "base": "mimo",
       "regiao": "",
       "ultimo": {
-        "data": "2026-09-30",
+        "data": "2026-11-04",
         "valor": 9.25,
-        "fonte": "Banco de Moçambique via Trading Economics",
-        "url": "https://tradingeconomics.com/mozambique/interest-rate/news/588316",
-        "nota": "Mantida a 9,25% a 30 de Setembro, pela quarta vez seguida"
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Mantida"
       },
       "variacao_4_semanas_pct": 0,
       "variacao_12_semanas_pct": 0,
@@ -325,6 +329,10 @@
         [
           "2026-09-30",
           9.25
+        ],
+        [
+          "2026-11-04",
+          9.25
         ]
       ]
     },
@@ -335,17 +343,21 @@
       "base": "prime_rate",
       "regiao": "",
       "ultimo": {
-        "data": "2026-08-27",
+        "data": "2026-11-04",
         "valor": 15.5,
-        "fonte": "Banco de Moçambique / AMB (prime rate de Setembro de 2026)",
-        "url": "https://bancomoc.mz/media/g0adon5e/2026-08-27-prime-rate-e-spread-de-risco-de-setembro-de-2026-bancos-comerciais-microfinanças.pdf",
-        "nota": "15,50% resulta do Indexante Único (9,30%) mais o prémio de custo (6,20%); sem comunicado de Outubro encontrado"
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Sexto mês seguido"
       },
-      "variacao_4_semanas_pct": null,
+      "variacao_4_semanas_pct": 0,
       "variacao_12_semanas_pct": null,
       "ultimos": [
         [
           "2026-08-27",
+          15.5
+        ],
+        [
+          "2026-11-04",
           15.5
         ]
       ]
@@ -358,10 +370,10 @@
       "regiao": "",
       "ultimo": {
         "data": "2026-11-05",
-        "valor": 104.63,
-        "fonte": "MarketScreener (preço à vista)",
-        "url": "https://uk.marketscreener.com/quote/commodity/BRENT-CRUDE-OIL-SPOT-4948/graphics-relative-strength/",
-        "nota": "Preço à vista, uma só fonte; o fecho de 28 de Outubro foi 115,32"
+        "valor": 98.29,
+        "fonte": "Nation Thailand",
+        "url": "https://www.nationthailand.com/news/40073162",
+        "nota": "Fecho de 5 de Novembro"
       },
       "variacao_4_semanas_pct": null,
       "variacao_12_semanas_pct": null,
@@ -392,7 +404,7 @@
         ],
         [
           "2026-11-05",
-          104.63
+          98.29
         ]
       ]
     }
@@ -404,12 +416,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-11-06",
-          "semana": "2026-S45",
-          "resumo": "O chapa da Grande Maputo sobe 5 meticais a 7 de Novembro, sem deliberação municipal visível. O gasóleo continua a 116,25 meticais e o Brent recuou para cerca de 104,6 dólares a 5 de Novembro, numa só cotação.",
-          "direccao": "Contar com mais 5 meticais por rota e pedir o valor afixado da rota antes de pagar a mais."
-        },
-        {
           "data": "2026-11-07",
           "semana": "2026-S45",
           "resumo": "O chapa da Grande Maputo sobe 5 meticais a 7 de Novembro, sem deliberação municipal visível. O gasóleo continua a 116,25 meticais e o Brent rondava 104,6 dólares a 5 de Novembro, numa só cotação.",
@@ -420,6 +426,12 @@
           "semana": "2026-S45",
           "resumo": "O gasóleo está a 116,25 meticais desde Maio e o Brent recuou para perto de 105 dólares. O Governo diz que a subida de 5 meticais no chapa de Maputo ainda não tem aprovação municipal.",
           "direccao": "Pagar a tarifa afixada e guardar folga para uma subida sem data."
+        },
+        {
+          "data": "2026-11-09",
+          "semana": "2026-S46",
+          "resumo": "O Governo manteve a tarifa do chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
+          "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
         }
       ]
     },
@@ -541,48 +553,62 @@
           "direccao": "Acompanhar o julgamento e o clima político antes de decisões de investimento."
         }
       ]
-    }
-  ],
-  "direccoes_a_verificar": [
-    {
-      "id": "D30",
-      "data": "2026-11-02",
-      "semana": "2026-S45",
-      "publico": "Utentes do chapa na Grande Maputo",
-      "accao": "Pagar a tarifa nova só depois do anúncio oficial do município",
-      "tema": "combustivel",
-      "horizonte": "semana",
-      "verificar_em": "2026-11-09",
-      "resultado": "pendente",
-      "nota": ""
     },
     {
-      "id": "D36",
-      "data": "2026-11-05",
-      "semana": "2026-S45",
-      "publico": "Utentes do chapa na Grande Maputo",
-      "accao": "Orçar mais 5 meticais por rota desde 7 de Novembro e exigir o valor da rota afixado ou confirmado pela associação.",
-      "tema": "combustivel",
-      "horizonte": "semana",
-      "verificar_em": "2026-11-09",
-      "resultado": "pendente",
-      "nota": ""
+      "id": "credito",
+      "nome": "Crédito e juros",
+      "desde": "2026-11-09",
+      "ultimos": [
+        {
+          "data": "2026-11-09",
+          "semana": "2026-S46",
+          "resumo": "O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais. A taxa média a um ano subiu para 22,26% e a prime rate ficou em 15,50%.",
+          "direccao": "Comparar propostas de bancos e evitar crédito caro ao consumo."
+        }
+      ]
+    },
+    {
+      "id": "divida",
+      "nome": "Dívida pública e FMI",
+      "desde": "2026-11-09",
+      "ultimos": [
+        {
+          "data": "2026-11-09",
+          "semana": "2026-S46",
+          "resumo": "A estratégia da dívida 2025-2029 foi aprovada a 4 de Novembro, com dívida recorde de 1,072 biliões de meticais. O Governo espera um programa do FMI até ao fim do ano.",
+          "direccao": "Acompanhar o programa do FMI e o custo do crédito."
+        }
+      ]
+    },
+    {
+      "id": "ensino_privado",
+      "nome": "Ensino privado",
+      "desde": "2026-11-09",
+      "ultimos": [
+        {
+          "data": "2026-11-09",
+          "semana": "2026-S46",
+          "resumo": "O Decreto 54/2026 torna o ensino privado presencial e dá 18 meses às escolas para se adaptarem.",
+          "direccao": "Escolas privadas devem rever licenças e currículos."
+        }
+      ]
     }
   ],
+  "direccoes_a_verificar": [],
   "balanco_direccoes": {
-    "confirmada": 0,
+    "confirmada": 1,
     "parcial": 8,
-    "nao_confirmada": 0,
-    "pendente": 34
+    "nao_confirmada": 1,
+    "pendente": 35
   },
   "ultimas_licoes": [
-    "- 2026-11-01 (2026-S44): Aos domingos a pesquisa devolve pouco material datado; uma notícia de 2023 sobre adiamento da tarifa do chapa apareceu nos resultados e foi rejeitada pela data.",
     "- 2026-11-02 (2026-S45): Às segundas a pesquisa devolve pouco material datado de domingo e segunda: a redacção fica com o que tem fonte e data e regista o resto como lacuna.",
     "- 2026-11-03 (2026-S45): Às terças a pesquisa devolve pouco material datado: o detalhe do Orçamento de 2027 deu o assunto mais sólido do dia, e o RTP não data o artigo sobre a massa salarial.",
     "- 2026-11-04 (2026-S45): Às quartas a pesquisa devolve pouco material datado: o fecho de preços do chapa e do Brent segue sem fonte de 3 e 4 de Novembro.",
     "- 2026-11-05 (2026-S45): Uma subida do chapa pode ser anunciada pela FEMATRO sem sair nas fontes que a redacção segue; convém procurar também no Club of Mozambique e na Lusa.",
     "- 2026-11-06 (2026-S45): Às sextas o Brent só aparece numa cotação à vista sem fecho oficial; o prazo de 31 de Dezembro dos planos de aquisição do Conteúdo Local não consta das fontes jurídicas e passou a ser tratado como não confirmado.",
     "- 2026-11-07 (2026-S45): Aos sábados a pesquisa devolve pouco material datado de sexta e sábado: o fecho do Brent de 6 de Novembro não apareceu e a taxa MIMO de 30 de Setembro só foi confirmada por agregador.",
-    "- 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal."
+    "- 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal.",
+    "- 2026-11-09 (2026-S46): Uma cotação à vista do Brent pode divergir do fecho: convém confirmar o fecho oficial antes de publicar."
   ]
 }

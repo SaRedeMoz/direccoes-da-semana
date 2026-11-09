@@ -28,3 +28,4 @@
 - 2026-11-06 (2026-S45): Às sextas o Brent só aparece numa cotação à vista sem fecho oficial; o prazo de 31 de Dezembro dos planos de aquisição do Conteúdo Local não consta das fontes jurídicas e passou a ser tratado como não confirmado.
 - 2026-11-07 (2026-S45): Aos sábados a pesquisa devolve pouco material datado de sexta e sábado: o fecho do Brent de 6 de Novembro não apareceu e a taxa MIMO de 30 de Setembro só foi confirmada por agregador.
 - 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal.
+- 2026-11-09 (2026-S46): Uma cotação à vista do Brent pode divergir do fecho: convém confirmar o fecho oficial antes de publicar.

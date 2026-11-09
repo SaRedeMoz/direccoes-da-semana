@@ -1,0 +1,651 @@
+{
+  "itens": [
+    {
+      "titulo": "Governo mantém a tarifa do chapa em Maputo e paga compensações aos operadores",
+      "resumo": "A 6 de Novembro, o director nacional dos Transportes, Alberto Matusse, disse que não há aumento da tarifa a partir de 7 de Novembro. Os operadores recebem entre 25 mil e 90 mil meticais por mês e por viatura durante três meses, e a Fematro diz que as negociações continuam.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo",
+      "data": "2026-11-06",
+      "confianca": "alta",
+      "n": 1,
+      "recolhida": "2026-11-09"
+    },
+    {
+      "titulo": "Brent fecha a 98,29 dólares a 5 de Novembro",
+      "resumo": "O Brent subiu 3,67 dólares num dia, depois de ataques a petroleiros no Golfo e em Ormuz, e de uma queda forte a 4 de Novembro. A incerteza sobre uma solução diplomática para a guerra com o Irão mantém o preço instável.",
+      "ambito": "mundo",
+      "dimensao": "Económica",
+      "categoria": "precos",
+      "fonte": "Nation Thailand",
+      "url": "https://www.nationthailand.com/news/40073162",
+      "data": "2026-11-05",
+      "confianca": "media",
+      "n": 2,
+      "recolhida": "2026-11-09"
+    },
+    {
+      "titulo": "Crédito à economia cai em Agosto pelo terceiro mês seguido",
+      "resumo": "O crédito baixou para 291 169 milhões de meticais, face ao máximo de 293 853 milhões em Maio, segundo o Banco de Moçambique. A taxa média a um ano subiu para 22,26%, a prime rate fica em 15,50% pelo sexto mês e a MIMO em 9,25%.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "oficiais",
+      "fonte": "Lusa, com dados do Banco de Moçambique (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+      "data": "2026-11-04",
+      "confianca": "alta",
+      "n": 3,
+      "recolhida": "2026-11-09"
+    },
+    {
+      "titulo": "Conselho de Ministros aprova a estratégia da dívida pública de médio prazo",
+      "resumo": "A estratégia 2025-2029 foi aprovada a 4 de Novembro. A dívida pública atingiu um recorde de 1,072 biliões de meticais a 30 de Junho e a CTA diz que a medida reforça a confiança.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/economia/nova-estrategia-da-divida-publica-de-mocambique-reforca-confianca_n1697148",
+      "data": "2026-11-04",
+      "confianca": "media",
+      "n": 4,
+      "recolhida": "2026-11-09"
+    },
+    {
+      "titulo": "Decreto 54/2026 obriga o ensino privado a ser presencial",
+      "resumo": "O decreto substitui o de 1990, exige História e Geografia de Moçambique nas escolas de currículo estrangeiro e dá 18 meses de adaptação. As multas vão de 20 a 50 salários mínimos da Administração Pública.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-exige-historia-nacional-as-escolas-estrangeiras-e-ensino-privado-presencial_n1770557",
+      "data": "2026-11-06",
+      "confianca": "media",
+      "n": 5,
+      "recolhida": "2026-11-09"
+    },
+    {
+      "titulo": "Novo programa com o FMI pode ficar fechado até ao fim do ano",
+      "resumo": "O Ministério das Finanças espera concluir um programa até Dezembro, depois de uma missão técnica do FMI que terminou a 18 de Setembro. Os temas incluem dívida, política monetária e mercado cambial.",
+      "ambito": "mundo",
+      "dimensao": "Económica",
+      "categoria": "internacional",
+      "fonte": "AllAfrica",
+      "url": "https://allafrica.com/stories/202609110252.html",
+      "data": "2026-09-18",
+      "confianca": "media",
+      "n": 6,
+      "recolhida": "2026-11-09"
+    }
+  ],
+  "processados": [],
+  "sugestoes_semana": [],
+  "versao": 1,
+  "proximo_n": 7,
+  "lacunas": [
+    "Inflação de Outubro (INE, perto de 10 de Novembro)",
+    "Preços de milho e arroz nas três capitais",
+    "Tarifa do chapa na Beira e em Nampula"
+  ],
+  "fontes_consultadas": [
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa via Notícias ao Minuto",
+      "url": "https://www.noticiasaominuto.com",
+      "data": "2026-11-09"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "Banco de Moçambique",
+      "url": "https://www.bancomoc.mz",
+      "data": "2026-11-09"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "Brent (Nation Thailand)",
+      "url": "https://www.nationthailand.com/news/40073162",
+      "data": "2026-11-09"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "AllAfrica (FMI)",
+      "url": "https://allafrica.com/stories/202609110252.html",
+      "data": "2026-11-09"
+    }
+  ],
+  "analise": {
+    "destaques": {
+      "mundo": [
+        "Brent fecha a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo",
+        "Novo programa do FMI pode ficar fechado até ao fim do ano",
+        "Brent recua para cerca de 105 dólares numa cotação à vista de 5 de Novembro"
+      ],
+      "nacional": [
+        "Crédito à economia cai em Agosto pelo terceiro mês seguido, com juros médios a 22,26%",
+        "Governo mantém a tarifa do chapa em Maputo e paga compensações aos operadores",
+        "Conselho de Ministros aprova a estratégia da dívida, com dívida recorde de 1,07 biliões de meticais",
+        "Decreto 54/2026 obriga o ensino privado a ser presencial",
+        "Orçamento de 2027 corta cerca de 8% em termos reais",
+        "PAM só mantém a ajuda actual até Dezembro",
+        "Julgamento de Mondlane marcado para 17 de Novembro",
+        "Regulamento do Conteúdo Local aguarda publicação"
+      ]
+    },
+    "pestal": [
+      {
+        "dimensao": "Política",
+        "oportunidades": [
+          {
+            "texto": "Estratégia da dívida aprovada",
+            "origem": "interna"
+          },
+          {
+            "texto": "Negociação do programa do FMI",
+            "origem": "externa"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Julgamento de Mondlane a 17 de Novembro",
+            "origem": "interna"
+          },
+          {
+            "texto": "Tarifa do chapa sem solução duradoura",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Estratégia da dívida aprovada",
+        "principal_ameaca": "Tarifa do chapa sem solução"
+      },
+      {
+        "dimensao": "Económica",
+        "oportunidades": [
+          {
+            "texto": "Brent abaixo de 100 dólares",
+            "origem": "externa"
+          },
+          {
+            "texto": "Taxa MIMO estável em 9,25%",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Crédito a cair há três meses",
+            "origem": "interna"
+          },
+          {
+            "texto": "Juros médios a 22,26%",
+            "origem": "interna"
+          },
+          {
+            "texto": "Dívida pública em máximo",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Brent abaixo de 100 dólares",
+        "principal_ameaca": "Crédito a cair, juros a 22%"
+      },
+      {
+        "dimensao": "Social",
+        "oportunidades": [
+          {
+            "texto": "Tarifa do chapa mantida",
+            "origem": "interna"
+          },
+          {
+            "texto": "Compensações aos operadores",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Ajuda alimentar corta em Janeiro",
+            "origem": "externa"
+          },
+          {
+            "texto": "Chapa pode subir depois de três meses",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Tarifa do chapa mantida",
+        "principal_ameaca": "Ajuda alimentar corta em Janeiro"
+      },
+      {
+        "dimensao": "Tecnológica",
+        "oportunidades": [
+          {
+            "texto": "Registo digital de fornecedores locais",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Ensino só presencial limita o digital",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 1,
+        "principal_oportunidade": "Registo digital de fornecedores",
+        "principal_ameaca": "Ensino à distância proibido"
+      },
+      {
+        "dimensao": "Ambiental",
+        "oportunidades": [
+          {
+            "texto": "Plano de 125 milhões contra El Niño",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "El Niño e chuvas tardias",
+            "origem": "externa"
+          },
+          {
+            "texto": "Fraca colheita na época 2026/27",
+            "origem": "externa"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "125 milhões contra o El Niño",
+        "principal_ameaca": "El Niño e chuvas tardias"
+      },
+      {
+        "dimensao": "Legal",
+        "oportunidades": [
+          {
+            "texto": "Preferência de 20% a fornecedores nacionais",
+            "origem": "interna"
+          },
+          {
+            "texto": "Novo regime do ensino privado",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Regulamento por publicar",
+            "origem": "interna"
+          },
+          {
+            "texto": "Multas até 300 mil dólares",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Preferência de 20% a nacionais",
+        "principal_ameaca": "Regulamento ainda por publicar"
+      }
+    ],
+    "impacto": [
+      {
+        "grupo": "Governo",
+        "saldo": -1,
+        "porque": "dívida recorde e orçamento apertado",
+        "efeito": "negativo",
+        "explicacao": "A dívida chegou a 1,07 biliões de meticais e a despesa de 2027 cai cerca de 8% em termos reais, mas a estratégia da dívida e o FMI dão alguma margem."
+      },
+      {
+        "grupo": "Classe baixa",
+        "saldo": -1,
+        "porque": "ajuda alimentar corta e El Niño",
+        "efeito": "negativo",
+        "explicacao": "A tarifa do chapa fica por agora, mas o PAM reduz a ajuda em Janeiro e o milho pode encarecer com o El Niño."
+      },
+      {
+        "grupo": "Classe média",
+        "saldo": -1,
+        "porque": "crédito caro e inflação perto de 7%",
+        "efeito": "negativo",
+        "explicacao": "Os juros médios a um ano estão em 22,26%, o que encarece o crédito pessoal e a casa."
+      },
+      {
+        "grupo": "Classe alta e investidores",
+        "saldo": 1,
+        "porque": "títulos públicos rendem mais",
+        "efeito": "positivo",
+        "explicacao": "Com crédito privado a cair e juros altos, os bancos e quem tem capital ganham com títulos do Estado e com o gás a avançar."
+      },
+      {
+        "grupo": "ONGs e parceiros",
+        "saldo": -1,
+        "porque": "cortes do PAM e procura a subir",
+        "efeito": "negativo",
+        "explicacao": "Com mais de um milhão de pessoas a precisar de ajuda entre Dezembro e Janeiro e menos financiamento, as ONGs enfrentam mais procura com menos meios."
+      },
+      {
+        "grupo": "Macroeconomia",
+        "saldo": 0,
+        "porque": "Brent mais baixo, dívida mais alta",
+        "efeito": "misto",
+        "explicacao": "O petróleo abaixo de 100 dólares alivia a factura externa, mas o crédito em queda trava a actividade."
+      },
+      {
+        "grupo": "PMEs",
+        "saldo": -2,
+        "porque": "crédito a cair e juros de 22%",
+        "efeito": "negativo",
+        "explicacao": "Um empréstimo de 500 mil meticais a 22,26% custa cerca de 111 mil de juros por ano, contra 77 mil à prime rate."
+      },
+      {
+        "grupo": "Ramos de negócio",
+        "saldo": -1,
+        "porque": "banca ganha, construção e extractivas perdem",
+        "efeito": "negativo",
+        "explicacao": "Ganham a banca, o comércio e o crédito pessoal; perdem a construção e as indústrias extractivas, onde o crédito caiu em Agosto."
+      }
+    ],
+    "direccao": [
+      {
+        "publico": "Famílias",
+        "accao": "Evitar crédito ao consumo a mais de 20% e guardar reserva de básicos antes de Janeiro."
+      },
+      {
+        "publico": "PMEs",
+        "accao": "Comparar propostas de pelo menos dois bancos e negociar prazos com clientes antes de pedir empréstimo."
+      },
+      {
+        "publico": "Utentes do chapa",
+        "accao": "Pagar a tarifa afixada e guardar folga para uma subida depois dos três meses de compensação."
+      },
+      {
+        "publico": "Fornecedores do Estado e do gás",
+        "accao": "Juntar certidões e esperar a publicação do regulamento antes de pagar a intermediários."
+      },
+      {
+        "publico": "Agricultores",
+        "accao": "Comprar sementes e insumos cedo, antes do início tardio das chuvas."
+      }
+    ],
+    "sinal": "Crédito à economia em Setembro, inflação de Outubro (perto de 10 de Novembro), decisão do Banco de Moçambique sobre a MIMO, fim das compensações do chapa em Fevereiro, Brent acima ou abaixo de 100 dólares e julgamento de Mondlane a 17 de Novembro.",
+    "sintese": "O crédito à economia baixou pelo terceiro mês seguido, com juros médios de 22,26% que pesam sobretudo nas PMEs. O Governo adiou a subida do chapa com três meses de compensações, e o Brent fechou perto de 98 dólares. Com o Estado muito endividado e a ajuda alimentar a diminuir em Janeiro, o aperto vai sentir-se no bolso das famílias e nas contas das pequenas empresas.",
+    "o_que_mudou_hoje": "O Governo confirmou que o chapa de Maputo não sobe e pagará compensações durante três meses; o Brent fechou a 98,29 dólares; e o Banco de Moçambique mostrou o crédito a cair pelo terceiro mês, com juros médios a subir para 22,26%.",
+    "canais": [
+      {
+        "choque": "Crédito privado a cair",
+        "passos": [
+          "Banca prefere títulos públicos",
+          "Menos crédito às PMEs",
+          "Menos investimento e emprego",
+          "Menos rendimento às famílias"
+        ],
+        "quem_sente": "PMEs, trabalhadores e famílias",
+        "prazo": "meses"
+      },
+      {
+        "choque": "Fim das compensações ao chapa",
+        "passos": [
+          "Compensação acaba em Fevereiro",
+          "Operadores pedem nova tarifa",
+          "Bilhete sobe cerca de 5 meticais",
+          "Despesa diária das famílias sobe"
+        ],
+        "quem_sente": "Utentes do chapa na Grande Maputo",
+        "prazo": "meses"
+      },
+      {
+        "choque": "Ajuda alimentar corta",
+        "passos": [
+          "PAM reduz ajuda em Janeiro",
+          "El Niño reduz colheita",
+          "Milho fica mais caro",
+          "Famílias gastam mais em comida"
+        ],
+        "quem_sente": "Classe baixa e agricultores",
+        "prazo": "semanas"
+      }
+    ],
+    "cenarios": [
+      {
+        "nome": "Melhora",
+        "probabilidade": 20,
+        "descricao": "Juros descem com o programa do FMI e o crédito às PMEs recupera no primeiro trimestre.",
+        "sinal": "Prime rate abaixo de 15% e crédito a subir em Setembro"
+      },
+      {
+        "nome": "Fica igual",
+        "probabilidade": 50,
+        "descricao": "A prime rate fica em 15,5%, o crédito oscila e as PMEs continuam a pagar juros acima de 20%.",
+        "sinal": "Taxa média a um ano acima de 21%"
+      },
+      {
+        "nome": "Piora",
+        "probabilidade": 30,
+        "descricao": "A inflação sobe, o Banco de Moçambique agrava a MIMO e o crédito cai mais.",
+        "sinal": "Inflação de Outubro acima de 7,5%"
+      }
+    ],
+    "riscos": [
+      {
+        "risco": "Crédito às PMEs continua a cair",
+        "probabilidade": 3,
+        "impacto": 3,
+        "nota": "Três meses seguidos de queda, até Agosto."
+      },
+      {
+        "risco": "Chapa sobe quando acabam as compensações",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Compensações cobrem três meses, depois falta solução duradoura."
+      },
+      {
+        "risco": "Atraso do programa do FMI",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "O Governo espera fechar até ao fim do ano, sem garantia."
+      },
+      {
+        "risco": "Milho encarece com El Niño",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Época chuvosa tardia e ajuda do PAM a diminuir."
+      },
+      {
+        "risco": "Brent volta acima de 105 dólares",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Ataques a petroleiros no Golfo continuam."
+      }
+    ],
+    "horizonte": {
+      "imediato": "Inflação de Outubro e julgamento de Mondlane a 17 de Novembro.",
+      "tres_meses": "Fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar a partir de Janeiro.",
+      "um_ano": "Orçamento de 2027 a funcionar e possível acordo com o FMI a mudar o custo do crédito."
+    },
+    "vulnerabilidade": [
+      {
+        "grupo": "Classe baixa",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Gasta a maior parte do rendimento em comida e transporte."
+      },
+      {
+        "grupo": "Classe média",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Sente os juros do crédito pessoal e da casa."
+      },
+      {
+        "grupo": "Trabalhadores informais e agricultores",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Dependem do chapa, do mercado e da chuva."
+      },
+      {
+        "grupo": "PMEs",
+        "exposicao": 3,
+        "margem": 2,
+        "nota": "Pagam juros acima de 20% e têm menos crédito disponível."
+      }
+    ],
+    "confianca": {
+      "grau": "media",
+      "base": "dados do Banco de Moçambique via Lusa e declarações oficiais, com o Brent numa só agência"
+    },
+    "continuidade": "O chapa de Maputo, que na semana passada tinha um aumento anunciado pelos operadores, ficou fixo com compensações de três meses. O Brent baixou de cerca de 105 para 98 dólares e o crédito, que não estava em foco, passou a ser o tema principal da semana."
+  },
+  "design": {
+    "slides": [
+      {
+        "titulo": "Direcções da Semana",
+        "texto": "",
+        "tom": "neutro",
+        "imagem_termos": "Beira Mozambique coast"
+      },
+      {
+        "titulo": "Crédito cai pelo terceiro mês",
+        "texto": "O crédito à economia baixou para 291 169 milhões de meticais em Agosto. A taxa média a um ano subiu para 22,26%.",
+        "tom": "alerta",
+        "imagem_termos": "Maputo bank building"
+      },
+      {
+        "titulo": "Chapa de Maputo não sobe",
+        "texto": "O Governo manteve a tarifa e paga entre 25 mil e 90 mil meticais por mês a cada viatura durante três meses.",
+        "tom": "neutro",
+        "imagem_termos": "Maputo minibus chapa"
+      },
+      {
+        "titulo": "Brent fecha abaixo de 100 dólares",
+        "texto": "O petróleo fechou a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo.",
+        "tom": "oportunidade",
+        "imagem_termos": "oil tanker"
+      },
+      {
+        "titulo": "Dívida pública em máximo",
+        "texto": "A dívida chegou a 1,072 biliões de meticais em Junho. O Governo aprovou a estratégia para 2025 a 2029.",
+        "tom": "alerta",
+        "imagem_termos": "Maputo city hall"
+      },
+      {
+        "titulo": "Ensino privado passa a presencial",
+        "texto": "O Decreto 54/2026 dá 18 meses às escolas para se adaptarem e exige História de Moçambique nas de currículo estrangeiro.",
+        "tom": "neutro",
+        "imagem_termos": "school classroom Africa"
+      }
+    ],
+    "manchete": "Crédito cai, chapa fica a 15 meticais e Brent abaixo de 100",
+    "destaques_capa": [
+      "Crédito cai pelo terceiro mês",
+      "Chapa de Maputo não sobe",
+      "Brent fecha a 98 dólares"
+    ],
+    "legenda": "O crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios chegaram a 22,26%. O chapa de Maputo fica a 15 meticais, com compensações do Estado por três meses. Direcção: comparar propostas de crédito e guardar folga para o transporte.",
+    "hashtags": [
+      "#Moçambique",
+      "#DirecçõesDaSemana"
+    ],
+    "fontes_usadas": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "textos": {
+    "whatsapp": "*DIRECÇÕES DA SEMANA*\n\n*MUNDO*\nO Brent fechou a 98,29 dólares a 5 de Novembro, depois de novos ataques a petroleiros no Golfo e em Ormuz. O Governo espera um programa do FMI até ao fim do ano.\n\n*MOÇAMBIQUE*\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A taxa média a um ano subiu para 22,26%, com a prime rate em 15,50%.\n\nNo transporte, o Governo manteve a tarifa do chapa na Grande Maputo e vai pagar aos operadores entre 25 mil e 90 mil meticais por mês e por viatura durante três meses. A Fematro diz que as negociações continuam.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem sobretudo as PMEs, que pagam juros altos e têm menos crédito, e as famílias de rendimento baixo, que veem a ajuda do PAM diminuir em Janeiro. Ganham quem tem capital para aplicar em títulos do Estado.\n\n*DIRECÇÃO*\nPMEs: comparar propostas de pelo menos dois bancos antes de pedir empréstimo. Famílias: evitar crédito ao consumo caro e guardar reserva de básicos antes de Janeiro. Utentes do chapa: pagar a tarifa afixada e guardar folga para depois de Fevereiro.\n\n*PRÓXIMA SEMANA*\nO INE publica a inflação de Outubro perto de 10 de Novembro e o julgamento de Mondlane começa a 17 de Novembro.\n\nPartilhe esta mensagem com quem precisa de decidir sobre crédito e transporte.",
+    "linkedin": "O crédito à economia moçambicana caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, depois do máximo de 293 853 milhões em Maio. Os dados são do Banco de Moçambique, divulgados pela Lusa a 4 de Novembro.\n\nO preço do dinheiro explica parte do problema. A taxa média a um ano subiu para 22,26% em Agosto, face a 21,27% em Julho. A prime rate está em 15,50% pelo sexto mês e a taxa MIMO em 9,25%.\n\nAo mesmo tempo, a dívida pública chegou a 1,072 biliões de meticais em Junho, um recorde. O Conselho de Ministros aprovou a 4 de Novembro a estratégia de gestão da dívida de médio prazo, e o Governo espera fechar um novo programa com o FMI até ao fim do ano. Quando o Estado precisa de financiamento, os bancos têm menos incentivo para emprestar às empresas.\n\nNa Grande Maputo, o Governo manteve a tarifa do chapa e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.\n\nGanham a banca e quem aplica capital em títulos públicos. Perdem as PMEs e a construção, onde o crédito caiu.\n\nDirecção\n\nPara uma PME, um empréstimo de 500 mil meticais a 22,26% custa cerca de 111 mil meticais de juros num ano. À prime rate seriam cerca de 77 mil. Comparar bancos, negociar prazos com os clientes e reduzir o valor pedido são os passos mais seguros agora.\n\nO sinal a seguir é o crédito de Setembro e a inflação de Outubro. Se a inflação passar de 7,5%, o aperto deve continuar em 2027.\n\n#Moçambique #Crédito #PMEs",
+    "instagram": "O crédito caiu pelo terceiro mês e os juros médios chegaram a 22,26%. O chapa de Maputo fica a 15 meticais, com compensações do Estado por três meses. Brent fechou a 98,29 dólares. Direcção: compare bancos antes de pedir crédito e guarde folga para o transporte. #Moçambique #DirecçõesDaSemana",
+    "facebook": "O crédito à economia caiu em Agosto pelo terceiro mês seguido, segundo o Banco de Moçambique. Ficou em 291 169 milhões de meticais, abaixo do máximo de Maio.\n\nQuem pede emprestado paga caro. A taxa média a um ano subiu para 22,26%. Para uma pequena empresa que pede 500 mil meticais, são cerca de 111 mil meticais de juros num ano. Se a taxa fosse a prime rate, de 15,50%, seriam cerca de 77 mil.\n\nNo transporte, o Governo manteve a tarifa do chapa na Grande Maputo e paga compensações aos operadores durante três meses. O aumento de 5 meticais que a Fematro tinha anunciado para 7 de Novembro não avançou. Mas a conversa não acabou: a Fematro diz que as negociações continuam.\n\nO petróleo ajudou um pouco. O Brent fechou a 98,29 dólares a 5 de Novembro, abaixo dos 100.\n\nO que fazer: quem pensa pedir crédito deve comparar propostas de pelo menos dois bancos e evitar dívida cara para consumo. Quem anda de chapa deve guardar uma folga no orçamento, porque as compensações acabam em Fevereiro.\n\n#Moçambique #Crédito",
+    "analise_completa": "## Resumo da semana\n\nO crédito à economia moçambicana baixou em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique, divulgado pela Lusa a 4 de Novembro. A taxa média a um ano subiu para 22,26%. Ao mesmo tempo, o Governo manteve a tarifa do chapa na Grande Maputo, com compensações aos operadores por três meses, e o Brent fechou abaixo dos 100 dólares.\n\n## O que mudou face às semanas anteriores\n\nO aumento de 5 meticais do chapa, anunciado pela Fematro para 7 de Novembro, não avançou. O Brent, que numa cotação à vista rondava 105 dólares, fechou a 98,29. O crédito passou a ser o assunto principal.\n\n## Mundo\n\nO Brent subiu 3,67 dólares a 5 de Novembro, depois de ataques a petroleiros no Golfo e em Ormuz. O Governo moçambicano espera concluir um programa com o FMI até ao fim do ano, depois de uma missão técnica que terminou a 18 de Setembro.\n\n## Moçambique\n\nO crédito caiu depois do máximo de 293 853 milhões de meticais em Maio. A prime rate manteve-se em 15,50% pelo sexto mês e a MIMO em 9,25%.\n\nA dívida pública chegou a 1,072 biliões de meticais a 30 de Junho, um recorde. O Conselho de Ministros aprovou a 4 de Novembro a estratégia de gestão da dívida 2025 a 2029, que a CTA saudou como reforço de confiança.\n\nO Decreto 54/2026 torna o ensino privado presencial e dá 18 meses de adaptação às escolas.\n\n## PESTAL\n\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Estratégia da dívida aprovada (int.); negociação do FMI (ext.) | Julgamento de Mondlane a 17 de Novembro (int.); chapa sem solução duradoura (int.) |\n| Económica | Brent abaixo de 100 dólares (ext.); MIMO estável (int.) | Crédito a cair (int.); juros a 22,26% (int.); dívida em máximo (int.) |\n| Social | Tarifa do chapa mantida (int.); compensações aos operadores (int.) | Corte da ajuda alimentar em Janeiro (ext.); chapa pode subir depois de três meses (int.) |\n| Tecnológica | Registo digital de fornecedores locais (int.) | Ensino à distância proibido (int.) |\n| Ambiental | Plano de 125 milhões contra o El Niño (int.) | El Niño e chuvas tardias (ext.); fraca colheita (ext.) |\n| Legal | Preferência de 20% a fornecedores nacionais (int.); novo regime do ensino privado (int.) | Regulamento por publicar (int.); multas até 300 mil dólares (int.) |\n\n## Como chega ao seu bolso\n\nCrédito a cair: a banca prefere títulos públicos, as PMEs recebem menos crédito e o emprego abranda. Fim das compensações ao chapa: acabam em Fevereiro e o bilhete pode subir cerca de 5 meticais. Corte da ajuda alimentar: o PAM reduz a ajuda em Janeiro e o milho pode encarecer com o El Niño.\n\n## Cenários\n\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | Juros descem com o programa do FMI e o crédito às PMEs recupera no primeiro trimestre | Prime rate abaixo de 15% e crédito a subir em Setembro |\n| Fica igual | 50% | A prime rate fica em 15,5% e as PMEs pagam juros acima de 20% | Taxa média a um ano acima de 21% |\n| Piora | 30% | A inflação sobe, a MIMO sobe e o crédito cai mais | Inflação de Outubro acima de 7,5% |\n\n## Riscos\n\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Crédito às PMEs continua a cair | Alta | Alto |\n| Chapa sobe quando acabam as compensações | Média | Médio |\n| Atraso do programa do FMI | Média | Alto |\n| Milho encarece com El Niño | Média | Alto |\n| Brent volta acima de 105 dólares | Média | Médio |\n\n## Horizonte\n\nImediato: inflação de Outubro e julgamento de Mondlane a 17 de Novembro. Em 3 meses: fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar a partir de Janeiro. Em 1 ano: o Orçamento de 2027 em execução e um possível acordo com o FMI a mudar o custo do crédito.\n\n## Quem está mais exposto\n\nClasse baixa, trabalhadores informais e agricultores: exposição 3, margem 1. PMEs: exposição 3, margem 2. Classe média: exposição 2, margem 2.\n\n## Quem ganha, quem perde\n\nGoverno, classe baixa, classe média, ONGs e parceiros perdem: dívida recorde, corte da ajuda, crédito caro. Classe alta e investidores ganham com títulos públicos. Macroeconomia fica equilibrada. PMEs perdem muito, com juros de 22%. Nos ramos de negócio, ganham a banca e o comércio e perdem a construção e as extractivas.\n\n## Direcção\n\nFamílias: evitar crédito ao consumo a mais de 20% e guardar reserva de básicos antes de Janeiro. PMEs: comparar propostas de pelo menos dois bancos e negociar prazos com clientes. Utentes do chapa: pagar a tarifa afixada e guardar folga. Fornecedores do Estado e do gás: juntar certidões e esperar a publicação do regulamento. Agricultores: comprar insumos cedo.\n\n## Direcções anteriores: o que se confirmou\n\nPagar a tarifa nova do chapa só depois do anúncio oficial do município: confirmada, porque o Governo manteve a tarifa a 6 de Novembro. Orçar mais 5 meticais por rota desde 7 de Novembro: não confirmada, porque o aumento não entrou em vigor.\n\n## Sinal a acompanhar\n\nCrédito de Setembro, inflação de Outubro, decisão sobre a MIMO, fim das compensações do chapa em Fevereiro e Brent acima ou abaixo de 100 dólares.\n\n## Grau de confiança\n\nMédia. Os dados do crédito vêm do Banco de Moçambique via Lusa; o fecho do Brent vem de uma só agência.\n\n## Fontes\n\nOficiais: [Banco de Moçambique via Lusa](https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto)\nPreços: [Brent, Nation Thailand](https://www.nationthailand.com/news/40073162)\nImprensa nacional: [Governo mantém tarifas, Lusa](https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo); [Estratégia da dívida, RTP](https://www.rtp.pt/noticias/economia/nova-estrategia-da-divida-publica-de-mocambique-reforca-confianca_n1697148); [Decreto 54/2026, RTP](https://www.rtp.pt/noticias/mundo/mocambique-exige-historia-nacional-as-escolas-estrangeiras-e-ensino-privado-presencial_n1770557)\nInternacional: [FMI, AllAfrica](https://allafrica.com/stories/202609110252.html)",
+    "verificar": [
+      "Fecho do Brent a 98,29 dólares a 5 de Novembro (uma só agência)",
+      "Data de publicação do Decreto 54/2026",
+      "Compensações de 25 mil a 90 mil meticais por viatura e por mês",
+      "⚠️ Categorias de fontes não consultadas hoje: imprensa_economica",
+      "⚠️ 2 notícias sobre combustível ou chapa na edição (máximo 1)",
+      "⚠️ A edição só cobre 2 dimensões do PESTAL (mínimo 4)"
+    ],
+    "duvidas": [],
+    "conformidade": [
+      {
+        "criterio": "Notícias do mundo",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Notícias de Moçambique",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Canais de transmissão: como os acontecimentos principais chegam ao bolso",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Três cenários (melhora, fica igual, piora) com probabilidade e sinal",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Riscos com probabilidade e impacto",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Horizonte: imediato, 3 meses, 1 ano",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Vulnerabilidade por grupo",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Impacto em cada um dos 8 grupos",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Direcção prática por público",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Sinal a acompanhar",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "Grau de confiança e fontes por categoria",
+        "ok": true,
+        "nota": "Incluído"
+      },
+      {
+        "criterio": "O que mudou face às semanas anteriores, só quando o assunto volta com facto novo",
+        "ok": true,
+        "nota": "Incluído"
+      }
+    ]
+  },
+  "memoria_actualizada": {
+    "em": "2026-11-09",
+    "indicadores": 4,
+    "temas": 4,
+    "direccoes": 3
+  },
+  "falhas_conformidade": [
+    "Categorias de fontes não consultadas hoje: imprensa_economica",
+    "2 notícias sobre combustível ou chapa na edição (máximo 1)",
+    "A edição só cobre 2 dimensões do PESTAL (mínimo 4)"
+  ],
+  "incluir_itens": []
+}

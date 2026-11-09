@@ -364,8 +364,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-09",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "confirmada",
+    "nota": "O Governo confirmou a 6 de Novembro que a tarifa não mudou.",
+    "verificada_em": "2026-11-09"
   },
   {
     "id": "D31",
@@ -436,8 +437,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-09",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "nao_confirmada",
+    "nota": "O aumento de 5 meticais não entrou em vigor a 7 de Novembro.",
+    "verificada_em": "2026-11-09"
   },
   {
     "id": "D37",
@@ -508,6 +510,42 @@
     "tema": "el_nino",
     "horizonte": "trimestre",
     "verificar_em": "2027-01-31",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D43",
+    "data": "2026-11-09",
+    "semana": "2026-S46",
+    "publico": "PMEs",
+    "accao": "Comparar propostas de pelo menos dois bancos e negociar prazos com clientes antes de pedir empréstimo.",
+    "tema": "credito",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-09",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D44",
+    "data": "2026-11-09",
+    "semana": "2026-S46",
+    "publico": "Famílias",
+    "accao": "Evitar crédito ao consumo a mais de 20% e guardar reserva de básicos antes de Janeiro.",
+    "tema": "credito",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-31",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D45",
+    "data": "2026-11-09",
+    "semana": "2026-S46",
+    "publico": "Utentes do chapa na Grande Maputo",
+    "accao": "Pagar a tarifa afixada e guardar folga para depois das compensações.",
+    "tema": "combustivel",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-09",
     "resultado": "pendente",
     "nota": ""
   }

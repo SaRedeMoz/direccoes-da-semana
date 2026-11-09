@@ -1,0 +1,254 @@
+{
+  "tipo": "dia",
+  "area": "Crédito, banca e câmbio",
+  "tema": "Crédito a cair e juros a subir: quem consegue empréstimo em 2027?",
+  "pergunta": "Crédito cai e juros sobem: quem consegue empréstimo em 2027?",
+  "facto": {
+    "texto": "O crédito à economia baixou em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, abaixo do máximo de 293 853 milhões em Maio. A taxa média a um ano subiu de 21,27% para 22,26%, enquanto a prime rate ficou em 15,50% pelo sexto mês. A dívida pública chegou a 1,072 biliões de meticais em Junho.",
+    "numeros": [
+      {
+        "valor": "291 169 M MT",
+        "legenda": "crédito em Agosto"
+      },
+      {
+        "valor": "22,26%",
+        "legenda": "juro médio a um ano"
+      },
+      {
+        "valor": "15,50%",
+        "legenda": "prime rate, sexto mês"
+      }
+    ],
+    "fonte": "Banco de Moçambique, via Lusa, 4 de Novembro de 2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Mai",
+      "texto": "Crédito atinge o máximo de 293 853 milhões",
+      "futuro": false
+    },
+    {
+      "data": "18 Set",
+      "texto": "Missão técnica do FMI termina em Maputo",
+      "futuro": false
+    },
+    {
+      "data": "Ago",
+      "texto": "Crédito cai a 291 169 milhões, juro a 22,26%",
+      "futuro": false
+    },
+    {
+      "data": "4 Nov",
+      "texto": "Conselho de Ministros aprova a estratégia da dívida",
+      "futuro": false
+    },
+    {
+      "data": "Dez",
+      "texto": "Programa do FMI esperado pelo Governo",
+      "futuro": true
+    },
+    {
+      "data": "Dez",
+      "texto": "Banco de Moçambique divulga o crédito de Setembro",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "2016 e 2017",
+    "o_que_aconteceu": "Com a ajuda directa ao orçamento congelada, o Estado passou a emitir títulos. O crédito à economia caiu 10,4% em 2017 e os juros de empréstimo chegaram a 27,9%.",
+    "licao": "Quando o Estado pede dinheiro à banca, as PMEs ficam com menos crédito e mais caro.",
+    "fonte": "FMI, consulta do Artigo IV de 2017 e 2018"
+  },
+  "porque_importa": "As PMEs dependem do crédito para comprar stock e pagar salários. Com juros acima de 22%, muitas adiam investimento e contratações. As famílias sentem-no no crédito pessoal e na casa.",
+  "canal": {
+    "passos": [
+      "Estado precisa de financiamento",
+      "Banca compra títulos públicos",
+      "Menos crédito às PMEs",
+      "Menos emprego e investimento"
+    ],
+    "quem_sente": "PMEs, trabalhadores e famílias"
+  },
+  "conta": {
+    "titulo": "Juros de 500 mil MT por um ano",
+    "pressupostos": "Empréstimo de 500 mil meticais a um ano, juros simples, sem comissões. O terceiro valor é uma hipótese a 25%.",
+    "barras": [
+      {
+        "rotulo": "Prime rate 15,50%",
+        "valor": 77500,
+        "texto": "77 500 MT"
+      },
+      {
+        "rotulo": "Média 22,26%",
+        "valor": 111300,
+        "texto": "111 300 MT"
+      },
+      {
+        "rotulo": "Hipótese 25%",
+        "valor": 125000,
+        "texto": "125 000 MT"
+      }
+    ],
+    "unidade": "MT de juros por ano",
+    "conclusao": "A taxa média custa mais 33 800 meticais por ano do que a prime rate."
+  },
+  "cenarios": [
+    {
+      "nome": "FMI baixa o custo do dinheiro",
+      "tipo": "melhora",
+      "probabilidade": 15,
+      "porque_probabilidade": "Em 2017 a queda durou um ano; a prime rate está parada há seis meses, e o programa do FMI ainda não está fechado.",
+      "gatilho": "Programa do FMI aprovado até Dezembro e prime rate abaixo de 15%",
+      "o_que_acontece": "O acordo reduz o risco do país, o Estado pede menos à banca e os juros descem, devolvendo crédito às PMEs.",
+      "numeros": "Prime rate entre 14% e 15%; crédito acima de 295 mil milhões MT",
+      "quando": "até Março de 2027",
+      "ganha": "PMEs e construção",
+      "perde": "Quem vive de títulos públicos",
+      "se_acontecer": "Pedir crédito para stock e equipamento, com taxa fixa se possível."
+    },
+    {
+      "nome": "Banca fica nos títulos do Estado",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "A prime rate parada seis meses e o crédito a oscilar sugerem persistência, mas a descida é lenta e não brusca.",
+      "gatilho": "Prime rate em 15,50% e crédito de Setembro entre 288 e 295 mil milhões",
+      "o_que_acontece": "A banca continua a comprar títulos do Estado e a emprestar pouco. O crédito oscila sem tendência e os juros ficam altos.",
+      "numeros": "Juro médio entre 21% e 23%; crédito entre 288 e 295 mil milhões MT",
+      "quando": "até Março de 2027",
+      "ganha": "Banca e investidores",
+      "perde": "PMEs e classe média",
+      "se_acontecer": "Reduzir o valor pedido e negociar prazos com clientes e fornecedores."
+    },
+    {
+      "nome": "Inflação obriga a apertar",
+      "tipo": "piora",
+      "probabilidade": 40,
+      "porque_probabilidade": "Em 2016 o aperto contra a inflação e a falta de ajuda levaram a uma queda de 10%; a inflação já ronda 7% e o El Niño pesa nos alimentos.",
+      "gatilho": "Inflação de Outubro acima de 7,5% e MIMO acima de 9,25%",
+      "o_que_acontece": "O Banco de Moçambique sobe a MIMO, os bancos exigem mais garantias e o crédito às PMEs encolhe, sobretudo na construção.",
+      "numeros": "Juro médio entre 23% e 26%; crédito abaixo de 288 mil milhões MT",
+      "quando": "até Março de 2027",
+      "ganha": "Quem tem capital em títulos",
+      "perde": "PMEs, construção e famílias endividadas",
+      "se_acontecer": "Adiar investimentos com empréstimo e amortizar dívida cara primeiro."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Crédito à economia em Setembro",
+      "limiar": "abaixo de 291 mil milhões MT",
+      "quando": "Dezembro de 2026",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Inflação de Outubro do INE",
+      "limiar": "acima de 7,5%",
+      "quando": "perto de 10 de Novembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Prime rate do Banco de Moçambique",
+      "limiar": "abaixo de 15%",
+      "quando": "até Fevereiro de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Acordo com o FMI",
+      "limiar": "programa aprovado pela direcção",
+      "quando": "até Dezembro de 2026",
+      "aponta_para": "melhora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "PMEs",
+      "saldo": -2,
+      "porque": "juros de 22% e menos crédito"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "crédito pessoal e casa mais caros"
+    },
+    {
+      "grupo": "Classe baixa",
+      "saldo": -1,
+      "porque": "emprego informal e crédito escasso"
+    },
+    {
+      "grupo": "Banca e investidores",
+      "saldo": 1,
+      "porque": "títulos do Estado rendem mais"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "dívida recorde e financiamento caro"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "PMEs",
+      "agora": "Comparar propostas de dois bancos, pedir só o necessário e negociar prazos com clientes.",
+      "se_piorar": "Adiar investimentos que dependam de empréstimo."
+    },
+    {
+      "publico": "Famílias",
+      "agora": "Evitar crédito ao consumo a mais de 20% e manter uma reserva.",
+      "se_piorar": "Amortizar primeiro a dívida mais cara."
+    },
+    {
+      "publico": "Trabalhadores informais",
+      "agora": "Preferir poupança em grupo (xitique) a empréstimos caros.",
+      "se_piorar": "Reduzir stock e vender a prazo curto."
+    },
+    {
+      "publico": "Investidores",
+      "agora": "Acompanhar o programa do FMI e a dívida pública.",
+      "se_piorar": "Manter liquidez e evitar prazos longos."
+    }
+  ],
+  "visao_contraria": "O crédito pessoal subiu em Agosto para 107 335 milhões, o comércio e a indústria também, o que mostra procura. O recuo de 0,9% desde Maio pode ser ajuste e não crise.",
+  "nao_sabemos": [
+    "O INE ainda não publicou a inflação de Outubro.",
+    "O Banco de Moçambique ainda não divulgou o crédito de Setembro.",
+    "O Governo ainda não fechou o programa com o FMI."
+  ],
+  "sinal": "Crédito de Setembro e inflação de Outubro",
+  "confianca": "media",
+  "base_confianca": "Dados do Banco de Moçambique via Lusa, precedente do FMI via resumo de pesquisa; sem leitura directa do relatório do FMI",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA*\n*O crédito encolhe e os juros sobem: quem consegue empréstimo em 2027?*\n\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A taxa média a um ano subiu para 22,26%, enquanto a prime rate está em 15,50% há seis meses.\n\n*A CONTA*\nUma PME que pede 500 mil meticais por um ano paga cerca de 111 mil de juros a 22,26%. À prime rate seriam 77 500. Se a taxa subir para 25%, seriam 125 000. São os pressupostos de uma conta simples, sem comissões.\n\n*PRECEDENTE*\nEm 2016 e 2017, depois do congelamento da ajuda directa ao orçamento, o crédito à economia caiu cerca de 10% em 2017, segundo o FMI, e os juros de empréstimo chegaram a 27,9%. Os bancos foram para os títulos do Estado.\n\n*TRÊS CENÁRIOS*\nMelhora, 15%: o programa do FMI fecha até Dezembro e a prime rate desce abaixo de 15% no primeiro trimestre de 2027.\nFica igual, 45%: a banca continua nos títulos do Estado e o crédito oscila entre 288 e 295 mil milhões até Março de 2027.\nPiora, 40%: a inflação sobe acima de 7,5%, o Banco de Moçambique aperta e o crédito às PMEs encolhe mais.\n\n*SINAIS*\nCrédito de Setembro, a divulgar em Dezembro: abaixo de 291 mil milhões aponta para piora. Inflação de Outubro: acima de 7,5% aponta para piora.\n\n*A OUTRA VISÃO*\nO crédito pessoal subiu em Agosto, para 107 335 milhões, e a banca diz que o risco é o problema, não a falta de dinheiro.\n\n*DIRECÇÃO*\nPMEs: comparar duas propostas de bancos e pedir só o necessário. Famílias: evitar crédito ao consumo caro. Se piorar, adiar investimentos que dependam de empréstimo.\n\nPartilhe com quem está a pensar pedir crédito.",
+    "instagram": "O crédito caiu pelo terceiro mês e a taxa média chegou a 22,26%. Um empréstimo de 500 mil meticais custa cerca de 111 mil de juros por ano. Probabilidade de piorar até Março: 40%. Direcção: compare dois bancos e peça só o necessário. #Moçambique #Crédito",
+    "facebook": "O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A taxa média de um empréstimo a um ano subiu para 22,26%.\n\nO que isto significa para uma pequena empresa: pedir 500 mil meticais por um ano custa cerca de 111 mil de juros. À prime rate de 15,50% seriam 77 500. Se a taxa chegar a 25%, serão 125 000.\n\nJá aconteceu antes. Em 2016 e 2017, quando o Estado ficou sem ajuda externa directa, o crédito caiu cerca de 10% e os juros chegaram a 27,9%. Os bancos preferiram emprestar ao Estado.\n\nO que pode acontecer até Março: 15% de probabilidade de melhorar, se o programa do FMI fechar e os juros descerem; 45% de ficar igual; 40% de piorar, se a inflação passar 7,5%.\n\nO que observar: o crédito de Setembro, que sai em Dezembro, e a inflação de Outubro, que sai esta semana.\n\nO que fazer: comparar propostas de dois bancos, pedir só o necessário e evitar crédito caro para consumo. Se a situação piorar, adiar investimentos que dependam de empréstimo.\n\n#Moçambique #Crédito",
+    "linkedin": "O crédito à economia moçambicana caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, depois do máximo de 293 853 milhões em Maio. A taxa média a um ano subiu para 22,26%, enquanto a prime rate está em 15,50% pelo sexto mês e a taxa MIMO em 9,25%. Os dados são do Banco de Moçambique, divulgados pela Lusa a 4 de Novembro.\n\nPorque importa: a dívida pública chegou a 1,072 biliões de meticais em Junho, um recorde. Em 2016 e 2017, quando o Estado perdeu a ajuda directa e passou a financiar-se no mercado interno, o FMI registou uma queda do crédito à economia de cerca de 10,4% em 2017 e apontou as PMEs como as mais afectadas. Os juros de empréstimo chegaram a 27,9%.\n\nA conta: uma PME que pede 500 mil meticais por um ano paga cerca de 111 300 de juros a 22,26%, contra 77 500 à prime rate. Se a taxa subir para 25%, serão 125 000. Sem comissões.\n\nTrês cenários até Março de 2027. Melhora, 15%: o programa do FMI fecha até Dezembro e a prime rate desce abaixo de 15%. Fica igual, 45%: a banca continua nos títulos do Estado e o crédito oscila entre 288 e 295 mil milhões. Piora, 40%: a inflação de Outubro passa 7,5%, o Banco de Moçambique aperta e o crédito às PMEs cai mais. A probabilidade da piora é alta porque a prime rate já está parada há seis meses e o precedente de 2017 durou um ano.\n\nA outra visão: o crédito pessoal subiu em Agosto, o que mostra que há procura. A dúvida é se o crédito às empresas acompanha.\n\nDirecção: comparar propostas de pelo menos dois bancos, pedir só o necessário e negociar prazos com os clientes. Se a inflação de Outubro passar 7,5%, adiar investimentos que dependam de empréstimo.\n\n#Moçambique #PMEs #Crédito"
+  },
+  "fontes": [
+    {
+      "fonte": "Banco de Moçambique via Lusa",
+      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+      "data": "2026-11-04"
+    },
+    {
+      "fonte": "Lusa (RTP), estratégia da dívida",
+      "url": "https://www.rtp.pt/noticias/economia/nova-estrategia-da-divida-publica-de-mocambique-reforca-confianca_n1697148",
+      "data": "2026-11-04"
+    },
+    {
+      "fonte": "FMI, Artigo IV 2017",
+      "url": "https://imf.org/en/News/Articles/2017/12/14/pr17493-imf-staff-completes-2017-article-iv-mission-to-mozambique",
+      "data": "2017-12-14"
+    },
+    {
+      "fonte": "AllAfrica, programa do FMI",
+      "url": "https://allafrica.com/stories/202609110252.html",
+      "data": "2026-09-11"
+    }
+  ],
+  "data": "2026-11-09",
+  "dia_semana": "segunda",
+  "semana": "2026-S46",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

@@ -63,6 +63,13 @@
         "fonte": "Club of Mozambique (via Lusa)",
         "url": "https://clubofmozambique.com/news/mozambique-transport-fares-in-greater-maputo-to-rise-by-five-meticais-from-november/",
         "nota": "Tarifa mínima actual de 15 meticais por rota; ajuste de 5 meticais previsto a 7 de Novembro (20 MT), sem deliberação municipal confirmada"
+      },
+      {
+        "data": "2026-11-06",
+        "valor": 15,
+        "fonte": "Lusa",
+        "url": "https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo",
+        "nota": "Tarifa mínima mantida pelo Governo"
       }
     ]
   },
@@ -221,6 +228,13 @@
         "fonte": "Banco de Moçambique via Trading Economics",
         "url": "https://tradingeconomics.com/mozambique/interest-rate/news/588316",
         "nota": "Mantida a 9,25% a 30 de Setembro, pela quarta vez seguida"
+      },
+      {
+        "data": "2026-11-04",
+        "valor": 9.25,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Mantida"
       }
     ]
   },
@@ -236,6 +250,13 @@
         "fonte": "Banco de Moçambique / AMB (prime rate de Setembro de 2026)",
         "url": "https://bancomoc.mz/media/g0adon5e/2026-08-27-prime-rate-e-spread-de-risco-de-setembro-de-2026-bancos-comerciais-microfinanças.pdf",
         "nota": "15,50% resulta do Indexante Único (9,30%) mais o prémio de custo (6,20%); sem comunicado de Outubro encontrado"
+      },
+      {
+        "data": "2026-11-04",
+        "valor": 15.5,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Sexto mês seguido"
       }
     ]
   },
@@ -289,10 +310,10 @@
       },
       {
         "data": "2026-11-05",
-        "valor": 104.63,
-        "fonte": "MarketScreener (preço à vista)",
-        "url": "https://uk.marketscreener.com/quote/commodity/BRENT-CRUDE-OIL-SPOT-4948/graphics-relative-strength/",
-        "nota": "Preço à vista, uma só fonte; o fecho de 28 de Outubro foi 115,32"
+        "valor": 98.29,
+        "fonte": "Nation Thailand",
+        "url": "https://www.nationthailand.com/news/40073162",
+        "nota": "Fecho de 5 de Novembro"
       }
     ]
   }
