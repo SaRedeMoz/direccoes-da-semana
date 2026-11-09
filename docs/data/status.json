@@ -11,9 +11,9 @@
       "em": "2026-11-09T03:29:22.399Z"
     },
     "design": {
-      "estado": "a trabalhar",
-      "msg": "Capa e slides de notícias",
-      "em": "2026-11-09T03:29:23.728Z"
+      "estado": "pronto",
+      "msg": "Capa e 5 notícias",
+      "em": "2026-11-09T03:29:32.419Z"
     },
     "editor": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-09T03:29:32.419Z",
+      "agente": "design",
+      "msg": "Capa e 5 notícias"
+    },
     {
       "em": "2026-11-09T03:29:23.728Z",
       "agente": "design",
@@ -221,14 +226,9 @@
       "em": "2026-11-05T04:05:47.798Z",
       "agente": "design",
       "msg": "Capa e 4 notícias"
-    },
-    {
-      "em": "2026-11-05T04:03:20.703Z",
-      "agente": "editor",
-      "msg": "A preparar o post do dia sobre o chapa"
     }
   ],
-  "actualizado": "2026-11-09T03:29:23.728Z",
+  "actualizado": "2026-11-09T03:29:32.419Z",
   "semana": "2026-S46",
   "dia": "2026-11-09",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
