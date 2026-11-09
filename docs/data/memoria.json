@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08",
+  "actualizado": "2026-11-09",
   "indicadores": [
     {
       "id": "gasolina",
@@ -543,7 +543,32 @@
       ]
     }
   ],
-  "direccoes_a_verificar": [],
+  "direccoes_a_verificar": [
+    {
+      "id": "D30",
+      "data": "2026-11-02",
+      "semana": "2026-S45",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Pagar a tarifa nova só depois do anúncio oficial do município",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-09",
+      "resultado": "pendente",
+      "nota": ""
+    },
+    {
+      "id": "D36",
+      "data": "2026-11-05",
+      "semana": "2026-S45",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Orçar mais 5 meticais por rota desde 7 de Novembro e exigir o valor da rota afixado ou confirmado pela associação.",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-09",
+      "resultado": "pendente",
+      "nota": ""
+    }
+  ],
   "balanco_direccoes": {
     "confirmada": 0,
     "parcial": 8,

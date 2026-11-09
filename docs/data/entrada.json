@@ -1,16 +1,16 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-08",
-  "semana": "2026-S45",
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/7",
-  "dia_semana": "domingo",
-  "post_do_dia": "nenhum",
+  "hoje": "2026-11-09",
+  "semana": "2026-S46",
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
+  "dia_semana": "segunda",
+  "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
@@ -25,12 +25,12 @@
     "Chapa da Grande Maputo: o ajuste de 5 meticais",
     "Orçamento de 2027: o corte chega primeiro a quem vende ao Estado?"
   ],
-  "area_sugerida": "",
+  "area_sugerida": "Crédito, banca e câmbio",
   "edicao_anterior": [
-    "Brent acima de 115 dólares",
-    "Chapa: aviso a 2 de Novembro",
-    "Orçamento deixa pouca margem",
-    "Fornecedores nacionais ganham preferência"
+    "Chapa: subida sem aprovação",
+    "Brent recua para cerca de 105",
+    "Orçamento corta 8% em termos reais",
+    "125 milhões contra o El Niño"
   ],
   "noticias_do_aprovador": [],
   "sugestoes_novas": [],
