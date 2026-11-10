@@ -771,6 +771,8 @@
       "Foto: Teixant / Wikimedia Commons, CC BY-SA 3.0",
       "Foto: Imran Dada / Wikimedia Commons, CC BY-SA 4.0"
     ],
-    "v": 1794287172678
+    "v": 1794287172678,
+    "reel": "data/imagens/reel.mp4",
+    "reel_duracao": 52
   }
 }
