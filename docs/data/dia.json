@@ -1,306 +1,248 @@
 {
   "tipo": "dia",
-  "area": "Crédito, banca e câmbio",
-  "tema": "Crédito a cair e juros a subir: quem consegue empréstimo em 2027?",
-  "pergunta": "Crédito cai e juros sobem: quem consegue empréstimo em 2027?",
+  "area": "Educação",
+  "tema": "Decreto 54/2026: o que muda para quem paga escola privada",
+  "pergunta": "Escola privada só presencial e com licença: as propinas vão subir?",
   "facto": {
-    "texto": "O crédito à economia baixou em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, abaixo do máximo de 293 853 milhões em Maio. A taxa média a um ano subiu de 21,27% para 22,26%, enquanto a prime rate ficou em 15,50% pelo sexto mês. A dívida pública chegou a 1,072 biliões de meticais em Junho.",
+    "texto": "O Decreto 54/2026 substitui o de 1990 e torna o ensino privado exclusivamente presencial. Abrir ou alargar uma escola exige licença, e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar.",
     "numeros": [
       {
-        "valor": "291 169 M MT",
-        "legenda": "crédito em Agosto"
+        "valor": "18 meses",
+        "legenda": "prazo de adaptação"
       },
       {
-        "valor": "22,26%",
-        "legenda": "juro médio a um ano"
+        "valor": "20 a 50",
+        "legenda": "salários mínimos de multa"
       },
       {
-        "valor": "15,50%",
-        "legenda": "prime rate, sexto mês"
+        "valor": "35 anos",
+        "legenda": "idade do decreto anterior"
       }
     ],
-    "fonte": "Banco de Moçambique, via Lusa, 4 de Novembro de 2026"
+    "fonte": "Lusa (RTP e Club of Mozambique), Decreto 54/2026"
   },
   "linha_do_tempo": [
     {
-      "data": "Mai",
-      "texto": "Crédito atinge o máximo de 293 853 milhões",
+      "data": "1990",
+      "texto": "Decreto 11/90 passa a regular o ensino privado",
       "futuro": false
     },
     {
-      "data": "18 Set",
-      "texto": "Missão técnica do FMI termina em Maputo",
+      "data": "Set 2020",
+      "texto": "INE: 3,1% de 946 escolas privadas fechadas na pandemia",
       "futuro": false
     },
     {
-      "data": "Ago",
-      "texto": "Crédito cai a 291 169 milhões, juro a 22,26%",
+      "data": "2026",
+      "texto": "Decreto 54/2026 substitui o de 1990",
       "futuro": false
     },
     {
-      "data": "4 Nov",
-      "texto": "Conselho de Ministros aprova a estratégia da dívida",
-      "futuro": false
-    },
-    {
-      "data": "Dez",
-      "texto": "Programa do FMI esperado pelo Governo",
+      "data": "Jan 2027",
+      "texto": "Escolas anunciam as propinas do novo ano",
       "futuro": true
     },
     {
-      "data": "Dez",
-      "texto": "Banco de Moçambique divulga o crédito de Setembro",
+      "data": "31 Mar 2027",
+      "texto": "Data limite para um guia de licenciamento claro",
+      "futuro": true
+    },
+    {
+      "data": "2028",
+      "texto": "Fim do prazo de adaptação de 18 meses",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "2016 e 2017",
-    "o_que_aconteceu": "Com a ajuda directa ao orçamento congelada, o Estado passou a emitir títulos. O crédito à economia caiu 10,4% em 2017 e os juros de empréstimo chegaram a 27,9%.",
-    "licao": "Quando o Estado pede dinheiro à banca, as PMEs ficam com menos crédito e mais caro.",
-    "fonte": "FMI, consulta do Artigo IV de 2017 e 2018"
+    "quando": "2020 e despacho anterior sobre currículo estrangeiro",
+    "o_que_aconteceu": "Um despacho obrigou escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério disse que várias violavam o diploma 119. Em 2020, 3,1% de 946 escolas privadas fecharam.",
+    "licao": "Regras sem fiscalização ficam no papel, e choques fecham as escolas mais frágeis.",
+    "fonte": "Forbes África Lusófona; Club of Mozambique, 14 de Setembro de 2020"
   },
-  "porque_importa": "As PMEs dependem do crédito para comprar stock e pagar salários. Com juros acima de 22%, muitas adiam investimento e contratações. As famílias sentem-no no crédito pessoal e na casa.",
+  "porque_importa": "Quem tem filhos no ensino privado, em creches, centros de línguas ou escolas internacionais, pode ver mudar o preço e as regras do serviço. Para os donos de escolas, a licença e a prova de capacidade financeira são um custo novo. Para os alunos, a exigência de continuidade das aulas durante o ano é uma protecção.",
   "canal": {
     "passos": [
-      "Estado precisa de financiamento",
-      "Banca compra títulos públicos",
-      "Menos crédito às PMEs",
-      "Menos emprego e investimento"
+      "Decreto exige licença e acreditação",
+      "Escolas pagam obras e processos",
+      "Propina sobe ou escola fecha",
+      "Família muda de escola ou paga mais"
     ],
-    "quem_sente": "PMEs, trabalhadores e famílias"
+    "quem_sente": "Famílias urbanas com filhos em escolas privadas"
   },
   "conta": {
-    "titulo": "Juros de 500 mil MT por um ano",
-    "pressupostos": "Empréstimo de 500 mil meticais a um ano, juros simples, sem comissões. O terceiro valor é uma hipótese a 25%.",
+    "titulo": "Quanto custa um aumento de propina",
+    "pressupostos": "Propina de 6 000 MT por mês, 10 meses por ano. Valores de exemplo, não oficiais.",
     "barras": [
       {
-        "rotulo": "Prime rate 15,50%",
-        "valor": 77500,
-        "texto": "77 500 MT"
+        "rotulo": "Sem aumento",
+        "valor": 60000,
+        "texto": "60 000 MT/ano"
       },
       {
-        "rotulo": "Média 22,26%",
-        "valor": 111300,
-        "texto": "111 300 MT"
+        "rotulo": "Aumento de 5%",
+        "valor": 63000,
+        "texto": "63 000 MT/ano"
       },
       {
-        "rotulo": "Hipótese 25%",
-        "valor": 125000,
-        "texto": "125 000 MT"
+        "rotulo": "Aumento de 10%",
+        "valor": 66000,
+        "texto": "66 000 MT/ano"
       }
     ],
-    "unidade": "MT de juros por ano",
-    "conclusao": "A taxa média custa mais 33 800 meticais por ano do que a prime rate."
+    "unidade": "MT por ano",
+    "conclusao": "Cada 5% de aumento custa mais 3 000 meticais por ano a esta família."
   },
   "cenarios": [
     {
-      "nome": "FMI baixa o custo do dinheiro",
+      "nome": "Escolas licenciam-se sem subir preços",
       "tipo": "melhora",
-      "probabilidade": 15,
-      "porque_probabilidade": "Em 2017 a queda durou um ano; a prime rate está parada há seis meses, e o programa do FMI ainda não está fechado.",
-      "gatilho": "Programa do FMI aprovado até Dezembro e prime rate abaixo de 15%",
-      "o_que_acontece": "O acordo reduz o risco do país, o Estado pede menos à banca e os juros descem, devolvendo crédito às PMEs.",
-      "numeros": "Prime rate entre 14% e 15%; crédito acima de 295 mil milhões MT",
+      "probabilidade": 25,
+      "porque_probabilidade": "Não há precedente recente de licenciamento sem custo repassado; a hipótese depende de um guia claro e do prazo de 18 meses.",
+      "gatilho": "Ministério publica guia de licenciamento com taxas e prazos",
+      "o_que_acontece": "As escolas sérias entregam o processo com prazo folgado, o custo é pequeno e as propinas ficam estáveis, com aumentos de inflação.",
+      "numeros": "Aumentos de propinas de 0% a 7% em 2027, perto da inflação",
       "quando": "até Março de 2027",
-      "ganha": "PMEs e construção",
-      "perde": "Quem vive de títulos públicos",
-      "se_acontecer": "Pedir crédito para stock e equipamento, com taxa fixa se possível."
+      "ganha": "Famílias e escolas organizadas",
+      "perde": "Escolas sem alvará",
+      "se_acontecer": "Pedir o alvará e manter a escola; comparar propinas com a lista comunicada."
     },
     {
-      "nome": "Banca fica nos títulos do Estado",
+      "nome": "A regra fica no papel",
       "tipo": "fica_igual",
       "probabilidade": 45,
-      "porque_probabilidade": "A prime rate parada seis meses e o crédito a oscilar sugerem persistência, mas a descida é lenta e não brusca.",
-      "gatilho": "Prime rate em 15,50% e crédito de Setembro entre 288 e 295 mil milhões",
-      "o_que_acontece": "A banca continua a comprar títulos do Estado e a emprestar pouco. O crédito oscila sem tendência e os juros ficam altos.",
-      "numeros": "Juro médio entre 21% e 23%; crédito entre 288 e 295 mil milhões MT",
-      "quando": "até Março de 2027",
-      "ganha": "Banca e investidores",
-      "perde": "PMEs e classe média",
-      "se_acontecer": "Reduzir o valor pedido e negociar prazos com clientes e fornecedores."
+      "porque_probabilidade": "Precedente: escolas não cumpriram o diploma 119 sobre currículo e o Ministério teve de insistir. Soma-se um prazo de 18 meses.",
+      "gatilho": "Nenhuma escola notificada ou multada",
+      "o_que_acontece": "A fiscalização é rara, muitas escolas só mudam perto do fim do prazo e o ensino à distância continua em centros pequenos.",
+      "numeros": "Poucas ou nenhumas multas em 2027, propinas a subir 5% a 10%",
+      "quando": "até Junho de 2027",
+      "ganha": "Escolas que adiam custos",
+      "perde": "Famílias sem protecção real",
+      "se_acontecer": "Exigir recibo e tabela de propinas por escrito; guardar os comprovativos."
     },
     {
-      "nome": "Inflação obriga a apertar",
+      "nome": "Licença encarece e fecham escolas pequenas",
       "tipo": "piora",
-      "probabilidade": 40,
-      "porque_probabilidade": "Em 2016 o aperto contra a inflação e a falta de ajuda levaram a uma queda de 10%; a inflação já ronda 7% e o El Niño pesa nos alimentos.",
-      "gatilho": "Inflação de Outubro acima de 7,5% e MIMO acima de 9,25%",
-      "o_que_acontece": "O Banco de Moçambique sobe a MIMO, os bancos exigem mais garantias e o crédito às PMEs encolhe, sobretudo na construção.",
-      "numeros": "Juro médio entre 23% e 26%; crédito abaixo de 288 mil milhões MT",
-      "quando": "até Março de 2027",
-      "ganha": "Quem tem capital em títulos",
-      "perde": "PMEs, construção e famílias endividadas",
-      "se_acontecer": "Adiar investimentos com empréstimo e amortizar dívida cara primeiro."
+      "probabilidade": 30,
+      "porque_probabilidade": "Em 2020, 3,1% das escolas privadas fecharam num choque; juros de 22% limitam o crédito para obras e licença.",
+      "gatilho": "Escolas pequenas anunciam subidas acima de 10% em Janeiro",
+      "o_que_acontece": "As escolas pagam licença, obras e acreditação, repassam o custo às propinas e as menos capazes fecham ou fundem-se.",
+      "numeros": "Aumentos de 10% a 20%; fecho de 2% a 4% das escolas até 2028",
+      "quando": "2027 a 2028",
+      "ganha": "Grandes redes de ensino",
+      "perde": "Famílias de rendimento médio",
+      "se_acontecer": "Pedir justificação escrita dos serviços; ter plano B de escola pública ou mais barata."
     }
   ],
   "sinais": [
     {
-      "o_que": "Crédito à economia em Setembro",
-      "limiar": "abaixo de 291 mil milhões MT",
-      "quando": "Dezembro de 2026",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Inflação de Outubro do INE",
-      "limiar": "acima de 7,5%",
-      "quando": "perto de 10 de Novembro",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Prime rate do Banco de Moçambique",
-      "limiar": "abaixo de 15%",
-      "quando": "até Fevereiro de 2027",
+      "o_que": "Publicação do guia de licenciamento",
+      "limiar": "Publicado e com prazos claros",
+      "quando": "até 31 de Março de 2027",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Acordo com o FMI",
-      "limiar": "programa aprovado pela direcção",
-      "quando": "até Dezembro de 2026",
-      "aponta_para": "melhora"
+      "o_que": "Primeira multa ou escola notificada",
+      "limiar": "Nenhum caso conhecido",
+      "quando": "até Junho de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Aviso de aumento de propinas",
+      "limiar": "Acima de 10% em escolas de Maputo ou Beira",
+      "quando": "Janeiro de 2027",
+      "aponta_para": "piora"
     }
   ],
   "afectados": [
     {
-      "grupo": "PMEs",
+      "grupo": "Famílias com filhos no privado",
+      "saldo": -1,
+      "porque": "propinas podem subir"
+    },
+    {
+      "grupo": "Escolas privadas pequenas",
       "saldo": -2,
-      "porque": "juros de 22% e menos crédito"
+      "porque": "licença e prova financeira custam"
     },
     {
-      "grupo": "Classe média",
-      "saldo": -1,
-      "porque": "crédito pessoal e casa mais caros"
-    },
-    {
-      "grupo": "Classe baixa",
-      "saldo": -1,
-      "porque": "emprego informal e crédito escasso"
-    },
-    {
-      "grupo": "Banca e investidores",
+      "grupo": "Grandes redes de ensino",
       "saldo": 1,
-      "porque": "títulos do Estado rendem mais"
+      "porque": "menos concorrência de escolas fracas"
     },
     {
-      "grupo": "Governo",
-      "saldo": -1,
-      "porque": "dívida recorde e financiamento caro"
+      "grupo": "Professores do privado",
+      "saldo": 0,
+      "porque": "emprego depende do fecho ou não"
+    },
+    {
+      "grupo": "Alunos",
+      "saldo": 1,
+      "porque": "aulas sem interrupção e qualidade"
     }
   ],
   "direccao": [
     {
-      "publico": "PMEs",
-      "agora": "Comparar propostas de dois bancos, pedir só o necessário e negociar prazos com clientes.",
-      "se_piorar": "Adiar investimentos que dependam de empréstimo."
+      "publico": "Pais e encarregados",
+      "agora": "Pedir à escola o alvará e a tabela de propinas comunicada às autoridades; guardar recibos.",
+      "se_piorar": "Exigir justificação escrita do aumento e ter plano B de escola."
     },
     {
-      "publico": "Famílias",
-      "agora": "Evitar crédito ao consumo a mais de 20% e manter uma reserva.",
-      "se_piorar": "Amortizar primeiro a dívida mais cara."
+      "publico": "Donos de escolas e centros",
+      "agora": "Iniciar o licenciamento e acabar com as aulas só à distância antes de 2028.",
+      "se_piorar": "Negociar prazos e juntar-se a outras escolas para dividir custos."
     },
     {
-      "publico": "Trabalhadores informais",
-      "agora": "Preferir poupança em grupo (xitique) a empréstimos caros.",
-      "se_piorar": "Reduzir stock e vender a prazo curto."
+      "publico": "Professores do ensino privado",
+      "agora": "Confirmar por escrito que o contrato continua depois da licença.",
+      "se_piorar": "Preparar candidatura a outra escola ou ao ensino público."
     },
     {
-      "publico": "Investidores",
-      "agora": "Acompanhar o programa do FMI e a dívida pública.",
-      "se_piorar": "Manter liquidez e evitar prazos longos."
+      "publico": "Investidores em educação",
+      "agora": "Esperar o guia de licenciamento antes de abrir novas unidades.",
+      "se_piorar": "Adiar o alargamento até haver regras e prazos claros."
     }
   ],
-  "visao_contraria": "O crédito pessoal subiu em Agosto para 107 335 milhões, o comércio e a indústria também, o que mostra procura. O recuo de 0,9% desde Maio pode ser ajuste e não crise.",
+  "visao_contraria": "A licença e a prova de capacidade podem tirar do mercado escolas sem qualidade e proteger alunos e famílias, sem subida geral de preços. O decreto só exige que o aumento seja justificado.",
   "nao_sabemos": [
-    "O INE ainda não publicou a inflação de Outubro.",
-    "O Banco de Moçambique ainda não divulgou o crédito de Setembro.",
-    "O Governo ainda não fechou o programa com o FMI."
+    "Quantas escolas e alunos o decreto abrange ainda não foi publicado.",
+    "O valor das taxas de licença ainda não foi anunciado.",
+    "O Ministério ainda não disse quando começa a fiscalização."
   ],
-  "sinal": "Crédito de Setembro e inflação de Outubro",
+  "sinal": "Guia de licenciamento até 31 de Março de 2027 e avisos de propinas em Janeiro de 2027.",
   "confianca": "media",
-  "base_confianca": "Dados do Banco de Moçambique via Lusa, precedente do FMI via resumo de pesquisa; sem leitura directa do relatório do FMI",
+  "base_confianca": "Duas fontes jornalísticas sobre o texto do decreto, sem números de escolas; precedentes de jornais e INE de 2020.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA*\n*O crédito encolhe e os juros sobem: quem consegue empréstimo em 2027?*\n\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A taxa média a um ano subiu para 22,26%, enquanto a prime rate está em 15,50% há seis meses.\n\n*A CONTA*\nUma PME que pede 500 mil meticais por um ano paga cerca de 111 mil de juros a 22,26%. À prime rate seriam 77 500. Se a taxa subir para 25%, seriam 125 000. São os pressupostos de uma conta simples, sem comissões.\n\n*PRECEDENTE*\nEm 2016 e 2017, depois do congelamento da ajuda directa ao orçamento, o crédito à economia caiu cerca de 10% em 2017, segundo o FMI, e os juros de empréstimo chegaram a 27,9%. Os bancos foram para os títulos do Estado.\n\n*TRÊS CENÁRIOS*\nMelhora, 15%: o programa do FMI fecha até Dezembro e a prime rate desce abaixo de 15% no primeiro trimestre de 2027.\nFica igual, 45%: a banca continua nos títulos do Estado e o crédito oscila entre 288 e 295 mil milhões até Março de 2027.\nPiora, 40%: a inflação sobe acima de 7,5%, o Banco de Moçambique aperta e o crédito às PMEs encolhe mais.\n\n*SINAIS*\nCrédito de Setembro, a divulgar em Dezembro: abaixo de 291 mil milhões aponta para piora. Inflação de Outubro: acima de 7,5% aponta para piora.\n\n*A OUTRA VISÃO*\nO crédito pessoal subiu em Agosto, para 107 335 milhões, e a banca diz que o risco é o problema, não a falta de dinheiro.\n\n*DIRECÇÃO*\nPMEs: comparar duas propostas de bancos e pedir só o necessário. Famílias: evitar crédito ao consumo caro. Se piorar, adiar investimentos que dependam de empréstimo.\n\nPartilhe com quem está a pensar pedir crédito.",
-    "instagram": "O crédito caiu pelo terceiro mês e a taxa média chegou a 22,26%. Um empréstimo de 500 mil meticais custa cerca de 111 mil de juros por ano. Probabilidade de piorar até Março: 40%. Direcção: compare dois bancos e peça só o necessário. #Moçambique #Crédito",
-    "facebook": "O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A taxa média de um empréstimo a um ano subiu para 22,26%.\n\nO que isto significa para uma pequena empresa: pedir 500 mil meticais por um ano custa cerca de 111 mil de juros. À prime rate de 15,50% seriam 77 500. Se a taxa chegar a 25%, serão 125 000.\n\nJá aconteceu antes. Em 2016 e 2017, quando o Estado ficou sem ajuda externa directa, o crédito caiu cerca de 10% e os juros chegaram a 27,9%. Os bancos preferiram emprestar ao Estado.\n\nO que pode acontecer até Março: 15% de probabilidade de melhorar, se o programa do FMI fechar e os juros descerem; 45% de ficar igual; 40% de piorar, se a inflação passar 7,5%.\n\nO que observar: o crédito de Setembro, que sai em Dezembro, e a inflação de Outubro, que sai esta semana.\n\nO que fazer: comparar propostas de dois bancos, pedir só o necessário e evitar crédito caro para consumo. Se a situação piorar, adiar investimentos que dependam de empréstimo.\n\n#Moçambique #Crédito",
-    "linkedin": "O crédito à economia moçambicana caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, depois do máximo de 293 853 milhões em Maio. A taxa média a um ano subiu para 22,26%, enquanto a prime rate está em 15,50% pelo sexto mês e a taxa MIMO em 9,25%. Os dados são do Banco de Moçambique, divulgados pela Lusa a 4 de Novembro.\n\nPorque importa: a dívida pública chegou a 1,072 biliões de meticais em Junho, um recorde. Em 2016 e 2017, quando o Estado perdeu a ajuda directa e passou a financiar-se no mercado interno, o FMI registou uma queda do crédito à economia de cerca de 10,4% em 2017 e apontou as PMEs como as mais afectadas. Os juros de empréstimo chegaram a 27,9%.\n\nA conta: uma PME que pede 500 mil meticais por um ano paga cerca de 111 300 de juros a 22,26%, contra 77 500 à prime rate. Se a taxa subir para 25%, serão 125 000. Sem comissões.\n\nTrês cenários até Março de 2027. Melhora, 15%: o programa do FMI fecha até Dezembro e a prime rate desce abaixo de 15%. Fica igual, 45%: a banca continua nos títulos do Estado e o crédito oscila entre 288 e 295 mil milhões. Piora, 40%: a inflação de Outubro passa 7,5%, o Banco de Moçambique aperta e o crédito às PMEs cai mais. A probabilidade da piora é alta porque a prime rate já está parada há seis meses e o precedente de 2017 durou um ano.\n\nA outra visão: o crédito pessoal subiu em Agosto, o que mostra que há procura. A dúvida é se o crédito às empresas acompanha.\n\nDirecção: comparar propostas de pelo menos dois bancos, pedir só o necessário e negociar prazos com os clientes. Se a inflação de Outubro passar 7,5%, adiar investimentos que dependam de empréstimo.\n\n#Moçambique #PMEs #Crédito"
+    "whatsapp": "*A ESCOLA PRIVADA DO SEU FILHO VAI MUDAR?*\n\nO Decreto 54/2026 substitui o de 1990 e muda as regras do ensino privado. Passa a ser só presencial, abrir ou alargar uma escola exige licença e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar. As multas vão de 20 a 50 salários mínimos da Administração Pública.\n\n*O QUE PODE ACONTECER*\n\nPrimeiro cenário, 25%: as escolas obtêm licença sem subir as propinas, porque o Ministério publica cedo um guia claro. Sinal: guia publicado antes de 31 de Março de 2027.\n\nSegundo cenário, 45%: a regra fica no papel. Já existia um despacho a obrigar escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério admitiu que várias não cumpriam. Sinal: nenhuma escola notificada até Junho de 2027.\n\nTerceiro cenário, 30%: o custo da licença e das obras passa para as famílias e as escolas mais pequenas fecham. Em 2020, o INE contou 3,1% de 946 escolas privadas fechadas durante a pandemia. Sinal: avisos de aumento acima de 10% em Janeiro de 2027.\n\n*A CONTA*\n\nUma propina de 6 000 meticais por mês, em 10 meses, dá 60 000 meticais por ano. Com 5% de aumento paga mais 3 000, com 10% paga mais 6 000. É um exemplo, não um valor oficial.\n\n*DIRECÇÃO*\n\nPais: peça à escola o alvará e a tabela de propinas comunicada às autoridades, e guarde os recibos. Escolas: comece já o processo de licença e termine as aulas só à distância. Se a propina subir mais de 10%, peça por escrito a justificação dos serviços prestados, porque o decreto só aceita aumentos ligados a serviços reais.\n\nO melhor argumento contra esta leitura: a licença pode afastar escolas sem qualidade e proteger os alunos. Ainda não se sabe quantas escolas e alunos o decreto abrange.\n\nPartilhe com um pai ou uma mãe que tenha filhos numa escola privada.",
+    "instagram": "Escola privada só presencial, com licença e propinas comunicadas: o Decreto 54/2026 muda as regras. Cenário mais provável, 45%: a regra fica no papel. Risco, 30%: a licença passa para as propinas. Peça já o alvará e a tabela de propinas à escola.",
+    "facebook": "O Decreto 54/2026 muda as regras das escolas privadas em Moçambique e vai pesar nas famílias que pagam propinas.\n\nO que diz: o ensino privado passa a ser só presencial. Abrir ou alargar uma escola exige licença. As propinas têm de ser comunicadas todos os anos às autoridades, e um aumento só é aceite se estiver ligado a serviços realmente prestados. As escolas que já funcionam têm 18 meses para se adaptar e as multas vão de 20 a 50 salários mínimos da Administração Pública.\n\nO que pode acontecer: o cenário mais provável, com 45%, é que a regra fique no papel, como aconteceu com a obrigação de ensinar Português, História e Geografia de Moçambique nas escolas de currículo estrangeiro, que o Ministério admitiu não ser cumprida por várias escolas. Com 30%, o custo da licença passa para as propinas e as escolas pequenas fecham. Com 25%, as escolas licenciam-se sem subir os preços.\n\nUm exemplo: uma propina de 6 000 meticais por mês, durante 10 meses, dá 60 000 por ano. Um aumento de 10% custa mais 6 000 meticais. É um exemplo, não um valor oficial.\n\nDirecção principal: peça à escola o alvará e a tabela de propinas comunicada às autoridades, e se houver aumento acima de 10% peça a justificação por escrito.\n\n#Moçambique #Educação",
+    "linkedin": "O Decreto 54/2026 reescreve, depois de mais de 35 anos, as regras do ensino privado em Moçambique. O ensino passa a ser exclusivamente presencial, abrir ou alargar uma escola exige licença com prova de capacidade técnica, financeira e patrimonial, e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar. As multas vão de 20 a 50 salários mínimos da Administração Pública, e há suspensão e encerramento nos casos mais graves.\n\nO precedente pede cautela. Um despacho anterior obrigou as escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério admitiu que várias não cumpriam o diploma ministerial 119. Em 2020, um inquérito do INE a 946 escolas privadas, da pré-escola ao ensino superior, mostrou 3,1% fechadas pela pandemia, e o Ministério disse não ter poder legal para fixar propinas.\n\nOs cenários: 25% de as escolas se licenciarem sem subir os preços, 45% de a fiscalização ser fraca e quase nada mudar, 30% de o custo da licença passar para as propinas e fecharem escolas pequenas. O sinal mais próximo é Janeiro de 2027, quando se vê se os avisos de aumento passam de 10%.\n\nUm exemplo com pressupostos: numa propina de 6 000 meticais por mês, em 10 meses, um aumento de 10% custa mais 6 000 meticais por ano a uma família.\n\nDirecção. Escolas: iniciar o licenciamento e acabar com as aulas só à distância. Famílias: pedir o alvará e a tabela de propinas comunicada. Investidores em educação: esperar o guia de licenciamento antes de abrir novas unidades. A contra-leitura é séria: a licença pode retirar do mercado escolas sem qualidade. O decreto ganha ou perde na fiscalização de 2027.\n\n#Moçambique #Educação #ensinoprivado"
   },
   "fontes": [
     {
-      "fonte": "Banco de Moçambique via Lusa",
-      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
-      "data": "2026-11-04"
+      "fonte": "Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-exige-historia-nacional-as-escolas-estrangeiras-e-ensino-privado-presencial_n1770557",
+      "data": "2026-11-06"
     },
     {
-      "fonte": "Lusa (RTP), estratégia da dívida",
-      "url": "https://www.rtp.pt/noticias/economia/nova-estrategia-da-divida-publica-de-mocambique-reforca-confianca_n1697148",
-      "data": "2026-11-04"
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-mandates-national-history-for-foreign-curriculum-schools-and-restricts-private-education-to-in-person-learning/",
+      "data": "2026-10-09"
     },
     {
-      "fonte": "FMI, Artigo IV 2017",
-      "url": "https://imf.org/en/News/Articles/2017/12/14/pr17493-imf-staff-completes-2017-article-iv-mission-to-mozambique",
-      "data": "2017-12-14"
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=172227",
+      "data": ""
     },
     {
-      "fonte": "AllAfrica, programa do FMI",
-      "url": "https://allafrica.com/stories/202609110252.html",
-      "data": "2026-09-11"
+      "fonte": "Club of Mozambique (INE, escolas privadas na pandemia)",
+      "url": "https://clubofmozambique.com/news/the-crisis-in-private-schools-and-its-impact-on-resumption-of-face-to-face-classes/",
+      "data": "2020-09-14"
     }
   ],
-  "data": "2026-11-09",
-  "dia_semana": "segunda",
+  "data": "2026-11-10",
+  "dia_semana": "terca",
   "semana": "2026-S46",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794195137268
-  }
+  "falhas": []
 }

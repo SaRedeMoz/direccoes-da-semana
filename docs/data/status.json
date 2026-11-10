@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos e post do dia prontos",
-      "em": "2026-11-10T05:05:15.598Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-10T05:05:26.128Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-10T05:05:26.128Z",
+      "agente": "editor",
+      "msg": "Edição versão 2 montada"
+    },
+    {
+      "em": "2026-11-10T05:05:26.128Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Decreto 54/2026: o que muda para quem paga escola privada"
+    },
     {
       "em": "2026-11-10T05:05:15.598Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-11-07T03:35:00.794Z",
       "agente": "fontes",
       "msg": "Pesquisar notícias de 5 a 7 de Novembro"
-    },
-    {
-      "em": "2026-11-07T03:34:35.281Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
-    },
-    {
-      "em": "2026-11-06T04:05:50.088Z",
-      "agente": "aprovacao",
-      "msg": "Post do dia à espera da sua aprovação"
     }
   ],
-  "actualizado": "2026-11-10T05:05:15.598Z",
+  "actualizado": "2026-11-10T05:05:26.128Z",
   "semana": "2026-S46",
   "dia": "2026-11-10",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",

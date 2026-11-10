@@ -401,8 +401,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-10",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "parcial",
+    "nota": "O Governo manteve o chapa a 15 meticais; a tarifa acima de 18 meticais não se confirmou, mas a subida pode voltar depois das compensações.",
+    "verificada_em": "2026-11-10"
   },
   {
     "id": "D34",
@@ -413,8 +414,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-10",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "parcial",
+    "nota": "A tarifa oficial ficou a 15 meticais, abaixo dos 18 previstos, e o valor afixado mantém-se.",
+    "verificada_em": "2026-11-10"
   },
   {
     "id": "D35",
@@ -546,6 +548,30 @@
     "tema": "combustivel",
     "horizonte": "trimestre",
     "verificar_em": "2027-02-09",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D46",
+    "data": "2026-11-10",
+    "semana": "2026-S46",
+    "publico": "Pais com filhos no ensino privado",
+    "accao": "Pedir à escola o alvará e a tabela de propinas comunicada às autoridades.",
+    "tema": "ensino_privado",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-10",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D47",
+    "data": "2026-11-10",
+    "semana": "2026-S46",
+    "publico": "Escolas e centros privados",
+    "accao": "Preparar o processo de licenciamento e acabar com aulas só à distância antes do prazo de 18 meses.",
+    "tema": "ensino_privado",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-10",
     "resultado": "pendente",
     "nota": ""
   }

@@ -148,6 +148,12 @@
         "semana": "2026-S46",
         "resumo": "O Governo manteve a tarifa do chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
         "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
+      },
+      {
+        "data": "2026-11-10",
+        "semana": "2026-S46",
+        "resumo": "O Governo manteve o chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
+        "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
       }
     ]
   },
@@ -353,7 +359,7 @@
   },
   {
     "id": "ensino_privado",
-    "nome": "Ensino privado",
+    "nome": "Decreto 54/2026 e ensino privado",
     "estado": "activo",
     "inicio": "2026-11-09",
     "historial": [
@@ -362,6 +368,12 @@
         "semana": "2026-S46",
         "resumo": "O Decreto 54/2026 torna o ensino privado presencial e dá 18 meses às escolas para se adaptarem.",
         "direccao": "Escolas privadas devem rever licenças e currículos."
+      },
+      {
+        "data": "2026-11-10",
+        "semana": "2026-S46",
+        "resumo": "O decreto substitui o de 1990: ensino privado só presencial, licença para abrir ou alargar, propinas comunicadas todos os anos. As escolas em funcionamento têm 18 meses para se adaptar.",
+        "direccao": "Pais devem pedir à escola a licença e a lista de propinas; escolas devem preparar a candidatura à licença."
       }
     ]
   }

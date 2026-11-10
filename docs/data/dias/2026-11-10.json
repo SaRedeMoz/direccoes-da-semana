@@ -1,0 +1,248 @@
+{
+  "tipo": "dia",
+  "area": "Educação",
+  "tema": "Decreto 54/2026: o que muda para quem paga escola privada",
+  "pergunta": "Escola privada só presencial e com licença: as propinas vão subir?",
+  "facto": {
+    "texto": "O Decreto 54/2026 substitui o de 1990 e torna o ensino privado exclusivamente presencial. Abrir ou alargar uma escola exige licença, e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar.",
+    "numeros": [
+      {
+        "valor": "18 meses",
+        "legenda": "prazo de adaptação"
+      },
+      {
+        "valor": "20 a 50",
+        "legenda": "salários mínimos de multa"
+      },
+      {
+        "valor": "35 anos",
+        "legenda": "idade do decreto anterior"
+      }
+    ],
+    "fonte": "Lusa (RTP e Club of Mozambique), Decreto 54/2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "1990",
+      "texto": "Decreto 11/90 passa a regular o ensino privado",
+      "futuro": false
+    },
+    {
+      "data": "Set 2020",
+      "texto": "INE: 3,1% de 946 escolas privadas fechadas na pandemia",
+      "futuro": false
+    },
+    {
+      "data": "2026",
+      "texto": "Decreto 54/2026 substitui o de 1990",
+      "futuro": false
+    },
+    {
+      "data": "Jan 2027",
+      "texto": "Escolas anunciam as propinas do novo ano",
+      "futuro": true
+    },
+    {
+      "data": "31 Mar 2027",
+      "texto": "Data limite para um guia de licenciamento claro",
+      "futuro": true
+    },
+    {
+      "data": "2028",
+      "texto": "Fim do prazo de adaptação de 18 meses",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "2020 e despacho anterior sobre currículo estrangeiro",
+    "o_que_aconteceu": "Um despacho obrigou escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério disse que várias violavam o diploma 119. Em 2020, 3,1% de 946 escolas privadas fecharam.",
+    "licao": "Regras sem fiscalização ficam no papel, e choques fecham as escolas mais frágeis.",
+    "fonte": "Forbes África Lusófona; Club of Mozambique, 14 de Setembro de 2020"
+  },
+  "porque_importa": "Quem tem filhos no ensino privado, em creches, centros de línguas ou escolas internacionais, pode ver mudar o preço e as regras do serviço. Para os donos de escolas, a licença e a prova de capacidade financeira são um custo novo. Para os alunos, a exigência de continuidade das aulas durante o ano é uma protecção.",
+  "canal": {
+    "passos": [
+      "Decreto exige licença e acreditação",
+      "Escolas pagam obras e processos",
+      "Propina sobe ou escola fecha",
+      "Família muda de escola ou paga mais"
+    ],
+    "quem_sente": "Famílias urbanas com filhos em escolas privadas"
+  },
+  "conta": {
+    "titulo": "Quanto custa um aumento de propina",
+    "pressupostos": "Propina de 6 000 MT por mês, 10 meses por ano. Valores de exemplo, não oficiais.",
+    "barras": [
+      {
+        "rotulo": "Sem aumento",
+        "valor": 60000,
+        "texto": "60 000 MT/ano"
+      },
+      {
+        "rotulo": "Aumento de 5%",
+        "valor": 63000,
+        "texto": "63 000 MT/ano"
+      },
+      {
+        "rotulo": "Aumento de 10%",
+        "valor": 66000,
+        "texto": "66 000 MT/ano"
+      }
+    ],
+    "unidade": "MT por ano",
+    "conclusao": "Cada 5% de aumento custa mais 3 000 meticais por ano a esta família."
+  },
+  "cenarios": [
+    {
+      "nome": "Escolas licenciam-se sem subir preços",
+      "tipo": "melhora",
+      "probabilidade": 25,
+      "porque_probabilidade": "Não há precedente recente de licenciamento sem custo repassado; a hipótese depende de um guia claro e do prazo de 18 meses.",
+      "gatilho": "Ministério publica guia de licenciamento com taxas e prazos",
+      "o_que_acontece": "As escolas sérias entregam o processo com prazo folgado, o custo é pequeno e as propinas ficam estáveis, com aumentos de inflação.",
+      "numeros": "Aumentos de propinas de 0% a 7% em 2027, perto da inflação",
+      "quando": "até Março de 2027",
+      "ganha": "Famílias e escolas organizadas",
+      "perde": "Escolas sem alvará",
+      "se_acontecer": "Pedir o alvará e manter a escola; comparar propinas com a lista comunicada."
+    },
+    {
+      "nome": "A regra fica no papel",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Precedente: escolas não cumpriram o diploma 119 sobre currículo e o Ministério teve de insistir. Soma-se um prazo de 18 meses.",
+      "gatilho": "Nenhuma escola notificada ou multada",
+      "o_que_acontece": "A fiscalização é rara, muitas escolas só mudam perto do fim do prazo e o ensino à distância continua em centros pequenos.",
+      "numeros": "Poucas ou nenhumas multas em 2027, propinas a subir 5% a 10%",
+      "quando": "até Junho de 2027",
+      "ganha": "Escolas que adiam custos",
+      "perde": "Famílias sem protecção real",
+      "se_acontecer": "Exigir recibo e tabela de propinas por escrito; guardar os comprovativos."
+    },
+    {
+      "nome": "Licença encarece e fecham escolas pequenas",
+      "tipo": "piora",
+      "probabilidade": 30,
+      "porque_probabilidade": "Em 2020, 3,1% das escolas privadas fecharam num choque; juros de 22% limitam o crédito para obras e licença.",
+      "gatilho": "Escolas pequenas anunciam subidas acima de 10% em Janeiro",
+      "o_que_acontece": "As escolas pagam licença, obras e acreditação, repassam o custo às propinas e as menos capazes fecham ou fundem-se.",
+      "numeros": "Aumentos de 10% a 20%; fecho de 2% a 4% das escolas até 2028",
+      "quando": "2027 a 2028",
+      "ganha": "Grandes redes de ensino",
+      "perde": "Famílias de rendimento médio",
+      "se_acontecer": "Pedir justificação escrita dos serviços; ter plano B de escola pública ou mais barata."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Publicação do guia de licenciamento",
+      "limiar": "Publicado e com prazos claros",
+      "quando": "até 31 de Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Primeira multa ou escola notificada",
+      "limiar": "Nenhum caso conhecido",
+      "quando": "até Junho de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Aviso de aumento de propinas",
+      "limiar": "Acima de 10% em escolas de Maputo ou Beira",
+      "quando": "Janeiro de 2027",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Famílias com filhos no privado",
+      "saldo": -1,
+      "porque": "propinas podem subir"
+    },
+    {
+      "grupo": "Escolas privadas pequenas",
+      "saldo": -2,
+      "porque": "licença e prova financeira custam"
+    },
+    {
+      "grupo": "Grandes redes de ensino",
+      "saldo": 1,
+      "porque": "menos concorrência de escolas fracas"
+    },
+    {
+      "grupo": "Professores do privado",
+      "saldo": 0,
+      "porque": "emprego depende do fecho ou não"
+    },
+    {
+      "grupo": "Alunos",
+      "saldo": 1,
+      "porque": "aulas sem interrupção e qualidade"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Pais e encarregados",
+      "agora": "Pedir à escola o alvará e a tabela de propinas comunicada às autoridades; guardar recibos.",
+      "se_piorar": "Exigir justificação escrita do aumento e ter plano B de escola."
+    },
+    {
+      "publico": "Donos de escolas e centros",
+      "agora": "Iniciar o licenciamento e acabar com as aulas só à distância antes de 2028.",
+      "se_piorar": "Negociar prazos e juntar-se a outras escolas para dividir custos."
+    },
+    {
+      "publico": "Professores do ensino privado",
+      "agora": "Confirmar por escrito que o contrato continua depois da licença.",
+      "se_piorar": "Preparar candidatura a outra escola ou ao ensino público."
+    },
+    {
+      "publico": "Investidores em educação",
+      "agora": "Esperar o guia de licenciamento antes de abrir novas unidades.",
+      "se_piorar": "Adiar o alargamento até haver regras e prazos claros."
+    }
+  ],
+  "visao_contraria": "A licença e a prova de capacidade podem tirar do mercado escolas sem qualidade e proteger alunos e famílias, sem subida geral de preços. O decreto só exige que o aumento seja justificado.",
+  "nao_sabemos": [
+    "Quantas escolas e alunos o decreto abrange ainda não foi publicado.",
+    "O valor das taxas de licença ainda não foi anunciado.",
+    "O Ministério ainda não disse quando começa a fiscalização."
+  ],
+  "sinal": "Guia de licenciamento até 31 de Março de 2027 e avisos de propinas em Janeiro de 2027.",
+  "confianca": "media",
+  "base_confianca": "Duas fontes jornalísticas sobre o texto do decreto, sem números de escolas; precedentes de jornais e INE de 2020.",
+  "textos": {
+    "whatsapp": "*A ESCOLA PRIVADA DO SEU FILHO VAI MUDAR?*\n\nO Decreto 54/2026 substitui o de 1990 e muda as regras do ensino privado. Passa a ser só presencial, abrir ou alargar uma escola exige licença e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar. As multas vão de 20 a 50 salários mínimos da Administração Pública.\n\n*O QUE PODE ACONTECER*\n\nPrimeiro cenário, 25%: as escolas obtêm licença sem subir as propinas, porque o Ministério publica cedo um guia claro. Sinal: guia publicado antes de 31 de Março de 2027.\n\nSegundo cenário, 45%: a regra fica no papel. Já existia um despacho a obrigar escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério admitiu que várias não cumpriam. Sinal: nenhuma escola notificada até Junho de 2027.\n\nTerceiro cenário, 30%: o custo da licença e das obras passa para as famílias e as escolas mais pequenas fecham. Em 2020, o INE contou 3,1% de 946 escolas privadas fechadas durante a pandemia. Sinal: avisos de aumento acima de 10% em Janeiro de 2027.\n\n*A CONTA*\n\nUma propina de 6 000 meticais por mês, em 10 meses, dá 60 000 meticais por ano. Com 5% de aumento paga mais 3 000, com 10% paga mais 6 000. É um exemplo, não um valor oficial.\n\n*DIRECÇÃO*\n\nPais: peça à escola o alvará e a tabela de propinas comunicada às autoridades, e guarde os recibos. Escolas: comece já o processo de licença e termine as aulas só à distância. Se a propina subir mais de 10%, peça por escrito a justificação dos serviços prestados, porque o decreto só aceita aumentos ligados a serviços reais.\n\nO melhor argumento contra esta leitura: a licença pode afastar escolas sem qualidade e proteger os alunos. Ainda não se sabe quantas escolas e alunos o decreto abrange.\n\nPartilhe com um pai ou uma mãe que tenha filhos numa escola privada.",
+    "instagram": "Escola privada só presencial, com licença e propinas comunicadas: o Decreto 54/2026 muda as regras. Cenário mais provável, 45%: a regra fica no papel. Risco, 30%: a licença passa para as propinas. Peça já o alvará e a tabela de propinas à escola.",
+    "facebook": "O Decreto 54/2026 muda as regras das escolas privadas em Moçambique e vai pesar nas famílias que pagam propinas.\n\nO que diz: o ensino privado passa a ser só presencial. Abrir ou alargar uma escola exige licença. As propinas têm de ser comunicadas todos os anos às autoridades, e um aumento só é aceite se estiver ligado a serviços realmente prestados. As escolas que já funcionam têm 18 meses para se adaptar e as multas vão de 20 a 50 salários mínimos da Administração Pública.\n\nO que pode acontecer: o cenário mais provável, com 45%, é que a regra fique no papel, como aconteceu com a obrigação de ensinar Português, História e Geografia de Moçambique nas escolas de currículo estrangeiro, que o Ministério admitiu não ser cumprida por várias escolas. Com 30%, o custo da licença passa para as propinas e as escolas pequenas fecham. Com 25%, as escolas licenciam-se sem subir os preços.\n\nUm exemplo: uma propina de 6 000 meticais por mês, durante 10 meses, dá 60 000 por ano. Um aumento de 10% custa mais 6 000 meticais. É um exemplo, não um valor oficial.\n\nDirecção principal: peça à escola o alvará e a tabela de propinas comunicada às autoridades, e se houver aumento acima de 10% peça a justificação por escrito.\n\n#Moçambique #Educação",
+    "linkedin": "O Decreto 54/2026 reescreve, depois de mais de 35 anos, as regras do ensino privado em Moçambique. O ensino passa a ser exclusivamente presencial, abrir ou alargar uma escola exige licença com prova de capacidade técnica, financeira e patrimonial, e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar. As multas vão de 20 a 50 salários mínimos da Administração Pública, e há suspensão e encerramento nos casos mais graves.\n\nO precedente pede cautela. Um despacho anterior obrigou as escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério admitiu que várias não cumpriam o diploma ministerial 119. Em 2020, um inquérito do INE a 946 escolas privadas, da pré-escola ao ensino superior, mostrou 3,1% fechadas pela pandemia, e o Ministério disse não ter poder legal para fixar propinas.\n\nOs cenários: 25% de as escolas se licenciarem sem subir os preços, 45% de a fiscalização ser fraca e quase nada mudar, 30% de o custo da licença passar para as propinas e fecharem escolas pequenas. O sinal mais próximo é Janeiro de 2027, quando se vê se os avisos de aumento passam de 10%.\n\nUm exemplo com pressupostos: numa propina de 6 000 meticais por mês, em 10 meses, um aumento de 10% custa mais 6 000 meticais por ano a uma família.\n\nDirecção. Escolas: iniciar o licenciamento e acabar com as aulas só à distância. Famílias: pedir o alvará e a tabela de propinas comunicada. Investidores em educação: esperar o guia de licenciamento antes de abrir novas unidades. A contra-leitura é séria: a licença pode retirar do mercado escolas sem qualidade. O decreto ganha ou perde na fiscalização de 2027.\n\n#Moçambique #Educação #ensinoprivado"
+  },
+  "fontes": [
+    {
+      "fonte": "Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-exige-historia-nacional-as-escolas-estrangeiras-e-ensino-privado-presencial_n1770557",
+      "data": "2026-11-06"
+    },
+    {
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-mandates-national-history-for-foreign-curriculum-schools-and-restricts-private-education-to-in-person-learning/",
+      "data": "2026-10-09"
+    },
+    {
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=172227",
+      "data": ""
+    },
+    {
+      "fonte": "Club of Mozambique (INE, escolas privadas na pandemia)",
+      "url": "https://clubofmozambique.com/news/the-crisis-in-private-schools-and-its-impact-on-resumption-of-face-to-face-classes/",
+      "data": "2020-09-14"
+    }
+  ],
+  "data": "2026-11-10",
+  "dia_semana": "terca",
+  "semana": "2026-S46",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}
