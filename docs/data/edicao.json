@@ -2,7 +2,7 @@
   "semana": "2026-S46",
   "dia": "2026-11-10",
   "versao": 2,
-  "aprovada": false,
+  "aprovada": true,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
   "falhas_conformidade": [
     "A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
@@ -774,5 +774,6 @@
     "v": 1794287172678,
     "reel": "data/imagens/reel.mp4",
     "reel_duracao": 52
-  }
+  },
+  "aprovadaEm": "2026-11-10T07:24:34.697Z"
 }
