@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "A pesquisar as notícias de 9 e 10 de Novembro",
-      "em": "2026-11-10T05:01:25.874Z"
+      "estado": "pronto",
+      "msg": "1 notícia nova e 1 actualização; inflação de Outubro ainda por sair",
+      "em": "2026-11-10T05:02:55.935Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-10T05:02:55.935Z",
+      "agente": "fontes",
+      "msg": "1 notícia nova e 1 actualização; inflação de Outubro ainda por sair"
+    },
     {
       "em": "2026-11-10T05:01:25.874Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-06T04:04:35.160Z",
       "agente": "editor",
       "msg": "A preparar o post do dia"
-    },
-    {
-      "em": "2026-11-06T04:03:22.809Z",
-      "agente": "analise",
-      "msg": "Análise actualizada com Brent e Conteúdo Local"
     }
   ],
-  "actualizado": "2026-11-10T05:01:25.874Z",
+  "actualizado": "2026-11-10T05:02:55.935Z",
   "semana": "2026-S46",
   "dia": "2026-11-10",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
