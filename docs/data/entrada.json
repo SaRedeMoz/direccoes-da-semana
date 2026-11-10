@@ -1,31 +1,31 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-09",
+  "hoje": "2026-11-10",
   "semana": "2026-S46",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
-  "dia_semana": "segunda",
+  "dia_semana": "terca",
   "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "imprensa_economica",
-    "internacional"
+    "analise_independente",
+    "regional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-11-09 (dia): Crédito a cair e juros a subir: quem consegue empréstimo em 2027?",
     "2026-11-06 (dia): Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?",
     "2026-11-05 (dia): Chapa da Grande Maputo: o ajuste de 5 meticais",
     "2026-11-04 (bolso): O Seu Bolso",
-    "2026-11-03 (dia): Orçamento de 2027: o corte chega primeiro a quem vende ao Estado?",
-    "2026-11-02 (dia): El Niño: o milho vai encarecer antes de a ajuda chegar?"
+    "2026-11-03 (dia): Orçamento de 2027: o corte chega primeiro a quem vende ao Estado?"
   ],
   "ultimas_areas_dia": [
+    "Crédito, banca e câmbio",
     "Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?",
-    "Chapa da Grande Maputo: o ajuste de 5 meticais",
-    "Orçamento de 2027: o corte chega primeiro a quem vende ao Estado?"
+    "Chapa da Grande Maputo: o ajuste de 5 meticais"
   ],
-  "area_sugerida": "Crédito, banca e câmbio",
+  "area_sugerida": "Educação",
   "edicao_anterior": [
     "Chapa: subida sem aprovação",
     "Brent recua para cerca de 105",

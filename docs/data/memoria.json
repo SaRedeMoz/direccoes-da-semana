@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-09",
+  "actualizado": "2026-11-10",
   "indicadores": [
     {
       "id": "gasolina",
@@ -594,7 +594,32 @@
       ]
     }
   ],
-  "direccoes_a_verificar": [],
+  "direccoes_a_verificar": [
+    {
+      "id": "D33",
+      "data": "2026-11-03",
+      "semana": "2026-S45",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Orçar o transporte com tarifa acima de 18 meticais até haver decisão oficial.",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-10",
+      "resultado": "pendente",
+      "nota": ""
+    },
+    {
+      "id": "D34",
+      "data": "2026-11-04",
+      "semana": "2026-S45",
+      "publico": "Utentes do chapa",
+      "accao": "Orçar o chapa acima de 18 meticais e exigir o valor afixado até haver tarifa oficial",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-10",
+      "resultado": "pendente",
+      "nota": ""
+    }
+  ],
   "balanco_direccoes": {
     "confirmada": 1,
     "parcial": 8,
