@@ -11,9 +11,9 @@
       "em": "2026-11-11T03:36:22.564Z"
     },
     "design": {
-      "estado": "a trabalhar",
-      "msg": "A preparar slides",
-      "em": "2026-11-11T03:36:23.751Z"
+      "estado": "pronto",
+      "msg": "Slides prontos",
+      "em": "2026-11-11T03:37:08.728Z"
     },
     "editor": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-11T03:37:08.728Z",
+      "agente": "design",
+      "msg": "Slides prontos"
+    },
     {
       "em": "2026-11-11T03:36:23.751Z",
       "agente": "design",
@@ -221,14 +226,9 @@
       "em": "2026-11-08T03:04:47.289Z",
       "agente": "fontes",
       "msg": "A pesquisar notícias de 6 a 8 de Novembro"
-    },
-    {
-      "em": "2026-11-08T03:04:17.938Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
     }
   ],
-  "actualizado": "2026-11-11T03:36:23.751Z",
+  "actualizado": "2026-11-11T03:37:08.728Z",
   "semana": "2026-S46",
   "dia": "2026-11-11",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
