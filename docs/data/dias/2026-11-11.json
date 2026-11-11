@@ -1,0 +1,301 @@
+{
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "manchete": "Taxa dos combustíveis pode subir: gasóleo mais 6,36 meticais por litro",
+  "resumo": "O Governo propôs no Parlamento subir a taxa sobre combustíveis, o que pode encarecer o gasóleo em cerca de 5% e a gasolina em cerca de 3%. O chapa de Maputo fica a 15 meticais, com compensações aos operadores por três meses.",
+  "indicadores": [
+    "gasolina",
+    "gasoleo",
+    "usd_mzn",
+    "inflacao"
+  ],
+  "comparar": [
+    "chapa",
+    "milho",
+    "arroz"
+  ],
+  "regioes": [
+    {
+      "regiao": "maputo",
+      "destaque": "O chapa mantém-se a 15 meticais, com compensações aos operadores até Fevereiro.",
+      "direccao": "Pague a tarifa afixada e guarde folga no orçamento do transporte para depois de Fevereiro."
+    },
+    {
+      "regiao": "beira",
+      "destaque": "O gasóleo mais caro pesa na carga que sai do porto para o interior.",
+      "direccao": "Comerciantes devem contar com frete mais caro e rever preços de revenda com cuidado."
+    },
+    {
+      "regiao": "nampula",
+      "destaque": "O chapa custa 20 meticais desde Maio e a comida chega por camião a gasóleo.",
+      "direccao": "Famílias devem comprar básicos em quantidade quando houver oferta local e guardar reserva para Janeiro."
+    }
+  ],
+  "o_que_mudou": [
+    {
+      "titulo": "Taxa dos combustíveis em debate",
+      "explicacao": "Passaria para 15 cêntimos de dólar por litro. Ainda não há data de entrada em vigor.",
+      "canal": "Gasóleo mais caro, carga mais cara, comida mais cara"
+    },
+    {
+      "titulo": "Chapa de Maputo travado",
+      "explicacao": "A tarifa fica a 15 meticais e o Governo paga 25 mil a 90 mil meticais por viatura e por mês.",
+      "canal": "Tarifa estável até Fevereiro"
+    },
+    {
+      "titulo": "Crédito continua a cair",
+      "explicacao": "O crédito à economia baixou em Agosto pelo terceiro mês seguido, com juros médios de 22,26%.",
+      "canal": "Menos crédito, menos negócio informal a crescer"
+    }
+  ],
+  "direccoes": [
+    {
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Pague a tarifa afixada no chapa e guarde uma folga de 5 meticais por viagem para depois de Fevereiro."
+    },
+    {
+      "area": "Compras",
+      "classe": "baixa",
+      "accao": "Guarde reserva de milho e arroz antes de Janeiro, quando o PAM prevê cortes na ajuda alimentar."
+    },
+    {
+      "area": "Crédito",
+      "classe": "media",
+      "accao": "Evite crédito ao consumo com juros acima de 20% e compare propostas antes de assinar."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Conte com frete mais caro se a taxa for aprovada e negoceie preços com fornecedores com antecedência."
+    },
+    {
+      "area": "Poupança",
+      "classe": "media",
+      "accao": "Separe uma reserva para transporte e comida equivalente a um mês de despesa antes de Janeiro."
+    },
+    {
+      "area": "Escola e saúde",
+      "classe": "ambas",
+      "accao": "Pergunte à escola privada como cumprirá o Decreto 54/2026 antes de pagar a propina do próximo ano."
+    }
+  ],
+  "revisao": [],
+  "textos": {
+    "whatsapp": "*O SEU BOLSO, 11 DE NOVEMBRO*\n\n*A NOTÍCIA*\nO Governo propôs no Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, o impacto estimado é de 2,92 meticais por litro na gasolina e 6,36 no gasóleo. Com a gasolina a 93,69 meticais e o gasóleo a 116,25, isso dá cerca de 3% e 5% a mais. A proposta ainda está em discussão e não tem data de entrada em vigor.\n\n*COMO CHEGA AO BOLSO*\nO gasóleo move camiões e chapas. Se a taxa for aprovada, o frete sobe primeiro, depois o preço da comida no mercado e, mais tarde, a tarifa do transporte.\n\n*O CHAPA*\nEm Maputo, o Governo travou a subida e a tarifa fica a 15 meticais. Os operadores recebem entre 25 mil e 90 mil meticais por viatura e por mês durante três meses, por isso a questão volta depois de Fevereiro. Em Nampula, o chapa custa 20 meticais desde Maio.\n\n*OUTROS NÚMEROS*\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. A inflação anual estava em 6,31% em Setembro e o dólar a 63,91 meticais. O PAM só mantém a ajuda alimentar actual até Dezembro.\n\n*O QUE FAZER*\nTransporte: pague a tarifa afixada e guarde uma folga para depois de Fevereiro. Compras: guarde reserva de milho e arroz antes de Janeiro. Crédito: evite empréstimos ao consumo acima de 20%. Pequeno negócio: conte com frete mais caro e negoceie com antecedência. Escola: pergunte à escola privada como cumprirá o Decreto 54/2026 antes de pagar a propina.\n\nEstas são orientações gerais para famílias e pequenos negócios, não aconselhamento financeiro individual. Se este resumo ajudou, partilhe com alguém que também precisa dele.",
+    "instagram": "A taxa sobre combustíveis pode subir: gasóleo mais 6,36 meticais por litro e gasolina mais 2,92, segundo o ministro dos Transportes. A proposta ainda está no Parlamento. O chapa de Maputo fica a 15 meticais até Fevereiro. Guarde folga no transporte e reserva de básicos antes de Janeiro. #OSeuBolso #Moçambique",
+    "facebook": "O Governo propôs no Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, isso pode juntar 2,92 meticais ao litro de gasolina e 6,36 ao de gasóleo, cerca de 3% e 5% sobre os preços de hoje. Ainda não há data de entrada em vigor.\n\nO gasóleo move camiões e chapas, por isso o efeito chega primeiro ao frete, depois à comida e, mais tarde, ao transporte.\n\nEm Maputo, o chapa fica a 15 meticais. O Governo paga compensações de 25 mil a 90 mil meticais por viatura e por mês durante três meses. Em Nampula, o chapa custa 20 meticais desde Maio.\n\nO crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. O PAM só mantém a ajuda alimentar actual até Dezembro.\n\nO que fazer: pague a tarifa afixada, guarde folga para depois de Fevereiro e reserve milho e arroz antes de Janeiro.\n\n#OSeuBolso #Moçambique",
+    "linkedin": "A proposta do Governo de subir a taxa sobre combustíveis, noticiada a 6 de Novembro, é a notícia que mais mexe no custo de vida desta semana. O valor proposto é de 15 cêntimos de dólar por litro, contra cerca de 11 na gasolina e 6 no gasóleo. O ministro dos Transportes e Logística, João Matlombe, estima um impacto de 2,92 meticais por litro na gasolina e 6,36 no gasóleo. Sobre os preços actuais, de 93,69 e 116,25 meticais, são cerca de 3% e 5%.\n\nO caminho até ao bolso é conhecido. O gasóleo encarece o frete, o frete encarece os produtos e, quando acabarem as compensações, pressiona o chapa. Em Maputo, o Governo manteve a tarifa a 15 meticais e paga entre 25 mil e 90 mil meticais por viatura e por mês durante três meses. A tarifa volta a estar em causa depois de Fevereiro.\n\nPara as empresas, o contexto agrava o efeito: o crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. O PAM só mantém a ajuda alimentar actual até Dezembro, o que aperta as famílias mais pobres no início do ano.\n\nDirecção\nPequenos negócios devem rever o custo do frete e negociar prazos com fornecedores. Famílias devem guardar uma folga no transporte e reserva de básicos antes de Janeiro. Estas são orientações gerais, não aconselhamento financeiro individual.\n\nO Parlamento ainda não decidiu a taxa. Até lá, convém orçamentar o gasóleo cerca de 5% mais caro.\n\n#OSeuBolso #Moçambique"
+  },
+  "fontes": [
+    {
+      "fonte": "Lusa via Executive Digest",
+      "url": "https://executivedigest.sapo.pt/mocambique-preve-aumentar-a-taxa-sobre-combustiveis-para-conservar-estradas/"
+    },
+    {
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/11/06/governo-trava-aumento-do-preco-dos-transportes-e-assume-custos-atraves-de-subsidios/"
+    },
+    {
+      "fonte": "O País",
+      "url": "https://opais.co.mz/governo-trava-aumento-das-tarifas-dos-semi-colectivos/"
+    },
+    {
+      "fonte": "ARENE via Lusa",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
+    }
+  ],
+  "data": "2026-11-11",
+  "dia_semana": "quarta",
+  "semana": "2026-S46",
+  "versao": 1,
+  "aprovada": false,
+  "series": [
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          93.69
+        ]
+      ]
+    },
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "ultimo": {
+        "data": "2026-10-12",
+        "valor": 63.91,
+        "fonte": "Agregador de câmbios (exchangerate.guru)",
+        "url": "https://exchangerate.guru/bmd/mzn/6/",
+        "nota": "Valor indicativo de agregador, não oficial"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-12",
+          63.91
+        ]
+      ]
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-10-09",
+        "valor": 6.31,
+        "fonte": "Trading Economics (INE)",
+        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
+    ],
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 15,
+            "data": "2026-11-06",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "milho",
+        "nome": "Milho em grão",
+        "unidade": "MT/kg",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "arroz",
+        "nome": "Arroz",
+        "unidade": "MT/kg",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
+}

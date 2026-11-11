@@ -574,5 +574,29 @@
     "verificar_em": "2027-02-10",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D48",
+    "data": "2026-11-11",
+    "semana": "2026-S46",
+    "publico": "Utentes do chapa e PMEs de transporte",
+    "accao": "Contar com gasóleo mais caro se a taxa sobre combustíveis for aprovada e rever custos de carga.",
+    "tema": "combustivel",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-10",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D49",
+    "data": "2026-11-11",
+    "semana": "2026-S46",
+    "publico": "Famílias",
+    "accao": "Guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes.",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

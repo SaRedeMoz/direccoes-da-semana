@@ -1,302 +1,301 @@
 {
-  "tipo": "dia",
-  "area": "Educação",
-  "tema": "Decreto 54/2026: o que muda para quem paga escola privada",
-  "pergunta": "Escola privada só presencial e com licença: as propinas vão subir?",
-  "facto": {
-    "texto": "O Decreto 54/2026 substitui o de 1990 e torna o ensino privado exclusivamente presencial. Abrir ou alargar uma escola exige licença, e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar.",
-    "numeros": [
-      {
-        "valor": "18 meses",
-        "legenda": "prazo de adaptação"
-      },
-      {
-        "valor": "20 a 50",
-        "legenda": "salários mínimos de multa"
-      },
-      {
-        "valor": "35 anos",
-        "legenda": "idade do decreto anterior"
-      }
-    ],
-    "fonte": "Lusa (RTP e Club of Mozambique), Decreto 54/2026"
-  },
-  "linha_do_tempo": [
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "manchete": "Taxa dos combustíveis pode subir: gasóleo mais 6,36 meticais por litro",
+  "resumo": "O Governo propôs no Parlamento subir a taxa sobre combustíveis, o que pode encarecer o gasóleo em cerca de 5% e a gasolina em cerca de 3%. O chapa de Maputo fica a 15 meticais, com compensações aos operadores por três meses.",
+  "indicadores": [
+    "gasolina",
+    "gasoleo",
+    "usd_mzn",
+    "inflacao"
+  ],
+  "comparar": [
+    "chapa",
+    "milho",
+    "arroz"
+  ],
+  "regioes": [
     {
-      "data": "1990",
-      "texto": "Decreto 11/90 passa a regular o ensino privado",
-      "futuro": false
+      "regiao": "maputo",
+      "destaque": "O chapa mantém-se a 15 meticais, com compensações aos operadores até Fevereiro.",
+      "direccao": "Pague a tarifa afixada e guarde folga no orçamento do transporte para depois de Fevereiro."
     },
     {
-      "data": "Set 2020",
-      "texto": "INE: 3,1% de 946 escolas privadas fechadas na pandemia",
-      "futuro": false
+      "regiao": "beira",
+      "destaque": "O gasóleo mais caro pesa na carga que sai do porto para o interior.",
+      "direccao": "Comerciantes devem contar com frete mais caro e rever preços de revenda com cuidado."
     },
     {
-      "data": "2026",
-      "texto": "Decreto 54/2026 substitui o de 1990",
-      "futuro": false
-    },
-    {
-      "data": "Jan 2027",
-      "texto": "Escolas anunciam as propinas do novo ano",
-      "futuro": true
-    },
-    {
-      "data": "31 Mar 2027",
-      "texto": "Data limite para um guia de licenciamento claro",
-      "futuro": true
-    },
-    {
-      "data": "2028",
-      "texto": "Fim do prazo de adaptação de 18 meses",
-      "futuro": true
+      "regiao": "nampula",
+      "destaque": "O chapa custa 20 meticais desde Maio e a comida chega por camião a gasóleo.",
+      "direccao": "Famílias devem comprar básicos em quantidade quando houver oferta local e guardar reserva para Janeiro."
     }
   ],
-  "precedente": {
-    "quando": "2020 e despacho anterior sobre currículo estrangeiro",
-    "o_que_aconteceu": "Um despacho obrigou escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério disse que várias violavam o diploma 119. Em 2020, 3,1% de 946 escolas privadas fecharam.",
-    "licao": "Regras sem fiscalização ficam no papel, e choques fecham as escolas mais frágeis.",
-    "fonte": "Forbes África Lusófona; Club of Mozambique, 14 de Setembro de 2020"
-  },
-  "porque_importa": "Quem tem filhos no ensino privado, em creches, centros de línguas ou escolas internacionais, pode ver mudar o preço e as regras do serviço. Para os donos de escolas, a licença e a prova de capacidade financeira são um custo novo. Para os alunos, a exigência de continuidade das aulas durante o ano é uma protecção.",
-  "canal": {
-    "passos": [
-      "Decreto exige licença e acreditação",
-      "Escolas pagam obras e processos",
-      "Propina sobe ou escola fecha",
-      "Família muda de escola ou paga mais"
-    ],
-    "quem_sente": "Famílias urbanas com filhos em escolas privadas"
-  },
-  "conta": {
-    "titulo": "Quanto custa um aumento de propina",
-    "pressupostos": "Propina de 6 000 MT por mês, 10 meses por ano. Valores de exemplo, não oficiais.",
-    "barras": [
-      {
-        "rotulo": "Sem aumento",
-        "valor": 60000,
-        "texto": "60 000 MT/ano"
-      },
-      {
-        "rotulo": "Aumento de 5%",
-        "valor": 63000,
-        "texto": "63 000 MT/ano"
-      },
-      {
-        "rotulo": "Aumento de 10%",
-        "valor": 66000,
-        "texto": "66 000 MT/ano"
-      }
-    ],
-    "unidade": "MT por ano",
-    "conclusao": "Cada 5% de aumento custa mais 3 000 meticais por ano a esta família."
-  },
-  "cenarios": [
+  "o_que_mudou": [
     {
-      "nome": "Escolas licenciam-se sem subir preços",
-      "tipo": "melhora",
-      "probabilidade": 25,
-      "porque_probabilidade": "Não há precedente recente de licenciamento sem custo repassado; a hipótese depende de um guia claro e do prazo de 18 meses.",
-      "gatilho": "Ministério publica guia de licenciamento com taxas e prazos",
-      "o_que_acontece": "As escolas sérias entregam o processo com prazo folgado, o custo é pequeno e as propinas ficam estáveis, com aumentos de inflação.",
-      "numeros": "Aumentos de propinas de 0% a 7% em 2027, perto da inflação",
-      "quando": "até Março de 2027",
-      "ganha": "Famílias e escolas organizadas",
-      "perde": "Escolas sem alvará",
-      "se_acontecer": "Pedir o alvará e manter a escola; comparar propinas com a lista comunicada."
+      "titulo": "Taxa dos combustíveis em debate",
+      "explicacao": "Passaria para 15 cêntimos de dólar por litro. Ainda não há data de entrada em vigor.",
+      "canal": "Gasóleo mais caro, carga mais cara, comida mais cara"
     },
     {
-      "nome": "A regra fica no papel",
-      "tipo": "fica_igual",
-      "probabilidade": 45,
-      "porque_probabilidade": "Precedente: escolas não cumpriram o diploma 119 sobre currículo e o Ministério teve de insistir. Soma-se um prazo de 18 meses.",
-      "gatilho": "Nenhuma escola notificada ou multada",
-      "o_que_acontece": "A fiscalização é rara, muitas escolas só mudam perto do fim do prazo e o ensino à distância continua em centros pequenos.",
-      "numeros": "Poucas ou nenhumas multas em 2027, propinas a subir 5% a 10%",
-      "quando": "até Junho de 2027",
-      "ganha": "Escolas que adiam custos",
-      "perde": "Famílias sem protecção real",
-      "se_acontecer": "Exigir recibo e tabela de propinas por escrito; guardar os comprovativos."
+      "titulo": "Chapa de Maputo travado",
+      "explicacao": "A tarifa fica a 15 meticais e o Governo paga 25 mil a 90 mil meticais por viatura e por mês.",
+      "canal": "Tarifa estável até Fevereiro"
     },
     {
-      "nome": "Licença encarece e fecham escolas pequenas",
-      "tipo": "piora",
-      "probabilidade": 30,
-      "porque_probabilidade": "Em 2020, 3,1% das escolas privadas fecharam num choque; juros de 22% limitam o crédito para obras e licença.",
-      "gatilho": "Escolas pequenas anunciam subidas acima de 10% em Janeiro",
-      "o_que_acontece": "As escolas pagam licença, obras e acreditação, repassam o custo às propinas e as menos capazes fecham ou fundem-se.",
-      "numeros": "Aumentos de 10% a 20%; fecho de 2% a 4% das escolas até 2028",
-      "quando": "2027 a 2028",
-      "ganha": "Grandes redes de ensino",
-      "perde": "Famílias de rendimento médio",
-      "se_acontecer": "Pedir justificação escrita dos serviços; ter plano B de escola pública ou mais barata."
+      "titulo": "Crédito continua a cair",
+      "explicacao": "O crédito à economia baixou em Agosto pelo terceiro mês seguido, com juros médios de 22,26%.",
+      "canal": "Menos crédito, menos negócio informal a crescer"
     }
   ],
-  "sinais": [
+  "direccoes": [
     {
-      "o_que": "Publicação do guia de licenciamento",
-      "limiar": "Publicado e com prazos claros",
-      "quando": "até 31 de Março de 2027",
-      "aponta_para": "melhora"
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Pague a tarifa afixada no chapa e guarde uma folga de 5 meticais por viagem para depois de Fevereiro."
     },
     {
-      "o_que": "Primeira multa ou escola notificada",
-      "limiar": "Nenhum caso conhecido",
-      "quando": "até Junho de 2027",
-      "aponta_para": "fica_igual"
+      "area": "Compras",
+      "classe": "baixa",
+      "accao": "Guarde reserva de milho e arroz antes de Janeiro, quando o PAM prevê cortes na ajuda alimentar."
     },
     {
-      "o_que": "Aviso de aumento de propinas",
-      "limiar": "Acima de 10% em escolas de Maputo ou Beira",
-      "quando": "Janeiro de 2027",
-      "aponta_para": "piora"
+      "area": "Crédito",
+      "classe": "media",
+      "accao": "Evite crédito ao consumo com juros acima de 20% e compare propostas antes de assinar."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Conte com frete mais caro se a taxa for aprovada e negoceie preços com fornecedores com antecedência."
+    },
+    {
+      "area": "Poupança",
+      "classe": "media",
+      "accao": "Separe uma reserva para transporte e comida equivalente a um mês de despesa antes de Janeiro."
+    },
+    {
+      "area": "Escola e saúde",
+      "classe": "ambas",
+      "accao": "Pergunte à escola privada como cumprirá o Decreto 54/2026 antes de pagar a propina do próximo ano."
     }
   ],
-  "afectados": [
-    {
-      "grupo": "Famílias com filhos no privado",
-      "saldo": -1,
-      "porque": "propinas podem subir"
-    },
-    {
-      "grupo": "Escolas privadas pequenas",
-      "saldo": -2,
-      "porque": "licença e prova financeira custam"
-    },
-    {
-      "grupo": "Grandes redes de ensino",
-      "saldo": 1,
-      "porque": "menos concorrência de escolas fracas"
-    },
-    {
-      "grupo": "Professores do privado",
-      "saldo": 0,
-      "porque": "emprego depende do fecho ou não"
-    },
-    {
-      "grupo": "Alunos",
-      "saldo": 1,
-      "porque": "aulas sem interrupção e qualidade"
-    }
-  ],
-  "direccao": [
-    {
-      "publico": "Pais e encarregados",
-      "agora": "Pedir à escola o alvará e a tabela de propinas comunicada às autoridades; guardar recibos.",
-      "se_piorar": "Exigir justificação escrita do aumento e ter plano B de escola."
-    },
-    {
-      "publico": "Donos de escolas e centros",
-      "agora": "Iniciar o licenciamento e acabar com as aulas só à distância antes de 2028.",
-      "se_piorar": "Negociar prazos e juntar-se a outras escolas para dividir custos."
-    },
-    {
-      "publico": "Professores do ensino privado",
-      "agora": "Confirmar por escrito que o contrato continua depois da licença.",
-      "se_piorar": "Preparar candidatura a outra escola ou ao ensino público."
-    },
-    {
-      "publico": "Investidores em educação",
-      "agora": "Esperar o guia de licenciamento antes de abrir novas unidades.",
-      "se_piorar": "Adiar o alargamento até haver regras e prazos claros."
-    }
-  ],
-  "visao_contraria": "A licença e a prova de capacidade podem tirar do mercado escolas sem qualidade e proteger alunos e famílias, sem subida geral de preços. O decreto só exige que o aumento seja justificado.",
-  "nao_sabemos": [
-    "Quantas escolas e alunos o decreto abrange ainda não foi publicado.",
-    "O valor das taxas de licença ainda não foi anunciado.",
-    "O Ministério ainda não disse quando começa a fiscalização."
-  ],
-  "sinal": "Guia de licenciamento até 31 de Março de 2027 e avisos de propinas em Janeiro de 2027.",
-  "confianca": "media",
-  "base_confianca": "Duas fontes jornalísticas sobre o texto do decreto, sem números de escolas; precedentes de jornais e INE de 2020.",
+  "revisao": [],
   "textos": {
-    "whatsapp": "*A ESCOLA PRIVADA DO SEU FILHO VAI MUDAR?*\n\nO Decreto 54/2026 substitui o de 1990 e muda as regras do ensino privado. Passa a ser só presencial, abrir ou alargar uma escola exige licença e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar. As multas vão de 20 a 50 salários mínimos da Administração Pública.\n\n*O QUE PODE ACONTECER*\n\nPrimeiro cenário, 25%: as escolas obtêm licença sem subir as propinas, porque o Ministério publica cedo um guia claro. Sinal: guia publicado antes de 31 de Março de 2027.\n\nSegundo cenário, 45%: a regra fica no papel. Já existia um despacho a obrigar escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério admitiu que várias não cumpriam. Sinal: nenhuma escola notificada até Junho de 2027.\n\nTerceiro cenário, 30%: o custo da licença e das obras passa para as famílias e as escolas mais pequenas fecham. Em 2020, o INE contou 3,1% de 946 escolas privadas fechadas durante a pandemia. Sinal: avisos de aumento acima de 10% em Janeiro de 2027.\n\n*A CONTA*\n\nUma propina de 6 000 meticais por mês, em 10 meses, dá 60 000 meticais por ano. Com 5% de aumento paga mais 3 000, com 10% paga mais 6 000. É um exemplo, não um valor oficial.\n\n*DIRECÇÃO*\n\nPais: peça à escola o alvará e a tabela de propinas comunicada às autoridades, e guarde os recibos. Escolas: comece já o processo de licença e termine as aulas só à distância. Se a propina subir mais de 10%, peça por escrito a justificação dos serviços prestados, porque o decreto só aceita aumentos ligados a serviços reais.\n\nO melhor argumento contra esta leitura: a licença pode afastar escolas sem qualidade e proteger os alunos. Ainda não se sabe quantas escolas e alunos o decreto abrange.\n\nPartilhe com um pai ou uma mãe que tenha filhos numa escola privada.",
-    "instagram": "Escola privada só presencial, com licença e propinas comunicadas: o Decreto 54/2026 muda as regras. Cenário mais provável, 45%: a regra fica no papel. Risco, 30%: a licença passa para as propinas. Peça já o alvará e a tabela de propinas à escola.",
-    "facebook": "O Decreto 54/2026 muda as regras das escolas privadas em Moçambique e vai pesar nas famílias que pagam propinas.\n\nO que diz: o ensino privado passa a ser só presencial. Abrir ou alargar uma escola exige licença. As propinas têm de ser comunicadas todos os anos às autoridades, e um aumento só é aceite se estiver ligado a serviços realmente prestados. As escolas que já funcionam têm 18 meses para se adaptar e as multas vão de 20 a 50 salários mínimos da Administração Pública.\n\nO que pode acontecer: o cenário mais provável, com 45%, é que a regra fique no papel, como aconteceu com a obrigação de ensinar Português, História e Geografia de Moçambique nas escolas de currículo estrangeiro, que o Ministério admitiu não ser cumprida por várias escolas. Com 30%, o custo da licença passa para as propinas e as escolas pequenas fecham. Com 25%, as escolas licenciam-se sem subir os preços.\n\nUm exemplo: uma propina de 6 000 meticais por mês, durante 10 meses, dá 60 000 por ano. Um aumento de 10% custa mais 6 000 meticais. É um exemplo, não um valor oficial.\n\nDirecção principal: peça à escola o alvará e a tabela de propinas comunicada às autoridades, e se houver aumento acima de 10% peça a justificação por escrito.\n\n#Moçambique #Educação",
-    "linkedin": "O Decreto 54/2026 reescreve, depois de mais de 35 anos, as regras do ensino privado em Moçambique. O ensino passa a ser exclusivamente presencial, abrir ou alargar uma escola exige licença com prova de capacidade técnica, financeira e patrimonial, e as propinas têm de ser comunicadas todos os anos às autoridades. As escolas em funcionamento têm 18 meses para se adaptar. As multas vão de 20 a 50 salários mínimos da Administração Pública, e há suspensão e encerramento nos casos mais graves.\n\nO precedente pede cautela. Um despacho anterior obrigou as escolas de currículo estrangeiro a ensinar Português, História e Geografia de Moçambique, e o Ministério admitiu que várias não cumpriam o diploma ministerial 119. Em 2020, um inquérito do INE a 946 escolas privadas, da pré-escola ao ensino superior, mostrou 3,1% fechadas pela pandemia, e o Ministério disse não ter poder legal para fixar propinas.\n\nOs cenários: 25% de as escolas se licenciarem sem subir os preços, 45% de a fiscalização ser fraca e quase nada mudar, 30% de o custo da licença passar para as propinas e fecharem escolas pequenas. O sinal mais próximo é Janeiro de 2027, quando se vê se os avisos de aumento passam de 10%.\n\nUm exemplo com pressupostos: numa propina de 6 000 meticais por mês, em 10 meses, um aumento de 10% custa mais 6 000 meticais por ano a uma família.\n\nDirecção. Escolas: iniciar o licenciamento e acabar com as aulas só à distância. Famílias: pedir o alvará e a tabela de propinas comunicada. Investidores em educação: esperar o guia de licenciamento antes de abrir novas unidades. A contra-leitura é séria: a licença pode retirar do mercado escolas sem qualidade. O decreto ganha ou perde na fiscalização de 2027.\n\n#Moçambique #Educação #ensinoprivado"
+    "whatsapp": "*O SEU BOLSO, 11 DE NOVEMBRO*\n\n*A NOTÍCIA*\nO Governo propôs no Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, o impacto estimado é de 2,92 meticais por litro na gasolina e 6,36 no gasóleo. Com a gasolina a 93,69 meticais e o gasóleo a 116,25, isso dá cerca de 3% e 5% a mais. A proposta ainda está em discussão e não tem data de entrada em vigor.\n\n*COMO CHEGA AO BOLSO*\nO gasóleo move camiões e chapas. Se a taxa for aprovada, o frete sobe primeiro, depois o preço da comida no mercado e, mais tarde, a tarifa do transporte.\n\n*O CHAPA*\nEm Maputo, o Governo travou a subida e a tarifa fica a 15 meticais. Os operadores recebem entre 25 mil e 90 mil meticais por viatura e por mês durante três meses, por isso a questão volta depois de Fevereiro. Em Nampula, o chapa custa 20 meticais desde Maio.\n\n*OUTROS NÚMEROS*\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. A inflação anual estava em 6,31% em Setembro e o dólar a 63,91 meticais. O PAM só mantém a ajuda alimentar actual até Dezembro.\n\n*O QUE FAZER*\nTransporte: pague a tarifa afixada e guarde uma folga para depois de Fevereiro. Compras: guarde reserva de milho e arroz antes de Janeiro. Crédito: evite empréstimos ao consumo acima de 20%. Pequeno negócio: conte com frete mais caro e negoceie com antecedência. Escola: pergunte à escola privada como cumprirá o Decreto 54/2026 antes de pagar a propina.\n\nEstas são orientações gerais para famílias e pequenos negócios, não aconselhamento financeiro individual. Se este resumo ajudou, partilhe com alguém que também precisa dele.",
+    "instagram": "A taxa sobre combustíveis pode subir: gasóleo mais 6,36 meticais por litro e gasolina mais 2,92, segundo o ministro dos Transportes. A proposta ainda está no Parlamento. O chapa de Maputo fica a 15 meticais até Fevereiro. Guarde folga no transporte e reserva de básicos antes de Janeiro. #OSeuBolso #Moçambique",
+    "facebook": "O Governo propôs no Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, isso pode juntar 2,92 meticais ao litro de gasolina e 6,36 ao de gasóleo, cerca de 3% e 5% sobre os preços de hoje. Ainda não há data de entrada em vigor.\n\nO gasóleo move camiões e chapas, por isso o efeito chega primeiro ao frete, depois à comida e, mais tarde, ao transporte.\n\nEm Maputo, o chapa fica a 15 meticais. O Governo paga compensações de 25 mil a 90 mil meticais por viatura e por mês durante três meses. Em Nampula, o chapa custa 20 meticais desde Maio.\n\nO crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. O PAM só mantém a ajuda alimentar actual até Dezembro.\n\nO que fazer: pague a tarifa afixada, guarde folga para depois de Fevereiro e reserve milho e arroz antes de Janeiro.\n\n#OSeuBolso #Moçambique",
+    "linkedin": "A proposta do Governo de subir a taxa sobre combustíveis, noticiada a 6 de Novembro, é a notícia que mais mexe no custo de vida desta semana. O valor proposto é de 15 cêntimos de dólar por litro, contra cerca de 11 na gasolina e 6 no gasóleo. O ministro dos Transportes e Logística, João Matlombe, estima um impacto de 2,92 meticais por litro na gasolina e 6,36 no gasóleo. Sobre os preços actuais, de 93,69 e 116,25 meticais, são cerca de 3% e 5%.\n\nO caminho até ao bolso é conhecido. O gasóleo encarece o frete, o frete encarece os produtos e, quando acabarem as compensações, pressiona o chapa. Em Maputo, o Governo manteve a tarifa a 15 meticais e paga entre 25 mil e 90 mil meticais por viatura e por mês durante três meses. A tarifa volta a estar em causa depois de Fevereiro.\n\nPara as empresas, o contexto agrava o efeito: o crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. O PAM só mantém a ajuda alimentar actual até Dezembro, o que aperta as famílias mais pobres no início do ano.\n\nDirecção\nPequenos negócios devem rever o custo do frete e negociar prazos com fornecedores. Famílias devem guardar uma folga no transporte e reserva de básicos antes de Janeiro. Estas são orientações gerais, não aconselhamento financeiro individual.\n\nO Parlamento ainda não decidiu a taxa. Até lá, convém orçamentar o gasóleo cerca de 5% mais caro.\n\n#OSeuBolso #Moçambique"
   },
   "fontes": [
     {
-      "fonte": "Lusa (RTP)",
-      "url": "https://www.rtp.pt/noticias/mundo/mocambique-exige-historia-nacional-as-escolas-estrangeiras-e-ensino-privado-presencial_n1770557",
-      "data": "2026-11-06"
+      "fonte": "Lusa via Executive Digest",
+      "url": "https://executivedigest.sapo.pt/mocambique-preve-aumentar-a-taxa-sobre-combustiveis-para-conservar-estradas/"
     },
     {
-      "fonte": "Club of Mozambique",
-      "url": "https://clubofmozambique.com/news/mozambique-mandates-national-history-for-foreign-curriculum-schools-and-restricts-private-education-to-in-person-learning/",
-      "data": "2026-10-09"
+      "fonte": "AIM",
+      "url": "https://aimnews.org/2026/11/06/governo-trava-aumento-do-preco-dos-transportes-e-assume-custos-atraves-de-subsidios/"
     },
     {
-      "fonte": "Forbes África Lusófona",
-      "url": "https://forbesafricalusofona.com/?p=172227",
-      "data": ""
+      "fonte": "O País",
+      "url": "https://opais.co.mz/governo-trava-aumento-das-tarifas-dos-semi-colectivos/"
     },
     {
-      "fonte": "Club of Mozambique (INE, escolas privadas na pandemia)",
-      "url": "https://clubofmozambique.com/news/the-crisis-in-private-schools-and-its-impact-on-resumption-of-face-to-face-classes/",
-      "data": "2020-09-14"
+      "fonte": "ARENE via Lusa",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
     }
   ],
-  "data": "2026-11-10",
-  "dia_semana": "terca",
+  "data": "2026-11-11",
+  "dia_semana": "quarta",
   "semana": "2026-S46",
   "versao": 1,
-  "aprovada": true,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
+  "aprovada": false,
+  "series": [
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          93.69
+        ]
+      ]
+    },
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "ultimo": {
+        "data": "2026-10-12",
+        "valor": 63.91,
+        "fonte": "Agregador de câmbios (exchangerate.guru)",
+        "url": "https://exchangerate.guru/bmd/mzn/6/",
+        "nota": "Valor indicativo de agregador, não oficial"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-12",
+          63.91
+        ]
+      ]
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-10-09",
+        "valor": 6.31,
+        "fonte": "Trading Economics (INE)",
+        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
+        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
     ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794287196499
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 15,
+            "data": "2026-11-06",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "milho",
+        "nome": "Milho em grão",
+        "unidade": "MT/kg",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "arroz",
+        "nome": "Arroz",
+        "unidade": "MT/kg",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
   },
-  "aprovadaEm": "2026-11-10T07:18:26.557Z",
-  "kit": "data/kits/Direccoes-2026-11-10-Direccao-do-Dia.zip"
+  "falhas": []
 }

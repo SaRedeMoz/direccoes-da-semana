@@ -416,12 +416,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-11-08",
-          "semana": "2026-S45",
-          "resumo": "O gasóleo está a 116,25 meticais desde Maio e o Brent recuou para perto de 105 dólares. O Governo diz que a subida de 5 meticais no chapa de Maputo ainda não tem aprovação municipal.",
-          "direccao": "Pagar a tarifa afixada e guardar folga para uma subida sem data."
-        },
-        {
           "data": "2026-11-09",
           "semana": "2026-S46",
           "resumo": "O Governo manteve a tarifa do chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
@@ -431,6 +425,12 @@
           "data": "2026-11-10",
           "semana": "2026-S46",
           "resumo": "O Governo manteve o chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
+          "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
+        },
+        {
+          "data": "2026-11-11",
+          "semana": "2026-S46",
+          "resumo": "O Governo propôs subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro, o que pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo. O chapa de Maputo fica a 15 meticais com compensações por três meses.",
           "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
         }
       ]
@@ -605,16 +605,16 @@
     "confirmada": 1,
     "parcial": 10,
     "nao_confirmada": 1,
-    "pendente": 35
+    "pendente": 37
   },
   "ultimas_licoes": [
-    "- 2026-11-03 (2026-S45): Às terças a pesquisa devolve pouco material datado: o detalhe do Orçamento de 2027 deu o assunto mais sólido do dia, e o RTP não data o artigo sobre a massa salarial.",
     "- 2026-11-04 (2026-S45): Às quartas a pesquisa devolve pouco material datado: o fecho de preços do chapa e do Brent segue sem fonte de 3 e 4 de Novembro.",
     "- 2026-11-05 (2026-S45): Uma subida do chapa pode ser anunciada pela FEMATRO sem sair nas fontes que a redacção segue; convém procurar também no Club of Mozambique e na Lusa.",
     "- 2026-11-06 (2026-S45): Às sextas o Brent só aparece numa cotação à vista sem fecho oficial; o prazo de 31 de Dezembro dos planos de aquisição do Conteúdo Local não consta das fontes jurídicas e passou a ser tratado como não confirmado.",
     "- 2026-11-07 (2026-S45): Aos sábados a pesquisa devolve pouco material datado de sexta e sábado: o fecho do Brent de 6 de Novembro não apareceu e a taxa MIMO de 30 de Setembro só foi confirmada por agregador.",
     "- 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal.",
     "- 2026-11-09 (2026-S46): Uma cotação à vista do Brent pode divergir do fecho: convém confirmar o fecho oficial antes de publicar.",
-    "- 2026-11-10 (2026-S46): Às terças a pesquisa devolve pouco material datado: o decreto do ensino privado serviu de assunto do dia e os artigos de origem nem sempre trazem data."
+    "- 2026-11-10 (2026-S46): Às terças a pesquisa devolve pouco material datado: o decreto do ensino privado serviu de assunto do dia e os artigos de origem nem sempre trazem data.",
+    "- 2026-11-11 (2026-S46): Às quartas a pesquisa devolve poucos preços datados nas capitais da Beira e de Nampula, e a inflação de Outubro por cidade ainda não saiu."
   ]
 }
