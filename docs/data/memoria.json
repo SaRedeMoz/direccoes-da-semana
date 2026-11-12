@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-11",
+  "actualizado": "2026-11-12",
   "indicadores": [
     {
       "id": "gasolina",
@@ -600,7 +600,20 @@
       ]
     }
   ],
-  "direccoes_a_verificar": [],
+  "direccoes_a_verificar": [
+    {
+      "id": "D13",
+      "data": "2026-10-21",
+      "semana": "2026-S43",
+      "publico": "Famílias e pequenos negócios",
+      "accao": "Comprar milho e arroz em quantidades pequenas e comparar mercados, porque o milho subiu 10,4% num mês",
+      "tema": "inflacao_precos",
+      "horizonte": "mes",
+      "verificar_em": "2026-11-12",
+      "resultado": "pendente",
+      "nota": ""
+    }
+  ],
   "balanco_direccoes": {
     "confirmada": 1,
     "parcial": 10,

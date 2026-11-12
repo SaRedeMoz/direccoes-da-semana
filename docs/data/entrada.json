@@ -1,31 +1,31 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-11",
+  "hoje": "2026-11-12",
   "semana": "2026-S46",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
-  "dia_semana": "quarta",
-  "post_do_dia": "bolso",
+  "dia_semana": "quinta",
+  "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "imprensa_economica",
-    "humanitario"
+    "internacional",
+    "analise_independente"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-11-11 (bolso): Taxa dos combustíveis pode subir: gasóleo mais 6,36 meticais por litro",
     "2026-11-10 (dia): Decreto 54/2026: o que muda para quem paga escola privada",
     "2026-11-09 (dia): Crédito a cair e juros a subir: quem consegue empréstimo em 2027?",
     "2026-11-06 (dia): Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?",
-    "2026-11-05 (dia): Chapa da Grande Maputo: o ajuste de 5 meticais",
-    "2026-11-04 (bolso): O Seu Bolso"
+    "2026-11-05 (dia): Chapa da Grande Maputo: o ajuste de 5 meticais"
   ],
   "ultimas_areas_dia": [
     "Educação",
     "Crédito, banca e câmbio",
     "Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?"
   ],
-  "area_sugerida": "",
+  "area_sugerida": "Gás, minas e recursos naturais",
   "edicao_anterior": [
     "Chapa: subida sem aprovação",
     "Brent recua para cerca de 105",
