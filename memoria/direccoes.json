@@ -155,7 +155,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-12",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "Sem preços do milho por cidade; a inflação anual ficou estável em 6,32%.",
+    "verificada_em": "2026-11-12"
   },
   {
     "id": "D14",
@@ -596,6 +597,30 @@
     "tema": "el_nino",
     "horizonte": "mes",
     "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D50",
+    "data": "2026-11-12",
+    "semana": "2026-S46",
+    "publico": "Fornecedores locais",
+    "accao": "Registar-se e juntar certidões antes das adjudicações do gás",
+    "tema": "gas_rovuma",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-12",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D51",
+    "data": "2026-11-12",
+    "semana": "2026-S46",
+    "publico": "Famílias",
+    "accao": "Comparar preços de hortícolas e peixe, que lideraram a subida de Outubro",
+    "tema": "inflacao_precos",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-12",
     "resultado": "pendente",
     "nota": ""
   }

@@ -1,329 +1,250 @@
 {
-  "tipo": "bolso",
-  "titulo": "O Seu Bolso",
-  "manchete": "Taxa dos combustíveis pode subir: gasóleo mais 6,36 meticais por litro",
-  "resumo": "O Governo propôs no Parlamento subir a taxa sobre combustíveis, o que pode encarecer o gasóleo em cerca de 5% e a gasolina em cerca de 3%. O chapa de Maputo fica a 15 meticais, com compensações aos operadores por três meses.",
-  "indicadores": [
-    "gasolina",
-    "gasoleo",
-    "usd_mzn",
-    "inflacao"
-  ],
-  "comparar": [
-    "chapa",
-    "milho",
-    "arroz"
-  ],
-  "regioes": [
+  "tipo": "dia",
+  "area": "Gás, minas e recursos naturais",
+  "tema": "Rovuma LNG: decisão final até Dezembro ou só em 2027",
+  "pergunta": "Rovuma LNG decide até Dezembro? O que muda para Moçambique",
+  "facto": {
+    "texto": "A ENH vai participar na perfuração dos poços do Coral Norte, projecto da Eni, ExxonMobil e CNPC com primeiro gás previsto para 2028. A decisão final do Rovuma LNG ainda não foi tomada: a ExxonMobil diz que quer decidir até ao fim do ano, mas faltam aprovações do Governo.",
+    "numeros": [
+      {
+        "valor": "18 Mtpa",
+        "legenda": "Rovuma LNG, por decidir"
+      },
+      {
+        "valor": "13 Mtpa",
+        "legenda": "Mozambique LNG, em obras"
+      },
+      {
+        "valor": "2028",
+        "legenda": "Primeiro gás do Coral Norte"
+      }
+    ],
+    "fonte": "The Energy Year; Presidência, via RTP; Wood Mackenzie"
+  },
+  "linha_do_tempo": [
     {
-      "regiao": "maputo",
-      "destaque": "O chapa mantém-se a 15 meticais, com compensações aos operadores até Fevereiro.",
-      "direccao": "Pague a tarifa afixada e guarde folga no orçamento do transporte para depois de Fevereiro."
+      "data": "Nov 2025",
+      "texto": "ExxonMobil levanta a força maior no Rovuma LNG",
+      "futuro": false
     },
     {
-      "regiao": "beira",
-      "destaque": "O gasóleo mais caro pesa na carga que sai do porto para o interior.",
-      "direccao": "Comerciantes devem contar com frete mais caro e rever preços de revenda com cuidado."
+      "data": "Jan 2026",
+      "texto": "TotalEnergies retoma as obras do Mozambique LNG",
+      "futuro": false
     },
     {
-      "regiao": "nampula",
-      "destaque": "O chapa custa 20 meticais desde Maio e a comida chega por camião a gasóleo.",
-      "direccao": "Famílias devem comprar básicos em quantidade quando houver oferta local e guardar reserva para Janeiro."
+      "data": "20 Out",
+      "texto": "Garantia a credores prolongada até Março de 2029",
+      "futuro": false
+    },
+    {
+      "data": "Nov 2026",
+      "texto": "ENH entra na campanha de poços do Coral Norte",
+      "futuro": false
+    },
+    {
+      "data": "31 Dez",
+      "texto": "Prazo da ExxonMobil para a decisão final",
+      "futuro": true
+    },
+    {
+      "data": "2028",
+      "texto": "Primeiro gás do Coral Norte",
+      "futuro": true
     }
   ],
-  "o_que_mudou": [
+  "precedente": {
+    "quando": "2021 a 2026",
+    "o_que_aconteceu": "Os ataques de 2021 em Cabo Delgado levaram à força maior e à paragem do Mozambique LNG. A força maior foi levantada em Novembro de 2025 e as obras retomaram em Janeiro de 2026.",
+    "licao": "A segurança manda no calendário: o gás só avança quando Cabo Delgado deixa.",
+    "fonte": "World Oil, 29 de Janeiro de 2026"
+  },
+  "porque_importa": "Os projectos de gás valem dezenas de milhares de milhões de dólares e prometem contratos, empregos e receitas. Quando a decisão atrasa, adiam-se os contratos para empresas locais e as receitas que o Estado espera.",
+  "canal": {
+    "passos": [
+      "Decisão final do Rovuma LNG",
+      "Obras e contratos arrancam",
+      "Fornecedores locais contratados",
+      "Empregos em Cabo Delgado",
+      "Receitas ao Estado, anos depois"
+    ],
+    "quem_sente": "Fornecedores locais, trabalhadores e Governo"
+  },
+  "conta": {
+    "titulo": "Capacidade de gás por fase",
+    "pressupostos": "Coral Norte 3,6 e total de 7 Mtpa, segundo a Wood Mackenzie; Mozambique LNG 13 e Rovuma LNG 18 Mtpa.",
+    "barras": [
+      {
+        "rotulo": "Hoje (Coral Sul)",
+        "valor": 3.4,
+        "texto": "3,4 Mtpa"
+      },
+      {
+        "rotulo": "Com Coral Norte, 2028",
+        "valor": 7,
+        "texto": "7 Mtpa"
+      },
+      {
+        "rotulo": "Com os quatro projectos",
+        "valor": 38,
+        "texto": "38 Mtpa"
+      }
+    ],
+    "unidade": "milhões de toneladas por ano",
+    "conclusao": "Só 9% dos 38 milhões de toneladas prometidos existe hoje; o resto depende de decisões e de segurança em Cabo Delgado."
+  },
+  "cenarios": [
     {
-      "titulo": "Taxa dos combustíveis em debate",
-      "explicacao": "Passaria para 15 cêntimos de dólar por litro. Ainda não há data de entrada em vigor.",
-      "canal": "Gasóleo mais caro, carga mais cara, comida mais cara"
+      "nome": "Decisão até Dezembro",
+      "tipo": "melhora",
+      "probabilidade": 25,
+      "porque_probabilidade": "A ExxonMobil já adjudicou 1,1 mil milhões de dólares em contratos, mas o prazo de Setembro falhou e faltam aprovações.",
+      "gatilho": "Governo aprova o plano revisto e a ExxonMobil anuncia a decisão final.",
+      "o_que_acontece": "Os contratos já adjudicados passam a obras e cresce a procura de fornecedores e trabalhadores locais em Cabo Delgado.",
+      "numeros": "Projecto de cerca de 30 mil milhões de dólares, 18 Mtpa",
+      "quando": "até 31 de Dezembro de 2026",
+      "ganha": "Fornecedores locais e Cabo Delgado",
+      "perde": "Quem esperava receitas já em 2027",
+      "se_acontecer": "Ter certidões e registo prontos e ler as regras do conteúdo local antes das adjudicações."
     },
     {
-      "titulo": "Chapa de Maputo travado",
-      "explicacao": "A tarifa fica a 15 meticais e o Governo paga 25 mil a 90 mil meticais por viatura e por mês.",
-      "canal": "Tarifa estável até Fevereiro"
+      "nome": "Decisão fica para 2027",
+      "tipo": "fica_igual",
+      "probabilidade": 50,
+      "porque_probabilidade": "O prazo de Setembro falhou e a Wood Mackenzie aponta para o início de 2027, com aprovações do Governo por dar.",
+      "gatilho": "Chega 31 de Dezembro sem comunicado da ExxonMobil nem resolução do Conselho de Ministros.",
+      "o_que_acontece": "Negociam-se custos, prazos e condições com o Governo; as obras do Mozambique LNG e do Coral Norte continuam, o Rovuma LNG espera.",
+      "numeros": "Atraso de 1 a 6 meses face ao prazo de 2026",
+      "quando": "decisão até meados de 2027",
+      "ganha": "Quem já está em obras",
+      "perde": "Fornecedores que esperam o Rovuma",
+      "se_acontecer": "Manter outros clientes e não se endividar por contratos ainda não assinados."
     },
     {
-      "titulo": "Crédito continua a cair",
-      "explicacao": "O crédito à economia baixou em Agosto pelo terceiro mês seguido, com juros médios de 22,26%.",
-      "canal": "Menos crédito, menos negócio informal a crescer"
+      "nome": "Ataque trava as obras",
+      "tipo": "piora",
+      "probabilidade": 25,
+      "porque_probabilidade": "As obras retomaram e a força maior foi levantada, mas em Outubro mais de 1 200 pessoas fugiram de ataques em duas semanas.",
+      "gatilho": "Novo ataque armado perto de Afungi leva à suspensão de trabalhos.",
+      "o_que_acontece": "As empresas param obras ou adiam decisões e o calendário de 2029 e 2031 escorrega, como na paragem de quatro anos desde 2021.",
+      "numeros": "Atraso de meses a anos; cerca de 4 000 trabalhadores mobilizados",
+      "quando": "a partir do 1.º trimestre de 2027",
+      "ganha": "Ninguém no curto prazo",
+      "perde": "Trabalhadores e fornecedores locais",
+      "se_acontecer": "Guardar poupança para meses sem obras e não contar com contratos ligados ao gás."
     }
   ],
-  "direccoes": [
+  "sinais": [
     {
-      "area": "Transporte",
-      "classe": "ambas",
-      "accao": "Pague a tarifa afixada no chapa e guarde uma folga de 5 meticais por viagem para depois de Fevereiro."
+      "o_que": "Resolução do Conselho de Ministros sobre o plano do Rovuma LNG",
+      "limiar": "Publicada em Boletim da República",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "melhora"
     },
     {
-      "area": "Compras",
-      "classe": "baixa",
-      "accao": "Guarde reserva de milho e arroz antes de Janeiro, quando o PAM prevê cortes na ajuda alimentar."
+      "o_que": "Comunicado da ExxonMobil sobre a decisão final",
+      "limiar": "Anúncio oficial com valor do investimento",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "melhora"
     },
     {
-      "area": "Crédito",
-      "classe": "media",
-      "accao": "Evite crédito ao consumo com juros acima de 20% e compare propostas antes de assinar."
+      "o_que": "Ausência de anúncio e de resolução",
+      "limiar": "Nenhum dos dois a 31 de Janeiro",
+      "quando": "31 de Janeiro de 2027",
+      "aponta_para": "fica_igual"
     },
     {
-      "area": "Negócio informal",
-      "classe": "baixa",
-      "accao": "Conte com frete mais caro se a taxa for aprovada e negoceie preços com fornecedores com antecedência."
-    },
-    {
-      "area": "Poupança",
-      "classe": "media",
-      "accao": "Separe uma reserva para transporte e comida equivalente a um mês de despesa antes de Janeiro."
-    },
-    {
-      "area": "Escola e saúde",
-      "classe": "ambas",
-      "accao": "Pergunte à escola privada como cumprirá o Decreto 54/2026 antes de pagar a propina do próximo ano."
+      "o_que": "Deslocados por ataques em Cabo Delgado, segundo a OIM",
+      "limiar": "Mais de 1 200 em duas semanas, outra vez",
+      "quando": "Dezembro de 2026",
+      "aponta_para": "piora"
     }
   ],
-  "revisao": [],
+  "afectados": [
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "receitas só depois da produção"
+    },
+    {
+      "grupo": "PMEs fornecedoras",
+      "saldo": 1,
+      "porque": "contratos exigem registo e certidões"
+    },
+    {
+      "grupo": "Trabalhadores de Cabo Delgado",
+      "saldo": 1,
+      "porque": "empregos, mas com risco de segurança"
+    },
+    {
+      "grupo": "Famílias da classe baixa",
+      "saldo": 0,
+      "porque": "sem efeito directo nos preços"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Fornecedores e PMEs",
+      "agora": "Registar-se e juntar certidões e comprovativos antes das adjudicações, sem pagar a intermediários.",
+      "se_piorar": "Manter outros clientes e não se endividar por contratos por assinar."
+    },
+    {
+      "publico": "Trabalhadores",
+      "agora": "Procurar formação técnica reconhecida e desconfiar de vagas que peçam pagamento.",
+      "se_piorar": "Guardar poupança para meses sem obras."
+    },
+    {
+      "publico": "Governo e Parlamento",
+      "agora": "Publicar as regras de acesso do conteúdo local antes da decisão e não contar com receitas do gás em 2027.",
+      "se_piorar": "Rever as contas de 2027 sem receitas do gás."
+    }
+  ],
+  "visao_contraria": "Há quem defenda que o atraso pouco pesa: a ExxonMobil já adjudicou 1,1 mil milhões de dólares em contratos e o Mozambique LNG está em obras, por isso a decisão formal seria só uma questão de data.",
+  "nao_sabemos": [
+    "Prazo: a ExxonMobil diz fim de 2026, a Wood Mackenzie diz início de 2027.",
+    "Se o Governo já aprovou o plano de desenvolvimento revisto do Rovuma LNG.",
+    "Quanto pagarão ao Estado os projectos em impostos, e a partir de que ano."
+  ],
+  "sinal": "Resolução do Conselho de Ministros sobre o Rovuma LNG e comunicado da ExxonMobil até 31 de Dezembro.",
+  "confianca": "media",
+  "base_confianca": "Prazo de 2026 por Presidência via RTP, de 2027 por Wood Mackenzie; datas do Coral Norte por uma só fonte; capacidades por Wood Mackenzie e imprensa.",
   "textos": {
-    "whatsapp": "*O SEU BOLSO, 11 DE NOVEMBRO*\n\n*A NOTÍCIA*\nO Governo propôs no Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, o impacto estimado é de 2,92 meticais por litro na gasolina e 6,36 no gasóleo. Com a gasolina a 93,69 meticais e o gasóleo a 116,25, isso dá cerca de 3% e 5% a mais. A proposta ainda está em discussão e não tem data de entrada em vigor.\n\n*COMO CHEGA AO BOLSO*\nO gasóleo move camiões e chapas. Se a taxa for aprovada, o frete sobe primeiro, depois o preço da comida no mercado e, mais tarde, a tarifa do transporte.\n\n*O CHAPA*\nEm Maputo, o Governo travou a subida e a tarifa fica a 15 meticais. Os operadores recebem entre 25 mil e 90 mil meticais por viatura e por mês durante três meses, por isso a questão volta depois de Fevereiro. Em Nampula, o chapa custa 20 meticais desde Maio.\n\n*OUTROS NÚMEROS*\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. A inflação anual estava em 6,31% em Setembro e o dólar a 63,91 meticais. O PAM só mantém a ajuda alimentar actual até Dezembro.\n\n*O QUE FAZER*\nTransporte: pague a tarifa afixada e guarde uma folga para depois de Fevereiro. Compras: guarde reserva de milho e arroz antes de Janeiro. Crédito: evite empréstimos ao consumo acima de 20%. Pequeno negócio: conte com frete mais caro e negoceie com antecedência. Escola: pergunte à escola privada como cumprirá o Decreto 54/2026 antes de pagar a propina.\n\nEstas são orientações gerais para famílias e pequenos negócios, não aconselhamento financeiro individual. Se este resumo ajudou, partilhe com alguém que também precisa dele.",
-    "instagram": "A taxa sobre combustíveis pode subir: gasóleo mais 6,36 meticais por litro e gasolina mais 2,92, segundo o ministro dos Transportes. A proposta ainda está no Parlamento. O chapa de Maputo fica a 15 meticais até Fevereiro. Guarde folga no transporte e reserva de básicos antes de Janeiro. #OSeuBolso #Moçambique",
-    "facebook": "O Governo propôs no Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, isso pode juntar 2,92 meticais ao litro de gasolina e 6,36 ao de gasóleo, cerca de 3% e 5% sobre os preços de hoje. Ainda não há data de entrada em vigor.\n\nO gasóleo move camiões e chapas, por isso o efeito chega primeiro ao frete, depois à comida e, mais tarde, ao transporte.\n\nEm Maputo, o chapa fica a 15 meticais. O Governo paga compensações de 25 mil a 90 mil meticais por viatura e por mês durante três meses. Em Nampula, o chapa custa 20 meticais desde Maio.\n\nO crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. O PAM só mantém a ajuda alimentar actual até Dezembro.\n\nO que fazer: pague a tarifa afixada, guarde folga para depois de Fevereiro e reserve milho e arroz antes de Janeiro.\n\n#OSeuBolso #Moçambique",
-    "linkedin": "A proposta do Governo de subir a taxa sobre combustíveis, noticiada a 6 de Novembro, é a notícia que mais mexe no custo de vida desta semana. O valor proposto é de 15 cêntimos de dólar por litro, contra cerca de 11 na gasolina e 6 no gasóleo. O ministro dos Transportes e Logística, João Matlombe, estima um impacto de 2,92 meticais por litro na gasolina e 6,36 no gasóleo. Sobre os preços actuais, de 93,69 e 116,25 meticais, são cerca de 3% e 5%.\n\nO caminho até ao bolso é conhecido. O gasóleo encarece o frete, o frete encarece os produtos e, quando acabarem as compensações, pressiona o chapa. Em Maputo, o Governo manteve a tarifa a 15 meticais e paga entre 25 mil e 90 mil meticais por viatura e por mês durante três meses. A tarifa volta a estar em causa depois de Fevereiro.\n\nPara as empresas, o contexto agrava o efeito: o crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. O PAM só mantém a ajuda alimentar actual até Dezembro, o que aperta as famílias mais pobres no início do ano.\n\nDirecção\nPequenos negócios devem rever o custo do frete e negociar prazos com fornecedores. Famílias devem guardar uma folga no transporte e reserva de básicos antes de Janeiro. Estas são orientações gerais, não aconselhamento financeiro individual.\n\nO Parlamento ainda não decidiu a taxa. Até lá, convém orçamentar o gasóleo cerca de 5% mais caro.\n\n#OSeuBolso #Moçambique"
+    "whatsapp": "*DIRECÇÃO DO DIA, 12 DE NOVEMBRO*\n*Rovuma LNG decide até Dezembro? O que muda para Moçambique*\n\nA ENH vai participar na perfuração dos poços do Coral Norte, o projecto de gás da Eni, ExxonMobil e CNPC que prevê o primeiro gás em 2028. Mas a decisão final do Rovuma LNG, de 18 milhões de toneladas por ano e cerca de 30 mil milhões de dólares, ainda não foi tomada. A ExxonMobil diz que quer decidir até ao fim do ano. A Wood Mackenzie fala em início de 2027, com aprovações do Governo ainda em falta.\n\n*A CONTA*\nHoje Moçambique exporta gás só do Coral Sul, cerca de 3,4 milhões de toneladas por ano. Com o Coral Norte, em 2028, sobe para cerca de 7. Com o Mozambique LNG (13) e o Rovuma LNG (18), chegaria a cerca de 38. Ou seja, só 9% do que se promete existe hoje.\n\n*TRÊS CENÁRIOS*\n*Decisão até 31 de Dezembro, 25%.* O Governo aprova o plano revisto e a ExxonMobil anuncia o investimento. Ganham fornecedores locais e trabalhadores de Cabo Delgado.\n\n*Decisão fica para 2027, 50%.* O prazo de Setembro já falhou e as aprovações continuam em falta. Nada muda no curto prazo.\n\n*Ataque trava as obras, 25%.* Em 2021 os ataques pararam o Mozambique LNG durante quatro anos. Um novo ataque pode repetir o atraso.\n\n*O QUE OBSERVAR*\nUma resolução do Conselho de Ministros sobre o plano do Rovuma LNG até 31 de Dezembro. Sem decisão a 31 de Janeiro, o cenário do meio ganha força.\n\n*DIRECÇÃO*\nFornecedores: registem-se e juntem certidões já, sem pagar a intermediários. Trabalhadores: desconfiem de vagas pagas. Não conte com receitas do gás no Orçamento de 2027.\n\nPartilhe com quem trabalha ou quer fornecer ao sector.",
+    "instagram": "Rovuma LNG decide até Dezembro? A ENH entra nos poços do Coral Norte, mas o maior projecto ainda espera decisão. Só cerca de 9% da capacidade prometida existe hoje. Fornecedores: registem-se e juntem certidões, sem pagar a intermediários. #Moçambique #Gás",
+    "facebook": "Rovuma LNG decide até Dezembro? O que muda para Moçambique\n\nA ENH vai participar na perfuração dos poços do Coral Norte, o projecto de gás que prevê o primeiro gás em 2028. É uma boa notícia para quem quer ver empresas moçambicanas no sector.\n\nJá o Rovuma LNG, o maior projecto, ainda não tem decisão final. A ExxonMobil diz que quer decidir até ao fim do ano. A Wood Mackenzie fala em início de 2027, porque o Governo ainda não aprovou o plano revisto.\n\nA conta é simples. Hoje o país exporta gás só do Coral Sul, cerca de 3,4 milhões de toneladas por ano. Se tudo avançar, chegaria a cerca de 38. Só 9% existe hoje.\n\nO que pode acontecer: decisão até 31 de Dezembro, 25%. Decisão só em 2027, 50%, porque o prazo de Setembro já falhou. Atraso por novo ataque em Cabo Delgado, 25%, como aconteceu em 2021.\n\nO que fazer: quem quer fornecer ao gás deve registar-se e juntar certidões já, sem pagar a intermediários. Quem procura emprego deve desconfiar de vagas pagas. E o Orçamento de 2027 não deve contar com receitas do gás. #Moçambique #Gás",
+    "linkedin": "Rovuma LNG decide até Dezembro? O que muda para Moçambique\n\nA ENH vai participar na perfuração dos poços do Coral Norte, projecto da Eni, ExxonMobil e CNPC com primeiro gás previsto para 2028. É um passo concreto para uma empresa moçambicana. A decisão final do Rovuma LNG, porém, continua por tomar. A ExxonMobil, segundo a Presidência, quer decidir antes do fim do ano. A Wood Mackenzie aponta para o início de 2027 e nota que o Governo ainda não aprovou o plano de desenvolvimento revisto.\n\nO precedente pede prudência. O Mozambique LNG, da TotalEnergies, esteve parado quatro anos por causa dos ataques em Cabo Delgado e só retomou as obras em Janeiro de 2026. A 20 de Outubro, o Conselho de Ministros prolongou até Março de 2029 a garantia de até 2,25 mil milhões de dólares a favor dos credores.\n\nOs números mostram a distância entre promessa e realidade. Hoje o Coral Sul exporta cerca de 3,4 milhões de toneladas por ano. Com o Coral Norte, o total sobe para cerca de 7. Com o Mozambique LNG (13) e o Rovuma LNG (18), chegaria a cerca de 38.\n\nOs cenários: decisão até 31 de Dezembro, 25%; decisão em 2027, 50%; atraso por novo ataque, 25%. A taxa de base é o historial de prazos falhados, incluindo o de Setembro.\n\nDirecção\n\nFornecedores e PMEs devem registar-se e juntar certidões antes das adjudicações. O Governo deve publicar as regras de acesso antes da decisão e não contar com receitas do gás no Orçamento de 2027.\n\nConclusão: o gás é uma data por confirmar, não um dinheiro garantido; o sinal a seguir é uma resolução do Conselho de Ministros até 31 de Dezembro. #Moçambique #Gás"
   },
   "fontes": [
     {
-      "fonte": "Lusa via Executive Digest",
-      "url": "https://executivedigest.sapo.pt/mocambique-preve-aumentar-a-taxa-sobre-combustiveis-para-conservar-estradas/"
+      "fonte": "The Energy Year (ENH no Coral Norte)",
+      "url": "https://theenergyyear.com/?p=56743",
+      "data": "2026-11-04"
     },
     {
-      "fonte": "AIM",
-      "url": "https://aimnews.org/2026/11/06/governo-trava-aumento-do-preco-dos-transportes-e-assume-custos-atraves-de-subsidios/"
+      "fonte": "Wood Mackenzie",
+      "url": "https://www.woodmac.com/news/opinion/mozambiques-lng-reset-from-force-majeure-to-major-force/",
+      "data": "2026"
     },
     {
-      "fonte": "O País",
-      "url": "https://opais.co.mz/governo-trava-aumento-das-tarifas-dos-semi-colectivos/"
+      "fonte": "Lusa (RTP), garantia soberana ao Mozambique LNG",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-reconfirma-garantia-soberana-de-195-mil-me-para-megaprojeto-de-gas_n1774646",
+      "data": "2026-10-20"
     },
     {
-      "fonte": "ARENE via Lusa",
-      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
+      "fonte": "World Oil, Mozambique LNG retoma obras",
+      "url": "https://worldoil.com/news/2026/1/29/mozambique-lng-restarts-onshore-offshore-activities-after-force-majeure-lift",
+      "data": "2026-01-29"
+    },
+    {
+      "fonte": "Lusa (RTP), ExxonMobil adjudica contratos",
+      "url": "https://www.rtp.pt/noticias/mundo/exxonmobil-fecha-contratos-de-quase-mil-milhoes-para-megaprojeto-de-gas-em-mocambique_n1760082",
+      "data": "2026-08"
     }
   ],
-  "data": "2026-11-11",
-  "dia_semana": "quarta",
+  "data": "2026-11-12",
+  "dia_semana": "quinta",
   "semana": "2026-S46",
   "versao": 1,
   "aprovada": false,
-  "series": [
-    {
-      "id": "gasolina",
-      "nome": "Gasolina",
-      "unidade": "MT/litro",
-      "ultimo": {
-        "data": "2026-05-07",
-        "valor": 93.69,
-        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
-        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
-        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-05-07",
-          93.69
-        ]
-      ]
-    },
-    {
-      "id": "gasoleo",
-      "nome": "Gasóleo",
-      "unidade": "MT/litro",
-      "ultimo": {
-        "data": "2026-05-07",
-        "valor": 116.25,
-        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
-        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
-        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-05-07",
-          116.25
-        ]
-      ]
-    },
-    {
-      "id": "usd_mzn",
-      "nome": "Câmbio dólar/metical",
-      "unidade": "MT por USD",
-      "ultimo": {
-        "data": "2026-10-12",
-        "valor": 63.91,
-        "fonte": "Agregador de câmbios (exchangerate.guru)",
-        "url": "https://exchangerate.guru/bmd/mzn/6/",
-        "nota": "Valor indicativo de agregador, não oficial"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-10-12",
-          63.91
-        ]
-      ]
-    },
-    {
-      "id": "inflacao",
-      "nome": "Inflação anual",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-10-09",
-        "valor": 6.31,
-        "fonte": "Trading Economics (INE)",
-        "url": "https://tradingeconomics.com/mozambique/inflation-cpi/news/590844",
-        "nota": "Setembro de 2026; Agosto foi 6,45%; alimentos 8,69%"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-10-09",
-          6.31
-        ]
-      ]
-    }
-  ],
-  "regional": {
-    "regioes": [
-      {
-        "id": "maputo",
-        "nome": "Maputo",
-        "zona": "Sul"
-      },
-      {
-        "id": "beira",
-        "nome": "Beira",
-        "zona": "Centro"
-      },
-      {
-        "id": "nampula",
-        "nome": "Nampula",
-        "zona": "Norte"
-      }
-    ],
-    "linhas": [
-      {
-        "base": "chapa",
-        "nome": "Chapa urbano",
-        "unidade": "MT/viagem",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": 15,
-            "data": "2026-11-06",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": 20,
-            "data": "2026-05-13",
-            "var4": null
-          }
-        ]
-      },
-      {
-        "base": "milho",
-        "nome": "Milho em grão",
-        "unidade": "MT/kg",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": null,
-            "data": "",
-            "var4": null
-          }
-        ]
-      },
-      {
-        "base": "arroz",
-        "nome": "Arroz",
-        "unidade": "MT/kg",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": null,
-            "data": "",
-            "var4": null
-          }
-        ]
-      }
-    ]
-  },
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png"
-    ],
-    "tipos": [
-      "capa-bolso",
-      "indicadores",
-      "regioes-precos",
-      "regioes-direccao",
-      "o-que-mudou",
-      "direccoes"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794368319204
-  }
+  "falhas": []
 }

@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Edição e post do dia prontos",
-      "em": "2026-11-12T04:47:48.294Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-12T04:47:56.116Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-12T04:47:56.116Z",
+      "agente": "editor",
+      "msg": "Edição versão 4 montada"
+    },
+    {
+      "em": "2026-11-12T04:47:56.116Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Rovuma LNG: decisão final até Dezembro ou só em 2027"
+    },
     {
       "em": "2026-11-12T04:47:48.294Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-11-09T03:31:18.142Z",
       "agente": "editor",
       "msg": "Direcção do Dia: Crédito a cair e juros a subir: quem consegue empréstimo em 2027?"
-    },
-    {
-      "em": "2026-11-09T03:31:08.673Z",
-      "agente": "editor",
-      "msg": "Textos e post do dia prontos"
-    },
-    {
-      "em": "2026-11-09T03:31:01.929Z",
-      "agente": "editor",
-      "msg": "A preparar o post do dia"
     }
   ],
-  "actualizado": "2026-11-12T04:47:48.294Z",
+  "actualizado": "2026-11-12T04:47:56.116Z",
   "semana": "2026-S46",
   "dia": "2026-11-12",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",

@@ -312,6 +312,12 @@
         "semana": "2026-S45",
         "resumo": "A inflação anual está em 6,31% em Setembro, com alimentos a 8,69%; a de Outubro sai perto de 10 de Novembro. Continuam sem preços recentes de milho e arroz nas três capitais.",
         "direccao": "Comprar básicos de longa duração aos poucos e comparar preços em dois mercados."
+      },
+      {
+        "data": "2026-11-12",
+        "semana": "2026-S46",
+        "resumo": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. A alface, a cebola e o peixe fresco foram os que mais subiram.",
+        "direccao": "Comprar em pequenas quantidades e comparar mercados."
       }
     ]
   },
@@ -380,6 +386,20 @@
         "semana": "2026-S46",
         "resumo": "O decreto substitui o de 1990: ensino privado só presencial, licença para abrir ou alargar, propinas comunicadas todos os anos. As escolas em funcionamento têm 18 meses para se adaptar.",
         "direccao": "Pais devem pedir à escola a licença e a lista de propinas; escolas devem preparar a candidatura à licença."
+      }
+    ]
+  },
+  {
+    "id": "gas_rovuma",
+    "nome": "Gás do Rovuma",
+    "estado": "activo",
+    "inicio": "2026-11-12",
+    "historial": [
+      {
+        "data": "2026-11-12",
+        "semana": "2026-S46",
+        "resumo": "A ENH entra na campanha de poços do Coral Norte, que prevê gás em 2028. A ExxonMobil ainda não tomou a decisão final do Rovuma LNG.",
+        "direccao": "Fornecedores devem preparar certidões e registo antes das primeiras adjudicações."
       }
     ]
   }

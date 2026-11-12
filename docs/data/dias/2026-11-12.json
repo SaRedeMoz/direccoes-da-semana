@@ -1,0 +1,250 @@
+{
+  "tipo": "dia",
+  "area": "Gás, minas e recursos naturais",
+  "tema": "Rovuma LNG: decisão final até Dezembro ou só em 2027",
+  "pergunta": "Rovuma LNG decide até Dezembro? O que muda para Moçambique",
+  "facto": {
+    "texto": "A ENH vai participar na perfuração dos poços do Coral Norte, projecto da Eni, ExxonMobil e CNPC com primeiro gás previsto para 2028. A decisão final do Rovuma LNG ainda não foi tomada: a ExxonMobil diz que quer decidir até ao fim do ano, mas faltam aprovações do Governo.",
+    "numeros": [
+      {
+        "valor": "18 Mtpa",
+        "legenda": "Rovuma LNG, por decidir"
+      },
+      {
+        "valor": "13 Mtpa",
+        "legenda": "Mozambique LNG, em obras"
+      },
+      {
+        "valor": "2028",
+        "legenda": "Primeiro gás do Coral Norte"
+      }
+    ],
+    "fonte": "The Energy Year; Presidência, via RTP; Wood Mackenzie"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Nov 2025",
+      "texto": "ExxonMobil levanta a força maior no Rovuma LNG",
+      "futuro": false
+    },
+    {
+      "data": "Jan 2026",
+      "texto": "TotalEnergies retoma as obras do Mozambique LNG",
+      "futuro": false
+    },
+    {
+      "data": "20 Out",
+      "texto": "Garantia a credores prolongada até Março de 2029",
+      "futuro": false
+    },
+    {
+      "data": "Nov 2026",
+      "texto": "ENH entra na campanha de poços do Coral Norte",
+      "futuro": false
+    },
+    {
+      "data": "31 Dez",
+      "texto": "Prazo da ExxonMobil para a decisão final",
+      "futuro": true
+    },
+    {
+      "data": "2028",
+      "texto": "Primeiro gás do Coral Norte",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "2021 a 2026",
+    "o_que_aconteceu": "Os ataques de 2021 em Cabo Delgado levaram à força maior e à paragem do Mozambique LNG. A força maior foi levantada em Novembro de 2025 e as obras retomaram em Janeiro de 2026.",
+    "licao": "A segurança manda no calendário: o gás só avança quando Cabo Delgado deixa.",
+    "fonte": "World Oil, 29 de Janeiro de 2026"
+  },
+  "porque_importa": "Os projectos de gás valem dezenas de milhares de milhões de dólares e prometem contratos, empregos e receitas. Quando a decisão atrasa, adiam-se os contratos para empresas locais e as receitas que o Estado espera.",
+  "canal": {
+    "passos": [
+      "Decisão final do Rovuma LNG",
+      "Obras e contratos arrancam",
+      "Fornecedores locais contratados",
+      "Empregos em Cabo Delgado",
+      "Receitas ao Estado, anos depois"
+    ],
+    "quem_sente": "Fornecedores locais, trabalhadores e Governo"
+  },
+  "conta": {
+    "titulo": "Capacidade de gás por fase",
+    "pressupostos": "Coral Norte 3,6 e total de 7 Mtpa, segundo a Wood Mackenzie; Mozambique LNG 13 e Rovuma LNG 18 Mtpa.",
+    "barras": [
+      {
+        "rotulo": "Hoje (Coral Sul)",
+        "valor": 3.4,
+        "texto": "3,4 Mtpa"
+      },
+      {
+        "rotulo": "Com Coral Norte, 2028",
+        "valor": 7,
+        "texto": "7 Mtpa"
+      },
+      {
+        "rotulo": "Com os quatro projectos",
+        "valor": 38,
+        "texto": "38 Mtpa"
+      }
+    ],
+    "unidade": "milhões de toneladas por ano",
+    "conclusao": "Só 9% dos 38 milhões de toneladas prometidos existe hoje; o resto depende de decisões e de segurança em Cabo Delgado."
+  },
+  "cenarios": [
+    {
+      "nome": "Decisão até Dezembro",
+      "tipo": "melhora",
+      "probabilidade": 25,
+      "porque_probabilidade": "A ExxonMobil já adjudicou 1,1 mil milhões de dólares em contratos, mas o prazo de Setembro falhou e faltam aprovações.",
+      "gatilho": "Governo aprova o plano revisto e a ExxonMobil anuncia a decisão final.",
+      "o_que_acontece": "Os contratos já adjudicados passam a obras e cresce a procura de fornecedores e trabalhadores locais em Cabo Delgado.",
+      "numeros": "Projecto de cerca de 30 mil milhões de dólares, 18 Mtpa",
+      "quando": "até 31 de Dezembro de 2026",
+      "ganha": "Fornecedores locais e Cabo Delgado",
+      "perde": "Quem esperava receitas já em 2027",
+      "se_acontecer": "Ter certidões e registo prontos e ler as regras do conteúdo local antes das adjudicações."
+    },
+    {
+      "nome": "Decisão fica para 2027",
+      "tipo": "fica_igual",
+      "probabilidade": 50,
+      "porque_probabilidade": "O prazo de Setembro falhou e a Wood Mackenzie aponta para o início de 2027, com aprovações do Governo por dar.",
+      "gatilho": "Chega 31 de Dezembro sem comunicado da ExxonMobil nem resolução do Conselho de Ministros.",
+      "o_que_acontece": "Negociam-se custos, prazos e condições com o Governo; as obras do Mozambique LNG e do Coral Norte continuam, o Rovuma LNG espera.",
+      "numeros": "Atraso de 1 a 6 meses face ao prazo de 2026",
+      "quando": "decisão até meados de 2027",
+      "ganha": "Quem já está em obras",
+      "perde": "Fornecedores que esperam o Rovuma",
+      "se_acontecer": "Manter outros clientes e não se endividar por contratos ainda não assinados."
+    },
+    {
+      "nome": "Ataque trava as obras",
+      "tipo": "piora",
+      "probabilidade": 25,
+      "porque_probabilidade": "As obras retomaram e a força maior foi levantada, mas em Outubro mais de 1 200 pessoas fugiram de ataques em duas semanas.",
+      "gatilho": "Novo ataque armado perto de Afungi leva à suspensão de trabalhos.",
+      "o_que_acontece": "As empresas param obras ou adiam decisões e o calendário de 2029 e 2031 escorrega, como na paragem de quatro anos desde 2021.",
+      "numeros": "Atraso de meses a anos; cerca de 4 000 trabalhadores mobilizados",
+      "quando": "a partir do 1.º trimestre de 2027",
+      "ganha": "Ninguém no curto prazo",
+      "perde": "Trabalhadores e fornecedores locais",
+      "se_acontecer": "Guardar poupança para meses sem obras e não contar com contratos ligados ao gás."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Resolução do Conselho de Ministros sobre o plano do Rovuma LNG",
+      "limiar": "Publicada em Boletim da República",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Comunicado da ExxonMobil sobre a decisão final",
+      "limiar": "Anúncio oficial com valor do investimento",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Ausência de anúncio e de resolução",
+      "limiar": "Nenhum dos dois a 31 de Janeiro",
+      "quando": "31 de Janeiro de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Deslocados por ataques em Cabo Delgado, segundo a OIM",
+      "limiar": "Mais de 1 200 em duas semanas, outra vez",
+      "quando": "Dezembro de 2026",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "receitas só depois da produção"
+    },
+    {
+      "grupo": "PMEs fornecedoras",
+      "saldo": 1,
+      "porque": "contratos exigem registo e certidões"
+    },
+    {
+      "grupo": "Trabalhadores de Cabo Delgado",
+      "saldo": 1,
+      "porque": "empregos, mas com risco de segurança"
+    },
+    {
+      "grupo": "Famílias da classe baixa",
+      "saldo": 0,
+      "porque": "sem efeito directo nos preços"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Fornecedores e PMEs",
+      "agora": "Registar-se e juntar certidões e comprovativos antes das adjudicações, sem pagar a intermediários.",
+      "se_piorar": "Manter outros clientes e não se endividar por contratos por assinar."
+    },
+    {
+      "publico": "Trabalhadores",
+      "agora": "Procurar formação técnica reconhecida e desconfiar de vagas que peçam pagamento.",
+      "se_piorar": "Guardar poupança para meses sem obras."
+    },
+    {
+      "publico": "Governo e Parlamento",
+      "agora": "Publicar as regras de acesso do conteúdo local antes da decisão e não contar com receitas do gás em 2027.",
+      "se_piorar": "Rever as contas de 2027 sem receitas do gás."
+    }
+  ],
+  "visao_contraria": "Há quem defenda que o atraso pouco pesa: a ExxonMobil já adjudicou 1,1 mil milhões de dólares em contratos e o Mozambique LNG está em obras, por isso a decisão formal seria só uma questão de data.",
+  "nao_sabemos": [
+    "Prazo: a ExxonMobil diz fim de 2026, a Wood Mackenzie diz início de 2027.",
+    "Se o Governo já aprovou o plano de desenvolvimento revisto do Rovuma LNG.",
+    "Quanto pagarão ao Estado os projectos em impostos, e a partir de que ano."
+  ],
+  "sinal": "Resolução do Conselho de Ministros sobre o Rovuma LNG e comunicado da ExxonMobil até 31 de Dezembro.",
+  "confianca": "media",
+  "base_confianca": "Prazo de 2026 por Presidência via RTP, de 2027 por Wood Mackenzie; datas do Coral Norte por uma só fonte; capacidades por Wood Mackenzie e imprensa.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA, 12 DE NOVEMBRO*\n*Rovuma LNG decide até Dezembro? O que muda para Moçambique*\n\nA ENH vai participar na perfuração dos poços do Coral Norte, o projecto de gás da Eni, ExxonMobil e CNPC que prevê o primeiro gás em 2028. Mas a decisão final do Rovuma LNG, de 18 milhões de toneladas por ano e cerca de 30 mil milhões de dólares, ainda não foi tomada. A ExxonMobil diz que quer decidir até ao fim do ano. A Wood Mackenzie fala em início de 2027, com aprovações do Governo ainda em falta.\n\n*A CONTA*\nHoje Moçambique exporta gás só do Coral Sul, cerca de 3,4 milhões de toneladas por ano. Com o Coral Norte, em 2028, sobe para cerca de 7. Com o Mozambique LNG (13) e o Rovuma LNG (18), chegaria a cerca de 38. Ou seja, só 9% do que se promete existe hoje.\n\n*TRÊS CENÁRIOS*\n*Decisão até 31 de Dezembro, 25%.* O Governo aprova o plano revisto e a ExxonMobil anuncia o investimento. Ganham fornecedores locais e trabalhadores de Cabo Delgado.\n\n*Decisão fica para 2027, 50%.* O prazo de Setembro já falhou e as aprovações continuam em falta. Nada muda no curto prazo.\n\n*Ataque trava as obras, 25%.* Em 2021 os ataques pararam o Mozambique LNG durante quatro anos. Um novo ataque pode repetir o atraso.\n\n*O QUE OBSERVAR*\nUma resolução do Conselho de Ministros sobre o plano do Rovuma LNG até 31 de Dezembro. Sem decisão a 31 de Janeiro, o cenário do meio ganha força.\n\n*DIRECÇÃO*\nFornecedores: registem-se e juntem certidões já, sem pagar a intermediários. Trabalhadores: desconfiem de vagas pagas. Não conte com receitas do gás no Orçamento de 2027.\n\nPartilhe com quem trabalha ou quer fornecer ao sector.",
+    "instagram": "Rovuma LNG decide até Dezembro? A ENH entra nos poços do Coral Norte, mas o maior projecto ainda espera decisão. Só cerca de 9% da capacidade prometida existe hoje. Fornecedores: registem-se e juntem certidões, sem pagar a intermediários. #Moçambique #Gás",
+    "facebook": "Rovuma LNG decide até Dezembro? O que muda para Moçambique\n\nA ENH vai participar na perfuração dos poços do Coral Norte, o projecto de gás que prevê o primeiro gás em 2028. É uma boa notícia para quem quer ver empresas moçambicanas no sector.\n\nJá o Rovuma LNG, o maior projecto, ainda não tem decisão final. A ExxonMobil diz que quer decidir até ao fim do ano. A Wood Mackenzie fala em início de 2027, porque o Governo ainda não aprovou o plano revisto.\n\nA conta é simples. Hoje o país exporta gás só do Coral Sul, cerca de 3,4 milhões de toneladas por ano. Se tudo avançar, chegaria a cerca de 38. Só 9% existe hoje.\n\nO que pode acontecer: decisão até 31 de Dezembro, 25%. Decisão só em 2027, 50%, porque o prazo de Setembro já falhou. Atraso por novo ataque em Cabo Delgado, 25%, como aconteceu em 2021.\n\nO que fazer: quem quer fornecer ao gás deve registar-se e juntar certidões já, sem pagar a intermediários. Quem procura emprego deve desconfiar de vagas pagas. E o Orçamento de 2027 não deve contar com receitas do gás. #Moçambique #Gás",
+    "linkedin": "Rovuma LNG decide até Dezembro? O que muda para Moçambique\n\nA ENH vai participar na perfuração dos poços do Coral Norte, projecto da Eni, ExxonMobil e CNPC com primeiro gás previsto para 2028. É um passo concreto para uma empresa moçambicana. A decisão final do Rovuma LNG, porém, continua por tomar. A ExxonMobil, segundo a Presidência, quer decidir antes do fim do ano. A Wood Mackenzie aponta para o início de 2027 e nota que o Governo ainda não aprovou o plano de desenvolvimento revisto.\n\nO precedente pede prudência. O Mozambique LNG, da TotalEnergies, esteve parado quatro anos por causa dos ataques em Cabo Delgado e só retomou as obras em Janeiro de 2026. A 20 de Outubro, o Conselho de Ministros prolongou até Março de 2029 a garantia de até 2,25 mil milhões de dólares a favor dos credores.\n\nOs números mostram a distância entre promessa e realidade. Hoje o Coral Sul exporta cerca de 3,4 milhões de toneladas por ano. Com o Coral Norte, o total sobe para cerca de 7. Com o Mozambique LNG (13) e o Rovuma LNG (18), chegaria a cerca de 38.\n\nOs cenários: decisão até 31 de Dezembro, 25%; decisão em 2027, 50%; atraso por novo ataque, 25%. A taxa de base é o historial de prazos falhados, incluindo o de Setembro.\n\nDirecção\n\nFornecedores e PMEs devem registar-se e juntar certidões antes das adjudicações. O Governo deve publicar as regras de acesso antes da decisão e não contar com receitas do gás no Orçamento de 2027.\n\nConclusão: o gás é uma data por confirmar, não um dinheiro garantido; o sinal a seguir é uma resolução do Conselho de Ministros até 31 de Dezembro. #Moçambique #Gás"
+  },
+  "fontes": [
+    {
+      "fonte": "The Energy Year (ENH no Coral Norte)",
+      "url": "https://theenergyyear.com/?p=56743",
+      "data": "2026-11-04"
+    },
+    {
+      "fonte": "Wood Mackenzie",
+      "url": "https://www.woodmac.com/news/opinion/mozambiques-lng-reset-from-force-majeure-to-major-force/",
+      "data": "2026"
+    },
+    {
+      "fonte": "Lusa (RTP), garantia soberana ao Mozambique LNG",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-reconfirma-garantia-soberana-de-195-mil-me-para-megaprojeto-de-gas_n1774646",
+      "data": "2026-10-20"
+    },
+    {
+      "fonte": "World Oil, Mozambique LNG retoma obras",
+      "url": "https://worldoil.com/news/2026/1/29/mozambique-lng-restarts-onshore-offshore-activities-after-force-majeure-lift",
+      "data": "2026-01-29"
+    },
+    {
+      "fonte": "Lusa (RTP), ExxonMobil adjudica contratos",
+      "url": "https://www.rtp.pt/noticias/mundo/exxonmobil-fecha-contratos-de-quase-mil-milhoes-para-megaprojeto-de-gas-em-mocambique_n1760082",
+      "data": "2026-08"
+    }
+  ],
+  "data": "2026-11-12",
+  "dia_semana": "quinta",
+  "semana": "2026-S46",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

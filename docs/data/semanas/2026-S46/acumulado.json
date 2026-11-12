@@ -116,16 +116,81 @@
       "confianca": "media",
       "n": 9,
       "recolhida": "2026-11-11"
+    },
+    {
+      "titulo": "Inflação mensal sobe para 0,48% em Outubro e a homóloga fica em 6,32%",
+      "resumo": "Segundo o INE, os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, com a alface (9,8%), a cebola (5,7%) e o peixe fresco (2,8%) a puxar. A taxa homóloga manteve-se em 6,32%.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "oficiais",
+      "fonte": "INE, via Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=178681",
+      "data": "2026-11-09",
+      "confianca": "media",
+      "n": 10,
+      "recolhida": "2026-11-12"
+    },
+    {
+      "titulo": "ENH entra na campanha de poços do Coral Norte",
+      "resumo": "A petrolífera nacional ENH vai participar na perfuração e completação dos poços do Coral Norte, a primeira vez que uma empresa moçambicana entra nesta fase. O projecto da Eni, ExxonMobil e CNPC prevê o primeiro gás natural liquefeito em 2028.",
+      "ambito": "nacional",
+      "dimensao": "Tecnológica",
+      "categoria": "imprensa_economica",
+      "fonte": "The Energy Year",
+      "url": "https://theenergyyear.com/?p=56743",
+      "data": "2026-11-04",
+      "confianca": "media",
+      "n": 11,
+      "recolhida": "2026-11-12"
+    },
+    {
+      "titulo": "Cerca de 20 000 moçambicanos deixam a África do Sul desde Junho por causa da violência",
+      "resumo": "O Club of Mozambique noticiou que cerca de 20 000 moçambicanos regressaram da África do Sul desde Junho, por causa de episódios de violência. O movimento toca as famílias que dependem do trabalho e das remessas do outro lado da fronteira.",
+      "ambito": "mundo",
+      "dimensao": "Social",
+      "categoria": "internacional",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/2026/11/06/",
+      "data": "2026-11-06",
+      "confianca": "baixa",
+      "n": 12,
+      "recolhida": "2026-11-12"
+    },
+    {
+      "titulo": "Frelimo convoca o Comité Central para 27 e 28 de Novembro",
+      "resumo": "O Club of Mozambique noticiou que a Frelimo reúne o Comité Central a 27 e 28 de Novembro. É a próxima data marcada na agenda política do partido no poder.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_nacional",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/2026/11/06/",
+      "data": "2026-11-06",
+      "confianca": "media",
+      "n": 13,
+      "recolhida": "2026-11-12"
+    },
+    {
+      "titulo": "Autoridade Tributária recruta 650 funcionários para cobrar mais receita",
+      "resumo": "A Autoridade Tributária está a recrutar 650 funcionários para reforçar a cobrança de impostos e a inspecção, segundo o Club of Mozambique. A medida surge com o Orçamento de 2027 a cortar a despesa em termos reais.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/2026/11/05/",
+      "data": "2026-11-05",
+      "confianca": "media",
+      "n": 14,
+      "recolhida": "2026-11-12"
     }
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 3,
-  "proximo_n": 10,
+  "versao": 4,
+  "proximo_n": 15,
   "lacunas": [
     "Inflação de Outubro por cidade (INE)",
     "Preços de milho e arroz na Beira e em Nampula",
-    "Data de entrada em vigor da taxa sobre combustíveis"
+    "Decisão final de investimento do Rovuma LNG"
   ],
   "fontes_consultadas": [
     {
@@ -223,6 +288,18 @@
       "fonte": "ReliefWeb / OCHA Moçambique",
       "url": "https://reliefweb.int/country/moz",
       "data": "2026-11-11"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "INE (inflação de Outubro)",
+      "url": "https://forbesafricalusofona.com/?p=178681",
+      "data": "2026-11-12"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "The Energy Year",
+      "url": "https://theenergyyear.com/?p=56743",
+      "data": "2026-11-12"
     }
   ],
   "analise": {
@@ -230,14 +307,17 @@
       "mundo": [
         "Brent fecha a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo",
         "Novo programa do FMI pode ficar fechado até ao fim do ano",
-        "PAM só mantém a ajuda actual até Dezembro"
+        "PAM só mantém a ajuda actual até Dezembro",
+        "Cerca de 20 000 moçambicanos saem da África do Sul"
       ],
       "nacional": [
+        "Inflação mensal sobe para 0,48% em Outubro; homóloga em 6,32%",
         "Governo propõe subir a taxa sobre combustíveis: gasóleo mais 6,36 meticais por litro",
         "Crédito à economia cai em Agosto pelo terceiro mês seguido, com juros médios a 22,26%",
         "Governo mantém o chapa de Maputo a 15 meticais e paga compensações durante três meses",
         "Mais de 1 200 pessoas fugiram de ataques em Cabo Delgado em duas semanas",
-        "Decreto 54/2026 obriga o ensino privado a ser presencial"
+        "Decreto 54/2026 obriga o ensino privado a ser presencial",
+        "ENH entra na campanha de poços do Coral Norte"
       ]
     },
     "pestal": [
@@ -259,14 +339,14 @@
             "origem": "interna"
           },
           {
-            "texto": "Tarifa do chapa sem solução duradoura",
+            "texto": "Comité Central da Frelimo a 27 de Novembro",
             "origem": "interna"
           }
         ],
         "peso_oportunidade": 2,
         "peso_ameaca": 2,
         "principal_oportunidade": "Estratégia da dívida aprovada",
-        "principal_ameaca": "Tarifa do chapa sem solução"
+        "principal_ameaca": "Julgamento de Mondlane a 17 de Novembro"
       },
       {
         "dimensao": "Económica",
@@ -278,6 +358,10 @@
           {
             "texto": "Taxa MIMO estável em 9,25%",
             "origem": "interna"
+          },
+          {
+            "texto": "Coral Norte avança para 2028",
+            "origem": "externa"
           }
         ],
         "ameacas": [
@@ -286,11 +370,11 @@
             "origem": "interna"
           },
           {
-            "texto": "Juros médios a 22,26%",
+            "texto": "Gasóleo pode subir 6,36 meticais",
             "origem": "interna"
           },
           {
-            "texto": "Gasóleo pode subir 6,36 meticais",
+            "texto": "Inflação mensal sobe para 0,48%",
             "origem": "interna"
           }
         ],
@@ -319,6 +403,10 @@
           {
             "texto": "1 235 deslocados em Cabo Delgado",
             "origem": "interna"
+          },
+          {
+            "texto": "20 000 regressam da África do Sul",
+            "origem": "externa"
           }
         ],
         "peso_oportunidade": 2,
@@ -331,6 +419,10 @@
         "oportunidades": [
           {
             "texto": "Registo digital de fornecedores locais",
+            "origem": "interna"
+          },
+          {
+            "texto": "ENH entra nos poços do Coral Norte",
             "origem": "interna"
           }
         ],
@@ -414,9 +506,9 @@
       {
         "grupo": "Classe média",
         "saldo": -1,
-        "porque": "crédito caro e inflação perto de 7%",
+        "porque": "crédito caro e inflação a 6,3%",
         "efeito": "negativo",
-        "explicacao": "Os juros do crédito pessoal e da casa continuam altos e o gasóleo pode subir com a nova taxa."
+        "explicacao": "Os juros do crédito pessoal e da casa continuam altos, os preços subiram 0,48% em Outubro e o gasóleo pode subir com a nova taxa."
       },
       {
         "grupo": "Classe alta e investidores",
@@ -437,7 +529,7 @@
         "saldo": 0,
         "porque": "Brent mais baixo, dívida mais alta",
         "efeito": "misto",
-        "explicacao": "O petróleo mais barato alivia as importações, mas a dívida e o crédito fraco travam o crescimento."
+        "explicacao": "O petróleo mais barato alivia as importações e o Coral Norte avança para 2028, mas a dívida e o crédito fraco travam o crescimento."
       },
       {
         "grupo": "PMEs",
@@ -476,9 +568,9 @@
         "accao": "Comprar sementes e insumos cedo, antes do início tardio das chuvas."
       }
     ],
-    "sinal": "Votação da taxa sobre combustíveis no Parlamento, inflação de Outubro, decisão do Banco de Moçambique sobre a MIMO, fim das compensações do chapa em Fevereiro e Brent acima ou abaixo de 100 dólares.",
-    "sintese": "O Governo quer subir a taxa sobre combustíveis, o que pode acrescentar 6,36 meticais ao litro de gasóleo. O crédito à economia caiu pelo terceiro mês seguido, com juros médios de 22,26%, e o chapa de Maputo fica a 15 meticais até Fevereiro com compensações. Com a ajuda alimentar a diminuir em Janeiro, o aperto vai sentir-se no bolso das famílias e nas PMEs.",
-    "o_que_mudou_hoje": "A proposta de taxa sobre combustíveis, noticiada a 6 de Novembro, é o facto novo: pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo.",
+    "sinal": "Votação da taxa sobre combustíveis no Parlamento, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, decisão final do Rovuma LNG, fim das compensações do chapa em Fevereiro e Brent acima ou abaixo de 100 dólares.",
+    "sintese": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, com os alimentos a puxar. O Governo quer subir a taxa sobre combustíveis, o crédito caiu pelo terceiro mês e os juros médios estão em 22,26%. Do lado do gás, a ENH entra nos poços do Coral Norte, mas a decisão final do Rovuma LNG continua por tomar.",
+    "o_que_mudou_hoje": "O INE mostra que os preços aceleraram em Outubro, para 0,48% no mês, e a ENH entra na campanha de poços do Coral Norte.",
     "canais": [
       {
         "choque": "Taxa sobre combustíveis sobe",
@@ -531,7 +623,7 @@
         "nome": "Piora",
         "probabilidade": 30,
         "descricao": "A inflação sobe, a taxa dos combustíveis avança e o crédito cai mais.",
-        "sinal": "Inflação de Outubro acima de 7,5%"
+        "sinal": "Inflação homóloga acima de 7,5% em Novembro"
       }
     ],
     "riscos": [
@@ -567,7 +659,7 @@
       }
     ],
     "horizonte": {
-      "imediato": "Inflação de Outubro, debate da taxa sobre combustíveis e julgamento de Mondlane a 17 de Novembro.",
+      "imediato": "Debate da taxa sobre combustíveis, julgamento de Mondlane a 17 de Novembro e Comité Central da Frelimo a 27 e 28.",
       "tres_meses": "Fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar a partir de Janeiro.",
       "um_ano": "Orçamento de 2027 a funcionar e possível acordo com o FMI a mudar o custo do crédito."
     },
@@ -599,9 +691,9 @@
     ],
     "confianca": {
       "grau": "media",
-      "base": "dados do Banco de Moçambique, declarações oficiais e Lusa; a taxa dos combustíveis assenta numa só agência"
+      "base": "dados do Banco de Moçambique, INE por cobertura jornalística, declarações oficiais e Lusa; a taxa dos combustíveis assenta numa só agência"
     },
-    "continuidade": "O chapa de Maputo ficou a 15 meticais com compensações até Fevereiro, e o combustível volta com facto novo: a proposta de subir a taxa. O ensino privado entrou na agenda com um decreto que dá 18 meses às escolas para cumprirem."
+    "continuidade": "O combustível não abre a edição: só volta a taxa em debate, sem novo valor. A inflação de Outubro, que a edição anterior esperava, confirma que os preços aceleraram no mês."
   },
   "design": {
     "slides": [
@@ -612,16 +704,16 @@
         "imagem_termos": "Mozambique coast landscape"
       },
       {
-        "titulo": "Taxa dos combustíveis pode subir",
-        "texto": "O Governo propõe 15 cêntimos de dólar por litro. O gasóleo pode ficar 6,36 meticais mais caro e a gasolina 2,92.",
+        "titulo": "Preços sobem 0,48% em Outubro",
+        "texto": "Segundo o INE, a inflação mensal acelerou de 0,16% para 0,48%. A anual ficou em 6,32%, com alface, cebola e peixe a subir mais.",
         "tom": "alerta",
-        "imagem_termos": "fuel station Africa"
+        "imagem_termos": "vegetable market Africa"
       },
       {
-        "titulo": "Chapa de Maputo fica a 15 meticais",
-        "texto": "O Governo paga compensações de 25 mil a 90 mil meticais por viatura durante três meses.",
+        "titulo": "ENH entra nos poços do Coral Norte",
+        "texto": "A petrolífera nacional participa pela primeira vez na perfuração. O primeiro gás do projecto está previsto para 2028.",
         "tom": "oportunidade",
-        "imagem_termos": "minibus Maputo"
+        "imagem_termos": "LNG gas platform"
       },
       {
         "titulo": "Crédito cai pelo terceiro mês",
@@ -630,62 +722,62 @@
         "imagem_termos": "Maputo city skyline"
       },
       {
+        "titulo": "Taxa dos combustíveis em debate",
+        "texto": "O Governo propõe 15 cêntimos de dólar por litro. O gasóleo pode subir 6,36 meticais e a gasolina 2,92.",
+        "tom": "alerta",
+        "imagem_termos": "fuel station Africa"
+      },
+      {
         "titulo": "Ensino privado só presencial",
         "texto": "O Decreto 54/2026 dá 18 meses às escolas privadas para cumprirem as novas regras.",
         "tom": "neutro",
         "imagem_termos": "school classroom Africa"
-      },
-      {
-        "titulo": "Brent fecha a 98,29 dólares",
-        "texto": "O petróleo ficou abaixo de 100 dólares a 5 de Novembro, mas os ataques a petroleiros no Golfo mantêm o risco.",
-        "tom": "neutro",
-        "imagem_termos": "oil tanker"
       }
     ],
-    "manchete": "Taxa dos combustíveis em debate, crédito a cair e chapa a 15 meticais",
+    "manchete": "Preços aceleram em Outubro, gás avança e crédito continua a cair",
     "destaques_capa": [
-      "Taxa dos combustíveis pode subir",
-      "Crédito cai há três meses",
-      "Chapa de Maputo mantém 15 meticais"
+      "Preços sobem 0,48% em Outubro",
+      "ENH entra nos poços do Coral Norte",
+      "Crédito cai há três meses"
     ],
-    "legenda": "O Governo propõe subir a taxa sobre combustíveis: o gasóleo pode ficar 6,36 meticais mais caro por litro. O crédito às empresas cai pelo terceiro mês e o chapa de Maputo fica a 15 meticais até Fevereiro. Veja a direcção para a sua família e o seu negócio.",
+    "legenda": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. A ENH entra nos poços do Coral Norte, o crédito às empresas cai pelo terceiro mês e o Governo debate uma taxa maior sobre os combustíveis. Veja a direcção para a sua família e o seu negócio.",
     "hashtags": [
       "#Moçambique",
       "#DirecçõesDaSemana"
     ],
     "fontes_usadas": [
-      1,
-      2,
+      10,
+      11,
       3,
+      8,
       5
     ]
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, 11 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent fechou a 98,29 dólares a 5 de Novembro, abaixo dos 100, mas os ataques a petroleiros no Golfo mantêm o risco. Como Moçambique importa combustível, o preço pesa no transporte e na comida.\n\n*MOÇAMBIQUE*\nO Governo propôs no Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, isso pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo. A proposta ainda está em discussão. O Governo manteve o chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por viatura durante três meses. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. Mais de 1 200 pessoas fugiram de ataques em Cabo Delgado em duas semanas, segundo a OIM.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem mais as PMEs, que pagam juros altos e podem ter carga mais cara, e a classe baixa, que depende do chapa e do milho. Ganham os investidores em títulos públicos.\n\n*DIRECÇÃO*\nQuem usa o chapa deve pagar a tarifa afixada e guardar folga para depois de Fevereiro. As PMEs devem comparar propostas de pelo menos dois bancos. As famílias devem guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes.\n\n*PRÓXIMA SEMANA*\nInflação de Outubro, debate da taxa sobre combustíveis e julgamento de Mondlane a 17 de Novembro.\n\nSe este resumo ajudou, partilhe com alguém que também precisa dele.",
-    "linkedin": "Esta semana, o Governo propôs subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro, contra cerca de 11 na gasolina e 6 no gasóleo. Segundo o ministro dos Transportes e Logística, João Matlombe, o efeito estimado é de 2,92 meticais por litro na gasolina e 6,36 no gasóleo. A proposta está em discussão no Parlamento e a receita seria mais dirigida ao Fundo de Estradas.\n\nPara as empresas, o gasóleo pesa no transporte de carga e, por essa via, no preço dos produtos. Isto chega numa altura em que o crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. As PMEs são as mais expostas: pagam mais pelo dinheiro e podem pagar mais pela logística.\n\nO Governo manteve o chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro, abaixo de 100, e o novo programa com o FMI pode ficar fechado até ao fim do ano.\n\nDirecção\nAs PMEs de transporte e comércio devem rever o custo da carga com o gasóleo 5% mais caro e comparar propostas de pelo menos dois bancos. Os fornecedores do Estado devem juntar certidões e aguardar o regulamento do Conteúdo Local. As famílias devem guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes na ajuda alimentar.\n\nA decisão do Parlamento sobre a taxa e a inflação de Outubro são os próximos factos a seguir. Até lá, o custo do transporte é a variável a vigiar em cada orçamento.\n\n#Moçambique #DirecçõesDaSemana",
-    "instagram": "O Governo propõe subir a taxa sobre combustíveis: o gasóleo pode ficar 6,36 meticais mais caro por litro e a gasolina 2,92. O chapa de Maputo fica a 15 meticais até Fevereiro, com compensações aos operadores. O crédito às empresas cai pelo terceiro mês, com juros médios de 22,26%. Guarde folga no orçamento do transporte e reserva de básicos antes de Janeiro. #Moçambique #DirecçõesDaSemana",
-    "facebook": "O Governo propôs ao Parlamento subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. Segundo o ministro dos Transportes, João Matlombe, isso pode juntar 2,92 meticais ao litro de gasolina e 6,36 ao de gasóleo. A proposta ainda está em discussão e não tem data de entrada em vigor.\n\nPara já, o chapa de Maputo mantém-se a 15 meticais. O Governo paga compensações de 25 mil a 90 mil meticais por viatura durante três meses, por isso a tarifa só volta a estar em causa depois de Fevereiro.\n\nNa economia, o crédito caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Os pequenos negócios sentem primeiro. O Brent fechou a 98,29 dólares a 5 de Novembro, abaixo de 100.\n\nMais de 1 200 pessoas fugiram de ataques em Cabo Delgado em duas semanas, segundo a OIM, e o PAM só mantém a ajuda actual até Dezembro.\n\nA direcção desta semana: pague a tarifa afixada no chapa, guarde folga para depois de Fevereiro e reserve básicos antes de Janeiro.\n\n#Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, 11 de Novembro de 2026\n\n## Resumo da semana\nO Governo propôs subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro, o que pode acrescentar 2,92 meticais à gasolina e 6,36 ao gasóleo. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O chapa de Maputo fica a 15 meticais, com compensações aos operadores por três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.\n\n## O que mudou face às semanas anteriores\nO combustível volta com facto novo: a proposta de taxa, noticiada a 6 de Novembro. O chapa de Maputo, que tinha uma subida anunciada pelos operadores, ficou a 15 meticais até Fevereiro.\n\n## Mundo\nO Brent fechou a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo. O Governo espera fechar o novo programa com o FMI até ao fim do ano, sem garantia. O PAM só mantém a ajuda actual até Dezembro e prevê cortes em Janeiro.\n\n## Moçambique\nO ministro dos Transportes e Logística, João Matlombe, propôs também que 90% da receita da taxa vá para o Fundo de Estradas. O Conselho de Ministros aprovou a estratégia da dívida de médio prazo, com dívida recorde de 1,07 biliões de meticais. O Decreto 54/2026 obriga o ensino privado a ser presencial. O Governo adjudicou 240 quilómetros da Estrada Nacional 324, na Zambézia, por 13 154 milhões de meticais. Em Cabo Delgado, a OIM contou 1 235 pessoas deslocadas entre 14 e 27 de Outubro.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Estratégia da dívida aprovada (int.); negociação do FMI (ext.) | Julgamento de Mondlane a 17 de Novembro (int.); chapa sem solução duradoura (int.) |\n| Económica | Brent abaixo de 100 dólares (ext.); MIMO estável em 9,25% (int.) | Crédito a cair (int.); juros a 22,26% (int.); gasóleo pode subir 6,36 meticais (int.) |\n| Social | Tarifa do chapa mantida (int.); ajuda de emergência a 343 773 pessoas (int.) | Ajuda alimentar corta em Janeiro (ext.); deslocados em Cabo Delgado (int.) |\n| Tecnológica | Registo digital de fornecedores locais (int.) | Ensino só presencial limita o digital (int.) |\n| Ambiental | Plano de 125 milhões contra El Niño (int.) | El Niño e chuvas tardias (ext.); fraca colheita (ext.) |\n| Legal | Preferência de 20% a nacionais (int.); regras para escolas privadas (int.) | Taxa sobre combustíveis em debate (int.); regulamento por publicar (int.) |\n\n## Como chega ao seu bolso\nTaxa sobe, gasóleo fica mais caro, carga e chapa encarecem, a comida chega mais cara ao mercado. Quem sente primeiro: utentes do chapa, PMEs e classe baixa, ao longo de meses. Noutro canal, o PAM reduz a ajuda em Janeiro, o El Niño reduz a colheita e o milho encarece: classe baixa e agricultores, em semanas.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | Juros descem com o programa do FMI e o crédito às PMEs recupera | Prime rate abaixo de 15% |\n| Fica igual | 50% | A prime rate fica em 15,5% e os juros ficam acima de 20% | Taxa média a um ano acima de 21% |\n| Piora | 30% | A inflação sobe, a taxa dos combustíveis avança e o crédito cai mais | Inflação de Outubro acima de 7,5% |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Crédito às PMEs continua a cair | Alta | Alto |\n| Taxa dos combustíveis aprovada sem alívio | Média | Alto |\n| Chapa sobe quando acabam as compensações | Média | Médio |\n| Atraso do programa do FMI | Média | Alto |\n| Milho encarece com El Niño | Média | Alto |\n\n## Horizonte\nImediato: inflação de Outubro, debate da taxa e julgamento de Mondlane a 17 de Novembro. Em 3 meses: fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar. Em 1 ano: Orçamento de 2027 a funcionar e possível acordo com o FMI.\n\n## Quem está mais exposto\nA classe baixa tem exposição alta e margem baixa: gasta a maior parte do rendimento em comida e transporte. Os trabalhadores informais e agricultores dependem do chapa, do mercado e da chuva. As PMEs pagam juros acima de 20%. A classe média sente os juros do crédito pessoal e da casa.\n\n## Quem ganha, quem perde\nGoverno: perde, com dívida recorde e orçamento apertado. Classe baixa: perde, com ajuda alimentar a cortar e El Niño. Classe média: perde, com crédito caro. Classe alta e investidores: ganham, com títulos públicos a render mais. ONGs e parceiros: perdem, com cortes do PAM e procura a subir. Macroeconomia: equilibrada, com Brent mais baixo e dívida mais alta. PMEs: perdem muito, com crédito a cair. Ramos de negócio: ganha a banca, perdem transportadores, comércio e construção.\n\n## Direcção\nFamílias: evitar crédito ao consumo a mais de 20% e guardar reserva de básicos antes de Janeiro. PMEs: comparar propostas de pelo menos dois bancos e contar com carga mais cara. Utentes do chapa: pagar a tarifa afixada e guardar folga para depois de Fevereiro. Fornecedores do Estado e do gás: juntar certidões e esperar o regulamento. Agricultores: comprar insumos cedo.\n\n## Direcções anteriores: o que se confirmou\nO Governo travou a subida do chapa de Maputo, como se previa, mas só por três meses.\n\n## Sinal a acompanhar\nVotação da taxa sobre combustíveis no Parlamento, inflação de Outubro, decisão do Banco de Moçambique sobre a MIMO e Brent acima ou abaixo de 100 dólares.\n\n## Grau de confiança\nMédio: dados do Banco de Moçambique, declarações oficiais e Lusa. A taxa dos combustíveis assenta numa só agência.\n\n## Fontes\nImprensa nacional: [AIM](https://aimnews.org/2026/11/06/governo-trava-aumento-do-preco-dos-transportes-e-assume-custos-atraves-de-subsidios/), [O País](https://opais.co.mz/governo-trava-aumento-das-tarifas-dos-semi-colectivos/), [Executive Digest](https://executivedigest.sapo.pt/mocambique-preve-aumentar-a-taxa-sobre-combustiveis-para-conservar-estradas/).\nHumanitário: [RTP, OIM](https://www.rtp.pt/noticias/mundo/pelo-menos-1235-pessoas-fugiram-de-ataques-em-duas-semanas_n1776498).\nPreços e segurança alimentar: [FEWS NET](https://fews.net/southern-africa/mozambique).",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 12 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent fechou a 98,29 dólares a 5 de Novembro, abaixo dos 100, mas os ataques a petroleiros no Golfo mantêm o risco. O Club of Mozambique noticiou que cerca de 20 000 moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n*MOÇAMBIQUE*\nSegundo o INE, os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, e a inflação anual ficou em 6,32%. Alface, cebola e peixe fresco subiram mais. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis, o que pode juntar 6,36 meticais ao litro de gasóleo. No gás, a ENH vai participar na perfuração dos poços do Coral Norte, que prevê o primeiro gás em 2028.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem mais as PMEs, por causa dos juros, e a classe baixa, que gasta a maior parte do rendimento em comida e transporte. Ganham os investidores em títulos públicos e, mais tarde, os fornecedores ligados ao gás.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços de hortícolas e peixe e guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes. As PMEs devem comparar propostas de pelo menos dois bancos. Quem quer fornecer ao gás deve juntar certidões e registar-se cedo.\n\n*PRÓXIMA SEMANA*\nJulgamento de Mondlane a 17 de Novembro, debate da taxa sobre combustíveis e Comité Central da Frelimo a 27 e 28.\n\nSe este resumo ajudou, partilhe com alguém que também precisa dele.",
+    "linkedin": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%, estável, mas a alface, a cebola e o peixe fresco puxaram a subida mensal.\n\nAo mesmo tempo, o crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, e os juros médios chegaram a 22,26%. A prime rate está em 15,50% e a MIMO em 9,25%, segundo o Banco de Moçambique. Para as PMEs, o dinheiro está mais caro e mais difícil de obter.\n\nO Governo propôs subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. O ministro dos Transportes e Logística, João Matlombe, estimou 2,92 meticais a mais na gasolina e 6,36 no gasóleo. A proposta ainda está em discussão no Parlamento.\n\nNo gás, a ENH vai participar na campanha de perfuração do Coral Norte, a primeira vez que uma empresa moçambicana entra nesta fase. O projecto da Eni, ExxonMobil e CNPC prevê o primeiro gás em 2028. A decisão final do Rovuma LNG, da ExxonMobil, continua por tomar.\n\nDirecção\n\nEmpresas que querem fornecer ao sector do gás devem juntar certidões e registar-se antes das adjudicações. As PMEs devem comparar propostas de pelo menos dois bancos e contar com transporte de carga mais caro se a taxa avançar.\n\nConclusão: com crédito caro e preços a subir, quem planeia 2027 deve guardar folga de caixa até ao fim da época chuvosa. #Moçambique #DirecçõesDaSemana",
+    "instagram": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. A ENH entra nos poços do Coral Norte, o crédito cai pelo terceiro mês e o Governo debate uma taxa maior sobre os combustíveis. Guarde folga no orçamento e compare propostas de crédito. #Moçambique #DirecçõesDaSemana",
+    "facebook": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco foram o que mais subiu.\n\nPara as empresas, o crédito continua a recuar: caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%.\n\nO Governo propôs subir a taxa sobre combustíveis. Se avançar, o gasóleo pode ficar 6,36 meticais mais caro por litro e a gasolina 2,92. O chapa de Maputo fica a 15 meticais, com compensações aos operadores por três meses.\n\nHá também uma boa notícia no gás: a ENH vai participar na perfuração dos poços do Coral Norte, que prevê o primeiro gás em 2028.\n\nDirecção principal da semana: compare preços antes de comprar, guarde uma reserva de básicos antes de Janeiro e, se tem um negócio, compare propostas de pelo menos dois bancos. #Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Direcções da Semana, 12 de Novembro de 2026\n\n## Resumo da semana\nOs preços subiram 0,48% em Outubro, contra 0,16% em Setembro, e a inflação anual ficou em 6,32%, segundo o INE. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis e a ENH entra nos poços do Coral Norte.\n\n## O que mudou face às semanas anteriores\nA inflação de Outubro, que a edição anterior esperava, mostra uma aceleração mensal. O combustível volta só com a taxa em debate, sem novo valor. O chapa de Maputo mantém os 15 meticais com compensações até Fevereiro.\n\n## Mundo\nO Brent fechou a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo. O Governo espera fechar o programa com o FMI até ao fim do ano, sem garantia. O PAM só mantém a ajuda actual até Dezembro. O Club of Mozambique noticiou que cerca de 20 000 moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n## Moçambique\nA alface subiu 9,8% em Outubro, a cebola 5,7% e o peixe fresco 2,8%. O Conselho de Ministros aprovou a estratégia da dívida de médio prazo. O Decreto 54/2026 obriga o ensino privado a ser presencial. A Frelimo reúne o Comité Central a 27 e 28 de Novembro. A ENH participa na campanha de poços do Coral Norte.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Estratégia da dívida aprovada (int.); negociação do FMI (ext.) | Julgamento de Mondlane a 17 de Novembro (int.); Comité Central da Frelimo a 27 de Novembro (int.) |\n| Económica | Brent abaixo de 100 dólares (ext.); MIMO estável em 9,25% (int.); Coral Norte avança para 2028 (ext.) | Crédito a cair (int.); gasóleo pode subir 6,36 meticais (int.); inflação mensal sobe para 0,48% (int.) |\n| Social | Tarifa do chapa mantida (int.); ajuda de emergência a 343 773 pessoas (int.) | Ajuda alimentar corta em Janeiro (ext.); deslocados em Cabo Delgado (int.); 20 000 regressam da África do Sul (ext.) |\n| Tecnológica | Registo digital de fornecedores locais (int.); ENH nos poços do Coral Norte (int.) | Ensino só presencial limita o digital (int.) |\n| Ambiental | Plano de 125 milhões contra El Niño (int.) | El Niño e chuvas tardias (ext.); fraca colheita (ext.) |\n| Legal | Preferência de 20% a nacionais (int.); regras para escolas privadas (int.) | Taxa sobre combustíveis em debate (int.); regulamento por publicar (int.) |\n\n## Como chega ao seu bolso\nPreços de hortícolas e peixe sobem, o cabaz fica mais caro e a classe baixa gasta mais em comida. Noutro canal, a banca prefere títulos públicos, há menos crédito às PMEs, menos investimento e menos rendimento. Se a taxa sobre combustíveis avançar, o gasóleo encarece a carga e o chapa.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | Juros descem com o programa do FMI e o crédito às PMEs recupera | Prime rate abaixo de 15% |\n| Fica igual | 50% | Prime rate em 15,5% e juros acima de 20% | Taxa média a um ano acima de 21% |\n| Piora | 30% | Inflação sobe, taxa dos combustíveis avança e o crédito cai mais | Inflação homóloga acima de 7,5% em Novembro |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Crédito às PMEs continua a cair | Alta | Alto |\n| Taxa dos combustíveis aprovada sem alívio | Média | Alto |\n| Chapa sobe quando acabam as compensações | Média | Médio |\n| Atraso do programa do FMI | Média | Alto |\n| Milho encarece com El Niño | Média | Alto |\n\n## Horizonte\nImediato: debate da taxa sobre combustíveis, julgamento de Mondlane a 17 de Novembro e Comité Central da Frelimo a 27 e 28. Em 3 meses: fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar a partir de Janeiro. Em 1 ano: Orçamento de 2027 a funcionar e possível acordo com o FMI a mudar o custo do crédito.\n\n## Quem está mais exposto\nA classe baixa (exposição 3, margem 1) gasta a maior parte do rendimento em comida e transporte. Informais e agricultores (3 e 1) dependem do chapa, do mercado e da chuva. As PMEs (3 e 2) pagam juros acima de 20%. A classe média (2 e 2) sente os juros do crédito.\n\n## Quem ganha, quem perde\nGoverno: perde, com dívida recorde e orçamento apertado. Classe baixa: perde, com ajuda alimentar a cortar. Classe média: perde, com crédito caro e inflação a 6,3%. Classe alta e investidores: ganham com títulos públicos. ONGs e parceiros: perdem, com menos financiamento e mais procura. Macroeconomia: equilibrada, com petróleo mais barato e dívida alta. PMEs: perdem muito. Ramos de negócio: ganham a banca e as empresas de estradas e gás, perdem transportadores e comércio.\n\n## Direcção\nFamílias: comparar preços de hortícolas e peixe e guardar reserva de básicos antes de Janeiro. PMEs: comparar propostas de pelo menos dois bancos. Utentes do chapa: guardar folga para depois de Fevereiro. Fornecedores do Estado e do gás: juntar certidões e registar-se cedo. Agricultores: comprar sementes cedo.\n\n## Direcções anteriores: o que se confirmou\nA direcção de comprar milho e arroz em pequenas quantidades e comparar mercados segue pendente, sem preços do milho por cidade.\n\n## Sinal a acompanhar\nVotação da taxa sobre combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO e decisão final do Rovuma LNG.\n\n## Grau de confiança\nMédia: dados do Banco de Moçambique, declarações oficiais e Lusa. A inflação de Outubro assenta em cobertura jornalística do INE e a taxa dos combustíveis numa só agência.\n\n## Fontes\nOficiais: INE (via [Forbes África Lusófona](https://forbesafricalusofona.com/?p=178681)); Banco de Moçambique via Lusa. Imprensa nacional: [Lusa](https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo). Imprensa económica: [Club of Mozambique](https://clubofmozambique.com/news/2026/11/09/); [The Energy Year](https://theenergyyear.com/?p=56743). Preços: [Nation Thailand](https://www.nationthailand.com/news/40073162).",
     "verificar": [
-      "Taxa proposta de 15 cêntimos de dólar por litro e impacto de 2,92 e 6,36 meticais por litro (uma só agência)",
-      "Data de entrada em vigor da taxa, que a fonte não indica",
-      "1 235 deslocados em Cabo Delgado entre 14 e 27 de Outubro (OIM via RTP)",
-      "Compensações de 25 mil a 90 mil meticais por viatura durante três meses",
-      "⚠️ 3 notícias sobre combustível ou chapa na edição (máximo 1)",
-      "⚠️ A edição só cobre 3 dimensões do PESTAL (mínimo 4)",
-      "⚠️ Combustível a abrir a edição duas semanas seguidas"
+      "Inflação de Outubro (0,48% mensal e 6,32% anual): só cobertura da Forbes África Lusófona, sem comunicado do INE",
+      "Data de 4 de Novembro do anúncio da ENH sobre o Coral Norte",
+      "20 000 moçambicanos que deixaram a África do Sul desde Junho (uma só fonte)",
+      "Taxa proposta de 15 cêntimos por litro e impacto de 2,92 e 6,36 meticais (uma só agência)",
+      "⚠️ Categorias de fontes não consultadas hoje: precos, analise_independente",
+      "⚠️ A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
     ],
     "duvidas": [],
     "conformidade": [
       {
         "criterio": "Notícias do mundo",
         "ok": true,
-        "nota": "Brent, FMI, PAM"
+        "nota": "Brent, FMI, PAM, regresso da África do Sul"
       },
       {
         "criterio": "Notícias de Moçambique",
         "ok": true,
-        "nota": "Taxa, crédito, chapa, decreto, Cabo Delgado"
+        "nota": "Inflação, crédito, taxa, gás, decreto"
       },
       {
         "criterio": "PESTAL completo",
@@ -695,7 +787,7 @@
       {
         "criterio": "Canais de transmissão",
         "ok": true,
-        "nota": "Três canais"
+        "nota": "Presentes"
       },
       {
         "criterio": "Três cenários",
@@ -740,20 +832,19 @@
       {
         "criterio": "O que mudou face às semanas anteriores",
         "ok": true,
-        "nota": "Taxa dos combustíveis é facto novo"
+        "nota": "Inflação de Outubro confirmada"
       }
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-11-11",
-    "indicadores": 0,
-    "temas": 1,
+    "em": "2026-11-12",
+    "indicadores": 1,
+    "temas": 2,
     "direccoes": 2
   },
   "falhas_conformidade": [
-    "3 notícias sobre combustível ou chapa na edição (máximo 1)",
-    "A edição só cobre 3 dimensões do PESTAL (mínimo 4)",
-    "Combustível a abrir a edição duas semanas seguidas"
+    "Categorias de fontes não consultadas hoje: precos, analise_independente",
+    "A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
   ],
   "incluir_itens": []
 }
