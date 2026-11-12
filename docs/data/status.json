@@ -11,9 +11,9 @@
       "em": "2026-11-12T04:45:35.573Z"
     },
     "design": {
-      "estado": "parado",
-      "msg": "À espera da sua vez",
-      "em": "2026-11-12T04:43:29.579Z"
+      "estado": "a trabalhar",
+      "msg": "A preparar capa e notícias",
+      "em": "2026-11-12T04:45:47.566Z"
     },
     "editor": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-12T04:45:47.566Z",
+      "agente": "design",
+      "msg": "A preparar capa e notícias"
+    },
     {
       "em": "2026-11-12T04:45:35.573Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-11-09T03:29:22.399Z",
       "agente": "analise",
       "msg": "Análise melhorada: crédito e chapa"
-    },
-    {
-      "em": "2026-11-09T03:28:35.562Z",
-      "agente": "analise",
-      "msg": "A melhorar a análise com o crédito e o chapa"
     }
   ],
-  "actualizado": "2026-11-12T04:45:35.573Z",
+  "actualizado": "2026-11-12T04:45:47.566Z",
   "semana": "2026-S46",
   "dia": "2026-11-12",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
