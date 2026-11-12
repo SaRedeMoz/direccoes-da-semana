@@ -21,12 +21,17 @@
       "em": "2026-11-12T04:47:56.116Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-11-12T04:43:29.579Z"
+      "estado": "à espera",
+      "msg": "Post do dia à espera da sua aprovação",
+      "em": "2026-11-12T04:49:06.079Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-12T04:49:06.079Z",
+      "agente": "aprovacao",
+      "msg": "Post do dia à espera da sua aprovação"
+    },
     {
       "em": "2026-11-12T04:47:56.116Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-11-09T03:31:18.142Z",
       "agente": "editor",
       "msg": "Edição versão 1 montada"
-    },
-    {
-      "em": "2026-11-09T03:31:18.142Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: Crédito a cair e juros a subir: quem consegue empréstimo em 2027?"
     }
   ],
-  "actualizado": "2026-11-12T04:47:56.116Z",
+  "actualizado": "2026-11-12T04:49:06.079Z",
   "semana": "2026-S46",
   "dia": "2026-11-12",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
