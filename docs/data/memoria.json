@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12",
+  "actualizado": "2026-11-13",
   "indicadores": [
     {
       "id": "gasolina",
@@ -630,6 +630,18 @@
       "resultado": "pendente",
       "nota": "Sem preços do milho por cidade; a inflação anual ficou estável em 6,32%.",
       "verificada_em": "2026-11-12"
+    },
+    {
+      "id": "D40",
+      "data": "2026-11-06",
+      "semana": "2026-S45",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Contar com mais 5 meticais por rota e pedir o valor afixado",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-13",
+      "resultado": "pendente",
+      "nota": ""
     }
   ],
   "balanco_direccoes": {
