@@ -32,3 +32,4 @@
 - 2026-11-10 (2026-S46): Às terças a pesquisa devolve pouco material datado: o decreto do ensino privado serviu de assunto do dia e os artigos de origem nem sempre trazem data.
 - 2026-11-11 (2026-S46): Às quartas a pesquisa devolve poucos preços datados nas capitais da Beira e de Nampula, e a inflação de Outubro por cidade ainda não saiu.
 - 2026-11-12 (2026-S46): A inflação de Outubro chegou por cobertura jornalística antes do comunicado do INE; convém confirmar no INE antes de publicar valores por cidade.
+- 2026-11-13 (2026-S46): Às sextas a pesquisa devolve pouco material datado: a previsão da FEWS NET chegou por Lusa sem data de publicação visível e o INAM não tem previsão sazonal 2026/27 acessível.

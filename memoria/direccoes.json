@@ -489,8 +489,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-13",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "parcial",
+    "nota": "O Governo manteve a tarifa de 15 meticais em Maputo, em vez de subir 5 meticais.",
+    "verificada_em": "2026-11-13"
   },
   {
     "id": "D41",
@@ -621,6 +622,30 @@
     "tema": "inflacao_precos",
     "horizonte": "mes",
     "verificar_em": "2026-12-12",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D52",
+    "data": "2026-11-13",
+    "semana": "2026-S46",
+    "publico": "Agricultores do Centro e do Sul",
+    "accao": "Semear só com chuva instalada, preferir variedades de ciclo curto e comprar sementes cedo",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D53",
+    "data": "2026-11-13",
+    "semana": "2026-S46",
+    "publico": "Famílias",
+    "accao": "Comprar milho e arroz aos poucos e guardar reserva antes de Janeiro",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-01-31",
     "resultado": "pendente",
     "nota": ""
   }

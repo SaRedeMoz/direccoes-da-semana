@@ -1,0 +1,260 @@
+{
+  "tipo": "dia",
+  "area": "Clima e desastres",
+  "tema": "Chuva abaixo da média no pico da época: o que fazer com a sementeira",
+  "pergunta": "A chuva vai falhar no pico da época? O que fazer com a sementeira",
+  "facto": {
+    "texto": "A FEWS NET prevê temperaturas acima do normal até Abril de 2027 e chuva abaixo da média entre Dezembro e Fevereiro. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027. O Governo apontou em Agosto 52 distritos críticos no Sul e no Centro.",
+    "numeros": [
+      {
+        "valor": "Mais de 80%",
+        "legenda": "El Niño forte até 2027"
+      },
+      {
+        "valor": "52",
+        "legenda": "distritos críticos no Sul e Centro"
+      },
+      {
+        "valor": "1,5 a 1,99 milhões",
+        "legenda": "podem precisar de ajuda alimentar"
+      }
+    ],
+    "fonte": "FEWS NET via Lusa (RTP); Ministro Fernando Rafael, Agosto de 2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "15 Ago",
+      "texto": "Governo aponta 52 distritos críticos por causa do El Niño",
+      "futuro": false
+    },
+    {
+      "data": "Out",
+      "texto": "FEWS NET projecta 1,5 a 1,99 milhões a precisar de ajuda",
+      "futuro": false
+    },
+    {
+      "data": "Dez",
+      "texto": "PAM só mantém a ajuda actual até este mês",
+      "futuro": true
+    },
+    {
+      "data": "Dez a Fev",
+      "texto": "Pico da época chuvosa, com chuva abaixo da média prevista",
+      "futuro": true
+    },
+    {
+      "data": "Jan",
+      "texto": "PAM prevê cortes na ajuda alimentar",
+      "futuro": true
+    },
+    {
+      "data": "Abr 2027",
+      "texto": "Calor acima do normal previsto até este mês",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "2015/16",
+    "o_que_aconteceu": "Com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016, na seca do Sul e do Centro. Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.",
+    "licao": "Um El Niño forte levou a seca declarada e a 1,5 milhões em insegurança alimentar.",
+    "fonte": "ReliefWeb / SETSAN, 2016"
+  },
+  "porque_importa": "O milho e o arroz são a base da comida da classe baixa e dos agricultores de subsistência. Uma colheita fraca sobe o preço no mercado e tira rendimento às famílias que já gastam a maior parte do que ganham em comida. Os doadores têm menos dinheiro para responder.",
+  "canal": {
+    "passos": [
+      "Chuva abaixo da média",
+      "Sementeira falha ou atrasa",
+      "Colheita menor em Abril",
+      "Milho mais caro no mercado",
+      "Famílias gastam mais em comida"
+    ],
+    "quem_sente": "Agricultores de subsistência e classe baixa"
+  },
+  "conta": {
+    "titulo": "Quanto custa a comida a uma família",
+    "pressupostos": "Família que gasta 4 000 MT por mês em milho e arroz; preço sobe 10,4% (milho num mês, Outubro) ou 40% (hipótese).",
+    "barras": [
+      {
+        "rotulo": "Hoje",
+        "valor": 4000,
+        "texto": "4 000 MT/mês"
+      },
+      {
+        "rotulo": "Preço mais 10,4%",
+        "valor": 4416,
+        "texto": "4 416 MT/mês"
+      },
+      {
+        "rotulo": "Preço mais 40%",
+        "valor": 5600,
+        "texto": "5 600 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "Com preços 40% mais altos, a família paga mais 1 600 meticais por mês só em milho e arroz."
+  },
+  "cenarios": [
+    {
+      "nome": "A chuva falha no pico",
+      "tipo": "piora",
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2015/16, com El Niño forte, houve alerta vermelho. Os solos húmidos do Centro e do Sul atenuam, por isso não passa de 45%.",
+      "gatilho": "Chuva acumulada de Dezembro abaixo do normal, segundo o INAM",
+      "o_que_acontece": "Dezembro a Fevereiro fica seco, a colheita do Centro e do Sul perde-se em parte e o milho sobe até Abril.",
+      "numeros": "Milho 15% a 40% mais caro; 1,5 a 1,99 milhões precisam de ajuda",
+      "quando": "até Abril de 2027",
+      "ganha": "Comerciantes com stock de milho",
+      "perde": "Famílias que compram comida",
+      "se_acontecer": "Antecipar compras, pedir ajuda local cedo e procurar sementes de ciclo curto para o replantio."
+    },
+    {
+      "nome": "Atraso, mas recupera",
+      "tipo": "fica_igual",
+      "probabilidade": 35,
+      "porque_probabilidade": "A FEWS NET fala em início tardio, mas a humidade do solo está acima da média no Centro e Sul. Falta o fecho de Dezembro.",
+      "gatilho": "Chuva instalada até meados de Janeiro nas províncias do Centro",
+      "o_que_acontece": "A chuva chega tarde, mas permite segunda sementeira. A colheita sai menor e mais tardia, com preços a subir pouco.",
+      "numeros": "Milho 5% a 15% mais caro entre Fevereiro e Abril",
+      "quando": "até Março de 2027",
+      "ganha": "Quem semeou cedo com sementes certas",
+      "perde": "Quem esperou pela primeira chuva",
+      "se_acontecer": "Semear em duas datas e vender só o excedente depois de garantir a comida da casa."
+    },
+    {
+      "nome": "Solo húmido amortece",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Vem da humidade acima da média e dos reservatórios cheios, como Cahora Bassa. Contraria a previsão de chuva abaixo da média.",
+      "gatilho": "Chuva perto do normal em Dezembro nas províncias de Sofala e Zambézia",
+      "o_que_acontece": "As chuvas ficam perto do normal no Centro e no Norte e as culturas aguentam. O Sul sofre mais com o calor.",
+      "numeros": "Milho com subida abaixo de 5%",
+      "quando": "até Abril de 2027",
+      "ganha": "Agricultores do Centro e do Norte",
+      "perde": "Agricultores do Sul",
+      "se_acontecer": "Vender o excedente com preço registado e repor a reserva de sementes para a próxima época."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Chuva acumulada de Dezembro, segundo o INAM",
+      "limiar": "abaixo do normal em duas décadas seguidas",
+      "quando": "até 31 de Dezembro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Preço do milho nos mercados do Centro",
+      "limiar": "subida de mais de 15% face a Novembro",
+      "quando": "até 31 de Janeiro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Início da chuva nas províncias do Centro",
+      "limiar": "chuva instalada antes de 15 de Dezembro",
+      "quando": "até 15 de Dezembro",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Financiamento do PAM para 2027",
+      "limiar": "ajuda confirmada para Janeiro",
+      "quando": "até 31 de Dezembro",
+      "aponta_para": "fica_igual"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "gasta quase tudo em comida"
+    },
+    {
+      "grupo": "Agricultores de subsistência",
+      "saldo": -2,
+      "porque": "dependem da chuva da época"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "comida e transporte mais caros"
+    },
+    {
+      "grupo": "PMEs de alimentos",
+      "saldo": -1,
+      "porque": "matéria-prima mais cara e escassa"
+    },
+    {
+      "grupo": "Comerciantes de cereais",
+      "saldo": 1,
+      "porque": "preços sobem com stock guardado"
+    },
+    {
+      "grupo": "ONGs e parceiros",
+      "saldo": -1,
+      "porque": "mais procura com menos financiamento"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Agricultores do Centro e do Sul",
+      "agora": "Comprar sementes cedo, semear só com a chuva instalada e preferir variedades de ciclo curto.",
+      "se_piorar": "Replantar com ciclo curto e pedir apoio ao distrito."
+    },
+    {
+      "publico": "Famílias",
+      "agora": "Comprar milho e arroz aos poucos e guardar reserva antes de Janeiro.",
+      "se_piorar": "Cortar gastos que não sejam comida e comparar mercados."
+    },
+    {
+      "publico": "PMEs de alimentos e transporte",
+      "agora": "Rever stocks e contratos de fornecimento antes de Janeiro.",
+      "se_piorar": "Negociar preços fixos com fornecedores."
+    },
+    {
+      "publico": "ONGs e parceiros",
+      "agora": "Antecipar a ajuda nos 52 distritos críticos antes do corte do PAM.",
+      "se_piorar": "Concentrar recursos nos distritos de Sofala e Gaza."
+    }
+  ],
+  "visao_contraria": "A previsão é de probabilidades, não de certeza. Os solos estão húmidos no Centro e no Sul, as albufeiras estão mais cheias e a época 2025/26 foi chuvosa, o que pode amortecer o choque.",
+  "nao_sabemos": [
+    "O INAM ainda não publicou a previsão sazonal para a época chuvosa 2026/27.",
+    "Os relatórios dão datas diferentes, de Dezembro a Abril, para o pico de 1,5 a 1,99 milhões a precisar de ajuda.",
+    "Os preços do milho por cidade ainda não foram publicados."
+  ],
+  "sinal": "Chuva acumulada de Dezembro abaixo do normal e milho a subir mais de 15% até Janeiro.",
+  "confianca": "media",
+  "base_confianca": "Previsão da FEWS NET via Lusa, declarações do Governo de Agosto e o precedente de 2016 em ReliefWeb; sem previsão sazonal do INAM.",
+  "textos": {
+    "whatsapp": "*DIRECÇÃO DO DIA, 13 DE NOVEMBRO*\n*A chuva vai falhar no pico da época? O que fazer com a sementeira*\n\nA FEWS NET prevê calor acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027. Em Agosto, o Governo apontou 52 distritos críticos no Sul e no Centro. O PAM só mantém a ajuda actual até Dezembro.\n\n*O PRECEDENTE*\nEm 2015/16, com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016 e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.\n\n*A CONTA*\nUma família que gasta 4 000 meticais por mês em milho e arroz paga 416 a mais se o preço subir 10,4%, a subida do milho num mês, em Outubro. Se subir 40%, paga 1 600 a mais, ou 5 600 no total. Estes valores são um exemplo, não um preço publicado.\n\n*TRÊS CENÁRIOS*\n*A chuva falha no pico, 45%.* Dezembro a Fevereiro fica abaixo da média, a colheita do Centro e do Sul perde-se em parte e o milho sobe até Abril de 2027. Perdem as famílias que compram comida.\n\n*Atraso, mas recupera, 35%.* A chuva chega tarde, mas os solos ainda húmidos do Centro e do Sul permitem uma segunda sementeira até meados de Janeiro. Os preços sobem pouco.\n\n*Solo húmido amortece, 20%.* As chuvas ficam perto do normal no Centro e no Norte e a colheita é razoável.\n\n*O QUE OBSERVAR*\nChuva acumulada de Dezembro abaixo do normal, segundo o INAM. Preço do milho a subir mais de 15% entre Dezembro e Janeiro.\n\n*DIRECÇÃO*\nAgricultores: comprem sementes cedo, semeiem só com a chuva instalada e escolham ciclo curto. Famílias: comprem milho e arroz aos poucos e guardem reserva antes de Janeiro.\n\nSe isto ajudou, partilhe com alguém que lavra ou compra milho.",
+    "instagram": "A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e El Niño forte até 2027. Em 2015/16 foram 1,5 milhões em insegurança alimentar. Cenários: chuva falha 45%, atrasa e recupera 35%, solo húmido amortece 20%. Direcção: sementes cedo e reserva de básicos antes de Janeiro. #Moçambique",
+    "facebook": "A chuva pode falhar justamente quando mais faz falta. A FEWS NET prevê calor acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, por causa do El Niño, que deve durar até 2027.\n\nEm 2015/16, com um El Niño forte, o Governo declarou alerta vermelho e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.\n\nPara uma família que gasta 4 000 meticais por mês em milho e arroz, um aumento de 10,4% no preço custa mais 416 meticais. Com 40%, são mais 1 600. É um exemplo, não um preço publicado.\n\nTrês cenários. A chuva falha no pico: 45%. A chuva atrasa mas recupera: 35%. O solo húmido amortece o choque: 20%.\n\nO que observar: chuva acumulada de Dezembro abaixo do normal e milho a subir mais de 15% entre Dezembro e Janeiro.\n\nDirecção: quem lavra deve comprar sementes cedo e semear só com a chuva instalada. As famílias devem comprar milho e arroz aos poucos e guardar reserva antes de Janeiro.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "Os agricultores do Centro e do Sul entram na época 2026/27 com um aviso claro. A FEWS NET prevê temperaturas acima do normal até Abril de 2027 e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027, segundo a Lusa.\n\nO Governo já tinha identificado, em Agosto, 52 distritos críticos no Sul e no Centro. O Governo diz ter garantido 125 milhões de dólares e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e a ONU dizia em Agosto que o financiamento humanitário cobria 30% das necessidades de 2026.\n\nO precedente é pesado. Em 2015/16, com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016 e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar, segundo a SETSAN.\n\nTrês cenários. A chuva falha no pico, com 45%: a colheita perde-se em parte e o milho sobe até Abril. Atraso mas recuperação, com 35%: a chuva chega tarde, mas os solos húmidos permitem segunda sementeira. Solo húmido amortece, com 20%: chuvas perto do normal no Centro e no Norte.\n\nA conta para uma família que gasta 4 000 meticais por mês em milho e arroz: com preços 10,4% mais altos paga mais 416; com 40%, paga mais 1 600. É um exemplo, com pressupostos próprios.\n\nDirecção\n\nAgricultores: comprar sementes cedo e semear só com a chuva instalada. Empresas de alimentos e transporte: rever stocks e contratos antes de Janeiro. ONGs e parceiros: antecipar a ajuda nos distritos críticos.\n\nA decisão mais barata é a que se toma antes da primeira chuva de Dezembro.\n\n#Moçambique #DirecçõesDaSemana"
+  },
+  "fontes": [
+    {
+      "fonte": "FEWS NET via Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/temperaturas-acima-da-media-e-menos-chuva-ameacam-campanha-agricola-mocambicana_n1777826",
+      "data": "2026-11-13"
+    },
+    {
+      "fonte": "Executive Digest (Lusa), 52 distritos críticos",
+      "url": "https://executivedigest.sapo.pt/?p=802158",
+      "data": "2026-08-15"
+    },
+    {
+      "fonte": "ReliefWeb, 1,5 milhões em insegurança alimentar em 2016",
+      "url": "https://m.reliefweb.int/report/1473171",
+      "data": "2016-05-01"
+    },
+    {
+      "fonte": "FEWS NET Moçambique, Abril de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/food-security-outlook-update/april-2016",
+      "data": "2016-04-30"
+    }
+  ],
+  "data": "2026-11-13",
+  "dia_semana": "sexta",
+  "semana": "2026-S46",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

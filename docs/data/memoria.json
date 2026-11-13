@@ -420,12 +420,6 @@
       "desde": "2026-10-16",
       "ultimos": [
         {
-          "data": "2026-11-09",
-          "semana": "2026-S46",
-          "resumo": "O Governo manteve a tarifa do chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
-          "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
-        },
-        {
           "data": "2026-11-10",
           "semana": "2026-S46",
           "resumo": "O Governo manteve o chapa de Maputo a 15 meticais e paga compensações de 25 mil a 90 mil meticais por mês e por viatura durante três meses. O Brent fechou a 98,29 dólares a 5 de Novembro.",
@@ -436,6 +430,12 @@
           "semana": "2026-S46",
           "resumo": "O Governo propôs subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro, o que pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo. O chapa de Maputo fica a 15 meticais com compensações por três meses.",
           "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
+        },
+        {
+          "data": "2026-11-13",
+          "semana": "2026-S46",
+          "resumo": "O Governo propôs uma taxa de 15 cêntimos de dólar por litro, que pode juntar 6,36 meticais ao gasóleo. O chapa de Maputo fica a 15 meticais com compensações por três meses.",
+          "direccao": "Pagar a tarifa afixada e guardar folga para depois de Fevereiro."
         }
       ]
     },
@@ -444,12 +444,6 @@
       "nome": "El Niño e segurança alimentar",
       "desde": "2026-10-16",
       "ultimos": [
-        {
-          "data": "2026-10-22",
-          "semana": "2026-S43",
-          "resumo": "A FEWS NET espera El Niño até Janeiro e um início tardio da época chuvosa. Entre Dezembro e Janeiro, 1,5 a 1,99 milhões devem precisar de ajuda alimentar.",
-          "direccao": "Guardar reservas de básicos e comprar insumos cedo."
-        },
         {
           "data": "2026-10-23",
           "semana": "2026-S43",
@@ -461,6 +455,12 @@
           "semana": "2026-S45",
           "resumo": "O Governo diz ter garantido 125 milhões de dólares e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e a FEWS NET espera 1,5 a 1,99 milhões a precisar de ajuda entre Dezembro e Janeiro.",
           "direccao": "Guardar reservas de básicos e comprar insumos agrícolas cedo."
+        },
+        {
+          "data": "2026-11-13",
+          "semana": "2026-S46",
+          "resumo": "A FEWS NET prevê calor acima do normal e chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027. O PAM só mantém a ajuda actual até Dezembro.",
+          "direccao": "Comprar sementes e guardar reserva de básicos antes de Dezembro."
         }
       ]
     },
@@ -630,34 +630,22 @@
       "resultado": "pendente",
       "nota": "Sem preços do milho por cidade; a inflação anual ficou estável em 6,32%.",
       "verificada_em": "2026-11-12"
-    },
-    {
-      "id": "D40",
-      "data": "2026-11-06",
-      "semana": "2026-S45",
-      "publico": "Utentes do chapa na Grande Maputo",
-      "accao": "Contar com mais 5 meticais por rota e pedir o valor afixado",
-      "tema": "combustivel",
-      "horizonte": "semana",
-      "verificar_em": "2026-11-13",
-      "resultado": "pendente",
-      "nota": ""
     }
   ],
   "balanco_direccoes": {
     "confirmada": 1,
-    "parcial": 10,
+    "parcial": 11,
     "nao_confirmada": 1,
-    "pendente": 39
+    "pendente": 40
   },
   "ultimas_licoes": [
-    "- 2026-11-05 (2026-S45): Uma subida do chapa pode ser anunciada pela FEMATRO sem sair nas fontes que a redacção segue; convém procurar também no Club of Mozambique e na Lusa.",
     "- 2026-11-06 (2026-S45): Às sextas o Brent só aparece numa cotação à vista sem fecho oficial; o prazo de 31 de Dezembro dos planos de aquisição do Conteúdo Local não consta das fontes jurídicas e passou a ser tratado como não confirmado.",
     "- 2026-11-07 (2026-S45): Aos sábados a pesquisa devolve pouco material datado de sexta e sábado: o fecho do Brent de 6 de Novembro não apareceu e a taxa MIMO de 30 de Setembro só foi confirmada por agregador.",
     "- 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal.",
     "- 2026-11-09 (2026-S46): Uma cotação à vista do Brent pode divergir do fecho: convém confirmar o fecho oficial antes de publicar.",
     "- 2026-11-10 (2026-S46): Às terças a pesquisa devolve pouco material datado: o decreto do ensino privado serviu de assunto do dia e os artigos de origem nem sempre trazem data.",
     "- 2026-11-11 (2026-S46): Às quartas a pesquisa devolve poucos preços datados nas capitais da Beira e de Nampula, e a inflação de Outubro por cidade ainda não saiu.",
-    "- 2026-11-12 (2026-S46): A inflação de Outubro chegou por cobertura jornalística antes do comunicado do INE; convém confirmar no INE antes de publicar valores por cidade."
+    "- 2026-11-12 (2026-S46): A inflação de Outubro chegou por cobertura jornalística antes do comunicado do INE; convém confirmar no INE antes de publicar valores por cidade.",
+    "- 2026-11-13 (2026-S46): Às sextas a pesquisa devolve pouco material datado: a previsão da FEWS NET chegou por Lusa sem data de publicação visível e o INAM não tem previsão sazonal 2026/27 acessível."
   ]
 }

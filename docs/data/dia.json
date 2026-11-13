@@ -1,302 +1,260 @@
 {
   "tipo": "dia",
-  "area": "Gás, minas e recursos naturais",
-  "tema": "Rovuma LNG: decisão final até Dezembro ou só em 2027",
-  "pergunta": "Rovuma LNG decide até Dezembro? O que muda para Moçambique",
+  "area": "Clima e desastres",
+  "tema": "Chuva abaixo da média no pico da época: o que fazer com a sementeira",
+  "pergunta": "A chuva vai falhar no pico da época? O que fazer com a sementeira",
   "facto": {
-    "texto": "A ENH vai participar na perfuração dos poços do Coral Norte, projecto da Eni, ExxonMobil e CNPC com primeiro gás previsto para 2028. A decisão final do Rovuma LNG ainda não foi tomada: a ExxonMobil diz que quer decidir até ao fim do ano, mas faltam aprovações do Governo.",
+    "texto": "A FEWS NET prevê temperaturas acima do normal até Abril de 2027 e chuva abaixo da média entre Dezembro e Fevereiro. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027. O Governo apontou em Agosto 52 distritos críticos no Sul e no Centro.",
     "numeros": [
       {
-        "valor": "18 Mtpa",
-        "legenda": "Rovuma LNG, por decidir"
+        "valor": "Mais de 80%",
+        "legenda": "El Niño forte até 2027"
       },
       {
-        "valor": "13 Mtpa",
-        "legenda": "Mozambique LNG, em obras"
+        "valor": "52",
+        "legenda": "distritos críticos no Sul e Centro"
       },
       {
-        "valor": "2028",
-        "legenda": "Primeiro gás do Coral Norte"
+        "valor": "1,5 a 1,99 milhões",
+        "legenda": "podem precisar de ajuda alimentar"
       }
     ],
-    "fonte": "The Energy Year; Presidência, via RTP; Wood Mackenzie"
+    "fonte": "FEWS NET via Lusa (RTP); Ministro Fernando Rafael, Agosto de 2026"
   },
   "linha_do_tempo": [
     {
-      "data": "Nov 2025",
-      "texto": "ExxonMobil levanta a força maior no Rovuma LNG",
+      "data": "15 Ago",
+      "texto": "Governo aponta 52 distritos críticos por causa do El Niño",
       "futuro": false
     },
     {
-      "data": "Jan 2026",
-      "texto": "TotalEnergies retoma as obras do Mozambique LNG",
+      "data": "Out",
+      "texto": "FEWS NET projecta 1,5 a 1,99 milhões a precisar de ajuda",
       "futuro": false
     },
     {
-      "data": "20 Out",
-      "texto": "Garantia a credores prolongada até Março de 2029",
-      "futuro": false
-    },
-    {
-      "data": "Nov 2026",
-      "texto": "ENH entra na campanha de poços do Coral Norte",
-      "futuro": false
-    },
-    {
-      "data": "31 Dez",
-      "texto": "Prazo da ExxonMobil para a decisão final",
+      "data": "Dez",
+      "texto": "PAM só mantém a ajuda actual até este mês",
       "futuro": true
     },
     {
-      "data": "2028",
-      "texto": "Primeiro gás do Coral Norte",
+      "data": "Dez a Fev",
+      "texto": "Pico da época chuvosa, com chuva abaixo da média prevista",
+      "futuro": true
+    },
+    {
+      "data": "Jan",
+      "texto": "PAM prevê cortes na ajuda alimentar",
+      "futuro": true
+    },
+    {
+      "data": "Abr 2027",
+      "texto": "Calor acima do normal previsto até este mês",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "2021 a 2026",
-    "o_que_aconteceu": "Os ataques de 2021 em Cabo Delgado levaram à força maior e à paragem do Mozambique LNG. A força maior foi levantada em Novembro de 2025 e as obras retomaram em Janeiro de 2026.",
-    "licao": "A segurança manda no calendário: o gás só avança quando Cabo Delgado deixa.",
-    "fonte": "World Oil, 29 de Janeiro de 2026"
+    "quando": "2015/16",
+    "o_que_aconteceu": "Com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016, na seca do Sul e do Centro. Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.",
+    "licao": "Um El Niño forte levou a seca declarada e a 1,5 milhões em insegurança alimentar.",
+    "fonte": "ReliefWeb / SETSAN, 2016"
   },
-  "porque_importa": "Os projectos de gás valem dezenas de milhares de milhões de dólares e prometem contratos, empregos e receitas. Quando a decisão atrasa, adiam-se os contratos para empresas locais e as receitas que o Estado espera.",
+  "porque_importa": "O milho e o arroz são a base da comida da classe baixa e dos agricultores de subsistência. Uma colheita fraca sobe o preço no mercado e tira rendimento às famílias que já gastam a maior parte do que ganham em comida. Os doadores têm menos dinheiro para responder.",
   "canal": {
     "passos": [
-      "Decisão final do Rovuma LNG",
-      "Obras e contratos arrancam",
-      "Fornecedores locais contratados",
-      "Empregos em Cabo Delgado",
-      "Receitas ao Estado, anos depois"
+      "Chuva abaixo da média",
+      "Sementeira falha ou atrasa",
+      "Colheita menor em Abril",
+      "Milho mais caro no mercado",
+      "Famílias gastam mais em comida"
     ],
-    "quem_sente": "Fornecedores locais, trabalhadores e Governo"
+    "quem_sente": "Agricultores de subsistência e classe baixa"
   },
   "conta": {
-    "titulo": "Capacidade de gás por fase",
-    "pressupostos": "Coral Norte 3,6 e total de 7 Mtpa, segundo a Wood Mackenzie; Mozambique LNG 13 e Rovuma LNG 18 Mtpa.",
+    "titulo": "Quanto custa a comida a uma família",
+    "pressupostos": "Família que gasta 4 000 MT por mês em milho e arroz; preço sobe 10,4% (milho num mês, Outubro) ou 40% (hipótese).",
     "barras": [
       {
-        "rotulo": "Hoje (Coral Sul)",
-        "valor": 3.4,
-        "texto": "3,4 Mtpa"
+        "rotulo": "Hoje",
+        "valor": 4000,
+        "texto": "4 000 MT/mês"
       },
       {
-        "rotulo": "Com Coral Norte, 2028",
-        "valor": 7,
-        "texto": "7 Mtpa"
+        "rotulo": "Preço mais 10,4%",
+        "valor": 4416,
+        "texto": "4 416 MT/mês"
       },
       {
-        "rotulo": "Com os quatro projectos",
-        "valor": 38,
-        "texto": "38 Mtpa"
+        "rotulo": "Preço mais 40%",
+        "valor": 5600,
+        "texto": "5 600 MT/mês"
       }
     ],
-    "unidade": "milhões de toneladas por ano",
-    "conclusao": "Só 9% dos 38 milhões de toneladas prometidos existe hoje; o resto depende de decisões e de segurança em Cabo Delgado."
+    "unidade": "MT por mês",
+    "conclusao": "Com preços 40% mais altos, a família paga mais 1 600 meticais por mês só em milho e arroz."
   },
   "cenarios": [
     {
-      "nome": "Decisão até Dezembro",
-      "tipo": "melhora",
-      "probabilidade": 25,
-      "porque_probabilidade": "A ExxonMobil já adjudicou 1,1 mil milhões de dólares em contratos, mas o prazo de Setembro falhou e faltam aprovações.",
-      "gatilho": "Governo aprova o plano revisto e a ExxonMobil anuncia a decisão final.",
-      "o_que_acontece": "Os contratos já adjudicados passam a obras e cresce a procura de fornecedores e trabalhadores locais em Cabo Delgado.",
-      "numeros": "Projecto de cerca de 30 mil milhões de dólares, 18 Mtpa",
-      "quando": "até 31 de Dezembro de 2026",
-      "ganha": "Fornecedores locais e Cabo Delgado",
-      "perde": "Quem esperava receitas já em 2027",
-      "se_acontecer": "Ter certidões e registo prontos e ler as regras do conteúdo local antes das adjudicações."
-    },
-    {
-      "nome": "Decisão fica para 2027",
-      "tipo": "fica_igual",
-      "probabilidade": 50,
-      "porque_probabilidade": "O prazo de Setembro falhou e a Wood Mackenzie aponta para o início de 2027, com aprovações do Governo por dar.",
-      "gatilho": "Chega 31 de Dezembro sem comunicado da ExxonMobil nem resolução do Conselho de Ministros.",
-      "o_que_acontece": "Negociam-se custos, prazos e condições com o Governo; as obras do Mozambique LNG e do Coral Norte continuam, o Rovuma LNG espera.",
-      "numeros": "Atraso de 1 a 6 meses face ao prazo de 2026",
-      "quando": "decisão até meados de 2027",
-      "ganha": "Quem já está em obras",
-      "perde": "Fornecedores que esperam o Rovuma",
-      "se_acontecer": "Manter outros clientes e não se endividar por contratos ainda não assinados."
-    },
-    {
-      "nome": "Ataque trava as obras",
+      "nome": "A chuva falha no pico",
       "tipo": "piora",
-      "probabilidade": 25,
-      "porque_probabilidade": "As obras retomaram e a força maior foi levantada, mas em Outubro mais de 1 200 pessoas fugiram de ataques em duas semanas.",
-      "gatilho": "Novo ataque armado perto de Afungi leva à suspensão de trabalhos.",
-      "o_que_acontece": "As empresas param obras ou adiam decisões e o calendário de 2029 e 2031 escorrega, como na paragem de quatro anos desde 2021.",
-      "numeros": "Atraso de meses a anos; cerca de 4 000 trabalhadores mobilizados",
-      "quando": "a partir do 1.º trimestre de 2027",
-      "ganha": "Ninguém no curto prazo",
-      "perde": "Trabalhadores e fornecedores locais",
-      "se_acontecer": "Guardar poupança para meses sem obras e não contar com contratos ligados ao gás."
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2015/16, com El Niño forte, houve alerta vermelho. Os solos húmidos do Centro e do Sul atenuam, por isso não passa de 45%.",
+      "gatilho": "Chuva acumulada de Dezembro abaixo do normal, segundo o INAM",
+      "o_que_acontece": "Dezembro a Fevereiro fica seco, a colheita do Centro e do Sul perde-se em parte e o milho sobe até Abril.",
+      "numeros": "Milho 15% a 40% mais caro; 1,5 a 1,99 milhões precisam de ajuda",
+      "quando": "até Abril de 2027",
+      "ganha": "Comerciantes com stock de milho",
+      "perde": "Famílias que compram comida",
+      "se_acontecer": "Antecipar compras, pedir ajuda local cedo e procurar sementes de ciclo curto para o replantio."
+    },
+    {
+      "nome": "Atraso, mas recupera",
+      "tipo": "fica_igual",
+      "probabilidade": 35,
+      "porque_probabilidade": "A FEWS NET fala em início tardio, mas a humidade do solo está acima da média no Centro e Sul. Falta o fecho de Dezembro.",
+      "gatilho": "Chuva instalada até meados de Janeiro nas províncias do Centro",
+      "o_que_acontece": "A chuva chega tarde, mas permite segunda sementeira. A colheita sai menor e mais tardia, com preços a subir pouco.",
+      "numeros": "Milho 5% a 15% mais caro entre Fevereiro e Abril",
+      "quando": "até Março de 2027",
+      "ganha": "Quem semeou cedo com sementes certas",
+      "perde": "Quem esperou pela primeira chuva",
+      "se_acontecer": "Semear em duas datas e vender só o excedente depois de garantir a comida da casa."
+    },
+    {
+      "nome": "Solo húmido amortece",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Vem da humidade acima da média e dos reservatórios cheios, como Cahora Bassa. Contraria a previsão de chuva abaixo da média.",
+      "gatilho": "Chuva perto do normal em Dezembro nas províncias de Sofala e Zambézia",
+      "o_que_acontece": "As chuvas ficam perto do normal no Centro e no Norte e as culturas aguentam. O Sul sofre mais com o calor.",
+      "numeros": "Milho com subida abaixo de 5%",
+      "quando": "até Abril de 2027",
+      "ganha": "Agricultores do Centro e do Norte",
+      "perde": "Agricultores do Sul",
+      "se_acontecer": "Vender o excedente com preço registado e repor a reserva de sementes para a próxima época."
     }
   ],
   "sinais": [
     {
-      "o_que": "Resolução do Conselho de Ministros sobre o plano do Rovuma LNG",
-      "limiar": "Publicada em Boletim da República",
-      "quando": "até 31 de Dezembro de 2026",
-      "aponta_para": "melhora"
-    },
-    {
-      "o_que": "Comunicado da ExxonMobil sobre a decisão final",
-      "limiar": "Anúncio oficial com valor do investimento",
-      "quando": "até 31 de Dezembro de 2026",
-      "aponta_para": "melhora"
-    },
-    {
-      "o_que": "Ausência de anúncio e de resolução",
-      "limiar": "Nenhum dos dois a 31 de Janeiro",
-      "quando": "31 de Janeiro de 2027",
-      "aponta_para": "fica_igual"
-    },
-    {
-      "o_que": "Deslocados por ataques em Cabo Delgado, segundo a OIM",
-      "limiar": "Mais de 1 200 em duas semanas, outra vez",
-      "quando": "Dezembro de 2026",
+      "o_que": "Chuva acumulada de Dezembro, segundo o INAM",
+      "limiar": "abaixo do normal em duas décadas seguidas",
+      "quando": "até 31 de Dezembro",
       "aponta_para": "piora"
+    },
+    {
+      "o_que": "Preço do milho nos mercados do Centro",
+      "limiar": "subida de mais de 15% face a Novembro",
+      "quando": "até 31 de Janeiro",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Início da chuva nas províncias do Centro",
+      "limiar": "chuva instalada antes de 15 de Dezembro",
+      "quando": "até 15 de Dezembro",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Financiamento do PAM para 2027",
+      "limiar": "ajuda confirmada para Janeiro",
+      "quando": "até 31 de Dezembro",
+      "aponta_para": "fica_igual"
     }
   ],
   "afectados": [
     {
-      "grupo": "Governo",
-      "saldo": 1,
-      "porque": "receitas só depois da produção"
+      "grupo": "Classe baixa",
+      "saldo": -2,
+      "porque": "gasta quase tudo em comida"
     },
     {
-      "grupo": "PMEs fornecedoras",
-      "saldo": 1,
-      "porque": "contratos exigem registo e certidões"
+      "grupo": "Agricultores de subsistência",
+      "saldo": -2,
+      "porque": "dependem da chuva da época"
     },
     {
-      "grupo": "Trabalhadores de Cabo Delgado",
-      "saldo": 1,
-      "porque": "empregos, mas com risco de segurança"
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "comida e transporte mais caros"
     },
     {
-      "grupo": "Famílias da classe baixa",
-      "saldo": 0,
-      "porque": "sem efeito directo nos preços"
+      "grupo": "PMEs de alimentos",
+      "saldo": -1,
+      "porque": "matéria-prima mais cara e escassa"
+    },
+    {
+      "grupo": "Comerciantes de cereais",
+      "saldo": 1,
+      "porque": "preços sobem com stock guardado"
+    },
+    {
+      "grupo": "ONGs e parceiros",
+      "saldo": -1,
+      "porque": "mais procura com menos financiamento"
     }
   ],
   "direccao": [
     {
-      "publico": "Fornecedores e PMEs",
-      "agora": "Registar-se e juntar certidões e comprovativos antes das adjudicações, sem pagar a intermediários.",
-      "se_piorar": "Manter outros clientes e não se endividar por contratos por assinar."
+      "publico": "Agricultores do Centro e do Sul",
+      "agora": "Comprar sementes cedo, semear só com a chuva instalada e preferir variedades de ciclo curto.",
+      "se_piorar": "Replantar com ciclo curto e pedir apoio ao distrito."
     },
     {
-      "publico": "Trabalhadores",
-      "agora": "Procurar formação técnica reconhecida e desconfiar de vagas que peçam pagamento.",
-      "se_piorar": "Guardar poupança para meses sem obras."
+      "publico": "Famílias",
+      "agora": "Comprar milho e arroz aos poucos e guardar reserva antes de Janeiro.",
+      "se_piorar": "Cortar gastos que não sejam comida e comparar mercados."
     },
     {
-      "publico": "Governo e Parlamento",
-      "agora": "Publicar as regras de acesso do conteúdo local antes da decisão e não contar com receitas do gás em 2027.",
-      "se_piorar": "Rever as contas de 2027 sem receitas do gás."
+      "publico": "PMEs de alimentos e transporte",
+      "agora": "Rever stocks e contratos de fornecimento antes de Janeiro.",
+      "se_piorar": "Negociar preços fixos com fornecedores."
+    },
+    {
+      "publico": "ONGs e parceiros",
+      "agora": "Antecipar a ajuda nos 52 distritos críticos antes do corte do PAM.",
+      "se_piorar": "Concentrar recursos nos distritos de Sofala e Gaza."
     }
   ],
-  "visao_contraria": "Há quem defenda que o atraso pouco pesa: a ExxonMobil já adjudicou 1,1 mil milhões de dólares em contratos e o Mozambique LNG está em obras, por isso a decisão formal seria só uma questão de data.",
+  "visao_contraria": "A previsão é de probabilidades, não de certeza. Os solos estão húmidos no Centro e no Sul, as albufeiras estão mais cheias e a época 2025/26 foi chuvosa, o que pode amortecer o choque.",
   "nao_sabemos": [
-    "Prazo: a ExxonMobil diz fim de 2026, a Wood Mackenzie diz início de 2027.",
-    "Se o Governo já aprovou o plano de desenvolvimento revisto do Rovuma LNG.",
-    "Quanto pagarão ao Estado os projectos em impostos, e a partir de que ano."
+    "O INAM ainda não publicou a previsão sazonal para a época chuvosa 2026/27.",
+    "Os relatórios dão datas diferentes, de Dezembro a Abril, para o pico de 1,5 a 1,99 milhões a precisar de ajuda.",
+    "Os preços do milho por cidade ainda não foram publicados."
   ],
-  "sinal": "Resolução do Conselho de Ministros sobre o Rovuma LNG e comunicado da ExxonMobil até 31 de Dezembro.",
+  "sinal": "Chuva acumulada de Dezembro abaixo do normal e milho a subir mais de 15% até Janeiro.",
   "confianca": "media",
-  "base_confianca": "Prazo de 2026 por Presidência via RTP, de 2027 por Wood Mackenzie; datas do Coral Norte por uma só fonte; capacidades por Wood Mackenzie e imprensa.",
+  "base_confianca": "Previsão da FEWS NET via Lusa, declarações do Governo de Agosto e o precedente de 2016 em ReliefWeb; sem previsão sazonal do INAM.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA, 12 DE NOVEMBRO*\n*Rovuma LNG decide até Dezembro? O que muda para Moçambique*\n\nA ENH vai participar na perfuração dos poços do Coral Norte, o projecto de gás da Eni, ExxonMobil e CNPC que prevê o primeiro gás em 2028. Mas a decisão final do Rovuma LNG, de 18 milhões de toneladas por ano e cerca de 30 mil milhões de dólares, ainda não foi tomada. A ExxonMobil diz que quer decidir até ao fim do ano. A Wood Mackenzie fala em início de 2027, com aprovações do Governo ainda em falta.\n\n*A CONTA*\nHoje Moçambique exporta gás só do Coral Sul, cerca de 3,4 milhões de toneladas por ano. Com o Coral Norte, em 2028, sobe para cerca de 7. Com o Mozambique LNG (13) e o Rovuma LNG (18), chegaria a cerca de 38. Ou seja, só 9% do que se promete existe hoje.\n\n*TRÊS CENÁRIOS*\n*Decisão até 31 de Dezembro, 25%.* O Governo aprova o plano revisto e a ExxonMobil anuncia o investimento. Ganham fornecedores locais e trabalhadores de Cabo Delgado.\n\n*Decisão fica para 2027, 50%.* O prazo de Setembro já falhou e as aprovações continuam em falta. Nada muda no curto prazo.\n\n*Ataque trava as obras, 25%.* Em 2021 os ataques pararam o Mozambique LNG durante quatro anos. Um novo ataque pode repetir o atraso.\n\n*O QUE OBSERVAR*\nUma resolução do Conselho de Ministros sobre o plano do Rovuma LNG até 31 de Dezembro. Sem decisão a 31 de Janeiro, o cenário do meio ganha força.\n\n*DIRECÇÃO*\nFornecedores: registem-se e juntem certidões já, sem pagar a intermediários. Trabalhadores: desconfiem de vagas pagas. Não conte com receitas do gás no Orçamento de 2027.\n\nPartilhe com quem trabalha ou quer fornecer ao sector.",
-    "instagram": "Rovuma LNG decide até Dezembro? A ENH entra nos poços do Coral Norte, mas o maior projecto ainda espera decisão. Só cerca de 9% da capacidade prometida existe hoje. Fornecedores: registem-se e juntem certidões, sem pagar a intermediários. #Moçambique #Gás",
-    "facebook": "Rovuma LNG decide até Dezembro? O que muda para Moçambique\n\nA ENH vai participar na perfuração dos poços do Coral Norte, o projecto de gás que prevê o primeiro gás em 2028. É uma boa notícia para quem quer ver empresas moçambicanas no sector.\n\nJá o Rovuma LNG, o maior projecto, ainda não tem decisão final. A ExxonMobil diz que quer decidir até ao fim do ano. A Wood Mackenzie fala em início de 2027, porque o Governo ainda não aprovou o plano revisto.\n\nA conta é simples. Hoje o país exporta gás só do Coral Sul, cerca de 3,4 milhões de toneladas por ano. Se tudo avançar, chegaria a cerca de 38. Só 9% existe hoje.\n\nO que pode acontecer: decisão até 31 de Dezembro, 25%. Decisão só em 2027, 50%, porque o prazo de Setembro já falhou. Atraso por novo ataque em Cabo Delgado, 25%, como aconteceu em 2021.\n\nO que fazer: quem quer fornecer ao gás deve registar-se e juntar certidões já, sem pagar a intermediários. Quem procura emprego deve desconfiar de vagas pagas. E o Orçamento de 2027 não deve contar com receitas do gás. #Moçambique #Gás",
-    "linkedin": "Rovuma LNG decide até Dezembro? O que muda para Moçambique\n\nA ENH vai participar na perfuração dos poços do Coral Norte, projecto da Eni, ExxonMobil e CNPC com primeiro gás previsto para 2028. É um passo concreto para uma empresa moçambicana. A decisão final do Rovuma LNG, porém, continua por tomar. A ExxonMobil, segundo a Presidência, quer decidir antes do fim do ano. A Wood Mackenzie aponta para o início de 2027 e nota que o Governo ainda não aprovou o plano de desenvolvimento revisto.\n\nO precedente pede prudência. O Mozambique LNG, da TotalEnergies, esteve parado quatro anos por causa dos ataques em Cabo Delgado e só retomou as obras em Janeiro de 2026. A 20 de Outubro, o Conselho de Ministros prolongou até Março de 2029 a garantia de até 2,25 mil milhões de dólares a favor dos credores.\n\nOs números mostram a distância entre promessa e realidade. Hoje o Coral Sul exporta cerca de 3,4 milhões de toneladas por ano. Com o Coral Norte, o total sobe para cerca de 7. Com o Mozambique LNG (13) e o Rovuma LNG (18), chegaria a cerca de 38.\n\nOs cenários: decisão até 31 de Dezembro, 25%; decisão em 2027, 50%; atraso por novo ataque, 25%. A taxa de base é o historial de prazos falhados, incluindo o de Setembro.\n\nDirecção\n\nFornecedores e PMEs devem registar-se e juntar certidões antes das adjudicações. O Governo deve publicar as regras de acesso antes da decisão e não contar com receitas do gás no Orçamento de 2027.\n\nConclusão: o gás é uma data por confirmar, não um dinheiro garantido; o sinal a seguir é uma resolução do Conselho de Ministros até 31 de Dezembro. #Moçambique #Gás"
+    "whatsapp": "*DIRECÇÃO DO DIA, 13 DE NOVEMBRO*\n*A chuva vai falhar no pico da época? O que fazer com a sementeira*\n\nA FEWS NET prevê calor acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027. Em Agosto, o Governo apontou 52 distritos críticos no Sul e no Centro. O PAM só mantém a ajuda actual até Dezembro.\n\n*O PRECEDENTE*\nEm 2015/16, com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016 e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.\n\n*A CONTA*\nUma família que gasta 4 000 meticais por mês em milho e arroz paga 416 a mais se o preço subir 10,4%, a subida do milho num mês, em Outubro. Se subir 40%, paga 1 600 a mais, ou 5 600 no total. Estes valores são um exemplo, não um preço publicado.\n\n*TRÊS CENÁRIOS*\n*A chuva falha no pico, 45%.* Dezembro a Fevereiro fica abaixo da média, a colheita do Centro e do Sul perde-se em parte e o milho sobe até Abril de 2027. Perdem as famílias que compram comida.\n\n*Atraso, mas recupera, 35%.* A chuva chega tarde, mas os solos ainda húmidos do Centro e do Sul permitem uma segunda sementeira até meados de Janeiro. Os preços sobem pouco.\n\n*Solo húmido amortece, 20%.* As chuvas ficam perto do normal no Centro e no Norte e a colheita é razoável.\n\n*O QUE OBSERVAR*\nChuva acumulada de Dezembro abaixo do normal, segundo o INAM. Preço do milho a subir mais de 15% entre Dezembro e Janeiro.\n\n*DIRECÇÃO*\nAgricultores: comprem sementes cedo, semeiem só com a chuva instalada e escolham ciclo curto. Famílias: comprem milho e arroz aos poucos e guardem reserva antes de Janeiro.\n\nSe isto ajudou, partilhe com alguém que lavra ou compra milho.",
+    "instagram": "A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e El Niño forte até 2027. Em 2015/16 foram 1,5 milhões em insegurança alimentar. Cenários: chuva falha 45%, atrasa e recupera 35%, solo húmido amortece 20%. Direcção: sementes cedo e reserva de básicos antes de Janeiro. #Moçambique",
+    "facebook": "A chuva pode falhar justamente quando mais faz falta. A FEWS NET prevê calor acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, por causa do El Niño, que deve durar até 2027.\n\nEm 2015/16, com um El Niño forte, o Governo declarou alerta vermelho e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.\n\nPara uma família que gasta 4 000 meticais por mês em milho e arroz, um aumento de 10,4% no preço custa mais 416 meticais. Com 40%, são mais 1 600. É um exemplo, não um preço publicado.\n\nTrês cenários. A chuva falha no pico: 45%. A chuva atrasa mas recupera: 35%. O solo húmido amortece o choque: 20%.\n\nO que observar: chuva acumulada de Dezembro abaixo do normal e milho a subir mais de 15% entre Dezembro e Janeiro.\n\nDirecção: quem lavra deve comprar sementes cedo e semear só com a chuva instalada. As famílias devem comprar milho e arroz aos poucos e guardar reserva antes de Janeiro.\n\n#Moçambique #DirecçõesDaSemana",
+    "linkedin": "Os agricultores do Centro e do Sul entram na época 2026/27 com um aviso claro. A FEWS NET prevê temperaturas acima do normal até Abril de 2027 e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027, segundo a Lusa.\n\nO Governo já tinha identificado, em Agosto, 52 distritos críticos no Sul e no Centro. O Governo diz ter garantido 125 milhões de dólares e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e a ONU dizia em Agosto que o financiamento humanitário cobria 30% das necessidades de 2026.\n\nO precedente é pesado. Em 2015/16, com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016 e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar, segundo a SETSAN.\n\nTrês cenários. A chuva falha no pico, com 45%: a colheita perde-se em parte e o milho sobe até Abril. Atraso mas recuperação, com 35%: a chuva chega tarde, mas os solos húmidos permitem segunda sementeira. Solo húmido amortece, com 20%: chuvas perto do normal no Centro e no Norte.\n\nA conta para uma família que gasta 4 000 meticais por mês em milho e arroz: com preços 10,4% mais altos paga mais 416; com 40%, paga mais 1 600. É um exemplo, com pressupostos próprios.\n\nDirecção\n\nAgricultores: comprar sementes cedo e semear só com a chuva instalada. Empresas de alimentos e transporte: rever stocks e contratos antes de Janeiro. ONGs e parceiros: antecipar a ajuda nos distritos críticos.\n\nA decisão mais barata é a que se toma antes da primeira chuva de Dezembro.\n\n#Moçambique #DirecçõesDaSemana"
   },
   "fontes": [
     {
-      "fonte": "The Energy Year (ENH no Coral Norte)",
-      "url": "https://theenergyyear.com/?p=56743",
-      "data": "2026-11-04"
+      "fonte": "FEWS NET via Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/temperaturas-acima-da-media-e-menos-chuva-ameacam-campanha-agricola-mocambicana_n1777826",
+      "data": "2026-11-13"
     },
     {
-      "fonte": "Wood Mackenzie",
-      "url": "https://www.woodmac.com/news/opinion/mozambiques-lng-reset-from-force-majeure-to-major-force/",
-      "data": "2026"
+      "fonte": "Executive Digest (Lusa), 52 distritos críticos",
+      "url": "https://executivedigest.sapo.pt/?p=802158",
+      "data": "2026-08-15"
     },
     {
-      "fonte": "Lusa (RTP), garantia soberana ao Mozambique LNG",
-      "url": "https://www.rtp.pt/noticias/mundo/mocambique-reconfirma-garantia-soberana-de-195-mil-me-para-megaprojeto-de-gas_n1774646",
-      "data": "2026-10-20"
+      "fonte": "ReliefWeb, 1,5 milhões em insegurança alimentar em 2016",
+      "url": "https://m.reliefweb.int/report/1473171",
+      "data": "2016-05-01"
     },
     {
-      "fonte": "World Oil, Mozambique LNG retoma obras",
-      "url": "https://worldoil.com/news/2026/1/29/mozambique-lng-restarts-onshore-offshore-activities-after-force-majeure-lift",
-      "data": "2026-01-29"
-    },
-    {
-      "fonte": "Lusa (RTP), ExxonMobil adjudica contratos",
-      "url": "https://www.rtp.pt/noticias/mundo/exxonmobil-fecha-contratos-de-quase-mil-milhoes-para-megaprojeto-de-gas-em-mocambique_n1760082",
-      "data": "2026-08"
+      "fonte": "FEWS NET Moçambique, Abril de 2016",
+      "url": "https://fews.net/southern-africa/mozambique/food-security-outlook-update/april-2016",
+      "data": "2016-04-30"
     }
   ],
-  "data": "2026-11-12",
-  "dia_semana": "quinta",
+  "data": "2026-11-13",
+  "dia_semana": "sexta",
   "semana": "2026-S46",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794458942687
-  }
+  "falhas": []
 }

@@ -1,12 +1,11 @@
 {
   "semana": "2026-S46",
-  "dia": "2026-11-12",
-  "versao": 4,
+  "dia": "2026-11-13",
+  "versao": 5,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: precos, analise_independente",
-    "A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
+    "Categorias de fontes não consultadas hoje: regional"
   ],
   "itens": [
     {
@@ -77,7 +76,7 @@
       "confianca": "media",
       "n": 5,
       "recolhida": "2026-11-09",
-      "na_edicao": true
+      "na_edicao": false
     },
     {
       "titulo": "Novo programa com o FMI pode ficar fechado até ao fim do ano",
@@ -133,7 +132,7 @@
       "confianca": "media",
       "n": 9,
       "recolhida": "2026-11-11",
-      "na_edicao": false
+      "na_edicao": true
     },
     {
       "titulo": "Inflação mensal sobe para 0,48% em Outubro e a homóloga fica em 6,32%",
@@ -204,12 +203,26 @@
       "n": 14,
       "recolhida": "2026-11-12",
       "na_edicao": false
+    },
+    {
+      "titulo": "FEWS NET prevê calor acima do normal e menos chuva entre Dezembro e Fevereiro",
+      "resumo": "A rede de alerta FEWS NET prevê temperaturas acima do normal até Abril de 2027 e chuva abaixo da média no pico da época, entre Dezembro e Fevereiro. Põe em mais de 80% a probabilidade de o El Niño forte continuar até ao início de 2027.",
+      "ambito": "nacional",
+      "dimensao": "Ambiental",
+      "categoria": "precos",
+      "fonte": "FEWS NET via Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/temperaturas-acima-da-media-e-menos-chuva-ameacam-campanha-agricola-mocambicana_n1777826",
+      "data": "2026-11-13",
+      "confianca": "media",
+      "n": 15,
+      "recolhida": "2026-11-13",
+      "na_edicao": true
     }
   ],
   "lacunas": [
-    "Inflação de Outubro por cidade (INE)",
+    "Previsão sazonal do INAM para a época chuvosa 2026/27",
     "Preços de milho e arroz na Beira e em Nampula",
-    "Decisão final de investimento do Rovuma LNG"
+    "Inflação de Outubro por cidade (INE)"
   ],
   "fontes_consultadas": [
     {
@@ -319,11 +332,35 @@
       "fonte": "The Energy Year",
       "url": "https://theenergyyear.com/?p=56743",
       "data": "2026-11-12"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "FEWS NET via RTP",
+      "url": "https://www.rtp.pt/noticias/mundo/temperaturas-acima-da-media-e-menos-chuva-ameacam-campanha-agricola-mocambicana_n1777826",
+      "data": "2026-11-13"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "INAM",
+      "url": "https://www.inam.gov.mz",
+      "data": "2026-11-13"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "ARENE",
+      "url": "https://www.arene.gov.mz",
+      "data": "2026-11-13"
+    },
+    {
+      "categoria": "humanitario",
+      "fonte": "ReliefWeb",
+      "url": "https://reliefweb.int/country/moz",
+      "data": "2026-11-13"
     }
   ],
   "memoria": {
-    "em": "2026-11-12",
-    "indicadores": 1,
+    "em": "2026-11-13",
+    "indicadores": 0,
     "temas": 2,
     "direccoes": 2
   },
@@ -342,7 +379,8 @@
         "Governo mantém o chapa de Maputo a 15 meticais e paga compensações durante três meses",
         "Mais de 1 200 pessoas fugiram de ataques em Cabo Delgado em duas semanas",
         "Decreto 54/2026 obriga o ensino privado a ser presencial",
-        "ENH entra na campanha de poços do Coral Norte"
+        "ENH entra na campanha de poços do Coral Norte",
+        "FEWS NET prevê menos chuva entre Dezembro e Fevereiro, com El Niño forte até 2027"
       ]
     },
     "pestal": [
@@ -472,7 +510,11 @@
         ],
         "ameacas": [
           {
-            "texto": "El Niño e chuvas tardias",
+            "texto": "Chuva abaixo da média até Fevereiro",
+            "origem": "externa"
+          },
+          {
+            "texto": "Calor acima de 40 graus no Sul",
             "origem": "externa"
           },
           {
@@ -483,7 +525,7 @@
         "peso_oportunidade": 1,
         "peso_ameaca": 3,
         "principal_oportunidade": "125 milhões contra o El Niño",
-        "principal_ameaca": "El Niño e chuvas tardias"
+        "principal_ameaca": "Chuva abaixo da média até Fevereiro"
       },
       {
         "dimensao": "Legal",
@@ -595,7 +637,7 @@
     ],
     "sinal": "Votação da taxa sobre combustíveis no Parlamento, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, decisão final do Rovuma LNG, fim das compensações do chapa em Fevereiro e Brent acima ou abaixo de 100 dólares.",
     "sintese": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, com os alimentos a puxar. O Governo quer subir a taxa sobre combustíveis, o crédito caiu pelo terceiro mês e os juros médios estão em 22,26%. Do lado do gás, a ENH entra nos poços do Coral Norte, mas a decisão final do Rovuma LNG continua por tomar.",
-    "o_que_mudou_hoje": "O INE mostra que os preços aceleraram em Outubro, para 0,48% no mês, e a ENH entra na campanha de poços do Coral Norte.",
+    "o_que_mudou_hoje": "A FEWS NET prevê temperaturas acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, com mais de 80% de probabilidade de El Niño forte até 2027.",
     "canais": [
       {
         "choque": "Taxa sobre combustíveis sobe",
@@ -716,9 +758,9 @@
     ],
     "confianca": {
       "grau": "media",
-      "base": "dados do Banco de Moçambique, INE por cobertura jornalística, declarações oficiais e Lusa; a taxa dos combustíveis assenta numa só agência"
+      "base": "dados do Banco de Moçambique, INE por cobertura jornalística, FEWS NET via Lusa e declarações oficiais; a taxa dos combustíveis assenta numa só agência"
     },
-    "continuidade": "O combustível não abre a edição: só volta a taxa em debate, sem novo valor. A inflação de Outubro, que a edição anterior esperava, confirma que os preços aceleraram no mês."
+    "continuidade": "O combustível não abre a edição: a taxa em debate não tem valor novo. O que mudou é o clima: a FEWS NET passou a prever chuva abaixo da média no pico da época chuvosa."
   },
   "design": {
     "slides": [
@@ -753,16 +795,22 @@
         "imagem_termos": "fuel station Africa"
       },
       {
-        "titulo": "Ensino privado só presencial",
-        "texto": "O Decreto 54/2026 dá 18 meses às escolas privadas para cumprirem as novas regras.",
-        "tom": "neutro",
-        "imagem_termos": "school classroom Africa"
+        "titulo": "Menos chuva prevista até Fevereiro",
+        "texto": "A FEWS NET prevê calor acima do normal e chuva abaixo da média entre Dezembro e Fevereiro. O El Niño forte deve durar até 2027.",
+        "tom": "alerta",
+        "imagem_termos": "maize field drought Africa"
+      },
+      {
+        "titulo": "Cabo Delgado: mais de 1 200 em fuga",
+        "texto": "Em duas semanas, mais de 1 200 pessoas fugiram de ataques. A procura de ajuda sobe quando o financiamento encolhe.",
+        "tom": "alerta",
+        "imagem_termos": "Pemba Mozambique coast"
       }
     ],
-    "manchete": "Preços aceleram em Outubro, gás avança e crédito continua a cair",
+    "manchete": "Chuva abaixo da média a caminho, preços a subir e crédito a cair",
     "destaques_capa": [
+      "Chuva abaixo da média até Fevereiro",
       "Preços sobem 0,48% em Outubro",
-      "ENH entra nos poços do Coral Norte",
       "Crédito cai há três meses"
     ],
     "legenda": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. A ENH entra nos poços do Coral Norte, o crédito às empresas cai pelo terceiro mês e o Governo debate uma taxa maior sobre os combustíveis. Veja a direcção para a sua família e o seu negócio.",
@@ -775,22 +823,25 @@
       11,
       3,
       8,
-      5
+      15,
+      9
     ]
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, 12 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent fechou a 98,29 dólares a 5 de Novembro, abaixo dos 100, mas os ataques a petroleiros no Golfo mantêm o risco. O Club of Mozambique noticiou que cerca de 20 000 moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n*MOÇAMBIQUE*\nSegundo o INE, os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, e a inflação anual ficou em 6,32%. Alface, cebola e peixe fresco subiram mais. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis, o que pode juntar 6,36 meticais ao litro de gasóleo. No gás, a ENH vai participar na perfuração dos poços do Coral Norte, que prevê o primeiro gás em 2028.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem mais as PMEs, por causa dos juros, e a classe baixa, que gasta a maior parte do rendimento em comida e transporte. Ganham os investidores em títulos públicos e, mais tarde, os fornecedores ligados ao gás.\n\n*DIRECÇÃO*\nAs famílias devem comparar preços de hortícolas e peixe e guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes. As PMEs devem comparar propostas de pelo menos dois bancos. Quem quer fornecer ao gás deve juntar certidões e registar-se cedo.\n\n*PRÓXIMA SEMANA*\nJulgamento de Mondlane a 17 de Novembro, debate da taxa sobre combustíveis e Comité Central da Frelimo a 27 e 28.\n\nSe este resumo ajudou, partilhe com alguém que também precisa dele.",
-    "linkedin": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%, estável, mas a alface, a cebola e o peixe fresco puxaram a subida mensal.\n\nAo mesmo tempo, o crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, e os juros médios chegaram a 22,26%. A prime rate está em 15,50% e a MIMO em 9,25%, segundo o Banco de Moçambique. Para as PMEs, o dinheiro está mais caro e mais difícil de obter.\n\nO Governo propôs subir a taxa sobre combustíveis para 15 cêntimos de dólar por litro. O ministro dos Transportes e Logística, João Matlombe, estimou 2,92 meticais a mais na gasolina e 6,36 no gasóleo. A proposta ainda está em discussão no Parlamento.\n\nNo gás, a ENH vai participar na campanha de perfuração do Coral Norte, a primeira vez que uma empresa moçambicana entra nesta fase. O projecto da Eni, ExxonMobil e CNPC prevê o primeiro gás em 2028. A decisão final do Rovuma LNG, da ExxonMobil, continua por tomar.\n\nDirecção\n\nEmpresas que querem fornecer ao sector do gás devem juntar certidões e registar-se antes das adjudicações. As PMEs devem comparar propostas de pelo menos dois bancos e contar com transporte de carga mais caro se a taxa avançar.\n\nConclusão: com crédito caro e preços a subir, quem planeia 2027 deve guardar folga de caixa até ao fim da época chuvosa. #Moçambique #DirecçõesDaSemana",
-    "instagram": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. A ENH entra nos poços do Coral Norte, o crédito cai pelo terceiro mês e o Governo debate uma taxa maior sobre os combustíveis. Guarde folga no orçamento e compare propostas de crédito. #Moçambique #DirecçõesDaSemana",
-    "facebook": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco foram o que mais subiu.\n\nPara as empresas, o crédito continua a recuar: caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%.\n\nO Governo propôs subir a taxa sobre combustíveis. Se avançar, o gasóleo pode ficar 6,36 meticais mais caro por litro e a gasolina 2,92. O chapa de Maputo fica a 15 meticais, com compensações aos operadores por três meses.\n\nHá também uma boa notícia no gás: a ENH vai participar na perfuração dos poços do Coral Norte, que prevê o primeiro gás em 2028.\n\nDirecção principal da semana: compare preços antes de comprar, guarde uma reserva de básicos antes de Janeiro e, se tem um negócio, compare propostas de pelo menos dois bancos. #Moçambique #DirecçõesDaSemana",
-    "analise_completa": "# Direcções da Semana, 12 de Novembro de 2026\n\n## Resumo da semana\nOs preços subiram 0,48% em Outubro, contra 0,16% em Setembro, e a inflação anual ficou em 6,32%, segundo o INE. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis e a ENH entra nos poços do Coral Norte.\n\n## O que mudou face às semanas anteriores\nA inflação de Outubro, que a edição anterior esperava, mostra uma aceleração mensal. O combustível volta só com a taxa em debate, sem novo valor. O chapa de Maputo mantém os 15 meticais com compensações até Fevereiro.\n\n## Mundo\nO Brent fechou a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo. O Governo espera fechar o programa com o FMI até ao fim do ano, sem garantia. O PAM só mantém a ajuda actual até Dezembro. O Club of Mozambique noticiou que cerca de 20 000 moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n## Moçambique\nA alface subiu 9,8% em Outubro, a cebola 5,7% e o peixe fresco 2,8%. O Conselho de Ministros aprovou a estratégia da dívida de médio prazo. O Decreto 54/2026 obriga o ensino privado a ser presencial. A Frelimo reúne o Comité Central a 27 e 28 de Novembro. A ENH participa na campanha de poços do Coral Norte.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Estratégia da dívida aprovada (int.); negociação do FMI (ext.) | Julgamento de Mondlane a 17 de Novembro (int.); Comité Central da Frelimo a 27 de Novembro (int.) |\n| Económica | Brent abaixo de 100 dólares (ext.); MIMO estável em 9,25% (int.); Coral Norte avança para 2028 (ext.) | Crédito a cair (int.); gasóleo pode subir 6,36 meticais (int.); inflação mensal sobe para 0,48% (int.) |\n| Social | Tarifa do chapa mantida (int.); ajuda de emergência a 343 773 pessoas (int.) | Ajuda alimentar corta em Janeiro (ext.); deslocados em Cabo Delgado (int.); 20 000 regressam da África do Sul (ext.) |\n| Tecnológica | Registo digital de fornecedores locais (int.); ENH nos poços do Coral Norte (int.) | Ensino só presencial limita o digital (int.) |\n| Ambiental | Plano de 125 milhões contra El Niño (int.) | El Niño e chuvas tardias (ext.); fraca colheita (ext.) |\n| Legal | Preferência de 20% a nacionais (int.); regras para escolas privadas (int.) | Taxa sobre combustíveis em debate (int.); regulamento por publicar (int.) |\n\n## Como chega ao seu bolso\nPreços de hortícolas e peixe sobem, o cabaz fica mais caro e a classe baixa gasta mais em comida. Noutro canal, a banca prefere títulos públicos, há menos crédito às PMEs, menos investimento e menos rendimento. Se a taxa sobre combustíveis avançar, o gasóleo encarece a carga e o chapa.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | Juros descem com o programa do FMI e o crédito às PMEs recupera | Prime rate abaixo de 15% |\n| Fica igual | 50% | Prime rate em 15,5% e juros acima de 20% | Taxa média a um ano acima de 21% |\n| Piora | 30% | Inflação sobe, taxa dos combustíveis avança e o crédito cai mais | Inflação homóloga acima de 7,5% em Novembro |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Crédito às PMEs continua a cair | Alta | Alto |\n| Taxa dos combustíveis aprovada sem alívio | Média | Alto |\n| Chapa sobe quando acabam as compensações | Média | Médio |\n| Atraso do programa do FMI | Média | Alto |\n| Milho encarece com El Niño | Média | Alto |\n\n## Horizonte\nImediato: debate da taxa sobre combustíveis, julgamento de Mondlane a 17 de Novembro e Comité Central da Frelimo a 27 e 28. Em 3 meses: fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar a partir de Janeiro. Em 1 ano: Orçamento de 2027 a funcionar e possível acordo com o FMI a mudar o custo do crédito.\n\n## Quem está mais exposto\nA classe baixa (exposição 3, margem 1) gasta a maior parte do rendimento em comida e transporte. Informais e agricultores (3 e 1) dependem do chapa, do mercado e da chuva. As PMEs (3 e 2) pagam juros acima de 20%. A classe média (2 e 2) sente os juros do crédito.\n\n## Quem ganha, quem perde\nGoverno: perde, com dívida recorde e orçamento apertado. Classe baixa: perde, com ajuda alimentar a cortar. Classe média: perde, com crédito caro e inflação a 6,3%. Classe alta e investidores: ganham com títulos públicos. ONGs e parceiros: perdem, com menos financiamento e mais procura. Macroeconomia: equilibrada, com petróleo mais barato e dívida alta. PMEs: perdem muito. Ramos de negócio: ganham a banca e as empresas de estradas e gás, perdem transportadores e comércio.\n\n## Direcção\nFamílias: comparar preços de hortícolas e peixe e guardar reserva de básicos antes de Janeiro. PMEs: comparar propostas de pelo menos dois bancos. Utentes do chapa: guardar folga para depois de Fevereiro. Fornecedores do Estado e do gás: juntar certidões e registar-se cedo. Agricultores: comprar sementes cedo.\n\n## Direcções anteriores: o que se confirmou\nA direcção de comprar milho e arroz em pequenas quantidades e comparar mercados segue pendente, sem preços do milho por cidade.\n\n## Sinal a acompanhar\nVotação da taxa sobre combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO e decisão final do Rovuma LNG.\n\n## Grau de confiança\nMédia: dados do Banco de Moçambique, declarações oficiais e Lusa. A inflação de Outubro assenta em cobertura jornalística do INE e a taxa dos combustíveis numa só agência.\n\n## Fontes\nOficiais: INE (via [Forbes África Lusófona](https://forbesafricalusofona.com/?p=178681)); Banco de Moçambique via Lusa. Imprensa nacional: [Lusa](https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo). Imprensa económica: [Club of Mozambique](https://clubofmozambique.com/news/2026/11/09/); [The Energy Year](https://theenergyyear.com/?p=56743). Preços: [Nation Thailand](https://www.nationthailand.com/news/40073162).",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 13 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent fechou a 98,29 dólares a 5 de Novembro, abaixo dos 100, mas os ataques a petroleiros no Golfo mantêm o risco.\n\n*MOÇAMBIQUE*\nA FEWS NET prevê temperaturas acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Põe em mais de 80% a probabilidade de o El Niño forte continuar até 2027. Segundo o INE, os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis, o que pode juntar 6,36 meticais ao litro de gasóleo.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem mais as PMEs, por causa dos juros, e a classe baixa, que gasta a maior parte do rendimento em comida e transporte. Ganham os investidores em títulos públicos e, mais tarde, os fornecedores ligados ao gás.\n\n*DIRECÇÃO*\nAgricultores do Centro e do Sul: comprem sementes cedo e semeiem só quando a chuva se instalar. As famílias devem guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes. As PMEs devem comparar propostas de pelo menos dois bancos.\n\n*PRÓXIMA SEMANA*\nJulgamento de Mondlane a 17 de Novembro, debate da taxa sobre combustíveis e Comité Central da Frelimo a 27 e 28.\n\nSe este resumo ajudou, partilhe com alguém que também precisa de o ler.",
+    "linkedin": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco foram o que mais subiu.\n\nPara as empresas, o crédito continua a recuar: caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Os bancos preferem os títulos públicos, o que deixa as PMEs com menos financiamento e mais caro.\n\nO Governo propôs uma taxa de 15 cêntimos de dólar por litro de combustível para conservar estradas. O ministro apontou um aumento de 6,36 meticais no gasóleo e 2,92 na gasolina. O custo chega às empresas de transporte e, depois, aos preços da comida.\n\nHá também um risco agrícola. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e dá mais de 80% de probabilidade a um El Niño forte até 2027. O PAM só mantém a ajuda actual até Dezembro.\n\nNo gás, a ENH vai participar na perfuração dos poços do Coral Norte, com primeiro gás previsto para 2028. A decisão final do Rovuma LNG continua por tomar.\n\nDirecção\n\nAs PMEs devem comparar propostas de pelo menos dois bancos e contar com transporte de carga mais caro. Os agricultores devem comprar insumos cedo. Os fornecedores do gás devem juntar certidões e esperar o regulamento antes de pagar a intermediários.\n\nOs próximos meses decidem-se na taxa dos combustíveis, no programa do FMI e na chuva de Dezembro.\n\n#Moçambique #DirecçõesDaSemana",
+    "instagram": "Preços sobem 0,48% em Outubro e a inflação anual fica em 6,32%, segundo o INE. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro. O crédito cai pelo terceiro mês e o Governo debate uma taxa maior sobre os combustíveis. Direcção: sementes cedo, reserva de básicos e comparar propostas de crédito. #Moçambique #DirecçõesDaSemana",
+    "facebook": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco subiram mais.\n\nVem aí menos chuva. A FEWS NET prevê calor acima do normal e chuva abaixo da média entre Dezembro e Fevereiro, por causa do El Niño, que deve durar até 2027.\n\nPara as empresas, o crédito continua a recuar: caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%.\n\nO Governo propôs subir a taxa sobre combustíveis. O gasóleo pode ficar 6,36 meticais mais caro por litro. O chapa de Maputo fica a 15 meticais, com compensações do Estado por três meses.\n\nEm Cabo Delgado, mais de 1 200 pessoas fugiram de ataques em duas semanas.\n\nDirecção principal: quem lavra no Centro e no Sul deve comprar sementes cedo e semear só quando a chuva se instalar. As famílias devem guardar reserva de básicos antes de Janeiro.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "# Direcções da Semana, 13 de Novembro de 2026\n\n## Resumo da semana\n\nActualização de 13 de Novembro: a FEWS NET prevê temperaturas acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, com mais de 80% de probabilidade de El Niño forte até 2027.\nOs preços subiram 0,48% em Outubro, contra 0,16% em Setembro, e a inflação anual ficou em 6,32%, segundo o INE. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis e a ENH entra nos poços do Coral Norte.\n\n## O que mudou face às semanas anteriores\nA inflação de Outubro, que a edição anterior esperava, mostra uma aceleração mensal. O combustível volta só com a taxa em debate, sem novo valor. O chapa de Maputo mantém os 15 meticais com compensações até Fevereiro.\n\n## Mundo\nO Brent fechou a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo. O Governo espera fechar o programa com o FMI até ao fim do ano, sem garantia. O PAM só mantém a ajuda actual até Dezembro. O Club of Mozambique noticiou que cerca de 20 000 moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n## Moçambique\nA alface subiu 9,8% em Outubro, a cebola 5,7% e o peixe fresco 2,8%. O Conselho de Ministros aprovou a estratégia da dívida de médio prazo. O Decreto 54/2026 obriga o ensino privado a ser presencial. A Frelimo reúne o Comité Central a 27 e 28 de Novembro. A ENH participa na campanha de poços do Coral Norte.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Estratégia da dívida aprovada (int.); negociação do FMI (ext.) | Julgamento de Mondlane a 17 de Novembro (int.); Comité Central da Frelimo a 27 de Novembro (int.) |\n| Económica | Brent abaixo de 100 dólares (ext.); MIMO estável em 9,25% (int.); Coral Norte avança para 2028 (ext.) | Crédito a cair (int.); gasóleo pode subir 6,36 meticais (int.); inflação mensal sobe para 0,48% (int.) |\n| Social | Tarifa do chapa mantida (int.); ajuda de emergência a 343 773 pessoas (int.) | Ajuda alimentar corta em Janeiro (ext.); deslocados em Cabo Delgado (int.); 20 000 regressam da África do Sul (ext.) |\n| Tecnológica | Registo digital de fornecedores locais (int.); ENH nos poços do Coral Norte (int.) | Ensino só presencial limita o digital (int.) |\n| Ambiental | Plano de 125 milhões contra El Niño (int.) | El Niño e chuvas tardias (ext.); fraca colheita (ext.) |\n| Legal | Preferência de 20% a nacionais (int.); regras para escolas privadas (int.) | Taxa sobre combustíveis em debate (int.); regulamento por publicar (int.) |\n\n## Como chega ao seu bolso\nPreços de hortícolas e peixe sobem, o cabaz fica mais caro e a classe baixa gasta mais em comida. Noutro canal, a banca prefere títulos públicos, há menos crédito às PMEs, menos investimento e menos rendimento. Se a taxa sobre combustíveis avançar, o gasóleo encarece a carga e o chapa.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | Juros descem com o programa do FMI e o crédito às PMEs recupera | Prime rate abaixo de 15% |\n| Fica igual | 50% | Prime rate em 15,5% e juros acima de 20% | Taxa média a um ano acima de 21% |\n| Piora | 30% | Inflação sobe, taxa dos combustíveis avança e o crédito cai mais | Inflação homóloga acima de 7,5% em Novembro |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Crédito às PMEs continua a cair | Alta | Alto |\n| Taxa dos combustíveis aprovada sem alívio | Média | Alto |\n| Chapa sobe quando acabam as compensações | Média | Médio |\n| Atraso do programa do FMI | Média | Alto |\n| Milho encarece com El Niño | Média | Alto |\n\n## Horizonte\nImediato: debate da taxa sobre combustíveis, julgamento de Mondlane a 17 de Novembro e Comité Central da Frelimo a 27 e 28. Em 3 meses: fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar a partir de Janeiro. Em 1 ano: Orçamento de 2027 a funcionar e possível acordo com o FMI a mudar o custo do crédito.\n\n## Quem está mais exposto\nA classe baixa (exposição 3, margem 1) gasta a maior parte do rendimento em comida e transporte. Informais e agricultores (3 e 1) dependem do chapa, do mercado e da chuva. As PMEs (3 e 2) pagam juros acima de 20%. A classe média (2 e 2) sente os juros do crédito.\n\n## Quem ganha, quem perde\nGoverno: perde, com dívida recorde e orçamento apertado. Classe baixa: perde, com ajuda alimentar a cortar. Classe média: perde, com crédito caro e inflação a 6,3%. Classe alta e investidores: ganham com títulos públicos. ONGs e parceiros: perdem, com menos financiamento e mais procura. Macroeconomia: equilibrada, com petróleo mais barato e dívida alta. PMEs: perdem muito. Ramos de negócio: ganham a banca e as empresas de estradas e gás, perdem transportadores e comércio.\n\n## Direcção\nFamílias: comparar preços de hortícolas e peixe e guardar reserva de básicos antes de Janeiro. PMEs: comparar propostas de pelo menos dois bancos. Utentes do chapa: guardar folga para depois de Fevereiro. Fornecedores do Estado e do gás: juntar certidões e registar-se cedo. Agricultores: comprar sementes cedo.\n\n## Direcções anteriores: o que se confirmou\nA direcção de comprar milho e arroz em pequenas quantidades e comparar mercados segue pendente, sem preços do milho por cidade.\n\n## Sinal a acompanhar\nVotação da taxa sobre combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO e decisão final do Rovuma LNG.\n\n## Grau de confiança\nMédia: dados do Banco de Moçambique, declarações oficiais e Lusa. A inflação de Outubro assenta em cobertura jornalística do INE e a taxa dos combustíveis numa só agência.\n\n## Fontes\nOficiais: INE (via [Forbes África Lusófona](https://forbesafricalusofona.com/?p=178681)); Banco de Moçambique via Lusa. Imprensa nacional: [Lusa](https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo). Imprensa económica: [Club of Mozambique](https://clubofmozambique.com/news/2026/11/09/); [The Energy Year](https://theenergyyear.com/?p=56743). Preços: [Nation Thailand](https://www.nationthailand.com/news/40073162).",
     "verificar": [
       "Inflação de Outubro (0,48% mensal e 6,32% anual): só cobertura da Forbes África Lusófona, sem comunicado do INE",
       "Data de 4 de Novembro do anúncio da ENH sobre o Coral Norte",
       "20 000 moçambicanos que deixaram a África do Sul desde Junho (uma só fonte)",
       "Taxa proposta de 15 cêntimos por litro e impacto de 2,92 e 6,36 meticais (uma só agência)",
-      "⚠️ Categorias de fontes não consultadas hoje: precos, analise_independente",
-      "⚠️ A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
+      "Categorias de fontes não consultadas hoje: precos, analise_independente",
+      "A edição só cobre 3 dimensões do PESTAL (mínimo 4)",
+      "Data de publicação do relatório da FEWS NET citado pela Lusa (RTP), não visível na página",
+      "⚠️ Categorias de fontes não consultadas hoje: regional"
     ],
     "duvidas": [],
     "conformidade": [
@@ -860,58 +911,5 @@
         "nota": "Inflação de Outubro confirmada"
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Adesolive / Wikimedia Commons, CC0",
-      "Foto: Pierre Markuse / Wikimedia Commons, CC BY 2.0",
-      "Foto: Nimatu15 / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Thomas Dorn / European Communities, 2000 / EC - Audiovisual  / Wikimedia Commons, CC BY 4.0"
-    ],
-    "v": 1794458918991
   }
 }
