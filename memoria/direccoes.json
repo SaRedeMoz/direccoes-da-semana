@@ -155,8 +155,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-12",
     "resultado": "pendente",
-    "nota": "Sem preços do milho por cidade; a inflação anual ficou estável em 6,32%.",
-    "verificada_em": "2026-11-12"
+    "nota": "Sem preços do milho por cidade; a inflação anual de Outubro ficou em 6,32%.",
+    "verificada_em": "2026-11-14"
   },
   {
     "id": "D14",
@@ -646,6 +646,30 @@
     "tema": "el_nino",
     "horizonte": "trimestre",
     "verificar_em": "2027-01-31",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D54",
+    "data": "2026-11-14",
+    "semana": "2026-S46",
+    "publico": "Agricultores",
+    "accao": "Comprar sementes cedo e semear só quando a chuva se instalar",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D55",
+    "data": "2026-11-14",
+    "semana": "2026-S46",
+    "publico": "PMEs",
+    "accao": "Comparar propostas de pelo menos dois bancos antes de pedir crédito",
+    "tema": "credito",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-15",
     "resultado": "pendente",
     "nota": ""
   }
