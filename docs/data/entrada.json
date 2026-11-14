@@ -1,31 +1,32 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-13",
+  "hoje": "2026-11-14",
   "semana": "2026-S46",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
-  "dia_semana": "sexta",
-  "post_do_dia": "dia",
+  "dia_semana": "sabado",
+  "post_do_dia": "nenhum",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "analise_independente",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-11-13 (dia): Chuva abaixo da média no pico da época: o que fazer com a sementeira",
     "2026-11-12 (dia): Rovuma LNG: decisão final até Dezembro ou só em 2027",
     "2026-11-11 (bolso): Taxa dos combustíveis pode subir: gasóleo mais 6,36 meticais por litro",
     "2026-11-10 (dia): Decreto 54/2026: o que muda para quem paga escola privada",
-    "2026-11-09 (dia): Crédito a cair e juros a subir: quem consegue empréstimo em 2027?",
-    "2026-11-06 (dia): Lei do Conteúdo Local: as PMEs vão entrar no petróleo e gás?"
+    "2026-11-09 (dia): Crédito a cair e juros a subir: quem consegue empréstimo em 2027?"
   ],
   "ultimas_areas_dia": [
+    "Clima e desastres",
     "Gás, minas e recursos naturais",
-    "Educação",
-    "Crédito, banca e câmbio"
+    "Educação"
   ],
-  "area_sugerida": "Clima e desastres",
+  "area_sugerida": "",
   "edicao_anterior": [
     "Chapa: subida sem aprovação",
     "Brent recua para cerca de 105",
