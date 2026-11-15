@@ -220,16 +220,55 @@
       "confianca": "baixa",
       "n": 17,
       "recolhida": "2026-11-14"
+    },
+    {
+      "titulo": "Conselho de Ministros aprova o Plano de Contingência 2026/27, orçado em 39,8 mil milhões de meticais",
+      "resumo": "O Conselho de Ministros aprovou a 4 de Novembro o plano de resposta a desastres da época 2026/27, com um orçamento de 39,8 mil milhões de meticais. Surge com previsões de chuva abaixo da média e El Niño forte.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "oficiais",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/2026/11/04/",
+      "data": "2026-11-04",
+      "confianca": "media",
+      "n": 18,
+      "recolhida": "2026-11-15"
+    },
+    {
+      "titulo": "Chapo lança a campanha agrária 2026/27 em Sanga, no Niassa",
+      "resumo": "O Presidente da República lançou a 9 de Novembro, em Sanga, província do Niassa, a campanha agrária 2026/27. O arranque faz-se com previsão de início tardio e abaixo da média das chuvas no Centro e no Sul.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/2026/11/09/",
+      "data": "2026-11-09",
+      "confianca": "media",
+      "n": 19,
+      "recolhida": "2026-11-15"
+    },
+    {
+      "titulo": "Proposta de terminal flutuante de gás para a escassez da África do Sul",
+      "resumo": "Foi apresentada uma solução de baixo custo, com unidade flutuante de regaseificação, para a falta de gás na África do Sul. Pode abrir mercado ao gás moçambicano na região.",
+      "ambito": "mundo",
+      "dimensao": "Económica",
+      "categoria": "regional",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/2026/11/09/",
+      "data": "2026-11-09",
+      "confianca": "baixa",
+      "n": 20,
+      "recolhida": "2026-11-15"
     }
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 6,
-  "proximo_n": 18,
+  "versao": 7,
+  "proximo_n": 21,
   "lacunas": [
-    "Decisões da SADC, Malawi, Zimbabwe e Tanzânia de Novembro",
+    "Decisões da SADC de Novembro",
     "Preços de milho e arroz na Beira e em Nampula",
-    "Previsão sazonal do INAM para 2026/27"
+    "Previsão sazonal oficial do INAM para 2026/27"
   ],
   "fontes_consultadas": [
     {
@@ -369,6 +408,12 @@
       "fonte": "SIMA/MASA",
       "url": "https://www.masa.gov.mz",
       "data": "2026-11-14"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "SIMA / MASA",
+      "url": "https://www.masa.gov.mz",
+      "data": "2026-11-15"
     }
   ],
   "analise": {
@@ -377,7 +422,8 @@
         "Brent fecha a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo",
         "Novo programa do FMI pode ficar fechado até ao fim do ano",
         "PAM só mantém a ajuda actual até Dezembro",
-        "Cerca de 20 000 moçambicanos saem da África do Sul"
+        "Cerca de 20 000 moçambicanos saem da África do Sul",
+        "Proposta de terminal flutuante de gás para a África do Sul"
       ],
       "nacional": [
         "Inflação mensal sobe para 0,48% em Outubro; homóloga em 6,32%",
@@ -389,7 +435,9 @@
         "ENH entra na campanha de poços do Coral Norte",
         "FEWS NET prevê menos chuva entre Dezembro e Fevereiro, com El Niño forte até 2027",
         "Regras do jogo online entram em vigor a 20 de Novembro",
-        "Governo aprova apoio à central de Temane com o Banco Mundial"
+        "Governo aprova apoio à central de Temane com o Banco Mundial",
+        "Plano de Contingência 2026/27 aprovado, com 39,8 mil milhões de meticais",
+        "Chapo lança a campanha agrária em Sanga, no Niassa"
       ]
     },
     "pestal": [
@@ -403,6 +451,10 @@
           {
             "texto": "Negociação do programa do FMI",
             "origem": "externa"
+          },
+          {
+            "texto": "Plano de Contingência aprovado",
+            "origem": "interna"
           }
         ],
         "ameacas": [
@@ -523,6 +575,10 @@
           {
             "texto": "Plano de 125 milhões contra El Niño",
             "origem": "interna"
+          },
+          {
+            "texto": "Plano de Contingência de 39,8 mil milhões",
+            "origem": "interna"
           }
         ],
         "ameacas": [
@@ -539,7 +595,7 @@
             "origem": "externa"
           }
         ],
-        "peso_oportunidade": 1,
+        "peso_oportunidade": 2,
         "peso_ameaca": 3,
         "principal_oportunidade": "125 milhões contra o El Niño",
         "principal_ameaca": "Chuva abaixo da média até Fevereiro"
@@ -658,7 +714,7 @@
     ],
     "sinal": "Votação da taxa sobre combustíveis no Parlamento, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, decisão final do Rovuma LNG, fim das compensações do chapa em Fevereiro e Brent acima ou abaixo de 100 dólares.",
     "sintese": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, com os alimentos a puxar. O Governo quer subir a taxa sobre combustíveis, o crédito caiu pelo terceiro mês e os juros médios estão em 22,26%. Do lado do gás, a ENH entra nos poços do Coral Norte, mas a decisão final do Rovuma LNG continua por tomar.",
-    "o_que_mudou_hoje": "O Conselho de Ministros aprovou apoio à central térmica de Temane, com financiamento do Banco Mundial para a EDM, e as regras do jogo online entram em vigor a 20 de Novembro. O quadro do clima e dos preços mantém-se.",
+    "o_que_mudou_hoje": "O Conselho de Ministros aprovou a 4 de Novembro o Plano de Contingência 2026/27, de 39,8 mil milhões de meticais, e o Presidente lançou a campanha agrária em Sanga, no Niassa, a 9 de Novembro. O quadro dos preços e do clima mantém-se.",
     "canais": [
       {
         "choque": "Taxa sobre combustíveis sobe",
@@ -781,7 +837,7 @@
       "grau": "media",
       "base": "dados do INE por cobertura jornalística, FEWS NET via Lusa, Club of Mozambique e declarações oficiais; a taxa dos combustíveis e Temane assentam numa só fonte"
     },
-    "continuidade": "O combustível não abre a edição: a taxa em debate não tem valor novo. Os factos novos são a central de Temane, que reforça a oferta de electricidade, e as regras do jogo online, com licença obrigatória a partir de 20 de Novembro."
+    "continuidade": "O combustível não abre a edição: a taxa em debate não tem valor novo. Os factos novos são o Plano de Contingência para a época das chuvas e o arranque da campanha agrária, ambos com chuva abaixo da média à vista."
   },
   "design": {
     "slides": [
@@ -822,10 +878,10 @@
         "imagem_termos": "maize field drought Africa"
       },
       {
-        "titulo": "Cabo Delgado: mais de 1 200 em fuga",
-        "texto": "Em duas semanas, mais de 1 200 pessoas fugiram de ataques. A procura de ajuda sobe quando o financiamento encolhe.",
-        "tom": "alerta",
-        "imagem_termos": "Pemba Mozambique coast"
+        "titulo": "Plano de 39,8 mil milhões para desastres",
+        "texto": "O Conselho de Ministros aprovou o Plano de Contingência 2026/27, com chuva abaixo da média e El Niño forte à vista.",
+        "tom": "oportunidade",
+        "imagem_termos": "Mozambique flood relief"
       }
     ],
     "manchete": "Chuva abaixo da média a caminho, preços a subir e crédito a cair",
@@ -845,11 +901,11 @@
       16,
       8,
       15,
-      9
+      18
     ]
   },
   "textos": {
-    "whatsapp": "*DIRECÇÕES DA SEMANA, 14 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent fechou a 98,29 dólares a 5 de Novembro, abaixo dos 100, mas os ataques a petroleiros no Golfo mantêm o risco.\n\n*MOÇAMBIQUE*\nA FEWS NET prevê temperaturas acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Põe em mais de 80% a probabilidade de o El Niño forte continuar até 2027. Segundo o INE, os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis, o que pode juntar 6,36 meticais ao litro de gasóleo. Entram em vigor a 20 de Novembro as regras do jogo online, que exigem licença.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem mais as PMEs, por causa dos juros, e a classe baixa, que gasta a maior parte do rendimento em comida e transporte. Ganham os investidores em títulos públicos e, mais tarde, os fornecedores ligados ao gás.\n\n*DIRECÇÃO*\nAgricultores do Centro e do Sul: comprem sementes cedo e semeiem só quando a chuva se instalar. As famílias devem guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes. As PMEs devem comparar propostas de pelo menos dois bancos.\n\n*PRÓXIMA SEMANA*\nJulgamento de Mondlane a 17 de Novembro, debate da taxa sobre combustíveis e Comité Central da Frelimo a 27 e 28.\n\nSe este resumo ajudou, partilhe com alguém que também precisa de o ler.",
+    "whatsapp": "*DIRECÇÕES DA SEMANA, 15 DE NOVEMBRO*\n\n*MUNDO*\nO petróleo Brent fechou a 98,29 dólares a 5 de Novembro, abaixo dos 100, mas os ataques a petroleiros no Golfo mantêm o risco.\n\n*MOÇAMBIQUE*\nA FEWS NET prevê temperaturas acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Põe em mais de 80% a probabilidade de o El Niño forte continuar até 2027. Segundo o INE, os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. O crédito à economia caiu em Agosto pelo terceiro mês seguido, com juros médios de 22,26%. O Governo propôs subir a taxa sobre combustíveis, o que pode juntar 6,36 meticais ao gasóleo. O Conselho de Ministros aprovou o Plano de Contingência 2026/27, de 39,8 mil milhões de meticais.\n\n*QUEM GANHA E QUEM PERDE*\nPerdem mais as PMEs, por causa dos juros, e a classe baixa, que gasta quase tudo em comida e transporte. Ganham os investidores em títulos públicos e, mais tarde, os fornecedores ligados ao gás.\n\n*DIRECÇÃO*\nAgricultores do Centro e do Sul: comprem sementes cedo e semeiem só quando a chuva se instalar. As famílias devem guardar reserva de básicos antes de Janeiro, quando o PAM prevê cortes. As PMEs devem comparar propostas de pelo menos dois bancos.\n\n*PRÓXIMA SEMANA*\nJulgamento de Mondlane a 17 de Novembro, debate da taxa sobre combustíveis e Comité Central da Frelimo a 27 e 28.\n\nSe este resumo ajudou, partilhe com alguém que também precisa de o ler.",
     "linkedin": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco foram o que mais subiu.\n\nPara as empresas, o crédito continua a recuar: caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Os bancos preferem os títulos públicos, o que deixa as PMEs com menos financiamento e mais caro.\n\nO Governo propôs uma taxa de 15 cêntimos de dólar por litro de combustível para conservar estradas. O ministro apontou um aumento de 6,36 meticais no gasóleo e 2,92 na gasolina. O custo chega às empresas de transporte e, depois, aos preços da comida.\n\nHá também um risco agrícola. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e dá mais de 80% de probabilidade a um El Niño forte até 2027. O PAM só mantém a ajuda actual até Dezembro.\n\nNo gás, a ENH vai participar na perfuração dos poços do Coral Norte, com primeiro gás previsto para 2028. A decisão final do Rovuma LNG continua por tomar.\n\nDirecção\n\nAs PMEs devem comparar propostas de pelo menos dois bancos e contar com transporte de carga mais caro. Os agricultores devem comprar insumos cedo. Os fornecedores do gás devem juntar certidões e esperar o regulamento antes de pagar a intermediários.\n\nOs próximos meses decidem-se na taxa dos combustíveis, no programa do FMI e na chuva de Dezembro.\n\n#Moçambique #DirecçõesDaSemana",
     "instagram": "Preços sobem 0,48% em Outubro e a inflação anual fica em 6,32%, segundo o INE. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro. O crédito cai pelo terceiro mês e o Governo debate uma taxa maior sobre os combustíveis. Direcção: sementes cedo, reserva de básicos e comparar propostas de crédito. #Moçambique #DirecçõesDaSemana",
     "facebook": "Os preços subiram 0,48% em Outubro, contra 0,16% em Setembro, segundo o INE. A inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco subiram mais.\n\nVem aí menos chuva. A FEWS NET prevê calor acima do normal e chuva abaixo da média entre Dezembro e Fevereiro, por causa do El Niño, que deve durar até 2027.\n\nPara as empresas, o crédito continua a recuar: caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%.\n\nO Governo propôs subir a taxa sobre combustíveis. O gasóleo pode ficar 6,36 meticais mais caro por litro. O chapa de Maputo fica a 15 meticais, com compensações do Estado por três meses.\n\nAs regras do jogo online entram em vigor a 20 de Novembro e exigem licença da Inspecção Geral de Jogos.\n\nEm Cabo Delgado, mais de 1 200 pessoas fugiram de ataques em duas semanas.\n\nDirecção principal: quem lavra no Centro e no Sul deve comprar sementes cedo e semear só quando a chuva se instalar. As famílias devem guardar reserva de básicos antes de Janeiro.\n\n#Moçambique #DirecçõesDaSemana",
@@ -860,12 +916,13 @@
       "20 000 moçambicanos que deixaram a África do Sul desde Junho (uma só fonte)",
       "Taxa proposta de 15 cêntimos por litro e impacto de 2,92 e 6,36 meticais (uma só agência)",
       "Categorias de fontes não consultadas hoje: precos, analise_independente",
-      "A edição só cobre 3 dimensões do PESTAL (mínimo 4)",
       "Data de publicação do relatório da FEWS NET citado pela Lusa (RTP), não visível na página",
       "Categorias de fontes não consultadas hoje: regional",
       "Data da aprovação do apoio à central de Temane e o limite de 65 milhões de dólares",
       "Data de 20 de Novembro e exigências para o jogo online",
-      "⚠️ Categorias de fontes não consultadas hoje: imprensa_nacional, analise_independente, internacional"
+      "Plano de Contingência de 39,8 mil milhões de meticais, aprovado a 4 de Novembro (só cobertura do Club of Mozambique)",
+      "Lançamento da campanha agrária em Sanga, Niassa, a 9 de Novembro",
+      "⚠️ Categorias de fontes não consultadas hoje: imprensa_nacional, humanitario"
     ],
     "duvidas": [],
     "conformidade": [
@@ -937,13 +994,13 @@
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-11-14",
+    "em": "2026-11-15",
     "indicadores": 0,
-    "temas": 4,
-    "direccoes": 2
+    "temas": 1,
+    "direccoes": 1
   },
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: imprensa_nacional, analise_independente, internacional"
+    "Categorias de fontes não consultadas hoje: imprensa_nacional, humanitario"
   ],
   "incluir_itens": []
 }

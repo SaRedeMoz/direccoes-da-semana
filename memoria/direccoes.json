@@ -672,5 +672,17 @@
     "verificar_em": "2027-02-15",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D56",
+    "data": "2026-11-15",
+    "semana": "2026-S46",
+    "publico": "Agricultores",
+    "accao": "Comprar sementes cedo e semear só quando a chuva se instalar",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]
