@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "A ler a entrada e a pesquisar notícias",
-      "em": "2026-11-15T03:36:50.582Z"
+      "estado": "pronto",
+      "msg": "Pesquisa feita, 3 itens novos",
+      "em": "2026-11-15T03:37:27.784Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-15T03:37:27.784Z",
+      "agente": "fontes",
+      "msg": "Pesquisa feita, 3 itens novos"
+    },
     {
       "em": "2026-11-15T03:36:50.582Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-11T03:37:08.728Z",
       "agente": "design",
       "msg": "Slides prontos"
-    },
-    {
-      "em": "2026-11-11T03:36:23.751Z",
-      "agente": "design",
-      "msg": "A preparar slides"
     }
   ],
-  "actualizado": "2026-11-15T03:36:50.582Z",
+  "actualizado": "2026-11-15T03:37:27.784Z",
   "semana": "2026-S46",
   "dia": "2026-11-15",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
