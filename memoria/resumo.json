@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-14",
+  "actualizado": "2026-11-15",
   "indicadores": [
     {
       "id": "gasolina",
@@ -656,6 +656,18 @@
       "resultado": "pendente",
       "nota": "Sem preços do milho por cidade; a inflação anual de Outubro ficou em 6,32%.",
       "verificada_em": "2026-11-14"
+    },
+    {
+      "id": "D41",
+      "data": "2026-11-08",
+      "semana": "2026-S45",
+      "publico": "Utentes do chapa na Grande Maputo",
+      "accao": "Pagar a tarifa afixada e guardar folga de 5 meticais por viagem",
+      "tema": "combustivel",
+      "horizonte": "semana",
+      "verificar_em": "2026-11-15",
+      "resultado": "pendente",
+      "nota": ""
     }
   ],
   "balanco_direccoes": {
