@@ -16,9 +16,9 @@
       "em": "2026-11-15T03:38:05.481Z"
     },
     "editor": {
-      "estado": "parado",
-      "msg": "À espera da sua vez",
-      "em": "2026-11-15T03:36:21.578Z"
+      "estado": "pronto",
+      "msg": "Textos gravados",
+      "em": "2026-11-15T03:38:07.675Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-15T03:38:07.675Z",
+      "agente": "editor",
+      "msg": "Textos gravados"
+    },
     {
       "em": "2026-11-15T03:38:05.481Z",
       "agente": "design",
@@ -221,14 +226,9 @@
       "em": "2026-11-11T03:37:46.855Z",
       "agente": "editor",
       "msg": "O Seu Bolso pronto"
-    },
-    {
-      "em": "2026-11-11T03:37:41.083Z",
-      "agente": "editor",
-      "msg": "Post do dia O Seu Bolso pronto"
     }
   ],
-  "actualizado": "2026-11-15T03:38:05.481Z",
+  "actualizado": "2026-11-15T03:38:07.675Z",
   "semana": "2026-S46",
   "dia": "2026-11-15",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
