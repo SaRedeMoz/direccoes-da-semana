@@ -568,6 +568,12 @@
           "semana": "2026-S46",
           "resumo": "O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais. A taxa média a um ano subiu para 22,26% e a prime rate ficou em 15,50%.",
           "direccao": "Comparar propostas de bancos e evitar crédito caro ao consumo."
+        },
+        {
+          "data": "2026-11-16",
+          "semana": "2026-S47",
+          "resumo": "O crédito à economia caiu em Agosto pelo terceiro mês e a prime rate está em 15,5%. O Standard Bank e a Câmara de Petróleo e Gás assinaram a 2 de Novembro um acordo para financiar PMEs de energia.",
+          "direccao": "Antes de aceitar um subcontrato, contar os juros dos meses até ao pagamento."
         }
       ]
     },
@@ -641,6 +647,19 @@
           "direccao": "Famílias devem desconfiar de plataformas sem licença e sem domínio .mz."
         }
       ]
+    },
+    {
+      "id": "compras_publicas",
+      "nome": "Compras públicas e PMEs",
+      "desde": "2026-11-16",
+      "ultimos": [
+        {
+          "data": "2026-11-16",
+          "semana": "2026-S47",
+          "resumo": "Desde Agosto, obras públicas de 100 milhões de meticais ou mais têm de subcontratar 20% a PMEs nacionais. A compra centralizada passa pela Central de Aquisições do Estado.",
+          "direccao": "Registar a empresa e juntar certidões antes de procurar subcontratos."
+        }
+      ]
     }
   ],
   "direccoes_a_verificar": [
@@ -654,7 +673,8 @@
       "horizonte": "mes",
       "verificar_em": "2026-11-16",
       "resultado": "pendente",
-      "nota": ""
+      "nota": "A taxa dos combustíveis ainda não foi votada.",
+      "verificada_em": "2026-11-16"
     },
     {
       "id": "D2",
@@ -666,7 +686,8 @@
       "horizonte": "mes",
       "verificar_em": "2026-11-16",
       "resultado": "pendente",
-      "nota": ""
+      "nota": "Sem decisão final sobre o subsídio.",
+      "verificada_em": "2026-11-16"
     },
     {
       "id": "D13",
@@ -679,35 +700,23 @@
       "verificar_em": "2026-11-12",
       "resultado": "pendente",
       "nota": "Sem preços do milho por cidade; a inflação anual de Outubro ficou em 6,32%.",
-      "verificada_em": "2026-11-14"
-    },
-    {
-      "id": "D41",
-      "data": "2026-11-08",
-      "semana": "2026-S45",
-      "publico": "Utentes do chapa na Grande Maputo",
-      "accao": "Pagar a tarifa afixada e guardar folga de 5 meticais por viagem",
-      "tema": "combustivel",
-      "horizonte": "semana",
-      "verificar_em": "2026-11-15",
-      "resultado": "pendente",
-      "nota": ""
+      "verificada_em": "2026-11-16"
     }
   ],
   "balanco_direccoes": {
     "confirmada": 1,
-    "parcial": 11,
+    "parcial": 12,
     "nao_confirmada": 1,
-    "pendente": 43
+    "pendente": 44
   },
   "ultimas_licoes": [
-    "- 2026-11-08 (2026-S45): Um anúncio da FEMATRO não vale como tarifa em vigor sem aprovação municipal.",
     "- 2026-11-09 (2026-S46): Uma cotação à vista do Brent pode divergir do fecho: convém confirmar o fecho oficial antes de publicar.",
     "- 2026-11-10 (2026-S46): Às terças a pesquisa devolve pouco material datado: o decreto do ensino privado serviu de assunto do dia e os artigos de origem nem sempre trazem data.",
     "- 2026-11-11 (2026-S46): Às quartas a pesquisa devolve poucos preços datados nas capitais da Beira e de Nampula, e a inflação de Outubro por cidade ainda não saiu.",
     "- 2026-11-12 (2026-S46): A inflação de Outubro chegou por cobertura jornalística antes do comunicado do INE; convém confirmar no INE antes de publicar valores por cidade.",
     "- 2026-11-13 (2026-S46): Às sextas a pesquisa devolve pouco material datado: a previsão da FEWS NET chegou por Lusa sem data de publicação visível e o INAM não tem previsão sazonal 2026/27 acessível.",
     "- 2026-11-14 (2026-S46): As páginas diárias do Club of Mozambique bloqueiam a leitura automática; convém usar a pesquisa por título.",
-    "- 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho."
+    "- 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.",
+    "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia."
   ]
 }

@@ -35,3 +35,4 @@
 - 2026-11-13 (2026-S46): Às sextas a pesquisa devolve pouco material datado: a previsão da FEWS NET chegou por Lusa sem data de publicação visível e o INAM não tem previsão sazonal 2026/27 acessível.
 - 2026-11-14 (2026-S46): As páginas diárias do Club of Mozambique bloqueiam a leitura automática; convém usar a pesquisa por título.
 - 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.
+- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.

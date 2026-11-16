@@ -382,6 +382,12 @@
         "semana": "2026-S46",
         "resumo": "O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais. A taxa média a um ano subiu para 22,26% e a prime rate ficou em 15,50%.",
         "direccao": "Comparar propostas de bancos e evitar crédito caro ao consumo."
+      },
+      {
+        "data": "2026-11-16",
+        "semana": "2026-S47",
+        "resumo": "O crédito à economia caiu em Agosto pelo terceiro mês e a prime rate está em 15,5%. O Standard Bank e a Câmara de Petróleo e Gás assinaram a 2 de Novembro um acordo para financiar PMEs de energia.",
+        "direccao": "Antes de aceitar um subcontrato, contar os juros dos meses até ao pagamento."
       }
     ]
   },
@@ -458,6 +464,20 @@
         "semana": "2026-S46",
         "resumo": "As regras entram em vigor a 20 de Novembro e exigem licença, 26% de capital moçambicano e apostas em meticais.",
         "direccao": "Famílias devem desconfiar de plataformas sem licença e sem domínio .mz."
+      }
+    ]
+  },
+  {
+    "id": "compras_publicas",
+    "nome": "Compras públicas e PMEs",
+    "estado": "activo",
+    "inicio": "2026-11-16",
+    "historial": [
+      {
+        "data": "2026-11-16",
+        "semana": "2026-S47",
+        "resumo": "Desde Agosto, obras públicas de 100 milhões de meticais ou mais têm de subcontratar 20% a PMEs nacionais. A compra centralizada passa pela Central de Aquisições do Estado.",
+        "direccao": "Registar a empresa e juntar certidões antes de procurar subcontratos."
       }
     ]
   }

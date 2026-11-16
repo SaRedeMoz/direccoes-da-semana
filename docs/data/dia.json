@@ -1,312 +1,255 @@
 {
   "tipo": "dia",
-  "area": "Clima e desastres",
-  "tema": "Chuva abaixo da média no pico da época: o que fazer com a sementeira",
-  "pergunta": "A chuva vai falhar no pico da época? O que fazer com a sementeira",
+  "area": "Negócios e PMEs",
+  "tema": "Regra dos 20% nas obras públicas: ajuda PMEs sem crédito?",
+  "pergunta": "20% das obras públicas para PMEs: quem tem dinheiro para esperar?",
   "facto": {
-    "texto": "A FEWS NET prevê temperaturas acima do normal até Abril de 2027 e chuva abaixo da média entre Dezembro e Fevereiro. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027. O Governo apontou em Agosto 52 distritos críticos no Sul e no Centro.",
+    "texto": "Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. As margens de preferência são de 15% para obras e serviços e de 20% para bens produzidos no país. O crédito à economia caiu em Agosto pelo terceiro mês seguido.",
     "numeros": [
       {
-        "valor": "Mais de 80%",
-        "legenda": "El Niño forte até 2027"
+        "valor": "20%",
+        "legenda": "das obras para PMEs"
       },
       {
-        "valor": "52",
-        "legenda": "distritos críticos no Sul e Centro"
+        "valor": "22,26%",
+        "legenda": "juros médios do crédito"
       },
       {
-        "valor": "1,5 a 1,99 milhões",
-        "legenda": "podem precisar de ajuda alimentar"
+        "valor": "291 169 M MT",
+        "legenda": "crédito à economia em Agosto"
       }
     ],
-    "fonte": "FEWS NET via Lusa (RTP); Ministro Fernando Rafael, Agosto de 2026"
+    "fonte": "Lusa e Forbes África Lusófona (20 de Agosto de 2026); Banco de Moçambique via Lusa (4 de Novembro de 2026)"
   },
   "linha_do_tempo": [
     {
-      "data": "15 Ago",
-      "texto": "Governo aponta 52 distritos críticos por causa do El Niño",
+      "data": "Jun",
+      "texto": "Criada a Central de Aquisições do Estado",
       "futuro": false
     },
     {
-      "data": "Out",
-      "texto": "FEWS NET projecta 1,5 a 1,99 milhões a precisar de ajuda",
+      "data": "Ago",
+      "texto": "Obras de 100 milhões ou mais subcontratam 20% a PMEs",
       "futuro": false
     },
     {
-      "data": "Dez",
-      "texto": "PAM só mantém a ajuda actual até este mês",
+      "data": "2 Nov",
+      "texto": "Standard Bank e Câmara de Petróleo e Gás assinam acordo",
+      "futuro": false
+    },
+    {
+      "data": "31 Dez",
+      "texto": "Planos de aquisição do conteúdo local entregues",
       "futuro": true
     },
     {
-      "data": "Dez a Fev",
-      "texto": "Pico da época chuvosa, com chuva abaixo da média prevista",
-      "futuro": true
-    },
-    {
-      "data": "Jan",
-      "texto": "PAM prevê cortes na ajuda alimentar",
-      "futuro": true
-    },
-    {
-      "data": "Abr 2027",
-      "texto": "Calor acima do normal previsto até este mês",
+      "data": "Mar 2027",
+      "texto": "Primeiros subcontratos a PMEs a receber pagamento",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "2015/16",
-    "o_que_aconteceu": "Com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016, na seca do Sul e do Centro. Cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.",
-    "licao": "Um El Niño forte levou a seca declarada e a 1,5 milhões em insegurança alimentar.",
-    "fonte": "ReliefWeb / SETSAN, 2016"
+    "quando": "2004, projecto Mozal, Maputo",
+    "o_que_aconteceu": "O programa de ligações da Mozal pôs 15 pequenas empresas em contratos de 5 milhões de dólares. Os resultados iniciais foram mistos, com falta de normas e de formação.",
+    "licao": "Reservar contratos funciona com formação, financiamento e pagamento a prazo claro.",
+    "fonte": "IFC (19 de Outubro de 2004) e BHP (2003)"
   },
-  "porque_importa": "O milho e o arroz são a base da comida da classe baixa e dos agricultores de subsistência. Uma colheita fraca sobe o preço no mercado e tira rendimento às famílias que já gastam a maior parte do que ganham em comida. Os doadores têm menos dinheiro para responder.",
+  "porque_importa": "Quem fornece ao Estado pode ganhar contratos que antes não via, mas só os executa com caixa. O pagamento tardio e o crédito a mais de 20% decidem se a regra cria negócios ou só papel.",
   "canal": {
     "passos": [
-      "Chuva abaixo da média",
-      "Sementeira falha ou atrasa",
-      "Colheita menor em Abril",
-      "Milho mais caro no mercado",
-      "Famílias gastam mais em comida"
+      "Obra pública adjudicada",
+      "Contratante subcontrata PMEs",
+      "PME financia material e salários",
+      "Estado paga com atraso",
+      "Juros comem a margem"
     ],
-    "quem_sente": "Agricultores de subsistência e classe baixa"
+    "quem_sente": "PMEs de construção, transporte e materiais"
   },
   "conta": {
-    "titulo": "Quanto custa a comida a uma família",
-    "pressupostos": "Família que gasta 4 000 MT por mês em milho e arroz; preço sobe 10,4% (milho num mês, Outubro) ou 40% (hipótese).",
+    "titulo": "Juros de um subcontrato de 10 milhões",
+    "pressupostos": "Crédito a 22,26% ao ano, 10 milhões de meticais financiados até ao pagamento, sem entrada nem adiantamento.",
     "barras": [
       {
-        "rotulo": "Hoje",
-        "valor": 4000,
-        "texto": "4 000 MT/mês"
+        "rotulo": "90 dias de espera",
+        "valor": 548877,
+        "texto": "548 877 MT"
       },
       {
-        "rotulo": "Preço mais 10,4%",
-        "valor": 4416,
-        "texto": "4 416 MT/mês"
+        "rotulo": "120 dias de espera",
+        "valor": 731836,
+        "texto": "731 836 MT"
       },
       {
-        "rotulo": "Preço mais 40%",
-        "valor": 5600,
-        "texto": "5 600 MT/mês"
+        "rotulo": "180 dias de espera",
+        "valor": 1097753,
+        "texto": "1 097 753 MT"
       }
     ],
-    "unidade": "MT por mês",
-    "conclusao": "Com preços 40% mais altos, a família paga mais 1 600 meticais por mês só em milho e arroz."
+    "unidade": "meticais de juros",
+    "conclusao": "Cada mês de atraso soma cerca de 185 mil meticais e pode consumir a margem do subcontrato."
   },
   "cenarios": [
     {
-      "nome": "A chuva falha no pico",
-      "tipo": "piora",
-      "probabilidade": 45,
-      "porque_probabilidade": "Em 2015/16, com El Niño forte, houve alerta vermelho. Os solos húmidos do Centro e do Sul atenuam, por isso não passa de 45%.",
-      "gatilho": "Chuva acumulada de Dezembro abaixo do normal, segundo o INAM",
-      "o_que_acontece": "Dezembro a Fevereiro fica seco, a colheita do Centro e do Sul perde-se em parte e o milho sobe até Abril.",
-      "numeros": "Milho 15% a 40% mais caro; 1,5 a 1,99 milhões precisam de ajuda",
-      "quando": "até Abril de 2027",
-      "ganha": "Comerciantes com stock de milho",
-      "perde": "Famílias que compram comida",
-      "se_acontecer": "Antecipar compras, pedir ajuda local cedo e procurar sementes de ciclo curto para o replantio."
-    },
-    {
-      "nome": "Atraso, mas recupera",
-      "tipo": "fica_igual",
-      "probabilidade": 35,
-      "porque_probabilidade": "A FEWS NET fala em início tardio, mas a humidade do solo está acima da média no Centro e Sul. Falta o fecho de Dezembro.",
-      "gatilho": "Chuva instalada até meados de Janeiro nas províncias do Centro",
-      "o_que_acontece": "A chuva chega tarde, mas permite segunda sementeira. A colheita sai menor e mais tardia, com preços a subir pouco.",
-      "numeros": "Milho 5% a 15% mais caro entre Fevereiro e Abril",
-      "quando": "até Março de 2027",
-      "ganha": "Quem semeou cedo com sementes certas",
-      "perde": "Quem esperou pela primeira chuva",
-      "se_acontecer": "Semear em duas datas e vender só o excedente depois de garantir a comida da casa."
-    },
-    {
-      "nome": "Solo húmido amortece",
+      "nome": "Crédito chega às PMEs",
       "tipo": "melhora",
       "probabilidade": 20,
-      "porque_probabilidade": "Vem da humidade acima da média e dos reservatórios cheios, como Cahora Bassa. Contraria a previsão de chuva abaixo da média.",
-      "gatilho": "Chuva perto do normal em Dezembro nas províncias de Sofala e Zambézia",
-      "o_que_acontece": "As chuvas ficam perto do normal no Centro e no Norte e as culturas aguentam. O Sul sofre mais com o calor.",
-      "numeros": "Milho com subida abaixo de 5%",
-      "quando": "até Abril de 2027",
-      "ganha": "Agricultores do Centro e do Norte",
-      "perde": "Agricultores do Sul",
-      "se_acontecer": "Vender o excedente com preço registado e repor a reserva de sementes para a próxima época."
+      "porque_probabilidade": "A banca reduz crédito há três meses e o acordo de 2 de Novembro ainda não tem prazos; por isso, a base é baixa.",
+      "gatilho": "Prime rate abaixo de 15% e linha de garantia activa para subcontratados",
+      "o_que_acontece": "Os bancos financiam subcontratos com garantia do contratante, os juros descem e as PMEs executam sem esperar pelo Estado.",
+      "numeros": "Juros de 16% a 19%; 90 dias custam 395 mil a 468 mil MT",
+      "quando": "até Junho de 2027",
+      "ganha": "PMEs com certidões em dia",
+      "perde": "Intermediários que cobram registos",
+      "se_acontecer": "Candidate-se a subcontratos de 3 a 6 meses e peça financiamento ao banco com o contrato assinado."
+    },
+    {
+      "nome": "Só os grandes ganham",
+      "tipo": "fica_igual",
+      "probabilidade": 50,
+      "porque_probabilidade": "No Mozal, as pequenas empresas entraram em poucos contratos; a regra existe, mas a caixa decide quem executa.",
+      "gatilho": "Primeiros subcontratos adjudicados a empresas já grandes",
+      "o_que_acontece": "O contratante principal cumpre os 20% com poucas PMEs maiores e as restantes ficam de fora por falta de caixa.",
+      "numeros": "Juros de 21% a 23%; 120 dias custam 690 mil a 750 mil MT",
+      "quando": "até Março de 2027",
+      "ganha": "Contratantes e PMEs maiores",
+      "perde": "PMEs pequenas e informais",
+      "se_acontecer": "Procure consórcio com outras PMEs para partilhar o risco e o crédito."
+    },
+    {
+      "nome": "Estado paga tarde",
+      "tipo": "piora",
+      "probabilidade": 30,
+      "porque_probabilidade": "O Estado devia 171 milhões de euros a fornecedores no fim de 2025; a taxa de base de atrasos é alta.",
+      "gatilho": "Pagamentos a mais de 120 dias em contratos do novo regime",
+      "o_que_acontece": "Os atrasos de pagamento sobem os juros pagos pelas PMEs, que desistem de subcontratos ou fecham.",
+      "numeros": "Espera de 150 a 210 dias; juros de 915 mil a 1,28 milhões MT",
+      "quando": "até Fevereiro de 2027",
+      "ganha": "Quem tem caixa própria",
+      "perde": "PMEs que dependem de crédito",
+      "se_acontecer": "Pare de fornecer, renegoceie o prazo e faça valer a retenção de pagamento."
     }
   ],
   "sinais": [
     {
-      "o_que": "Chuva acumulada de Dezembro, segundo o INAM",
-      "limiar": "abaixo do normal em duas décadas seguidas",
-      "quando": "até 31 de Dezembro",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Preço do milho nos mercados do Centro",
-      "limiar": "subida de mais de 15% face a Novembro",
-      "quando": "até 31 de Janeiro",
-      "aponta_para": "piora"
-    },
-    {
-      "o_que": "Início da chuva nas províncias do Centro",
-      "limiar": "chuva instalada antes de 15 de Dezembro",
-      "quando": "até 15 de Dezembro",
+      "o_que": "Prime rate publicada pela Associação Moçambicana de Bancos",
+      "limiar": "abaixo de 15%",
+      "quando": "até Março de 2027",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Financiamento do PAM para 2027",
-      "limiar": "ajuda confirmada para Janeiro",
-      "quando": "até 31 de Dezembro",
+      "o_que": "Crédito à economia no boletim do Banco de Moçambique",
+      "limiar": "acima de 294 000 milhões MT",
+      "quando": "até Dezembro",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Prazo médio de pagamento do Estado a fornecedores",
+      "limiar": "acima de 120 dias",
+      "quando": "até Fevereiro de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Primeiros subcontratos a PMEs ao abrigo da regra",
+      "limiar": "menos de 10 empresas por obra",
+      "quando": "até Março de 2027",
       "aponta_para": "fica_igual"
     }
   ],
   "afectados": [
     {
-      "grupo": "Classe baixa",
-      "saldo": -2,
-      "porque": "gasta quase tudo em comida"
-    },
-    {
-      "grupo": "Agricultores de subsistência",
-      "saldo": -2,
-      "porque": "dependem da chuva da época"
-    },
-    {
-      "grupo": "Classe média",
+      "grupo": "PMEs de construção",
       "saldo": -1,
-      "porque": "comida e transporte mais caros"
+      "porque": "contratos novos, mas caixa curta"
     },
     {
-      "grupo": "PMEs de alimentos",
-      "saldo": -1,
-      "porque": "matéria-prima mais cara e escassa"
-    },
-    {
-      "grupo": "Comerciantes de cereais",
+      "grupo": "Contratantes grandes",
       "saldo": 1,
-      "porque": "preços sobem com stock guardado"
+      "porque": "margens de preferência e obras garantidas"
     },
     {
-      "grupo": "ONGs e parceiros",
+      "grupo": "Bancos",
+      "saldo": 1,
+      "porque": "juros altos e títulos públicos seguros"
+    },
+    {
+      "grupo": "Trabalhadores informais",
+      "saldo": 0,
+      "porque": "mais obras, mas empregos instáveis"
+    },
+    {
+      "grupo": "Governo",
       "saldo": -1,
-      "porque": "mais procura com menos financiamento"
+      "porque": "atrasos de pagamento comprometem a regra"
     }
   ],
   "direccao": [
     {
-      "publico": "Agricultores do Centro e do Sul",
-      "agora": "Comprar sementes cedo, semear só com a chuva instalada e preferir variedades de ciclo curto.",
-      "se_piorar": "Replantar com ciclo curto e pedir apoio ao distrito."
+      "publico": "PMEs fornecedoras",
+      "agora": "Junte certidões, peça o prazo de pagamento por escrito e some os juros ao preço antes de assinar.",
+      "se_piorar": "Renegoceie o prazo ou pare de fornecer."
     },
     {
-      "publico": "Famílias",
-      "agora": "Comprar milho e arroz aos poucos e guardar reserva antes de Janeiro.",
-      "se_piorar": "Cortar gastos que não sejam comida e comparar mercados."
+      "publico": "Contratantes principais",
+      "agora": "Escolha subcontratados com capacidade e ofereça adiantamento de materiais.",
+      "se_piorar": "Divida o risco com garantias e pagamentos por fases."
     },
     {
-      "publico": "PMEs de alimentos e transporte",
-      "agora": "Rever stocks e contratos de fornecimento antes de Janeiro.",
-      "se_piorar": "Negociar preços fixos com fornecedores."
+      "publico": "Bancos e parceiros",
+      "agora": "Crie linhas ligadas ao contrato assinado, com garantia do contratante.",
+      "se_piorar": "Aceite recebíveis do Estado como garantia."
     },
     {
-      "publico": "ONGs e parceiros",
-      "agora": "Antecipar a ajuda nos 52 distritos críticos antes do corte do PAM.",
-      "se_piorar": "Concentrar recursos nos distritos de Sofala e Gaza."
+      "publico": "Trabalhadores e famílias",
+      "agora": "Peça contrato escrito e pagamento mensal em obras de subcontratados.",
+      "se_piorar": "Guarde reserva para dois meses sem salário."
     }
   ],
-  "visao_contraria": "A previsão é de probabilidades, não de certeza. Os solos estão húmidos no Centro e no Sul, as albufeiras estão mais cheias e a época 2025/26 foi chuvosa, o que pode amortecer o choque.",
+  "visao_contraria": "O contratante principal pode ser a melhor garantia de pagamento, porque tem relação directa com o Estado e acesso a crédito mais barato do que uma PME isolada.",
   "nao_sabemos": [
-    "O INAM ainda não publicou a previsão sazonal para a época chuvosa 2026/27.",
-    "Os relatórios dão datas diferentes, de Dezembro a Abril, para o pico de 1,5 a 1,99 milhões a precisar de ajuda.",
-    "Os preços do milho por cidade ainda não foram publicados."
+    "Quem fiscaliza o cumprimento dos 20% ainda não foi publicado.",
+    "O número do decreto não consta das notícias disponíveis.",
+    "Falta o prazo do acordo entre o Standard Bank e a Câmara de Petróleo e Gás."
   ],
-  "sinal": "Chuva acumulada de Dezembro abaixo do normal e milho a subir mais de 15% até Janeiro.",
+  "sinal": "Prime rate abaixo de 15% e prazo de pagamento do Estado a fornecedores abaixo de 90 dias.",
   "confianca": "media",
-  "base_confianca": "Previsão da FEWS NET via Lusa, declarações do Governo de Agosto e o precedente de 2016 em ReliefWeb; sem previsão sazonal do INAM.",
+  "base_confianca": "Regra dos 20% assente em Lusa e Forbes África Lusófona do mesmo dia; crédito do Banco de Moçambique via Lusa; precedente de 2004 antigo.",
   "textos": {
-    "whatsapp": "*DIRECÇÃO DO DIA, 13 DE NOVEMBRO*\n*A chuva vai falhar no pico da época? O que fazer com a sementeira*\n\nA FEWS NET prevê calor acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027. Em Agosto, o Governo apontou 52 distritos críticos no Sul e no Centro. O PAM só mantém a ajuda actual até Dezembro.\n\n*O PRECEDENTE*\nEm 2015/16, com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016 e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.\n\n*A CONTA*\nUma família que gasta 4 000 meticais por mês em milho e arroz paga 416 a mais se o preço subir 10,4%, a subida do milho num mês, em Outubro. Se subir 40%, paga 1 600 a mais, ou 5 600 no total. Estes valores são um exemplo, não um preço publicado.\n\n*TRÊS CENÁRIOS*\n*A chuva falha no pico, 45%.* Dezembro a Fevereiro fica abaixo da média, a colheita do Centro e do Sul perde-se em parte e o milho sobe até Abril de 2027. Perdem as famílias que compram comida.\n\n*Atraso, mas recupera, 35%.* A chuva chega tarde, mas os solos ainda húmidos do Centro e do Sul permitem uma segunda sementeira até meados de Janeiro. Os preços sobem pouco.\n\n*Solo húmido amortece, 20%.* As chuvas ficam perto do normal no Centro e no Norte e a colheita é razoável.\n\n*O QUE OBSERVAR*\nChuva acumulada de Dezembro abaixo do normal, segundo o INAM. Preço do milho a subir mais de 15% entre Dezembro e Janeiro.\n\n*DIRECÇÃO*\nAgricultores: comprem sementes cedo, semeiem só com a chuva instalada e escolham ciclo curto. Famílias: comprem milho e arroz aos poucos e guardem reserva antes de Janeiro.\n\nSe isto ajudou, partilhe com alguém que lavra ou compra milho.",
-    "instagram": "A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e El Niño forte até 2027. Em 2015/16 foram 1,5 milhões em insegurança alimentar. Cenários: chuva falha 45%, atrasa e recupera 35%, solo húmido amortece 20%. Direcção: sementes cedo e reserva de básicos antes de Janeiro. #Moçambique",
-    "facebook": "A chuva pode falhar justamente quando mais faz falta. A FEWS NET prevê calor acima do normal até Abril e chuva abaixo da média entre Dezembro e Fevereiro, por causa do El Niño, que deve durar até 2027.\n\nEm 2015/16, com um El Niño forte, o Governo declarou alerta vermelho e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar.\n\nPara uma família que gasta 4 000 meticais por mês em milho e arroz, um aumento de 10,4% no preço custa mais 416 meticais. Com 40%, são mais 1 600. É um exemplo, não um preço publicado.\n\nTrês cenários. A chuva falha no pico: 45%. A chuva atrasa mas recupera: 35%. O solo húmido amortece o choque: 20%.\n\nO que observar: chuva acumulada de Dezembro abaixo do normal e milho a subir mais de 15% entre Dezembro e Janeiro.\n\nDirecção: quem lavra deve comprar sementes cedo e semear só com a chuva instalada. As famílias devem comprar milho e arroz aos poucos e guardar reserva antes de Janeiro.\n\n#Moçambique #DirecçõesDaSemana",
-    "linkedin": "Os agricultores do Centro e do Sul entram na época 2026/27 com um aviso claro. A FEWS NET prevê temperaturas acima do normal até Abril de 2027 e chuva abaixo da média entre Dezembro e Fevereiro, o pico da época chuvosa. Dá mais de 80% de probabilidade a um El Niño forte até ao início de 2027, segundo a Lusa.\n\nO Governo já tinha identificado, em Agosto, 52 distritos críticos no Sul e no Centro. O Governo diz ter garantido 125 milhões de dólares e prevê ajuda de emergência a 343 773 pessoas. O PAM só mantém a ajuda actual até Dezembro e a ONU dizia em Agosto que o financiamento humanitário cobria 30% das necessidades de 2026.\n\nO precedente é pesado. Em 2015/16, com um El Niño forte, o Governo declarou alerta vermelho a 12 de Abril de 2016 e cerca de 1,5 milhões de pessoas ficaram em insegurança alimentar, segundo a SETSAN.\n\nTrês cenários. A chuva falha no pico, com 45%: a colheita perde-se em parte e o milho sobe até Abril. Atraso mas recuperação, com 35%: a chuva chega tarde, mas os solos húmidos permitem segunda sementeira. Solo húmido amortece, com 20%: chuvas perto do normal no Centro e no Norte.\n\nA conta para uma família que gasta 4 000 meticais por mês em milho e arroz: com preços 10,4% mais altos paga mais 416; com 40%, paga mais 1 600. É um exemplo, com pressupostos próprios.\n\nDirecção\n\nAgricultores: comprar sementes cedo e semear só com a chuva instalada. Empresas de alimentos e transporte: rever stocks e contratos antes de Janeiro. ONGs e parceiros: antecipar a ajuda nos distritos críticos.\n\nA decisão mais barata é a que se toma antes da primeira chuva de Dezembro.\n\n#Moçambique #DirecçõesDaSemana"
+    "whatsapp": "*A REGRA DOS 20% AJUDA AS PMEs, SE O CRÉDITO CHEGAR*\n\nDesde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. Há ainda margens de preferência de 15% para obras e serviços e de 20% para bens produzidos no país, segundo a Lusa e a Forbes África Lusófona de 20 de Agosto.\n\n*O PROBLEMA*\n\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A prime rate está em 15,5% e os juros médios em 22,26%. Num estudo de 2024, 84% dos fornecedores de energia diziam que o financiamento formal cobria menos de metade das necessidades.\n\n*A CONTA*\n\nUm subcontrato de 10 milhões de meticais, financiado a 22,26% ao ano: 90 dias de espera custam 548 877 meticais em juros, 120 dias custam 731 836 e 180 dias custam 1 097 753. Cada mês extra soma cerca de 185 mil.\n\n*TRÊS CENÁRIOS*\n\nCrédito chega às PMEs (20%): o acordo de 2 de Novembro entre o Standard Bank e a Câmara de Petróleo e Gás financia fornecedores e a prime rate desce abaixo de 15% até Junho de 2027.\n\nContratos só para os grandes (50%): as PMEs entram como subcontratadas, mas sem caixa para esperar 120 dias, e o contratante principal fica com a margem.\n\nEstado paga tarde (30%): os atrasos do Estado, que devia 171 milhões de euros a fornecedores no fim de 2025, comem a margem e as PMEs desistem de contratos.\n\n*DIRECÇÃO*\n\nJunte as certidões, peça o prazo de pagamento por escrito e some os juros ao preço antes de assinar. Se o Estado atrasar mais de 90 dias, renegoceie ou pare de fornecer.\n\nA outra visão: o contratante principal pode ser a melhor garantia de pagamento para a PME. Ainda não se sabe como será fiscalizada a regra.\n\nPartilhe com quem tem um negócio.",
+    "instagram": "Obras públicas de 100 milhões ou mais têm de subcontratar 20% a PMEs. Mas 120 dias de espera a 22,26% custam cerca de 732 mil meticais num subcontrato de 10 milhões. Some os juros ao preço antes de assinar. #Moçambique #PMEs",
+    "facebook": "Tem uma empresa pequena e quer fornecer ao Estado? Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais.\n\nÉ uma boa notícia, mas há uma conta a fazer. O crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Se o pagamento demorar 120 dias, um subcontrato de 10 milhões de meticais custa cerca de 732 mil só em juros. Com 180 dias, custa 1,1 milhões.\n\nO Estado ainda devia 171 milhões de euros a fornecedores no fim de 2025, segundo a ministra das Finanças. Por isso, o risco maior é esperar pelo dinheiro.\n\nHá luz do lado do financiamento: a 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores de energia.\n\nA regra ainda não diz quem fiscaliza o cumprimento dos 20%, e o número do decreto não consta das notícias. Quem quiser concorrer deve ler o texto no Boletim da República quando for publicado.\n\nDirecção: junte as certidões, peça o prazo de pagamento por escrito e some os juros ao preço. Se o Estado atrasar mais de 90 dias, renegoceie. #Moçambique #PMEs",
+    "linkedin": "Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. Há margens de preferência de 15% para obras e serviços e de 20% para bens produzidos no país, com pelo menos 35% de insumos nacionais. As compras passam pela Central de Aquisições do Estado, criada em Junho.\n\nA regra abre um mercado. Num contrato como o da Estrada Nacional 324, de 13 154 milhões de meticais, 20% seriam 2 631 milhões para subcontratados, se a regra se aplicar a esse contrato.\n\nO obstáculo é o financiamento. O crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Num estudo de 2024 citado no acordo entre o Standard Bank e a Câmara de Petróleo e Gás, só 27% dos 104 fornecedores tinham crédito bancário e 84% diziam que o financiamento formal cobria menos de metade das necessidades.\n\nO precedente: no projecto Mozal, o programa de ligações de 2004 pôs 15 pequenas empresas em contratos de 5 milhões de dólares. Os resultados iniciais foram mistos, com falta de normas e de formação.\n\nA conta: num subcontrato de 10 milhões de meticais, 120 dias de espera a 22,26% custam cerca de 732 mil em juros. Com 180 dias, o custo sobe para 1,1 milhões.\n\nCenários até Junho de 2027: crédito chega às PMEs (20%), contratos só para os grandes (50%), Estado paga tarde (30%). O Estado devia 171 milhões de euros a fornecedores no fim de 2025.\n\nDirecção: confirme o prazo de pagamento por escrito, some os juros ao preço e não assine sem folga de caixa para 120 dias.\n\nA regra dos 20% só vale para quem consegue esperar pelo pagamento. #Moçambique #PMEs #ComprasPúblicas"
   },
   "fontes": [
     {
-      "fonte": "FEWS NET via Lusa (RTP)",
-      "url": "https://www.rtp.pt/noticias/mundo/temperaturas-acima-da-media-e-menos-chuva-ameacam-campanha-agricola-mocambicana_n1777826",
-      "data": "2026-11-13"
+      "fonte": "Forbes África Lusófona, grandes obras públicas reservam 20% a PMEs",
+      "url": "https://forbesafricalusofona.com/?p=175403",
+      "data": "2026-08-20"
     },
     {
-      "fonte": "Executive Digest (Lusa), 52 distritos críticos",
-      "url": "https://executivedigest.sapo.pt/?p=802158",
-      "data": "2026-08-15"
+      "fonte": "Club of Mozambique, Standard Bank e Câmara de Petróleo e Gás",
+      "url": "https://clubofmozambique.com/news/standard-bank-and-mozambiques-oil-and-gas-chamber-join-forces-to-strengthen-smes-in-energy-sector/",
+      "data": "2026-11-03"
     },
     {
-      "fonte": "ReliefWeb, 1,5 milhões em insegurança alimentar em 2016",
-      "url": "https://m.reliefweb.int/report/1473171",
-      "data": "2016-05-01"
+      "fonte": "Notícias ao Minuto, crédito à economia cai em Agosto",
+      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+      "data": "2026-11-04"
     },
     {
-      "fonte": "FEWS NET Moçambique, Abril de 2016",
-      "url": "https://fews.net/southern-africa/mozambique/food-security-outlook-update/april-2016",
-      "data": "2016-04-30"
+      "fonte": "IFC, programa de ligações Mozal",
+      "url": "https://pressroom.ifc.org/all/pages/PressDetail.aspx?ID=20653",
+      "data": "2004-10-19"
+    },
+    {
+      "fonte": "Forbes África Lusófona, dívidas do Estado a fornecedores",
+      "url": "https://forbesafricalusofona.com/?p=171934",
+      "data": "2026-05"
     }
   ],
-  "data": "2026-11-13",
-  "dia_semana": "sexta",
-  "semana": "2026-S46",
+  "data": "2026-11-16",
+  "dia_semana": "segunda",
+  "semana": "2026-S47",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794542449303
-  }
+  "falhas": []
 }

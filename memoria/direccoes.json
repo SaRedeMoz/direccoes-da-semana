@@ -9,7 +9,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-16",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "A taxa dos combustíveis ainda não foi votada.",
+    "verificada_em": "2026-11-16"
   },
   {
     "id": "D2",
@@ -21,7 +22,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-16",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "Sem decisão final sobre o subsídio.",
+    "verificada_em": "2026-11-16"
   },
   {
     "id": "D3",
@@ -156,7 +158,7 @@
     "verificar_em": "2026-11-12",
     "resultado": "pendente",
     "nota": "Sem preços do milho por cidade; a inflação anual de Outubro ficou em 6,32%.",
-    "verificada_em": "2026-11-14"
+    "verificada_em": "2026-11-16"
   },
   {
     "id": "D14",
@@ -502,8 +504,9 @@
     "tema": "combustivel",
     "horizonte": "semana",
     "verificar_em": "2026-11-15",
-    "resultado": "pendente",
-    "nota": ""
+    "resultado": "parcial",
+    "nota": "O chapa de Maputo manteve os 15 meticais com compensações a operadores.",
+    "verificada_em": "2026-11-16"
   },
   {
     "id": "D42",
@@ -682,6 +685,30 @@
     "tema": "el_nino",
     "horizonte": "mes",
     "verificar_em": "2026-12-15",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D57",
+    "data": "2026-11-16",
+    "semana": "2026-S47",
+    "publico": "PMEs fornecedoras do Estado",
+    "accao": "Juntar certidões e calcular os juros de 90 a 120 dias antes de aceitar subcontrato.",
+    "tema": "compras_publicas",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-16",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D58",
+    "data": "2026-11-16",
+    "semana": "2026-S47",
+    "publico": "Famílias e pequenos negócios",
+    "accao": "Comparar preços e comprar em pequenas quantidades enquanto a inflação sobe.",
+    "tema": "inflacao_precos",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-16",
     "resultado": "pendente",
     "nota": ""
   }
