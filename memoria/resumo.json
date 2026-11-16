@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15",
+  "actualizado": "2026-11-16",
   "indicadores": [
     {
       "id": "gasolina",
@@ -644,6 +644,30 @@
     }
   ],
   "direccoes_a_verificar": [
+    {
+      "id": "D1",
+      "data": "2026-10-16",
+      "semana": "2026-S42",
+      "publico": "Famílias",
+      "accao": "Planear viagens, comparar preços e guardar recibos de tarifas novas.",
+      "tema": "combustivel",
+      "horizonte": "mes",
+      "verificar_em": "2026-11-16",
+      "resultado": "pendente",
+      "nota": ""
+    },
+    {
+      "id": "D2",
+      "data": "2026-10-16",
+      "semana": "2026-S42",
+      "publico": "Transportadores",
+      "accao": "Licenciar a viatura e confirmar a inscrição no subsídio.",
+      "tema": "combustivel",
+      "horizonte": "mes",
+      "verificar_em": "2026-11-16",
+      "resultado": "pendente",
+      "nota": ""
+    },
     {
       "id": "D13",
       "data": "2026-10-21",

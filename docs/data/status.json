@@ -1,32 +1,37 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "pronto",
-      "msg": "Pesquisa feita, 3 itens novos",
-      "em": "2026-11-15T03:37:27.784Z"
+      "estado": "a trabalhar",
+      "msg": "A começar a pesquisa do dia…",
+      "em": "2026-11-16T03:35:38.913Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "Análise e memória gravadas",
-      "em": "2026-11-15T03:38:02.458Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-16T03:35:38.913Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "Design gravado",
-      "em": "2026-11-15T03:38:05.481Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-16T03:35:38.913Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-11-15T03:38:18.034Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-16T03:35:38.913Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "À espera da sua aprovação",
-      "em": "2026-11-15T03:39:12.778Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-11-16T03:35:38.913Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-16T03:35:38.913Z",
+      "agente": "fontes",
+      "msg": "A começar a pesquisa do dia…"
+    },
     {
       "em": "2026-11-15T03:39:12.778Z",
       "agente": "aprovacao",
@@ -221,16 +226,11 @@
       "em": "2026-11-12T04:43:29.579Z",
       "agente": "fontes",
       "msg": "A começar a pesquisa do dia…"
-    },
-    {
-      "em": "2026-11-11T03:38:41.374Z",
-      "agente": "aprovacao",
-      "msg": "Post do dia à espera da sua aprovação"
     }
   ],
-  "actualizado": "2026-11-15T03:39:12.778Z",
-  "semana": "2026-S46",
-  "dia": "2026-11-15",
-  "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
+  "actualizado": "2026-11-16T03:35:38.913Z",
+  "semana": "2026-S47",
+  "dia": "2026-11-16",
+  "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
   "ultimo_notificado": "semana"
 }

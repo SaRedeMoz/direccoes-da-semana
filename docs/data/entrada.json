@@ -1,16 +1,16 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-15",
-  "semana": "2026-S46",
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/8",
-  "dia_semana": "domingo",
-  "post_do_dia": "nenhum",
+  "hoje": "2026-11-16",
+  "semana": "2026-S47",
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
+  "dia_semana": "segunda",
+  "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
@@ -25,12 +25,14 @@
     "Gás, minas e recursos naturais",
     "Educação"
   ],
-  "area_sugerida": "",
+  "area_sugerida": "Negócios e PMEs",
   "edicao_anterior": [
-    "Chapa: subida sem aprovação",
-    "Brent recua para cerca de 105",
-    "Orçamento corta 8% em termos reais",
-    "125 milhões contra o El Niño"
+    "Preços sobem 0,48% em Outubro",
+    "ENH entra nos poços do Coral Norte",
+    "Jogo online só com licença",
+    "Taxa dos combustíveis em debate",
+    "Menos chuva prevista até Fevereiro",
+    "Plano de 39,8 mil milhões para desastres"
   ],
   "noticias_do_aprovador": [],
   "sugestoes_novas": [],
