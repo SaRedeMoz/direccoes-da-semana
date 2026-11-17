@@ -480,5 +480,33 @@
         "direccao": "Registar a empresa e juntar certidões antes de procurar subcontratos."
       }
     ]
+  },
+  {
+    "id": "pmes_credito",
+    "nome": "PMEs e crédito",
+    "estado": "activo",
+    "inicio": "2026-11-17",
+    "historial": [
+      {
+        "data": "2026-11-17",
+        "semana": "2026-S47",
+        "resumo": "A regra dos 20% nas obras públicas e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses e os juros médios estão em 22,26%.",
+        "direccao": "Calcular os juros antes de aceitar um subcontrato."
+      }
+    ]
+  },
+  {
+    "id": "emprego_jovem",
+    "nome": "Emprego jovem",
+    "estado": "activo",
+    "inicio": "2026-11-17",
+    "historial": [
+      {
+        "data": "2026-11-17",
+        "semana": "2026-S47",
+        "resumo": "Segundo o Afrobarometer, 65% dos jovens de 18 a 35 anos dizem estar sem emprego e à procura. O Portal Emprego do INEP foi acordado em Julho.",
+        "direccao": "Juntar formação curta e experiência comprovada, e usar o portal do INEP."
+      }
+    ]
   }
 ]

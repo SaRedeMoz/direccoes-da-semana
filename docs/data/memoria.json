@@ -660,6 +660,32 @@
           "direccao": "Registar a empresa e juntar certidões antes de procurar subcontratos."
         }
       ]
+    },
+    {
+      "id": "pmes_credito",
+      "nome": "PMEs e crédito",
+      "desde": "2026-11-17",
+      "ultimos": [
+        {
+          "data": "2026-11-17",
+          "semana": "2026-S47",
+          "resumo": "A regra dos 20% nas obras públicas e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses e os juros médios estão em 22,26%.",
+          "direccao": "Calcular os juros antes de aceitar um subcontrato."
+        }
+      ]
+    },
+    {
+      "id": "emprego_jovem",
+      "nome": "Emprego jovem",
+      "desde": "2026-11-17",
+      "ultimos": [
+        {
+          "data": "2026-11-17",
+          "semana": "2026-S47",
+          "resumo": "Segundo o Afrobarometer, 65% dos jovens de 18 a 35 anos dizem estar sem emprego e à procura. O Portal Emprego do INEP foi acordado em Julho.",
+          "direccao": "Juntar formação curta e experiência comprovada, e usar o portal do INEP."
+        }
+      ]
     }
   ],
   "direccoes_a_verificar": [
@@ -699,24 +725,24 @@
       "horizonte": "mes",
       "verificar_em": "2026-11-12",
       "resultado": "pendente",
-      "nota": "Sem preços do milho por cidade; a inflação anual de Outubro ficou em 6,32%.",
-      "verificada_em": "2026-11-16"
+      "nota": "Sem preços do milho por cidade; a inflação de Outubro ficou em 6,32%.",
+      "verificada_em": "2026-11-17"
     }
   ],
   "balanco_direccoes": {
     "confirmada": 1,
     "parcial": 12,
     "nao_confirmada": 1,
-    "pendente": 44
+    "pendente": 46
   },
   "ultimas_licoes": [
-    "- 2026-11-09 (2026-S46): Uma cotação à vista do Brent pode divergir do fecho: convém confirmar o fecho oficial antes de publicar.",
     "- 2026-11-10 (2026-S46): Às terças a pesquisa devolve pouco material datado: o decreto do ensino privado serviu de assunto do dia e os artigos de origem nem sempre trazem data.",
     "- 2026-11-11 (2026-S46): Às quartas a pesquisa devolve poucos preços datados nas capitais da Beira e de Nampula, e a inflação de Outubro por cidade ainda não saiu.",
     "- 2026-11-12 (2026-S46): A inflação de Outubro chegou por cobertura jornalística antes do comunicado do INE; convém confirmar no INE antes de publicar valores por cidade.",
     "- 2026-11-13 (2026-S46): Às sextas a pesquisa devolve pouco material datado: a previsão da FEWS NET chegou por Lusa sem data de publicação visível e o INAM não tem previsão sazonal 2026/27 acessível.",
     "- 2026-11-14 (2026-S46): As páginas diárias do Club of Mozambique bloqueiam a leitura automática; convém usar a pesquisa por título.",
     "- 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.",
-    "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia."
+    "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.",
+    "- 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar."
   ]
 }

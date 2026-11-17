@@ -157,8 +157,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-12",
     "resultado": "pendente",
-    "nota": "Sem preços do milho por cidade; a inflação anual de Outubro ficou em 6,32%.",
-    "verificada_em": "2026-11-16"
+    "nota": "Sem preços do milho por cidade; a inflação de Outubro ficou em 6,32%.",
+    "verificada_em": "2026-11-17"
   },
   {
     "id": "D14",
@@ -709,6 +709,30 @@
     "tema": "inflacao_precos",
     "horizonte": "mes",
     "verificar_em": "2026-12-16",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D59",
+    "data": "2026-11-17",
+    "semana": "2026-S47",
+    "publico": "Jovens à procura de emprego",
+    "accao": "Inscrever-se no portal do INEP e juntar formação curta e experiência comprovada.",
+    "tema": "emprego_jovem",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-17",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D60",
+    "data": "2026-11-17",
+    "semana": "2026-S47",
+    "publico": "Jovens com negócio próprio",
+    "accao": "Comparar o custo total do crédito em dois bancos antes de pedir 100 000 meticais.",
+    "tema": "emprego_jovem",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-17",
     "resultado": "pendente",
     "nota": ""
   }

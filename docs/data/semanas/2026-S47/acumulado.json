@@ -15,7 +15,7 @@
     },
     {
       "titulo": "Julgamento de Venâncio Mondlane começa a 17 de Novembro no Tribunal Supremo",
-      "resumo": "O Tribunal Supremo adiou o início do julgamento de 6 de Outubro para 17 de Novembro a pedido da defesa. O tribunal recusou a transmissão em directo e permite a presença de jornalistas, que podem tomar notas escritas.",
+      "resumo": "O Tribunal Supremo adiou o início do julgamento de 6 de Outubro para 17 de Novembro a pedido da defesa. O tribunal recusou a transmissão em directo e permite a presença de jornalistas, que podem tomar notas escritas. Actualização (2026-11-17): O julgamento está marcado para hoje, 17 de Novembro, sem transmissão em directo.",
       "ambito": "nacional",
       "dimensao": "Legal",
       "categoria": "imprensa_nacional",
@@ -25,12 +25,25 @@
       "confianca": "media",
       "n": 2,
       "recolhida": "2026-11-16"
+    },
+    {
+      "titulo": "Receitas do Estado sobem 10,3% até Setembro e despesa cai 7%",
+      "resumo": "De Janeiro a Setembro, o Estado cobrou cerca de 3 927 milhões de euros, mais 10,3% do que há um ano, e gastou cerca de 3 942 milhões, menos 7%, segundo um relatório do Governo. O défice ficou perto de 15 milhões de euros.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_economica",
+      "fonte": "Forbes África Lusófona, com Lusa",
+      "url": "https://forbesafricalusofona.com/?p=178532",
+      "data": "2026-11-04",
+      "confianca": "media",
+      "n": 3,
+      "recolhida": "2026-11-17"
     }
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 1,
-  "proximo_n": 3,
+  "versao": 2,
+  "proximo_n": 4,
   "lacunas": [
     "Preços de milho, arroz e chapa na Beira e em Nampula",
     "Inflação de Outubro por cidade (INE)",
@@ -60,6 +73,36 @@
       "fonte": "SADC",
       "url": "https://www.sadc.int",
       "data": "2026-11-16"
+    },
+    {
+      "categoria": "analise_independente",
+      "fonte": "Afrobarometer",
+      "url": "https://www.afrobarometer.org/articles/os-jovens-mocambicanos-enfrentam-dificuldades-para-encontrar-emprego-afirmando-que-sao-prejudicados-pela-falta-de-formacao-e-de-experiencia-profissional/",
+      "data": "2026-11-17"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "Banco de Moçambique",
+      "url": "https://bancomoc.mz/en/media/highlights/mimo-policy-rate-unchanged-at-9-25-29-07-26/",
+      "data": "2026-11-17"
+    },
+    {
+      "categoria": "regional",
+      "fonte": "SADC",
+      "url": "https://sadc.int/latest-news/communique-46th-ordinary-summit-sadc-heads-state-and-government-17th-august-2026",
+      "data": "2026-11-17"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (Forbes África Lusófona)",
+      "url": "https://forbesafricalusofona.com/?p=178532",
+      "data": "2026-11-17"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "Trading Economics",
+      "url": "https://tradingeconomics.com",
+      "data": "2026-11-17"
     }
   ],
   "analise": {
@@ -83,7 +126,9 @@
         "Decreto 54/2026 obriga o ensino privado a ser presencial",
         "ENH entra na campanha de poços do Coral Norte",
         "FEWS NET prevê menos chuva entre Dezembro e Fevereiro, com El Niño forte até 2027",
-        "Regras do jogo online entram em vigor a 20 de Novembro"
+        "Regras do jogo online entram em vigor a 20 de Novembro",
+        "Dois em cada três jovens dizem estar sem emprego e à procura, segundo o Afrobarometer",
+        "Receitas do Estado sobem 10,3% até Setembro e a despesa cai 7%"
       ]
     },
     "pestal": [
@@ -166,6 +211,10 @@
           },
           {
             "texto": "Ajuda de emergência a 343 773",
+            "origem": "interna"
+          },
+          {
+            "texto": "Portal Emprego para jovens",
             "origem": "interna"
           }
         ],
@@ -356,11 +405,15 @@
       {
         "publico": "Agricultores",
         "accao": "Comprar sementes e insumos cedo, antes do início tardio das chuvas."
+      },
+      {
+        "publico": "Jovens à procura de emprego",
+        "accao": "Inscrever-se no portal do INEP e juntar formação curta e experiência comprovada antes de candidaturas."
       }
     ],
     "sinal": "Publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO e primeiros contratos a PMEs ao abrigo da regra dos 20%.",
     "sintese": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. O Governo quer subir a taxa sobre combustíveis e o crédito à economia caiu pelo terceiro mês, com juros médios de 22,26%. Para as PMEs, a regra que reserva 20% das grandes obras públicas e o acordo entre o Standard Bank e a Câmara de Petróleo e Gás abrem contratos, mas só ajudam quem tiver crédito para os executar.",
-    "o_que_mudou_hoje": "O Standard Bank e a Câmara de Petróleo e Gás assinaram a 2 de Novembro um acordo para integrar PMEs nos projectos de energia. O julgamento de Venâncio Mondlane começa a 17 de Novembro no Tribunal Supremo, sem transmissão em directo.",
+    "o_que_mudou_hoje": "O julgamento de Venâncio Mondlane começa hoje no Tribunal Supremo, sem transmissão em directo. O Estado cobrou mais 10,3% até Setembro e gastou menos 7%, o que deixa pouca folga para criar emprego público.",
     "canais": [
       {
         "choque": "Taxa sobre combustíveis sobe",
@@ -483,7 +536,7 @@
       "grau": "media",
       "base": "dados do INE por cobertura jornalística, FEWS NET via Lusa, Club of Mozambique e declarações oficiais; a taxa dos combustíveis e Temane assentam numa só fonte"
     },
-    "continuidade": "O crédito às PMEs volta com facto novo: o decreto de Agosto reserva 20% das grandes obras públicas a PMEs e o acordo com a banca promete financiamento. A inflação, a taxa dos combustíveis e o clima mantêm o quadro da semana passada."
+    "continuidade": "O assunto do emprego volta com facto novo: o Afrobarometer mostra que 65% dos jovens dizem estar sem trabalho. O crédito às PMEs, a taxa dos combustíveis e o clima mantêm o quadro dos dias anteriores."
   },
   "design": {
     "slides": [
@@ -506,7 +559,7 @@
         "imagem_termos": "Maputo bank building"
       },
       {
-        "titulo": "Mondlane a julgamento a 17 de Novembro",
+        "titulo": "Mondlane a julgamento hoje",
         "texto": "O Tribunal Supremo recusou a transmissão em directo. Os jornalistas podem assistir e tomar notas.",
         "tom": "neutro",
         "imagem_termos": "Maputo courthouse"
@@ -535,10 +588,13 @@
       "#Moçambique",
       "#PMEs"
     ],
-    "fontes_usadas": []
+    "fontes_usadas": [
+      1,
+      2
+    ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\n\nO Brent fechou a 98,29 dólares a 5 de Novembro. O novo programa do FMI para Moçambique pode ficar fechado só até ao fim do ano. Cerca de 20 000 moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n*MOÇAMBIQUE*\n\nDesde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. A 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores dos projectos de energia. Ao mesmo tempo, o crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. O julgamento de Venâncio Mondlane começa a 17 de Novembro no Tribunal Supremo.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham as PMEs com certidões em dia e folga de caixa, e os investidores em títulos públicos. Perdem as famílias de rendimento baixo, que gastam quase tudo em comida e transporte, e as PMEs que dependem de crédito caro.\n\n*DIRECÇÃO*\n\nQuem fornece ao Estado deve juntar as certidões e calcular os juros de 90 a 120 dias antes de aceitar um subcontrato. As famílias devem comparar preços e guardar reserva de básicos antes de Dezembro.\n\n*PRÓXIMA SEMANA*\n\nFique atento à inflação de Novembro, à votação da taxa sobre combustíveis e ao Comité Central da Frelimo, a 27 e 28 de Novembro.\n\nPartilhe esta mensagem com quem tem um negócio.",
+    "whatsapp": "*MUNDO*\n\nO Brent fechou a 98,29 dólares a 5 de Novembro. O novo programa do FMI para Moçambique pode ficar fechado só até ao fim do ano. Milhares de moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n*MOÇAMBIQUE*\n\nDesde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. A 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores dos projectos de energia. Ao mesmo tempo, o crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. O julgamento de Venâncio Mondlane começa a 17 de Novembro no Tribunal Supremo.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham as PMEs com certidões em dia e folga de caixa, e os investidores em títulos públicos. Perdem as famílias de rendimento baixo, que gastam quase tudo em comida e transporte, e as PMEs que dependem de crédito caro.\n\n*DIRECÇÃO*\n\nQuem fornece ao Estado deve juntar as certidões e calcular os juros antes de aceitar um subcontrato. As famílias devem comparar preços e guardar reserva de básicos antes de Dezembro.\n\n*PRÓXIMA SEMANA*\n\nFique atento à inflação de Novembro, à votação da taxa sobre combustíveis e ao Comité Central da Frelimo, a 27 e 28 de Novembro.\n\nPartilhe esta mensagem com quem tem um negócio.",
     "linkedin": "Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a micro, pequenas e médias empresas nacionais. A regra vale também para as compras centralizadas pela Central de Aquisições do Estado, criada em Junho.\n\nA 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para integrar PMEs nas cadeias de fornecimento dos projectos de energia. Num estudo de 2024, só 27% dos 104 fornecedores inquiridos tinham crédito bancário, e 84% diziam que o financiamento formal cobria menos de metade das necessidades.\n\nO problema está no dinheiro. O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A prime rate está em 15,5% e os juros médios em 22,26%. Um fornecedor pode esperar 90 a 120 dias pelo pagamento, e o Estado ainda deve a fornecedores 171 milhões de euros do fim de 2025, segundo a ministra das Finanças.\n\nO resto da semana traz inflação anual de 6,32%, uma taxa sobre combustíveis em debate e menos chuva prevista até Fevereiro.\n\nDirecção\n\nAntes de aceitar um subcontrato, a PME deve juntar certidões, confirmar o prazo de pagamento por escrito e somar os juros desse prazo ao preço. Num contrato de 10 milhões de meticais, 120 dias de crédito a 22,26% custam cerca de 732 mil.\n\nA regra dos 20% só ajuda quem consegue executar a obra sem esperar pelo Estado. #Moçambique #PMEs #ComprasPúblicas",
     "instagram": "Desde Agosto, as grandes obras públicas têm de subcontratar 20% a PMEs. Mas o crédito caiu pelo terceiro mês e os juros médios estão em 22,26%. Antes de aceitar um subcontrato, some os juros do prazo de pagamento ao preço. #Moçambique #PMEs",
     "facebook": "Se tem uma empresa pequena, esta semana há uma notícia para si. Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais.\n\nA 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores dos projectos de energia.\n\nMas há um custo. O crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Se o pagamento demorar 120 dias, um subcontrato de 10 milhões de meticais custa cerca de 732 mil só em juros.\n\nOs preços também subiram 0,48% em Outubro, segundo o INE, e a inflação anual ficou em 6,32%. O Governo quer subir a taxa sobre os combustíveis, e o gasóleo pode ficar 6,36 meticais mais caro por litro.\n\nA direcção desta semana: antes de aceitar um subcontrato, junte as certidões, peça o prazo de pagamento por escrito e some os juros ao preço. #Moçambique #PMEs",
@@ -547,8 +603,10 @@
       "Decreto das compras públicas: valor de 100 milhões e 20% assentam numa notícia da Lusa/Forbes de 20 de Agosto, sem número do decreto",
       "Dívida a fornecedores de 171 milhões de euros no fim de 2025 (ministra das Finanças)",
       "Data do início do julgamento de Mondlane a 17 de Novembro",
-      "⚠️ Categorias de fontes não consultadas hoje: oficiais",
-      "⚠️ 2 notícias sobre combustível ou chapa na edição (máximo 1)"
+      "65% dos jovens de 18 a 35 anos sem emprego e à procura: Afrobarometer, publicado a 23 de Junho de 2026",
+      "Receitas do Estado mais 10,3% e despesa menos 7% até Setembro: relatório do Governo via Lusa",
+      "⚠️ 2 notícias sobre combustível ou chapa na edição (máximo 1)",
+      "⚠️ A edição só cobre 2 dimensões do PESTAL (mínimo 4)"
     ],
     "duvidas": [],
     "conformidade": [
@@ -620,14 +678,14 @@
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-11-16",
+    "em": "2026-11-17",
     "indicadores": 0,
     "temas": 2,
     "direccoes": 2
   },
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: oficiais",
-    "2 notícias sobre combustível ou chapa na edição (máximo 1)"
+    "2 notícias sobre combustível ou chapa na edição (máximo 1)",
+    "A edição só cobre 2 dimensões do PESTAL (mínimo 4)"
   ],
   "incluir_itens": []
 }

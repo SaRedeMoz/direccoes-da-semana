@@ -1,0 +1,248 @@
+{
+  "tipo": "dia",
+  "area": "Emprego e trabalho",
+  "tema": "Desemprego jovem: o que muda até 2027",
+  "pergunta": "65% dos jovens dizem estar sem emprego: o que muda até 2027?",
+  "facto": {
+    "texto": "Segundo o Afrobarometer, publicado a 23 de Junho de 2026, 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura de trabalho, e mais 21% estão sem emprego e não procuram. Os jovens apontam a falta de formação (30%) e a falta de experiência exigida (19%) como as maiores barreiras. O Governo quer baixar o desemprego de 18,4% para 17% até 2029.",
+    "numeros": [
+      {
+        "valor": "65%",
+        "legenda": "jovens sem emprego, à procura"
+      },
+      {
+        "valor": "21%",
+        "legenda": "sem emprego, já não procuram"
+      },
+      {
+        "valor": "46%",
+        "legenda": "querem negócio próprio"
+      }
+    ],
+    "fonte": "Afrobarometer, 23 de Junho de 2026; Lusa, Setembro de 2025"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Ago 2023",
+      "texto": "Decreto 45/2023: vagas comunicadas ao INEP",
+      "futuro": false
+    },
+    {
+      "data": "23 Jun",
+      "texto": "Afrobarometer: 65% dos jovens sem emprego",
+      "futuro": false
+    },
+    {
+      "data": "10 Jul",
+      "texto": "INEP assina memorando do Portal Emprego",
+      "futuro": false
+    },
+    {
+      "data": "Dez",
+      "texto": "Termina a ajuda actual do PAM",
+      "futuro": true
+    },
+    {
+      "data": "Dez a Fev",
+      "texto": "Chuva abaixo da média prevista, El Niño forte",
+      "futuro": true
+    },
+    {
+      "data": "2029",
+      "texto": "Meta oficial: desemprego em 17%",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Agosto de 2023",
+    "o_que_aconteceu": "O Decreto 45/2023 passou a obrigar empregadores a comunicar vagas ao INEP sete dias antes de as anunciar. Três anos depois, dois terços dos jovens dizem continuar sem emprego.",
+    "licao": "Uma regra sobre vagas não cria vagas: é preciso empresas a crescer.",
+    "fonte": "DLA Piper Africa; Afrobarometer"
+  },
+  "porque_importa": "Um jovem sem emprego depende da família, adia casa e filhos e tem menos poupança para uma colheita má. Com 46% a querer negócio próprio e crédito a 22,26%, o caminho mais desejado é também um dos mais caros.",
+  "canal": {
+    "passos": [
+      "Crédito caro e a cair",
+      "Menos PMEs a contratar",
+      "Jovens vão para o informal",
+      "Rendimento baixo e instável"
+    ],
+    "quem_sente": "Jovens de 18 a 35 anos e as suas famílias"
+  },
+  "conta": {
+    "titulo": "Crédito de 100 000 MT para um negócio",
+    "pressupostos": "Prestações iguais durante 12 meses. 22,26% é a taxa média; 15,5% é a prime, para os melhores clientes.",
+    "barras": [
+      {
+        "rotulo": "Juros a 22,26%",
+        "valor": 12463,
+        "texto": "12 463 MT"
+      },
+      {
+        "rotulo": "Juros a 15,5%",
+        "valor": 8593,
+        "texto": "8 593 MT"
+      }
+    ],
+    "unidade": "MT de juros em 12 meses",
+    "conclusao": "A diferença é de 3 870 MT, ou 323 MT por mês, quase uma semana de vendas de uma banca pequena."
+  },
+  "cenarios": [
+    {
+      "nome": "Contratos criam vagas",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Os incentivos existem há pouco tempo e o crédito caiu três meses seguidos; por isso a probabilidade é baixa.",
+      "gatilho": "Primeiros subcontratos a PMEs com a regra dos 20% e juros médios abaixo de 20%",
+      "o_que_acontece": "Obras públicas e projectos de energia obrigam a subcontratar PMEs, que contratam jovens com formação curta.",
+      "numeros": "Juros médios de 18% a 20%",
+      "quando": "até Setembro de 2027",
+      "ganha": "Jovens com formação técnica",
+      "perde": "Quem depende só do informal",
+      "se_acontecer": "Candidatar-se a estágios e a fornecedores locais com certidões em dia."
+    },
+    {
+      "nome": "O informal absorve",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Em três anos o decreto de 2023 não mudou o quadro, e o crédito está caro; é o cenário mais provável, sem chegar a metade.",
+      "gatilho": "Crédito sem recuperação e portal sem vagas novas visíveis",
+      "o_que_acontece": "Os jovens continuam a fazer biscates e pequeno comércio, sem contrato nem protecção.",
+      "numeros": "Juros médios de 21% a 23%",
+      "quando": "durante 2027",
+      "ganha": "Comércio de rua e transporte informal",
+      "perde": "Jovens sem poupança nem formação",
+      "se_acontecer": "Juntar formação curta e guardar reserva para os meses de menos venda."
+    },
+    {
+      "nome": "Choque no campo e regressos",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "O El Niño está previsto e a ajuda do PAM só segue até Dezembro; o risco é real mas depende da chuva.",
+      "gatilho": "Chuva abaixo da média de Dezembro a Fevereiro e corte da ajuda do PAM",
+      "o_que_acontece": "Menos colheita empurra famílias rurais para a cidade e os regressados da África do Sul procuram o mesmo trabalho.",
+      "numeros": "Milho mais caro e mais candidatos por vaga",
+      "quando": "de Janeiro a Abril de 2027",
+      "ganha": "Quem vende comida e insumos",
+      "perde": "Famílias rurais e recém-chegados",
+      "se_acontecer": "Comprar sementes cedo e procurar trabalho sazonal antes de Janeiro."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Juros médios do crédito à economia",
+      "limiar": "Abaixo de 20% em duas leituras seguidas",
+      "quando": "até Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Vagas anunciadas no portal do INEP",
+      "limiar": "Mais vagas que o trimestre anterior",
+      "quando": "até Fevereiro de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Chuva acumulada no Centro e no Sul",
+      "limiar": "Abaixo da média até 31 de Janeiro",
+      "quando": "31 de Janeiro de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Ajuda alimentar do PAM",
+      "limiar": "Cortada em Janeiro",
+      "quando": "Janeiro de 2027",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Jovens de 18 a 35 anos",
+      "saldo": -2,
+      "porque": "muitos à procura, poucas vagas"
+    },
+    {
+      "grupo": "Famílias rurais",
+      "saldo": -1,
+      "porque": "chuva fraca e ajuda a cortar"
+    },
+    {
+      "grupo": "Regressados da África do Sul",
+      "saldo": -2,
+      "porque": "perderam rendimento e procuram trabalho"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": -1,
+      "porque": "crédito caro limita contratações"
+    },
+    {
+      "grupo": "Fornecedores do Estado e da energia",
+      "saldo": 1,
+      "porque": "regra dos 20% abre contratos"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Jovens à procura de trabalho",
+      "agora": "Inscrever-se no portal do INEP e juntar formação curta e prova de experiência.",
+      "se_piorar": "Procurar trabalho sazonal e guardar reserva."
+    },
+    {
+      "publico": "Jovens com negócio próprio",
+      "agora": "Comparar o custo total do crédito em dois bancos antes de assinar.",
+      "se_piorar": "Adiar o investimento e vender com o que tem."
+    },
+    {
+      "publico": "PMEs",
+      "agora": "Abrir estágios e candidatar-se a subcontratos com certidões em dia.",
+      "se_piorar": "Contratar por tarefa e não aumentar custos fixos."
+    },
+    {
+      "publico": "Famílias rurais",
+      "agora": "Comprar sementes cedo e planear rendimento de fora da machamba.",
+      "se_piorar": "Guardar reserva de milho e procurar apoio local."
+    }
+  ],
+  "visao_contraria": "O desemprego declarado pode exagerar o problema: muitos jovens trabalham no informal e não se contam como empregados. O inquérito mede opinião, não a taxa oficial.",
+  "nao_sabemos": [
+    "O INE ainda não publicou uma taxa de desemprego jovem recente.",
+    "Quantas vagas o Portal Emprego já listou e quando arranca."
+  ],
+  "sinal": "Juros médios do crédito abaixo de 20% e mais vagas no portal do INEP.",
+  "confianca": "media",
+  "base_confianca": "Afrobarometer (inquérito de opinião), meta do Governo via Lusa, DLA Piper; sem taxa oficial do INE recente",
+  "textos": {
+    "whatsapp": "*A SITUAÇÃO*\n\nSegundo o Afrobarometer, publicado a 23 de Junho, 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura de trabalho. Outros 21% estão sem emprego e não procuram. Os jovens apontam a falta de formação (30%) e a falta de experiência pedida pelos empregadores (19%) como as maiores barreiras.\n\n*O QUE O GOVERNO FEZ*\n\nEm Julho, o Instituto Nacional de Emprego assinou um memorando para criar um Portal Emprego, que liga jovens e empregadores. Desde 2023, as empresas têm de comunicar as vagas ao INEP sete dias antes de as anunciar. O Governo quer baixar o desemprego de 18,4% para 17% até 2029.\n\n*TRÊS CAMINHOS ATÉ 2027*\n\nMelhora, 20%: os contratos públicos com 20% para PMEs e o acordo da banca com o sector da energia geram vagas, e os juros descem abaixo de 20%.\n\nFica igual, 45%: os jovens continuam a trabalhar por conta própria, sem contrato nem protecção.\n\nPiora, 35%: o El Niño reduz a colheita, a ajuda do PAM corta em Janeiro e os regressados da África do Sul procuram o mesmo trabalho.\n\n*A CONTA*\n\nUm jovem que peça 100 000 meticais para um negócio, a pagar em 12 meses, paga 12 463 meticais de juros a 22,26%, a taxa média do crédito. A 15,5%, a taxa prime, pagaria 8 593. A diferença é de 3 870 meticais, ou 323 por mês. A prime é para os melhores clientes, por isso o primeiro valor é o mais provável.\n\n*DIRECÇÃO*\n\nInscreva-se no portal do INEP, junte formação curta e prova de experiência, e compare o custo total do crédito em dois bancos antes de assinar.\n\nO argumento contrário: o desemprego declarado pode exagerar, porque muitos jovens trabalham no informal.\n\nPartilhe com um jovem que procura trabalho.",
+    "instagram": "Dois em cada três jovens moçambicanos, 65%, dizem estar sem emprego e à procura (Afrobarometer). Um crédito de 100 000 MT custa 12 463 MT de juros a 22,26% e 8 593 a 15,5%. Até 2027: melhora 20%, fica igual 45%, piora 35%. Inscreva-se no portal do INEP e compare o crédito em dois bancos. #Moçambique #Emprego",
+    "facebook": "Dois em cada três jovens moçambicanos dizem estar sem emprego. É o que mostra o Afrobarometer, publicado a 23 de Junho: 65% dos que têm entre 18 e 35 anos procuram trabalho e não encontram, e mais 21% já desistiram de procurar.\n\nOs jovens dizem que falta formação (30%) e que os empregadores pedem experiência que eles não têm (19%). Quase metade, 46%, quer abrir o seu próprio negócio.\n\nO Governo respondeu em Julho com um Portal Emprego, assinado com o INEP, e quer baixar o desemprego de 18,4% para 17% até 2029. Mas o crédito é caro: os juros médios estão em 22,26%.\n\nUm exemplo: quem pede 100 000 meticais por 12 meses a 22,26% paga 12 463 meticais de juros. A 15,5%, pagaria 8 593.\n\nAté 2027, vemos três caminhos. Melhora, com 20% de probabilidade, se os contratos públicos e os acordos com a banca criarem vagas. Fica igual, com 45%, se o informal continuar a absorver os jovens. Piora, com 35%, se a seca do El Niño e a saída de moçambicanos da África do Sul pesarem sobre o campo e as cidades.\n\nA nossa direcção: inscreva-se no portal do INEP, junte formação curta e compare o custo do crédito em dois bancos antes de assinar.",
+    "linkedin": "O desemprego jovem é o problema económico mais visível de Moçambique, e os dados mais recentes confirmam-no. O Afrobarometer, publicado a 23 de Junho, mostra que 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura, e que 21% já não procuram. As barreiras que apontam são a falta de formação (30%) e a falta de experiência exigida (19%).\n\nA resposta oficial tem dois lados. Desde 2023, o Decreto 45/2023 obriga os empregadores a comunicar vagas ao INEP sete dias antes de as anunciar. Em Julho, o INEP assinou um memorando para um Portal Emprego. O Governo quer baixar o desemprego de 18,4% para 17% até 2029. Três anos depois do decreto, a procura continua a ser muito maior do que as vagas: uma lei não cria vagas por si só.\n\nO que pode mudar até 2027, na nossa estimativa:\n\nMelhora, 20%: a regra que reserva 20% das grandes obras públicas a PMEs e o acordo do Standard Bank com a Câmara de Petróleo e Gás geram contratos e contratações, e os juros descem abaixo de 20%.\n\nFica igual, 45%: o trabalho por conta própria continua a absorver os jovens, sem contrato.\n\nPiora, 35%: o El Niño reduz a colheita, o PAM corta a ajuda em Janeiro e os moçambicanos que regressam da África do Sul procuram o mesmo trabalho.\n\nA conta de um negócio novo: 100 000 meticais a 12 meses custam 12 463 meticais de juros a 22,26%, a taxa média, e 8 593 a 15,5%, a taxa prime. A diferença é de 3 870 meticais.\n\nDirecção: para o jovem, portal do INEP, formação curta e prova de experiência; para o empregador, publicar as vagas e abrir estágios; para a PME, calcular o custo total do crédito antes de contratar.\n\nQuem emprega mais jovens este ano será quem conseguir crédito a menos de 20%."
+  },
+  "fontes": [
+    {
+      "fonte": "Afrobarometer",
+      "url": "https://www.afrobarometer.org/articles/os-jovens-mocambicanos-enfrentam-dificuldades-para-encontrar-emprego-afirmando-que-sao-prejudicados-pela-falta-de-formacao-e-de-experiencia-profissional/",
+      "data": "2026-06-23"
+    },
+    {
+      "fonte": "Lusa (Observador)",
+      "url": "https://observador.pt/2025/09/12/mocambique-quer-desemprego-nos-17-ate-2029-apesar-dos-desafios-estruturais/",
+      "data": "2025-09-12"
+    },
+    {
+      "fonte": "Lusa (AMAN), Portal Emprego",
+      "url": "https://aman-alliance.org/Home/ContentDetail/104922",
+      "data": "2026-07-10"
+    },
+    {
+      "fonte": "DLA Piper Africa, Decreto 45/2023",
+      "url": "https://www.dlapiperafrica.com/pt/mozambique/insights/2023/Duty-to-Communicate-Job-Vacancies-and-Pre-Professional-Internships.html",
+      "data": "2023-08-01"
+    }
+  ],
+  "data": "2026-11-17",
+  "dia_semana": "terca",
+  "semana": "2026-S47",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos e post do dia gravados",
-      "em": "2026-11-17T05:36:02.990Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-17T05:36:11.284Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-17T05:36:11.284Z",
+      "agente": "editor",
+      "msg": "Edição versão 2 montada"
+    },
+    {
+      "em": "2026-11-17T05:36:11.284Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Desemprego jovem: o que muda até 2027"
+    },
     {
       "em": "2026-11-17T05:36:02.990Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-11-13T03:58:45.134Z",
       "agente": "editor",
       "msg": "Textos e post do dia prontos"
-    },
-    {
-      "em": "2026-11-13T03:57:54.809Z",
-      "agente": "editor",
-      "msg": "A preparar o post do dia"
-    },
-    {
-      "em": "2026-11-13T03:57:53.234Z",
-      "agente": "design",
-      "msg": "Capa e sete slides"
     }
   ],
-  "actualizado": "2026-11-17T05:36:02.990Z",
+  "actualizado": "2026-11-17T05:36:11.284Z",
   "semana": "2026-S47",
   "dia": "2026-11-17",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",

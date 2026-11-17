@@ -1,307 +1,248 @@
 {
   "tipo": "dia",
-  "area": "Negócios e PMEs",
-  "tema": "Regra dos 20% nas obras públicas: ajuda PMEs sem crédito?",
-  "pergunta": "20% das obras públicas para PMEs: quem tem dinheiro para esperar?",
+  "area": "Emprego e trabalho",
+  "tema": "Desemprego jovem: o que muda até 2027",
+  "pergunta": "65% dos jovens dizem estar sem emprego: o que muda até 2027?",
   "facto": {
-    "texto": "Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. As margens de preferência são de 15% para obras e serviços e de 20% para bens produzidos no país. O crédito à economia caiu em Agosto pelo terceiro mês seguido.",
+    "texto": "Segundo o Afrobarometer, publicado a 23 de Junho de 2026, 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura de trabalho, e mais 21% estão sem emprego e não procuram. Os jovens apontam a falta de formação (30%) e a falta de experiência exigida (19%) como as maiores barreiras. O Governo quer baixar o desemprego de 18,4% para 17% até 2029.",
     "numeros": [
       {
-        "valor": "20%",
-        "legenda": "das obras para PMEs"
+        "valor": "65%",
+        "legenda": "jovens sem emprego, à procura"
       },
       {
-        "valor": "22,26%",
-        "legenda": "juros médios do crédito"
+        "valor": "21%",
+        "legenda": "sem emprego, já não procuram"
       },
       {
-        "valor": "291 169 M MT",
-        "legenda": "crédito à economia em Agosto"
+        "valor": "46%",
+        "legenda": "querem negócio próprio"
       }
     ],
-    "fonte": "Lusa e Forbes África Lusófona (20 de Agosto de 2026); Banco de Moçambique via Lusa (4 de Novembro de 2026)"
+    "fonte": "Afrobarometer, 23 de Junho de 2026; Lusa, Setembro de 2025"
   },
   "linha_do_tempo": [
     {
-      "data": "Jun",
-      "texto": "Criada a Central de Aquisições do Estado",
+      "data": "Ago 2023",
+      "texto": "Decreto 45/2023: vagas comunicadas ao INEP",
       "futuro": false
     },
     {
-      "data": "Ago",
-      "texto": "Obras de 100 milhões ou mais subcontratam 20% a PMEs",
+      "data": "23 Jun",
+      "texto": "Afrobarometer: 65% dos jovens sem emprego",
       "futuro": false
     },
     {
-      "data": "2 Nov",
-      "texto": "Standard Bank e Câmara de Petróleo e Gás assinam acordo",
+      "data": "10 Jul",
+      "texto": "INEP assina memorando do Portal Emprego",
       "futuro": false
     },
     {
-      "data": "31 Dez",
-      "texto": "Planos de aquisição do conteúdo local entregues",
+      "data": "Dez",
+      "texto": "Termina a ajuda actual do PAM",
       "futuro": true
     },
     {
-      "data": "Mar 2027",
-      "texto": "Primeiros subcontratos a PMEs a receber pagamento",
+      "data": "Dez a Fev",
+      "texto": "Chuva abaixo da média prevista, El Niño forte",
+      "futuro": true
+    },
+    {
+      "data": "2029",
+      "texto": "Meta oficial: desemprego em 17%",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "2004, projecto Mozal, Maputo",
-    "o_que_aconteceu": "O programa de ligações da Mozal pôs 15 pequenas empresas em contratos de 5 milhões de dólares. Os resultados iniciais foram mistos, com falta de normas e de formação.",
-    "licao": "Reservar contratos funciona com formação, financiamento e pagamento a prazo claro.",
-    "fonte": "IFC (19 de Outubro de 2004) e BHP (2003)"
+    "quando": "Agosto de 2023",
+    "o_que_aconteceu": "O Decreto 45/2023 passou a obrigar empregadores a comunicar vagas ao INEP sete dias antes de as anunciar. Três anos depois, dois terços dos jovens dizem continuar sem emprego.",
+    "licao": "Uma regra sobre vagas não cria vagas: é preciso empresas a crescer.",
+    "fonte": "DLA Piper Africa; Afrobarometer"
   },
-  "porque_importa": "Quem fornece ao Estado pode ganhar contratos que antes não via, mas só os executa com caixa. O pagamento tardio e o crédito a mais de 20% decidem se a regra cria negócios ou só papel.",
+  "porque_importa": "Um jovem sem emprego depende da família, adia casa e filhos e tem menos poupança para uma colheita má. Com 46% a querer negócio próprio e crédito a 22,26%, o caminho mais desejado é também um dos mais caros.",
   "canal": {
     "passos": [
-      "Obra pública adjudicada",
-      "Contratante subcontrata PMEs",
-      "PME financia material e salários",
-      "Estado paga com atraso",
-      "Juros comem a margem"
+      "Crédito caro e a cair",
+      "Menos PMEs a contratar",
+      "Jovens vão para o informal",
+      "Rendimento baixo e instável"
     ],
-    "quem_sente": "PMEs de construção, transporte e materiais"
+    "quem_sente": "Jovens de 18 a 35 anos e as suas famílias"
   },
   "conta": {
-    "titulo": "Juros de um subcontrato de 10 milhões",
-    "pressupostos": "Crédito a 22,26% ao ano, 10 milhões de meticais financiados até ao pagamento, sem entrada nem adiantamento.",
+    "titulo": "Crédito de 100 000 MT para um negócio",
+    "pressupostos": "Prestações iguais durante 12 meses. 22,26% é a taxa média; 15,5% é a prime, para os melhores clientes.",
     "barras": [
       {
-        "rotulo": "90 dias de espera",
-        "valor": 548877,
-        "texto": "548 877 MT"
+        "rotulo": "Juros a 22,26%",
+        "valor": 12463,
+        "texto": "12 463 MT"
       },
       {
-        "rotulo": "120 dias de espera",
-        "valor": 731836,
-        "texto": "731 836 MT"
-      },
-      {
-        "rotulo": "180 dias de espera",
-        "valor": 1097753,
-        "texto": "1 097 753 MT"
+        "rotulo": "Juros a 15,5%",
+        "valor": 8593,
+        "texto": "8 593 MT"
       }
     ],
-    "unidade": "meticais de juros",
-    "conclusao": "Cada mês de atraso soma cerca de 185 mil meticais e pode consumir a margem do subcontrato."
+    "unidade": "MT de juros em 12 meses",
+    "conclusao": "A diferença é de 3 870 MT, ou 323 MT por mês, quase uma semana de vendas de uma banca pequena."
   },
   "cenarios": [
     {
-      "nome": "Crédito chega às PMEs",
+      "nome": "Contratos criam vagas",
       "tipo": "melhora",
       "probabilidade": 20,
-      "porque_probabilidade": "A banca reduz crédito há três meses e o acordo de 2 de Novembro ainda não tem prazos; por isso, a base é baixa.",
-      "gatilho": "Prime rate abaixo de 15% e linha de garantia activa para subcontratados",
-      "o_que_acontece": "Os bancos financiam subcontratos com garantia do contratante, os juros descem e as PMEs executam sem esperar pelo Estado.",
-      "numeros": "Juros de 16% a 19%; 90 dias custam 395 mil a 468 mil MT",
-      "quando": "até Junho de 2027",
-      "ganha": "PMEs com certidões em dia",
-      "perde": "Intermediários que cobram registos",
-      "se_acontecer": "Candidate-se a subcontratos de 3 a 6 meses e peça financiamento ao banco com o contrato assinado."
+      "porque_probabilidade": "Os incentivos existem há pouco tempo e o crédito caiu três meses seguidos; por isso a probabilidade é baixa.",
+      "gatilho": "Primeiros subcontratos a PMEs com a regra dos 20% e juros médios abaixo de 20%",
+      "o_que_acontece": "Obras públicas e projectos de energia obrigam a subcontratar PMEs, que contratam jovens com formação curta.",
+      "numeros": "Juros médios de 18% a 20%",
+      "quando": "até Setembro de 2027",
+      "ganha": "Jovens com formação técnica",
+      "perde": "Quem depende só do informal",
+      "se_acontecer": "Candidatar-se a estágios e a fornecedores locais com certidões em dia."
     },
     {
-      "nome": "Só os grandes ganham",
+      "nome": "O informal absorve",
       "tipo": "fica_igual",
-      "probabilidade": 50,
-      "porque_probabilidade": "No Mozal, as pequenas empresas entraram em poucos contratos; a regra existe, mas a caixa decide quem executa.",
-      "gatilho": "Primeiros subcontratos adjudicados a empresas já grandes",
-      "o_que_acontece": "O contratante principal cumpre os 20% com poucas PMEs maiores e as restantes ficam de fora por falta de caixa.",
-      "numeros": "Juros de 21% a 23%; 120 dias custam 690 mil a 750 mil MT",
-      "quando": "até Março de 2027",
-      "ganha": "Contratantes e PMEs maiores",
-      "perde": "PMEs pequenas e informais",
-      "se_acontecer": "Procure consórcio com outras PMEs para partilhar o risco e o crédito."
+      "probabilidade": 45,
+      "porque_probabilidade": "Em três anos o decreto de 2023 não mudou o quadro, e o crédito está caro; é o cenário mais provável, sem chegar a metade.",
+      "gatilho": "Crédito sem recuperação e portal sem vagas novas visíveis",
+      "o_que_acontece": "Os jovens continuam a fazer biscates e pequeno comércio, sem contrato nem protecção.",
+      "numeros": "Juros médios de 21% a 23%",
+      "quando": "durante 2027",
+      "ganha": "Comércio de rua e transporte informal",
+      "perde": "Jovens sem poupança nem formação",
+      "se_acontecer": "Juntar formação curta e guardar reserva para os meses de menos venda."
     },
     {
-      "nome": "Estado paga tarde",
+      "nome": "Choque no campo e regressos",
       "tipo": "piora",
-      "probabilidade": 30,
-      "porque_probabilidade": "O Estado devia 171 milhões de euros a fornecedores no fim de 2025; a taxa de base de atrasos é alta.",
-      "gatilho": "Pagamentos a mais de 120 dias em contratos do novo regime",
-      "o_que_acontece": "Os atrasos de pagamento sobem os juros pagos pelas PMEs, que desistem de subcontratos ou fecham.",
-      "numeros": "Espera de 150 a 210 dias; juros de 915 mil a 1,28 milhões MT",
-      "quando": "até Fevereiro de 2027",
-      "ganha": "Quem tem caixa própria",
-      "perde": "PMEs que dependem de crédito",
-      "se_acontecer": "Pare de fornecer, renegoceie o prazo e faça valer a retenção de pagamento."
+      "probabilidade": 35,
+      "porque_probabilidade": "O El Niño está previsto e a ajuda do PAM só segue até Dezembro; o risco é real mas depende da chuva.",
+      "gatilho": "Chuva abaixo da média de Dezembro a Fevereiro e corte da ajuda do PAM",
+      "o_que_acontece": "Menos colheita empurra famílias rurais para a cidade e os regressados da África do Sul procuram o mesmo trabalho.",
+      "numeros": "Milho mais caro e mais candidatos por vaga",
+      "quando": "de Janeiro a Abril de 2027",
+      "ganha": "Quem vende comida e insumos",
+      "perde": "Famílias rurais e recém-chegados",
+      "se_acontecer": "Comprar sementes cedo e procurar trabalho sazonal antes de Janeiro."
     }
   ],
   "sinais": [
     {
-      "o_que": "Prime rate publicada pela Associação Moçambicana de Bancos",
-      "limiar": "abaixo de 15%",
+      "o_que": "Juros médios do crédito à economia",
+      "limiar": "Abaixo de 20% em duas leituras seguidas",
       "quando": "até Março de 2027",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Crédito à economia no boletim do Banco de Moçambique",
-      "limiar": "acima de 294 000 milhões MT",
-      "quando": "até Dezembro",
+      "o_que": "Vagas anunciadas no portal do INEP",
+      "limiar": "Mais vagas que o trimestre anterior",
+      "quando": "até Fevereiro de 2027",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Prazo médio de pagamento do Estado a fornecedores",
-      "limiar": "acima de 120 dias",
-      "quando": "até Fevereiro de 2027",
+      "o_que": "Chuva acumulada no Centro e no Sul",
+      "limiar": "Abaixo da média até 31 de Janeiro",
+      "quando": "31 de Janeiro de 2027",
       "aponta_para": "piora"
     },
     {
-      "o_que": "Primeiros subcontratos a PMEs ao abrigo da regra",
-      "limiar": "menos de 10 empresas por obra",
-      "quando": "até Março de 2027",
-      "aponta_para": "fica_igual"
+      "o_que": "Ajuda alimentar do PAM",
+      "limiar": "Cortada em Janeiro",
+      "quando": "Janeiro de 2027",
+      "aponta_para": "piora"
     }
   ],
   "afectados": [
     {
-      "grupo": "PMEs de construção",
+      "grupo": "Jovens de 18 a 35 anos",
+      "saldo": -2,
+      "porque": "muitos à procura, poucas vagas"
+    },
+    {
+      "grupo": "Famílias rurais",
       "saldo": -1,
-      "porque": "contratos novos, mas caixa curta"
+      "porque": "chuva fraca e ajuda a cortar"
     },
     {
-      "grupo": "Contratantes grandes",
-      "saldo": 1,
-      "porque": "margens de preferência e obras garantidas"
+      "grupo": "Regressados da África do Sul",
+      "saldo": -2,
+      "porque": "perderam rendimento e procuram trabalho"
     },
     {
-      "grupo": "Bancos",
-      "saldo": 1,
-      "porque": "juros altos e títulos públicos seguros"
-    },
-    {
-      "grupo": "Trabalhadores informais",
-      "saldo": 0,
-      "porque": "mais obras, mas empregos instáveis"
-    },
-    {
-      "grupo": "Governo",
+      "grupo": "PMEs",
       "saldo": -1,
-      "porque": "atrasos de pagamento comprometem a regra"
+      "porque": "crédito caro limita contratações"
+    },
+    {
+      "grupo": "Fornecedores do Estado e da energia",
+      "saldo": 1,
+      "porque": "regra dos 20% abre contratos"
     }
   ],
   "direccao": [
     {
-      "publico": "PMEs fornecedoras",
-      "agora": "Junte certidões, peça o prazo de pagamento por escrito e some os juros ao preço antes de assinar.",
-      "se_piorar": "Renegoceie o prazo ou pare de fornecer."
+      "publico": "Jovens à procura de trabalho",
+      "agora": "Inscrever-se no portal do INEP e juntar formação curta e prova de experiência.",
+      "se_piorar": "Procurar trabalho sazonal e guardar reserva."
     },
     {
-      "publico": "Contratantes principais",
-      "agora": "Escolha subcontratados com capacidade e ofereça adiantamento de materiais.",
-      "se_piorar": "Divida o risco com garantias e pagamentos por fases."
+      "publico": "Jovens com negócio próprio",
+      "agora": "Comparar o custo total do crédito em dois bancos antes de assinar.",
+      "se_piorar": "Adiar o investimento e vender com o que tem."
     },
     {
-      "publico": "Bancos e parceiros",
-      "agora": "Crie linhas ligadas ao contrato assinado, com garantia do contratante.",
-      "se_piorar": "Aceite recebíveis do Estado como garantia."
+      "publico": "PMEs",
+      "agora": "Abrir estágios e candidatar-se a subcontratos com certidões em dia.",
+      "se_piorar": "Contratar por tarefa e não aumentar custos fixos."
     },
     {
-      "publico": "Trabalhadores e famílias",
-      "agora": "Peça contrato escrito e pagamento mensal em obras de subcontratados.",
-      "se_piorar": "Guarde reserva para dois meses sem salário."
+      "publico": "Famílias rurais",
+      "agora": "Comprar sementes cedo e planear rendimento de fora da machamba.",
+      "se_piorar": "Guardar reserva de milho e procurar apoio local."
     }
   ],
-  "visao_contraria": "O contratante principal pode ser a melhor garantia de pagamento, porque tem relação directa com o Estado e acesso a crédito mais barato do que uma PME isolada.",
+  "visao_contraria": "O desemprego declarado pode exagerar o problema: muitos jovens trabalham no informal e não se contam como empregados. O inquérito mede opinião, não a taxa oficial.",
   "nao_sabemos": [
-    "Quem fiscaliza o cumprimento dos 20% ainda não foi publicado.",
-    "O número do decreto não consta das notícias disponíveis.",
-    "Falta o prazo do acordo entre o Standard Bank e a Câmara de Petróleo e Gás."
+    "O INE ainda não publicou uma taxa de desemprego jovem recente.",
+    "Quantas vagas o Portal Emprego já listou e quando arranca."
   ],
-  "sinal": "Prime rate abaixo de 15% e prazo de pagamento do Estado a fornecedores abaixo de 90 dias.",
+  "sinal": "Juros médios do crédito abaixo de 20% e mais vagas no portal do INEP.",
   "confianca": "media",
-  "base_confianca": "Regra dos 20% assente em Lusa e Forbes África Lusófona do mesmo dia; crédito do Banco de Moçambique via Lusa; precedente de 2004 antigo.",
+  "base_confianca": "Afrobarometer (inquérito de opinião), meta do Governo via Lusa, DLA Piper; sem taxa oficial do INE recente",
   "textos": {
-    "whatsapp": "*A REGRA DOS 20% AJUDA AS PMEs, SE O CRÉDITO CHEGAR*\n\nDesde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. Há ainda margens de preferência de 15% para obras e serviços e de 20% para bens produzidos no país, segundo a Lusa e a Forbes África Lusófona de 20 de Agosto.\n\n*O PROBLEMA*\n\nO crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A prime rate está em 15,5% e os juros médios em 22,26%. Num estudo de 2024, 84% dos fornecedores de energia diziam que o financiamento formal cobria menos de metade das necessidades.\n\n*A CONTA*\n\nUm subcontrato de 10 milhões de meticais, financiado a 22,26% ao ano: 90 dias de espera custam 548 877 meticais em juros, 120 dias custam 731 836 e 180 dias custam 1 097 753. Cada mês extra soma cerca de 185 mil.\n\n*TRÊS CENÁRIOS*\n\nCrédito chega às PMEs (20%): o acordo de 2 de Novembro entre o Standard Bank e a Câmara de Petróleo e Gás financia fornecedores e a prime rate desce abaixo de 15% até Junho de 2027.\n\nContratos só para os grandes (50%): as PMEs entram como subcontratadas, mas sem caixa para esperar 120 dias, e o contratante principal fica com a margem.\n\nEstado paga tarde (30%): os atrasos do Estado, que devia 171 milhões de euros a fornecedores no fim de 2025, comem a margem e as PMEs desistem de contratos.\n\n*DIRECÇÃO*\n\nJunte as certidões, peça o prazo de pagamento por escrito e some os juros ao preço antes de assinar. Se o Estado atrasar mais de 90 dias, renegoceie ou pare de fornecer.\n\nA outra visão: o contratante principal pode ser a melhor garantia de pagamento para a PME. Ainda não se sabe como será fiscalizada a regra.\n\nPartilhe com quem tem um negócio.",
-    "instagram": "Obras públicas de 100 milhões ou mais têm de subcontratar 20% a PMEs. Mas 120 dias de espera a 22,26% custam cerca de 732 mil meticais num subcontrato de 10 milhões. Some os juros ao preço antes de assinar. #Moçambique #PMEs",
-    "facebook": "Tem uma empresa pequena e quer fornecer ao Estado? Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais.\n\nÉ uma boa notícia, mas há uma conta a fazer. O crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Se o pagamento demorar 120 dias, um subcontrato de 10 milhões de meticais custa cerca de 732 mil só em juros. Com 180 dias, custa 1,1 milhões.\n\nO Estado ainda devia 171 milhões de euros a fornecedores no fim de 2025, segundo a ministra das Finanças. Por isso, o risco maior é esperar pelo dinheiro.\n\nHá luz do lado do financiamento: a 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores de energia.\n\nA regra ainda não diz quem fiscaliza o cumprimento dos 20%, e o número do decreto não consta das notícias. Quem quiser concorrer deve ler o texto no Boletim da República quando for publicado.\n\nDirecção: junte as certidões, peça o prazo de pagamento por escrito e some os juros ao preço. Se o Estado atrasar mais de 90 dias, renegoceie. #Moçambique #PMEs",
-    "linkedin": "Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. Há margens de preferência de 15% para obras e serviços e de 20% para bens produzidos no país, com pelo menos 35% de insumos nacionais. As compras passam pela Central de Aquisições do Estado, criada em Junho.\n\nA regra abre um mercado. Num contrato como o da Estrada Nacional 324, de 13 154 milhões de meticais, 20% seriam 2 631 milhões para subcontratados, se a regra se aplicar a esse contrato.\n\nO obstáculo é o financiamento. O crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Num estudo de 2024 citado no acordo entre o Standard Bank e a Câmara de Petróleo e Gás, só 27% dos 104 fornecedores tinham crédito bancário e 84% diziam que o financiamento formal cobria menos de metade das necessidades.\n\nO precedente: no projecto Mozal, o programa de ligações de 2004 pôs 15 pequenas empresas em contratos de 5 milhões de dólares. Os resultados iniciais foram mistos, com falta de normas e de formação.\n\nA conta: num subcontrato de 10 milhões de meticais, 120 dias de espera a 22,26% custam cerca de 732 mil em juros. Com 180 dias, o custo sobe para 1,1 milhões.\n\nCenários até Junho de 2027: crédito chega às PMEs (20%), contratos só para os grandes (50%), Estado paga tarde (30%). O Estado devia 171 milhões de euros a fornecedores no fim de 2025.\n\nDirecção: confirme o prazo de pagamento por escrito, some os juros ao preço e não assine sem folga de caixa para 120 dias.\n\nA regra dos 20% só vale para quem consegue esperar pelo pagamento. #Moçambique #PMEs #ComprasPúblicas"
+    "whatsapp": "*A SITUAÇÃO*\n\nSegundo o Afrobarometer, publicado a 23 de Junho, 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura de trabalho. Outros 21% estão sem emprego e não procuram. Os jovens apontam a falta de formação (30%) e a falta de experiência pedida pelos empregadores (19%) como as maiores barreiras.\n\n*O QUE O GOVERNO FEZ*\n\nEm Julho, o Instituto Nacional de Emprego assinou um memorando para criar um Portal Emprego, que liga jovens e empregadores. Desde 2023, as empresas têm de comunicar as vagas ao INEP sete dias antes de as anunciar. O Governo quer baixar o desemprego de 18,4% para 17% até 2029.\n\n*TRÊS CAMINHOS ATÉ 2027*\n\nMelhora, 20%: os contratos públicos com 20% para PMEs e o acordo da banca com o sector da energia geram vagas, e os juros descem abaixo de 20%.\n\nFica igual, 45%: os jovens continuam a trabalhar por conta própria, sem contrato nem protecção.\n\nPiora, 35%: o El Niño reduz a colheita, a ajuda do PAM corta em Janeiro e os regressados da África do Sul procuram o mesmo trabalho.\n\n*A CONTA*\n\nUm jovem que peça 100 000 meticais para um negócio, a pagar em 12 meses, paga 12 463 meticais de juros a 22,26%, a taxa média do crédito. A 15,5%, a taxa prime, pagaria 8 593. A diferença é de 3 870 meticais, ou 323 por mês. A prime é para os melhores clientes, por isso o primeiro valor é o mais provável.\n\n*DIRECÇÃO*\n\nInscreva-se no portal do INEP, junte formação curta e prova de experiência, e compare o custo total do crédito em dois bancos antes de assinar.\n\nO argumento contrário: o desemprego declarado pode exagerar, porque muitos jovens trabalham no informal.\n\nPartilhe com um jovem que procura trabalho.",
+    "instagram": "Dois em cada três jovens moçambicanos, 65%, dizem estar sem emprego e à procura (Afrobarometer). Um crédito de 100 000 MT custa 12 463 MT de juros a 22,26% e 8 593 a 15,5%. Até 2027: melhora 20%, fica igual 45%, piora 35%. Inscreva-se no portal do INEP e compare o crédito em dois bancos. #Moçambique #Emprego",
+    "facebook": "Dois em cada três jovens moçambicanos dizem estar sem emprego. É o que mostra o Afrobarometer, publicado a 23 de Junho: 65% dos que têm entre 18 e 35 anos procuram trabalho e não encontram, e mais 21% já desistiram de procurar.\n\nOs jovens dizem que falta formação (30%) e que os empregadores pedem experiência que eles não têm (19%). Quase metade, 46%, quer abrir o seu próprio negócio.\n\nO Governo respondeu em Julho com um Portal Emprego, assinado com o INEP, e quer baixar o desemprego de 18,4% para 17% até 2029. Mas o crédito é caro: os juros médios estão em 22,26%.\n\nUm exemplo: quem pede 100 000 meticais por 12 meses a 22,26% paga 12 463 meticais de juros. A 15,5%, pagaria 8 593.\n\nAté 2027, vemos três caminhos. Melhora, com 20% de probabilidade, se os contratos públicos e os acordos com a banca criarem vagas. Fica igual, com 45%, se o informal continuar a absorver os jovens. Piora, com 35%, se a seca do El Niño e a saída de moçambicanos da África do Sul pesarem sobre o campo e as cidades.\n\nA nossa direcção: inscreva-se no portal do INEP, junte formação curta e compare o custo do crédito em dois bancos antes de assinar.",
+    "linkedin": "O desemprego jovem é o problema económico mais visível de Moçambique, e os dados mais recentes confirmam-no. O Afrobarometer, publicado a 23 de Junho, mostra que 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura, e que 21% já não procuram. As barreiras que apontam são a falta de formação (30%) e a falta de experiência exigida (19%).\n\nA resposta oficial tem dois lados. Desde 2023, o Decreto 45/2023 obriga os empregadores a comunicar vagas ao INEP sete dias antes de as anunciar. Em Julho, o INEP assinou um memorando para um Portal Emprego. O Governo quer baixar o desemprego de 18,4% para 17% até 2029. Três anos depois do decreto, a procura continua a ser muito maior do que as vagas: uma lei não cria vagas por si só.\n\nO que pode mudar até 2027, na nossa estimativa:\n\nMelhora, 20%: a regra que reserva 20% das grandes obras públicas a PMEs e o acordo do Standard Bank com a Câmara de Petróleo e Gás geram contratos e contratações, e os juros descem abaixo de 20%.\n\nFica igual, 45%: o trabalho por conta própria continua a absorver os jovens, sem contrato.\n\nPiora, 35%: o El Niño reduz a colheita, o PAM corta a ajuda em Janeiro e os moçambicanos que regressam da África do Sul procuram o mesmo trabalho.\n\nA conta de um negócio novo: 100 000 meticais a 12 meses custam 12 463 meticais de juros a 22,26%, a taxa média, e 8 593 a 15,5%, a taxa prime. A diferença é de 3 870 meticais.\n\nDirecção: para o jovem, portal do INEP, formação curta e prova de experiência; para o empregador, publicar as vagas e abrir estágios; para a PME, calcular o custo total do crédito antes de contratar.\n\nQuem emprega mais jovens este ano será quem conseguir crédito a menos de 20%."
   },
   "fontes": [
     {
-      "fonte": "Forbes África Lusófona, grandes obras públicas reservam 20% a PMEs",
-      "url": "https://forbesafricalusofona.com/?p=175403",
-      "data": "2026-08-20"
+      "fonte": "Afrobarometer",
+      "url": "https://www.afrobarometer.org/articles/os-jovens-mocambicanos-enfrentam-dificuldades-para-encontrar-emprego-afirmando-que-sao-prejudicados-pela-falta-de-formacao-e-de-experiencia-profissional/",
+      "data": "2026-06-23"
     },
     {
-      "fonte": "Club of Mozambique, Standard Bank e Câmara de Petróleo e Gás",
-      "url": "https://clubofmozambique.com/news/standard-bank-and-mozambiques-oil-and-gas-chamber-join-forces-to-strengthen-smes-in-energy-sector/",
-      "data": "2026-11-03"
+      "fonte": "Lusa (Observador)",
+      "url": "https://observador.pt/2025/09/12/mocambique-quer-desemprego-nos-17-ate-2029-apesar-dos-desafios-estruturais/",
+      "data": "2025-09-12"
     },
     {
-      "fonte": "Notícias ao Minuto, crédito à economia cai em Agosto",
-      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
-      "data": "2026-11-04"
+      "fonte": "Lusa (AMAN), Portal Emprego",
+      "url": "https://aman-alliance.org/Home/ContentDetail/104922",
+      "data": "2026-07-10"
     },
     {
-      "fonte": "IFC, programa de ligações Mozal",
-      "url": "https://pressroom.ifc.org/all/pages/PressDetail.aspx?ID=20653",
-      "data": "2004-10-19"
-    },
-    {
-      "fonte": "Forbes África Lusófona, dívidas do Estado a fornecedores",
-      "url": "https://forbesafricalusofona.com/?p=171934",
-      "data": "2026-05"
+      "fonte": "DLA Piper Africa, Decreto 45/2023",
+      "url": "https://www.dlapiperafrica.com/pt/mozambique/insights/2023/Duty-to-Communicate-Job-Vacancies-and-Pre-Professional-Internships.html",
+      "data": "2023-08-01"
     }
   ],
-  "data": "2026-11-16",
-  "dia_semana": "segunda",
+  "data": "2026-11-17",
+  "dia_semana": "terca",
   "semana": "2026-S47",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794800456247
-  }
+  "falhas": []
 }
