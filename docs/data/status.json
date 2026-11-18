@@ -7,8 +7,8 @@
     },
     "analise": {
       "estado": "pronto",
-      "msg": "Análise gravada",
-      "em": "2026-11-18T05:00:19.960Z"
+      "msg": "Memória gravada",
+      "em": "2026-11-18T05:00:21.314Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-18T05:00:21.314Z",
+      "agente": "analise",
+      "msg": "Memória gravada"
+    },
     {
       "em": "2026-11-18T05:00:19.960Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-11-14T03:56:04.290Z",
       "agente": "analise",
       "msg": "Ronda de 14 de Novembro concluída"
-    },
-    {
-      "em": "2026-11-14T03:56:02.528Z",
-      "agente": "fontes",
-      "msg": "Ronda de 14 de Novembro concluída"
     }
   ],
-  "actualizado": "2026-11-18T05:00:19.960Z",
+  "actualizado": "2026-11-18T05:00:21.314Z",
   "semana": "2026-S47",
   "dia": "2026-11-18",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
