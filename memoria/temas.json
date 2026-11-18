@@ -228,6 +228,12 @@
         "semana": "2026-S46",
         "resumo": "O Governo aprovou um Plano de Contingência de 39,8 mil milhões de meticais e lançou a campanha agrária no Niassa. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro.",
         "direccao": "Comprar sementes e insumos cedo e guardar reservas de básicos."
+      },
+      {
+        "data": "2026-11-18",
+        "semana": "2026-S47",
+        "resumo": "A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro, e o PAM só mantém a ajuda actual até Dezembro. O Governo aprovou um plano de contingência de 39,8 mil milhões de meticais.",
+        "direccao": "Comprar sementes e insumos cedo e guardar reservas de básicos."
       }
     ]
   },
@@ -348,6 +354,12 @@
         "semana": "2026-S46",
         "resumo": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. A alface, a cebola e o peixe fresco foram os que mais subiram.",
         "direccao": "Comprar em pequenas quantidades e comparar mercados."
+      },
+      {
+        "data": "2026-11-18",
+        "semana": "2026-S47",
+        "resumo": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. Não há preços recentes de milho e arroz nas três capitais.",
+        "direccao": "Comprar em pequenas quantidades e comparar mercados."
       }
     ]
   },
@@ -368,6 +380,12 @@
         "semana": "2026-S43",
         "resumo": "A Frelimo vai apoiar a recandidatura de Chapo em 2029, segundo a Lusa. O julgamento de Mondlane está marcado para 17 de Novembro, sem transmissão em directo.",
         "direccao": "Acompanhar o julgamento e o clima político antes de decisões de investimento."
+      },
+      {
+        "data": "2026-11-18",
+        "semana": "2026-S47",
+        "resumo": "O julgamento de Venâncio Mondlane começou a 17 de Novembro no Tribunal Supremo. O tribunal recusou a transmissão em directo, mas aceita relatos escritos da imprensa.",
+        "direccao": "Acompanhar o julgamento antes de decisões de investimento."
       }
     ]
   },

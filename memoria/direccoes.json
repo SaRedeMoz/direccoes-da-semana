@@ -157,8 +157,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-12",
     "resultado": "pendente",
-    "nota": "Sem preços do milho por cidade; a inflação de Outubro ficou em 6,32%.",
-    "verificada_em": "2026-11-17"
+    "nota": "A inflação de Outubro ficou em 6,32%, mas faltam preços de milho por cidade.",
+    "verificada_em": "2026-11-18"
   },
   {
     "id": "D14",
@@ -733,6 +733,30 @@
     "tema": "emprego_jovem",
     "horizonte": "mes",
     "verificar_em": "2026-12-17",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D61",
+    "data": "2026-11-18",
+    "semana": "2026-S47",
+    "publico": "Famílias",
+    "accao": "Guardar reserva de básicos e comparar dois mercados antes de comprar em quantidade.",
+    "tema": "el_nino",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-18",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D62",
+    "data": "2026-11-18",
+    "semana": "2026-S47",
+    "publico": "PMEs",
+    "accao": "Calcular os juros dos meses até ao pagamento antes de aceitar um subcontrato.",
+    "tema": "credito",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-18",
     "resultado": "pendente",
     "nota": ""
   }

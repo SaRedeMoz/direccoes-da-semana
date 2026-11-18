@@ -1,0 +1,287 @@
+{
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "manchete": "Chuva fraca até Fevereiro pode encarecer a comida: o que fazer já",
+  "resumo": "Os preços subiram 0,48% em Outubro, segundo o INE, e a previsão de chuva abaixo da média entre Dezembro e Fevereiro ameaça a colheita e os preços da comida. O crédito continua caro, com taxa média de 22,26% a um ano.",
+  "indicadores": [
+    "inflacao",
+    "mimo",
+    "prime_rate",
+    "usd_mzn"
+  ],
+  "comparar": [
+    "chapa",
+    "inflacao"
+  ],
+  "regioes": [
+    {
+      "regiao": "maputo",
+      "destaque": "O Governo manteve o chapa a 15 meticais, com compensações aos transportadores por três meses.",
+      "direccao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, quando as compensações acabam."
+    },
+    {
+      "regiao": "beira",
+      "destaque": "Em Sofala, o INGD prevê retomar a ajuda alimentar em Búzi, Nhamatanda, Muanza e Dondo.",
+      "direccao": "Famílias nesses distritos devem confirmar a inscrição na ajuda e guardar sementes para a nova sementeira."
+    },
+    {
+      "regiao": "nampula",
+      "destaque": "A tarifa do chapa foi aprovada em 20 meticais em Maio.",
+      "direccao": "Compare o preço dos básicos entre mercados e compre mais cedo os produtos que vêm de fora da província."
+    }
+  ],
+  "o_que_mudou": [
+    {
+      "titulo": "Preços sobem 0,48% em Outubro",
+      "explicacao": "A inflação anual ficou em 6,32%, com alface, cebola e peixe fresco a subir mais.",
+      "canal": "Mercado diário"
+    },
+    {
+      "titulo": "Chuva abaixo da média prevista",
+      "explicacao": "A FEWS NET prevê menos chuva entre Dezembro e Fevereiro, o que pode encarecer milho e arroz.",
+      "canal": "Colheita e mercado"
+    },
+    {
+      "titulo": "Crédito mais caro e a encolher",
+      "explicacao": "A taxa média a um ano subiu para 22,26% e o crédito à economia caiu três meses seguidos.",
+      "canal": "Juros"
+    }
+  ],
+  "direccoes": [
+    {
+      "area": "Compras",
+      "classe": "ambas",
+      "accao": "Compre arroz, feijão e óleo aos poucos e compare o preço em dois mercados antes de pagar."
+    },
+    {
+      "area": "Poupança",
+      "classe": "ambas",
+      "accao": "Guarde uma pequena reserva em dinheiro e em comida de longa duração antes de Dezembro."
+    },
+    {
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Pague a tarifa afixada e deixe folga no orçamento, porque a taxa sobre os combustíveis ainda pode subir."
+    },
+    {
+      "area": "Crédito",
+      "classe": "media",
+      "accao": "Evite crédito ao consumo no fim do ano: com juros perto de 22%, uma dívida pequena pesa depressa."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Guarde parte da receita de Novembro e evite stock a prazo, porque a chuva fraca pode encarecer os produtos do campo."
+    }
+  ],
+  "revisao": [],
+  "textos": {
+    "whatsapp": "*O Seu Bolso, 18 de Novembro*\n\nA comida pode ficar mais cara a partir de Dezembro. A FEWS NET prevê calor acima do normal e chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027, e o PAM só mantém a ajuda actual até Dezembro.\n\n*O QUE JÁ MUDOU*\nSegundo o INE, os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco subiram mais. O Banco de Moçambique manteve a taxa MIMO em 9,25% e a prime rate em 15,5%, mas o crédito é caro: a taxa média a um ano está em 22,26%.\n\n*COMPRAS*\nCompre básicos de longa duração aos poucos, como arroz, feijão e óleo, em vez de uma só compra grande. Compare o preço em dois mercados antes de pagar.\n\n*TRANSPORTE*\nEm Maputo, o Governo manteve o chapa a 15 meticais, com compensações aos transportadores por três meses. Em Nampula, a tarifa aprovada em Maio é de 20 meticais. Pague a tarifa afixada e guarde alguma folga, porque a taxa sobre os combustíveis ainda pode subir.\n\n*CRÉDITO*\nEvite crédito ao consumo para o fim do ano. Com juros perto de 22%, uma dívida pequena fica pesada em poucos meses.\n\n*NEGÓCIO INFORMAL*\nQuem vende produtos do campo deve esperar preços mais altos se a chuva falhar, mas também menos produto para vender. Guarde parte da receita de Novembro.\n\n*POR CIDADE*\nMaputo, Beira e Nampula sentem o mesmo choque de formas diferentes: preços importados no Sul, porto e corredor no Centro, produção agrícola no Norte.\n\nSe isto ajuda a sua família, partilhe com quem precisa.",
+    "instagram": "Chuva fraca até Fevereiro pode encarecer a comida. Preços subiram 0,48% em Outubro e o crédito está a 22%. Direcção: comprar básicos aos poucos, comparar dois mercados e evitar dívida de fim de ano. #Moçambique #OSeuBolso",
+    "facebook": "Os preços subiram 0,48% em Outubro e a inflação anual está em 6,32%, segundo o INE. A alface, a cebola e o peixe fresco foram o que mais subiu.\n\nO que preocupa agora é a chuva. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027. Se a colheita falhar, o milho e o arroz tendem a ficar mais caros. O PAM só mantém a ajuda actual até Dezembro, e o Governo aprovou um Plano de Contingência de 39,8 mil milhões de meticais.\n\nPara as famílias: compre básicos aos poucos, compare o preço em dois mercados e guarde uma pequena reserva antes de Dezembro.\n\nPara quem precisa de dinheiro: o crédito está caro, com taxa média de 22,26% a um ano. Evite dívida de consumo no fim do ano.\n\nPara quem anda de chapa: em Maputo, o Governo manteve a tarifa de 15 meticais, com compensações por três meses. A taxa sobre os combustíveis ainda não foi votada, por isso guarde alguma folga no orçamento.\n\nA direcção desta semana: reserva de básicos, dois mercados e nenhuma dívida desnecessária.\n\n#Moçambique #OSeuBolso",
+    "linkedin": "A comida é o principal risco para o bolso dos moçambicanos até Fevereiro.\n\nO INE registou uma subida de 0,48% dos preços em Outubro, com inflação anual de 6,32%. Os produtos que mais subiram foram a alface, a cebola e o peixe fresco. A pressão é moderada, mas a previsão da FEWS NET é de chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027, e o PAM só mantém a ajuda actual até Dezembro.\n\nO crédito não alivia. O Banco de Moçambique manteve a taxa MIMO em 9,25% e a prime rate em 15,5%, mas a taxa média a um ano subiu para 22,26% e o crédito à economia caiu pelo terceiro mês seguido. Para famílias e pequenos negócios, isto significa que financiar compras ou stock custa caro.\n\nNo transporte, o Governo manteve o chapa em Maputo a 15 meticais, com compensações aos transportadores por três meses. A proposta de taxa sobre os combustíveis, que pode juntar 6,36 meticais ao litro de gasóleo, ainda está por decidir.\n\nDirecção\nAs famílias devem comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro. Os pequenos negócios devem evitar crédito de curto prazo para stock em fim de ano e calcular o custo dos juros antes de aceitar prazos de pagamento longos.\n\nOs próximos dados a seguir são a inflação de Novembro e a decisão do Parlamento sobre a taxa dos combustíveis. A decisão mais útil para os próximos três meses é montar uma reserva de comida e de dinheiro antes de Dezembro.\n\n#Moçambique #Economia #OSeuBolso"
+  },
+  "fontes": [
+    {
+      "fonte": "INE, via Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=178681"
+    },
+    {
+      "fonte": "Lusa, Banco de Moçambique",
+      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto"
+    },
+    {
+      "fonte": "Lusa",
+      "url": "https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo"
+    },
+    {
+      "fonte": "FEWS NET",
+      "url": "https://fews.net/southern-africa/mozambique"
+    },
+    {
+      "fonte": "360 Mozambique, com Rádio Moçambique",
+      "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/"
+    }
+  ],
+  "data": "2026-11-18",
+  "dia_semana": "quarta",
+  "semana": "2026-S47",
+  "versao": 1,
+  "aprovada": false,
+  "series": [
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-09",
+        "valor": 6.32,
+        "fonte": "INE, via Forbes África Lusófona",
+        "url": "https://forbesafricalusofona.com/?p=178681",
+        "nota": "Outubro de 2026, taxa homóloga; mensal 0,48%"
+      },
+      "var4": 0.2,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ],
+        [
+          "2026-11-09",
+          6.32
+        ]
+      ]
+    },
+    {
+      "id": "mimo",
+      "nome": "Taxa MIMO",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-04",
+        "valor": 9.25,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Mantida"
+      },
+      "var4": 0,
+      "var12": 0,
+      "pontos": [
+        [
+          "2026-05-25",
+          9.25
+        ],
+        [
+          "2026-09-30",
+          9.25
+        ],
+        [
+          "2026-11-04",
+          9.25
+        ]
+      ]
+    },
+    {
+      "id": "prime_rate",
+      "nome": "Prime rate (crédito bancário)",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-04",
+        "valor": 15.5,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Sexto mês seguido"
+      },
+      "var4": 0,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-08-27",
+          15.5
+        ],
+        [
+          "2026-11-04",
+          15.5
+        ]
+      ]
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "ultimo": {
+        "data": "2026-10-12",
+        "valor": 63.91,
+        "fonte": "Agregador de câmbios (exchangerate.guru)",
+        "url": "https://exchangerate.guru/bmd/mzn/6/",
+        "nota": "Valor indicativo de agregador, não oficial"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-12",
+          63.91
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
+    ],
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 15,
+            "data": "2026-11-06",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "inflacao",
+        "nome": "Inflação anual",
+        "unidade": "%",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
+}

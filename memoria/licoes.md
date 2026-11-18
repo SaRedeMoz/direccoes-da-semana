@@ -37,3 +37,4 @@
 - 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.
 - 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.
 - 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar.
+- 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais.

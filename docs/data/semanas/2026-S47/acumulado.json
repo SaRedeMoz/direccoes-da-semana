@@ -15,7 +15,7 @@
     },
     {
       "titulo": "Julgamento de Venâncio Mondlane começa a 17 de Novembro no Tribunal Supremo",
-      "resumo": "O Tribunal Supremo adiou o início do julgamento de 6 de Outubro para 17 de Novembro a pedido da defesa. O tribunal recusou a transmissão em directo e permite a presença de jornalistas, que podem tomar notas escritas. Actualização (2026-11-17): O julgamento está marcado para hoje, 17 de Novembro, sem transmissão em directo.",
+      "resumo": "O Tribunal Supremo adiou o início do julgamento de 6 de Outubro para 17 de Novembro a pedido da defesa. O tribunal recusou a transmissão em directo e permite a presença de jornalistas, que podem tomar notas escritas. Actualização (2026-11-17): O julgamento está marcado para hoje, 17 de Novembro, sem transmissão em directo. Actualização (2026-11-18): O Tribunal Supremo recusou a transmissão em directo e a gravação de som e imagem, mas deixou a imprensa cobrir as audiências e fazer relatos escritos. Mondlane confirmou que estaria presente.",
       "ambito": "nacional",
       "dimensao": "Legal",
       "categoria": "imprensa_nacional",
@@ -42,12 +42,14 @@
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 2,
+  "versao": 3,
   "proximo_n": 4,
   "lacunas": [
-    "Preços de milho, arroz e chapa na Beira e em Nampula",
-    "Inflação de Outubro por cidade (INE)",
-    "Decisão final do Governo sobre a taxa dos combustíveis"
+    "Preços de milho e arroz nas três capitais",
+    "Inflação de Outubro por cidade",
+    "Estado da votação da taxa sobre combustíveis",
+    "Tarifas de electricidade e água",
+    "Calendário de exames e matrículas de 2027"
   ],
   "fontes_consultadas": [
     {
@@ -103,32 +105,37 @@
       "fonte": "Trading Economics",
       "url": "https://tradingeconomics.com",
       "data": "2026-11-17"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP/Lusa",
+      "url": "https://www.rtp.pt/noticias/mundo/supremo-mocambicano-rejeita-pedido-de-transmissao-em-direto-do-julgamento-de-mondlane_n1766861",
+      "data": "2026-11-18"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "FEWS NET",
+      "url": "https://fews.net/southern-africa/mozambique",
+      "data": "2026-11-18"
+    },
+    {
+      "categoria": "humanitario",
+      "fonte": "PAM / WFP Moçambique",
+      "url": "https://www.wfp.org/countries/mozambique",
+      "data": "2026-11-18"
     }
   ],
   "analise": {
     "destaques": {
       "mundo": [
-        "Brent fecha a 98,29 dólares a 5 de Novembro, após ataques a petroleiros no Golfo",
-        "Novo programa do FMI pode ficar fechado até ao fim do ano",
-        "PAM só mantém a ajuda actual até Dezembro",
-        "Cerca de 20 000 moçambicanos saem da África do Sul",
-        "Proposta de terminal flutuante de gás para a África do Sul"
+        "El Niño forte até 2027 ameaça a época chuvosa na África Austral",
+        "Petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados"
       ],
       "nacional": [
-        "Obras públicas de 100 milhões ou mais têm de subcontratar 20% a PMEs nacionais",
-        "Standard Bank e Câmara de Petróleo e Gás juntam-se para financiar PMEs de energia",
-        "Julgamento de Mondlane começa a 17 de Novembro no Tribunal Supremo",
-        "Inflação mensal sobe para 0,48% em Outubro; homóloga em 6,32%",
-        "Governo propõe subir a taxa sobre combustíveis: gasóleo mais 6,36 meticais por litro",
-        "Crédito à economia cai em Agosto pelo terceiro mês seguido, com juros médios a 22,26%",
-        "Governo mantém o chapa de Maputo a 15 meticais e paga compensações durante três meses",
-        "Mais de 1 200 pessoas fugiram de ataques em Cabo Delgado em duas semanas",
-        "Decreto 54/2026 obriga o ensino privado a ser presencial",
-        "ENH entra na campanha de poços do Coral Norte",
-        "FEWS NET prevê menos chuva entre Dezembro e Fevereiro, com El Niño forte até 2027",
-        "Regras do jogo online entram em vigor a 20 de Novembro",
-        "Dois em cada três jovens dizem estar sem emprego e à procura, segundo o Afrobarometer",
-        "Receitas do Estado sobem 10,3% até Setembro e a despesa cai 7%"
+        "Julgamento de Venâncio Mondlane começa no Tribunal Supremo, sem transmissão em directo",
+        "Receitas do Estado sobem 10,3% até Setembro e a despesa cai 7%",
+        "Inflação de 6,32% em Outubro e crédito a cair pelo terceiro mês",
+        "Regra dos 20% de subcontratação a PMEs nas obras públicas"
       ]
     },
     "pestal": [
@@ -136,143 +143,95 @@
         "dimensao": "Política",
         "oportunidades": [
           {
-            "texto": "Estratégia da dívida aprovada",
-            "origem": "interna"
-          },
-          {
-            "texto": "Negociação do programa do FMI",
-            "origem": "externa"
-          },
-          {
-            "texto": "Plano de Contingência aprovado",
+            "texto": "Regra dos 20% para PMEs",
             "origem": "interna"
           }
         ],
         "ameacas": [
           {
-            "texto": "Julgamento de Mondlane a 17 Novembro",
-            "origem": "interna"
-          },
-          {
-            "texto": "Comité Central da Frelimo a 27 de Novembro",
+            "texto": "Julgamento de Mondlane sem transmissão",
             "origem": "interna"
           }
         ],
-        "peso_oportunidade": 2,
+        "peso_oportunidade": 1,
         "peso_ameaca": 2,
-        "principal_oportunidade": "Estratégia da dívida aprovada",
-        "principal_ameaca": "Julgamento de Mondlane a 17 de Novembro"
+        "principal_oportunidade": "Regra dos 20% para PMEs",
+        "principal_ameaca": "Tensão em torno do julgamento de Mondlane"
       },
       {
         "dimensao": "Económica",
         "oportunidades": [
           {
-            "texto": "Brent abaixo de 100 dólares",
-            "origem": "externa"
-          },
-          {
-            "texto": "Taxa MIMO estável em 9,25%",
+            "texto": "Receitas do Estado mais 10,3%",
             "origem": "interna"
           },
           {
-            "texto": "Coral Norte avança para 2028",
-            "origem": "externa"
-          },
-          {
-            "texto": "Financiamento a PMEs de energia",
+            "texto": "Inflação anual de 6,32%",
             "origem": "interna"
           }
         ],
         "ameacas": [
           {
-            "texto": "Crédito a cair há três meses",
-            "origem": "interna"
+            "texto": "Petróleo perto de 98 dólares",
+            "origem": "externa"
           },
           {
-            "texto": "Gasóleo pode subir 6,36 meticais",
-            "origem": "interna"
-          },
-          {
-            "texto": "Inflação mensal sobe para 0,48%",
+            "texto": "Crédito em queda, juros a 22%",
             "origem": "interna"
           }
         ],
         "peso_oportunidade": 1,
         "peso_ameaca": 3,
-        "principal_oportunidade": "Brent abaixo de 100 dólares",
-        "principal_ameaca": "Crédito a cair, juros a 22%"
+        "principal_oportunidade": "Receitas do Estado em alta",
+        "principal_ameaca": "Crédito caro e em queda"
       },
       {
         "dimensao": "Social",
         "oportunidades": [
           {
-            "texto": "Tarifa do chapa mantida",
-            "origem": "interna"
-          },
-          {
-            "texto": "Ajuda de emergência a 343 773",
-            "origem": "interna"
-          },
-          {
-            "texto": "Portal Emprego para jovens",
+            "texto": "Plano de contingência de 39,8 mil milhões",
             "origem": "interna"
           }
         ],
         "ameacas": [
           {
-            "texto": "Ajuda alimentar corta em Janeiro",
-            "origem": "externa"
-          },
-          {
-            "texto": "1 235 deslocados em Cabo Delgado",
+            "texto": "65% dos jovens sem emprego",
             "origem": "interna"
           },
           {
-            "texto": "20 000 regressam da África do Sul",
+            "texto": "Ajuda do PAM só até Dezembro",
             "origem": "externa"
           }
         ],
-        "peso_oportunidade": 2,
+        "peso_oportunidade": 1,
         "peso_ameaca": 3,
-        "principal_oportunidade": "Tarifa do chapa mantida",
-        "principal_ameaca": "Ajuda alimentar corta em Janeiro"
+        "principal_oportunidade": "Plano de contingência aprovado",
+        "principal_ameaca": "Desemprego jovem e fim da ajuda"
       },
       {
         "dimensao": "Tecnológica",
         "oportunidades": [
           {
-            "texto": "Registo digital de fornecedores locais",
-            "origem": "interna"
-          },
-          {
-            "texto": "ENH entra nos poços do Coral Norte",
+            "texto": "Portal Emprego do INEP",
             "origem": "interna"
           }
         ],
         "ameacas": [
           {
-            "texto": "Ensino só presencial limita o digital",
-            "origem": "interna"
-          },
-          {
-            "texto": "Jogo online só com licença e meticais",
+            "texto": "Plataformas de apostas sem licença",
             "origem": "interna"
           }
         ],
         "peso_oportunidade": 1,
         "peso_ameaca": 1,
-        "principal_oportunidade": "Registo digital de fornecedores",
-        "principal_ameaca": "Ensino à distância proibido"
+        "principal_oportunidade": "Portal Emprego do INEP",
+        "principal_ameaca": "Apostas online sem licença"
       },
       {
         "dimensao": "Ambiental",
         "oportunidades": [
           {
-            "texto": "Plano de 125 milhões contra El Niño",
-            "origem": "interna"
-          },
-          {
-            "texto": "Plano de Contingência de 39,8 mil milhões",
+            "texto": "Campanha agrária lançada no Niassa",
             "origem": "interna"
           }
         ],
@@ -282,261 +241,231 @@
             "origem": "externa"
           },
           {
-            "texto": "Calor acima de 40 graus no Sul",
-            "origem": "externa"
-          },
-          {
-            "texto": "Fraca colheita na época 2026/27",
+            "texto": "El Niño forte até 2027",
             "origem": "externa"
           }
         ],
-        "peso_oportunidade": 2,
+        "peso_oportunidade": 1,
         "peso_ameaca": 3,
-        "principal_oportunidade": "125 milhões contra o El Niño",
+        "principal_oportunidade": "Campanha agrária em marcha",
         "principal_ameaca": "Chuva abaixo da média até Fevereiro"
       },
       {
         "dimensao": "Legal",
         "oportunidades": [
           {
-            "texto": "20% das obras públicas para PMEs",
-            "origem": "interna"
-          },
-          {
-            "texto": "Preferência de 20% a nacionais",
-            "origem": "interna"
-          },
-          {
-            "texto": "Regras do jogo online a 20 Novembro",
+            "texto": "Lei 9/2026 do conteúdo local",
             "origem": "interna"
           }
         ],
         "ameacas": [
-          {
-            "texto": "Taxa sobre combustíveis em debate",
-            "origem": "interna"
-          },
           {
             "texto": "Regulamento ainda por publicar",
             "origem": "interna"
           }
         ],
         "peso_oportunidade": 2,
-        "peso_ameaca": 2,
-        "principal_oportunidade": "20% das obras públicas para PMEs",
-        "principal_ameaca": "Taxa sobre combustíveis em debate"
+        "peso_ameaca": 1,
+        "principal_oportunidade": "Preferência de 20% a nacionais",
+        "principal_ameaca": "Regulamento ainda por publicar"
       }
     ],
     "impacto": [
       {
         "grupo": "Governo",
-        "saldo": -1,
-        "porque": "dívida recorde e orçamento apertado",
-        "efeito": "negativo",
-        "explicacao": "A dívida pública está em máximo e o Orçamento de 2027 corta cerca de 8% em termos reais. A taxa sobre combustíveis procura mais receita para as estradas."
+        "saldo": 1,
+        "porque": "receitas sobem e despesa cai",
+        "efeito": "positivo",
+        "explicacao": "As receitas subiram 10,3% até Setembro e a despesa caiu 7%, o que alivia o défice, mas deixa pouco espaço para emprego público e para a seca."
       },
       {
         "grupo": "Classe baixa",
-        "saldo": -1,
-        "porque": "ajuda alimentar corta e El Niño",
+        "saldo": -2,
+        "porque": "comida cara e chuva fraca",
         "efeito": "negativo",
-        "explicacao": "Gasta a maior parte do rendimento em comida e transporte, e o PAM prevê cortes em Janeiro."
+        "explicacao": "Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM."
       },
       {
         "grupo": "Classe média",
         "saldo": -1,
-        "porque": "crédito caro e inflação a 6,3%",
+        "porque": "crédito caro e preços a subir",
         "efeito": "negativo",
-        "explicacao": "Os juros do crédito pessoal e da casa continuam altos, os preços subiram 0,48% em Outubro e o gasóleo pode subir com a nova taxa."
+        "explicacao": "Os juros médios a um ano estão em 22,26% e a inflação anual em 6,32%, o que aperta prestações e compras."
       },
       {
         "grupo": "Classe alta e investidores",
         "saldo": 1,
-        "porque": "títulos públicos rendem mais",
+        "porque": "gás e contratos públicos avançam",
         "efeito": "positivo",
-        "explicacao": "Os juros altos premeiam quem tem capital para aplicar."
+        "explicacao": "A ENH entra no Coral Norte e o Estado apoia a central de Temane, o que mantém negócios de energia e fornecimento."
       },
       {
         "grupo": "ONGs e parceiros",
         "saldo": -1,
-        "porque": "cortes do PAM e procura a subir",
+        "porque": "mais procura e menos financiamento",
         "efeito": "negativo",
-        "explicacao": "Mais deslocados em Cabo Delgado e El Niño aumentam a procura, com menos financiamento."
+        "explicacao": "O PAM só mantém a ajuda actual até Dezembro, enquanto o El Niño aumenta as necessidades."
       },
       {
         "grupo": "Macroeconomia",
-        "saldo": 0,
-        "porque": "Brent mais baixo, dívida mais alta",
-        "efeito": "misto",
-        "explicacao": "O petróleo mais barato alivia as importações e o Coral Norte avança para 2028, mas a dívida e o crédito fraco travam o crescimento."
+        "saldo": 1,
+        "porque": "receitas fortes, inflação contida",
+        "efeito": "positivo",
+        "explicacao": "A inflação de 6,32% e a taxa MIMO estável em 9,25% dão estabilidade, apesar do petróleo caro e do crédito em queda."
       },
       {
         "grupo": "PMEs",
-        "saldo": -2,
-        "porque": "crédito caro e pagamentos lentos",
-        "efeito": "negativo",
-        "explicacao": "Têm a regra dos 20% nas obras públicas e novos acordos de financiamento, mas o crédito caiu três meses seguidos e os juros médios estão em 22,26%."
+        "saldo": 0,
+        "porque": "contratos novos, crédito escasso",
+        "efeito": "misto",
+        "explicacao": "A regra dos 20% e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses seguidos e os juros são altos."
       },
       {
         "grupo": "Ramos de negócio",
-        "saldo": -1,
-        "porque": "banca ganha, construção e extractivas perdem",
-        "efeito": "negativo",
-        "explicacao": "Ganham a banca, que prefere títulos públicos, e as empresas da estrada da Zambézia. Perdem transportadores, comércio e PMEs de construção."
+        "saldo": 0,
+        "porque": "energia ganha, agricultura perde",
+        "efeito": "misto",
+        "explicacao": "Energia, gás e fornecedores de obras públicas ganham; a agricultura de sequeiro e o transporte perdem com a seca e o combustível."
       }
     ],
     "direccao": [
       {
         "publico": "Famílias",
-        "accao": "Evitar crédito ao consumo a mais de 20% e guardar reserva de básicos antes de Janeiro."
+        "accao": "Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro."
+      },
+      {
+        "publico": "Pequenos agricultores",
+        "accao": "Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito."
       },
       {
         "publico": "PMEs",
-        "accao": "Comparar propostas de pelo menos dois bancos e contar com transporte de carga mais caro."
-      },
-      {
-        "publico": "Utentes do chapa",
-        "accao": "Pagar a tarifa afixada e guardar folga para uma subida depois de Fevereiro."
-      },
-      {
-        "publico": "Fornecedores do Estado e do gás",
-        "accao": "Juntar certidões e esperar a publicação do regulamento antes de pagar a intermediários."
-      },
-      {
-        "publico": "Agricultores",
-        "accao": "Comprar sementes e insumos cedo, antes do início tardio das chuvas."
+        "accao": "Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato."
       },
       {
         "publico": "Jovens à procura de emprego",
-        "accao": "Inscrever-se no portal do INEP e juntar formação curta e experiência comprovada antes de candidaturas."
+        "accao": "Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada."
+      },
+      {
+        "publico": "Investidores",
+        "accao": "Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital."
       }
     ],
     "sinal": "Publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO e primeiros contratos a PMEs ao abrigo da regra dos 20%.",
-    "sintese": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. O Governo quer subir a taxa sobre combustíveis e o crédito à economia caiu pelo terceiro mês, com juros médios de 22,26%. Para as PMEs, a regra que reserva 20% das grandes obras públicas e o acordo entre o Standard Bank e a Câmara de Petróleo e Gás abrem contratos, mas só ajudam quem tiver crédito para os executar.",
-    "o_que_mudou_hoje": "O julgamento de Venâncio Mondlane começa hoje no Tribunal Supremo, sem transmissão em directo. O Estado cobrou mais 10,3% até Setembro e gastou menos 7%, o que deixa pouca folga para criar emprego público.",
+    "sintese": "Os preços sobem devagar, mas o crédito caro e a chuva fraca previstos para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
+    "o_que_mudou_hoje": "O Tribunal Supremo recusou a transmissão em directo do julgamento de Venâncio Mondlane, que começou a 17 de Novembro, mas permite à imprensa fazer relatos escritos.",
     "canais": [
       {
-        "choque": "Taxa sobre combustíveis sobe",
+        "choque": "Chuva abaixo da média",
         "passos": [
-          "Gasóleo sobe 6,36 meticais",
-          "Carga e chapa ficam mais caros",
-          "Comida chega mais cara ao mercado",
-          "Famílias gastam mais por dia"
-        ],
-        "quem_sente": "Utentes do chapa, PMEs e classe baixa",
-        "prazo": "meses"
-      },
-      {
-        "choque": "Crédito privado a cair",
-        "passos": [
-          "Banca prefere títulos públicos",
-          "Menos crédito às PMEs",
-          "Menos investimento e emprego",
-          "Menos rendimento às famílias"
-        ],
-        "quem_sente": "PMEs, trabalhadores e famílias",
-        "prazo": "meses"
-      },
-      {
-        "choque": "Ajuda alimentar corta",
-        "passos": [
-          "PAM reduz ajuda em Janeiro",
-          "El Niño reduz colheita",
-          "Milho fica mais caro",
+          "El Niño forte",
+          "Menos chuva até Fevereiro",
+          "Colheita fraca",
+          "Milho e arroz mais caros",
           "Famílias gastam mais em comida"
         ],
-        "quem_sente": "Classe baixa e agricultores",
-        "prazo": "semanas"
+        "quem_sente": "Pequenos agricultores e classe baixa",
+        "prazo": "meses"
+      },
+      {
+        "choque": "Crédito em queda",
+        "passos": [
+          "Bancos emprestam menos",
+          "Juros a 22%",
+          "PMEs adiam investimento",
+          "Menos emprego"
+        ],
+        "quem_sente": "PMEs e jovens",
+        "prazo": "meses"
       }
     ],
     "cenarios": [
       {
         "nome": "Melhora",
         "probabilidade": 20,
-        "descricao": "Juros descem com o programa do FMI e o crédito às PMEs recupera no primeiro trimestre.",
-        "sinal": "Prime rate abaixo de 15% e crédito a subir em Setembro"
+        "descricao": "A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%.",
+        "sinal": "Chuva acima de 80% do normal em Janeiro"
       },
       {
         "nome": "Fica igual",
-        "probabilidade": 50,
-        "descricao": "A prime rate fica em 15,5%, o crédito oscila e as PMEs continuam a pagar juros acima de 20%.",
-        "sinal": "Taxa média a um ano acima de 21%"
+        "probabilidade": 45,
+        "descricao": "Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%.",
+        "sinal": "Inflação mensal abaixo de 0,6% em Novembro"
       },
       {
         "nome": "Piora",
-        "probabilidade": 30,
-        "descricao": "A inflação sobe, a taxa dos combustíveis avança e o crédito cai mais.",
-        "sinal": "Inflação homóloga acima de 7,5% em Novembro"
+        "probabilidade": 35,
+        "descricao": "A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro.",
+        "sinal": "Milho mais de 10% acima do mês anterior"
       }
     ],
     "riscos": [
       {
-        "risco": "Crédito às PMEs continua a cair",
+        "risco": "Seca na época chuvosa",
         "probabilidade": 3,
         "impacto": 3,
-        "nota": "Três meses seguidos de queda, até Agosto."
+        "nota": "A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro."
       },
       {
-        "risco": "Taxa dos combustíveis aprovada sem alívio",
-        "probabilidade": 2,
-        "impacto": 3,
-        "nota": "Gasóleo mais 6,36 meticais por litro, segundo o ministro."
-      },
-      {
-        "risco": "Chapa sobe quando acabam as compensações",
+        "risco": "Taxa dos combustíveis aprovada",
         "probabilidade": 2,
         "impacto": 2,
-        "nota": "Compensações cobrem três meses, depois falta solução duradoura."
+        "nota": "Pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo."
       },
       {
-        "risco": "Atraso do programa do FMI",
+        "risco": "Crédito continua a cair",
         "probabilidade": 2,
-        "impacto": 3,
-        "nota": "O Governo espera fechar até ao fim do ano, sem garantia."
+        "impacto": 2,
+        "nota": "Caiu em Agosto pelo terceiro mês seguido."
       },
       {
-        "risco": "Milho encarece com El Niño",
+        "risco": "Atraso no regulamento do conteúdo local",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Sem regulamento publicado, as PMEs não se podem registar."
+      },
+      {
+        "risco": "Fim da ajuda do PAM em Dezembro",
         "probabilidade": 2,
         "impacto": 3,
-        "nota": "Época chuvosa tardia e ajuda do PAM a diminuir."
+        "nota": "Famílias já dependentes de ajuda ficam sem apoio na época de escassez."
       }
     ],
     "horizonte": {
-      "imediato": "Debate da taxa sobre combustíveis, julgamento de Mondlane a 17 de Novembro e Comité Central da Frelimo a 27 e 28.",
-      "tres_meses": "Fim das compensações do chapa em Fevereiro e cortes da ajuda alimentar a partir de Janeiro.",
-      "um_ano": "Orçamento de 2027 a funcionar e possível acordo com o FMI a mudar o custo do crédito."
+      "imediato": "Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.",
+      "tres_meses": "Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.",
+      "um_ano": "Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs."
     },
     "vulnerabilidade": [
       {
         "grupo": "Classe baixa",
         "exposicao": 3,
         "margem": 1,
-        "nota": "Gasta a maior parte do rendimento em comida e transporte."
+        "nota": "Gasta a maior parte do rendimento em comida e tem pouca poupança."
       },
       {
         "grupo": "Classe média",
         "exposicao": 2,
         "margem": 2,
-        "nota": "Sente os juros do crédito pessoal e da casa."
+        "nota": "Sente os juros e os preços, mas tem alguma poupança."
       },
       {
         "grupo": "Trabalhadores informais e agricultores",
         "exposicao": 3,
         "margem": 1,
-        "nota": "Dependem do chapa, do mercado e da chuva."
+        "nota": "Dependem da chuva e do mercado diário, sem rede de protecção."
       },
       {
         "grupo": "PMEs",
-        "exposicao": 3,
+        "exposicao": 2,
         "margem": 2,
-        "nota": "Pagam juros acima de 20% e têm menos crédito disponível."
+        "nota": "Juros altos, mas contratos novos podem compensar."
       }
     ],
     "confianca": {
       "grau": "media",
-      "base": "dados do INE por cobertura jornalística, FEWS NET via Lusa, Club of Mozambique e declarações oficiais; a taxa dos combustíveis e Temane assentam numa só fonte"
+      "base": "dados do INE, do Banco de Moçambique, da FEWS NET e de Lusa; faltam preços recentes por cidade"
     },
-    "continuidade": "O assunto do emprego volta com facto novo: o Afrobarometer mostra que 65% dos jovens dizem estar sem trabalho. O crédito às PMEs, a taxa dos combustíveis e o clima mantêm o quadro dos dias anteriores."
+    "continuidade": "A inflação de Outubro confirmou preços a subir devagar, em linha com Setembro. O crédito voltou a cair e a taxa dos combustíveis continua por votar."
   },
   "design": {
     "slides": [
@@ -544,68 +473,62 @@
         "titulo": "Direcções da Semana",
         "texto": "",
         "tom": "neutro",
-        "imagem_termos": "Mozambique coast landscape"
+        "imagem_termos": "Mozambique landscape coast"
       },
       {
-        "titulo": "Obras públicas: 20% para PMEs",
-        "texto": "Desde Agosto, contratos de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais.",
-        "tom": "oportunidade",
-        "imagem_termos": "road construction Africa"
+        "titulo": "Estado cobra mais e gasta menos",
+        "texto": "As receitas subiram 10,3% até Setembro e a despesa caiu 7%. Sobra pouca folga para emprego público.",
+        "tom": "neutro",
+        "imagem_termos": "Maputo city Mozambique"
       },
       {
-        "titulo": "Banca e petróleo juntam-se às PMEs",
-        "texto": "O Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores dos projectos de energia.",
-        "tom": "oportunidade",
-        "imagem_termos": "Maputo bank building"
-      },
-      {
-        "titulo": "Mondlane a julgamento hoje",
-        "texto": "O Tribunal Supremo recusou a transmissão em directo. Os jornalistas podem assistir e tomar notas.",
+        "titulo": "Mondlane a julgamento, sem directo",
+        "texto": "O Tribunal Supremo recusou a transmissão em directo, mas a imprensa pode fazer relatos escritos.",
         "tom": "neutro",
         "imagem_termos": "Maputo courthouse"
       },
       {
-        "titulo": "Preços sobem 0,48% em Outubro",
-        "texto": "Segundo o INE, a inflação anual ficou em 6,32%, com hortícolas e peixe a subir mais.",
-        "tom": "alerta",
-        "imagem_termos": "vegetable market Africa"
+        "titulo": "Acordo abre energia às PMEs",
+        "texto": "O Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para integrar PMEs nos projectos de energia.",
+        "tom": "oportunidade",
+        "imagem_termos": "Pemba Mozambique port"
       },
       {
-        "titulo": "Taxa dos combustíveis em debate",
-        "texto": "O Governo propõe 15 cêntimos de dólar por litro. O gasóleo pode subir 6,36 meticais.",
+        "titulo": "Chuva fraca até Fevereiro",
+        "texto": "A FEWS NET prevê menos chuva e o PAM só mantém a ajuda até Dezembro.",
         "tom": "alerta",
-        "imagem_termos": "fuel station Africa"
+        "imagem_termos": "maize field Africa drought"
       }
     ],
-    "manchete": "PMEs ganham 20% das obras públicas, mas o crédito encolhe",
+    "manchete": "Chuva fraca à vista, crédito caro e contratos novos para PMEs",
     "destaques_capa": [
-      "20% das obras públicas para PMEs",
-      "Crédito cai pelo terceiro mês",
-      "Mondlane a julgamento a 17 de Novembro"
+      "Estado cobra mais e gasta menos",
+      "Mondlane em julgamento no Supremo",
+      "Chuva abaixo da média até Fevereiro"
     ],
-    "legenda": "Desde Agosto, as grandes obras públicas têm de subcontratar 20% a PMEs. O crédito à economia caiu pelo terceiro mês e os juros médios estão em 22,26%. Veja o que fazer antes de aceitar um subcontrato.",
+    "legenda": "Os preços sobem devagar, mas o crédito caro e a chuva fraca até Fevereiro apertam famílias e agricultores. As PMEs ganham contratos com a regra dos 20%. Veja a direcção para cada público.",
     "hashtags": [
       "#Moçambique",
-      "#PMEs"
+      "#DirecçõesDaSemana"
     ],
     "fontes_usadas": [
       1,
-      2
+      2,
+      3
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\n\nO Brent fechou a 98,29 dólares a 5 de Novembro. O novo programa do FMI para Moçambique pode ficar fechado só até ao fim do ano. Milhares de moçambicanos deixaram a África do Sul desde Junho por causa da violência.\n\n*MOÇAMBIQUE*\n\nDesde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais. A 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores dos projectos de energia. Ao mesmo tempo, o crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. O julgamento de Venâncio Mondlane começa a 17 de Novembro no Tribunal Supremo.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham as PMEs com certidões em dia e folga de caixa, e os investidores em títulos públicos. Perdem as famílias de rendimento baixo, que gastam quase tudo em comida e transporte, e as PMEs que dependem de crédito caro.\n\n*DIRECÇÃO*\n\nQuem fornece ao Estado deve juntar as certidões e calcular os juros antes de aceitar um subcontrato. As famílias devem comparar preços e guardar reserva de básicos antes de Dezembro.\n\n*PRÓXIMA SEMANA*\n\nFique atento à inflação de Novembro, à votação da taxa sobre combustíveis e ao Comité Central da Frelimo, a 27 e 28 de Novembro.\n\nPartilhe esta mensagem com quem tem um negócio.",
-    "linkedin": "Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a micro, pequenas e médias empresas nacionais. A regra vale também para as compras centralizadas pela Central de Aquisições do Estado, criada em Junho.\n\nA 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para integrar PMEs nas cadeias de fornecimento dos projectos de energia. Num estudo de 2024, só 27% dos 104 fornecedores inquiridos tinham crédito bancário, e 84% diziam que o financiamento formal cobria menos de metade das necessidades.\n\nO problema está no dinheiro. O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, segundo o Banco de Moçambique. A prime rate está em 15,5% e os juros médios em 22,26%. Um fornecedor pode esperar 90 a 120 dias pelo pagamento, e o Estado ainda deve a fornecedores 171 milhões de euros do fim de 2025, segundo a ministra das Finanças.\n\nO resto da semana traz inflação anual de 6,32%, uma taxa sobre combustíveis em debate e menos chuva prevista até Fevereiro.\n\nDirecção\n\nAntes de aceitar um subcontrato, a PME deve juntar certidões, confirmar o prazo de pagamento por escrito e somar os juros desse prazo ao preço. Num contrato de 10 milhões de meticais, 120 dias de crédito a 22,26% custam cerca de 732 mil.\n\nA regra dos 20% só ajuda quem consegue executar a obra sem esperar pelo Estado. #Moçambique #PMEs #ComprasPúblicas",
-    "instagram": "Desde Agosto, as grandes obras públicas têm de subcontratar 20% a PMEs. Mas o crédito caiu pelo terceiro mês e os juros médios estão em 22,26%. Antes de aceitar um subcontrato, some os juros do prazo de pagamento ao preço. #Moçambique #PMEs",
-    "facebook": "Se tem uma empresa pequena, esta semana há uma notícia para si. Desde Agosto, as obras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais.\n\nA 2 de Novembro, o Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para formar e financiar fornecedores dos projectos de energia.\n\nMas há um custo. O crédito à economia caiu em Agosto pelo terceiro mês seguido e os juros médios estão em 22,26%. Se o pagamento demorar 120 dias, um subcontrato de 10 milhões de meticais custa cerca de 732 mil só em juros.\n\nOs preços também subiram 0,48% em Outubro, segundo o INE, e a inflação anual ficou em 6,32%. O Governo quer subir a taxa sobre os combustíveis, e o gasóleo pode ficar 6,36 meticais mais caro por litro.\n\nA direcção desta semana: antes de aceitar um subcontrato, junte as certidões, peça o prazo de pagamento por escrito e some os juros ao preço. #Moçambique #PMEs",
-    "analise_completa": "## Resumo da semana\n\nOs preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. O Governo propôs subir a taxa sobre combustíveis e o crédito à economia caiu em Agosto pelo terceiro mês seguido. Para as PMEs, a regra que reserva 20% das grandes obras públicas e um novo acordo de financiamento abrem contratos, mas o crédito caro limita quem os pode executar.\n\n## O que mudou face às semanas anteriores\n\nO crédito às PMEs volta com facto novo: o decreto de Agosto sobre compras públicas e o acordo de 2 de Novembro entre o Standard Bank e a Câmara de Petróleo e Gás. A taxa dos combustíveis e o clima não têm decisão nova.\n\n## Mundo\n\nO Brent fechou a 98,29 dólares a 5 de Novembro. O novo programa do FMI pode ficar fechado até ao fim do ano. Cerca de 20 000 moçambicanos deixaram a África do Sul desde Junho por causa da violência. O Programa Alimentar Mundial só mantém a ajuda actual até Dezembro.\n\n## Moçambique\n\nObras públicas de 100 milhões de meticais ou mais têm de subcontratar pelo menos 20% a PMEs nacionais, com margens de preferência de 15% para obras e serviços e de 20% para bens produzidos no país. O Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para financiar fornecedores de energia. O julgamento de Venâncio Mondlane começa a 17 de Novembro. A FEWS NET prevê menos chuva entre Dezembro e Fevereiro, e o Governo aprovou um Plano de Contingência de 39,8 mil milhões de meticais.\n\n## PESTAL\n\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Estratégia da dívida aprovada (int.); Negociação do FMI (ext.) | Julgamento de Mondlane (int.); Comité Central da Frelimo (int.) |\n| Económica | Brent abaixo de 100 dólares (ext.); MIMO estável em 9,25% (int.) | Crédito a cair há três meses (int.); Gasóleo pode subir 6,36 meticais (int.) |\n| Social | Tarifa do chapa mantida (int.) | Ajuda alimentar corta em Janeiro (ext.); Regresso de 20 000 da África do Sul (ext.) |\n| Tecnológica | Registo digital de fornecedores (int.) | Ensino só presencial (int.) |\n| Ambiental | Plano de Contingência aprovado (int.) | Chuva abaixo da média até Fevereiro (ext.) |\n| Legal | 20% das obras públicas para PMEs (int.); Preferência de 20% a nacionais (int.) | Taxa sobre combustíveis em debate (int.); Regulamento por publicar (int.) |\n\n## Como chega ao seu bolso\n\nTaxa sobre combustíveis sobe, o gasóleo encarece 6,36 meticais, a carga e o chapa ficam mais caros e a comida chega mais cara ao mercado. Crédito a cair: a banca prefere títulos públicos, há menos crédito às PMEs, menos investimento e menos emprego. Ajuda alimentar corta: o PAM reduz apoio em Janeiro, a colheita é menor, o milho sobe.\n\n## Cenários\n\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | Juros descem com o programa do FMI e o crédito às PMEs recupera. | Prime rate abaixo de 15% |\n| Fica igual | 50% | A prime rate fica em 15,5% e o crédito oscila. | Taxa média acima de 21% |\n| Piora | 30% | A inflação sobe, a taxa dos combustíveis avança e o crédito cai mais. | Inflação anual acima de 7,5% em Novembro |\n\n## Riscos\n\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Taxa dos combustíveis aprovada | Média | Alto |\n| Atraso dos pagamentos do Estado | Alta | Alto |\n| Fraca colheita com El Niño | Média | Alto |\n| Programa do FMI sem acordo | Média | Alto |\n\n## Horizonte\n\nImediato: votação da taxa sobre combustíveis e inflação de Novembro. Em 3 meses: fim das compensações do chapa em Fevereiro e primeiros efeitos do El Niño na colheita. Num ano: decisão do Rovuma LNG e efeito do programa do FMI nos juros.\n\n## Quem está mais exposto\n\nA classe baixa e os agricultores gastam a maior parte do rendimento em comida e transporte e têm pouca margem para se adaptar. A classe média sente os juros do crédito. As PMEs sofrem com juros altos e pagamentos lentos, mas têm agora acesso a contratos reservados.\n\n## Quem ganha, quem perde\n\nGoverno: perde, com dívida alta e orçamento apertado. Classe baixa: perde, com comida e transporte mais caros. Classe média: perde, com crédito caro e inflação de 6,3%. Classe alta e investidores: ganha, com títulos públicos a render mais. ONGs e parceiros: perdem, com a ajuda a encolher. Macroeconomia: equilibrada. PMEs: perdem mais, apesar da regra dos 20%. Ramos de negócio: ganham construção e fornecedores de energia, perdem transporte e comércio de alimentos.\n\n## Direcção\n\nPMEs: juntar certidões, pedir o prazo de pagamento por escrito e somar os juros ao preço. Famílias: comparar preços e guardar reserva de básicos antes de Dezembro. Transportadores: confirmar a inscrição na compensação até Fevereiro. Agricultores: comprar sementes e insumos cedo.\n\n## Direcções anteriores: o que se confirmou\n\nO chapa de Maputo manteve os 15 meticais com compensações a operadores, como se previa. A taxa dos combustíveis e o subsídio ainda não têm decisão final.\n\n## Sinal a acompanhar\n\nRegulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO.\n\n## Grau de confiança\n\nMédia: dados do INE, do Banco de Moçambique e da Lusa, com o decreto das compras públicas assente numa só notícia.\n\n## Fontes\n\nOficiais: Banco de Moçambique, INE. Imprensa nacional: Lusa (RTP), Forbes África Lusófona. Imprensa económica: [Club of Mozambique](https://clubofmozambique.com/news/standard-bank-and-mozambiques-oil-and-gas-chamber-join-forces-to-strengthen-smes-in-energy-sector/), [Club of Mozambique sobre o julgamento](https://clubofmozambique.com/news/mozambique-supreme-court-reschedules-mondlane-trial-for-17-november/). Preços: FEWS NET.",
+    "whatsapp": "*MUNDO*\nO El Niño deve manter-se forte até 2027 e o petróleo ronda os 98 dólares o barril, o que encarece combustíveis e alimentos importados.\n\n*MOÇAMBIQUE*\nO Tribunal Supremo começou o julgamento de Venâncio Mondlane e recusou a transmissão em directo, mas a imprensa pode fazer relatos escritos. O Estado cobrou mais 10,3% até Setembro e gastou menos 7%. Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. O crédito à economia caiu pelo terceiro mês seguido e a taxa média a um ano está em 22,26%.\n\n*QUEM GANHA E QUEM PERDE*\nGanham o Estado, com mais receitas, e as empresas de energia e gás, com o Standard Bank a financiar PMEs do sector. Perdem a classe baixa e os pequenos agricultores, por causa da comida mais cara e da chuva abaixo da média prevista entre Dezembro e Fevereiro. As PMEs ficam no meio: há contratos novos com a regra dos 20% nas obras públicas, mas o crédito é caro.\n\n*DIRECÇÃO*\nAs famílias devem comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro, quando acaba a ajuda actual do PAM. Os agricultores devem semear cedo e procurar apoio do Plano de Contingência, que tem 39,8 mil milhões de meticais. As PMEs devem juntar certidões e calcular os juros antes de aceitar um subcontrato.\n\n*PRÓXIMA SEMANA*\nEstão por acontecer a publicação do regulamento da Lei 9/2026, a votação da taxa sobre combustíveis, e a inflação de Novembro.\n\nSe esta direcção ajuda, partilhe com quem precisa.",
+    "linkedin": "Os preços sobem devagar, mas duas pressões juntam-se para o fim do ano: crédito caro e chuva fraca.\n\nO INE registou uma subida de 0,48% dos preços em Outubro, com inflação anual de 6,32%. O Banco de Moçambique manteve a taxa MIMO em 9,25%, mas a taxa média de crédito a um ano subiu para 22,26% e o crédito à economia caiu pelo terceiro mês seguido. Ao mesmo tempo, a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027.\n\nO Estado tem folga: cobrou mais 10,3% em receitas até Setembro e gastou menos 7%. Mas essa folga resulta de despesa contida, o que deixa pouco espaço para emprego público, num país onde, segundo o Afrobarometer, 65% dos jovens dizem estar sem emprego e à procura.\n\nPara as PMEs há uma porta aberta: desde Agosto, obras públicas de 100 milhões de meticais ou mais têm de subcontratar 20% a PMEs nacionais, e o Standard Bank assinou com a Câmara de Petróleo e Gás um acordo para o sector da energia. A Lei 9/2026 dá preferência de até 20% a fornecedores nacionais, mas o regulamento ainda não foi publicado.\n\nDirecção\nQuem procura subcontratos deve juntar certidões, registar a empresa e calcular os juros dos meses até ao pagamento. Quem depende da agricultura deve semear cedo e guardar reservas. Os investidores devem esperar o regulamento e a decisão final do Rovuma LNG.\n\nOs próximos dados, inflação de Novembro e a votação da taxa dos combustíveis, dirão se a pressão sobre o bolso aumenta antes de Fevereiro.\n\n#Moçambique #PME #Economia",
+    "instagram": "Preços a subir devagar, crédito caro e chuva fraca até Fevereiro. As PMEs têm contratos novos com a regra dos 20%. Direcção: reserva de básicos, sementeira cedo e contas feitas antes de pedir crédito. #Moçambique #DirecçõesDaSemana",
+    "facebook": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. Não parece muito, mas a hortaliça e o peixe fresco foram o que mais subiu, e é isso que pesa na mesa.\n\nOs próximos meses podem ser mais difíceis no campo. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro, e o PAM só mantém a ajuda actual até Dezembro. O Governo aprovou um Plano de Contingência de 39,8 mil milhões de meticais.\n\nO crédito também está caro. A taxa média a um ano está em 22,26% e o crédito à economia caiu pelo terceiro mês seguido. Para quem tem uma pequena empresa, há uma boa notícia: nas obras públicas de 100 milhões de meticais ou mais, 20% têm de ser subcontratados a PMEs nacionais.\n\nEm Maputo, o julgamento de Venâncio Mondlane começou no Tribunal Supremo, sem transmissão em directo, mas com relatos escritos da imprensa.\n\nA direcção desta semana: guardar uma reserva de básicos antes de Dezembro, comparar preços em dois mercados e fazer as contas dos juros antes de aceitar qualquer subcontrato.\n\n#Moçambique #DirecçõesDaSemana",
+    "analise_completa": "## Resumo da semana\nOs preços sobem devagar, mas o crédito caro e a chuva fraca prevista para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.\n\n## O que mudou face às semanas anteriores\nA inflação de Outubro, de 6,32%, confirmou preços a subir devagar, em linha com Setembro. O crédito voltou a cair e a taxa dos combustíveis continua por votar no Parlamento. O Tribunal Supremo recusou a transmissão em directo do julgamento de Venâncio Mondlane.\n\n## Mundo\nO El Niño deve manter-se forte até 2027 e o Brent fechou a 98,29 dólares a 5 de Novembro, segundo a Nation Thailand. Para Moçambique, isso significa combustíveis importados caros e risco de seca na região, o que pode empurrar os preços do milho.\n\n## Moçambique\nO Estado cobrou mais 10,3% em receitas até Setembro e gastou menos 7%. Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. O crédito à economia caiu em Agosto pelo terceiro mês seguido, para 291 169 milhões de meticais, e a taxa média a um ano subiu para 22,26%. O Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para financiar PMEs de energia. O julgamento de Venâncio Mondlane começou no Tribunal Supremo, com imprensa autorizada a fazer relatos escritos.\n\n## PESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.) | Julgamento de Mondlane sem transmissão (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Inflação anual de 6,32% (int.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Plano de contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.) | Regulamento ainda por publicar (int.) |\n\n## Como chega ao seu bolso\nChuva abaixo da média: El Niño forte, menos chuva até Fevereiro, colheita fraca, milho e arroz mais caros, famílias gastam mais em comida. Quem sente: pequenos agricultores e classe baixa, em meses.\nCrédito em queda: os bancos emprestam menos, os juros ficam a 22%, as PMEs adiam investimento e há menos emprego. Quem sente: PMEs e jovens, em meses.\n\n## Cenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\n## Riscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | Alta | Alto |\n| Taxa dos combustíveis aprovada | Média | Médio |\n| Crédito continua a cair | Média | Médio |\n| Atraso no regulamento do conteúdo local | Média | Médio |\n| Fim da ajuda do PAM em Dezembro | Média | Alto |\n\n## Horizonte\nImediato: votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\nTrês meses: chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\nUm ano: a colheita de 2027 e o programa do FMI decidem o custo de vida e o crédito às PMEs.\n\n## Quem está mais exposto\nA classe baixa tem exposição alta e pouca margem: gasta a maior parte do rendimento em comida. Os trabalhadores informais e os agricultores dependem da chuva e do mercado diário. A classe média e as PMEs têm exposição média e alguma margem, porque os contratos novos podem compensar os juros altos.\n\n## Quem ganha, quem perde\nGoverno: ganha, com receitas a subir e despesa a cair.\nClasse baixa: perde muito, por causa da comida cara e da chuva fraca.\nClasse média: perde, com crédito caro e preços a subir.\nClasse alta e investidores: ganham, com gás e contratos públicos a avançar.\nONGs e parceiros: perdem, com mais procura e menos financiamento.\nMacroeconomia: ganha, com receitas fortes e inflação contida.\nPMEs: equilíbrio, com contratos novos mas crédito escasso.\nRamos de negócio: energia, gás e fornecedores de obras públicas ganham; a agricultura de sequeiro e o transporte perdem.\n\n## Direcção\nFamílias: comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\nPequenos agricultores: semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\nPMEs: juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\nJovens à procura de emprego: registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\nInvestidores: esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\n## Direcções anteriores: o que se confirmou\nA recomendação de comprar milho e arroz aos poucos e comparar mercados continua pendente: a inflação de Outubro ficou em 6,32%, mas faltam preços de milho por cidade para a confirmar.\n\n## Sinal a acompanhar\nPublicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO e primeiros contratos a PMEs ao abrigo da regra dos 20%.\n\n## Grau de confiança\nMédia. Assenta em dados do INE, do Banco de Moçambique, da FEWS NET e da Lusa. Faltam preços recentes por cidade.\n\n## Fontes\nImprensa nacional: RTP/Lusa (https://www.rtp.pt/noticias/mundo/supremo-mocambicano-rejeita-pedido-de-transmissao-em-direto-do-julgamento-de-mondlane_n1766861).\nImprensa económica: Club of Mozambique (https://clubofmozambique.com).\nPreços e segurança alimentar: FEWS NET (https://fews.net/southern-africa/mozambique).\nHumanitário: PAM (https://www.wfp.org/countries/mozambique).\nOficiais: INE e Banco de Moçambique, via Lusa e Forbes África Lusófona (https://forbesafricalusofona.com/?p=178681).",
     "verificar": [
-      "Decreto das compras públicas: valor de 100 milhões e 20% assentam numa notícia da Lusa/Forbes de 20 de Agosto, sem número do decreto",
-      "Dívida a fornecedores de 171 milhões de euros no fim de 2025 (ministra das Finanças)",
-      "Data do início do julgamento de Mondlane a 17 de Novembro",
-      "65% dos jovens de 18 a 35 anos sem emprego e à procura: Afrobarometer, publicado a 23 de Junho de 2026",
-      "Receitas do Estado mais 10,3% e despesa menos 7% até Setembro: relatório do Governo via Lusa",
-      "⚠️ 2 notícias sobre combustível ou chapa na edição (máximo 1)",
+      "Inflação anual de 6,32% e subida mensal de 0,48% em Outubro (INE)",
+      "Taxa média de crédito a um ano de 22,26% e crédito de 291 169 milhões (Banco de Moçambique, Agosto)",
+      "Receitas do Estado mais 10,3% e despesa menos 7% até Setembro",
+      "Brent a 98,29 dólares a 5 de Novembro",
+      "⚠️ Categorias de fontes não consultadas hoje: oficiais",
       "⚠️ A edição só cobre 2 dimensões do PESTAL (mínimo 4)"
     ],
     "duvidas": [],
@@ -626,12 +549,12 @@
         "nota": ""
       },
       {
-        "criterio": "Canais de transmissão: como os acontecimentos principais chegam ao bolso",
+        "criterio": "Canais de transmissão",
         "ok": true,
         "nota": ""
       },
       {
-        "criterio": "Três cenários (melhora, fica igual, piora) com probabilidade e sinal",
+        "criterio": "Três cenários com probabilidade e sinal",
         "ok": true,
         "nota": ""
       },
@@ -671,20 +594,20 @@
         "nota": ""
       },
       {
-        "criterio": "O que mudou face às semanas anteriores, só quando o assunto volta com facto novo",
+        "criterio": "O que mudou face às semanas anteriores",
         "ok": true,
         "nota": ""
       }
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-11-17",
+    "em": "2026-11-18",
     "indicadores": 0,
-    "temas": 2,
+    "temas": 3,
     "direccoes": 2
   },
   "falhas_conformidade": [
-    "2 notícias sobre combustível ou chapa na edição (máximo 1)",
+    "Categorias de fontes não consultadas hoje: oficiais",
     "A edição só cobre 2 dimensões do PESTAL (mínimo 4)"
   ],
   "incluir_itens": []

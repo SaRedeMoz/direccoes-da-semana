@@ -1,300 +1,287 @@
 {
-  "tipo": "dia",
-  "area": "Emprego e trabalho",
-  "tema": "Desemprego jovem: o que muda até 2027",
-  "pergunta": "65% dos jovens dizem estar sem emprego: o que muda até 2027?",
-  "facto": {
-    "texto": "Segundo o Afrobarometer, publicado a 23 de Junho de 2026, 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura de trabalho, e mais 21% estão sem emprego e não procuram. Os jovens apontam a falta de formação (30%) e a falta de experiência exigida (19%) como as maiores barreiras. O Governo quer baixar o desemprego de 18,4% para 17% até 2029.",
-    "numeros": [
-      {
-        "valor": "65%",
-        "legenda": "jovens sem emprego, à procura"
-      },
-      {
-        "valor": "21%",
-        "legenda": "sem emprego, já não procuram"
-      },
-      {
-        "valor": "46%",
-        "legenda": "querem negócio próprio"
-      }
-    ],
-    "fonte": "Afrobarometer, 23 de Junho de 2026; Lusa, Setembro de 2025"
-  },
-  "linha_do_tempo": [
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "manchete": "Chuva fraca até Fevereiro pode encarecer a comida: o que fazer já",
+  "resumo": "Os preços subiram 0,48% em Outubro, segundo o INE, e a previsão de chuva abaixo da média entre Dezembro e Fevereiro ameaça a colheita e os preços da comida. O crédito continua caro, com taxa média de 22,26% a um ano.",
+  "indicadores": [
+    "inflacao",
+    "mimo",
+    "prime_rate",
+    "usd_mzn"
+  ],
+  "comparar": [
+    "chapa",
+    "inflacao"
+  ],
+  "regioes": [
     {
-      "data": "Ago 2023",
-      "texto": "Decreto 45/2023: vagas comunicadas ao INEP",
-      "futuro": false
+      "regiao": "maputo",
+      "destaque": "O Governo manteve o chapa a 15 meticais, com compensações aos transportadores por três meses.",
+      "direccao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, quando as compensações acabam."
     },
     {
-      "data": "23 Jun",
-      "texto": "Afrobarometer: 65% dos jovens sem emprego",
-      "futuro": false
+      "regiao": "beira",
+      "destaque": "Em Sofala, o INGD prevê retomar a ajuda alimentar em Búzi, Nhamatanda, Muanza e Dondo.",
+      "direccao": "Famílias nesses distritos devem confirmar a inscrição na ajuda e guardar sementes para a nova sementeira."
     },
     {
-      "data": "10 Jul",
-      "texto": "INEP assina memorando do Portal Emprego",
-      "futuro": false
-    },
-    {
-      "data": "Dez",
-      "texto": "Termina a ajuda actual do PAM",
-      "futuro": true
-    },
-    {
-      "data": "Dez a Fev",
-      "texto": "Chuva abaixo da média prevista, El Niño forte",
-      "futuro": true
-    },
-    {
-      "data": "2029",
-      "texto": "Meta oficial: desemprego em 17%",
-      "futuro": true
+      "regiao": "nampula",
+      "destaque": "A tarifa do chapa foi aprovada em 20 meticais em Maio.",
+      "direccao": "Compare o preço dos básicos entre mercados e compre mais cedo os produtos que vêm de fora da província."
     }
   ],
-  "precedente": {
-    "quando": "Agosto de 2023",
-    "o_que_aconteceu": "O Decreto 45/2023 passou a obrigar empregadores a comunicar vagas ao INEP sete dias antes de as anunciar. Três anos depois, dois terços dos jovens dizem continuar sem emprego.",
-    "licao": "Uma regra sobre vagas não cria vagas: é preciso empresas a crescer.",
-    "fonte": "DLA Piper Africa; Afrobarometer"
-  },
-  "porque_importa": "Um jovem sem emprego depende da família, adia casa e filhos e tem menos poupança para uma colheita má. Com 46% a querer negócio próprio e crédito a 22,26%, o caminho mais desejado é também um dos mais caros.",
-  "canal": {
-    "passos": [
-      "Crédito caro e a cair",
-      "Menos PMEs a contratar",
-      "Jovens vão para o informal",
-      "Rendimento baixo e instável"
-    ],
-    "quem_sente": "Jovens de 18 a 35 anos e as suas famílias"
-  },
-  "conta": {
-    "titulo": "Crédito de 100 000 MT para um negócio",
-    "pressupostos": "Prestações iguais durante 12 meses. 22,26% é a taxa média; 15,5% é a prime, para os melhores clientes.",
-    "barras": [
-      {
-        "rotulo": "Juros a 22,26%",
-        "valor": 12463,
-        "texto": "12 463 MT"
-      },
-      {
-        "rotulo": "Juros a 15,5%",
-        "valor": 8593,
-        "texto": "8 593 MT"
-      }
-    ],
-    "unidade": "MT de juros em 12 meses",
-    "conclusao": "A diferença é de 3 870 MT, ou 323 MT por mês, quase uma semana de vendas de uma banca pequena."
-  },
-  "cenarios": [
+  "o_que_mudou": [
     {
-      "nome": "Contratos criam vagas",
-      "tipo": "melhora",
-      "probabilidade": 20,
-      "porque_probabilidade": "Os incentivos existem há pouco tempo e o crédito caiu três meses seguidos; por isso a probabilidade é baixa.",
-      "gatilho": "Primeiros subcontratos a PMEs com a regra dos 20% e juros médios abaixo de 20%",
-      "o_que_acontece": "Obras públicas e projectos de energia obrigam a subcontratar PMEs, que contratam jovens com formação curta.",
-      "numeros": "Juros médios de 18% a 20%",
-      "quando": "até Setembro de 2027",
-      "ganha": "Jovens com formação técnica",
-      "perde": "Quem depende só do informal",
-      "se_acontecer": "Candidatar-se a estágios e a fornecedores locais com certidões em dia."
+      "titulo": "Preços sobem 0,48% em Outubro",
+      "explicacao": "A inflação anual ficou em 6,32%, com alface, cebola e peixe fresco a subir mais.",
+      "canal": "Mercado diário"
     },
     {
-      "nome": "O informal absorve",
-      "tipo": "fica_igual",
-      "probabilidade": 45,
-      "porque_probabilidade": "Em três anos o decreto de 2023 não mudou o quadro, e o crédito está caro; é o cenário mais provável, sem chegar a metade.",
-      "gatilho": "Crédito sem recuperação e portal sem vagas novas visíveis",
-      "o_que_acontece": "Os jovens continuam a fazer biscates e pequeno comércio, sem contrato nem protecção.",
-      "numeros": "Juros médios de 21% a 23%",
-      "quando": "durante 2027",
-      "ganha": "Comércio de rua e transporte informal",
-      "perde": "Jovens sem poupança nem formação",
-      "se_acontecer": "Juntar formação curta e guardar reserva para os meses de menos venda."
+      "titulo": "Chuva abaixo da média prevista",
+      "explicacao": "A FEWS NET prevê menos chuva entre Dezembro e Fevereiro, o que pode encarecer milho e arroz.",
+      "canal": "Colheita e mercado"
     },
     {
-      "nome": "Choque no campo e regressos",
-      "tipo": "piora",
-      "probabilidade": 35,
-      "porque_probabilidade": "O El Niño está previsto e a ajuda do PAM só segue até Dezembro; o risco é real mas depende da chuva.",
-      "gatilho": "Chuva abaixo da média de Dezembro a Fevereiro e corte da ajuda do PAM",
-      "o_que_acontece": "Menos colheita empurra famílias rurais para a cidade e os regressados da África do Sul procuram o mesmo trabalho.",
-      "numeros": "Milho mais caro e mais candidatos por vaga",
-      "quando": "de Janeiro a Abril de 2027",
-      "ganha": "Quem vende comida e insumos",
-      "perde": "Famílias rurais e recém-chegados",
-      "se_acontecer": "Comprar sementes cedo e procurar trabalho sazonal antes de Janeiro."
+      "titulo": "Crédito mais caro e a encolher",
+      "explicacao": "A taxa média a um ano subiu para 22,26% e o crédito à economia caiu três meses seguidos.",
+      "canal": "Juros"
     }
   ],
-  "sinais": [
+  "direccoes": [
     {
-      "o_que": "Juros médios do crédito à economia",
-      "limiar": "Abaixo de 20% em duas leituras seguidas",
-      "quando": "até Março de 2027",
-      "aponta_para": "melhora"
+      "area": "Compras",
+      "classe": "ambas",
+      "accao": "Compre arroz, feijão e óleo aos poucos e compare o preço em dois mercados antes de pagar."
     },
     {
-      "o_que": "Vagas anunciadas no portal do INEP",
-      "limiar": "Mais vagas que o trimestre anterior",
-      "quando": "até Fevereiro de 2027",
-      "aponta_para": "melhora"
+      "area": "Poupança",
+      "classe": "ambas",
+      "accao": "Guarde uma pequena reserva em dinheiro e em comida de longa duração antes de Dezembro."
     },
     {
-      "o_que": "Chuva acumulada no Centro e no Sul",
-      "limiar": "Abaixo da média até 31 de Janeiro",
-      "quando": "31 de Janeiro de 2027",
-      "aponta_para": "piora"
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Pague a tarifa afixada e deixe folga no orçamento, porque a taxa sobre os combustíveis ainda pode subir."
     },
     {
-      "o_que": "Ajuda alimentar do PAM",
-      "limiar": "Cortada em Janeiro",
-      "quando": "Janeiro de 2027",
-      "aponta_para": "piora"
+      "area": "Crédito",
+      "classe": "media",
+      "accao": "Evite crédito ao consumo no fim do ano: com juros perto de 22%, uma dívida pequena pesa depressa."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Guarde parte da receita de Novembro e evite stock a prazo, porque a chuva fraca pode encarecer os produtos do campo."
     }
   ],
-  "afectados": [
-    {
-      "grupo": "Jovens de 18 a 35 anos",
-      "saldo": -2,
-      "porque": "muitos à procura, poucas vagas"
-    },
-    {
-      "grupo": "Famílias rurais",
-      "saldo": -1,
-      "porque": "chuva fraca e ajuda a cortar"
-    },
-    {
-      "grupo": "Regressados da África do Sul",
-      "saldo": -2,
-      "porque": "perderam rendimento e procuram trabalho"
-    },
-    {
-      "grupo": "PMEs",
-      "saldo": -1,
-      "porque": "crédito caro limita contratações"
-    },
-    {
-      "grupo": "Fornecedores do Estado e da energia",
-      "saldo": 1,
-      "porque": "regra dos 20% abre contratos"
-    }
-  ],
-  "direccao": [
-    {
-      "publico": "Jovens à procura de trabalho",
-      "agora": "Inscrever-se no portal do INEP e juntar formação curta e prova de experiência.",
-      "se_piorar": "Procurar trabalho sazonal e guardar reserva."
-    },
-    {
-      "publico": "Jovens com negócio próprio",
-      "agora": "Comparar o custo total do crédito em dois bancos antes de assinar.",
-      "se_piorar": "Adiar o investimento e vender com o que tem."
-    },
-    {
-      "publico": "PMEs",
-      "agora": "Abrir estágios e candidatar-se a subcontratos com certidões em dia.",
-      "se_piorar": "Contratar por tarefa e não aumentar custos fixos."
-    },
-    {
-      "publico": "Famílias rurais",
-      "agora": "Comprar sementes cedo e planear rendimento de fora da machamba.",
-      "se_piorar": "Guardar reserva de milho e procurar apoio local."
-    }
-  ],
-  "visao_contraria": "O desemprego declarado pode exagerar o problema: muitos jovens trabalham no informal e não se contam como empregados. O inquérito mede opinião, não a taxa oficial.",
-  "nao_sabemos": [
-    "O INE ainda não publicou uma taxa de desemprego jovem recente.",
-    "Quantas vagas o Portal Emprego já listou e quando arranca."
-  ],
-  "sinal": "Juros médios do crédito abaixo de 20% e mais vagas no portal do INEP.",
-  "confianca": "media",
-  "base_confianca": "Afrobarometer (inquérito de opinião), meta do Governo via Lusa, DLA Piper; sem taxa oficial do INE recente",
+  "revisao": [],
   "textos": {
-    "whatsapp": "*A SITUAÇÃO*\n\nSegundo o Afrobarometer, publicado a 23 de Junho, 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura de trabalho. Outros 21% estão sem emprego e não procuram. Os jovens apontam a falta de formação (30%) e a falta de experiência pedida pelos empregadores (19%) como as maiores barreiras.\n\n*O QUE O GOVERNO FEZ*\n\nEm Julho, o Instituto Nacional de Emprego assinou um memorando para criar um Portal Emprego, que liga jovens e empregadores. Desde 2023, as empresas têm de comunicar as vagas ao INEP sete dias antes de as anunciar. O Governo quer baixar o desemprego de 18,4% para 17% até 2029.\n\n*TRÊS CAMINHOS ATÉ 2027*\n\nMelhora, 20%: os contratos públicos com 20% para PMEs e o acordo da banca com o sector da energia geram vagas, e os juros descem abaixo de 20%.\n\nFica igual, 45%: os jovens continuam a trabalhar por conta própria, sem contrato nem protecção.\n\nPiora, 35%: o El Niño reduz a colheita, a ajuda do PAM corta em Janeiro e os regressados da África do Sul procuram o mesmo trabalho.\n\n*A CONTA*\n\nUm jovem que peça 100 000 meticais para um negócio, a pagar em 12 meses, paga 12 463 meticais de juros a 22,26%, a taxa média do crédito. A 15,5%, a taxa prime, pagaria 8 593. A diferença é de 3 870 meticais, ou 323 por mês. A prime é para os melhores clientes, por isso o primeiro valor é o mais provável.\n\n*DIRECÇÃO*\n\nInscreva-se no portal do INEP, junte formação curta e prova de experiência, e compare o custo total do crédito em dois bancos antes de assinar.\n\nO argumento contrário: o desemprego declarado pode exagerar, porque muitos jovens trabalham no informal.\n\nPartilhe com um jovem que procura trabalho.",
-    "instagram": "Dois em cada três jovens moçambicanos, 65%, dizem estar sem emprego e à procura (Afrobarometer). Um crédito de 100 000 MT custa 12 463 MT de juros a 22,26% e 8 593 a 15,5%. Até 2027: melhora 20%, fica igual 45%, piora 35%. Inscreva-se no portal do INEP e compare o crédito em dois bancos. #Moçambique #Emprego",
-    "facebook": "Dois em cada três jovens moçambicanos dizem estar sem emprego. É o que mostra o Afrobarometer, publicado a 23 de Junho: 65% dos que têm entre 18 e 35 anos procuram trabalho e não encontram, e mais 21% já desistiram de procurar.\n\nOs jovens dizem que falta formação (30%) e que os empregadores pedem experiência que eles não têm (19%). Quase metade, 46%, quer abrir o seu próprio negócio.\n\nO Governo respondeu em Julho com um Portal Emprego, assinado com o INEP, e quer baixar o desemprego de 18,4% para 17% até 2029. Mas o crédito é caro: os juros médios estão em 22,26%.\n\nUm exemplo: quem pede 100 000 meticais por 12 meses a 22,26% paga 12 463 meticais de juros. A 15,5%, pagaria 8 593.\n\nAté 2027, vemos três caminhos. Melhora, com 20% de probabilidade, se os contratos públicos e os acordos com a banca criarem vagas. Fica igual, com 45%, se o informal continuar a absorver os jovens. Piora, com 35%, se a seca do El Niño e a saída de moçambicanos da África do Sul pesarem sobre o campo e as cidades.\n\nA nossa direcção: inscreva-se no portal do INEP, junte formação curta e compare o custo do crédito em dois bancos antes de assinar.",
-    "linkedin": "O desemprego jovem é o problema económico mais visível de Moçambique, e os dados mais recentes confirmam-no. O Afrobarometer, publicado a 23 de Junho, mostra que 65% dos moçambicanos entre 18 e 35 anos dizem estar sem emprego e à procura, e que 21% já não procuram. As barreiras que apontam são a falta de formação (30%) e a falta de experiência exigida (19%).\n\nA resposta oficial tem dois lados. Desde 2023, o Decreto 45/2023 obriga os empregadores a comunicar vagas ao INEP sete dias antes de as anunciar. Em Julho, o INEP assinou um memorando para um Portal Emprego. O Governo quer baixar o desemprego de 18,4% para 17% até 2029. Três anos depois do decreto, a procura continua a ser muito maior do que as vagas: uma lei não cria vagas por si só.\n\nO que pode mudar até 2027, na nossa estimativa:\n\nMelhora, 20%: a regra que reserva 20% das grandes obras públicas a PMEs e o acordo do Standard Bank com a Câmara de Petróleo e Gás geram contratos e contratações, e os juros descem abaixo de 20%.\n\nFica igual, 45%: o trabalho por conta própria continua a absorver os jovens, sem contrato.\n\nPiora, 35%: o El Niño reduz a colheita, o PAM corta a ajuda em Janeiro e os moçambicanos que regressam da África do Sul procuram o mesmo trabalho.\n\nA conta de um negócio novo: 100 000 meticais a 12 meses custam 12 463 meticais de juros a 22,26%, a taxa média, e 8 593 a 15,5%, a taxa prime. A diferença é de 3 870 meticais.\n\nDirecção: para o jovem, portal do INEP, formação curta e prova de experiência; para o empregador, publicar as vagas e abrir estágios; para a PME, calcular o custo total do crédito antes de contratar.\n\nQuem emprega mais jovens este ano será quem conseguir crédito a menos de 20%."
+    "whatsapp": "*O Seu Bolso, 18 de Novembro*\n\nA comida pode ficar mais cara a partir de Dezembro. A FEWS NET prevê calor acima do normal e chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027, e o PAM só mantém a ajuda actual até Dezembro.\n\n*O QUE JÁ MUDOU*\nSegundo o INE, os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco subiram mais. O Banco de Moçambique manteve a taxa MIMO em 9,25% e a prime rate em 15,5%, mas o crédito é caro: a taxa média a um ano está em 22,26%.\n\n*COMPRAS*\nCompre básicos de longa duração aos poucos, como arroz, feijão e óleo, em vez de uma só compra grande. Compare o preço em dois mercados antes de pagar.\n\n*TRANSPORTE*\nEm Maputo, o Governo manteve o chapa a 15 meticais, com compensações aos transportadores por três meses. Em Nampula, a tarifa aprovada em Maio é de 20 meticais. Pague a tarifa afixada e guarde alguma folga, porque a taxa sobre os combustíveis ainda pode subir.\n\n*CRÉDITO*\nEvite crédito ao consumo para o fim do ano. Com juros perto de 22%, uma dívida pequena fica pesada em poucos meses.\n\n*NEGÓCIO INFORMAL*\nQuem vende produtos do campo deve esperar preços mais altos se a chuva falhar, mas também menos produto para vender. Guarde parte da receita de Novembro.\n\n*POR CIDADE*\nMaputo, Beira e Nampula sentem o mesmo choque de formas diferentes: preços importados no Sul, porto e corredor no Centro, produção agrícola no Norte.\n\nSe isto ajuda a sua família, partilhe com quem precisa.",
+    "instagram": "Chuva fraca até Fevereiro pode encarecer a comida. Preços subiram 0,48% em Outubro e o crédito está a 22%. Direcção: comprar básicos aos poucos, comparar dois mercados e evitar dívida de fim de ano. #Moçambique #OSeuBolso",
+    "facebook": "Os preços subiram 0,48% em Outubro e a inflação anual está em 6,32%, segundo o INE. A alface, a cebola e o peixe fresco foram o que mais subiu.\n\nO que preocupa agora é a chuva. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027. Se a colheita falhar, o milho e o arroz tendem a ficar mais caros. O PAM só mantém a ajuda actual até Dezembro, e o Governo aprovou um Plano de Contingência de 39,8 mil milhões de meticais.\n\nPara as famílias: compre básicos aos poucos, compare o preço em dois mercados e guarde uma pequena reserva antes de Dezembro.\n\nPara quem precisa de dinheiro: o crédito está caro, com taxa média de 22,26% a um ano. Evite dívida de consumo no fim do ano.\n\nPara quem anda de chapa: em Maputo, o Governo manteve a tarifa de 15 meticais, com compensações por três meses. A taxa sobre os combustíveis ainda não foi votada, por isso guarde alguma folga no orçamento.\n\nA direcção desta semana: reserva de básicos, dois mercados e nenhuma dívida desnecessária.\n\n#Moçambique #OSeuBolso",
+    "linkedin": "A comida é o principal risco para o bolso dos moçambicanos até Fevereiro.\n\nO INE registou uma subida de 0,48% dos preços em Outubro, com inflação anual de 6,32%. Os produtos que mais subiram foram a alface, a cebola e o peixe fresco. A pressão é moderada, mas a previsão da FEWS NET é de chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027, e o PAM só mantém a ajuda actual até Dezembro.\n\nO crédito não alivia. O Banco de Moçambique manteve a taxa MIMO em 9,25% e a prime rate em 15,5%, mas a taxa média a um ano subiu para 22,26% e o crédito à economia caiu pelo terceiro mês seguido. Para famílias e pequenos negócios, isto significa que financiar compras ou stock custa caro.\n\nNo transporte, o Governo manteve o chapa em Maputo a 15 meticais, com compensações aos transportadores por três meses. A proposta de taxa sobre os combustíveis, que pode juntar 6,36 meticais ao litro de gasóleo, ainda está por decidir.\n\nDirecção\nAs famílias devem comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro. Os pequenos negócios devem evitar crédito de curto prazo para stock em fim de ano e calcular o custo dos juros antes de aceitar prazos de pagamento longos.\n\nOs próximos dados a seguir são a inflação de Novembro e a decisão do Parlamento sobre a taxa dos combustíveis. A decisão mais útil para os próximos três meses é montar uma reserva de comida e de dinheiro antes de Dezembro.\n\n#Moçambique #Economia #OSeuBolso"
   },
   "fontes": [
     {
-      "fonte": "Afrobarometer",
-      "url": "https://www.afrobarometer.org/articles/os-jovens-mocambicanos-enfrentam-dificuldades-para-encontrar-emprego-afirmando-que-sao-prejudicados-pela-falta-de-formacao-e-de-experiencia-profissional/",
-      "data": "2026-06-23"
+      "fonte": "INE, via Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=178681"
     },
     {
-      "fonte": "Lusa (Observador)",
-      "url": "https://observador.pt/2025/09/12/mocambique-quer-desemprego-nos-17-ate-2029-apesar-dos-desafios-estruturais/",
-      "data": "2025-09-12"
+      "fonte": "Lusa, Banco de Moçambique",
+      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto"
     },
     {
-      "fonte": "Lusa (AMAN), Portal Emprego",
-      "url": "https://aman-alliance.org/Home/ContentDetail/104922",
-      "data": "2026-07-10"
+      "fonte": "Lusa",
+      "url": "https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo"
     },
     {
-      "fonte": "DLA Piper Africa, Decreto 45/2023",
-      "url": "https://www.dlapiperafrica.com/pt/mozambique/insights/2023/Duty-to-Communicate-Job-Vacancies-and-Pre-Professional-Internships.html",
-      "data": "2023-08-01"
+      "fonte": "FEWS NET",
+      "url": "https://fews.net/southern-africa/mozambique"
+    },
+    {
+      "fonte": "360 Mozambique, com Rádio Moçambique",
+      "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/"
     }
   ],
-  "data": "2026-11-17",
-  "dia_semana": "terca",
+  "data": "2026-11-18",
+  "dia_semana": "quarta",
   "semana": "2026-S47",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
+  "series": [
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-09",
+        "valor": 6.32,
+        "fonte": "INE, via Forbes África Lusófona",
+        "url": "https://forbesafricalusofona.com/?p=178681",
+        "nota": "Outubro de 2026, taxa homóloga; mensal 0,48%"
+      },
+      "var4": 0.2,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ],
+        [
+          "2026-11-09",
+          6.32
+        ]
+      ]
+    },
+    {
+      "id": "mimo",
+      "nome": "Taxa MIMO",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-04",
+        "valor": 9.25,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Mantida"
+      },
+      "var4": 0,
+      "var12": 0,
+      "pontos": [
+        [
+          "2026-05-25",
+          9.25
+        ],
+        [
+          "2026-09-30",
+          9.25
+        ],
+        [
+          "2026-11-04",
+          9.25
+        ]
+      ]
+    },
+    {
+      "id": "prime_rate",
+      "nome": "Prime rate (crédito bancário)",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-04",
+        "valor": 15.5,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Sexto mês seguido"
+      },
+      "var4": 0,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-08-27",
+          15.5
+        ],
+        [
+          "2026-11-04",
+          15.5
+        ]
+      ]
+    },
+    {
+      "id": "usd_mzn",
+      "nome": "Câmbio dólar/metical",
+      "unidade": "MT por USD",
+      "ultimo": {
+        "data": "2026-10-12",
+        "valor": 63.91,
+        "fonte": "Agregador de câmbios (exchangerate.guru)",
+        "url": "https://exchangerate.guru/bmd/mzn/6/",
+        "nota": "Valor indicativo de agregador, não oficial"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-12",
+          63.91
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
     ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794893837383
-  }
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 15,
+            "data": "2026-11-06",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "inflacao",
+        "nome": "Inflação anual",
+        "unidade": "%",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
 }

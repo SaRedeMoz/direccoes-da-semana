@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Post do dia gravado",
-      "em": "2026-11-18T05:01:37.610Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-18T05:01:44.851Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-18T05:01:44.851Z",
+      "agente": "editor",
+      "msg": "Edição versão 3 montada"
+    },
+    {
+      "em": "2026-11-18T05:01:44.851Z",
+      "agente": "editor",
+      "msg": "O Seu Bolso pronto"
+    },
     {
       "em": "2026-11-18T05:01:37.610Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-11-15T03:37:55.919Z",
       "agente": "analise",
       "msg": "A juntar os itens novos à análise"
-    },
-    {
-      "em": "2026-11-15T03:37:27.784Z",
-      "agente": "fontes",
-      "msg": "Pesquisa feita, 3 itens novos"
-    },
-    {
-      "em": "2026-11-15T03:36:50.582Z",
-      "agente": "fontes",
-      "msg": "A ler a entrada e a pesquisar notícias"
     }
   ],
-  "actualizado": "2026-11-18T05:01:37.610Z",
+  "actualizado": "2026-11-18T05:01:44.851Z",
   "semana": "2026-S47",
   "dia": "2026-11-18",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
