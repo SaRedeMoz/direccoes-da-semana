@@ -1,31 +1,31 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-17",
+  "hoje": "2026-11-18",
   "semana": "2026-S47",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
-  "dia_semana": "terca",
-  "post_do_dia": "dia",
+  "dia_semana": "quarta",
+  "post_do_dia": "bolso",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "analise_independente",
-    "regional"
+    "imprensa_economica",
+    "humanitario"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-11-17 (dia): Desemprego jovem: o que muda até 2027",
     "2026-11-16 (dia): Regra dos 20% nas obras públicas: ajuda PMEs sem crédito?",
     "2026-11-13 (dia): Chuva abaixo da média no pico da época: o que fazer com a sementeira",
     "2026-11-12 (dia): Rovuma LNG: decisão final até Dezembro ou só em 2027",
-    "2026-11-11 (bolso): Taxa dos combustíveis pode subir: gasóleo mais 6,36 meticais por litro",
-    "2026-11-10 (dia): Decreto 54/2026: o que muda para quem paga escola privada"
+    "2026-11-11 (bolso): Taxa dos combustíveis pode subir: gasóleo mais 6,36 meticais por litro"
   ],
   "ultimas_areas_dia": [
+    "Emprego e trabalho",
     "Negócios e PMEs",
-    "Clima e desastres",
-    "Gás, minas e recursos naturais"
+    "Clima e desastres"
   ],
-  "area_sugerida": "Emprego e trabalho",
+  "area_sugerida": "",
   "edicao_anterior": [
     "Preços sobem 0,48% em Outubro",
     "ENH entra nos poços do Coral Norte",
