@@ -6,9 +6,9 @@
       "em": "2026-11-18T04:59:45.685Z"
     },
     "analise": {
-      "estado": "a trabalhar",
-      "msg": "Actualizar a análise da semana",
-      "em": "2026-11-18T04:59:46.975Z"
+      "estado": "pronto",
+      "msg": "Análise gravada",
+      "em": "2026-11-18T05:00:19.960Z"
     },
     "design": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-18T05:00:19.960Z",
+      "agente": "analise",
+      "msg": "Análise gravada"
+    },
     {
       "em": "2026-11-18T04:59:46.975Z",
       "agente": "analise",
@@ -221,14 +226,9 @@
       "em": "2026-11-14T03:56:02.528Z",
       "agente": "fontes",
       "msg": "Ronda de 14 de Novembro concluída"
-    },
-    {
-      "em": "2026-11-14T03:54:59.206Z",
-      "agente": "fontes",
-      "msg": "Pesquisar notícias de 13 e 14 de Novembro"
     }
   ],
-  "actualizado": "2026-11-18T04:59:46.975Z",
+  "actualizado": "2026-11-18T05:00:19.960Z",
   "semana": "2026-S47",
   "dia": "2026-11-18",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
