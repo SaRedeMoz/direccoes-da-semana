@@ -1,315 +1,265 @@
 {
-  "tipo": "bolso",
-  "titulo": "O Seu Bolso",
-  "manchete": "Chuva fraca até Fevereiro pode encarecer a comida: o que fazer já",
-  "resumo": "Os preços subiram 0,48% em Outubro, segundo o INE, e a previsão de chuva abaixo da média entre Dezembro e Fevereiro ameaça a colheita e os preços da comida. O crédito continua caro, com taxa média de 22,26% a um ano.",
-  "indicadores": [
-    "inflacao",
-    "mimo",
-    "prime_rate",
-    "usd_mzn"
-  ],
-  "comparar": [
-    "chapa",
-    "inflacao"
-  ],
-  "regioes": [
+  "tipo": "dia",
+  "area": "Governação e política",
+  "tema": "Julgamento de Venâncio Mondlane e o risco para a economia",
+  "pergunta": "Julgamento de Mondlane: o que pode pesar no seu bolso?",
+  "facto": {
+    "texto": "O julgamento de Venâncio Mondlane, Conselheiro de Estado e segundo mais votado nas eleições de 9 de Outubro de 2024, arrancou a 17 de Novembro no Tribunal Supremo. Responde por cinco crimes, dois deles de terrorismo. A sessão acabou às 14h30, uma hora mais cedo, depois de a defesa entregar uma contestação de 223 páginas.",
+    "numeros": [
+      {
+        "valor": "5",
+        "legenda": "crimes em julgamento"
+      },
+      {
+        "valor": "223",
+        "legenda": "páginas de contestação"
+      },
+      {
+        "valor": "36",
+        "legenda": "testemunhas previstas"
+      }
+    ],
+    "fonte": "Jornal Notícias e Público (Lusa), 17 de Novembro de 2026; RTP"
+  },
+  "linha_do_tempo": [
     {
-      "regiao": "maputo",
-      "destaque": "O Governo manteve o chapa a 15 meticais, com compensações aos transportadores por três meses.",
-      "direccao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, quando as compensações acabam."
+      "data": "9 Out 2024",
+      "texto": "Eleições gerais; Mondlane fica em segundo lugar",
+      "futuro": false
     },
     {
-      "regiao": "beira",
-      "destaque": "Em Sofala, o INGD prevê retomar a ajuda alimentar em Búzi, Nhamatanda, Muanza e Dondo.",
-      "direccao": "Famílias nesses distritos devem confirmar a inscrição na ajuda e guardar sementes para a nova sementeira."
+      "data": "Out 24 a Mar 25",
+      "texto": "Protestos pós-eleitorais fazem 388 mortos",
+      "futuro": false
     },
     {
-      "regiao": "nampula",
-      "destaque": "A tarifa do chapa foi aprovada em 20 meticais em Maio.",
-      "direccao": "Compare o preço dos básicos entre mercados e compre mais cedo os produtos que vêm de fora da província."
+      "data": "Jul 2025",
+      "texto": "Ministério Público deduz acusação contra Mondlane",
+      "futuro": false
+    },
+    {
+      "data": "6 Nov",
+      "texto": "Tanzânia absolve Lissu de traição e condena por incitamento",
+      "futuro": false
+    },
+    {
+      "data": "17 Nov",
+      "texto": "Julgamento arranca no Tribunal Supremo",
+      "futuro": false
+    },
+    {
+      "data": "Dez",
+      "texto": "Audição das testemunhas de acusação, segundo a previsão",
+      "futuro": true
     }
   ],
-  "o_que_mudou": [
+  "precedente": {
+    "quando": "6 de Novembro de 2026, Tanzânia",
+    "o_que_aconteceu": "O Tribunal Superior absolveu o líder da oposição Tundu Lissu de traição, que podia dar pena de morte, mas condenou-o a quatro anos por incitamento. A oposição anunciou recurso.",
+    "licao": "O tribunal escolheu o crime menor e a decisão não acalmou a disputa política.",
+    "fonte": "TimesLive e Club of Mozambique, 6 de Novembro de 2026"
+  },
+  "porque_importa": "Os protestos de Outubro de 2024 a Março de 2025 pararam estradas, lojas e o porto de Maputo. Segundo o Governo, foram destruídos 955 estabelecimentos e cerca de 50 000 pessoas ficaram sem emprego, com perdas de 32,2 mil milhões de meticais. O PIB caiu 4,87% no último trimestre de 2024 face a um ano antes.",
+  "canal": {
+    "passos": [
+      "Decisão do tribunal",
+      "Convocatória de protestos",
+      "Estradas e lojas paradas",
+      "Vendas e salários caem",
+      "Emprego e PIB sofrem"
+    ],
+    "quem_sente": "Comerciantes, transportadores, informais e trabalhadores diários"
+  },
+  "conta": {
+    "titulo": "Quanto custam dias parados a uma loja",
+    "pressupostos": "Loja com vendas de 400 000 MT por mês e 22 dias úteis; cada dia parado perde 1/22 das vendas.",
+    "barras": [
+      {
+        "rotulo": "Mês normal",
+        "valor": 400000,
+        "texto": "400 000 MT/mês"
+      },
+      {
+        "rotulo": "5 dias parados",
+        "valor": 309091,
+        "texto": "309 091 MT/mês"
+      },
+      {
+        "rotulo": "10 dias parados",
+        "valor": 218182,
+        "texto": "218 182 MT/mês"
+      }
+    ],
+    "unidade": "MT por mês",
+    "conclusao": "Cinco dias parados tiram 90 909 MT às vendas do mês; dez dias tiram 181 818 MT, quase metade."
+  },
+  "cenarios": [
     {
-      "titulo": "Preços sobem 0,48% em Outubro",
-      "explicacao": "A inflação anual ficou em 6,32%, com alface, cebola e peixe fresco a subir mais.",
-      "canal": "Mercado diário"
+      "nome": "Decisão aceite sem choque",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Só um precedente regional, e foi contestado. A gravação das sessões pode acelerar, mas 36 testemunhas pesam.",
+      "gatilho": "Testemunhas ouvidas até meados de Dezembro e tribunal decide cedo, com a gravação a encurtar o processo",
+      "o_que_acontece": "O processo corre sem incidentes graves, o acórdão sai e a maioria aceita a decisão. A actividade económica segue normal e o risco político baixa.",
+      "numeros": "Sem dias úteis perdidos; vendas da loja-tipo perto de 400 000 MT",
+      "quando": "até Fevereiro de 2027",
+      "ganha": "Comércio, investidores e Governo",
+      "perde": "Nenhum grupo perde de forma clara",
+      "se_acontecer": "Retomar compras e investimentos adiados, mantendo reserva até a decisão ser definitiva."
     },
     {
-      "titulo": "Chuva abaixo da média prevista",
-      "explicacao": "A FEWS NET prevê menos chuva entre Dezembro e Fevereiro, o que pode encarecer milho e arroz.",
-      "canal": "Colheita e mercado"
+      "nome": "Processo longo, sem choque",
+      "tipo": "fica_igual",
+      "probabilidade": 48,
+      "porque_probabilidade": "A defesa abriu com 223 páginas, há 36 testemunhas e dois peritos, e o precedente da Tanzânia acabou em recurso.",
+      "gatilho": "Defesa e acusação trocam recursos e pedidos de nulidade em várias sessões",
+      "o_que_acontece": "O tribunal ouve 36 testemunhas e dois peritos ao longo de meses. A incerteza mantém-se, a economia segue, mas investidores e PMEs adiam decisões.",
+      "numeros": "Zero a dois dias parados por mês; vendas de 360 000 a 400 000 MT",
+      "quando": "até Março de 2027",
+      "ganha": "Quem tem caixa para esperar",
+      "perde": "PMEs que dependem de crédito e investimento novo",
+      "se_acontecer": "Manter reserva de caixa e decidir compras grandes só depois de cada decisão do tribunal."
     },
     {
-      "titulo": "Crédito mais caro e a encolher",
-      "explicacao": "A taxa média a um ano subiu para 22,26% e o crédito à economia caiu três meses seguidos.",
-      "canal": "Juros"
+      "nome": "Condenação grave e protestos",
+      "tipo": "piora",
+      "probabilidade": 32,
+      "porque_probabilidade": "Os protestos de 2024 e 2025 mostram capacidade de mobilização; a acusação inclui terrorismo, com penas acima de 20 anos.",
+      "gatilho": "Acórdão condena por terrorismo e há convocatória nacional com data marcada",
+      "o_que_acontece": "Há manifestações, estradas bloqueadas e lojas fechadas, como em 2024 e 2025. O Estado responde com polícia e o crédito e o investimento recuam.",
+      "numeros": "Cinco a dez dias parados num mês; vendas de 218 000 a 309 000 MT",
+      "quando": "nas semanas a seguir ao acórdão",
+      "ganha": "Quem tem stock e reserva",
+      "perde": "Informais, transportadores e lojas de rua",
+      "se_acontecer": "Parar entregas nos dias de maior tensão, proteger o stock e pagar primeiro rendas e salários."
     }
   ],
-  "direccoes": [
+  "sinais": [
     {
-      "area": "Compras",
-      "classe": "ambas",
-      "accao": "Compre arroz, feijão e óleo aos poucos e compare o preço em dois mercados antes de pagar."
+      "o_que": "Decisão do tribunal sobre o pedido de nulidade",
+      "limiar": "Se anular a acusação, o processo recomeça",
+      "quando": "até 11 de Dezembro",
+      "aponta_para": "fica_igual"
     },
     {
-      "area": "Poupança",
-      "classe": "ambas",
-      "accao": "Guarde uma pequena reserva em dinheiro e em comida de longa duração antes de Dezembro."
+      "o_que": "Audição das 12 testemunhas de acusação",
+      "limiar": "Concluída até 18 de Dezembro",
+      "quando": "até 18 de Dezembro",
+      "aponta_para": "melhora"
     },
     {
-      "area": "Transporte",
-      "classe": "ambas",
-      "accao": "Pague a tarifa afixada e deixe folga no orçamento, porque a taxa sobre os combustíveis ainda pode subir."
+      "o_que": "Convocatórias de manifestações pela oposição",
+      "limiar": "Convocatória nacional com data marcada",
+      "quando": "antes do acórdão",
+      "aponta_para": "piora"
     },
     {
-      "area": "Crédito",
-      "classe": "media",
-      "accao": "Evite crédito ao consumo no fim do ano: com juros perto de 22%, uma dívida pequena pesa depressa."
-    },
-    {
-      "area": "Negócio informal",
-      "classe": "baixa",
-      "accao": "Guarde parte da receita de Novembro e evite stock a prazo, porque a chuva fraca pode encarecer os produtos do campo."
+      "o_que": "Índice PMI do Standard Bank",
+      "limiar": "Abaixo de 50 pontos em Dezembro",
+      "quando": "Dezembro de 2026",
+      "aponta_para": "piora"
     }
   ],
-  "revisao": [],
+  "afectados": [
+    {
+      "grupo": "Governo",
+      "saldo": -1,
+      "porque": "tema político em aberto até haver decisão"
+    },
+    {
+      "grupo": "Classe baixa urbana",
+      "saldo": -1,
+      "porque": "paragens cortam o rendimento diário"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": -1,
+      "porque": "vendas fracas e crédito mais prudente"
+    },
+    {
+      "grupo": "Investidores",
+      "saldo": -1,
+      "porque": "risco político sobe com a incerteza"
+    },
+    {
+      "grupo": "Imprensa",
+      "saldo": -1,
+      "porque": "cerca de dez lugares fixos, sem imagens"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "PMEs e comerciantes",
+      "agora": "Guardar caixa para uma ou duas semanas de vendas fracas e combinar entregas com folga de prazo.",
+      "se_piorar": "Reduzir stock perecível e adiar compras grandes."
+    },
+    {
+      "publico": "Famílias",
+      "agora": "Ter comida e dinheiro para uma semana em casa, sem acumular por pânico.",
+      "se_piorar": "Evitar deslocações nos dias de manifestação e seguir os avisos oficiais."
+    },
+    {
+      "publico": "Informais e transportadores",
+      "agora": "Combinar rotas alternativas e avisar os clientes habituais.",
+      "se_piorar": "Parar nos dias de maior tensão e retomar quando as estradas abrirem."
+    },
+    {
+      "publico": "Investidores",
+      "agora": "Esperar a decisão sobre a acusação antes de rever planos de investimento.",
+      "se_piorar": "Adiar compromissos de capital até haver calma nas ruas."
+    }
+  ],
+  "visao_contraria": "O julgamento pode reforçar a confiança nas instituições: é o primeiro com gravação de imagem e som e transcrição automática, e a imprensa pode acompanhar. Com regras claras, pode não haver choque na economia.",
+  "nao_sabemos": [
+    "A data da decisão final do tribunal ainda não foi anunciada.",
+    "O tribunal ainda tem de decidir sobre os documentos da defesa e o pedido de nulidade.",
+    "O número de mortos nos protestos de 2024 e 2025 varia segundo as fontes."
+  ],
+  "sinal": "Decisão do tribunal sobre o pedido de nulidade e convocatórias de manifestações com data marcada.",
+  "confianca": "media",
+  "base_confianca": "Duas fontes de imprensa sobre a primeira sessão, com divergências no número de artigos da acusação e na decisão sobre a nulidade; um só precedente regional.",
   "textos": {
-    "whatsapp": "*O Seu Bolso, 18 de Novembro*\n\nA comida pode ficar mais cara a partir de Dezembro. A FEWS NET prevê calor acima do normal e chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027, e o PAM só mantém a ajuda actual até Dezembro.\n\n*O QUE JÁ MUDOU*\nSegundo o INE, os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%. A alface, a cebola e o peixe fresco subiram mais. O Banco de Moçambique manteve a taxa MIMO em 9,25% e a prime rate em 15,5%, mas o crédito é caro: a taxa média a um ano está em 22,26%.\n\n*COMPRAS*\nCompre básicos de longa duração aos poucos, como arroz, feijão e óleo, em vez de uma só compra grande. Compare o preço em dois mercados antes de pagar.\n\n*TRANSPORTE*\nEm Maputo, o Governo manteve o chapa a 15 meticais, com compensações aos transportadores por três meses. Em Nampula, a tarifa aprovada em Maio é de 20 meticais. Pague a tarifa afixada e guarde alguma folga, porque a taxa sobre os combustíveis ainda pode subir.\n\n*CRÉDITO*\nEvite crédito ao consumo para o fim do ano. Com juros perto de 22%, uma dívida pequena fica pesada em poucos meses.\n\n*NEGÓCIO INFORMAL*\nQuem vende produtos do campo deve esperar preços mais altos se a chuva falhar, mas também menos produto para vender. Guarde parte da receita de Novembro.\n\n*POR CIDADE*\nMaputo, Beira e Nampula sentem o mesmo choque de formas diferentes: preços importados no Sul, porto e corredor no Centro, produção agrícola no Norte.\n\nSe isto ajuda a sua família, partilhe com quem precisa.",
-    "instagram": "Chuva fraca até Fevereiro pode encarecer a comida. Preços subiram 0,48% em Outubro e o crédito está a 22%. Direcção: comprar básicos aos poucos, comparar dois mercados e evitar dívida de fim de ano. #Moçambique #OSeuBolso",
-    "facebook": "Os preços subiram 0,48% em Outubro e a inflação anual está em 6,32%, segundo o INE. A alface, a cebola e o peixe fresco foram o que mais subiu.\n\nO que preocupa agora é a chuva. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027. Se a colheita falhar, o milho e o arroz tendem a ficar mais caros. O PAM só mantém a ajuda actual até Dezembro, e o Governo aprovou um Plano de Contingência de 39,8 mil milhões de meticais.\n\nPara as famílias: compre básicos aos poucos, compare o preço em dois mercados e guarde uma pequena reserva antes de Dezembro.\n\nPara quem precisa de dinheiro: o crédito está caro, com taxa média de 22,26% a um ano. Evite dívida de consumo no fim do ano.\n\nPara quem anda de chapa: em Maputo, o Governo manteve a tarifa de 15 meticais, com compensações por três meses. A taxa sobre os combustíveis ainda não foi votada, por isso guarde alguma folga no orçamento.\n\nA direcção desta semana: reserva de básicos, dois mercados e nenhuma dívida desnecessária.\n\n#Moçambique #OSeuBolso",
-    "linkedin": "A comida é o principal risco para o bolso dos moçambicanos até Fevereiro.\n\nO INE registou uma subida de 0,48% dos preços em Outubro, com inflação anual de 6,32%. Os produtos que mais subiram foram a alface, a cebola e o peixe fresco. A pressão é moderada, mas a previsão da FEWS NET é de chuva abaixo da média entre Dezembro e Fevereiro, com El Niño forte até 2027, e o PAM só mantém a ajuda actual até Dezembro.\n\nO crédito não alivia. O Banco de Moçambique manteve a taxa MIMO em 9,25% e a prime rate em 15,5%, mas a taxa média a um ano subiu para 22,26% e o crédito à economia caiu pelo terceiro mês seguido. Para famílias e pequenos negócios, isto significa que financiar compras ou stock custa caro.\n\nNo transporte, o Governo manteve o chapa em Maputo a 15 meticais, com compensações aos transportadores por três meses. A proposta de taxa sobre os combustíveis, que pode juntar 6,36 meticais ao litro de gasóleo, ainda está por decidir.\n\nDirecção\nAs famílias devem comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro. Os pequenos negócios devem evitar crédito de curto prazo para stock em fim de ano e calcular o custo dos juros antes de aceitar prazos de pagamento longos.\n\nOs próximos dados a seguir são a inflação de Novembro e a decisão do Parlamento sobre a taxa dos combustíveis. A decisão mais útil para os próximos três meses é montar uma reserva de comida e de dinheiro antes de Dezembro.\n\n#Moçambique #Economia #OSeuBolso"
+    "whatsapp": "*DIRECÇÃO DO DIA*\n\n*Julgamento de Mondlane: o que pode pesar no seu bolso*\n\nO julgamento de Venâncio Mondlane arrancou a 17 de Novembro no Tribunal Supremo, em Maputo. Responde por cinco crimes, dois deles de terrorismo. Na primeira sessão, a defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação. O juiz explicou porque o processo está no Supremo e a sessão acabou às 14h30, uma hora mais cedo. Estão previstas 36 testemunhas e dois peritos.\n\n*PORQUE IMPORTA*\n\nOs protestos de Outubro de 2024 a Março de 2025 pararam estradas e lojas. Segundo o Governo, foram destruídos 955 estabelecimentos e cerca de 50 000 pessoas ficaram sem emprego, com perdas de 32,2 mil milhões de meticais. O PIB caiu 4,87% no último trimestre de 2024.\n\n*PRECEDENTE*\n\nA 6 de Novembro, na Tanzânia, Tundu Lissu foi absolvido de traição, mas condenado a quatro anos por incitamento. A oposição vai recorrer. O tribunal escolheu o crime menor e a disputa política continuou.\n\n*TRÊS CENÁRIOS ATÉ FEVEREIRO DE 2027*\n\nProcesso longo, sem choque (48%): recursos e pedidos de nulidade esticam as sessões. Os negócios seguem, mas as PMEs adiam compras grandes.\n\nCondenação grave e protestos (32%): se o acórdão condenar por terrorismo e houver convocatória nacional, voltam as paragens.\n\nDecisão aceite sem choque (20%): o tribunal decide cedo e a maioria aceita.\n\nHá um único precedente regional, e 36 testemunhas apontam para um processo longo.\n\n*A CONTA*\n\nUma loja vende 400 000 meticais por mês, em 22 dias úteis. Cinco dias parados custam 90 909 meticais em vendas. Dez dias custam 181 818.\n\n*DIRECÇÃO*\n\nComerciantes: guardar caixa para uma ou duas semanas fracas. Famílias: comida e dinheiro para uma semana, sem pânico. Quem trabalha na rua: combinar rotas e avisar clientes.\n\n*SINAIS*\n\nDecisão do tribunal sobre a nulidade; fim da audição das 12 testemunhas de acusação até 18 de Dezembro; convocatórias de manifestações com data marcada.\n\nPartilhe com quem tem um negócio ou depende de transporte.",
+    "instagram": "O julgamento de Mondlane arrancou a 17 de Novembro no Tribunal Supremo. Cinco crimes, 36 testemunhas e um processo que pode ser longo. Os protestos de 2024 e 2025 custaram 32,2 mil milhões de meticais, segundo o Governo. Cinco dias parados custam a uma loja de 400 000 MT quase um quarto do mês. Guarde caixa e comida para uma semana. #Moçambique #DirecçõesDaSemana",
+    "facebook": "O julgamento de Venâncio Mondlane começou a 17 de Novembro no Tribunal Supremo, em Maputo. Responde por cinco crimes, dois deles de terrorismo. A defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação. Estão previstas 36 testemunhas e dois peritos, por isso o processo pode demorar.\n\nPorque isto toca no dia a dia: nos protestos de Outubro de 2024 a Março de 2025, o Governo contou 955 estabelecimentos destruídos e cerca de 50 000 pessoas sem emprego. O PIB caiu 4,87% no último trimestre de 2024.\n\nO que pode acontecer até Fevereiro de 2027? O mais provável, com 48%, é um processo longo, sem choque. Há 32% de probabilidade de uma condenação grave seguida de protestos, e 20% de uma decisão aceite sem choque.\n\nA conta de uma loja com vendas de 400 000 meticais por mês: cinco dias parados custam 90 909 meticais, dez dias custam 181 818.\n\nNa Tanzânia, a 6 de Novembro, Tundu Lissu foi absolvido de traição e condenado a quatro anos por incitamento, e a disputa política continuou.\n\nA direcção principal: guardar caixa para uma ou duas semanas fracas, ter comida e dinheiro para uma semana em casa e decidir compras grandes só depois de cada decisão do tribunal. #Moçambique #DirecçõesDaSemana",
+    "linkedin": "Julgamento de Mondlane: o risco que as empresas devem medir\n\nA 17 de Novembro arrancou, no Tribunal Supremo, o julgamento de Venâncio Mondlane, Conselheiro de Estado e segundo mais votado nas eleições de 9 de Outubro de 2024. Responde por cinco crimes, dois deles de terrorismo. A defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação. Estão previstas 12 testemunhas de acusação, 20 da defesa e 4 do assistente, além de dois peritos.\n\nPorque importa às empresas: os protestos de Outubro de 2024 a Março de 2025 custaram, segundo o Governo, 32,2 mil milhões de meticais, 955 estabelecimentos e cerca de 50 000 empregos. O PIB recuou 4,87% no último trimestre de 2024.\n\nPrecedente: a 6 de Novembro, o Tribunal Superior da Tanzânia absolveu Tundu Lissu de traição e condenou-o a quatro anos por incitamento. A oposição vai recorrer. É um único caso, mas mostra que a decisão judicial pode não encerrar a disputa.\n\nCenários até Fevereiro de 2027: processo longo e sem choque, 48%; condenação grave seguida de protestos, 32%; decisão rápida e aceite, 20%. O primeiro pesa mais porque há 36 testemunhas e a defesa já abriu o processo com um documento de 223 páginas.\n\nA conta: uma loja com vendas de 400 000 meticais por mês perde 90 909 com cinco dias parados e 181 818 com dez.\n\nDirecção\nReserva de caixa para uma a duas semanas de vendas fracas. Contratos de entrega com folga de prazo. Compromissos de capital depois de a decisão sobre a acusação estar clara.\n\nSinais a seguir: a decisão sobre a nulidade, o fim da audição das testemunhas de acusação até 18 de Dezembro e convocatórias de manifestações com data marcada. Se duas delas apontarem para protestos, a reserva de caixa deve passar a um mês.\n\n#Moçambique #Risco #PMEs"
   },
   "fontes": [
     {
-      "fonte": "INE, via Forbes África Lusófona",
-      "url": "https://forbesafricalusofona.com/?p=178681"
+      "fonte": "Jornal Notícias, primeira sessão do julgamento",
+      "url": "https://www.jornalnoticias.co.mz/destaque/julgamento-de-venancio-mondlane-ts-debateu-pontos-previos-e-apresentacao-da-acusacao/",
+      "data": "2026-11-17"
     },
     {
-      "fonte": "Lusa, Banco de Moçambique",
-      "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto"
+      "fonte": "Público (Lusa), defesa pede anulação",
+      "url": "https://www.publico.pt/2026/11/17/mundo/noticia/defesa-venancio-mondlane-pede-anulacao-julgamento-seculo-primeira-sessao-2195293",
+      "data": "2026-11-17"
     },
     {
-      "fonte": "Lusa",
-      "url": "https://www.noticiasaominuto.com/mundo/3080087/governo-mantem-tarifas-de-transportes-em-maputo"
+      "fonte": "RTP, MP leva vídeos, escutas e dados bancários a tribunal",
+      "url": "https://www.rtp.pt/noticias/mundo/mp-mocambicano-leva-videos-escutas-e-dados-bancarios-a-tribunal-contra-venancio-mondlane_n1779459",
+      "data": "2026-11"
     },
     {
-      "fonte": "FEWS NET",
-      "url": "https://fews.net/southern-africa/mozambique"
+      "fonte": "Club of Mozambique, perdas dos protestos e desemprego",
+      "url": "https://clubofmozambique.com/news/mozambique-losses-of-e456-million-and-50000-unemployed-after-protests-prime-minister/",
+      "data": "2025"
     },
     {
-      "fonte": "360 Mozambique, com Rádio Moçambique",
-      "url": "https://360mozambique.com/business/logistics/nampula-approves-new-minibus-fare-at-20-meticais/"
+      "fonte": "Club of Mozambique, PIB do quarto trimestre de 2024",
+      "url": "https://clubofmozambique.com/news/mozambique-gdp-in-q4-down-almost-5-yoy-due-to-post-election-protests/",
+      "data": "2025"
+    },
+    {
+      "fonte": "Club of Mozambique, Lissu condenado por incitamento",
+      "url": "https://clubofmozambique.com/news/tanzania-opposition-leader-tundu-lissu-cleared-of-treason-sentenced-to-four-years-for-incitement/",
+      "data": "2026-11-06"
     }
   ],
-  "data": "2026-11-18",
-  "dia_semana": "quarta",
+  "data": "2026-11-19",
+  "dia_semana": "quinta",
   "semana": "2026-S47",
   "versao": 1,
   "aprovada": false,
-  "series": [
-    {
-      "id": "inflacao",
-      "nome": "Inflação anual",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-11-09",
-        "valor": 6.32,
-        "fonte": "INE, via Forbes África Lusófona",
-        "url": "https://forbesafricalusofona.com/?p=178681",
-        "nota": "Outubro de 2026, taxa homóloga; mensal 0,48%"
-      },
-      "var4": 0.2,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-10-09",
-          6.31
-        ],
-        [
-          "2026-11-09",
-          6.32
-        ]
-      ]
-    },
-    {
-      "id": "mimo",
-      "nome": "Taxa MIMO",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-11-04",
-        "valor": 9.25,
-        "fonte": "Lusa, Banco de Moçambique",
-        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
-        "nota": "Mantida"
-      },
-      "var4": 0,
-      "var12": 0,
-      "pontos": [
-        [
-          "2026-05-25",
-          9.25
-        ],
-        [
-          "2026-09-30",
-          9.25
-        ],
-        [
-          "2026-11-04",
-          9.25
-        ]
-      ]
-    },
-    {
-      "id": "prime_rate",
-      "nome": "Prime rate (crédito bancário)",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-11-04",
-        "valor": 15.5,
-        "fonte": "Lusa, Banco de Moçambique",
-        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
-        "nota": "Sexto mês seguido"
-      },
-      "var4": 0,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-08-27",
-          15.5
-        ],
-        [
-          "2026-11-04",
-          15.5
-        ]
-      ]
-    },
-    {
-      "id": "usd_mzn",
-      "nome": "Câmbio dólar/metical",
-      "unidade": "MT por USD",
-      "ultimo": {
-        "data": "2026-10-12",
-        "valor": 63.91,
-        "fonte": "Agregador de câmbios (exchangerate.guru)",
-        "url": "https://exchangerate.guru/bmd/mzn/6/",
-        "nota": "Valor indicativo de agregador, não oficial"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-10-12",
-          63.91
-        ]
-      ]
-    }
-  ],
-  "regional": {
-    "regioes": [
-      {
-        "id": "maputo",
-        "nome": "Maputo",
-        "zona": "Sul"
-      },
-      {
-        "id": "beira",
-        "nome": "Beira",
-        "zona": "Centro"
-      },
-      {
-        "id": "nampula",
-        "nome": "Nampula",
-        "zona": "Norte"
-      }
-    ],
-    "linhas": [
-      {
-        "base": "chapa",
-        "nome": "Chapa urbano",
-        "unidade": "MT/viagem",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": 15,
-            "data": "2026-11-06",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": 20,
-            "data": "2026-05-13",
-            "var4": null
-          }
-        ]
-      },
-      {
-        "base": "inflacao",
-        "nome": "Inflação anual",
-        "unidade": "%",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": null,
-            "data": "",
-            "var4": null
-          }
-        ]
-      }
-    ]
-  },
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png"
-    ],
-    "tipos": [
-      "capa-bolso",
-      "indicadores",
-      "regioes-precos",
-      "regioes-direccao",
-      "o-que-mudou",
-      "direccoes"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1794978148938
-  }
+  "falhas": []
 }

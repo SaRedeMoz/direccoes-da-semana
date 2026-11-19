@@ -386,6 +386,12 @@
         "semana": "2026-S47",
         "resumo": "O julgamento de Venâncio Mondlane começou a 17 de Novembro no Tribunal Supremo. O tribunal recusou a transmissão em directo, mas aceita relatos escritos da imprensa.",
         "direccao": "Acompanhar o julgamento antes de decisões de investimento."
+      },
+      {
+        "data": "2026-11-19",
+        "semana": "2026-S47",
+        "resumo": "O julgamento de Mondlane passou a ser o principal tema político do mês. Na Tanzânia, o líder da oposição Tundu Lissu foi absolvido de traição e condenado a quatro anos por incitamento.",
+        "direccao": "Seguir as decisões judiciais e as reacções dos partidos antes de tirar conclusões."
       }
     ]
   },
@@ -524,6 +530,20 @@
         "semana": "2026-S47",
         "resumo": "Segundo o Afrobarometer, 65% dos jovens de 18 a 35 anos dizem estar sem emprego e à procura. O Portal Emprego do INEP foi acordado em Julho.",
         "direccao": "Juntar formação curta e experiência comprovada, e usar o portal do INEP."
+      }
+    ]
+  },
+  {
+    "id": "julgamento_mondlane",
+    "nome": "Julgamento de Venâncio Mondlane",
+    "estado": "activo",
+    "inicio": "2026-11-19",
+    "historial": [
+      {
+        "data": "2026-11-19",
+        "semana": "2026-S47",
+        "resumo": "O julgamento no Tribunal Supremo arrancou a 17 de Novembro, com cinco crimes em causa, dois deles de terrorismo. A defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação.",
+        "direccao": "Acompanhar as sessões em fontes de imprensa e planear negócios e deslocações sem depender de um calendário de decisão."
       }
     ]
   }

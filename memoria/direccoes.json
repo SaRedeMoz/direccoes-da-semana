@@ -107,7 +107,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-19",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "A taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.",
+    "verificada_em": "2026-11-19"
   },
   {
     "id": "D10",
@@ -757,6 +758,42 @@
     "tema": "credito",
     "horizonte": "mes",
     "verificar_em": "2026-12-18",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D63",
+    "data": "2026-11-19",
+    "semana": "2026-S47",
+    "publico": "PMEs e comerciantes",
+    "accao": "Manter reserva de caixa para uma ou duas semanas de vendas reduzidas se houver paralisações depois de decisões do tribunal.",
+    "tema": "julgamento_mondlane",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-19",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D64",
+    "data": "2026-11-19",
+    "semana": "2026-S47",
+    "publico": "Famílias",
+    "accao": "Guardar comida e dinheiro para uma semana e evitar deslocações em dias de manifestações anunciadas.",
+    "tema": "julgamento_mondlane",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-19",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D65",
+    "data": "2026-11-19",
+    "semana": "2026-S47",
+    "publico": "Investidores",
+    "accao": "Esperar pela decisão do tribunal sobre a validade da acusação antes de rever planos de investimento.",
+    "tema": "julgamento_mondlane",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-19",
     "resultado": "pendente",
     "nota": ""
   }

@@ -545,12 +545,6 @@
       "desde": "2026-10-18",
       "ultimos": [
         {
-          "data": "2026-10-18",
-          "semana": "2026-S42",
-          "resumo": "A Frelimo vai apoiar a recandidatura de Chapo em 2029, segundo a Lusa. O julgamento de Mondlane está marcado para 17 de Novembro, sem transmissão em directo.",
-          "direccao": "Acompanhar o julgamento e o clima político antes de decisões de investimento."
-        },
-        {
           "data": "2026-10-22",
           "semana": "2026-S43",
           "resumo": "A Frelimo vai apoiar a recandidatura de Chapo em 2029, segundo a Lusa. O julgamento de Mondlane está marcado para 17 de Novembro, sem transmissão em directo.",
@@ -561,6 +555,12 @@
           "semana": "2026-S47",
           "resumo": "O julgamento de Venâncio Mondlane começou a 17 de Novembro no Tribunal Supremo. O tribunal recusou a transmissão em directo, mas aceita relatos escritos da imprensa.",
           "direccao": "Acompanhar o julgamento antes de decisões de investimento."
+        },
+        {
+          "data": "2026-11-19",
+          "semana": "2026-S47",
+          "resumo": "O julgamento de Mondlane passou a ser o principal tema político do mês. Na Tanzânia, o líder da oposição Tundu Lissu foi absolvido de traição e condenado a quatro anos por incitamento.",
+          "direccao": "Seguir as decisões judiciais e as reacções dos partidos antes de tirar conclusões."
         }
       ]
     },
@@ -692,6 +692,19 @@
           "direccao": "Juntar formação curta e experiência comprovada, e usar o portal do INEP."
         }
       ]
+    },
+    {
+      "id": "julgamento_mondlane",
+      "nome": "Julgamento de Venâncio Mondlane",
+      "desde": "2026-11-19",
+      "ultimos": [
+        {
+          "data": "2026-11-19",
+          "semana": "2026-S47",
+          "resumo": "O julgamento no Tribunal Supremo arrancou a 17 de Novembro, com cinco crimes em causa, dois deles de terrorismo. A defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação.",
+          "direccao": "Acompanhar as sessões em fontes de imprensa e planear negócios e deslocações sem depender de um calendário de decisão."
+        }
+      ]
     }
   ],
   "direccoes_a_verificar": [
@@ -731,7 +744,8 @@
       "horizonte": "mes",
       "verificar_em": "2026-11-19",
       "resultado": "pendente",
-      "nota": ""
+      "nota": "A taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.",
+      "verificada_em": "2026-11-19"
     },
     {
       "id": "D13",
@@ -751,16 +765,16 @@
     "confirmada": 1,
     "parcial": 12,
     "nao_confirmada": 1,
-    "pendente": 48
+    "pendente": 51
   },
   "ultimas_licoes": [
-    "- 2026-11-11 (2026-S46): Às quartas a pesquisa devolve poucos preços datados nas capitais da Beira e de Nampula, e a inflação de Outubro por cidade ainda não saiu.",
     "- 2026-11-12 (2026-S46): A inflação de Outubro chegou por cobertura jornalística antes do comunicado do INE; convém confirmar no INE antes de publicar valores por cidade.",
     "- 2026-11-13 (2026-S46): Às sextas a pesquisa devolve pouco material datado: a previsão da FEWS NET chegou por Lusa sem data de publicação visível e o INAM não tem previsão sazonal 2026/27 acessível.",
     "- 2026-11-14 (2026-S46): As páginas diárias do Club of Mozambique bloqueiam a leitura automática; convém usar a pesquisa por título.",
     "- 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.",
     "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.",
     "- 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar.",
-    "- 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais."
+    "- 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais.",
+    "- 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data."
   ]
 }

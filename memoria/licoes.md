@@ -38,3 +38,4 @@
 - 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.
 - 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar.
 - 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais.
+- 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data.
