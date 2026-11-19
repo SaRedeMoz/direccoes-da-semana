@@ -1,32 +1,37 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "pronto",
-      "msg": "Sem notícias novas datadas; indicadores sem valores novos",
-      "em": "2026-11-18T04:59:45.685Z"
+      "estado": "a trabalhar",
+      "msg": "A começar a pesquisa do dia…",
+      "em": "2026-11-19T04:53:14.096Z"
     },
     "analise": {
-      "estado": "pronto",
-      "msg": "Memória gravada",
-      "em": "2026-11-18T05:00:21.314Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-19T04:53:14.096Z"
     },
     "design": {
-      "estado": "pronto",
-      "msg": "Design gravado",
-      "em": "2026-11-18T05:00:43.392Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-19T04:53:14.096Z"
     },
     "editor": {
-      "estado": "pronto",
-      "msg": "Textos finais prontos",
-      "em": "2026-11-18T05:01:44.851Z"
+      "estado": "parado",
+      "msg": "À espera da sua vez",
+      "em": "2026-11-19T04:53:14.096Z"
     },
     "aprovacao": {
-      "estado": "à espera",
-      "msg": "Post do dia à espera da sua aprovação",
-      "em": "2026-11-18T05:02:31.747Z"
+      "estado": "parado",
+      "msg": "Sem edição nova ainda",
+      "em": "2026-11-19T04:53:14.096Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-19T04:53:14.096Z",
+      "agente": "fontes",
+      "msg": "A começar a pesquisa do dia…"
+    },
     {
       "em": "2026-11-18T05:02:31.747Z",
       "agente": "aprovacao",
@@ -221,16 +226,11 @@
       "em": "2026-11-15T03:38:05.481Z",
       "agente": "design",
       "msg": "Design gravado"
-    },
-    {
-      "em": "2026-11-15T03:38:02.458Z",
-      "agente": "analise",
-      "msg": "Análise e memória gravadas"
     }
   ],
-  "actualizado": "2026-11-18T05:02:31.747Z",
+  "actualizado": "2026-11-19T04:53:14.096Z",
   "semana": "2026-S47",
-  "dia": "2026-11-18",
+  "dia": "2026-11-19",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
   "ultimo_notificado": "dia"
 }
