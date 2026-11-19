@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "Pesquisar notícias de 18 e 19 de Novembro",
-      "em": "2026-11-19T04:53:39.604Z"
+      "estado": "pronto",
+      "msg": "3 notícias novas, 1 actualização do julgamento de Mondlane",
+      "em": "2026-11-19T04:55:51.816Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-19T04:55:51.816Z",
+      "agente": "fontes",
+      "msg": "3 notícias novas, 1 actualização do julgamento de Mondlane"
+    },
     {
       "em": "2026-11-19T04:53:39.604Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-15T03:38:18.034Z",
       "agente": "editor",
       "msg": "Edição versão 7 montada"
-    },
-    {
-      "em": "2026-11-15T03:38:07.675Z",
-      "agente": "editor",
-      "msg": "Textos gravados"
     }
   ],
-  "actualizado": "2026-11-19T04:53:39.604Z",
+  "actualizado": "2026-11-19T04:55:51.816Z",
   "semana": "2026-S47",
   "dia": "2026-11-19",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
