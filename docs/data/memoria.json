@@ -625,6 +625,12 @@
           "semana": "2026-S46",
           "resumo": "A ENH entra na campanha de poços do Coral Norte, que prevê gás em 2028. A ExxonMobil ainda não tomou a decisão final do Rovuma LNG.",
           "direccao": "Fornecedores devem preparar certidões e registo antes das primeiras adjudicações."
+        },
+        {
+          "data": "2026-11-20",
+          "semana": "2026-S47",
+          "resumo": "A ExxonMobil e a Eni reorganizaram as participações: a ExxonMobil sobe a 50% no Rovuma LNG e a Eni fica com 50% dos projectos flutuantes da Área 4. A decisão final do Rovuma LNG está prometida para antes do fim de 2026.",
+          "direccao": "Fornecedores locais devem preparar certidões e registo, sem contar com contratos antes de 2027."
         }
       ]
     },
@@ -757,7 +763,8 @@
       "horizonte": "mes",
       "verificar_em": "2026-11-20",
       "resultado": "pendente",
-      "nota": ""
+      "nota": "A taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.",
+      "verificada_em": "2026-11-20"
     },
     {
       "id": "D13",
@@ -777,16 +784,16 @@
     "confirmada": 1,
     "parcial": 12,
     "nao_confirmada": 1,
-    "pendente": 51
+    "pendente": 53
   },
   "ultimas_licoes": [
-    "- 2026-11-12 (2026-S46): A inflação de Outubro chegou por cobertura jornalística antes do comunicado do INE; convém confirmar no INE antes de publicar valores por cidade.",
     "- 2026-11-13 (2026-S46): Às sextas a pesquisa devolve pouco material datado: a previsão da FEWS NET chegou por Lusa sem data de publicação visível e o INAM não tem previsão sazonal 2026/27 acessível.",
     "- 2026-11-14 (2026-S46): As páginas diárias do Club of Mozambique bloqueiam a leitura automática; convém usar a pesquisa por título.",
     "- 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.",
     "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.",
     "- 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar.",
     "- 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais.",
-    "- 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data."
+    "- 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data.",
+    "- 2026-11-20 (2026-S47): A pesquisa de sexta devolveu pouco material de 19 e 20 de Novembro; o gás do Rovuma foi o único facto datado desta ronda."
   ]
 }

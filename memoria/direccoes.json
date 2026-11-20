@@ -133,7 +133,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-20",
     "resultado": "pendente",
-    "nota": ""
+    "nota": "A taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.",
+    "verificada_em": "2026-11-20"
   },
   {
     "id": "D12",
@@ -794,6 +795,30 @@
     "tema": "julgamento_mondlane",
     "horizonte": "mes",
     "verificar_em": "2026-12-19",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D66",
+    "data": "2026-11-20",
+    "semana": "2026-S47",
+    "publico": "PMEs fornecedoras",
+    "accao": "Preparar certidões e registo para fornecer aos projectos de gás, sem contar com contratos antes de 2027.",
+    "tema": "gas_rovuma",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-20",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D67",
+    "data": "2026-11-20",
+    "semana": "2026-S47",
+    "publico": "Famílias",
+    "accao": "Não contar com efeito do gás nos preços ou no emprego antes de 2028.",
+    "tema": "gas_rovuma",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-20",
     "resultado": "pendente",
     "nota": ""
   }

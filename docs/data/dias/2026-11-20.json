@@ -1,0 +1,260 @@
+{
+  "tipo": "dia",
+  "area": "Gás, minas e recursos naturais",
+  "tema": "Rovuma LNG: a decisão que falta e o que muda para quem vive de fornecer",
+  "pergunta": "Gás do Rovuma: quando chegam os contratos e os empregos?",
+  "facto": {
+    "texto": "A 17 de Novembro, o Presidente Daniel Chapo recebeu em separado a ExxonMobil e a Eni. A ExxonMobil disse que a reorganização com a Eni lhe permite subir a 50% no Rovuma LNG, e a Eni ficará com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes da Área 4. A decisão final de investimento do Rovuma LNG ainda não foi anunciada.",
+    "numeros": [
+      {
+        "valor": "50%",
+        "legenda": "ExxonMobil no Rovuma LNG"
+      },
+      {
+        "valor": "2027",
+        "legenda": "decisão Eni, Mamba East"
+      },
+      {
+        "valor": "2031",
+        "legenda": "arranque visado, Rovuma LNG"
+      }
+    ],
+    "fonte": "Club of Mozambique, 17 de Novembro de 2026; World Oil, 7 de Agosto de 2026"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Nov 2022",
+      "texto": "Coral Sul carrega a primeira carga de gás liquefeito",
+      "futuro": false
+    },
+    {
+      "data": "Nov 2025",
+      "texto": "ExxonMobil levanta a força maior no Rovuma LNG",
+      "futuro": false
+    },
+    {
+      "data": "Ago 2026",
+      "texto": "Carta de intenção à McDermott; arranque visado para 2031",
+      "futuro": false
+    },
+    {
+      "data": "17 Nov",
+      "texto": "Chapo recebe ExxonMobil e Eni em Maputo",
+      "futuro": false
+    },
+    {
+      "data": "Dez 2026",
+      "texto": "Prazo prometido para a decisão final do Rovuma LNG",
+      "futuro": true
+    },
+    {
+      "data": "2027",
+      "texto": "Eni decide sobre a terceira unidade, Mamba East",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "2017 a Novembro de 2022",
+    "o_que_aconteceu": "O Coral Sul teve decisão de investimento em 2017 e só carregou a primeira carga de gás liquefeito em Novembro de 2022, com capacidade de 3,4 milhões de toneladas por ano.",
+    "licao": "Entre a decisão e o primeiro gás passam cerca de cinco anos; os contratos de obra vêm antes.",
+    "fonte": "Energy Voice e TradeWinds (Novembro de 2022)"
+  },
+  "porque_importa": "O gás é a maior aposta de investimento do país e a decisão do Rovuma LNG define quando surgem contratos para fornecedores, obras e empregos em Cabo Delgado. Quem espera efeito já nos preços ou no emprego em 2027 vai esperar mais do que o calendário permite.",
+  "canal": {
+    "passos": [
+      "Decisão final de investimento",
+      "Contratos de engenharia e obra",
+      "Fornecedores locais subcontratados",
+      "Emprego e formação em Cabo Delgado",
+      "Receitas do Estado só depois do gás"
+    ],
+    "quem_sente": "PMEs fornecedoras, jovens técnicos e o Estado"
+  },
+  "conta": {
+    "titulo": "Anos entre a decisão e o primeiro gás",
+    "pressupostos": "Decisão em Dezembro de 2026. Coral Sul serviu de referência: cerca de cinco anos. Arranque do Rovuma em 2030 ou 2031.",
+    "barras": [
+      {
+        "rotulo": "Coral Sul (2017 a 2022)",
+        "valor": 5.4,
+        "texto": "cerca de 5 anos"
+      },
+      {
+        "rotulo": "Rovuma, arranque em 2030",
+        "valor": 4,
+        "texto": "4 anos"
+      },
+      {
+        "rotulo": "Rovuma, arranque em 2031",
+        "valor": 5,
+        "texto": "5 anos"
+      }
+    ],
+    "unidade": "anos",
+    "conclusao": "Mesmo com decisão em Dezembro, o gás só sai entre 2030 e 2031; o dinheiro do Estado vem depois."
+  },
+  "cenarios": [
+    {
+      "nome": "Decisão final até Dezembro",
+      "tipo": "melhora",
+      "probabilidade": 25,
+      "porque_probabilidade": "A ExxonMobil já falhou o fim de 2025 e Julho de 2026; a reorganização com a Eni retira um obstáculo, o que dá algum peso.",
+      "gatilho": "Anúncio oficial da decisão final de investimento do Rovuma LNG até 31 de Dezembro.",
+      "o_que_acontece": "Abrem concursos de engenharia e obra; a McDermott e outros contratados avançam e as subcontratações começam a ser publicadas.",
+      "numeros": "Investimento de 20 a 30 mil milhões de dólares; primeiros concursos em 2027.",
+      "quando": "até 31 de Dezembro de 2026",
+      "ganha": "Fornecedores locais e jovens técnicos",
+      "perde": "Quem espera preços mais baixos já",
+      "se_acontecer": "Registar a empresa, juntar certidões e candidatar-se a subcontratos logo que sejam abertos."
+    },
+    {
+      "nome": "Decisão adiada para 2027",
+      "tipo": "fica_igual",
+      "probabilidade": 47,
+      "porque_probabilidade": "Três prazos já falharam e a reorganização das participações ainda precisa de ser concluída; o atraso é o resultado mais repetido.",
+      "gatilho": "Sem anúncio até 31 de Dezembro, ou nova data apontada para o primeiro trimestre.",
+      "o_que_acontece": "A ExxonMobil conclui primeiro a troca de participações com a Eni e só depois fecha o financiamento; a obra não arranca.",
+      "numeros": "Atraso de 3 a 9 meses; arranque empurrado de 2031 para 2032.",
+      "quando": "decisão até Setembro de 2027",
+      "ganha": "Quem já se preparou com antecedência",
+      "perde": "Fornecedores sem contratos em 2027",
+      "se_acontecer": "Manter a empresa a funcionar com outros clientes e não endividar-se à espera do gás."
+    },
+    {
+      "nome": "Insegurança trava o projecto",
+      "tipo": "piora",
+      "probabilidade": 28,
+      "porque_probabilidade": "A ExxonMobil já pediu garantias de segurança ao Governo e houve 19 mortos em Cabo Delgado em finais de Outubro, segundo o ACLED.",
+      "gatilho": "Novo ataque grave perto de Palma ou Mueda, ou pedido formal de garantias que o Governo não dá.",
+      "o_que_acontece": "Os investidores esperam por garantias de segurança e a decisão passa a depender de acordos novos com o Governo.",
+      "numeros": "Atraso superior a 12 meses; o custo do seguro e da segurança sobe.",
+      "quando": "ao longo de 2027",
+      "ganha": "Projectos de gás já em produção",
+      "perde": "Cabo Delgado e fornecedores locais",
+      "se_acontecer": "Procurar clientes fora do gás e não contar com contratos em Cabo Delgado antes de 2028."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Anúncio da decisão final do Rovuma LNG",
+      "limiar": "Comunicado oficial da ExxonMobil ou do Governo",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Primeiros concursos de engenharia e obra",
+      "limiar": "Pelo menos um concurso aberto a subcontratados",
+      "quando": "até Março de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Nova data para a decisão",
+      "limiar": "Qualquer data depois de Dezembro de 2026",
+      "quando": "Janeiro de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Ataques em Palma ou Mueda",
+      "limiar": "Mais de 20 mortos num mês, segundo o ACLED",
+      "quando": "mensal, até Março de 2027",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "receitas futuras, mas só depois do gás"
+    },
+    {
+      "grupo": "PMEs fornecedoras",
+      "saldo": 1,
+      "porque": "contratos possíveis a partir de 2027"
+    },
+    {
+      "grupo": "Jovens à procura de emprego",
+      "saldo": 1,
+      "porque": "obras e formação, ainda sem data"
+    },
+    {
+      "grupo": "Comunidades de Cabo Delgado",
+      "saldo": -1,
+      "porque": "segurança frágil e terras em disputa"
+    },
+    {
+      "grupo": "Classe baixa",
+      "saldo": 0,
+      "porque": "sem efeito nos preços antes de 2030"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "PMEs fornecedoras",
+      "agora": "Actualizar certidões, registar a empresa e acompanhar os concursos do Rovuma e da Lei do Conteúdo Local.",
+      "se_piorar": "Procurar clientes fora do gás e não endividar-se."
+    },
+    {
+      "publico": "Jovens à procura de emprego",
+      "agora": "Apostar em formação técnica reconhecida, como soldadura, eletricidade e mecânica, que serve a obra e outros sectores.",
+      "se_piorar": "Candidatar-se a empregos em outros sectores."
+    },
+    {
+      "publico": "Famílias",
+      "agora": "Não contar com efeito do gás nos preços ou no emprego antes de 2028.",
+      "se_piorar": "Manter a reserva para a chuva fraca."
+    },
+    {
+      "publico": "Investidores",
+      "agora": "Esperar o anúncio oficial da decisão final antes de assumir compromissos ligados ao Rovuma.",
+      "se_piorar": "Adiar compromissos até haver garantias de segurança."
+    }
+  ],
+  "visao_contraria": "A reorganização com a Eni pode acelerar a decisão: com as participações fechadas, a ExxonMobil perde a desculpa para esperar, e o Governo quer o anúncio ainda este ano.",
+  "nao_sabemos": [
+    "Se a decisão final sairá antes de 31 de Dezembro.",
+    "O valor exacto do investimento: 20 mil milhões, segundo o Presidente, ou 30 mil milhões, segundo a imprensa.",
+    "Quantos empregos locais e que contratos ficarão para empresas moçambicanas."
+  ],
+  "sinal": "Anúncio oficial da decisão final de investimento do Rovuma LNG até 31 de Dezembro de 2026.",
+  "confianca": "media",
+  "base_confianca": "Uma fonte principal para a reunião de 17 de Novembro; custo e datas vêm de duas fontes que divergem.",
+  "textos": {
+    "whatsapp": "*GÁS DO ROVUMA: QUANDO CHEGAM OS CONTRATOS?*\n\nA 17 de Novembro, o Presidente Daniel Chapo recebeu a ExxonMobil e a Eni. A ExxonMobil sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte. A decisão final de investimento do Rovuma LNG ainda não foi anunciada, e a ExxonMobil já falhou prazos anteriores.\n\n*PRECEDENTE*\n\nO Coral Sul teve decisão de investimento em 2017 e só carregou a primeira carga de gás em Novembro de 2022. Entre a decisão e o gás passam cerca de cinco anos.\n\n*A CONTA*\n\nSe a decisão sair em Dezembro de 2026, o Rovuma LNG pode arrancar em 2030 ou 2031, entre 4 e 5 anos depois. O dinheiro do Estado vem depois disso.\n\n*TRÊS CENÁRIOS*\n\nDecisão até Dezembro, 25%: abrem concursos de engenharia e obra em 2027 e as PMEs fornecedoras ganham.\nDecisão adiada para 2027, 47%: a troca de participações com a Eni ainda precisa de ser concluída e o arranque passa para 2032.\nInsegurança trava o projecto, 28%: um novo ataque em Cabo Delgado atrasa a decisão mais de um ano.\n\n*SINAIS*\n\nComunicado oficial até 31 de Dezembro. Primeiro concurso aberto a subcontratados até Março de 2027. Mais de 20 mortos num mês em Palma ou Mueda, segundo o ACLED, aponta para o cenário mau.\n\n*DIRECÇÃO*\n\nPMEs: actualizar certidões e registar a empresa. Jovens: investir em formação técnica que serve vários sectores. Famílias: não contar com efeito do gás nos preços antes de 2028.\n\nPartilhe com quem trabalha ou quer fornecer ao sector do gás.",
+    "instagram": "O gás do Rovuma ainda não tem decisão final. A ExxonMobil sobe a 50% e a Eni fica com 50% do Coral Sul e do Coral Norte. No Coral Sul passaram cerca de cinco anos entre a decisão e o primeiro gás. PMEs: preparem certidões e registo agora. #Moçambique #Gás #DirecçõesDaSemana",
+    "facebook": "O Presidente Daniel Chapo recebeu a 17 de Novembro a ExxonMobil e a Eni. A ExxonMobil disse que sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes. A decisão final de investimento do Rovuma LNG ainda não saiu.\n\nO que isto muda para si? Pouco, no curto prazo. No Coral Sul passaram cerca de cinco anos entre a decisão de 2017 e a primeira carga de gás em Novembro de 2022. Se o Rovuma LNG for decidido em Dezembro, o gás só sai em 2030 ou 2031.\n\nHá três caminhos. Com 25% de probabilidade, a decisão sai até Dezembro e abrem concursos para fornecedores em 2027. Com 47%, a decisão é adiada para 2027, porque três prazos já falharam. Com 28%, um novo ataque em Cabo Delgado atrasa tudo mais de um ano.\n\nO que fazer: as pequenas empresas devem actualizar certidões e registo, e os jovens devem apostar em formação técnica que serve vários sectores. As famílias não devem contar com efeito do gás nos preços antes de 2028. #Moçambique #Gás",
+    "linkedin": "Gás do Rovuma: a decisão que falta e o calendário que importa\n\nA 17 de Novembro, o Presidente Daniel Chapo recebeu em separado a ExxonMobil e a Eni. A ExxonMobil disse que a reorganização com a Eni lhe permite subir a 50% no Rovuma LNG, e a Eni ficará com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes da Área 4. A decisão final de investimento do Rovuma LNG ainda não foi anunciada, e a ExxonMobil já falhou o fim de 2025 e Julho de 2026.\n\nO precedente ajuda a medir o calendário. O Coral Sul teve decisão de investimento em 2017 e só carregou a primeira carga em Novembro de 2022, cerca de cinco anos depois. Se o Rovuma LNG for decidido em Dezembro, o arranque visado para 2031 cabe nesse prazo, mas sem folga.\n\nCenários: decisão até Dezembro, 25%, com concursos de obra em 2027; adiamento para 2027, 47%, porque a troca de participações ainda precisa de ser concluída; insegurança em Cabo Delgado a travar o projecto, 28%. O custo também não é consensual: o Presidente fala em 20 mil milhões de dólares e a imprensa em 30 mil milhões.\n\nDirecção\nFornecedores: actualizar certidões, registar a empresa e acompanhar os concursos e a Lei do Conteúdo Local, sem endividar-se à espera de contratos. Investidores: esperar o anúncio oficial antes de assumir compromissos ligados ao Rovuma.\n\nO sinal mais claro é um comunicado oficial até 31 de Dezembro; sem ele, o mais provável é esperar por 2027.\n\n#Moçambique #Gás #Energia"
+  },
+  "fontes": [
+    {
+      "fonte": "Club of Mozambique, Chapo recebe ExxonMobil e Eni",
+      "url": "https://clubofmozambique.com/news/mozambique-chapo-meets-exxonmobil-and-eni-executives-to-review-rovuma-basin-gas-projects/",
+      "data": "2026-11-17"
+    },
+    {
+      "fonte": "World Oil, ExxonMobil e a McDermott no Rovuma LNG",
+      "url": "https://www.worldoil.com/news/2026/8/7/exxonmobil-advances-rovuma-lng-with-mcdermott-engineering-award",
+      "data": "2026-08-07"
+    },
+    {
+      "fonte": "TradeWinds, primeira carga do Coral Sul",
+      "url": "https://www.tradewindsnews.com/gas/after-many-false-starts-mozambique-finally-exports-first-cargo-of-lng/2-1-1353274",
+      "data": "2022-11-14"
+    },
+    {
+      "fonte": "Energy Voice, Coral Sul",
+      "url": "https://energyvoice.com/?p=459877",
+      "data": "2022-11-14"
+    },
+    {
+      "fonte": "JPT, ExxonMobil levanta a força maior",
+      "url": "https://jpt.spe.org/exxonmobil-lifts-force-majeure-on-mozambique-megaproject",
+      "data": "2025-11-01"
+    }
+  ],
+  "data": "2026-11-20",
+  "dia_semana": "sexta",
+  "semana": "2026-S47",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

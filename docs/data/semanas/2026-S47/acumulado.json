@@ -77,15 +77,28 @@
       "confianca": "media",
       "n": 6,
       "recolhida": "2026-11-19"
+    },
+    {
+      "titulo": "Chapo recebe ExxonMobil e Eni e analisa os projectos de gás da bacia do Rovuma",
+      "resumo": "A 17 de Novembro, o Presidente Daniel Chapo recebeu em separado a ExxonMobil e a Eni. A ExxonMobil disse que a reorganização com a Eni lhe permite subir para 50% no Rovuma LNG, e a Eni ficará com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes da Área 4, com decisão de investimento em 2027 para a terceira unidade, a Mamba East.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_nacional",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-chapo-meets-exxonmobil-and-eni-executives-to-review-rovuma-basin-gas-projects/",
+      "data": "2026-11-17",
+      "confianca": "media",
+      "n": 7,
+      "recolhida": "2026-11-20"
     }
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 4,
-  "proximo_n": 7,
+  "versao": 5,
+  "proximo_n": 8,
   "lacunas": [
-    "Resultado da sessão de 18 de Novembro do julgamento de Mondlane",
-    "Data da missão do FMI prevista para Novembro ou início de Dezembro",
+    "Resultado das sessões de 19 e 20 de Novembro do julgamento de Mondlane",
+    "Decisão final de investimento do Rovuma LNG",
     "Preços de milho e arroz nas três capitais",
     "Inflação de Outubro por cidade",
     "Decisão final sobre a taxa dos combustíveis"
@@ -192,6 +205,24 @@
       "fonte": "SIMA/MASA",
       "url": "https://www.masa.gov.mz",
       "data": "2026-11-19"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com",
+      "data": "2026-11-20"
+    },
+    {
+      "categoria": "humanitario",
+      "fonte": "INGD via Lusa",
+      "url": "https://www.ingd.gov.mz",
+      "data": "2026-11-20"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "South32 (Mozal)",
+      "url": "https://www.south32.net/news-media/latest-news/mozal-aluminium-update",
+      "data": "2026-11-20"
     }
   ],
   "analise": {
@@ -203,10 +234,10 @@
         "Petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados"
       ],
       "nacional": [
+        "Chapo recebe ExxonMobil e Eni: gás do Rovuma entre a decisão e a obra",
         "Julgamento de Mondlane: defesa entrega 223 páginas e pede a anulação da acusação",
         "Receitas do Estado sobem 10,3% até Setembro e a despesa cai 7%",
-        "Inflação de 6,32% em Outubro e crédito a cair pelo terceiro mês",
-        "Regra dos 20% de subcontratação a PMEs nas obras públicas"
+        "Inflação de 6,32% em Outubro e crédito a cair pelo terceiro mês"
       ]
     },
     "pestal": [
@@ -241,11 +272,11 @@
             "origem": "interna"
           },
           {
-            "texto": "Inflação anual de 6,32%",
-            "origem": "interna"
+            "texto": "Abu Dhabi: 500 milhões de dólares",
+            "origem": "externa"
           },
           {
-            "texto": "Abu Dhabi: 500 milhões de dólares",
+            "texto": "Rovuma LNG: decisão até Dezembro",
             "origem": "externa"
           }
         ],
@@ -437,9 +468,9 @@
         "accao": "Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital."
       }
     ],
-    "sinal": "Resultado das sessões do julgamento de Mondlane, publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO.",
+    "sinal": "Resultado das sessões do julgamento de Mondlane, publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO. Decisão final de investimento do Rovuma LNG, prometida pela ExxonMobil até ao fim do ano.",
     "sintese": "Os preços sobem devagar, mas o crédito caro e a chuva fraca previstos para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
-    "o_que_mudou_hoje": "O julgamento de Venâncio Mondlane arrancou a 17 de Novembro: a defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação, e a sessão acabou uma hora mais cedo. Na Tanzânia, o líder da oposição Tundu Lissu foi absolvido de traição, mas condenado a quatro anos por incitamento.",
+    "o_que_mudou_hoje": "O Presidente Daniel Chapo recebeu a ExxonMobil e a Eni a 17 de Novembro. A ExxonMobil passa a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte, com decisão sobre a terceira unidade flutuante só em 2027. Ainda não há decisão final de investimento no Rovuma LNG.",
     "canais": [
       {
         "choque": "Chuva abaixo da média",
@@ -558,7 +589,7 @@
       "grau": "media",
       "base": "dados do INE, do Banco de Moçambique, da FEWS NET, da Lusa e de jornais nacionais e regionais"
     },
-    "continuidade": "O julgamento de Mondlane passou de data marcada a processo em curso, com a primeira decisão do tribunal sobre a validade da acusação. A inflação de Outubro e o crédito em queda mantêm o quadro económico da semana, e a taxa dos combustíveis continua por votar."
+    "continuidade": "O julgamento de Mondlane continua em curso, sem decisão sobre a nulidade pedida pela defesa. O gás do Rovuma entra agora no quadro: a promessa de decisão até ao fim do ano mantém-se, mas já falhou prazos anteriores."
   },
   "design": {
     "slides": [
@@ -581,10 +612,10 @@
         "imagem_termos": "Maputo courthouse"
       },
       {
-        "titulo": "Acordo abre energia às PMEs",
-        "texto": "O Standard Bank e a Câmara de Petróleo e Gás assinaram um acordo para integrar PMEs nos projectos de energia.",
-        "tom": "oportunidade",
-        "imagem_termos": "Pemba Mozambique port"
+        "titulo": "Gás do Rovuma: decisão por tomar",
+        "texto": "A ExxonMobil sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte. A decisão final ainda não saiu.",
+        "tom": "neutro",
+        "imagem_termos": "liquefied natural gas tanker"
       },
       {
         "titulo": "Chuva fraca até Fevereiro",
@@ -605,11 +636,11 @@
         "imagem_termos": "Dar es Salaam Tanzania"
       }
     ],
-    "manchete": "Mondlane em tribunal, chuva fraca e crédito caro para as PMEs",
+    "manchete": "Mondlane em tribunal, gás do Rovuma por decidir e chuva fraca",
     "destaques_capa": [
-      "Mondlane em julgamento no Supremo",
-      "Abu Dhabi empresta 500 milhões",
-      "Chuva abaixo da média até Fevereiro"
+      "Mondlane em tribunal",
+      "Gás do Rovuma por decidir",
+      "Chuva fraca até Fevereiro"
     ],
     "legenda": "Os preços sobem devagar, mas o crédito caro e a chuva fraca até Fevereiro apertam famílias e agricultores. As PMEs ganham contratos com a regra dos 20%. Veja a direcção para cada público.",
     "hashtags": [
@@ -617,26 +648,30 @@
       "#DirecçõesDaSemana"
     ],
     "fontes_usadas": [
-      1,
       2,
       3,
       4,
-      5
+      5,
+      7
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\n\nNa Tanzânia, o líder da oposição Tundu Lissu foi absolvido de traição, mas condenado a quatro anos por incitamento. O Fundo de Abu Dhabi assinou com Moçambique um acordo de cerca de 500 milhões de dólares. O petróleo ronda os 98 dólares.\n\n*MOÇAMBIQUE*\n\nO julgamento de Venâncio Mondlane arrancou a 17 de Novembro no Tribunal Supremo. A defesa entregou 223 páginas de contestação. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%. A inflação de Outubro foi de 6,32%.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham o Governo, os investidores e a macroeconomia, com receitas fortes e inflação contida. Perdem a classe baixa, com comida cara e chuva fraca, e a classe média, com juros a 22%. As PMEs ficam a meio: há contratos novos com a regra dos 20%, mas falta crédito.\n\n*DIRECÇÃO*\n\nFamílias: comprar básicos aos poucos e guardar reserva antes de Dezembro. Agricultores: semear cedo e pedir apoio do Plano de Contingência no distrito. PMEs: juntar certidões e calcular os juros antes de aceitar um subcontrato.\n\n*PRÓXIMA SEMANA*\n\nAtenção às sessões do julgamento, à votação da taxa sobre os combustíveis e à inflação de Novembro.\n\nPartilhe esta mensagem com quem precisa de decidir esta semana.",
-    "linkedin": "Chuva fraca, crédito caro e um julgamento que mexe com a confiança\n\nEsta semana, três coisas pesam na economia moçambicana. A primeira é o clima: a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda actual até Dezembro. A segunda é o crédito: os juros médios a um ano estão em 22,26% e o crédito caiu pelo terceiro mês. A terceira é política: o julgamento de Venâncio Mondlane arrancou a 17 de Novembro no Tribunal Supremo, com cinco crimes em causa.\n\nHá sinais positivos. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%. A inflação anual ficou em 6,32% em Outubro. O Fundo de Abu Dhabi assinou um acordo de cerca de 500 milhões de dólares com Moçambique, embora juros e projectos ainda não sejam conhecidos. A regra dos 20% abre contratos às PMEs, e o acordo entre o Standard Bank e a Câmara de Petróleo e Gás aponta para o sector da energia.\n\nNa região, a Tanzânia absolveu Tundu Lissu de traição, mas condenou-o a quatro anos por incitamento.\n\nDirecção\nEmpresas: calcular os juros antes de aceitar um subcontrato e manter reserva de caixa para uma ou duas semanas fracas. Fornecedores: juntar certidões e registar-se quando abrir a Autoridade de Conteúdo Local. Investidores: esperar o regulamento da Lei 9/2026 e a decisão sobre a acusação no julgamento antes de comprometer capital.\n\nA semana pede prudência no crédito e atenção ao calendário: regulamento do conteúdo local, taxa dos combustíveis e sessões do julgamento.\n\n#Moçambique #PMEs #Economia",
+    "whatsapp": "*MUNDO*\n\nNa Tanzânia, o líder da oposição Tundu Lissu foi absolvido de traição, mas condenado a quatro anos por incitamento. O Fundo de Abu Dhabi assinou com Moçambique um acordo de cerca de 500 milhões de dólares. O petróleo ronda os 98 dólares.\n\n*MOÇAMBIQUE*\n\nO Presidente Daniel Chapo recebeu a ExxonMobil e a Eni a 17 de Novembro: a ExxonMobil sobe a 50% no Rovuma LNG, mas a decisão final de investimento ainda não saiu. O julgamento de Venâncio Mondlane arrancou a 17 de Novembro no Tribunal Supremo. A defesa entregou 223 páginas de contestação. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%. A inflação de Outubro foi de 6,32%.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham o Governo, os investidores e a macroeconomia, com receitas fortes e inflação contida. Perdem a classe baixa, com comida cara e chuva fraca, e a classe média, com juros a 22%. As PMEs ficam a meio: há contratos novos com a regra dos 20%, mas falta crédito.\n\n*DIRECÇÃO*\n\nFamílias: comprar básicos aos poucos e guardar reserva antes de Dezembro. Agricultores: semear cedo e pedir apoio do Plano de Contingência no distrito. PMEs: juntar certidões e calcular os juros antes de aceitar um subcontrato.\n\n*PRÓXIMA SEMANA*\n\nAtenção às sessões do julgamento, à votação da taxa sobre os combustíveis e à inflação de Novembro.\n\nPartilhe esta mensagem com quem precisa de decidir esta semana.",
+    "linkedin": "Chuva fraca, crédito caro e um julgamento que mexe com a confiança\n\nEsta semana, três coisas pesam na economia moçambicana. A primeira é o clima: a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda actual até Dezembro. A segunda é o crédito: os juros médios a um ano estão em 22,26% e o crédito caiu pelo terceiro mês. A terceira é política: o julgamento de Venâncio Mondlane arrancou a 17 de Novembro no Tribunal Supremo, com cinco crimes em causa.\n\nHá sinais positivos. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%. A inflação anual ficou em 6,32% em Outubro. O Fundo de Abu Dhabi assinou um acordo de cerca de 500 milhões de dólares com Moçambique. A regra dos 20% abre contratos às PMEs, e o acordo entre o Standard Bank e a Câmara de Petróleo e Gás aponta para o sector da energia.\n\nNo gás, a ExxonMobil passa a 50% do Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte, depois de o Presidente Daniel Chapo os receber a 17 de Novembro. A decisão final do Rovuma LNG está prometida para antes do fim do ano.\n\nDirecção\nEmpresas: calcular os juros antes de aceitar um subcontrato e manter reserva de caixa para uma ou duas semanas fracas. Fornecedores: juntar certidões e registar-se quando abrir a Autoridade de Conteúdo Local. Investidores: esperar o regulamento da Lei 9/2026 e a decisão sobre a acusação no julgamento antes de comprometer capital.\n\nA semana pede prudência no crédito e atenção ao calendário: regulamento do conteúdo local, taxa dos combustíveis e sessões do julgamento.\n\n#Moçambique #PMEs #Economia",
     "instagram": "Chuva fraca até Fevereiro, crédito a 22% e o julgamento de Mondlane em curso. Receitas do Estado sobem 10,3% e Abu Dhabi assina 500 milhões de dólares. Direcção: comprar básicos aos poucos e guardar reserva antes de Dezembro. #Moçambique #DirecçõesDaSemana",
-    "facebook": "Esta semana, o que mais mexe com a vida das famílias é a chuva. A FEWS NET prevê menos chuva do que o normal entre Dezembro e Fevereiro, e o PAM só mantém a ajuda actual até Dezembro. Isso pode encarecer o milho e o arroz.\n\nOs preços em geral sobem devagar: a inflação anual foi de 6,32% em Outubro. Mas os juros estão altos, a rondar 22% a um ano, e o crédito caiu pelo terceiro mês, o que aperta as famílias com prestações e as pequenas empresas.\n\nNa política, o julgamento de Venâncio Mondlane começou a 17 de Novembro no Tribunal Supremo. A defesa entregou 223 páginas de contestação e pediu a anulação da acusação.\n\nTambém há notícias boas: o Fundo de Abu Dhabi assinou um acordo de cerca de 500 milhões de dólares com Moçambique, e a regra dos 20% abre contratos às pequenas empresas nas obras públicas.\n\nDirecção principal da semana: comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro. Quem cultiva deve semear cedo e pedir apoio do Plano de Contingência no distrito. #Moçambique #DirecçõesDaSemana",
-    "analise_completa": "Resumo da semana\nOs preços sobem devagar, mas o crédito caro e a chuva fraca previstos para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher. O julgamento de Venâncio Mondlane arrancou a 17 de Novembro.\n\nO que mudou face às semanas anteriores\nO julgamento de Mondlane passou de data marcada a processo em curso. A inflação e o crédito mantêm o quadro económico, e a taxa dos combustíveis continua por votar.\n\nMundo\nNa Tanzânia, o tribunal absolveu a 6 de Novembro o líder da oposição Tundu Lissu de traição e condenou-o a quatro anos por incitamento; a oposição vai recorrer. O Fundo de Abu Dhabi para o Desenvolvimento assinou o primeiro acordo com Moçambique, de cerca de 500 milhões de dólares, descrito pelo Presidente como empréstimo. O petróleo ronda os 98 dólares o barril e o El Niño forte ameaça a época chuvosa.\n\nMoçambique\nO julgamento de Mondlane começou no Tribunal Supremo com cinco crimes em causa. A defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação,. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%, segundo a Forbes África Lusófona. A inflação anual ficou em 6,32% em Outubro, segundo o INE, e o crédito caiu pelo terceiro mês. \n\nPESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.) | Julgamento de Mondlane sem transmissão (int.); Tensão se houver condenação (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Inflação anual de 6,32% (int.); Abu Dhabi: 500 milhões de dólares (ext.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\nComo chega ao seu bolso\nChuva abaixo da média: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sente mais: Pequenos agricultores e classe baixa, em meses.\nCrédito em queda: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sente mais: PMEs e jovens, em meses.\n\nCenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\nRiscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3/3 | 3/3 |\n| Taxa dos combustíveis aprovada | 2/3 | 2/3 |\n| Crédito continua a cair | 2/3 | 2/3 |\n| Atraso no regulamento do conteúdo local | 2/3 | 2/3 |\n| Fim da ajuda do PAM em Dezembro | 2/3 | 3/3 |\n| Protestos após decisão do julgamento | 2/3 | 3/3 |\n\nHorizonte\nImediato: Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\nEm 3 meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\nEm 1 ano: Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs.\n\nQuem está mais exposto\nClasse baixa: exposição alta, margem baixa.\nClasse média: exposição média, margem média.\nTrabalhadores informais e agricultores: exposição alta, margem baixa.\nPMEs: exposição média, margem média.\n\nQuem ganha, quem perde\nGoverno (+1): receitas sobem e despesa cai.\nClasse baixa (-2): comida cara e chuva fraca.\nClasse média (-1): crédito caro e preços a subir.\nClasse alta e investidores (+1): gás e contratos públicos avançam.\nONGs e parceiros (-1): mais procura e menos financiamento.\nMacroeconomia (+1): receitas fortes, inflação contida.\nPMEs (0): contratos novos, crédito escasso.\nRamos de negócio (0): energia ganha, agricultura perde.\n\nDirecção\nFamílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\nPequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\nPMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\nJovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\nInvestidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\nDirecções anteriores: o que se confirmou\nA taxa sobre os combustíveis continua por votar, por isso a direcção de guardar margem para um aumento mantém-se pendente.\n\nSinal a acompanhar\nResultado das sessões do julgamento de Mondlane, publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO.\n\nGrau de confiança\nMédia. Assenta em dados do INE, do Banco de Moçambique, da FEWS NET, da Lusa e de jornais nacionais e regionais.\n\nFontes\nImprensa: Jornal Notícias, Lusa (RTP), Público, Club of Mozambique, Forbes África Lusófona, TimesLive.\nOficiais e análise: INE, Banco de Moçambique, FEWS NET, WAM.",
+    "facebook": "Esta semana, o que mais mexe com a vida das famílias é a chuva. A FEWS NET prevê menos chuva do que o normal entre Dezembro e Fevereiro, e o PAM só mantém a ajuda actual até Dezembro. Isso pode encarecer o milho e o arroz.\n\nOs preços em geral sobem devagar: a inflação anual foi de 6,32% em Outubro. Mas os juros estão altos, a rondar 22% a um ano, e o crédito caiu pelo terceiro mês, o que aperta as famílias com prestações e as pequenas empresas.\n\nNo gás, o Presidente Daniel Chapo recebeu a ExxonMobil e a Eni a 17 de Novembro. A ExxonMobil sobe a 50% no Rovuma LNG, mas a decisão final de investimento ainda não saiu. Na política, o julgamento de Venâncio Mondlane começou a 17 de Novembro no Tribunal Supremo. A defesa entregou 223 páginas de contestação e pediu a anulação da acusação.\n\nTambém há notícias boas: o Fundo de Abu Dhabi assinou um acordo de cerca de 500 milhões de dólares com Moçambique, e a regra dos 20% abre contratos às pequenas empresas nas obras públicas.\n\nDirecção principal da semana: comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro. Quem cultiva deve semear cedo e pedir apoio do Plano de Contingência no distrito. #Moçambique #DirecçõesDaSemana",
+    "analise_completa": "Resumo da semana\nOs preços sobem devagar, mas o crédito caro e a chuva fraca previstos para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher. O julgamento de Venâncio Mondlane arrancou a 17 de Novembro.\n\nO que mudou face às semanas anteriores\nO julgamento de Mondlane passou de data marcada a processo em curso. A inflação e o crédito mantêm o quadro económico, e a taxa dos combustíveis continua por votar.\n\nMundo\nNa Tanzânia, o tribunal absolveu a 6 de Novembro o líder da oposição Tundu Lissu de traição e condenou-o a quatro anos por incitamento; a oposição vai recorrer. O Fundo de Abu Dhabi para o Desenvolvimento assinou o primeiro acordo com Moçambique, de cerca de 500 milhões de dólares, descrito pelo Presidente como empréstimo. O petróleo ronda os 98 dólares o barril e o El Niño forte ameaça a época chuvosa.\n\nMoçambique\nA 17 de Novembro, o Presidente Daniel Chapo recebeu a ExxonMobil e a Eni. A ExxonMobil sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte; a decisão final do Rovuma LNG ainda não saiu (Club of Mozambique, 17 de Novembro).\nO julgamento de Mondlane começou no Tribunal Supremo com cinco crimes em causa. A defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação,. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%, segundo a Forbes África Lusófona. A inflação anual ficou em 6,32% em Outubro, segundo o INE, e o crédito caiu pelo terceiro mês. \n\nPESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.) | Julgamento de Mondlane sem transmissão (int.); Tensão se houver condenação (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Inflação anual de 6,32% (int.); Abu Dhabi: 500 milhões de dólares (ext.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\nComo chega ao seu bolso\nChuva abaixo da média: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sente mais: Pequenos agricultores e classe baixa, em meses.\nCrédito em queda: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sente mais: PMEs e jovens, em meses.\n\nCenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\nRiscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3/3 | 3/3 |\n| Taxa dos combustíveis aprovada | 2/3 | 2/3 |\n| Crédito continua a cair | 2/3 | 2/3 |\n| Atraso no regulamento do conteúdo local | 2/3 | 2/3 |\n| Fim da ajuda do PAM em Dezembro | 2/3 | 3/3 |\n| Protestos após decisão do julgamento | 2/3 | 3/3 |\n\nHorizonte\nImediato: Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\nEm 3 meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\nEm 1 ano: Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs.\n\nQuem está mais exposto\nClasse baixa: exposição alta, margem baixa.\nClasse média: exposição média, margem média.\nTrabalhadores informais e agricultores: exposição alta, margem baixa.\nPMEs: exposição média, margem média.\n\nQuem ganha, quem perde\nGoverno (+1): receitas sobem e despesa cai.\nClasse baixa (-2): comida cara e chuva fraca.\nClasse média (-1): crédito caro e preços a subir.\nClasse alta e investidores (+1): gás e contratos públicos avançam.\nONGs e parceiros (-1): mais procura e menos financiamento.\nMacroeconomia (+1): receitas fortes, inflação contida.\nPMEs (0): contratos novos, crédito escasso.\nRamos de negócio (0): energia ganha, agricultura perde.\n\nDirecção\nFamílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\nPequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\nPMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\nJovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\nInvestidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\nDirecções anteriores: o que se confirmou\nA taxa sobre os combustíveis continua por votar, por isso a direcção de guardar margem para um aumento mantém-se pendente.\n\nSinal a acompanhar\nResultado das sessões do julgamento de Mondlane, publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO.\n\nGrau de confiança\nMédia. Assenta em dados do INE, do Banco de Moçambique, da FEWS NET, da Lusa e de jornais nacionais e regionais.\n\nFontes\nImprensa: Jornal Notícias, Lusa (RTP), Público, Club of Mozambique, Forbes África Lusófona, TimesLive.\nOficiais e análise: INE, Banco de Moçambique, FEWS NET, WAM.\n- Club of Mozambique, 17 de Novembro de 2026: https://clubofmozambique.com/news/mozambique-chapo-meets-exxonmobil-and-eni-executives-to-review-rovuma-basin-gas-projects/",
     "verificar": [
       "Valor e natureza do acordo do Fundo de Abu Dhabi (500 milhões de dólares, empréstimo segundo o Presidente)",
       "Decisão do tribunal sobre o pedido de nulidade da acusação (o Público diz por decidir)",
       "Número de artigos da acusação (101 ou 107, segundo a fonte)",
       "Número de mortos nos protestos de 2024 e 2025 (388 segundo o Público; outras fontes divergem)",
       "Perdas de 32,2 mil milhões de meticais e 955 estabelecimentos, números do Governo citados pelo Club of Mozambique",
-      "⚠️ Categorias de fontes não consultadas hoje: oficiais, analise_independente",
+      "Categorias de fontes não consultadas hoje: oficiais, analise_independente",
+      "A edição só cobre 2 dimensões do PESTAL (mínimo 4)",
+      "Fala do processo interno: \"Número de mortos nos protestos de 2024 e 2025 (388 segundo o Público; outras fontes diverg\"",
+      "Percentagens da ExxonMobil (50% no Rovuma LNG) e da Eni (50% do Coral Sul e do Coral Norte), segundo o Club of Mozambique de 17 de Novembro.",
+      "⚠️ Categorias de fontes não consultadas hoje: precos",
       "⚠️ A edição só cobre 2 dimensões do PESTAL (mínimo 4)",
       "⚠️ Fala do processo interno: \"Número de mortos nos protestos de 2024 e 2025 (388 segundo o Público; outras fontes diverg\""
     ],
@@ -710,13 +745,13 @@
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-11-19",
+    "em": "2026-11-20",
     "indicadores": 0,
-    "temas": 2,
-    "direccoes": 3
+    "temas": 1,
+    "direccoes": 2
   },
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: oficiais, analise_independente",
+    "Categorias de fontes não consultadas hoje: precos",
     "A edição só cobre 2 dimensões do PESTAL (mínimo 4)",
     "Fala do processo interno: \"Número de mortos nos protestos de 2024 e 2025 (388 segundo o Público; outras fontes diverg\""
   ],
