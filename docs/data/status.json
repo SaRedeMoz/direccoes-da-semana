@@ -21,12 +21,17 @@
       "em": "2026-11-20T04:46:49.491Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-11-20T04:43:12.960Z"
+      "estado": "à espera",
+      "msg": "Post do dia à espera da sua aprovação",
+      "em": "2026-11-20T04:47:57.137Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-20T04:47:57.137Z",
+      "agente": "aprovacao",
+      "msg": "Post do dia à espera da sua aprovação"
+    },
     {
       "em": "2026-11-20T04:46:49.491Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-11-18T04:59:45.685Z",
       "agente": "fontes",
       "msg": "Sem notícias novas datadas; indicadores sem valores novos"
-    },
-    {
-      "em": "2026-11-18T04:58:49.857Z",
-      "agente": "fontes",
-      "msg": "Pesquisa de notícias e preços do bolso"
     }
   ],
-  "actualizado": "2026-11-20T04:46:49.491Z",
+  "actualizado": "2026-11-20T04:47:57.137Z",
   "semana": "2026-S47",
   "dia": "2026-11-20",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
