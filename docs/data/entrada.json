@@ -1,31 +1,31 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-19",
+  "hoje": "2026-11-20",
   "semana": "2026-S47",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
-  "dia_semana": "quinta",
+  "dia_semana": "sexta",
   "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "internacional",
-    "analise_independente"
+    "regional",
+    "humanitario"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-11-19 (dia): Julgamento de Venâncio Mondlane e o risco para a economia",
     "2026-11-18 (bolso): Chuva fraca até Fevereiro pode encarecer a comida: o que fazer já",
     "2026-11-17 (dia): Desemprego jovem: o que muda até 2027",
     "2026-11-16 (dia): Regra dos 20% nas obras públicas: ajuda PMEs sem crédito?",
-    "2026-11-13 (dia): Chuva abaixo da média no pico da época: o que fazer com a sementeira",
-    "2026-11-12 (dia): Rovuma LNG: decisão final até Dezembro ou só em 2027"
+    "2026-11-13 (dia): Chuva abaixo da média no pico da época: o que fazer com a sementeira"
   ],
   "ultimas_areas_dia": [
+    "Governação e política",
     "Emprego e trabalho",
-    "Negócios e PMEs",
-    "Clima e desastres"
+    "Negócios e PMEs"
   ],
-  "area_sugerida": "Governação e política",
+  "area_sugerida": "Água, energia e saneamento",
   "edicao_anterior": [
     "Preços sobem 0,48% em Outubro",
     "ENH entra nos poços do Coral Norte",
