@@ -552,5 +552,33 @@
         "direccao": "Acompanhar as sessões em fontes de imprensa e planear negócios e deslocações sem depender de um calendário de decisão."
       }
     ]
+  },
+  {
+    "id": "fmi_programa",
+    "nome": "Programa com o FMI",
+    "estado": "activo",
+    "inicio": "2026-11-21",
+    "historial": [
+      {
+        "data": "2026-11-21",
+        "semana": "2026-S47",
+        "resumo": "O Ministério das Finanças quer o programa aprovado até ao fim de 2026, mas o FMI não confirmou o calendário. O representante residente disse a 11 de Novembro que o preço dos combustíveis agrava a falta de divisas.",
+        "direccao": "Acompanhar o acordo técnico e esperar medidas fiscais antes de contrair crédito."
+      }
+    ]
+  },
+  {
+    "id": "subsidios_dirigentes",
+    "nome": "Subsídios a dirigentes do Estado",
+    "estado": "activo",
+    "inicio": "2026-11-21",
+    "historial": [
+      {
+        "data": "2026-11-21",
+        "semana": "2026-S47",
+        "resumo": "O Conselho de Ministros suspendeu a 17 de Novembro o subsídio de viatura e o de início de funções, até as condições melhorarem. Os pedidos já aprovados mantêm-se.",
+        "direccao": "Acompanhar a data de entrada em vigor e novos cortes de despesa."
+      }
+    ]
   }
 ]
