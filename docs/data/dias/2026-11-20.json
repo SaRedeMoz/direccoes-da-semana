@@ -255,7 +255,7 @@
   "dia_semana": "sexta",
   "semana": "2026-S47",
   "versao": 1,
-  "aprovada": false,
+  "aprovada": true,
   "falhas": [],
   "imagens": {
     "slides": [
@@ -308,5 +308,6 @@
     ],
     "pdf": "data/dia/linkedin-carrossel.pdf",
     "v": 1795150073900
-  }
+  },
+  "aprovadaEm": "2026-11-21T11:12:32.900Z"
 }
