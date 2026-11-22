@@ -120,7 +120,7 @@
   ],
   "processados": [],
   "sugestoes_semana": [],
-  "versao": 6,
+  "versao": 7,
   "proximo_n": 10,
   "lacunas": [
     "Preços de milho e arroz nas três capitais",
@@ -260,6 +260,12 @@
       "fonte": "AllAfrica / Club of Mozambique (FMI)",
       "url": "https://allafrica.com/stories/202609110252.html",
       "data": "2026-11-21"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "FEWS NET Moçambique",
+      "url": "https://fews.net/southern-africa/mozambique",
+      "data": "2026-11-22"
     }
   ],
   "analise": {
@@ -511,7 +517,7 @@
     ],
     "sinal": "Resultado das sessões do julgamento de Mondlane, publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO. Decisão final de investimento do Rovuma LNG, prometida pela ExxonMobil até ao fim do ano. Acordo técnico com o FMI e data de entrada em vigor do decreto dos subsídios.",
     "sintese": "Os preços sobem devagar, mas o crédito caro e a chuva fraca previstos para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
-    "o_que_mudou_hoje": "O Conselho de Ministros aprovou a 17 de Novembro um decreto que suspende o subsídio de viatura e o de início de funções para dirigentes do Estado, até as condições económicas melhorarem. O Ministério das Finanças continua a apontar para um programa com o FMI aprovado até ao fim do ano.",
+    "o_que_mudou_hoje": "O julgamento de Venâncio Mondlane continua no Tribunal Supremo, sem transmissão em directo, depois de a defesa ter entregue 223 páginas a pedir a anulação da acusação. O decreto que suspende os subsídios de viatura a dirigentes e o programa com o FMI até ao fim do ano mantêm-se como os factos mais recentes na economia.",
     "canais": [
       {
         "choque": "Chuva abaixo da média",
@@ -710,7 +716,9 @@
       "Número de mortos nos protestos de 2024 e 2025 (388 segundo o Público)",
       "Percentagens da ExxonMobil e da Eni no Rovuma LNG e no Coral",
       "Poupança de 7,4 mil milhões de meticais do decreto dos subsídios (AIM) e data de entrada em vigor",
-      "⚠️ Categorias de fontes não consultadas hoje: oficiais, analise_independente",
+      "Categorias de fontes não consultadas hoje: oficiais, analise_independente",
+      "A edição só cobre 3 dimensões do PESTAL (mínimo 4)",
+      "⚠️ Categorias de fontes não consultadas hoje: oficiais, imprensa_nacional, humanitario",
       "⚠️ A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
     ],
     "duvidas": [],
@@ -783,13 +791,13 @@
     ]
   },
   "memoria_actualizada": {
-    "em": "2026-11-21",
+    "em": "2026-11-22",
     "indicadores": 0,
-    "temas": 2,
+    "temas": 0,
     "direccoes": 0
   },
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: oficiais, analise_independente",
+    "Categorias de fontes não consultadas hoje: oficiais, imprensa_nacional, humanitario",
     "A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
   ],
   "incluir_itens": []

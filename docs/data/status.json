@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos mantidos",
-      "em": "2026-11-22T03:53:30.950Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-22T03:53:36.953Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-22T03:53:36.953Z",
+      "agente": "editor",
+      "msg": "Edição versão 7 montada"
+    },
     {
       "em": "2026-11-22T03:53:30.950Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-11-19T04:56:18.239Z",
       "agente": "analise",
       "msg": "Análise actualizada"
-    },
-    {
-      "em": "2026-11-19T04:55:53.384Z",
-      "agente": "analise",
-      "msg": "Actualizar a análise com o julgamento e o precedente da Tanzânia"
     }
   ],
-  "actualizado": "2026-11-22T03:53:30.950Z",
+  "actualizado": "2026-11-22T03:53:36.953Z",
   "semana": "2026-S47",
   "dia": "2026-11-22",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
