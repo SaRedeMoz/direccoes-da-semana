@@ -11,9 +11,9 @@
       "em": "2026-11-23T04:32:59.900Z"
     },
     "design": {
-      "estado": "a trabalhar",
-      "msg": "Capa e notícias",
-      "em": "2026-11-23T04:33:01.174Z"
+      "estado": "pronto",
+      "msg": "Capa e 5 notícias",
+      "em": "2026-11-23T04:34:10.257Z"
     },
     "editor": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-23T04:34:10.257Z",
+      "agente": "design",
+      "msg": "Capa e 5 notícias"
+    },
     {
       "em": "2026-11-23T04:33:01.174Z",
       "agente": "design",
@@ -221,14 +226,9 @@
       "em": "2026-11-19T04:59:30.145Z",
       "agente": "editor",
       "msg": "Edição versão 4 montada"
-    },
-    {
-      "em": "2026-11-19T04:59:30.145Z",
-      "agente": "editor",
-      "msg": "Direcção do Dia: Julgamento de Venâncio Mondlane e o risco para a economia"
     }
   ],
-  "actualizado": "2026-11-23T04:33:01.174Z",
+  "actualizado": "2026-11-23T04:34:10.257Z",
   "semana": "2026-S48",
   "dia": "2026-11-23",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
