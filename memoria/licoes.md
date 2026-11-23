@@ -41,3 +41,4 @@
 - 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data.
 - 2026-11-20 (2026-S47): A pesquisa de sexta devolveu pouco material de 19 e 20 de Novembro; o gás do Rovuma foi o único facto datado desta ronda.
 - 2026-11-21 (2026-S47): A pesquisa de sábado devolve pouco material datado dos últimos dois dias; o decreto dos subsídios saiu em 17 de Novembro e só chegou à imprensa a 18.
+- 2026-11-23 (2026-S48): A pesquisa de segunda devolve pouco material datado de 21 a 23 de Novembro; os documentos do Orçamento de 2027 foram a base mais sólida.

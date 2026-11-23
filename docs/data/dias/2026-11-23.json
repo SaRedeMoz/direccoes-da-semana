@@ -1,0 +1,254 @@
+{
+  "tipo": "dia",
+  "area": "Finanças públicas e impostos",
+  "tema": "Orçamento de 2027: o Estado consegue cumprir o défice de 4,6%?",
+  "pergunta": "Orçamento de 2027: o Estado cumpre o défice de 4,6%?",
+  "facto": {
+    "texto": "A 13 de Outubro, o Conselho de Ministros aprovou a proposta de Orçamento para 2027: 511,2 mil milhões de meticais de despesa, 427,8 mil milhões de receitas e um défice de cerca de 83 mil milhões, ou 4,6% do PIB. O Governo conta com crescimento de 1,6% e inflação de 7%. A proposta ainda vai ao Parlamento.",
+    "numeros": [
+      {
+        "valor": "4,6%",
+        "legenda": "défice previsto em 2027"
+      },
+      {
+        "valor": "427,8 mil M MT",
+        "legenda": "receitas previstas"
+      },
+      {
+        "valor": "1,6%",
+        "legenda": "crescimento previsto"
+      }
+    ],
+    "fonte": "Conselho de Ministros, citado pela Forbes África Lusófona (19 de Outubro de 2026) e Rio Times (14 de Outubro de 2026)"
+  },
+  "linha_do_tempo": [
+    {
+      "data": "Dez 2025",
+      "texto": "Parlamento aprova o Orçamento de 2026 com crescimento de 3,2%",
+      "futuro": false
+    },
+    {
+      "data": "7 Jul",
+      "texto": "Governo corta a previsão de crescimento de 2026 para 0,59%",
+      "futuro": false
+    },
+    {
+      "data": "13 Out",
+      "texto": "Conselho de Ministros aprova a proposta para 2027",
+      "futuro": false
+    },
+    {
+      "data": "Nov",
+      "texto": "Nova missão do FMI a Maputo, segundo o Governo",
+      "futuro": true
+    },
+    {
+      "data": "Dez",
+      "texto": "Votação no Parlamento, como no ano passado",
+      "futuro": true
+    }
+  ],
+  "precedente": {
+    "quando": "Orçamento de 2026, aprovado em Dezembro de 2025",
+    "o_que_aconteceu": "O Orçamento previa crescimento de 3,2% e défice perto de 7% do PIB. Com as cheias do início do ano, o Governo reviu o crescimento para 0,59% em Julho.",
+    "licao": "As previsões de crescimento falharam por mais de dois pontos; o défice depende da receita e do corte de despesa.",
+    "fonte": "Club of Mozambique; Lusa, 7 de Julho de 2026"
+  },
+  "porque_importa": "O Orçamento decide quanto o Estado gasta em salários, estradas, escolas e hospitais, e quanto pede emprestado aos bancos. Se o Estado pedir menos, sobra mais crédito para as empresas. Se a receita falhar, os atrasos nos pagamentos chegam aos fornecedores e às PMEs.",
+  "canal": {
+    "passos": [
+      "Receita fiscal falha",
+      "Estado atrasa pagamentos",
+      "Fornecedores sem dinheiro",
+      "PMEs cortam empregos"
+    ],
+    "quem_sente": "PMEs fornecedoras do Estado e os seus trabalhadores"
+  },
+  "conta": {
+    "titulo": "Quanto custa a inflação a uma família",
+    "pressupostos": "Família que gasta 15 000 meticais por mês. Compara a inflação de Outubro (6,32%) com a prevista para 2027 (7%) e um cenário mau (9%).",
+    "barras": [
+      {
+        "rotulo": "Inflação 6,32%",
+        "valor": 948,
+        "texto": "948 MT/mês"
+      },
+      {
+        "rotulo": "Inflação 7%",
+        "valor": 1050,
+        "texto": "1 050 MT/mês"
+      },
+      {
+        "rotulo": "Inflação 9%",
+        "valor": 1350,
+        "texto": "1 350 MT/mês"
+      }
+    ],
+    "unidade": "meticais a mais por mês",
+    "conclusao": "Passar de 7% para 9% custa mais 300 meticais por mês a quem gasta 15 000."
+  },
+  "cenarios": [
+    {
+      "nome": "Orçamento cumprido com apoio do FMI",
+      "tipo": "melhora",
+      "probabilidade": 20,
+      "porque_probabilidade": "Em 2026 a receita subiu 10,3% até Setembro, mas a previsão de crescimento falhou por mais de dois pontos. Um acordo com o FMI dá folga.",
+      "gatilho": "Acordo técnico com o FMI assinado até Janeiro de 2027",
+      "o_que_acontece": "O FMI e doadores libertam financiamento externo, o Estado paga fornecedores a tempo e pede menos aos bancos, deixando mais crédito às empresas.",
+      "numeros": "Défice 4,5% a 5% do PIB; inflação 6% a 7%",
+      "quando": "até Junho de 2027",
+      "ganha": "PMEs e bancos privados",
+      "perde": "Dirigentes com subsídios cortados",
+      "se_acontecer": "PMEs devem candidatar-se cedo a contratos públicos e planear investimento."
+    },
+    {
+      "nome": "Défice cumprido à custa do investimento",
+      "tipo": "fica_igual",
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2026 a despesa caiu 7% até Setembro: o Estado já cortou para segurar o défice. Salários e dívida levam 96% dos impostos.",
+      "gatilho": "Despesa de investimento abaixo do previsto no primeiro trimestre",
+      "o_que_acontece": "O défice fica perto de 4,6% porque o Estado adia estradas e obras, enquanto salários e dívida ficam intocados. A economia cresce pouco.",
+      "numeros": "Crescimento 0,8% a 1,6%; défice 4,6% a 5,5% do PIB",
+      "quando": "ao longo de 2027",
+      "ganha": "Funcionários públicos e credores",
+      "perde": "Construtoras e fornecedores de obras",
+      "se_acontecer": "Fornecedores de obras públicas devem diversificar clientes e exigir prazos de pagamento escritos."
+    },
+    {
+      "nome": "Receita falha e os pagamentos atrasam",
+      "tipo": "piora",
+      "probabilidade": 35,
+      "porque_probabilidade": "As previsões de crescimento falharam em 2026. Com El Niño e chuva fraca, a receita agrícola e fiscal pode ficar abaixo do previsto.",
+      "gatilho": "Receita do primeiro trimestre mais de 5% abaixo do previsto",
+      "o_que_acontece": "O Estado paga tarde a fornecedores e reembolsos de IVA, pede mais crédito interno e os juros ficam altos. As empresas ficam sem caixa.",
+      "numeros": "Crescimento abaixo de 1%; défice 6% a 7% do PIB",
+      "quando": "até Setembro de 2027",
+      "ganha": "Bancos que financiam o Estado",
+      "perde": "PMEs e famílias de baixa renda",
+      "se_acontecer": "PMEs devem cobrar adiantamentos e cortar custos fixos; famílias devem reforçar reservas de comida."
+    }
+  ],
+  "sinais": [
+    {
+      "o_que": "Aprovação do Orçamento no Parlamento",
+      "limiar": "Votação final sem mudar a meta de 4,6%",
+      "quando": "até 31 de Dezembro de 2026",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Acordo técnico com o FMI",
+      "limiar": "Anúncio de acordo ao nível técnico",
+      "quando": "até Janeiro de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Receita fiscal do primeiro trimestre",
+      "limiar": "Mais de 5% abaixo do previsto",
+      "quando": "até Abril de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Inflação mensal do INE",
+      "limiar": "Anual acima de 8%",
+      "quando": "até Março de 2027",
+      "aponta_para": "piora"
+    }
+  ],
+  "afectados": [
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "défice menor e receita a subir"
+    },
+    {
+      "grupo": "Classe baixa",
+      "saldo": -1,
+      "porque": "inflação de 7% e pouco apoio"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "juros altos e preços a subir"
+    },
+    {
+      "grupo": "PMEs",
+      "saldo": 0,
+      "porque": "contratos novos, mas pagamentos tardios"
+    },
+    {
+      "grupo": "Funcionários públicos",
+      "saldo": -1,
+      "porque": "diuturnidades cortadas em 50%"
+    },
+    {
+      "grupo": "Bancos",
+      "saldo": 1,
+      "porque": "emprestam ao Estado a juros altos"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "Famílias",
+      "agora": "Rever o orçamento de casa em Janeiro e contar com preços cerca de 7% mais altos.",
+      "se_piorar": "Cortar gastos fixos e comprar básicos aos poucos."
+    },
+    {
+      "publico": "PMEs fornecedoras do Estado",
+      "agora": "Registar-se, juntar certidões e exigir prazos de pagamento escritos nos contratos.",
+      "se_piorar": "Pedir adiantamento e reduzir stock."
+    },
+    {
+      "publico": "Funcionários públicos",
+      "agora": "Confirmar a prova de vida e a situação do subsídio de antiguidade.",
+      "se_piorar": "Evitar crédito com prestações altas."
+    },
+    {
+      "publico": "Investidores",
+      "agora": "Esperar o acordo técnico com o FMI antes de decisões de grande risco.",
+      "se_piorar": "Preferir contratos com pagamento garantido."
+    }
+  ],
+  "visao_contraria": "A receita subiu 10,3% até Setembro e a despesa caiu 7%, por isso o Governo pode cumprir a meta mesmo com crescimento baixo, apenas cortando investimento.",
+  "nao_sabemos": [
+    "Quando o Parlamento vota a proposta e se altera a meta do défice.",
+    "Se o FMI e o Governo fecham o programa até ao fim do ano.",
+    "Qual a parte da meta de receita que depende do gás."
+  ],
+  "sinal": "Votação do Orçamento no Parlamento e acordo técnico com o FMI.",
+  "confianca": "media",
+  "base_confianca": "Números do Conselho de Ministros via dois meios; sem leitura directa do documento oficial.",
+  "textos": {
+    "whatsapp": "*ORÇAMENTO DE 2027*\n\nO Governo propõe para 2027 um défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. A despesa é de 511,2 mil milhões e as receitas, 427,8 mil milhões. O crescimento previsto é de 1,6% e a inflação, 7%. O Parlamento ainda vai votar.\n\n*PORQUE IMPORTA*\n\nO Orçamento decide salários, estradas, escolas e quanto o Estado pede emprestado aos bancos. Quando a receita falha, o Estado paga tarde aos fornecedores e as PMEs ficam sem caixa. Em 2026 o Governo previa crescimento de 3,2% e acabou por cortar a previsão para 0,59% em Julho, depois das cheias.\n\n*TRÊS CENÁRIOS*\n\nMelhora, 20%: o FMI fecha o acordo técnico até Janeiro, entra financiamento externo e o défice fica entre 4,5% e 5% do PIB.\n\nFica igual, 45%: o défice cumpre-se porque o Estado adia obras. O crescimento fica entre 0,8% e 1,6% e as construtoras sofrem.\n\nPiora, 35%: a receita do primeiro trimestre fica mais de 5% abaixo do previsto, o Estado atrasa pagamentos e o défice sobe para 6% a 7%.\n\n*A CONTA*\n\nUma família que gasta 15 000 meticais por mês paga 948 a mais com inflação de 6,32%, 1 050 com 7% e 1 350 com 9%. Passar de 7% para 9% custa mais 300 meticais por mês.\n\n*DIRECÇÃO*\n\nFamílias: rever o orçamento em Janeiro. PMEs que vendem ao Estado: exigir prazos de pagamento escritos. Sinais a seguir: votação no Parlamento e acordo com o FMI.\n\nO Banco de Moçambique manteve a taxa MIMO em 9,25% e a inflação de Outubro foi de 6,32%, segundo o INE. Partilhe com quem vende ao Estado.",
+    "instagram": "O Governo propõe para 2027 um défice de 4,6% do PIB e inflação de 7%. Se a receita falhar, o Estado atrasa pagamentos e as PMEs sofrem. Uma família que gasta 15 000 meticais paga 1 050 a mais por mês com 7% de inflação. Sinais: votação no Parlamento e acordo com o FMI. #Moçambique #Orçamento2027",
+    "facebook": "O Governo aprovou a 13 de Outubro a proposta de Orçamento para 2027: despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e um défice de 4,6% do PIB. Conta com crescimento de 1,6% e inflação de 7%.\n\nPorque importa? Porque o Orçamento paga salários, escolas e estradas. Se a receita ficar abaixo do previsto, o Estado atrasa pagamentos e as PMEs que lhe vendem ficam sem dinheiro. Em 2026 o Governo previa crescer 3,2% e cortou a previsão para 0,59% em Julho.\n\nVemos três caminhos. Com 20%, o FMI fecha o acordo e entra financiamento externo. Com 45%, o défice cumpre-se porque o Estado adia obras. Com 35%, a receita falha e os pagamentos atrasam.\n\nPara a família: quem gasta 15 000 meticais por mês paga 1 050 a mais com inflação de 7%, e 1 350 com 9%.\n\nO Banco de Moçambique manteve a taxa MIMO em 9,25% e o INE registou inflação de 6,32% em Outubro, o que mostra que os preços sobem devagar mas sobem. Tudo depende de a receita cumprir o que o Governo prevê.\n\nA direcção principal: as PMEs que vendem ao Estado devem exigir prazos de pagamento escritos, e as famílias devem rever o orçamento em Janeiro. #Moçambique #Orçamento2027",
+    "linkedin": "O Conselho de Ministros aprovou a 13 de Outubro a proposta de Orçamento do Estado para 2027. A despesa é de 511,2 mil milhões de meticais, as receitas de 427,8 mil milhões e o défice de 4,6% do PIB, contra uma meta de cerca de 7% no Orçamento de 2026. O Governo assume crescimento de 1,6% e inflação média de 7%.\n\nO precedente pede cautela. O Orçamento de 2026 previa crescimento de 3,2% e, em Julho, o Governo reviu-o para 0,59% depois das cheias. A receita, no entanto, subiu 10,3% até Setembro e a despesa caiu 7%. O défice pode cumprir-se, mas à custa de investimento adiado.\n\nTrês cenários. Melhora, 20%: acordo técnico com o FMI até Janeiro e financiamento externo, com défice entre 4,5% e 5%. Fica igual, 45%: défice perto de 4,6%, crescimento entre 0,8% e 1,6% e menos obras públicas. Piora, 35%: receita do primeiro trimestre mais de 5% abaixo do previsto, pagamentos atrasados e défice entre 6% e 7%.\n\nDirecção. Fornecedores do Estado devem exigir prazos de pagamento escritos e diversificar clientes. Investidores devem esperar o acordo técnico com o FMI antes de decisões de grande risco. Sinais a seguir: votação do Orçamento no Parlamento até 31 de Dezembro e receita fiscal do primeiro trimestre de 2027.\n\nPara o crédito, o Banco de Moçambique manteve a taxa MIMO em 9,25% e a taxa prime está em 15,5%, pelo que um Estado que peça menos emprestado deixa mais espaço aos bancos para financiar empresas. Os salários e o serviço da dívida podem absorver cerca de 96% das receitas de impostos em 2027, segundo o relatório de riscos fiscais do Ministério das Finanças.\n\nConclusão: a meta de 4,6% é possível, mas o preço pode ser pago por quem vende obras e serviços ao Estado. #Moçambique #Orçamento2027"
+  },
+  "fontes": [
+    {
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19"
+    },
+    {
+      "fonte": "Rio Times",
+      "url": "https://www.riotimesonline.com/mozambique-budget-2027-spending-cut/",
+      "data": "2026-10-14"
+    },
+    {
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
+      "data": "2026-10-20"
+    },
+    {
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-government-cuts-growth-forecasts/",
+      "data": "2026-07-07"
+    }
+  ],
+  "data": "2026-11-23",
+  "dia_semana": "segunda",
+  "semana": "2026-S48",
+  "versao": 1,
+  "aprovada": false,
+  "falhas": []
+}

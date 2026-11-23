@@ -491,15 +491,9 @@
     },
     {
       "id": "orcamento_2027",
-      "nome": "Orçamento de 2027",
+      "nome": "Orçamento do Estado 2027",
       "desde": "2026-10-17",
       "ultimos": [
-        {
-          "data": "2026-10-22",
-          "semana": "2026-S43",
-          "resumo": "A proposta prevê despesa de 511 mil milhões de meticais, menos 1,8% em termos nominais, e receitas de 427,8 mil milhões. O crescimento previsto é de 1,6%.",
-          "direccao": "Acompanhar o debate no Parlamento e os apoios previstos."
-        },
         {
           "data": "2026-10-26",
           "semana": "2026-S44",
@@ -511,6 +505,12 @@
           "semana": "2026-S45",
           "resumo": "A proposta tem despesa de 511,2 mil milhões e receitas de 427,8 mil milhões, com défice de 4,6% do PIB. Com inflação de 7%, a despesa cai cerca de 8% em termos reais.",
           "direccao": "Acompanhar o debate no Parlamento e confirmar se o FDEL de 1,5 mil milhões chega ao distrito."
+        },
+        {
+          "data": "2026-11-23",
+          "semana": "2026-S48",
+          "resumo": "O Governo propõe défice de 4,6% do PIB, receitas de 427 mil milhões de meticais e crescimento de 1,6%. A proposta ainda aguarda votação no Parlamento.",
+          "direccao": "Famílias e PMEs devem contar com inflação perto de 7% e crédito do Estado limitado em 2027."
         }
       ]
     },
@@ -722,6 +722,12 @@
           "semana": "2026-S47",
           "resumo": "O Ministério das Finanças quer o programa aprovado até ao fim de 2026, mas o FMI não confirmou o calendário. O representante residente disse a 11 de Novembro que o preço dos combustíveis agrava a falta de divisas.",
           "direccao": "Acompanhar o acordo técnico e esperar medidas fiscais antes de contrair crédito."
+        },
+        {
+          "data": "2026-11-23",
+          "semana": "2026-S48",
+          "resumo": "O Governo quer o programa aprovado até ao fim do ano e o FMI deverá enviar nova missão em Novembro. Acordo técnico ainda não anunciado.",
+          "direccao": "Acompanhar o acordo técnico, que condiciona crédito e câmbio."
         }
       ]
     },
@@ -822,16 +828,16 @@
     "confirmada": 1,
     "parcial": 12,
     "nao_confirmada": 1,
-    "pendente": 53
+    "pendente": 56
   },
   "ultimas_licoes": [
-    "- 2026-11-14 (2026-S46): As páginas diárias do Club of Mozambique bloqueiam a leitura automática; convém usar a pesquisa por título.",
     "- 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.",
     "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.",
     "- 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar.",
     "- 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais.",
     "- 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data.",
     "- 2026-11-20 (2026-S47): A pesquisa de sexta devolveu pouco material de 19 e 20 de Novembro; o gás do Rovuma foi o único facto datado desta ronda.",
-    "- 2026-11-21 (2026-S47): A pesquisa de sábado devolve pouco material datado dos últimos dois dias; o decreto dos subsídios saiu em 17 de Novembro e só chegou à imprensa a 18."
+    "- 2026-11-21 (2026-S47): A pesquisa de sábado devolve pouco material datado dos últimos dois dias; o decreto dos subsídios saiu em 17 de Novembro e só chegou à imprensa a 18.",
+    "- 2026-11-23 (2026-S48): A pesquisa de segunda devolve pouco material datado de 21 a 23 de Novembro; os documentos do Orçamento de 2027 foram a base mais sólida."
   ]
 }

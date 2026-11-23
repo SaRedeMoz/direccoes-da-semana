@@ -1,162 +1,156 @@
 {
   "tipo": "dia",
-  "area": "Gás, minas e recursos naturais",
-  "tema": "Rovuma LNG: a decisão que falta e o que muda para quem vive de fornecer",
-  "pergunta": "Gás do Rovuma: quando chegam os contratos e os empregos?",
+  "area": "Finanças públicas e impostos",
+  "tema": "Orçamento de 2027: o Estado consegue cumprir o défice de 4,6%?",
+  "pergunta": "Orçamento de 2027: o Estado cumpre o défice de 4,6%?",
   "facto": {
-    "texto": "A 17 de Novembro, o Presidente Daniel Chapo recebeu em separado a ExxonMobil e a Eni. A ExxonMobil disse que a reorganização com a Eni lhe permite subir a 50% no Rovuma LNG, e a Eni ficará com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes da Área 4. A decisão final de investimento do Rovuma LNG ainda não foi anunciada.",
+    "texto": "A 13 de Outubro, o Conselho de Ministros aprovou a proposta de Orçamento para 2027: 511,2 mil milhões de meticais de despesa, 427,8 mil milhões de receitas e um défice de cerca de 83 mil milhões, ou 4,6% do PIB. O Governo conta com crescimento de 1,6% e inflação de 7%. A proposta ainda vai ao Parlamento.",
     "numeros": [
       {
-        "valor": "50%",
-        "legenda": "ExxonMobil no Rovuma LNG"
+        "valor": "4,6%",
+        "legenda": "défice previsto em 2027"
       },
       {
-        "valor": "2027",
-        "legenda": "decisão Eni, Mamba East"
+        "valor": "427,8 mil M MT",
+        "legenda": "receitas previstas"
       },
       {
-        "valor": "2031",
-        "legenda": "arranque visado, Rovuma LNG"
+        "valor": "1,6%",
+        "legenda": "crescimento previsto"
       }
     ],
-    "fonte": "Club of Mozambique, 17 de Novembro de 2026; World Oil, 7 de Agosto de 2026"
+    "fonte": "Conselho de Ministros, citado pela Forbes África Lusófona (19 de Outubro de 2026) e Rio Times (14 de Outubro de 2026)"
   },
   "linha_do_tempo": [
     {
-      "data": "Nov 2022",
-      "texto": "Coral Sul carrega a primeira carga de gás liquefeito",
+      "data": "Dez 2025",
+      "texto": "Parlamento aprova o Orçamento de 2026 com crescimento de 3,2%",
       "futuro": false
     },
     {
-      "data": "Nov 2025",
-      "texto": "ExxonMobil levanta a força maior no Rovuma LNG",
+      "data": "7 Jul",
+      "texto": "Governo corta a previsão de crescimento de 2026 para 0,59%",
       "futuro": false
     },
     {
-      "data": "Ago 2026",
-      "texto": "Carta de intenção à McDermott; arranque visado para 2031",
+      "data": "13 Out",
+      "texto": "Conselho de Ministros aprova a proposta para 2027",
       "futuro": false
     },
     {
-      "data": "17 Nov",
-      "texto": "Chapo recebe ExxonMobil e Eni em Maputo",
-      "futuro": false
-    },
-    {
-      "data": "Dez 2026",
-      "texto": "Prazo prometido para a decisão final do Rovuma LNG",
+      "data": "Nov",
+      "texto": "Nova missão do FMI a Maputo, segundo o Governo",
       "futuro": true
     },
     {
-      "data": "2027",
-      "texto": "Eni decide sobre a terceira unidade, Mamba East",
+      "data": "Dez",
+      "texto": "Votação no Parlamento, como no ano passado",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "2017 a Novembro de 2022",
-    "o_que_aconteceu": "O Coral Sul teve decisão de investimento em 2017 e só carregou a primeira carga de gás liquefeito em Novembro de 2022, com capacidade de 3,4 milhões de toneladas por ano.",
-    "licao": "Entre a decisão e o primeiro gás passam cerca de cinco anos; os contratos de obra vêm antes.",
-    "fonte": "Energy Voice e TradeWinds (Novembro de 2022)"
+    "quando": "Orçamento de 2026, aprovado em Dezembro de 2025",
+    "o_que_aconteceu": "O Orçamento previa crescimento de 3,2% e défice perto de 7% do PIB. Com as cheias do início do ano, o Governo reviu o crescimento para 0,59% em Julho.",
+    "licao": "As previsões de crescimento falharam por mais de dois pontos; o défice depende da receita e do corte de despesa.",
+    "fonte": "Club of Mozambique; Lusa, 7 de Julho de 2026"
   },
-  "porque_importa": "O gás é a maior aposta de investimento do país e a decisão do Rovuma LNG define quando surgem contratos para fornecedores, obras e empregos em Cabo Delgado. Quem espera efeito já nos preços ou no emprego em 2027 vai esperar mais do que o calendário permite.",
+  "porque_importa": "O Orçamento decide quanto o Estado gasta em salários, estradas, escolas e hospitais, e quanto pede emprestado aos bancos. Se o Estado pedir menos, sobra mais crédito para as empresas. Se a receita falhar, os atrasos nos pagamentos chegam aos fornecedores e às PMEs.",
   "canal": {
     "passos": [
-      "Decisão final de investimento",
-      "Contratos de engenharia e obra",
-      "Fornecedores locais subcontratados",
-      "Emprego e formação em Cabo Delgado",
-      "Receitas do Estado só depois do gás"
+      "Receita fiscal falha",
+      "Estado atrasa pagamentos",
+      "Fornecedores sem dinheiro",
+      "PMEs cortam empregos"
     ],
-    "quem_sente": "PMEs fornecedoras, jovens técnicos e o Estado"
+    "quem_sente": "PMEs fornecedoras do Estado e os seus trabalhadores"
   },
   "conta": {
-    "titulo": "Anos entre a decisão e o primeiro gás",
-    "pressupostos": "Decisão em Dezembro de 2026. Coral Sul serviu de referência: cerca de cinco anos. Arranque do Rovuma em 2030 ou 2031.",
+    "titulo": "Quanto custa a inflação a uma família",
+    "pressupostos": "Família que gasta 15 000 meticais por mês. Compara a inflação de Outubro (6,32%) com a prevista para 2027 (7%) e um cenário mau (9%).",
     "barras": [
       {
-        "rotulo": "Coral Sul (2017 a 2022)",
-        "valor": 5.4,
-        "texto": "cerca de 5 anos"
+        "rotulo": "Inflação 6,32%",
+        "valor": 948,
+        "texto": "948 MT/mês"
       },
       {
-        "rotulo": "Rovuma, arranque em 2030",
-        "valor": 4,
-        "texto": "4 anos"
+        "rotulo": "Inflação 7%",
+        "valor": 1050,
+        "texto": "1 050 MT/mês"
       },
       {
-        "rotulo": "Rovuma, arranque em 2031",
-        "valor": 5,
-        "texto": "5 anos"
+        "rotulo": "Inflação 9%",
+        "valor": 1350,
+        "texto": "1 350 MT/mês"
       }
     ],
-    "unidade": "anos",
-    "conclusao": "Mesmo com decisão em Dezembro, o gás só sai entre 2030 e 2031; o dinheiro do Estado vem depois."
+    "unidade": "meticais a mais por mês",
+    "conclusao": "Passar de 7% para 9% custa mais 300 meticais por mês a quem gasta 15 000."
   },
   "cenarios": [
     {
-      "nome": "Decisão final até Dezembro",
+      "nome": "Orçamento cumprido com apoio do FMI",
       "tipo": "melhora",
-      "probabilidade": 25,
-      "porque_probabilidade": "A ExxonMobil já falhou o fim de 2025 e Julho de 2026; a reorganização com a Eni retira um obstáculo, o que dá algum peso.",
-      "gatilho": "Anúncio oficial da decisão final de investimento do Rovuma LNG até 31 de Dezembro.",
-      "o_que_acontece": "Abrem concursos de engenharia e obra; a McDermott e outros contratados avançam e as subcontratações começam a ser publicadas.",
-      "numeros": "Investimento de 20 a 30 mil milhões de dólares; primeiros concursos em 2027.",
-      "quando": "até 31 de Dezembro de 2026",
-      "ganha": "Fornecedores locais e jovens técnicos",
-      "perde": "Quem espera preços mais baixos já",
-      "se_acontecer": "Registar a empresa, juntar certidões e candidatar-se a subcontratos logo que sejam abertos."
+      "probabilidade": 20,
+      "porque_probabilidade": "Em 2026 a receita subiu 10,3% até Setembro, mas a previsão de crescimento falhou por mais de dois pontos. Um acordo com o FMI dá folga.",
+      "gatilho": "Acordo técnico com o FMI assinado até Janeiro de 2027",
+      "o_que_acontece": "O FMI e doadores libertam financiamento externo, o Estado paga fornecedores a tempo e pede menos aos bancos, deixando mais crédito às empresas.",
+      "numeros": "Défice 4,5% a 5% do PIB; inflação 6% a 7%",
+      "quando": "até Junho de 2027",
+      "ganha": "PMEs e bancos privados",
+      "perde": "Dirigentes com subsídios cortados",
+      "se_acontecer": "PMEs devem candidatar-se cedo a contratos públicos e planear investimento."
     },
     {
-      "nome": "Decisão adiada para 2027",
+      "nome": "Défice cumprido à custa do investimento",
       "tipo": "fica_igual",
-      "probabilidade": 47,
-      "porque_probabilidade": "Três prazos já falharam e a reorganização das participações ainda precisa de ser concluída; o atraso é o resultado mais repetido.",
-      "gatilho": "Sem anúncio até 31 de Dezembro, ou nova data apontada para o primeiro trimestre.",
-      "o_que_acontece": "A ExxonMobil conclui primeiro a troca de participações com a Eni e só depois fecha o financiamento; a obra não arranca.",
-      "numeros": "Atraso de 3 a 9 meses; arranque empurrado de 2031 para 2032.",
-      "quando": "decisão até Setembro de 2027",
-      "ganha": "Quem já se preparou com antecedência",
-      "perde": "Fornecedores sem contratos em 2027",
-      "se_acontecer": "Manter a empresa a funcionar com outros clientes e não endividar-se à espera do gás."
+      "probabilidade": 45,
+      "porque_probabilidade": "Em 2026 a despesa caiu 7% até Setembro: o Estado já cortou para segurar o défice. Salários e dívida levam 96% dos impostos.",
+      "gatilho": "Despesa de investimento abaixo do previsto no primeiro trimestre",
+      "o_que_acontece": "O défice fica perto de 4,6% porque o Estado adia estradas e obras, enquanto salários e dívida ficam intocados. A economia cresce pouco.",
+      "numeros": "Crescimento 0,8% a 1,6%; défice 4,6% a 5,5% do PIB",
+      "quando": "ao longo de 2027",
+      "ganha": "Funcionários públicos e credores",
+      "perde": "Construtoras e fornecedores de obras",
+      "se_acontecer": "Fornecedores de obras públicas devem diversificar clientes e exigir prazos de pagamento escritos."
     },
     {
-      "nome": "Insegurança trava o projecto",
+      "nome": "Receita falha e os pagamentos atrasam",
       "tipo": "piora",
-      "probabilidade": 28,
-      "porque_probabilidade": "A ExxonMobil já pediu garantias de segurança ao Governo e houve 19 mortos em Cabo Delgado em finais de Outubro, segundo o ACLED.",
-      "gatilho": "Novo ataque grave perto de Palma ou Mueda, ou pedido formal de garantias que o Governo não dá.",
-      "o_que_acontece": "Os investidores esperam por garantias de segurança e a decisão passa a depender de acordos novos com o Governo.",
-      "numeros": "Atraso superior a 12 meses; o custo do seguro e da segurança sobe.",
-      "quando": "ao longo de 2027",
-      "ganha": "Projectos de gás já em produção",
-      "perde": "Cabo Delgado e fornecedores locais",
-      "se_acontecer": "Procurar clientes fora do gás e não contar com contratos em Cabo Delgado antes de 2028."
+      "probabilidade": 35,
+      "porque_probabilidade": "As previsões de crescimento falharam em 2026. Com El Niño e chuva fraca, a receita agrícola e fiscal pode ficar abaixo do previsto.",
+      "gatilho": "Receita do primeiro trimestre mais de 5% abaixo do previsto",
+      "o_que_acontece": "O Estado paga tarde a fornecedores e reembolsos de IVA, pede mais crédito interno e os juros ficam altos. As empresas ficam sem caixa.",
+      "numeros": "Crescimento abaixo de 1%; défice 6% a 7% do PIB",
+      "quando": "até Setembro de 2027",
+      "ganha": "Bancos que financiam o Estado",
+      "perde": "PMEs e famílias de baixa renda",
+      "se_acontecer": "PMEs devem cobrar adiantamentos e cortar custos fixos; famílias devem reforçar reservas de comida."
     }
   ],
   "sinais": [
     {
-      "o_que": "Anúncio da decisão final do Rovuma LNG",
-      "limiar": "Comunicado oficial da ExxonMobil ou do Governo",
+      "o_que": "Aprovação do Orçamento no Parlamento",
+      "limiar": "Votação final sem mudar a meta de 4,6%",
       "quando": "até 31 de Dezembro de 2026",
-      "aponta_para": "melhora"
-    },
-    {
-      "o_que": "Primeiros concursos de engenharia e obra",
-      "limiar": "Pelo menos um concurso aberto a subcontratados",
-      "quando": "até Março de 2027",
-      "aponta_para": "melhora"
-    },
-    {
-      "o_que": "Nova data para a decisão",
-      "limiar": "Qualquer data depois de Dezembro de 2026",
-      "quando": "Janeiro de 2027",
       "aponta_para": "fica_igual"
     },
     {
-      "o_que": "Ataques em Palma ou Mueda",
-      "limiar": "Mais de 20 mortos num mês, segundo o ACLED",
-      "quando": "mensal, até Março de 2027",
+      "o_que": "Acordo técnico com o FMI",
+      "limiar": "Anúncio de acordo ao nível técnico",
+      "quando": "até Janeiro de 2027",
+      "aponta_para": "melhora"
+    },
+    {
+      "o_que": "Receita fiscal do primeiro trimestre",
+      "limiar": "Mais de 5% abaixo do previsto",
+      "quando": "até Abril de 2027",
+      "aponta_para": "piora"
+    },
+    {
+      "o_que": "Inflação mensal do INE",
+      "limiar": "Anual acima de 8%",
+      "quando": "até Março de 2027",
       "aponta_para": "piora"
     }
   ],
@@ -164,151 +158,97 @@
     {
       "grupo": "Governo",
       "saldo": 1,
-      "porque": "receitas futuras, mas só depois do gás"
-    },
-    {
-      "grupo": "PMEs fornecedoras",
-      "saldo": 1,
-      "porque": "contratos possíveis a partir de 2027"
-    },
-    {
-      "grupo": "Jovens à procura de emprego",
-      "saldo": 1,
-      "porque": "obras e formação, ainda sem data"
-    },
-    {
-      "grupo": "Comunidades de Cabo Delgado",
-      "saldo": -1,
-      "porque": "segurança frágil e terras em disputa"
+      "porque": "défice menor e receita a subir"
     },
     {
       "grupo": "Classe baixa",
+      "saldo": -1,
+      "porque": "inflação de 7% e pouco apoio"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": -1,
+      "porque": "juros altos e preços a subir"
+    },
+    {
+      "grupo": "PMEs",
       "saldo": 0,
-      "porque": "sem efeito nos preços antes de 2030"
+      "porque": "contratos novos, mas pagamentos tardios"
+    },
+    {
+      "grupo": "Funcionários públicos",
+      "saldo": -1,
+      "porque": "diuturnidades cortadas em 50%"
+    },
+    {
+      "grupo": "Bancos",
+      "saldo": 1,
+      "porque": "emprestam ao Estado a juros altos"
     }
   ],
   "direccao": [
     {
-      "publico": "PMEs fornecedoras",
-      "agora": "Actualizar certidões, registar a empresa e acompanhar os concursos do Rovuma e da Lei do Conteúdo Local.",
-      "se_piorar": "Procurar clientes fora do gás e não endividar-se."
-    },
-    {
-      "publico": "Jovens à procura de emprego",
-      "agora": "Apostar em formação técnica reconhecida, como soldadura, eletricidade e mecânica, que serve a obra e outros sectores.",
-      "se_piorar": "Candidatar-se a empregos em outros sectores."
-    },
-    {
       "publico": "Famílias",
-      "agora": "Não contar com efeito do gás nos preços ou no emprego antes de 2028.",
-      "se_piorar": "Manter a reserva para a chuva fraca."
+      "agora": "Rever o orçamento de casa em Janeiro e contar com preços cerca de 7% mais altos.",
+      "se_piorar": "Cortar gastos fixos e comprar básicos aos poucos."
+    },
+    {
+      "publico": "PMEs fornecedoras do Estado",
+      "agora": "Registar-se, juntar certidões e exigir prazos de pagamento escritos nos contratos.",
+      "se_piorar": "Pedir adiantamento e reduzir stock."
+    },
+    {
+      "publico": "Funcionários públicos",
+      "agora": "Confirmar a prova de vida e a situação do subsídio de antiguidade.",
+      "se_piorar": "Evitar crédito com prestações altas."
     },
     {
       "publico": "Investidores",
-      "agora": "Esperar o anúncio oficial da decisão final antes de assumir compromissos ligados ao Rovuma.",
-      "se_piorar": "Adiar compromissos até haver garantias de segurança."
+      "agora": "Esperar o acordo técnico com o FMI antes de decisões de grande risco.",
+      "se_piorar": "Preferir contratos com pagamento garantido."
     }
   ],
-  "visao_contraria": "A reorganização com a Eni pode acelerar a decisão: com as participações fechadas, a ExxonMobil perde a desculpa para esperar, e o Governo quer o anúncio ainda este ano.",
+  "visao_contraria": "A receita subiu 10,3% até Setembro e a despesa caiu 7%, por isso o Governo pode cumprir a meta mesmo com crescimento baixo, apenas cortando investimento.",
   "nao_sabemos": [
-    "Se a decisão final sairá antes de 31 de Dezembro.",
-    "O valor exacto do investimento: 20 mil milhões, segundo o Presidente, ou 30 mil milhões, segundo a imprensa.",
-    "Quantos empregos locais e que contratos ficarão para empresas moçambicanas."
+    "Quando o Parlamento vota a proposta e se altera a meta do défice.",
+    "Se o FMI e o Governo fecham o programa até ao fim do ano.",
+    "Qual a parte da meta de receita que depende do gás."
   ],
-  "sinal": "Anúncio oficial da decisão final de investimento do Rovuma LNG até 31 de Dezembro de 2026.",
+  "sinal": "Votação do Orçamento no Parlamento e acordo técnico com o FMI.",
   "confianca": "media",
-  "base_confianca": "Uma fonte principal para a reunião de 17 de Novembro; custo e datas vêm de duas fontes que divergem.",
+  "base_confianca": "Números do Conselho de Ministros via dois meios; sem leitura directa do documento oficial.",
   "textos": {
-    "whatsapp": "*GÁS DO ROVUMA: QUANDO CHEGAM OS CONTRATOS?*\n\nA 17 de Novembro, o Presidente Daniel Chapo recebeu a ExxonMobil e a Eni. A ExxonMobil sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte. A decisão final de investimento do Rovuma LNG ainda não foi anunciada, e a ExxonMobil já falhou prazos anteriores.\n\n*PRECEDENTE*\n\nO Coral Sul teve decisão de investimento em 2017 e só carregou a primeira carga de gás em Novembro de 2022. Entre a decisão e o gás passam cerca de cinco anos.\n\n*A CONTA*\n\nSe a decisão sair em Dezembro de 2026, o Rovuma LNG pode arrancar em 2030 ou 2031, entre 4 e 5 anos depois. O dinheiro do Estado vem depois disso.\n\n*TRÊS CENÁRIOS*\n\nDecisão até Dezembro, 25%: abrem concursos de engenharia e obra em 2027 e as PMEs fornecedoras ganham.\nDecisão adiada para 2027, 47%: a troca de participações com a Eni ainda precisa de ser concluída e o arranque passa para 2032.\nInsegurança trava o projecto, 28%: um novo ataque em Cabo Delgado atrasa a decisão mais de um ano.\n\n*SINAIS*\n\nComunicado oficial até 31 de Dezembro. Primeiro concurso aberto a subcontratados até Março de 2027. Mais de 20 mortos num mês em Palma ou Mueda, segundo o ACLED, aponta para o cenário mau.\n\n*DIRECÇÃO*\n\nPMEs: actualizar certidões e registar a empresa. Jovens: investir em formação técnica que serve vários sectores. Famílias: não contar com efeito do gás nos preços antes de 2028.\n\nPartilhe com quem trabalha ou quer fornecer ao sector do gás.",
-    "instagram": "O gás do Rovuma ainda não tem decisão final. A ExxonMobil sobe a 50% e a Eni fica com 50% do Coral Sul e do Coral Norte. No Coral Sul passaram cerca de cinco anos entre a decisão e o primeiro gás. PMEs: preparem certidões e registo agora. #Moçambique #Gás #DirecçõesDaSemana",
-    "facebook": "O Presidente Daniel Chapo recebeu a 17 de Novembro a ExxonMobil e a Eni. A ExxonMobil disse que sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes. A decisão final de investimento do Rovuma LNG ainda não saiu.\n\nO que isto muda para si? Pouco, no curto prazo. No Coral Sul passaram cerca de cinco anos entre a decisão de 2017 e a primeira carga de gás em Novembro de 2022. Se o Rovuma LNG for decidido em Dezembro, o gás só sai em 2030 ou 2031.\n\nHá três caminhos. Com 25% de probabilidade, a decisão sai até Dezembro e abrem concursos para fornecedores em 2027. Com 47%, a decisão é adiada para 2027, porque três prazos já falharam. Com 28%, um novo ataque em Cabo Delgado atrasa tudo mais de um ano.\n\nO que fazer: as pequenas empresas devem actualizar certidões e registo, e os jovens devem apostar em formação técnica que serve vários sectores. As famílias não devem contar com efeito do gás nos preços antes de 2028. #Moçambique #Gás",
-    "linkedin": "Gás do Rovuma: a decisão que falta e o calendário que importa\n\nA 17 de Novembro, o Presidente Daniel Chapo recebeu em separado a ExxonMobil e a Eni. A ExxonMobil disse que a reorganização com a Eni lhe permite subir a 50% no Rovuma LNG, e a Eni ficará com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes da Área 4. A decisão final de investimento do Rovuma LNG ainda não foi anunciada, e a ExxonMobil já falhou o fim de 2025 e Julho de 2026.\n\nO precedente ajuda a medir o calendário. O Coral Sul teve decisão de investimento em 2017 e só carregou a primeira carga em Novembro de 2022, cerca de cinco anos depois. Se o Rovuma LNG for decidido em Dezembro, o arranque visado para 2031 cabe nesse prazo, mas sem folga.\n\nCenários: decisão até Dezembro, 25%, com concursos de obra em 2027; adiamento para 2027, 47%, porque a troca de participações ainda precisa de ser concluída; insegurança em Cabo Delgado a travar o projecto, 28%. O custo também não é consensual: o Presidente fala em 20 mil milhões de dólares e a imprensa em 30 mil milhões.\n\nDirecção\nFornecedores: actualizar certidões, registar a empresa e acompanhar os concursos e a Lei do Conteúdo Local, sem endividar-se à espera de contratos. Investidores: esperar o anúncio oficial antes de assumir compromissos ligados ao Rovuma.\n\nO sinal mais claro é um comunicado oficial até 31 de Dezembro; sem ele, o mais provável é esperar por 2027.\n\n#Moçambique #Gás #Energia"
+    "whatsapp": "*ORÇAMENTO DE 2027*\n\nO Governo propõe para 2027 um défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. A despesa é de 511,2 mil milhões e as receitas, 427,8 mil milhões. O crescimento previsto é de 1,6% e a inflação, 7%. O Parlamento ainda vai votar.\n\n*PORQUE IMPORTA*\n\nO Orçamento decide salários, estradas, escolas e quanto o Estado pede emprestado aos bancos. Quando a receita falha, o Estado paga tarde aos fornecedores e as PMEs ficam sem caixa. Em 2026 o Governo previa crescimento de 3,2% e acabou por cortar a previsão para 0,59% em Julho, depois das cheias.\n\n*TRÊS CENÁRIOS*\n\nMelhora, 20%: o FMI fecha o acordo técnico até Janeiro, entra financiamento externo e o défice fica entre 4,5% e 5% do PIB.\n\nFica igual, 45%: o défice cumpre-se porque o Estado adia obras. O crescimento fica entre 0,8% e 1,6% e as construtoras sofrem.\n\nPiora, 35%: a receita do primeiro trimestre fica mais de 5% abaixo do previsto, o Estado atrasa pagamentos e o défice sobe para 6% a 7%.\n\n*A CONTA*\n\nUma família que gasta 15 000 meticais por mês paga 948 a mais com inflação de 6,32%, 1 050 com 7% e 1 350 com 9%. Passar de 7% para 9% custa mais 300 meticais por mês.\n\n*DIRECÇÃO*\n\nFamílias: rever o orçamento em Janeiro. PMEs que vendem ao Estado: exigir prazos de pagamento escritos. Sinais a seguir: votação no Parlamento e acordo com o FMI.\n\nO Banco de Moçambique manteve a taxa MIMO em 9,25% e a inflação de Outubro foi de 6,32%, segundo o INE. Partilhe com quem vende ao Estado.",
+    "instagram": "O Governo propõe para 2027 um défice de 4,6% do PIB e inflação de 7%. Se a receita falhar, o Estado atrasa pagamentos e as PMEs sofrem. Uma família que gasta 15 000 meticais paga 1 050 a mais por mês com 7% de inflação. Sinais: votação no Parlamento e acordo com o FMI. #Moçambique #Orçamento2027",
+    "facebook": "O Governo aprovou a 13 de Outubro a proposta de Orçamento para 2027: despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e um défice de 4,6% do PIB. Conta com crescimento de 1,6% e inflação de 7%.\n\nPorque importa? Porque o Orçamento paga salários, escolas e estradas. Se a receita ficar abaixo do previsto, o Estado atrasa pagamentos e as PMEs que lhe vendem ficam sem dinheiro. Em 2026 o Governo previa crescer 3,2% e cortou a previsão para 0,59% em Julho.\n\nVemos três caminhos. Com 20%, o FMI fecha o acordo e entra financiamento externo. Com 45%, o défice cumpre-se porque o Estado adia obras. Com 35%, a receita falha e os pagamentos atrasam.\n\nPara a família: quem gasta 15 000 meticais por mês paga 1 050 a mais com inflação de 7%, e 1 350 com 9%.\n\nO Banco de Moçambique manteve a taxa MIMO em 9,25% e o INE registou inflação de 6,32% em Outubro, o que mostra que os preços sobem devagar mas sobem. Tudo depende de a receita cumprir o que o Governo prevê.\n\nA direcção principal: as PMEs que vendem ao Estado devem exigir prazos de pagamento escritos, e as famílias devem rever o orçamento em Janeiro. #Moçambique #Orçamento2027",
+    "linkedin": "O Conselho de Ministros aprovou a 13 de Outubro a proposta de Orçamento do Estado para 2027. A despesa é de 511,2 mil milhões de meticais, as receitas de 427,8 mil milhões e o défice de 4,6% do PIB, contra uma meta de cerca de 7% no Orçamento de 2026. O Governo assume crescimento de 1,6% e inflação média de 7%.\n\nO precedente pede cautela. O Orçamento de 2026 previa crescimento de 3,2% e, em Julho, o Governo reviu-o para 0,59% depois das cheias. A receita, no entanto, subiu 10,3% até Setembro e a despesa caiu 7%. O défice pode cumprir-se, mas à custa de investimento adiado.\n\nTrês cenários. Melhora, 20%: acordo técnico com o FMI até Janeiro e financiamento externo, com défice entre 4,5% e 5%. Fica igual, 45%: défice perto de 4,6%, crescimento entre 0,8% e 1,6% e menos obras públicas. Piora, 35%: receita do primeiro trimestre mais de 5% abaixo do previsto, pagamentos atrasados e défice entre 6% e 7%.\n\nDirecção. Fornecedores do Estado devem exigir prazos de pagamento escritos e diversificar clientes. Investidores devem esperar o acordo técnico com o FMI antes de decisões de grande risco. Sinais a seguir: votação do Orçamento no Parlamento até 31 de Dezembro e receita fiscal do primeiro trimestre de 2027.\n\nPara o crédito, o Banco de Moçambique manteve a taxa MIMO em 9,25% e a taxa prime está em 15,5%, pelo que um Estado que peça menos emprestado deixa mais espaço aos bancos para financiar empresas. Os salários e o serviço da dívida podem absorver cerca de 96% das receitas de impostos em 2027, segundo o relatório de riscos fiscais do Ministério das Finanças.\n\nConclusão: a meta de 4,6% é possível, mas o preço pode ser pago por quem vende obras e serviços ao Estado. #Moçambique #Orçamento2027"
   },
   "fontes": [
     {
-      "fonte": "Club of Mozambique, Chapo recebe ExxonMobil e Eni",
-      "url": "https://clubofmozambique.com/news/mozambique-chapo-meets-exxonmobil-and-eni-executives-to-review-rovuma-basin-gas-projects/",
-      "data": "2026-11-17"
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19"
     },
     {
-      "fonte": "World Oil, ExxonMobil e a McDermott no Rovuma LNG",
-      "url": "https://www.worldoil.com/news/2026/8/7/exxonmobil-advances-rovuma-lng-with-mcdermott-engineering-award",
-      "data": "2026-08-07"
+      "fonte": "Rio Times",
+      "url": "https://www.riotimesonline.com/mozambique-budget-2027-spending-cut/",
+      "data": "2026-10-14"
     },
     {
-      "fonte": "TradeWinds, primeira carga do Coral Sul",
-      "url": "https://www.tradewindsnews.com/gas/after-many-false-starts-mozambique-finally-exports-first-cargo-of-lng/2-1-1353274",
-      "data": "2022-11-14"
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
+      "data": "2026-10-20"
     },
     {
-      "fonte": "Energy Voice, Coral Sul",
-      "url": "https://energyvoice.com/?p=459877",
-      "data": "2022-11-14"
-    },
-    {
-      "fonte": "JPT, ExxonMobil levanta a força maior",
-      "url": "https://jpt.spe.org/exxonmobil-lifts-force-majeure-on-mozambique-megaproject",
-      "data": "2025-11-01"
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-government-cuts-growth-forecasts/",
+      "data": "2026-07-07"
     }
   ],
-  "data": "2026-11-20",
-  "dia_semana": "sexta",
-  "semana": "2026-S47",
+  "data": "2026-11-23",
+  "dia_semana": "segunda",
+  "semana": "2026-S48",
   "versao": 1,
-  "aprovada": true,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1795150073900
-  },
-  "aprovadaEm": "2026-11-21T11:12:32.900Z",
-  "kit": "data/kits/Direccoes-2026-11-20-Direccao-do-Dia.zip"
+  "aprovada": false,
+  "falhas": []
 }

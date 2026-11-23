@@ -277,7 +277,7 @@
   },
   {
     "id": "orcamento_2027",
-    "nome": "Orçamento de 2027",
+    "nome": "Orçamento do Estado 2027",
     "estado": "activo",
     "inicio": "2026-10-17",
     "historial": [
@@ -310,6 +310,12 @@
         "semana": "2026-S45",
         "resumo": "A proposta tem despesa de 511,2 mil milhões e receitas de 427,8 mil milhões, com défice de 4,6% do PIB. Com inflação de 7%, a despesa cai cerca de 8% em termos reais.",
         "direccao": "Acompanhar o debate no Parlamento e confirmar se o FDEL de 1,5 mil milhões chega ao distrito."
+      },
+      {
+        "data": "2026-11-23",
+        "semana": "2026-S48",
+        "resumo": "O Governo propõe défice de 4,6% do PIB, receitas de 427 mil milhões de meticais e crescimento de 1,6%. A proposta ainda aguarda votação no Parlamento.",
+        "direccao": "Famílias e PMEs devem contar com inflação perto de 7% e crédito do Estado limitado em 2027."
       }
     ]
   },
@@ -564,6 +570,12 @@
         "semana": "2026-S47",
         "resumo": "O Ministério das Finanças quer o programa aprovado até ao fim de 2026, mas o FMI não confirmou o calendário. O representante residente disse a 11 de Novembro que o preço dos combustíveis agrava a falta de divisas.",
         "direccao": "Acompanhar o acordo técnico e esperar medidas fiscais antes de contrair crédito."
+      },
+      {
+        "data": "2026-11-23",
+        "semana": "2026-S48",
+        "resumo": "O Governo quer o programa aprovado até ao fim do ano e o FMI deverá enviar nova missão em Novembro. Acordo técnico ainda não anunciado.",
+        "direccao": "Acompanhar o acordo técnico, que condiciona crédito e câmbio."
       }
     ]
   },

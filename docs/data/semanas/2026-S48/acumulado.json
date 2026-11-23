@@ -1,0 +1,601 @@
+{
+  "itens": [
+    {
+      "titulo": "Proposta de Orçamento para 2027 prevê défice de 4,6% do PIB e crescimento de 1,6%",
+      "resumo": "O Governo propõe mobilizar 511,2 mil milhões de meticais em 2027, com receitas de 427 mil milhões (23,5% do PIB) e um défice de cerca de 83 mil milhões. A inflação média prevista é de 7% e o crédito interno fica limitado a 1,9% do PIB; a proposta ainda tem de ser aprovada pela Assembleia da República.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_economica",
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19",
+      "confianca": "alta",
+      "n": 1,
+      "recolhida": "2026-11-23"
+    },
+    {
+      "titulo": "Governo quer cortar a massa salarial do Estado para 10,7% do PIB até 2029",
+      "resumo": "O cenário fiscal de médio prazo prevê a massa salarial em 12% do PIB em 2027, 11,5% em 2028 e 10,7% em 2029. As medidas incluem limitar contratações, reforçar as provas de vida, acelerar reformas e reduzir em 50% a percentagem das diuturnidades.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 2,
+      "recolhida": "2026-11-23"
+    },
+    {
+      "titulo": "Orçamento de 2027 prevê 5.541 novas contratações na função pública",
+      "resumo": "Segundo o Governo, as novas admissões custam 1,399 mil milhões de meticais e sobem 39,9% face ao ano anterior. Convive com a meta de reduzir o peso dos salários no PIB.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-govt-plans-5541-new-civil-service-hires-in-2027-with-a-budget-impact-of-1-399-billion-meticais/",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 3,
+      "recolhida": "2026-11-23"
+    }
+  ],
+  "processados": [],
+  "sugestoes_semana": [],
+  "versao": 1,
+  "proximo_n": 4,
+  "lacunas": [
+    "Estado da proposta de Orçamento de 2027 no Parlamento",
+    "Preços de milho, arroz e chapa na Beira e em Nampula",
+    "Saúde e educação: exames e ano lectivo",
+    "Notícias da SADC e da África do Sul"
+  ],
+  "fontes_consultadas": [
+    {
+      "categoria": "oficiais",
+      "fonte": "Banco de Moçambique",
+      "url": "https://www.bancomoc.mz",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "MASA/SIMA, INE",
+      "url": "https://www.masa.gov.mz",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa / RTP",
+      "url": "https://www.rtp.pt",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "FMI",
+      "url": "https://www.imf.org",
+      "data": "2026-11-23"
+    }
+  ],
+  "analise": {
+    "destaques": {
+      "mundo": [
+        "Tanzânia condena Tundu Lissu a quatro anos, mas absolve-o de traição",
+        "El Niño forte até 2027 ameaça a época chuvosa na África Austral",
+        "FMI: nova missão em Novembro para fechar o programa até Dezembro",
+        "Petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados"
+      ],
+      "nacional": [
+        "Orçamento de 2027: défice de 4,6% do PIB e 5.541 novas contratações",
+        "Chapo recebe ExxonMobil e Eni: gás do Rovuma entre a decisão e a obra",
+        "Julgamento de Mondlane: defesa entrega 223 páginas e pede a anulação da acusação",
+        "Governo suspende subsídios de viatura a dirigentes: poupança de 7,4 mil milhões",
+        "Inflação de 6,32% em Outubro e crédito a cair pelo terceiro mês"
+      ]
+    },
+    "pestal": [
+      {
+        "dimensao": "Política",
+        "oportunidades": [
+          {
+            "texto": "Regra dos 20% para PMEs",
+            "origem": "interna"
+          },
+          {
+            "texto": "Corte de subsídios a dirigentes",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Julgamento de Mondlane sem transmissão",
+            "origem": "interna"
+          },
+          {
+            "texto": "Contratações sobem, salários pesam",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Corte de subsídios a dirigentes",
+        "principal_ameaca": "Tensão em torno do julgamento de Mondlane"
+      },
+      {
+        "dimensao": "Económica",
+        "oportunidades": [
+          {
+            "texto": "Receitas do Estado mais 10,3%",
+            "origem": "interna"
+          },
+          {
+            "texto": "Abu Dhabi: 500 milhões de dólares",
+            "origem": "externa"
+          },
+          {
+            "texto": "Orçamento 2027 com défice menor",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Petróleo perto de 98 dólares",
+            "origem": "externa"
+          },
+          {
+            "texto": "Crédito em queda, juros a 22%",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Receitas do Estado em alta",
+        "principal_ameaca": "Crédito caro e em queda"
+      },
+      {
+        "dimensao": "Social",
+        "oportunidades": [
+          {
+            "texto": "Contingência de 39,8 mil milhões",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "65% dos jovens sem emprego",
+            "origem": "interna"
+          },
+          {
+            "texto": "Ajuda do PAM só até Dezembro",
+            "origem": "externa"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Plano de contingência aprovado",
+        "principal_ameaca": "Desemprego jovem e fim da ajuda"
+      },
+      {
+        "dimensao": "Tecnológica",
+        "oportunidades": [
+          {
+            "texto": "Portal Emprego do INEP",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Plataformas de apostas sem licença",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 1,
+        "principal_oportunidade": "Portal Emprego do INEP",
+        "principal_ameaca": "Apostas online sem licença"
+      },
+      {
+        "dimensao": "Ambiental",
+        "oportunidades": [
+          {
+            "texto": "Campanha agrária lançada no Niassa",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Chuva abaixo da média até Fevereiro",
+            "origem": "externa"
+          },
+          {
+            "texto": "El Niño forte até 2027",
+            "origem": "externa"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Campanha agrária em marcha",
+        "principal_ameaca": "Chuva abaixo da média até Fevereiro"
+      },
+      {
+        "dimensao": "Legal",
+        "oportunidades": [
+          {
+            "texto": "Lei 9/2026 do conteúdo local",
+            "origem": "interna"
+          },
+          {
+            "texto": "Primeiro julgamento gravado e transcrito",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Regulamento ainda por publicar",
+            "origem": "interna"
+          },
+          {
+            "texto": "Julgamento longo, 36 testemunhas",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Preferência de 20% a nacionais",
+        "principal_ameaca": "Julgamento de Mondlane pode arrastar-se"
+      }
+    ],
+    "impacto": [
+      {
+        "grupo": "Governo",
+        "saldo": 1,
+        "porque": "receitas sobem, subsídios cortados",
+        "efeito": "positivo",
+        "explicacao": "A proposta de Orçamento de 2027 reduz o défice para 4,6% do PIB e quer baixar a massa salarial para 10,7% do PIB até 2029, mas prevê 5.541 contratações. Receitas subiram 10,3% até Setembro e a despesa caiu 7%. O decreto de 17 de Novembro suspende subsídios a dirigentes."
+      },
+      {
+        "grupo": "Classe baixa",
+        "saldo": -2,
+        "porque": "comida cara e chuva fraca",
+        "efeito": "negativo",
+        "explicacao": "Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM."
+      },
+      {
+        "grupo": "Classe média",
+        "saldo": -1,
+        "porque": "crédito caro e preços a subir",
+        "efeito": "negativo",
+        "explicacao": "Os juros médios a um ano estão em 22,26% e a inflação anual em 6,32%, o que aperta prestações e compras."
+      },
+      {
+        "grupo": "Classe alta e investidores",
+        "saldo": 1,
+        "porque": "gás e contratos públicos avançam",
+        "efeito": "positivo",
+        "explicacao": "A ENH entra no Coral Norte e o Estado apoia a central de Temane, o que mantém negócios de energia e fornecimento. O Fundo de Abu Dhabi assinou um acordo de 500 milhões de dólares com Moçambique, mas o julgamento político pode pesar na confiança."
+      },
+      {
+        "grupo": "ONGs e parceiros",
+        "saldo": -1,
+        "porque": "mais procura e menos financiamento",
+        "efeito": "negativo",
+        "explicacao": "O PAM só mantém a ajuda actual até Dezembro, enquanto o El Niño aumenta as necessidades."
+      },
+      {
+        "grupo": "Macroeconomia",
+        "saldo": 1,
+        "porque": "receitas fortes, inflação contida",
+        "efeito": "positivo",
+        "explicacao": "A inflação de 6,32% e a taxa MIMO estável em 9,25% dão estabilidade, apesar do petróleo caro e do crédito em queda."
+      },
+      {
+        "grupo": "PMEs",
+        "saldo": 0,
+        "porque": "contratos novos, crédito escasso",
+        "efeito": "misto",
+        "explicacao": "A regra dos 20% e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses seguidos e os juros são altos."
+      },
+      {
+        "grupo": "Ramos de negócio",
+        "saldo": 0,
+        "porque": "energia ganha, agricultura perde",
+        "efeito": "misto",
+        "explicacao": "Energia, gás e fornecedores de obras públicas ganham; a agricultura de sequeiro e o transporte perdem com a seca e o combustível."
+      }
+    ],
+    "direccao": [
+      {
+        "publico": "Famílias",
+        "accao": "Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro."
+      },
+      {
+        "publico": "Pequenos agricultores",
+        "accao": "Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito."
+      },
+      {
+        "publico": "PMEs",
+        "accao": "Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato."
+      },
+      {
+        "publico": "Jovens à procura de emprego",
+        "accao": "Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada."
+      },
+      {
+        "publico": "Investidores",
+        "accao": "Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital."
+      }
+    ],
+    "sinal": "Votação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG.",
+    "sintese": "O Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
+    "o_que_mudou_hoje": "A proposta de Orçamento de 2027 volta ao centro da agenda, com um défice de 4,6% do PIB, receitas de 427 mil milhões de meticais e um corte gradual da massa salarial. O FMI deverá enviar nova missão a Maputo em Novembro, e o Governo quer o programa fechado até ao fim do ano.",
+    "canais": [
+      {
+        "choque": "Chuva abaixo da média",
+        "passos": [
+          "El Niño forte",
+          "Menos chuva até Fevereiro",
+          "Colheita fraca",
+          "Milho e arroz mais caros",
+          "Famílias gastam mais em comida"
+        ],
+        "quem_sente": "Pequenos agricultores e classe baixa",
+        "prazo": "meses"
+      },
+      {
+        "choque": "Crédito em queda",
+        "passos": [
+          "Bancos emprestam menos",
+          "Juros a 22%",
+          "PMEs adiam investimento",
+          "Menos emprego"
+        ],
+        "quem_sente": "PMEs e jovens",
+        "prazo": "meses"
+      }
+    ],
+    "cenarios": [
+      {
+        "nome": "Melhora",
+        "probabilidade": 20,
+        "descricao": "A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%.",
+        "sinal": "Chuva acima de 80% do normal em Janeiro"
+      },
+      {
+        "nome": "Fica igual",
+        "probabilidade": 45,
+        "descricao": "Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%.",
+        "sinal": "Inflação mensal abaixo de 0,6% em Novembro"
+      },
+      {
+        "nome": "Piora",
+        "probabilidade": 35,
+        "descricao": "A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro.",
+        "sinal": "Milho mais de 10% acima do mês anterior"
+      }
+    ],
+    "riscos": [
+      {
+        "risco": "Seca na época chuvosa",
+        "probabilidade": 3,
+        "impacto": 3,
+        "nota": "A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro."
+      },
+      {
+        "risco": "Taxa dos combustíveis aprovada",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo."
+      },
+      {
+        "risco": "Crédito continua a cair",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Caiu em Agosto pelo terceiro mês seguido."
+      },
+      {
+        "risco": "Atraso no regulamento do conteúdo local",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Sem regulamento publicado, as PMEs não se podem registar."
+      },
+      {
+        "risco": "Fim da ajuda do PAM em Dezembro",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Famílias já dependentes de ajuda ficam sem apoio na época de escassez."
+      },
+      {
+        "risco": "Protestos após decisão do julgamento",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Os protestos de 2024 e 2025 deixaram a economia a recuar 4,87% no último trimestre de 2024."
+      }
+    ],
+    "horizonte": {
+      "imediato": "Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.",
+      "tres_meses": "Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.",
+      "um_ano": "Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs."
+    },
+    "vulnerabilidade": [
+      {
+        "grupo": "Classe baixa",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Gasta a maior parte do rendimento em comida e tem pouca poupança."
+      },
+      {
+        "grupo": "Classe média",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Sente os juros e os preços, mas tem alguma poupança."
+      },
+      {
+        "grupo": "Trabalhadores informais e agricultores",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Dependem da chuva e do mercado diário, sem rede de protecção."
+      },
+      {
+        "grupo": "PMEs",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Juros altos, mas contratos novos podem compensar."
+      }
+    ],
+    "confianca": {
+      "grau": "media",
+      "base": "documentos do Governo citados pela Forbes África Lusófona, RTP e Club of Mozambique"
+    },
+    "continuidade": "O Orçamento de 2027 é o facto novo desta semana, com a meta de défice de 4,6% do PIB. O julgamento de Mondlane e o gás do Rovuma seguem sem decisão final."
+  },
+  "design": {
+    "slides": [
+      {
+        "titulo": "Direcções da Semana",
+        "texto": "",
+        "tom": "neutro",
+        "imagem_termos": "Mozambique coast landscape"
+      },
+      {
+        "titulo": "Orçamento 2027: défice de 4,6%",
+        "texto": "O Governo propõe gastar 511 mil milhões e cobrar 427 mil milhões em receitas. O Parlamento ainda vai votar.",
+        "tom": "neutro",
+        "imagem_termos": "Maputo city hall"
+      },
+      {
+        "titulo": "Salários do Estado a descer",
+        "texto": "A massa salarial cai de 12% do PIB em 2027 para 10,7% em 2029, mas há 5.541 contratações previstas.",
+        "tom": "neutro",
+        "imagem_termos": "Mozambique civil servants"
+      },
+      {
+        "titulo": "FMI volta a Maputo em Novembro",
+        "texto": "O Governo quer o programa aprovado até ao fim do ano. Falta o acordo técnico.",
+        "tom": "oportunidade",
+        "imagem_termos": "International Monetary Fund building"
+      },
+      {
+        "titulo": "Chuva fraca até Fevereiro",
+        "texto": "A FEWS NET prevê chuva abaixo da média e o PAM só mantém a ajuda até Dezembro.",
+        "tom": "alerta",
+        "imagem_termos": "maize field Africa drought"
+      },
+      {
+        "titulo": "Rovuma LNG sem decisão final",
+        "texto": "ExxonMobil sobe a 50% do projecto, mas o investimento final ainda não foi anunciado.",
+        "tom": "neutro",
+        "imagem_termos": "Cabo Delgado coast"
+      }
+    ],
+    "manchete": "Orçamento de 2027 corta défice e salários, FMI volta em Novembro",
+    "destaques_capa": [
+      "Orçamento de 2027 prevê défice de 4,6%",
+      "FMI regressa a Maputo em Novembro",
+      "Chuva fraca ameaça colheita até Fevereiro"
+    ],
+    "legenda": "O Governo propõe um Orçamento para 2027 com défice de 4,6% do PIB e corte gradual dos salários do Estado. O FMI volta em Novembro e a chuva fraca preocupa o campo. Veja o que fazer já.",
+    "hashtags": [
+      "#Moçambique",
+      "#Orçamento2027"
+    ],
+    "fontes_usadas": [
+      10,
+      11,
+      12
+    ]
+  },
+  "textos": {
+    "whatsapp": "*MUNDO*\n\nO FMI deverá enviar nova missão a Maputo em Novembro. O Governo quer o programa aprovado até ao fim do ano. A FEWS NET prevê chuva abaixo da média de Dezembro a Fevereiro na região.\n\n*MOÇAMBIQUE*\n\nO Governo propôs um Orçamento de 2027 com défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e inflação de 7%. Quer reduzir a massa salarial de 12% do PIB em 2027 para 10,7% em 2029, mas prevê 5.541 novas contratações. Em Sofala e no Centro, a chuva fraca preocupa quem semeia agora. O PAM só mantém a ajuda actual até Dezembro.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham o Governo, que cobra mais e gasta menos, e os fornecedores de energia e gás. Perdem a classe baixa e os pequenos agricultores, com comida cara e chuva fraca. As PMEs ficam a meio: têm contratos novos com a regra dos 20%, mas o crédito está caro e a encolher.\n\n*DIRECÇÃO*\n\nFamílias: comprar básicos aos poucos e guardar reserva antes de Dezembro. Agricultores: semear cedo e pedir apoio do Plano de Contingência. PMEs: juntar certidões e exigir prazos de pagamento escritos.\n\n*PRÓXIMA SEMANA*\n\nAtenção à votação do Orçamento, ao acordo técnico com o FMI e à inflação de Novembro.\n\nPartilhe com quem precisa de saber isto.",
+    "linkedin": "O Governo propõe para 2027 um défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e crescimento de 1,6%. A massa salarial do Estado deve descer de 12% do PIB em 2027 para 10,7% em 2029, embora o Orçamento preveja 5.541 novas contratações.\n\nOs números mostram um Estado que cobra mais e gasta menos: as receitas subiram 10,3% até Setembro e a despesa caiu 7%. O preço está em obras adiadas e em menos crédito para as empresas, que caiu três meses seguidos, com juros médios de 22,26% a um ano.\n\nNo campo, a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda até Dezembro. Quem vive da agricultura de sequeiro é o mais exposto.\n\nEm Novembro deverá chegar nova missão do FMI. O Governo quer o programa aprovado até ao fim do ano, o que ajudaria a libertar financiamento externo.\n\nDirecção. Fornecedores do Estado devem juntar certidões, registar-se quando a Autoridade de Conteúdo Local abrir e exigir prazos de pagamento escritos. Investidores devem esperar o acordo técnico com o FMI e a decisão final do Rovuma LNG.\n\nConclusão: o Orçamento de 2027 só convence se o FMI fechar o acordo e a receita cumprir. #Moçambique #Orçamento2027",
+    "instagram": "O Governo propõe um Orçamento de 2027 com défice de 4,6% do PIB. O FMI volta a Maputo em Novembro e a chuva fraca ameaça a colheita até Fevereiro. Veja o que fazer já. #Moçambique #Orçamento2027",
+    "facebook": "O Governo propôs um Orçamento para 2027 com défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e inflação de 7%. Quer também reduzir o peso dos salários do Estado, mas prevê 5.541 novas contratações.\n\nPara as famílias, o que pesa é a comida e o crédito. A inflação de Outubro foi de 6,32%, segundo o INE, e os juros médios a um ano estão em 22,26%.\n\nNo campo, a chuva deve ficar abaixo da média entre Dezembro e Fevereiro, segundo a FEWS NET. O PAM só mantém a ajuda actual até Dezembro. Em Sofala e no Centro, quem semeia agora deve escolher sementes de ciclo curto.\n\nO FMI deverá voltar a Maputo em Novembro e o Governo quer o programa aprovado até ao fim do ano.\n\nA direcção principal da semana: comprar básicos aos poucos, guardar reserva antes de Dezembro e, se vende ao Estado, exigir prazos de pagamento escritos. #Moçambique #Orçamento2027",
+    "analise_completa": "## Resumo da semana\n\nO Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher. A inflação de Outubro foi de 6,32%, segundo o INE, e o Banco de Moçambique manteve a taxa MIMO em 9,25%. O Governo aprovou a 13 de Outubro a proposta de Orçamento de 2027, com défice de 4,6% do PIB e receitas de 427,8 mil milhões de meticais.\n\n## O que mudou face às semanas anteriores\n\nO Orçamento de 2027 é o facto novo desta semana, com a meta de défice de 4,6% do PIB. O julgamento de Mondlane e o gás do Rovuma seguem sem decisão final. O FMI deverá enviar nova missão em Novembro, e o Governo quer o programa fechado até ao fim do ano.\n\n## Mundo\n\nA Tanzânia condenou Tundu Lissu a quatro anos por incitamento, mas absolveu-o de traição. O petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados. O El Niño forte deve estender-se até 2027 na África Austral, e o FMI prepara nova missão a Maputo.\n\n## Moçambique\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, crescimento de 1,6% e inflação de 7%. A massa salarial deve descer para 10,7% do PIB até 2029, com limites a contratações, mais provas de vida e redução de 50% nas diuturnidades. No julgamento de Venâncio Mondlane, a defesa pediu a anulação da acusação. O Presidente Chapo recebeu a ExxonMobil e a Eni, mas a decisão final do Rovuma LNG ainda não foi anunciada.\n\n## PESTAL\n\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.); Corte de subsídios a dirigentes (int.) | Julgamento de Mondlane sem transmissão (int.); Contratações sobem, salários pesam (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Abu Dhabi: 500 milhões de dólares (ext.); Orçamento 2027 com défice menor (int.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\n## Como chega ao seu bolso\n\nChuva abaixo da média: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sentem mais: Pequenos agricultores e classe baixa.\n\nCrédito em queda: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sentem mais: PMEs e jovens.\n\n## Cenários\n\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\n## Riscos\n\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3/3 | 3/3 |\n| Taxa dos combustíveis aprovada | 2/3 | 2/3 |\n| Crédito continua a cair | 2/3 | 2/3 |\n| Atraso no regulamento do conteúdo local | 2/3 | 2/3 |\n| Fim da ajuda do PAM em Dezembro | 2/3 | 3/3 |\n| Protestos após decisão do julgamento | 2/3 | 3/3 |\n\n## Horizonte\n\nImediato: Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\n\n3 meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\n\n1 ano: Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs.\n\n## Quem está mais exposto\n\nClasse baixa (exposição 3/3, margem 1/3): Gasta a maior parte do rendimento em comida e tem pouca poupança.\n\nClasse média (exposição 2/3, margem 2/3): Sente os juros e os preços, mas tem alguma poupança.\n\nTrabalhadores informais e agricultores (exposição 3/3, margem 1/3): Dependem da chuva e do mercado diário, sem rede de protecção.\n\nPMEs (exposição 2/3, margem 2/3): Juros altos, mas contratos novos podem compensar.\n\n## Quem ganha, quem perde\n\nGoverno (positivo): A proposta de Orçamento de 2027 reduz o défice para 4,6% do PIB e quer baixar a massa salarial para 10,7% do PIB até 2029, mas prevê 5.\n\nClasse baixa (negativo): Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM.\n\nClasse média (negativo): Os juros médios a um ano estão em 22,26% e a inflação anual em 6,32%, o que aperta prestações e compras.\n\nClasse alta e investidores (positivo): A ENH entra no Coral Norte e o Estado apoia a central de Temane, o que mantém negócios de energia e fornecimento.\n\nONGs e parceiros (negativo): O PAM só mantém a ajuda actual até Dezembro, enquanto o El Niño aumenta as necessidades.\n\nMacroeconomia (positivo): A inflação de 6,32% e a taxa MIMO estável em 9,25% dão estabilidade, apesar do petróleo caro e do crédito em queda.\n\nPMEs (misto): A regra dos 20% e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses seguidos e os juros são altos.\n\nRamos de negócio (misto): Energia, gás e fornecedores de obras públicas ganham; a agricultura de sequeiro e o transporte perdem com a seca e o combustível.\n\n## Direcção\n\nFamílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\n\nPequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\n\nPMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\n\nJovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\n\nInvestidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\n## Direcções anteriores: o que se confirmou\n\nDas direcções verificadas até agora, a maioria está pendente: a taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.\n\n## Sinal a acompanhar\n\nVotação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG.\n\n## Grau de confiança\n\nMédia. Base: documentos do Governo citados pela Forbes África Lusófona, RTP e Club of Mozambique.\n\n## Fontes\n\nOficiais e imprensa económica: [Forbes África Lusófona](https://forbesafricalusofona.com/?p=177705); [RTP/Lusa](https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403); [Club of Mozambique](https://clubofmozambique.com).",
+    "verificar": [
+      "Défice de 4,6% e receitas de 427,8 mil milhões de meticais do Orçamento de 2027 (Conselho de Ministros, 13 de Outubro)",
+      "Massa salarial: 12% do PIB em 2027, 11,5% em 2028 e 10,7% em 2029",
+      "5.541 contratações previstas e custo de 1,399 mil milhões de meticais",
+      "Nova missão do FMI em Novembro (data não confirmada)"
+    ],
+    "duvidas": [],
+    "conformidade": [
+      {
+        "criterio": "Notícias do mundo",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Notícias de Moçambique",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "PESTAL completo",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Canais de transmissão",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Três cenários",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Riscos",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Horizonte",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Vulnerabilidade",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Impacto nos 8 grupos",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Direcção por público",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Sinal a acompanhar",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Confiança e fontes",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "O que mudou",
+        "ok": true,
+        "nota": "incluído"
+      }
+    ]
+  },
+  "memoria_actualizada": {
+    "em": "2026-11-23",
+    "indicadores": 0,
+    "temas": 2,
+    "direccoes": 3
+  },
+  "falhas_conformidade": [],
+  "incluir_itens": []
+}

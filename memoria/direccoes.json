@@ -821,5 +821,41 @@
     "verificar_em": "2027-02-20",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D68",
+    "data": "2026-11-23",
+    "semana": "2026-S48",
+    "publico": "Famílias",
+    "accao": "Contar com inflação perto de 7% em 2027 e rever o orçamento familiar em Janeiro.",
+    "tema": "orcamento_2027",
+    "horizonte": "trimestre",
+    "verificar_em": "2027-02-23",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D69",
+    "data": "2026-11-23",
+    "semana": "2026-S48",
+    "publico": "PMEs",
+    "accao": "Preparar propostas para contratos públicos de 2027 antes da aprovação do Orçamento.",
+    "tema": "orcamento_2027",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-23",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D70",
+    "data": "2026-11-23",
+    "semana": "2026-S48",
+    "publico": "Investidores",
+    "accao": "Esperar o acordo técnico com o FMI antes de decisões de grande risco.",
+    "tema": "fmi_programa",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-31",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

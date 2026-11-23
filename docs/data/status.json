@@ -17,8 +17,8 @@
     },
     "editor": {
       "estado": "pronto",
-      "msg": "Textos e post do dia prontos",
-      "em": "2026-11-23T04:34:43.148Z"
+      "msg": "Textos finais prontos",
+      "em": "2026-11-23T04:34:52.174Z"
     },
     "aprovacao": {
       "estado": "parado",
@@ -27,6 +27,16 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-23T04:34:52.174Z",
+      "agente": "editor",
+      "msg": "Edição versão 1 montada"
+    },
+    {
+      "em": "2026-11-23T04:34:52.174Z",
+      "agente": "editor",
+      "msg": "Direcção do Dia: Orçamento de 2027: o Estado consegue cumprir o défice de 4,6%?"
+    },
     {
       "em": "2026-11-23T04:34:43.148Z",
       "agente": "editor",
@@ -216,19 +226,9 @@
       "em": "2026-11-20T04:44:46.530Z",
       "agente": "fontes",
       "msg": "Pesquisa feita"
-    },
-    {
-      "em": "2026-11-20T04:43:40.950Z",
-      "agente": "fontes",
-      "msg": "A pesquisar as notícias de sexta"
-    },
-    {
-      "em": "2026-11-20T04:43:12.960Z",
-      "agente": "fontes",
-      "msg": "A começar a pesquisa do dia…"
     }
   ],
-  "actualizado": "2026-11-23T04:34:43.148Z",
+  "actualizado": "2026-11-23T04:34:52.174Z",
   "semana": "2026-S48",
   "dia": "2026-11-23",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",

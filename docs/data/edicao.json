@@ -1,302 +1,108 @@
 {
-  "semana": "2026-S47",
-  "dia": "2026-11-22",
-  "versao": 7,
+  "semana": "2026-S48",
+  "dia": "2026-11-23",
+  "versao": 1,
   "aprovada": false,
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
-  "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: oficiais, imprensa_nacional, humanitario",
-    "A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
-  ],
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
+  "falhas_conformidade": [],
   "itens": [
     {
-      "titulo": "Standard Bank e a Câmara de Petróleo e Gás assinam acordo para integrar PMEs nos projectos de energia",
-      "resumo": "O memorando assinado em Maputo a 2 de Novembro junta formação, acesso a financiamento e ligação aos operadores para micro, pequenas e médias empresas fornecedoras dos grandes projectos de energia. Num estudo de 2024, só 27% dos 104 fornecedores inquiridos tinham crédito bancário e 84% diziam que o financiamento formal cobria menos de metade das necessidades.",
+      "titulo": "Proposta de Orçamento para 2027 prevê défice de 4,6% do PIB e crescimento de 1,6%",
+      "resumo": "O Governo propõe mobilizar 511,2 mil milhões de meticais em 2027, com receitas de 427 mil milhões (23,5% do PIB) e um défice de cerca de 83 mil milhões. A inflação média prevista é de 7% e o crédito interno fica limitado a 1,9% do PIB; a proposta ainda tem de ser aprovada pela Assembleia da República.",
       "ambito": "nacional",
       "dimensao": "Económica",
       "categoria": "imprensa_economica",
-      "fonte": "Club of Mozambique, com Diário Económico",
-      "url": "https://clubofmozambique.com/news/standard-bank-and-mozambiques-oil-and-gas-chamber-join-forces-to-strengthen-smes-in-energy-sector/",
-      "data": "2026-11-03",
-      "confianca": "media",
-      "n": 1,
-      "recolhida": "2026-11-16",
-      "na_edicao": false
-    },
-    {
-      "titulo": "Julgamento de Venâncio Mondlane começa a 17 de Novembro no Tribunal Supremo",
-      "resumo": "O Tribunal Supremo adiou o início do julgamento de 6 de Outubro para 17 de Novembro a pedido da defesa. O tribunal recusou a transmissão em directo e permite a presença de jornalistas, que podem tomar notas escritas. Actualização (2026-11-17): O julgamento está marcado para hoje, 17 de Novembro, sem transmissão em directo. Actualização (2026-11-18): O Tribunal Supremo recusou a transmissão em directo e a gravação de som e imagem, mas deixou a imprensa cobrir as audiências e fazer relatos escritos. Mondlane confirmou que estaria presente. Actualização (2026-11-19): O julgamento arrancou a 17 de Novembro e a sessão terminou às 14h30, uma hora antes do previsto, depois de a defesa entregar uma contestação de 223 páginas. A defesa pediu a anulação da acusação por falta de assinatura; o juiz explicou que a instrução foi anterior à entrada de Mondlane no Conselho de Estado, e os documentos da defesa e o pedido de nulidade ficaram por decidir, segundo o Público. A 18 de Novembro estava reservada à contestação da defesa. Estão previstas 12 testemunhas de acusação e 20 da defesa.",
-      "ambito": "nacional",
-      "dimensao": "Legal",
-      "categoria": "imprensa_nacional",
-      "fonte": "Lusa (RTP) e Club of Mozambique",
-      "url": "https://clubofmozambique.com/news/mozambique-supreme-court-reschedules-mondlane-trial-for-17-november/",
-      "data": "2026-11-16",
-      "confianca": "media",
-      "n": 2,
-      "recolhida": "2026-11-16",
-      "na_edicao": true
-    },
-    {
-      "titulo": "Receitas do Estado sobem 10,3% até Setembro e despesa cai 7%",
-      "resumo": "De Janeiro a Setembro, o Estado cobrou cerca de 3 927 milhões de euros, mais 10,3% do que há um ano, e gastou cerca de 3 942 milhões, menos 7%, segundo um relatório do Governo. O défice ficou perto de 15 milhões de euros.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "categoria": "imprensa_economica",
-      "fonte": "Forbes África Lusófona, com Lusa",
-      "url": "https://forbesafricalusofona.com/?p=178532",
-      "data": "2026-11-04",
-      "confianca": "media",
-      "n": 3,
-      "recolhida": "2026-11-17",
-      "na_edicao": true
-    },
-    {
-      "titulo": "Fundo de Abu Dhabi assina acordo de 500 milhões de dólares com Moçambique",
-      "resumo": "O Fundo de Abu Dhabi para o Desenvolvimento assinou o seu primeiro acordo de cooperação com Moçambique, no valor de cerca de 500 milhões de dólares. O Presidente Daniel Chapo descreveu-o como um empréstimo para projectos nacionais e sectores estratégicos; os juros, o prazo e os projectos ainda não são conhecidos.",
-      "ambito": "mundo",
-      "dimensao": "Económica",
-      "categoria": "imprensa_economica",
-      "fonte": "Club of Mozambique e agência WAM",
-      "url": "https://clubofmozambique.com/news/abu-dhabi-fund-for-development-signs-us500-million-agreement-with-mozambique/",
-      "data": "2026-11-16",
-      "confianca": "media",
-      "n": 4,
-      "recolhida": "2026-11-19",
-      "na_edicao": true
-    },
-    {
-      "titulo": "Tanzânia: Tundu Lissu absolvido de traição mas condenado a quatro anos por incitamento",
-      "resumo": "O Tribunal Superior da Tanzânia absolveu o líder da oposição Tundu Lissu da acusação de traição, que podia dar pena de morte, mas condenou-o a quatro anos de prisão por incitamento. A oposição vai recorrer e a Amnistia Internacional criticou a decisão.",
-      "ambito": "mundo",
-      "dimensao": "Legal",
-      "categoria": "internacional",
-      "fonte": "TimesLive e Club of Mozambique",
-      "url": "https://clubofmozambique.com/news/tanzania-opposition-leader-tundu-lissu-cleared-of-treason-sentenced-to-four-years-for-incitement/",
-      "data": "2026-11-06",
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19",
       "confianca": "alta",
-      "n": 5,
-      "recolhida": "2026-11-19",
-      "na_edicao": true
-    },
-    {
-      "titulo": "Standard Bank Moçambique espera ajustamento macroeconómico em 2027",
-      "resumo": "O Standard Bank apresentou a 5 de Novembro, em Maputo, as suas projecções para a economia. O título do briefing aponta um ajustamento macroeconómico em 2027, depois de o Governo ter dito que espera um novo programa com o FMI até ao fim do ano.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "categoria": "imprensa_economica",
-      "fonte": "Club of Mozambique",
-      "url": "https://clubofmozambique.com/news/economic-briefing-standard-bank-mozambique-expects-macroeconomic-adjustment-in-2027/",
-      "data": "2026-11-05",
-      "confianca": "media",
-      "n": 6,
-      "recolhida": "2026-11-19",
+      "n": 1,
+      "recolhida": "2026-11-23",
       "na_edicao": false
     },
     {
-      "titulo": "Chapo recebe ExxonMobil e Eni e analisa os projectos de gás da bacia do Rovuma",
-      "resumo": "A 17 de Novembro, o Presidente Daniel Chapo recebeu em separado a ExxonMobil e a Eni. A ExxonMobil disse que a reorganização com a Eni lhe permite subir para 50% no Rovuma LNG, e a Eni ficará com 50% do Coral Sul, do Coral Norte e de outros projectos flutuantes da Área 4, com decisão de investimento em 2027 para a terceira unidade, a Mamba East.",
-      "ambito": "nacional",
-      "dimensao": "Económica",
-      "categoria": "imprensa_nacional",
-      "fonte": "Club of Mozambique",
-      "url": "https://clubofmozambique.com/news/mozambique-chapo-meets-exxonmobil-and-eni-executives-to-review-rovuma-basin-gas-projects/",
-      "data": "2026-11-17",
-      "confianca": "media",
-      "n": 7,
-      "recolhida": "2026-11-20",
-      "na_edicao": true
-    },
-    {
-      "titulo": "Governo suspende subsídios de viatura e de início de funções para dirigentes do Estado",
-      "resumo": "O Conselho de Ministros aprovou a 17 de Novembro um decreto que suspende o subsídio de viatura e o de início de funções, até as condições económicas e financeiras melhorarem. Segundo a AIM, pagar estes benefícios custaria cerca de 7,4 mil milhões de meticais em cinco anos; os processos já aprovados mantêm os pagamentos.",
+      "titulo": "Governo quer cortar a massa salarial do Estado para 10,7% do PIB até 2029",
+      "resumo": "O cenário fiscal de médio prazo prevê a massa salarial em 12% do PIB em 2027, 11,5% em 2028 e 10,7% em 2029. As medidas incluem limitar contratações, reforçar as provas de vida, acelerar reformas e reduzir em 50% a percentagem das diuturnidades.",
       "ambito": "nacional",
       "dimensao": "Política",
       "categoria": "imprensa_nacional",
-      "fonte": "O País, AIM e O Económico, via Rio Times",
-      "url": "https://www.riotimesonline.com/mozambique-suspends-car-subsidies-state-officials/",
-      "data": "2026-11-17",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
+      "data": "2026-10-20",
       "confianca": "media",
-      "n": 8,
-      "recolhida": "2026-11-21",
-      "na_edicao": true
+      "n": 2,
+      "recolhida": "2026-11-23",
+      "na_edicao": false
     },
     {
-      "titulo": "Ministério das Finanças quer programa com o FMI aprovado até ao fim do ano",
-      "resumo": "O Ministério das Finanças diz que as conversações de Setembro preparam um acordo ao nível técnico e a aprovação pelo Conselho de Administração do FMI até ao fim de 2026. O FMI ainda não confirmou o calendário e o seu representante residente disse a 11 de Novembro que o preço dos combustíveis agrava a falta de divisas e a pressão orçamental.",
+      "titulo": "Orçamento de 2027 prevê 5.541 novas contratações na função pública",
+      "resumo": "Segundo o Governo, as novas admissões custam 1,399 mil milhões de meticais e sobem 39,9% face ao ano anterior. Convive com a meta de reduzir o peso dos salários no PIB.",
       "ambito": "nacional",
-      "dimensao": "Económica",
-      "categoria": "internacional",
-      "fonte": "Club of Mozambique e AllAfrica",
-      "url": "https://allafrica.com/stories/202609110252.html",
-      "data": "2026-11-11",
+      "dimensao": "Política",
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-govt-plans-5541-new-civil-service-hires-in-2027-with-a-budget-impact-of-1-399-billion-meticais/",
+      "data": "2026-10-20",
       "confianca": "media",
-      "n": 9,
-      "recolhida": "2026-11-21",
+      "n": 3,
+      "recolhida": "2026-11-23",
       "na_edicao": false
     }
   ],
   "lacunas": [
-    "Preços de milho e arroz nas três capitais",
-    "Inflação de Outubro por cidade",
-    "Decisão final sobre a taxa dos combustíveis",
-    "Tarifa de chapa na Beira"
+    "Estado da proposta de Orçamento de 2027 no Parlamento",
+    "Preços de milho, arroz e chapa na Beira e em Nampula",
+    "Saúde e educação: exames e ano lectivo",
+    "Notícias da SADC e da África do Sul"
   ],
   "fontes_consultadas": [
+    {
+      "categoria": "oficiais",
+      "fonte": "Banco de Moçambique",
+      "url": "https://www.bancomoc.mz",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "MASA/SIMA, INE",
+      "url": "https://www.masa.gov.mz",
+      "data": "2026-11-23"
+    },
     {
       "categoria": "imprensa_economica",
       "fonte": "Club of Mozambique",
       "url": "https://clubofmozambique.com",
-      "data": "2026-11-16"
+      "data": "2026-11-23"
     },
     {
       "categoria": "imprensa_nacional",
-      "fonte": "Lusa/RTP",
+      "fonte": "Lusa / RTP",
       "url": "https://www.rtp.pt",
-      "data": "2026-11-16"
-    },
-    {
-      "categoria": "precos",
-      "fonte": "MASA/SIMA",
-      "url": "https://www.masa.gov.mz",
-      "data": "2026-11-16"
+      "data": "2026-11-23"
     },
     {
       "categoria": "internacional",
-      "fonte": "SADC",
-      "url": "https://www.sadc.int",
-      "data": "2026-11-16"
-    },
-    {
-      "categoria": "analise_independente",
-      "fonte": "Afrobarometer",
-      "url": "https://www.afrobarometer.org/articles/os-jovens-mocambicanos-enfrentam-dificuldades-para-encontrar-emprego-afirmando-que-sao-prejudicados-pela-falta-de-formacao-e-de-experiencia-profissional/",
-      "data": "2026-11-17"
-    },
-    {
-      "categoria": "oficiais",
-      "fonte": "Banco de Moçambique",
-      "url": "https://bancomoc.mz/en/media/highlights/mimo-policy-rate-unchanged-at-9-25-29-07-26/",
-      "data": "2026-11-17"
-    },
-    {
-      "categoria": "regional",
-      "fonte": "SADC",
-      "url": "https://sadc.int/latest-news/communique-46th-ordinary-summit-sadc-heads-state-and-government-17th-august-2026",
-      "data": "2026-11-17"
-    },
-    {
-      "categoria": "imprensa_nacional",
-      "fonte": "Lusa (Forbes África Lusófona)",
-      "url": "https://forbesafricalusofona.com/?p=178532",
-      "data": "2026-11-17"
-    },
-    {
-      "categoria": "precos",
-      "fonte": "Trading Economics",
-      "url": "https://tradingeconomics.com",
-      "data": "2026-11-17"
-    },
-    {
-      "categoria": "imprensa_nacional",
-      "fonte": "RTP/Lusa",
-      "url": "https://www.rtp.pt/noticias/mundo/supremo-mocambicano-rejeita-pedido-de-transmissao-em-direto-do-julgamento-de-mondlane_n1766861",
-      "data": "2026-11-18"
-    },
-    {
-      "categoria": "precos",
-      "fonte": "FEWS NET",
-      "url": "https://fews.net/southern-africa/mozambique",
-      "data": "2026-11-18"
-    },
-    {
-      "categoria": "humanitario",
-      "fonte": "PAM / WFP Moçambique",
-      "url": "https://www.wfp.org/countries/mozambique",
-      "data": "2026-11-18"
-    },
-    {
-      "categoria": "imprensa_nacional",
-      "fonte": "Jornal Notícias",
-      "url": "https://www.jornalnoticias.co.mz/destaque/julgamento-de-venancio-mondlane-ts-debateu-pontos-previos-e-apresentacao-da-acusacao/",
-      "data": "2026-11-19"
-    },
-    {
-      "categoria": "imprensa_nacional",
-      "fonte": "Público (Lusa)",
-      "url": "https://www.publico.pt/2026/11/17/mundo/noticia/defesa-venancio-mondlane-pede-anulacao-julgamento-seculo-primeira-sessao-2195293",
-      "data": "2026-11-19"
-    },
-    {
-      "categoria": "internacional",
-      "fonte": "Forbes África Lusófona (FMI)",
-      "url": "https://forbesafricalusofona.com/?p=176637",
-      "data": "2026-11-19"
-    },
-    {
-      "categoria": "internacional",
-      "fonte": "TimesLive (Lissu)",
-      "url": "https://www.timeslive.co.za/news/africa/2026-11-06-tanzania-opposition-leader-tundu-lissu-cleared-of-treason-sentenced-for-inciting-unrest/",
-      "data": "2026-11-19"
-    },
-    {
-      "categoria": "precos",
-      "fonte": "SIMA/MASA",
-      "url": "https://www.masa.gov.mz",
-      "data": "2026-11-19"
-    },
-    {
-      "categoria": "imprensa_nacional",
-      "fonte": "Club of Mozambique",
-      "url": "https://clubofmozambique.com",
-      "data": "2026-11-20"
-    },
-    {
-      "categoria": "humanitario",
-      "fonte": "INGD via Lusa",
-      "url": "https://www.ingd.gov.mz",
-      "data": "2026-11-20"
-    },
-    {
-      "categoria": "oficiais",
-      "fonte": "South32 (Mozal)",
-      "url": "https://www.south32.net/news-media/latest-news/mozal-aluminium-update",
-      "data": "2026-11-20"
-    },
-    {
-      "categoria": "imprensa_nacional",
-      "fonte": "O País / AIM (via Rio Times)",
-      "url": "https://www.riotimesonline.com/mozambique-suspends-car-subsidies-state-officials/",
-      "data": "2026-11-21"
-    },
-    {
-      "categoria": "internacional",
-      "fonte": "AllAfrica / Club of Mozambique (FMI)",
-      "url": "https://allafrica.com/stories/202609110252.html",
-      "data": "2026-11-21"
-    },
-    {
-      "categoria": "precos",
-      "fonte": "FEWS NET Moçambique",
-      "url": "https://fews.net/southern-africa/mozambique",
-      "data": "2026-11-22"
+      "fonte": "FMI",
+      "url": "https://www.imf.org",
+      "data": "2026-11-23"
     }
   ],
   "memoria": {
-    "em": "2026-11-22",
+    "em": "2026-11-23",
     "indicadores": 0,
-    "temas": 0,
-    "direccoes": 0
+    "temas": 2,
+    "direccoes": 3
   },
   "analise": {
     "destaques": {
       "mundo": [
         "Tanzânia condena Tundu Lissu a quatro anos, mas absolve-o de traição",
         "El Niño forte até 2027 ameaça a época chuvosa na África Austral",
-        "FMI: Finanças esperam programa aprovado até ao fim do ano",
+        "FMI: nova missão em Novembro para fechar o programa até Dezembro",
         "Petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados"
       ],
       "nacional": [
+        "Orçamento de 2027: défice de 4,6% do PIB e 5.541 novas contratações",
         "Chapo recebe ExxonMobil e Eni: gás do Rovuma entre a decisão e a obra",
         "Julgamento de Mondlane: defesa entrega 223 páginas e pede a anulação da acusação",
         "Governo suspende subsídios de viatura a dirigentes: poupança de 7,4 mil milhões",
@@ -322,7 +128,7 @@
             "origem": "interna"
           },
           {
-            "texto": "Tensão se houver condenação",
+            "texto": "Contratações sobem, salários pesam",
             "origem": "interna"
           }
         ],
@@ -343,8 +149,8 @@
             "origem": "externa"
           },
           {
-            "texto": "Programa do FMI até Dezembro",
-            "origem": "externa"
+            "texto": "Orçamento 2027 com défice menor",
+            "origem": "interna"
           }
         ],
         "ameacas": [
@@ -461,7 +267,7 @@
         "saldo": 1,
         "porque": "receitas sobem, subsídios cortados",
         "efeito": "positivo",
-        "explicacao": "As receitas subiram 10,3% até Setembro e a despesa caiu 7%, o que alivia o défice, mas deixa pouco espaço para emprego público e para a seca. O julgamento de Mondlane mantém o tema político em aberto até haver decisão. O decreto de 17 de Novembro suspende o subsídio de viatura e o de início de funções, o que poupa cerca de 7,4 mil milhões de meticais em cinco anos."
+        "explicacao": "A proposta de Orçamento de 2027 reduz o défice para 4,6% do PIB e quer baixar a massa salarial para 10,7% do PIB até 2029, mas prevê 5.541 contratações. Receitas subiram 10,3% até Setembro e a despesa caiu 7%. O decreto de 17 de Novembro suspende subsídios a dirigentes."
       },
       {
         "grupo": "Classe baixa",
@@ -535,9 +341,9 @@
         "accao": "Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital."
       }
     ],
-    "sinal": "Resultado das sessões do julgamento de Mondlane, publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO. Decisão final de investimento do Rovuma LNG, prometida pela ExxonMobil até ao fim do ano. Acordo técnico com o FMI e data de entrada em vigor do decreto dos subsídios.",
-    "sintese": "Os preços sobem devagar, mas o crédito caro e a chuva fraca previstos para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
-    "o_que_mudou_hoje": "O julgamento de Venâncio Mondlane continua no Tribunal Supremo, sem transmissão em directo, depois de a defesa ter entregue 223 páginas a pedir a anulação da acusação. O decreto que suspende os subsídios de viatura a dirigentes e o programa com o FMI até ao fim do ano mantêm-se como os factos mais recentes na economia.",
+    "sinal": "Votação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG.",
+    "sintese": "O Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
+    "o_que_mudou_hoje": "A proposta de Orçamento de 2027 volta ao centro da agenda, com um défice de 4,6% do PIB, receitas de 427 mil milhões de meticais e um corte gradual da massa salarial. O FMI deverá enviar nova missão a Maputo em Novembro, e o Governo quer o programa fechado até ao fim do ano.",
     "canais": [
       {
         "choque": "Chuva abaixo da média",
@@ -654,9 +460,9 @@
     ],
     "confianca": {
       "grau": "media",
-      "base": "dados do INE, do Banco de Moçambique, da FEWS NET, da AIM, da Lusa e de jornais nacionais e regionais"
+      "base": "documentos do Governo citados pela Forbes África Lusófona, RTP e Club of Mozambique"
     },
-    "continuidade": "O julgamento de Mondlane continua em curso e o gás do Rovuma segue sem decisão final. O corte de subsídios a dirigentes é novo e liga-se às conversações com o FMI."
+    "continuidade": "O Orçamento de 2027 é o facto novo desta semana, com a meta de défice de 4,6% do PIB. O julgamento de Mondlane e o gás do Rovuma seguem sem decisão final."
   },
   "design": {
     "slides": [
@@ -664,208 +470,135 @@
         "titulo": "Direcções da Semana",
         "texto": "",
         "tom": "neutro",
-        "imagem_termos": "Mozambique landscape coast"
+        "imagem_termos": "Mozambique coast landscape"
       },
       {
-        "titulo": "Estado cobra mais e gasta menos",
-        "texto": "As receitas subiram 10,3% até Setembro e a despesa caiu 7%. Sobra pouca folga para emprego público.",
+        "titulo": "Orçamento 2027: défice de 4,6%",
+        "texto": "O Governo propõe gastar 511 mil milhões e cobrar 427 mil milhões em receitas. O Parlamento ainda vai votar.",
         "tom": "neutro",
-        "imagem_termos": "Maputo city Mozambique"
+        "imagem_termos": "Maputo city hall"
       },
       {
-        "titulo": "Mondlane: defesa pede anular acusação",
-        "texto": "A defesa entregou 223 páginas de contestação e pediu a anulação da acusação. A sessão acabou uma hora mais cedo.",
+        "titulo": "Salários do Estado a descer",
+        "texto": "A massa salarial cai de 12% do PIB em 2027 para 10,7% em 2029, mas há 5.541 contratações previstas.",
         "tom": "neutro",
-        "imagem_termos": "Maputo courthouse"
+        "imagem_termos": "Mozambique civil servants"
       },
       {
-        "titulo": "Gás do Rovuma: decisão por tomar",
-        "texto": "A ExxonMobil sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte. A decisão final ainda não saiu.",
-        "tom": "neutro",
-        "imagem_termos": "liquefied natural gas tanker"
+        "titulo": "FMI volta a Maputo em Novembro",
+        "texto": "O Governo quer o programa aprovado até ao fim do ano. Falta o acordo técnico.",
+        "tom": "oportunidade",
+        "imagem_termos": "International Monetary Fund building"
       },
       {
         "titulo": "Chuva fraca até Fevereiro",
-        "texto": "A FEWS NET prevê menos chuva e o PAM só mantém a ajuda até Dezembro.",
+        "texto": "A FEWS NET prevê chuva abaixo da média e o PAM só mantém a ajuda até Dezembro.",
         "tom": "alerta",
         "imagem_termos": "maize field Africa drought"
       },
       {
-        "titulo": "Abu Dhabi empresta 500 milhões",
-        "texto": "O Fundo de Abu Dhabi assinou o primeiro acordo com Moçambique. Os juros e os projectos ainda não são conhecidos.",
-        "tom": "oportunidade",
-        "imagem_termos": "Abu Dhabi skyline"
-      },
-      {
-        "titulo": "Governo corta subsídios a dirigentes",
-        "texto": "O decreto de 17 de Novembro suspende o subsídio de viatura e o de início de funções. Pagá-los custaria cerca de 7,4 mil milhões de meticais em cinco anos.",
-        "tom": "oportunidade",
-        "imagem_termos": "Maputo government building"
+        "titulo": "Rovuma LNG sem decisão final",
+        "texto": "ExxonMobil sobe a 50% do projecto, mas o investimento final ainda não foi anunciado.",
+        "tom": "neutro",
+        "imagem_termos": "Cabo Delgado coast"
       }
     ],
-    "manchete": "Mondlane em tribunal, gás do Rovuma por decidir e subsídios cortados",
+    "manchete": "Orçamento de 2027 corta défice e salários, FMI volta em Novembro",
     "destaques_capa": [
-      "Mondlane em tribunal",
-      "Gás do Rovuma por decidir",
-      "Governo corta subsídios a dirigentes"
+      "Orçamento de 2027 prevê défice de 4,6%",
+      "FMI regressa a Maputo em Novembro",
+      "Chuva fraca ameaça colheita até Fevereiro"
     ],
-    "legenda": "Os preços sobem devagar, mas o crédito caro e a chuva fraca até Fevereiro apertam famílias e agricultores. As PMEs ganham contratos com a regra dos 20%. Veja a direcção para cada público.",
+    "legenda": "O Governo propõe um Orçamento para 2027 com défice de 4,6% do PIB e corte gradual dos salários do Estado. O FMI volta em Novembro e a chuva fraca preocupa o campo. Veja o que fazer já.",
     "hashtags": [
       "#Moçambique",
-      "#DirecçõesDaSemana"
+      "#Orçamento2027"
     ],
     "fontes_usadas": [
-      2,
-      3,
-      4,
-      5,
-      7,
-      8
+      10,
+      11,
+      12
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\n\nNa Tanzânia, o líder da oposição Tundu Lissu foi absolvido de traição, mas condenado a quatro anos por incitamento. O Fundo de Abu Dhabi assinou com Moçambique um acordo de cerca de 500 milhões de dólares. O petróleo ronda os 98 dólares.\n\n*MOÇAMBIQUE*\n\nO Presidente Daniel Chapo recebeu a ExxonMobil e a Eni a 17 de Novembro: a ExxonMobil sobe a 50% no Rovuma LNG, mas a decisão final de investimento ainda não saiu. O julgamento de Venâncio Mondlane arrancou a 17 de Novembro no Tribunal Supremo. A defesa entregou 223 páginas de contestação. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%. A inflação de Outubro foi de 6,32%. O Conselho de Ministros suspendeu a 17 de Novembro o subsídio de viatura e o de início de funções dos dirigentes do Estado.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham o Governo, os investidores e a macroeconomia, com receitas fortes e inflação contida. Perdem a classe baixa, com comida cara e chuva fraca, e a classe média, com juros a 22%. As PMEs ficam a meio: há contratos novos com a regra dos 20%, mas falta crédito.\n\n*DIRECÇÃO*\n\nFamílias: comprar básicos aos poucos e guardar reserva antes de Dezembro. Agricultores: semear cedo e pedir apoio do Plano de Contingência no distrito. PMEs: juntar certidões e calcular os juros antes de aceitar um subcontrato.\n\n*PRÓXIMA SEMANA*\n\nAtenção às sessões do julgamento, à votação da taxa sobre os combustíveis e à inflação de Novembro.\n\nPartilhe esta mensagem com quem precisa de decidir esta semana.",
-    "linkedin": "Chuva fraca, crédito caro e um julgamento que mexe com a confiança\n\nEsta semana, três coisas pesam na economia moçambicana. A primeira é o clima: a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda actual até Dezembro. A segunda é o crédito: os juros médios a um ano estão em 22,26% e o crédito caiu pelo terceiro mês. A terceira é política: o julgamento de Venâncio Mondlane arrancou a 17 de Novembro no Tribunal Supremo, com cinco crimes em causa.\n\nHá sinais positivos. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%, e a inflação anual ficou em 6,32% em Outubro.\n\nO Conselho de Ministros suspendeu a 17 de Novembro o subsídio de viatura e o de início de funções dos dirigentes do Estado, uma poupança de cerca de 7,4 mil milhões de meticais em cinco anos, segundo a AIM. O Ministério das Finanças espera um programa com o FMI até ao fim do ano.\n\nNo gás, a ExxonMobil passa a 50% do Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte. A decisão final do Rovuma LNG está prometida para antes do fim do ano.\n\nDirecção\nEmpresas: calcular os juros antes de aceitar um subcontrato e manter reserva de caixa para uma ou duas semanas fracas. Fornecedores: juntar certidões e registar-se quando abrir a Autoridade de Conteúdo Local. Investidores: esperar o regulamento da Lei 9/2026 e a decisão sobre a acusação no julgamento antes de comprometer capital.\n\nA semana pede prudência no crédito e atenção ao calendário: regulamento do conteúdo local, taxa dos combustíveis e sessões do julgamento.\n\n#Moçambique #PMEs #Economia",
-    "instagram": "Chuva fraca até Fevereiro, crédito a 22% e o julgamento de Mondlane em curso. Receitas do Estado sobem 10,3% e Abu Dhabi assina 500 milhões de dólares. Direcção: comprar básicos aos poucos e guardar reserva antes de Dezembro. #Moçambique #DirecçõesDaSemana",
-    "facebook": "Esta semana, o que mais mexe com a vida das famílias é a chuva. A FEWS NET prevê menos chuva do que o normal entre Dezembro e Fevereiro, e o PAM só mantém a ajuda actual até Dezembro.\n\nOs preços em geral sobem devagar: a inflação anual foi de 6,32% em Outubro. Mas os juros estão altos, a rondar 22% a um ano, e o crédito caiu pelo terceiro mês, o que aperta as famílias com prestações e as pequenas empresas.\n\nNo gás, o Presidente Daniel Chapo recebeu a ExxonMobil e a Eni a 17 de Novembro. A ExxonMobil sobe a 50% no Rovuma LNG, mas a decisão final de investimento ainda não saiu. Na política, o julgamento de Venâncio Mondlane começou a 17 de Novembro no Tribunal Supremo. A defesa entregou 223 páginas de contestação e pediu a anulação da acusação.\n\nO Governo também suspendeu os subsídios de viatura e de início de funções dos dirigentes do Estado, a partir de um decreto de 17 de Novembro. A regra dos 20% abre contratos às pequenas empresas nas obras públicas.\n\nDirecção principal da semana: comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro. Quem cultiva deve semear cedo e pedir apoio do Plano de Contingência no distrito. #Moçambique #DirecçõesDaSemana",
-    "analise_completa": "Resumo da semana\nOs preços sobem devagar, mas o crédito caro e a chuva fraca previstos para Dezembro a Fevereiro apertam as famílias e os pequenos agricultores. O Estado cobra mais e gasta menos, o que dá estabilidade e deixa pouca margem para apoios. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher. O julgamento de Venâncio Mondlane arrancou a 17 de Novembro.\n\nO que mudou face às semanas anteriores\nO julgamento de Mondlane passou de data marcada a processo em curso. A inflação e o crédito mantêm o quadro económico, e a taxa dos combustíveis continua por votar.\n\nMundo\nNa Tanzânia, o tribunal absolveu a 6 de Novembro o líder da oposição Tundu Lissu de traição e condenou-o a quatro anos por incitamento; a oposição vai recorrer. O Fundo de Abu Dhabi para o Desenvolvimento assinou o primeiro acordo com Moçambique, de cerca de 500 milhões de dólares, descrito pelo Presidente como empréstimo.\n\nMoçambique\nA 17 de Novembro, o Presidente Daniel Chapo recebeu a ExxonMobil e a Eni. A ExxonMobil sobe a 50% no Rovuma LNG e a Eni fica com 50% do Coral Sul e do Coral Norte; a decisão final do Rovuma LNG ainda não saiu (Club of Mozambique, 17 de Novembro).\nA 17 de Novembro, o Conselho de Ministros suspendeu o subsídio de viatura e o de início de funções dos dirigentes do Estado, até as condições económicas melhorarem; pagá-los custaria cerca de 7,4 mil milhões de meticais em cinco anos, segundo a AIM. O Ministério das Finanças quer um programa com o FMI aprovado até ao fim do ano.\nO julgamento de Mondlane começou no Tribunal Supremo com cinco crimes em causa. A defesa entregou uma contestação de 223 páginas e pediu a anulação da acusação. As receitas do Estado subiram 10,3% até Setembro e a despesa caiu 7%, segundo a Forbes África Lusófona. A inflação anual ficou em 6,32% em Outubro, segundo o INE, e o crédito caiu pelo terceiro mês. \n\nPESTAL\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.) | Julgamento de Mondlane sem transmissão (int.); Tensão se houver condenação (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Inflação anual de 6,32% (int.); Abu Dhabi: 500 milhões de dólares (ext.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\nComo chega ao seu bolso\nChuva abaixo da média: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sente mais: Pequenos agricultores e classe baixa, em meses.\nCrédito em queda: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sente mais: PMEs e jovens, em meses.\n\nCenários\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\nRiscos\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3/3 | 3/3 |\n| Taxa dos combustíveis aprovada | 2/3 | 2/3 |\n| Crédito continua a cair | 2/3 | 2/3 |\n| Atraso no regulamento do conteúdo local | 2/3 | 2/3 |\n| Fim da ajuda do PAM em Dezembro | 2/3 | 3/3 |\n| Protestos após decisão do julgamento | 2/3 | 3/3 |\n\nHorizonte\nImediato: Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\nEm 3 meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\nEm 1 ano: Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs.\n\nQuem está mais exposto\nClasse baixa: exposição alta, margem baixa.\nClasse média: exposição média, margem média.\nTrabalhadores informais e agricultores: exposição alta, margem baixa.\nPMEs: exposição média, margem média.\n\nQuem ganha, quem perde\nGoverno (+1): receitas sobem e despesa cai.\nClasse baixa (-2): comida cara e chuva fraca.\nClasse média (-1): crédito caro e preços a subir.\nClasse alta e investidores (+1): gás e contratos públicos avançam.\nONGs e parceiros (-1): mais procura e menos financiamento.\nMacroeconomia (+1): receitas fortes, inflação contida.\nPMEs (0): contratos novos, crédito escasso.\nRamos de negócio (0): energia ganha, agricultura perde.\n\nDirecção\nFamílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\nPequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\nPMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\nJovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\nInvestidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\nDirecções anteriores: o que se confirmou\nA taxa sobre os combustíveis continua por votar, por isso a direcção de guardar margem para um aumento mantém-se pendente.\n\nSinal a acompanhar\nResultado das sessões do julgamento de Mondlane, publicação do regulamento da Lei 9/2026, votação da taxa sobre combustíveis, inflação de Novembro e decisão do Banco de Moçambique sobre a MIMO.\n\nGrau de confiança\nMédia. Assenta em dados do INE, do Banco de Moçambique, da FEWS NET, da Lusa e de jornais nacionais e regionais.\n\nFontes\nImprensa: Jornal Notícias, Lusa (RTP), Público, Club of Mozambique, Forbes África Lusófona, TimesLive.\nOficiais e análise: INE, Banco de Moçambique, FEWS NET, WAM.\n- Club of Mozambique, 17 de Novembro de 2026: https://clubofmozambique.com/news/mozambique-chapo-meets-exxonmobil-and-eni-executives-to-review-rovuma-basin-gas-projects/",
+    "whatsapp": "*MUNDO*\n\nO FMI deverá enviar nova missão a Maputo em Novembro. O Governo quer o programa aprovado até ao fim do ano. A FEWS NET prevê chuva abaixo da média de Dezembro a Fevereiro na região.\n\n*MOÇAMBIQUE*\n\nO Governo propôs um Orçamento de 2027 com défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e inflação de 7%. Quer reduzir a massa salarial de 12% do PIB em 2027 para 10,7% em 2029, mas prevê 5.541 novas contratações. Em Sofala e no Centro, a chuva fraca preocupa quem semeia agora. O PAM só mantém a ajuda actual até Dezembro.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham o Governo, que cobra mais e gasta menos, e os fornecedores de energia e gás. Perdem a classe baixa e os pequenos agricultores, com comida cara e chuva fraca. As PMEs ficam a meio: têm contratos novos com a regra dos 20%, mas o crédito está caro e a encolher.\n\n*DIRECÇÃO*\n\nFamílias: comprar básicos aos poucos e guardar reserva antes de Dezembro. Agricultores: semear cedo e pedir apoio do Plano de Contingência. PMEs: juntar certidões e exigir prazos de pagamento escritos.\n\n*PRÓXIMA SEMANA*\n\nAtenção à votação do Orçamento, ao acordo técnico com o FMI e à inflação de Novembro.\n\nPartilhe com quem precisa de saber isto.",
+    "linkedin": "O Governo propõe para 2027 um défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e crescimento de 1,6%. A massa salarial do Estado deve descer de 12% do PIB em 2027 para 10,7% em 2029, embora o Orçamento preveja 5.541 novas contratações.\n\nOs números mostram um Estado que cobra mais e gasta menos: as receitas subiram 10,3% até Setembro e a despesa caiu 7%. O preço está em obras adiadas e em menos crédito para as empresas, que caiu três meses seguidos, com juros médios de 22,26% a um ano.\n\nNo campo, a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda até Dezembro. Quem vive da agricultura de sequeiro é o mais exposto.\n\nEm Novembro deverá chegar nova missão do FMI. O Governo quer o programa aprovado até ao fim do ano, o que ajudaria a libertar financiamento externo.\n\nDirecção. Fornecedores do Estado devem juntar certidões, registar-se quando a Autoridade de Conteúdo Local abrir e exigir prazos de pagamento escritos. Investidores devem esperar o acordo técnico com o FMI e a decisão final do Rovuma LNG.\n\nConclusão: o Orçamento de 2027 só convence se o FMI fechar o acordo e a receita cumprir. #Moçambique #Orçamento2027",
+    "instagram": "O Governo propõe um Orçamento de 2027 com défice de 4,6% do PIB. O FMI volta a Maputo em Novembro e a chuva fraca ameaça a colheita até Fevereiro. Veja o que fazer já. #Moçambique #Orçamento2027",
+    "facebook": "O Governo propôs um Orçamento para 2027 com défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e inflação de 7%. Quer também reduzir o peso dos salários do Estado, mas prevê 5.541 novas contratações.\n\nPara as famílias, o que pesa é a comida e o crédito. A inflação de Outubro foi de 6,32%, segundo o INE, e os juros médios a um ano estão em 22,26%.\n\nNo campo, a chuva deve ficar abaixo da média entre Dezembro e Fevereiro, segundo a FEWS NET. O PAM só mantém a ajuda actual até Dezembro. Em Sofala e no Centro, quem semeia agora deve escolher sementes de ciclo curto.\n\nO FMI deverá voltar a Maputo em Novembro e o Governo quer o programa aprovado até ao fim do ano.\n\nA direcção principal da semana: comprar básicos aos poucos, guardar reserva antes de Dezembro e, se vende ao Estado, exigir prazos de pagamento escritos. #Moçambique #Orçamento2027",
+    "analise_completa": "## Resumo da semana\n\nO Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher. A inflação de Outubro foi de 6,32%, segundo o INE, e o Banco de Moçambique manteve a taxa MIMO em 9,25%. O Governo aprovou a 13 de Outubro a proposta de Orçamento de 2027, com défice de 4,6% do PIB e receitas de 427,8 mil milhões de meticais.\n\n## O que mudou face às semanas anteriores\n\nO Orçamento de 2027 é o facto novo desta semana, com a meta de défice de 4,6% do PIB. O julgamento de Mondlane e o gás do Rovuma seguem sem decisão final. O FMI deverá enviar nova missão em Novembro, e o Governo quer o programa fechado até ao fim do ano.\n\n## Mundo\n\nA Tanzânia condenou Tundu Lissu a quatro anos por incitamento, mas absolveu-o de traição. O petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados. O El Niño forte deve estender-se até 2027 na África Austral, e o FMI prepara nova missão a Maputo.\n\n## Moçambique\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, crescimento de 1,6% e inflação de 7%. A massa salarial deve descer para 10,7% do PIB até 2029, com limites a contratações, mais provas de vida e redução de 50% nas diuturnidades. No julgamento de Venâncio Mondlane, a defesa pediu a anulação da acusação. O Presidente Chapo recebeu a ExxonMobil e a Eni, mas a decisão final do Rovuma LNG ainda não foi anunciada.\n\n## PESTAL\n\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.); Corte de subsídios a dirigentes (int.) | Julgamento de Mondlane sem transmissão (int.); Contratações sobem, salários pesam (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Abu Dhabi: 500 milhões de dólares (ext.); Orçamento 2027 com défice menor (int.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\n## Como chega ao seu bolso\n\nChuva abaixo da média: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sentem mais: Pequenos agricultores e classe baixa.\n\nCrédito em queda: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sentem mais: PMEs e jovens.\n\n## Cenários\n\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\n## Riscos\n\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3/3 | 3/3 |\n| Taxa dos combustíveis aprovada | 2/3 | 2/3 |\n| Crédito continua a cair | 2/3 | 2/3 |\n| Atraso no regulamento do conteúdo local | 2/3 | 2/3 |\n| Fim da ajuda do PAM em Dezembro | 2/3 | 3/3 |\n| Protestos após decisão do julgamento | 2/3 | 3/3 |\n\n## Horizonte\n\nImediato: Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\n\n3 meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\n\n1 ano: Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs.\n\n## Quem está mais exposto\n\nClasse baixa (exposição 3/3, margem 1/3): Gasta a maior parte do rendimento em comida e tem pouca poupança.\n\nClasse média (exposição 2/3, margem 2/3): Sente os juros e os preços, mas tem alguma poupança.\n\nTrabalhadores informais e agricultores (exposição 3/3, margem 1/3): Dependem da chuva e do mercado diário, sem rede de protecção.\n\nPMEs (exposição 2/3, margem 2/3): Juros altos, mas contratos novos podem compensar.\n\n## Quem ganha, quem perde\n\nGoverno (positivo): A proposta de Orçamento de 2027 reduz o défice para 4,6% do PIB e quer baixar a massa salarial para 10,7% do PIB até 2029, mas prevê 5.\n\nClasse baixa (negativo): Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM.\n\nClasse média (negativo): Os juros médios a um ano estão em 22,26% e a inflação anual em 6,32%, o que aperta prestações e compras.\n\nClasse alta e investidores (positivo): A ENH entra no Coral Norte e o Estado apoia a central de Temane, o que mantém negócios de energia e fornecimento.\n\nONGs e parceiros (negativo): O PAM só mantém a ajuda actual até Dezembro, enquanto o El Niño aumenta as necessidades.\n\nMacroeconomia (positivo): A inflação de 6,32% e a taxa MIMO estável em 9,25% dão estabilidade, apesar do petróleo caro e do crédito em queda.\n\nPMEs (misto): A regra dos 20% e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses seguidos e os juros são altos.\n\nRamos de negócio (misto): Energia, gás e fornecedores de obras públicas ganham; a agricultura de sequeiro e o transporte perdem com a seca e o combustível.\n\n## Direcção\n\nFamílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\n\nPequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\n\nPMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\n\nJovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\n\nInvestidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\n## Direcções anteriores: o que se confirmou\n\nDas direcções verificadas até agora, a maioria está pendente: a taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.\n\n## Sinal a acompanhar\n\nVotação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG.\n\n## Grau de confiança\n\nMédia. Base: documentos do Governo citados pela Forbes África Lusófona, RTP e Club of Mozambique.\n\n## Fontes\n\nOficiais e imprensa económica: [Forbes África Lusófona](https://forbesafricalusofona.com/?p=177705); [RTP/Lusa](https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403); [Club of Mozambique](https://clubofmozambique.com).",
     "verificar": [
-      "Valor e natureza do acordo do Fundo de Abu Dhabi (500 milhões de dólares, empréstimo segundo o Presidente)",
-      "Decisão do tribunal sobre o pedido de nulidade da acusação",
-      "Número de artigos da acusação (101 ou 107, conforme o jornal)",
-      "Número de mortos nos protestos de 2024 e 2025 (388 segundo o Público)",
-      "Percentagens da ExxonMobil e da Eni no Rovuma LNG e no Coral",
-      "Poupança de 7,4 mil milhões de meticais do decreto dos subsídios (AIM) e data de entrada em vigor",
-      "Categorias de fontes não consultadas hoje: oficiais, analise_independente",
-      "A edição só cobre 3 dimensões do PESTAL (mínimo 4)",
-      "⚠️ Categorias de fontes não consultadas hoje: oficiais, imprensa_nacional, humanitario",
-      "⚠️ A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
+      "Défice de 4,6% e receitas de 427,8 mil milhões de meticais do Orçamento de 2027 (Conselho de Ministros, 13 de Outubro)",
+      "Massa salarial: 12% do PIB em 2027, 11,5% em 2028 e 10,7% em 2029",
+      "5.541 contratações previstas e custo de 1,399 mil milhões de meticais",
+      "Nova missão do FMI em Novembro (data não confirmada)"
     ],
     "duvidas": [],
     "conformidade": [
       {
         "criterio": "Notícias do mundo",
         "ok": true,
-        "nota": "Tanzânia, Abu Dhabi, petróleo e El Niño"
+        "nota": "incluído"
       },
       {
         "criterio": "Notícias de Moçambique",
         "ok": true,
-        "nota": "Julgamento, receitas, inflação, PMEs"
+        "nota": "incluído"
       },
       {
-        "criterio": "PESTAL completo (6 dimensões, oportunidades e ameaças, externas e internas)",
+        "criterio": "PESTAL completo",
         "ok": true,
-        "nota": "6 dimensões com origem marcada"
+        "nota": "incluído"
       },
       {
         "criterio": "Canais de transmissão",
         "ok": true,
-        "nota": "Chuva e crédito"
+        "nota": "incluído"
       },
       {
-        "criterio": "Três cenários com probabilidade e sinal",
+        "criterio": "Três cenários",
         "ok": true,
-        "nota": "20, 45 e 35, somam 100"
+        "nota": "incluído"
       },
       {
-        "criterio": "Riscos com probabilidade e impacto",
+        "criterio": "Riscos",
         "ok": true,
-        "nota": "6 riscos"
+        "nota": "incluído"
       },
       {
-        "criterio": "Horizonte: imediato, 3 meses, 1 ano",
+        "criterio": "Horizonte",
         "ok": true,
-        "nota": "Presente"
+        "nota": "incluído"
       },
       {
-        "criterio": "Vulnerabilidade por grupo",
+        "criterio": "Vulnerabilidade",
         "ok": true,
-        "nota": "4 grupos"
+        "nota": "incluído"
       },
       {
-        "criterio": "Impacto em cada um dos 8 grupos",
+        "criterio": "Impacto nos 8 grupos",
         "ok": true,
-        "nota": "8 grupos"
+        "nota": "incluído"
       },
       {
-        "criterio": "Direcção prática por público",
+        "criterio": "Direcção por público",
         "ok": true,
-        "nota": "5 públicos"
+        "nota": "incluído"
       },
       {
         "criterio": "Sinal a acompanhar",
         "ok": true,
-        "nota": "Presente"
+        "nota": "incluído"
       },
       {
-        "criterio": "Grau de confiança e fontes por categoria",
+        "criterio": "Confiança e fontes",
         "ok": true,
-        "nota": "Média, fontes agrupadas"
+        "nota": "incluído"
       },
       {
-        "criterio": "O que mudou face às semanas anteriores, só com facto novo",
+        "criterio": "O que mudou",
         "ok": true,
-        "nota": "Julgamento em curso, decisão da Tanzânia e acordo de Abu Dhabi"
+        "nota": "incluído"
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png",
-      "data/imagens/feed/slide-13.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png",
-      "data/imagens/story/slide-13.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: krugergirl26 from Boston, MA / Wikimedia Commons, CC BY 2.0",
-      "Foto: Voice of America / VOA / Wikimedia Commons, Public domain",
-      "Foto: Gordon Leggett / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Hannahlongole / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Wadiia / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: Salazar Sérgio / Wikimedia Commons, CC BY-SA 4.0"
-    ],
-    "v": 1795319663117
   }
 }
