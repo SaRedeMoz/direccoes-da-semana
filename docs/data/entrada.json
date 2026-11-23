@@ -1,16 +1,16 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-22",
-  "semana": "2026-S47",
-  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/9",
-  "dia_semana": "domingo",
-  "post_do_dia": "nenhum",
+  "hoje": "2026-11-23",
+  "semana": "2026-S48",
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
+  "dia_semana": "segunda",
+  "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
@@ -25,14 +25,14 @@
     "Governação e política",
     "Emprego e trabalho"
   ],
-  "area_sugerida": "",
+  "area_sugerida": "Finanças públicas e impostos",
   "edicao_anterior": [
-    "Preços sobem 0,48% em Outubro",
-    "ENH entra nos poços do Coral Norte",
-    "Jogo online só com licença",
-    "Taxa dos combustíveis em debate",
-    "Menos chuva prevista até Fevereiro",
-    "Plano de 39,8 mil milhões para desastres"
+    "Estado cobra mais e gasta menos",
+    "Mondlane: defesa pede anular acusação",
+    "Gás do Rovuma: decisão por tomar",
+    "Chuva fraca até Fevereiro",
+    "Abu Dhabi empresta 500 milhões",
+    "Governo corta subsídios a dirigentes"
   ],
   "noticias_do_aprovador": [],
   "sugestoes_novas": [],
