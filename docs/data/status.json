@@ -21,12 +21,17 @@
       "em": "2026-11-24T07:30:40.478Z"
     },
     "aprovacao": {
-      "estado": "parado",
-      "msg": "Sem edição nova ainda",
-      "em": "2026-11-24T07:26:14.701Z"
+      "estado": "à espera",
+      "msg": "Post do dia à espera da sua aprovação",
+      "em": "2026-11-24T07:31:56.774Z"
     }
   },
   "log": [
+    {
+      "em": "2026-11-24T07:31:56.774Z",
+      "agente": "aprovacao",
+      "msg": "Post do dia à espera da sua aprovação"
+    },
     {
       "em": "2026-11-24T07:30:40.478Z",
       "agente": "editor",
@@ -221,14 +226,9 @@
       "em": "2026-11-21T04:39:41.668Z",
       "agente": "analise",
       "msg": "A actualizar a análise com o decreto dos subsídios e o FMI"
-    },
-    {
-      "em": "2026-11-21T04:39:39.597Z",
-      "agente": "fontes",
-      "msg": "2 notícias novas, sem indicadores novos"
     }
   ],
-  "actualizado": "2026-11-24T07:30:40.478Z",
+  "actualizado": "2026-11-24T07:31:56.774Z",
   "semana": "2026-S48",
   "dia": "2026-11-24",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
