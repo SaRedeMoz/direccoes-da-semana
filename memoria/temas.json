@@ -316,6 +316,12 @@
         "semana": "2026-S48",
         "resumo": "O Governo propõe défice de 4,6% do PIB, receitas de 427 mil milhões de meticais e crescimento de 1,6%. A proposta ainda aguarda votação no Parlamento.",
         "direccao": "Famílias e PMEs devem contar com inflação perto de 7% e crédito do Estado limitado em 2027."
+      },
+      {
+        "data": "2026-11-24",
+        "semana": "2026-S48",
+        "resumo": "A proposta prevê 5.541 admissões, com 2.978 na educação e 598 na saúde. Falta a votação no Parlamento.",
+        "direccao": "Acompanhar a votação e o peso da saúde e da educação."
       }
     ]
   },
@@ -590,6 +596,34 @@
         "semana": "2026-S47",
         "resumo": "O Conselho de Ministros suspendeu a 17 de Novembro o subsídio de viatura e o de início de funções, até as condições melhorarem. Os pedidos já aprovados mantêm-se.",
         "direccao": "Acompanhar a data de entrada em vigor e novos cortes de despesa."
+      }
+    ]
+  },
+  {
+    "id": "saude_hospitais",
+    "nome": "Saúde pública e hospitais",
+    "estado": "activo",
+    "inicio": "2026-11-24",
+    "historial": [
+      {
+        "data": "2026-11-24",
+        "semana": "2026-S48",
+        "resumo": "O único aparelho de radioterapia do país está parado por falta de peças e o Governo tenta comprar outro. O Provedor de Justiça apontou falta de material e atrasos de subsídios nos hospitais.",
+        "direccao": "Doentes devem pedir cedo a referência e guardar os recibos dos tratamentos."
+      }
+    ]
+  },
+  {
+    "id": "cabo_delgado_deslocados",
+    "nome": "Deslocados em Cabo Delgado",
+    "estado": "activo",
+    "inicio": "2026-11-24",
+    "historial": [
+      {
+        "data": "2026-11-24",
+        "semana": "2026-S48",
+        "resumo": "A OIM contou 7.029 deslocados entre 21 de Setembro e 27 de Outubro. A província tem mais de 205.000 deslocados.",
+        "direccao": "Organizações e doadores devem reforçar comida, abrigo e saúde nos locais de acolhimento."
       }
     ]
   }

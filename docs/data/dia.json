@@ -1,306 +1,265 @@
 {
   "tipo": "dia",
-  "area": "Finanças públicas e impostos",
-  "tema": "Orçamento de 2027: o Estado consegue cumprir o défice de 4,6%?",
-  "pergunta": "Orçamento de 2027: o Estado cumpre o défice de 4,6%?",
+  "area": "Saúde",
+  "tema": "Oncologia: o que muda para os doentes com o serviço do Hospital Central em ruínas",
+  "pergunta": "Cancro: quem trata os doentes enquanto a oncologia do país se reconstrói?",
   "facto": {
-    "texto": "A 13 de Outubro, o Conselho de Ministros aprovou a proposta de Orçamento para 2027: 511,2 mil milhões de meticais de despesa, 427,8 mil milhões de receitas e um défice de cerca de 83 mil milhões, ou 4,6% do PIB. O Governo conta com crescimento de 1,6% e inflação de 7%. A proposta ainda vai ao Parlamento.",
+    "texto": "No domingo, 1 de Novembro, um incêndio atingiu o edifício do serviço de oncologia do Hospital Central de Maputo, o único do país. Os 22 doentes internados foram retirados e ninguém ficou ferido; o serviço mantém cerca de 90 doentes de consulta por dia. Os primeiros cálculos apontam para 35 milhões de dólares para reconstruir.",
     "numeros": [
       {
-        "valor": "4,6%",
-        "legenda": "défice previsto em 2027"
+        "valor": "35 M USD",
+        "legenda": "custo preliminar da reconstrução"
       },
       {
-        "valor": "427,8 mil M MT",
-        "legenda": "receitas previstas"
+        "valor": "90",
+        "legenda": "doentes de consulta por dia"
       },
       {
-        "valor": "1,6%",
-        "legenda": "crescimento previsto"
+        "valor": "15 meses",
+        "legenda": "paragem anterior da radioterapia"
       }
     ],
-    "fonte": "Conselho de Ministros, citado pela Forbes África Lusófona (19 de Outubro de 2026) e Rio Times (14 de Outubro de 2026)"
+    "fonte": "Club of Mozambique e RTP (Lusa), Novembro de 2026"
   },
   "linha_do_tempo": [
     {
-      "data": "Dez 2025",
-      "texto": "Parlamento aprova o Orçamento de 2026 com crescimento de 3,2%",
+      "data": "2024",
+      "texto": "A única máquina de radioterapia avaria e o país fica sem tratamento",
       "futuro": false
     },
     {
-      "data": "7 Jul",
-      "texto": "Governo corta a previsão de crescimento de 2026 para 0,59%",
+      "data": "4 Ago 2025",
+      "texto": "O Hospital Central retoma a radioterapia após 15 meses",
       "futuro": false
     },
     {
-      "data": "13 Out",
-      "texto": "Conselho de Ministros aprova a proposta para 2027",
+      "data": "Nov 2025",
+      "texto": "O equipamento volta a avariar por falha eléctrica",
+      "futuro": false
+    },
+    {
+      "data": "1 Nov",
+      "texto": "Incêndio atinge o serviço de oncologia do Hospital Central",
       "futuro": false
     },
     {
       "data": "Nov",
-      "texto": "Nova missão do FMI a Maputo, segundo o Governo",
-      "futuro": true
+      "texto": "Ministros e deputados doam pelo menos um dia de salário",
+      "futuro": false
     },
     {
-      "data": "Dez",
-      "texto": "Votação no Parlamento, como no ano passado",
+      "data": "Sem data",
+      "texto": "Calendário da reconstrução ainda por anunciar",
       "futuro": true
     }
   ],
   "precedente": {
-    "quando": "Orçamento de 2026, aprovado em Dezembro de 2025",
-    "o_que_aconteceu": "O Orçamento previa crescimento de 3,2% e défice perto de 7% do PIB. Com as cheias do início do ano, o Governo reviu o crescimento para 0,59% em Julho.",
-    "licao": "As previsões de crescimento falharam por mais de dois pontos; o défice depende da receita e do corte de despesa.",
-    "fonte": "Club of Mozambique; Lusa, 7 de Julho de 2026"
+    "quando": "2024 a Agosto de 2025",
+    "o_que_aconteceu": "A única máquina de radioterapia ficou 15 meses parada. A reparação custou cerca de 2 milhões de dólares e o serviço voltou a 4 de Agosto de 2025, com 170 a 200 doentes em espera. Dois meses depois avariou outra vez.",
+    "licao": "Reparar sem plano de manutenção dá meses de serviço, não anos.",
+    "fonte": "RTP, AIM e Club of Mozambique (2025)"
   },
-  "porque_importa": "O Orçamento decide quanto o Estado gasta em salários, estradas, escolas e hospitais, e quanto pede emprestado aos bancos. Se o Estado pedir menos, sobra mais crédito para as empresas. Se a receita falhar, os atrasos nos pagamentos chegam aos fornecedores e às PMEs.",
+  "porque_importa": "O Hospital Central é o único serviço público de oncologia do país. Quem precisa de radioterapia tem de ser tratado fora, sobretudo na África do Sul e na Índia, com custos altos para as famílias e para o Estado. As estimativas oficiais apontam para cerca de 26 mil casos novos de cancro por ano e pouco mais de 17 mil mortes.",
   "canal": {
     "passos": [
-      "Receita fiscal falha",
-      "Estado atrasa pagamentos",
-      "Fornecedores sem dinheiro",
-      "PMEs cortam empregos"
+      "Incêndio e aparelho parado",
+      "Sem radioterapia no país",
+      "Doentes referidos para fora",
+      "Famílias pagam viagem e estadia",
+      "Tratamento atrasa"
     ],
-    "quem_sente": "PMEs fornecedoras do Estado e os seus trabalhadores"
+    "quem_sente": "Doentes com cancro e as suas famílias"
   },
   "conta": {
-    "titulo": "Quanto custa a inflação a uma família",
-    "pressupostos": "Família que gasta 15 000 meticais por mês. Compara a inflação de Outubro (6,32%) com a prevista para 2027 (7%) e um cenário mau (9%).",
+    "titulo": "Quanto pesa a reconstrução no Orçamento",
+    "pressupostos": "Câmbio indicativo de 63,91 MT por dólar. Reconstrução de 35 M USD, reparação de 2025 de 2 M USD, 598 admissões de saúde a 161 M MT em 2027.",
     "barras": [
       {
-        "rotulo": "Inflação 6,32%",
-        "valor": 948,
-        "texto": "948 MT/mês"
+        "rotulo": "Reconstruir a oncologia",
+        "valor": 2237,
+        "texto": "2 237 M MT"
       },
       {
-        "rotulo": "Inflação 7%",
-        "valor": 1050,
-        "texto": "1 050 MT/mês"
+        "rotulo": "598 admissões de saúde",
+        "valor": 161,
+        "texto": "161 M MT"
       },
       {
-        "rotulo": "Inflação 9%",
-        "valor": 1350,
-        "texto": "1 350 MT/mês"
+        "rotulo": "Reparação de 2025",
+        "valor": 128,
+        "texto": "128 M MT"
       }
     ],
-    "unidade": "meticais a mais por mês",
-    "conclusao": "Passar de 7% para 9% custa mais 300 meticais por mês a quem gasta 15 000."
+    "unidade": "milhões de meticais",
+    "conclusao": "Reconstruir custa 14 vezes as admissões de saúde de 2027 e 0,44% da despesa total prevista."
   },
   "cenarios": [
     {
-      "nome": "Orçamento cumprido com apoio do FMI",
+      "nome": "Doadores pagam um aparelho novo",
       "tipo": "melhora",
       "probabilidade": 20,
-      "porque_probabilidade": "Em 2026 a receita subiu 10,3% até Setembro, mas a previsão de crescimento falhou por mais de dois pontos. Um acordo com o FMI dá folga.",
-      "gatilho": "Acordo técnico com o FMI assinado até Janeiro de 2027",
-      "o_que_acontece": "O FMI e doadores libertam financiamento externo, o Estado paga fornecedores a tempo e pede menos aos bancos, deixando mais crédito às empresas.",
-      "numeros": "Défice 4,5% a 5% do PIB; inflação 6% a 7%",
-      "quando": "até Junho de 2027",
-      "ganha": "PMEs e bancos privados",
-      "perde": "Dirigentes com subsídios cortados",
-      "se_acontecer": "PMEs devem candidatar-se cedo a contratos públicos e planear investimento."
+      "porque_probabilidade": "Há ofertas de cinco países e acção do Governo, mas a reparação de 2025 demorou 15 meses com verba muito menor.",
+      "gatilho": "Anúncio de financiamento externo de pelo menos 20 milhões de dólares até Março de 2027",
+      "o_que_acontece": "Doadores financiam equipamento e obra, o Hospital Central compra um aparelho novo e a radioterapia volta a funcionar com contrato de manutenção.",
+      "numeros": "20 a 35 milhões de dólares; 12 a 18 meses de obra",
+      "quando": "até Dezembro de 2027",
+      "ganha": "Doentes e o Hospital Central",
+      "perde": "Orçamento de outras prioridades",
+      "se_acontecer": "Pedir ao hospital a lista de espera e a data de início do tratamento."
     },
     {
-      "nome": "Défice cumprido à custa do investimento",
+      "nome": "Remendo e referência de doentes",
       "tipo": "fica_igual",
-      "probabilidade": 45,
-      "porque_probabilidade": "Em 2026 a despesa caiu 7% até Setembro: o Estado já cortou para segurar o défice. Salários e dívida levam 96% dos impostos.",
-      "gatilho": "Despesa de investimento abaixo do previsto no primeiro trimestre",
-      "o_que_acontece": "O défice fica perto de 4,6% porque o Estado adia estradas e obras, enquanto salários e dívida ficam intocados. A economia cresce pouco.",
-      "numeros": "Crescimento 0,8% a 1,6%; défice 4,6% a 5,5% do PIB",
-      "quando": "ao longo de 2027",
-      "ganha": "Funcionários públicos e credores",
-      "perde": "Construtoras e fornecedores de obras",
-      "se_acontecer": "Fornecedores de obras públicas devem diversificar clientes e exigir prazos de pagamento escritos."
+      "probabilidade": 50,
+      "porque_probabilidade": "Foi o que aconteceu em 2024 e 2025: os doentes foram referidos para fora enquanto a máquina esperava peças.",
+      "gatilho": "Lista oficial de doentes referidos para o estrangeiro ou o privado até Janeiro de 2027",
+      "o_que_acontece": "O Estado paga parte do tratamento fora ou no privado, a consulta continua em Maputo e a radioterapia fica parada durante meses.",
+      "numeros": "Cerca de 90 consultas por dia; espera de 6 a 12 meses",
+      "quando": "até Setembro de 2027",
+      "ganha": "Clínicas privadas e estrangeiras",
+      "perde": "Famílias com pouco rendimento",
+      "se_acontecer": "Pedir a referência cedo e guardar todos os recibos para pedir reembolso."
     },
     {
-      "nome": "Receita falha e os pagamentos atrasam",
+      "nome": "Verba e peças atrasam tudo",
       "tipo": "piora",
-      "probabilidade": 35,
-      "porque_probabilidade": "As previsões de crescimento falharam em 2026. Com El Niño e chuva fraca, a receita agrícola e fiscal pode ficar abaixo do previsto.",
-      "gatilho": "Receita do primeiro trimestre mais de 5% abaixo do previsto",
-      "o_que_acontece": "O Estado paga tarde a fornecedores e reembolsos de IVA, pede mais crédito interno e os juros ficam altos. As empresas ficam sem caixa.",
-      "numeros": "Crescimento abaixo de 1%; défice 6% a 7% do PIB",
-      "quando": "até Setembro de 2027",
-      "ganha": "Bancos que financiam o Estado",
-      "perde": "PMEs e famílias de baixa renda",
-      "se_acontecer": "PMEs devem cobrar adiantamentos e cortar custos fixos; famílias devem reforçar reservas de comida."
+      "probabilidade": 30,
+      "porque_probabilidade": "A máquina avariou duas vezes em 15 meses e a proposta de Orçamento de 2027 limita a despesa a 511,2 mil milhões de meticais.",
+      "gatilho": "Sem data de obra nem verba no Orçamento aprovado até Janeiro de 2027",
+      "o_que_acontece": "A reconstrução fica sem dinheiro garantido, o aparelho não chega e os doentes começam o tratamento tarde ou desistem.",
+      "numeros": "Radioterapia parada mais de 24 meses",
+      "quando": "durante 2027",
+      "ganha": "Ninguém",
+      "perde": "Doentes com cancro e as suas famílias",
+      "se_acontecer": "Procurar apoio de associações e do gabinete de apoio ao doente criado pelo Governo."
     }
   ],
   "sinais": [
     {
-      "o_que": "Aprovação do Orçamento no Parlamento",
-      "limiar": "Votação final sem mudar a meta de 4,6%",
-      "quando": "até 31 de Dezembro de 2026",
-      "aponta_para": "fica_igual"
-    },
-    {
-      "o_que": "Acordo técnico com o FMI",
-      "limiar": "Anúncio de acordo ao nível técnico",
-      "quando": "até Janeiro de 2027",
+      "o_que": "Verba para oncologia no Orçamento aprovado",
+      "limiar": "Rubrica própria acima de 1 000 M MT",
+      "quando": "até Dezembro de 2026",
       "aponta_para": "melhora"
     },
     {
-      "o_que": "Receita fiscal do primeiro trimestre",
-      "limiar": "Mais de 5% abaixo do previsto",
-      "quando": "até Abril de 2027",
-      "aponta_para": "piora"
+      "o_que": "Compromisso escrito de doadores",
+      "limiar": "Mais de 20 milhões de dólares anunciados",
+      "quando": "até Março de 2027",
+      "aponta_para": "melhora"
     },
     {
-      "o_que": "Inflação mensal do INE",
-      "limiar": "Anual acima de 8%",
-      "quando": "até Março de 2027",
+      "o_que": "Lista oficial de doentes referidos",
+      "limiar": "Publicada com número de doentes",
+      "quando": "até Janeiro de 2027",
+      "aponta_para": "fica_igual"
+    },
+    {
+      "o_que": "Data de início da obra",
+      "limiar": "Sem data anunciada",
+      "quando": "até Janeiro de 2027",
       "aponta_para": "piora"
     }
   ],
   "afectados": [
     {
+      "grupo": "Doentes com cancro",
+      "saldo": -2,
+      "porque": "sem radioterapia no país"
+    },
+    {
+      "grupo": "Famílias de doentes",
+      "saldo": -2,
+      "porque": "viagem e estadia pagas por elas"
+    },
+    {
+      "grupo": "Profissionais do serviço",
+      "saldo": -1,
+      "porque": "trabalham sem instalações completas"
+    },
+    {
       "grupo": "Governo",
+      "saldo": -1,
+      "porque": "conta alta e pressão pública"
+    },
+    {
+      "grupo": "Clínicas privadas",
       "saldo": 1,
-      "porque": "défice menor e receita a subir"
-    },
-    {
-      "grupo": "Classe baixa",
-      "saldo": -1,
-      "porque": "inflação de 7% e pouco apoio"
-    },
-    {
-      "grupo": "Classe média",
-      "saldo": -1,
-      "porque": "juros altos e preços a subir"
-    },
-    {
-      "grupo": "PMEs",
-      "saldo": 0,
-      "porque": "contratos novos, mas pagamentos tardios"
-    },
-    {
-      "grupo": "Funcionários públicos",
-      "saldo": -1,
-      "porque": "diuturnidades cortadas em 50%"
-    },
-    {
-      "grupo": "Bancos",
-      "saldo": 1,
-      "porque": "emprestam ao Estado a juros altos"
+      "porque": "o ministro pede mais investimento privado"
     }
   ],
   "direccao": [
     {
-      "publico": "Famílias",
-      "agora": "Rever o orçamento de casa em Janeiro e contar com preços cerca de 7% mais altos.",
-      "se_piorar": "Cortar gastos fixos e comprar básicos aos poucos."
+      "publico": "Doentes e famílias",
+      "agora": "Pedir cedo a referência médica e guardar receitas e recibos de cada consulta e viagem.",
+      "se_piorar": "Procurar o gabinete de apoio ao doente e associações."
     },
     {
-      "publico": "PMEs fornecedoras do Estado",
-      "agora": "Registar-se, juntar certidões e exigir prazos de pagamento escritos nos contratos.",
-      "se_piorar": "Pedir adiantamento e reduzir stock."
+      "publico": "Empresas e doadores",
+      "agora": "Doar só pelos canais oficiais do hospital e pedir recibo.",
+      "se_piorar": "Financiar tratamento de doentes referidos."
     },
     {
-      "publico": "Funcionários públicos",
-      "agora": "Confirmar a prova de vida e a situação do subsídio de antiguidade.",
-      "se_piorar": "Evitar crédito com prestações altas."
+      "publico": "Governo",
+      "agora": "Publicar o calendário da obra, a verba e a lista de referências.",
+      "se_piorar": "Contratar tratamento externo para os doentes em espera."
     },
     {
-      "publico": "Investidores",
-      "agora": "Esperar o acordo técnico com o FMI antes de decisões de grande risco.",
-      "se_piorar": "Preferir contratos com pagamento garantido."
+      "publico": "Famílias em geral",
+      "agora": "Não adiar consultas por sintomas persistentes e pedir cedo o diagnóstico.",
+      "se_piorar": "Procurar diagnóstico noutra unidade de saúde sem esperar."
     }
   ],
-  "visao_contraria": "A receita subiu 10,3% até Setembro e a despesa caiu 7%, por isso o Governo pode cumprir a meta mesmo com crescimento baixo, apenas cortando investimento.",
+  "visao_contraria": "O ministério defende que o sector privado invista em cuidados especializados, o que pode chegar mais depressa do que a obra pública, e o incêndio poupou o piso da radioterapia, por isso a perda pode ser menor.",
   "nao_sabemos": [
-    "Quando o Parlamento vota a proposta e se altera a meta do défice.",
-    "Se o FMI e o Governo fecham o programa até ao fim do ano.",
-    "Qual a parte da meta de receita que depende do gás."
+    "A causa do incêndio ainda não foi apurada.",
+    "O Governo ainda não anunciou calendário nem verba para a reconstrução.",
+    "Os peritos ainda avaliam os danos no equipamento de radioterapia."
   ],
-  "sinal": "Votação do Orçamento no Parlamento e acordo técnico com o FMI.",
+  "sinal": "Verba para oncologia no Orçamento de 2027 e anúncio de financiamento externo.",
   "confianca": "media",
-  "base_confianca": "Números do Conselho de Ministros via dois meios; sem leitura directa do documento oficial.",
+  "base_confianca": "Notícias de imprensa (RTP, Lusa, Club of Mozambique); datas de algumas notícias de saúde são aproximadas; o valor de 35 milhões de dólares é preliminar",
   "textos": {
-    "whatsapp": "*ORÇAMENTO DE 2027*\n\nO Governo propõe para 2027 um défice de 4,6% do PIB, cerca de 83 mil milhões de meticais. A despesa é de 511,2 mil milhões e as receitas, 427,8 mil milhões. O crescimento previsto é de 1,6% e a inflação, 7%. O Parlamento ainda vai votar.\n\n*PORQUE IMPORTA*\n\nO Orçamento decide salários, estradas, escolas e quanto o Estado pede emprestado aos bancos. Quando a receita falha, o Estado paga tarde aos fornecedores e as PMEs ficam sem caixa. Em 2026 o Governo previa crescimento de 3,2% e acabou por cortar a previsão para 0,59% em Julho, depois das cheias.\n\n*TRÊS CENÁRIOS*\n\nMelhora, 20%: o FMI fecha o acordo técnico até Janeiro, entra financiamento externo e o défice fica entre 4,5% e 5% do PIB.\n\nFica igual, 45%: o défice cumpre-se porque o Estado adia obras. O crescimento fica entre 0,8% e 1,6% e as construtoras sofrem.\n\nPiora, 35%: a receita do primeiro trimestre fica mais de 5% abaixo do previsto, o Estado atrasa pagamentos e o défice sobe para 6% a 7%.\n\n*A CONTA*\n\nUma família que gasta 15 000 meticais por mês paga 948 a mais com inflação de 6,32%, 1 050 com 7% e 1 350 com 9%. Passar de 7% para 9% custa mais 300 meticais por mês.\n\n*DIRECÇÃO*\n\nFamílias: rever o orçamento em Janeiro. PMEs que vendem ao Estado: exigir prazos de pagamento escritos. Sinais a seguir: votação no Parlamento e acordo com o FMI.\n\nO Banco de Moçambique manteve a taxa MIMO em 9,25% e a inflação de Outubro foi de 6,32%, segundo o INE. Partilhe com quem vende ao Estado.",
-    "instagram": "O Governo propõe para 2027 um défice de 4,6% do PIB e inflação de 7%. Se a receita falhar, o Estado atrasa pagamentos e as PMEs sofrem. Uma família que gasta 15 000 meticais paga 1 050 a mais por mês com 7% de inflação. Sinais: votação no Parlamento e acordo com o FMI. #Moçambique #Orçamento2027",
-    "facebook": "O Governo aprovou a 13 de Outubro a proposta de Orçamento para 2027: despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e um défice de 4,6% do PIB. Conta com crescimento de 1,6% e inflação de 7%.\n\nPorque importa? Porque o Orçamento paga salários, escolas e estradas. Se a receita ficar abaixo do previsto, o Estado atrasa pagamentos e as PMEs que lhe vendem ficam sem dinheiro. Em 2026 o Governo previa crescer 3,2% e cortou a previsão para 0,59% em Julho.\n\nVemos três caminhos. Com 20%, o FMI fecha o acordo e entra financiamento externo. Com 45%, o défice cumpre-se porque o Estado adia obras. Com 35%, a receita falha e os pagamentos atrasam.\n\nPara a família: quem gasta 15 000 meticais por mês paga 1 050 a mais com inflação de 7%, e 1 350 com 9%.\n\nO Banco de Moçambique manteve a taxa MIMO em 9,25% e o INE registou inflação de 6,32% em Outubro, o que mostra que os preços sobem devagar mas sobem. Tudo depende de a receita cumprir o que o Governo prevê.\n\nA direcção principal: as PMEs que vendem ao Estado devem exigir prazos de pagamento escritos, e as famílias devem rever o orçamento em Janeiro. #Moçambique #Orçamento2027",
-    "linkedin": "O Conselho de Ministros aprovou a 13 de Outubro a proposta de Orçamento do Estado para 2027. A despesa é de 511,2 mil milhões de meticais, as receitas de 427,8 mil milhões e o défice de 4,6% do PIB, contra uma meta de cerca de 7% no Orçamento de 2026. O Governo assume crescimento de 1,6% e inflação média de 7%.\n\nO precedente pede cautela. O Orçamento de 2026 previa crescimento de 3,2% e, em Julho, o Governo reviu-o para 0,59% depois das cheias. A receita, no entanto, subiu 10,3% até Setembro e a despesa caiu 7%. O défice pode cumprir-se, mas à custa de investimento adiado.\n\nTrês cenários. Melhora, 20%: acordo técnico com o FMI até Janeiro e financiamento externo, com défice entre 4,5% e 5%. Fica igual, 45%: défice perto de 4,6%, crescimento entre 0,8% e 1,6% e menos obras públicas. Piora, 35%: receita do primeiro trimestre mais de 5% abaixo do previsto, pagamentos atrasados e défice entre 6% e 7%.\n\nDirecção. Fornecedores do Estado devem exigir prazos de pagamento escritos e diversificar clientes. Investidores devem esperar o acordo técnico com o FMI antes de decisões de grande risco. Sinais a seguir: votação do Orçamento no Parlamento até 31 de Dezembro e receita fiscal do primeiro trimestre de 2027.\n\nPara o crédito, o Banco de Moçambique manteve a taxa MIMO em 9,25% e a taxa prime está em 15,5%, pelo que um Estado que peça menos emprestado deixa mais espaço aos bancos para financiar empresas. Os salários e o serviço da dívida podem absorver cerca de 96% das receitas de impostos em 2027, segundo o relatório de riscos fiscais do Ministério das Finanças.\n\nConclusão: a meta de 4,6% é possível, mas o preço pode ser pago por quem vende obras e serviços ao Estado. #Moçambique #Orçamento2027"
+    "whatsapp": "*A DIRECÇÃO DO DIA: SAÚDE*\n\n*Cancro: o que acontece agora que o único serviço do país arde e a radioterapia está parada?*\n\nNo domingo, 1 de Novembro, um incêndio atingiu o edifício do serviço de oncologia do Hospital Central de Maputo, o único do país. Os 22 doentes internados foram retirados e ninguém ficou ferido. O serviço mantém cerca de 90 doentes de consulta por dia. Os primeiros cálculos apontam para 35 milhões de dólares para reconstruir, segundo o Club of Mozambique.\n\n*O PRECEDENTE*\n\nA máquina de radioterapia já esteve 15 meses parada. A reparação custou cerca de 2 milhões de dólares e o serviço voltou a 4 de Agosto de 2025. Dois meses depois avariou outra vez.\n\n*A CONTA*\n\nReconstruir custa cerca de 2 237 milhões de meticais, a 63,91 por dólar. As 598 admissões de saúde no Orçamento de 2027 custam 161 milhões. A reconstrução vale quase 14 vezes mais.\n\n*TRÊS CAMINHOS*\n\n*Doadores pagam* (20%): os Estados Unidos, os Emirados, o Brasil, a Irlanda e a África do Sul ofereceram ajuda. Um aparelho novo pode chegar em 2027.\n\n*Remendo e referência* (50%): o Estado paga tratamento fora ou no privado, com lista de espera. Sinal: uma lista oficial de doentes referidos até Janeiro.\n\n*Novo atraso* (30%): falta verba ou peças e a radioterapia fica parada todo o 2027.\n\n*DIRECÇÃO*\n\nDoentes: pedir cedo a referência médica e guardar receitas e recibos. Empresas: apoiar através do fundo do hospital, com recibo. Governo: publicar o calendário e a verba.\n\nPartilhe com quem precisa de saber isto.",
+    "instagram": "O único serviço de oncologia do país arde e a radioterapia está parada. Reconstruir custa cerca de 35 milhões de dólares. Peça cedo a referência médica e guarde os recibos. #Moçambique #Saúde",
+    "facebook": "O serviço de oncologia do Hospital Central de Maputo, o único do país, foi atingido por um incêndio no domingo, 1 de Novembro. Os 22 doentes internados foram retirados e ninguém ficou ferido. Cerca de 90 doentes de consulta continuam a ser atendidos por dia.\n\nOs primeiros cálculos falam em 35 milhões de dólares para reconstruir. A radioterapia já estava parada por falta de peças, segundo o ministro da Saúde, Ussene Isse.\n\nNão é a primeira vez. A máquina ficou 15 meses parada, a reparação custou cerca de 2 milhões de dólares e o serviço voltou a 4 de Agosto de 2025. Dois meses depois avariou outra vez.\n\nO que pode acontecer: 50% de probabilidade de o Estado pagar tratamento fora ou no privado, com lista de espera. 30% de novo atraso durante todo o 2027. 20% de os doadores pagarem um aparelho novo. Os Estados Unidos, os Emirados, o Brasil, a Irlanda e a África do Sul ofereceram ajuda.\n\nDirecção principal: se a sua família tem um doente com cancro, peça cedo a referência médica e guarde receitas e recibos. Quem puder ajudar deve usar só os canais oficiais do hospital.\n\n#Moçambique #Saúde",
+    "linkedin": "O único serviço de oncologia de Moçambique arde e a radioterapia continua parada. Quem paga, e em quanto tempo?\n\nNo domingo, 1 de Novembro, um incêndio atingiu o edifício do serviço de oncologia do Hospital Central de Maputo. Os 22 doentes internados foram retirados e ninguém ficou ferido. O serviço mantém cerca de 90 doentes de consulta por dia. O ministro da Saúde, Ussene Isse, já admitira que o único aparelho de radioterapia estava parado por falta de peças.\n\nOs primeiros cálculos apontam para 35 milhões de dólares, ou cerca de 2 237 milhões de meticais a 63,91 por dólar, para reconstruir infra-estruturas, segurança e diagnóstico. É 0,44% da despesa prevista no Orçamento de 2027 e quase 14 vezes o que custam as 598 admissões de profissionais de saúde previstas para o ano.\n\nHá precedente. A máquina esteve 15 meses parada até 4 de Agosto de 2025, a reparação custou cerca de 2 milhões de dólares e dois meses depois avariou de novo. Por isso damos 50% a um cenário de remendo, com referência de doentes e lista de espera, 30% a um novo atraso até ao fim de 2027 e 20% a um financiamento externo que traga um aparelho novo. Os Estados Unidos, os Emirados, o Brasil, a Irlanda e a África do Sul ofereceram ajuda.\n\nA outra visão: o ministério defende que o sector privado invista em cuidados especializados, o que pode ser mais rápido, mas deixa de fora quem não paga.\n\nDirecção\n\nDoentes: pedir cedo a referência e guardar recibos. Empresas: apoiar com recibo, através do canal oficial. Governo: publicar o calendário e a verba até Janeiro de 2027.\n\nA reconstrução só se confirma com dinheiro depositado e uma data de arranque.\n\n#Moçambique #Saúde #Oncologia"
   },
   "fontes": [
     {
-      "fonte": "Forbes África Lusófona",
-      "url": "https://forbesafricalusofona.com/?p=177705",
-      "data": "2026-10-19"
+      "fonte": "Club of Mozambique: Mozambique needs US$35 million to rebuild oncology services after fire",
+      "url": "https://clubofmozambique.com/news/mozambique-needs-us35-million-to-rebuild-oncology-services-after-fire/",
+      "data": "2026-11"
     },
     {
-      "fonte": "Rio Times",
-      "url": "https://www.riotimesonline.com/mozambique-budget-2027-spending-cut/",
-      "data": "2026-10-14"
+      "fonte": "RTP (Lusa): deputados doam um dia de salário",
+      "url": "https://www.rtp.pt/noticias/mundo/deputados-mocambicanos-doam-um-dia-de-salario-para-apoiar-reposicao-de-servico-de-oncologia_n1776782",
+      "data": "2026-11"
     },
     {
-      "fonte": "RTP (Lusa)",
-      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
-      "data": "2026-10-20"
+      "fonte": "RTP (Lusa): única máquina de radioterapia continua avariada",
+      "url": "https://www.rtp.pt/noticias/mundo/unica-maquina-de-radioterapia-em-mocambique-continua-avariada_n1775049",
+      "data": "2026-10"
     },
     {
-      "fonte": "Club of Mozambique",
-      "url": "https://clubofmozambique.com/news/mozambique-government-cuts-growth-forecasts/",
-      "data": "2026-07-07"
+      "fonte": "RTP (Lusa): radioterapia 15 meses após avaria",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-volta-a-ter-tratamento-por-radioterapia-15-meses-apos-avaria_n1674026",
+      "data": "2025-08-04"
+    },
+    {
+      "fonte": "AllAfrica: Radiotherapy Equipment Once Again Damaged",
+      "url": "https://allafrica.com/stories/202511180626.html",
+      "data": "2025-11-18"
+    },
+    {
+      "fonte": "RTP: Cancro mata mais de 17 mil pessoas por ano",
+      "url": "https://www.rtp.pt/noticias/mundo/cancro-mata-mais-de-17-mil-pessoas-anualmente-em-mocambique_n1687843",
+      "data": "2025-10"
     }
   ],
-  "data": "2026-11-23",
-  "dia_semana": "segunda",
+  "data": "2026-11-24",
+  "dia_semana": "terca",
   "semana": "2026-S48",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1795408563211
-  }
+  "falhas": []
 }

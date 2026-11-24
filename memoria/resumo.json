@@ -495,12 +495,6 @@
       "desde": "2026-10-17",
       "ultimos": [
         {
-          "data": "2026-10-26",
-          "semana": "2026-S44",
-          "resumo": "A proposta prevê despesa de 511,2 mil milhões de meticais, receitas de 427,8 mil milhões e défice de 4,6% do PIB. Salários e dívida podem absorver cerca de 96% das receitas fiscais.",
-          "direccao": "Acompanhar o debate no Parlamento e confirmar se o FDEL de 1,5 mil milhões chega aos distritos."
-        },
-        {
           "data": "2026-11-03",
           "semana": "2026-S45",
           "resumo": "A proposta tem despesa de 511,2 mil milhões e receitas de 427,8 mil milhões, com défice de 4,6% do PIB. Com inflação de 7%, a despesa cai cerca de 8% em termos reais.",
@@ -511,6 +505,12 @@
           "semana": "2026-S48",
           "resumo": "O Governo propõe défice de 4,6% do PIB, receitas de 427 mil milhões de meticais e crescimento de 1,6%. A proposta ainda aguarda votação no Parlamento.",
           "direccao": "Famílias e PMEs devem contar com inflação perto de 7% e crédito do Estado limitado em 2027."
+        },
+        {
+          "data": "2026-11-24",
+          "semana": "2026-S48",
+          "resumo": "A proposta prevê 5.541 admissões, com 2.978 na educação e 598 na saúde. Falta a votação no Parlamento.",
+          "direccao": "Acompanhar a votação e o peso da saúde e da educação."
         }
       ]
     },
@@ -743,6 +743,32 @@
           "direccao": "Acompanhar a data de entrada em vigor e novos cortes de despesa."
         }
       ]
+    },
+    {
+      "id": "saude_hospitais",
+      "nome": "Saúde pública e hospitais",
+      "desde": "2026-11-24",
+      "ultimos": [
+        {
+          "data": "2026-11-24",
+          "semana": "2026-S48",
+          "resumo": "O único aparelho de radioterapia do país está parado por falta de peças e o Governo tenta comprar outro. O Provedor de Justiça apontou falta de material e atrasos de subsídios nos hospitais.",
+          "direccao": "Doentes devem pedir cedo a referência e guardar os recibos dos tratamentos."
+        }
+      ]
+    },
+    {
+      "id": "cabo_delgado_deslocados",
+      "nome": "Deslocados em Cabo Delgado",
+      "desde": "2026-11-24",
+      "ultimos": [
+        {
+          "data": "2026-11-24",
+          "semana": "2026-S48",
+          "resumo": "A OIM contou 7.029 deslocados entre 21 de Setembro e 27 de Outubro. A província tem mais de 205.000 deslocados.",
+          "direccao": "Organizações e doadores devem reforçar comida, abrigo e saúde nos locais de acolhimento."
+        }
+      ]
     }
   ],
   "direccoes_a_verificar": [
@@ -808,8 +834,8 @@
       "horizonte": "mes",
       "verificar_em": "2026-11-12",
       "resultado": "pendente",
-      "nota": "A inflação de Outubro ficou em 6,32%, mas faltam preços de milho por cidade.",
-      "verificada_em": "2026-11-18"
+      "nota": "Continuam a faltar preços de milho por cidade.",
+      "verificada_em": "2026-11-24"
     },
     {
       "id": "D15",
@@ -828,16 +854,16 @@
     "confirmada": 1,
     "parcial": 12,
     "nao_confirmada": 1,
-    "pendente": 56
+    "pendente": 58
   },
   "ultimas_licoes": [
-    "- 2026-11-15 (2026-S46): A pesquisa de preços de milho e arroz nas capitais regionais não devolve valores recentes; o boletim semanal do MASA é o caminho.",
     "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.",
     "- 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar.",
     "- 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais.",
     "- 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data.",
     "- 2026-11-20 (2026-S47): A pesquisa de sexta devolveu pouco material de 19 e 20 de Novembro; o gás do Rovuma foi o único facto datado desta ronda.",
     "- 2026-11-21 (2026-S47): A pesquisa de sábado devolve pouco material datado dos últimos dois dias; o decreto dos subsídios saiu em 17 de Novembro e só chegou à imprensa a 18.",
-    "- 2026-11-23 (2026-S48): A pesquisa de segunda devolve pouco material datado de 21 a 23 de Novembro; os documentos do Orçamento de 2027 foram a base mais sólida."
+    "- 2026-11-23 (2026-S48): A pesquisa de segunda devolve pouco material datado de 21 a 23 de Novembro; os documentos do Orçamento de 2027 foram a base mais sólida.",
+    "- 2026-11-24 (2026-S48): A pesquisa de terça devolve pouco material datado de 23 e 24 de Novembro; as notícias de saúde chegam sem data exacta."
   ]
 }

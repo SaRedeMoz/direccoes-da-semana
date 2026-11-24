@@ -1,10 +1,13 @@
 {
   "semana": "2026-S48",
-  "dia": "2026-11-23",
-  "versao": 1,
+  "dia": "2026-11-24",
+  "versao": 2,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
-  "falhas_conformidade": [],
+  "falhas_conformidade": [
+    "Categorias de fontes não consultadas hoje: analise_independente",
+    "A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
+  ],
   "itens": [
     {
       "titulo": "Proposta de Orçamento para 2027 prevê défice de 4,6% do PIB e crescimento de 1,6%",
@@ -47,13 +50,97 @@
       "n": 3,
       "recolhida": "2026-11-23",
       "na_edicao": false
+    },
+    {
+      "titulo": "Único aparelho de radioterapia do país continua parado e o Governo tenta comprar outro",
+      "resumo": "O ministro da Saúde, Ussene Isse, disse na segunda Mozambique Medical Expo, em Maputo, que o único equipamento de radioterapia do país está parado por falta de peças. Os doentes são enviados sobretudo para a África do Sul e a Índia, com custos altos para as famílias e para o Estado.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/unica-maquina-de-radioterapia-em-mocambique-continua-avariada_n1775049",
+      "data": "2026-10-28",
+      "confianca": "media",
+      "n": 4,
+      "recolhida": "2026-11-24",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Provedor de Justiça aponta falta de material e corrupção nos hospitais",
+      "resumo": "Ao apresentar no Parlamento o relatório de Abril de 2025 a Março de 2026, o Provedor Isaque Chande disse que os profissionais de saúde enfrentam falta de material, excesso de trabalho e atrasos no pagamento de subsídios e horas extraordinárias. As respostas das instituições às queixas subiram para 507, contra 321 no período anterior.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/provedor-de-justica-mocambicano-aponta-falta-de-material-e-indiferenca-nos-hospitais_n1775257",
+      "data": "2026-10-28",
+      "confianca": "media",
+      "n": 5,
+      "recolhida": "2026-11-24",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Orçamento de 2027 prevê 2.920 professores e 598 profissionais de saúde novos",
+      "resumo": "Dos 5.541 admissões previstas na função pública, a educação fica com a maior parte e a saúde com 598 técnicos, a um custo de 161 milhões de meticais. Saúde e educação continuam isentas das restrições de contratação.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-government-plans-to-recruit-2920-more-teachers-598-healthcare-workers-next-year/",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 6,
+      "recolhida": "2026-11-24",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Mais de 7.000 pessoas fugiram de ataques em Cabo Delgado em cinco semanas",
+      "resumo": "Segundo a OIM, 7.029 pessoas foram deslocadas entre 21 de Setembro e 27 de Outubro, quase 80% mulheres e crianças. A província tem mais de 205.000 deslocados e o Governo confirmou novos ataques em Muidumbe.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-mais-de-7-000-pessoas-fugiram-de-novos-ataques-num-mes_n1777017",
+      "data": "2026-10-28",
+      "confianca": "media",
+      "n": 7,
+      "recolhida": "2026-11-24",
+      "na_edicao": true
+    },
+    {
+      "titulo": "SADC reúne ministros da Saúde e do VIH em Durban de 9 a 13 de Novembro",
+      "resumo": "A SADC convocou os ministros da Saúde e do VIH/SIDA para definir prioridades regionais de saúde. Os resultados da reunião ainda não foram divulgados.",
+      "ambito": "mundo",
+      "dimensao": "Social",
+      "categoria": "regional",
+      "fonte": "SADC",
+      "url": "https://www.sadc.int/pt-pt/media-releases-and-statements",
+      "data": "2026-11-09",
+      "confianca": "baixa",
+      "n": 8,
+      "recolhida": "2026-11-24",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Incêndio atinge o serviço de oncologia do Hospital Central de Maputo, com reconstrução avaliada em 35 milhões de dólares",
+      "resumo": "O incêndio de 1 de Novembro obrigou a retirar 22 doentes internados, sem vítimas, e o serviço mantém cerca de 90 consultas por dia. Ministros e deputados doam pelo menos um dia de salário e os primeiros cálculos apontam para 35 milhões de dólares.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa) e Club of Mozambique",
+      "url": "https://www.rtp.pt/noticias/mundo/deputados-mocambicanos-doam-um-dia-de-salario-para-apoiar-reposicao-de-servico-de-oncologia_n1776782",
+      "data": "2026-11-01",
+      "confianca": "media",
+      "n": 9,
+      "recolhida": "2026-11-24",
+      "na_edicao": false
     }
   ],
   "lacunas": [
-    "Estado da proposta de Orçamento de 2027 no Parlamento",
     "Preços de milho, arroz e chapa na Beira e em Nampula",
-    "Saúde e educação: exames e ano lectivo",
-    "Notícias da SADC e da África do Sul"
+    "Data exacta da notícia da radioterapia e do relatório do Provedor",
+    "Resultado da missão do FMI de Novembro",
+    "Notícias datadas de 23 e 24 de Novembro: a pesquisa devolveu pouco material"
   ],
   "fontes_consultadas": [
     {
@@ -85,13 +172,37 @@
       "fonte": "FMI",
       "url": "https://www.imf.org",
       "data": "2026-11-23"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt",
+      "data": "2026-11-24"
+    },
+    {
+      "categoria": "regional",
+      "fonte": "SADC",
+      "url": "https://www.sadc.int",
+      "data": "2026-11-24"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "ARENE",
+      "url": "https://www.arene.gov.mz",
+      "data": "2026-11-24"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "MASA/SIMA",
+      "url": "https://www.masa.gov.mz",
+      "data": "2026-11-24"
     }
   ],
   "memoria": {
-    "em": "2026-11-23",
+    "em": "2026-11-24",
     "indicadores": 0,
-    "temas": 2,
-    "direccoes": 3
+    "temas": 3,
+    "direccoes": 2
   },
   "analise": {
     "destaques": {
@@ -102,6 +213,7 @@
         "Petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados"
       ],
       "nacional": [
+        "Saúde: único aparelho de radioterapia parado e hospitais sem material",
         "Orçamento de 2027: défice de 4,6% do PIB e 5.541 novas contratações",
         "Chapo recebe ExxonMobil e Eni: gás do Rovuma entre a decisão e a obra",
         "Julgamento de Mondlane: defesa entrega 223 páginas e pede a anulação da acusação",
@@ -174,6 +286,10 @@
           {
             "texto": "Contingência de 39,8 mil milhões",
             "origem": "interna"
+          },
+          {
+            "texto": "598 profissionais de saúde em 2027",
+            "origem": "interna"
           }
         ],
         "ameacas": [
@@ -184,12 +300,20 @@
           {
             "texto": "Ajuda do PAM só até Dezembro",
             "origem": "externa"
+          },
+          {
+            "texto": "Radioterapia parada, doentes vão ao estrangeiro",
+            "origem": "interna"
+          },
+          {
+            "texto": "Deslocados em Cabo Delgado acima de 205.000",
+            "origem": "interna"
           }
         ],
         "peso_oportunidade": 1,
         "peso_ameaca": 3,
         "principal_oportunidade": "Plano de contingência aprovado",
-        "principal_ameaca": "Desemprego jovem e fim da ajuda"
+        "principal_ameaca": "Radioterapia parada, ajuda do PAM a acabar"
       },
       {
         "dimensao": "Tecnológica",
@@ -274,7 +398,7 @@
         "saldo": -2,
         "porque": "comida cara e chuva fraca",
         "efeito": "negativo",
-        "explicacao": "Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM."
+        "explicacao": "Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM. Nos hospitais públicos faltam material e pessoal, segundo o Provedor de Justiça, e o único aparelho de radioterapia está parado."
       },
       {
         "grupo": "Classe média",
@@ -339,11 +463,15 @@
       {
         "publico": "Investidores",
         "accao": "Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital."
+      },
+      {
+        "publico": "Doentes e famílias",
+        "accao": "Pedir cedo a referência médica, guardar recibos e perguntar no hospital central onde o tratamento está disponível."
       }
     ],
-    "sinal": "Votação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG.",
+    "sinal": "Votação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG. Compra do novo aparelho de radioterapia e entrada dos 598 profissionais de saúde.",
     "sintese": "O Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
-    "o_que_mudou_hoje": "A proposta de Orçamento de 2027 volta ao centro da agenda, com um défice de 4,6% do PIB, receitas de 427 mil milhões de meticais e um corte gradual da massa salarial. O FMI deverá enviar nova missão a Maputo em Novembro, e o Governo quer o programa fechado até ao fim do ano.",
+    "o_que_mudou_hoje": "A saúde entra na agenda: o ministro Ussene Isse admitiu que o único aparelho de radioterapia continua parado e o Provedor de Justiça descreveu falta de material nos hospitais. O Orçamento de 2027 prevê 598 profissionais de saúde novos, a um custo de 161 milhões de meticais.",
     "canais": [
       {
         "choque": "Chuva abaixo da média",
@@ -460,9 +588,9 @@
     ],
     "confianca": {
       "grau": "media",
-      "base": "documentos do Governo citados pela Forbes África Lusófona, RTP e Club of Mozambique"
+      "base": "dados do Governo, da OIM e de 5 órgãos de imprensa; a data de duas notícias de saúde é aproximada"
     },
-    "continuidade": "O Orçamento de 2027 é o facto novo desta semana, com a meta de défice de 4,6% do PIB. O julgamento de Mondlane e o gás do Rovuma seguem sem decisão final."
+    "continuidade": "O Orçamento de 2027 mantém-se em discussão, agora com atenção à saúde: 598 contratações previstas contra 2.978 na educação. O FMI deverá enviar nova missão em Novembro, sem acordo técnico anunciado."
   },
   "design": {
     "slides": [
@@ -473,64 +601,67 @@
         "imagem_termos": "Mozambique coast landscape"
       },
       {
-        "titulo": "Orçamento 2027: défice de 4,6%",
-        "texto": "O Governo propõe gastar 511 mil milhões e cobrar 427 mil milhões em receitas. O Parlamento ainda vai votar.",
+        "titulo": "Radioterapia parada em Moçambique",
+        "texto": "O ministro da Saúde admite que o único aparelho do país está avariado. O Governo tenta comprar outro.",
+        "tom": "alerta",
+        "imagem_termos": "hospital corridor Africa"
+      },
+      {
+        "titulo": "Hospitais sem material, diz o Provedor",
+        "texto": "Faltam material, pessoal e pagamentos de horas extraordinárias nas unidades de saúde.",
+        "tom": "alerta",
+        "imagem_termos": "Maputo Central Hospital"
+      },
+      {
+        "titulo": "598 profissionais de saúde em 2027",
+        "texto": "O Orçamento prevê 5.541 admissões, quase 3.000 na educação e 598 na saúde.",
         "tom": "neutro",
         "imagem_termos": "Maputo city hall"
       },
       {
-        "titulo": "Salários do Estado a descer",
-        "texto": "A massa salarial cai de 12% do PIB em 2027 para 10,7% em 2029, mas há 5.541 contratações previstas.",
-        "tom": "neutro",
-        "imagem_termos": "Mozambique civil servants"
-      },
-      {
-        "titulo": "FMI volta a Maputo em Novembro",
-        "texto": "O Governo quer o programa aprovado até ao fim do ano. Falta o acordo técnico.",
-        "tom": "oportunidade",
-        "imagem_termos": "International Monetary Fund building"
+        "titulo": "Cabo Delgado: 205.000 deslocados",
+        "texto": "A OIM contou 7.029 pessoas em fuga entre Setembro e Outubro, quase 80% mulheres e crianças.",
+        "tom": "alerta",
+        "imagem_termos": "Cabo Delgado coast"
       },
       {
         "titulo": "Chuva fraca até Fevereiro",
         "texto": "A FEWS NET prevê chuva abaixo da média e o PAM só mantém a ajuda até Dezembro.",
         "tom": "alerta",
         "imagem_termos": "maize field Africa drought"
-      },
-      {
-        "titulo": "Rovuma LNG sem decisão final",
-        "texto": "ExxonMobil sobe a 50% do projecto, mas o investimento final ainda não foi anunciado.",
-        "tom": "neutro",
-        "imagem_termos": "Cabo Delgado coast"
       }
     ],
-    "manchete": "Orçamento de 2027 corta défice e salários, FMI volta em Novembro",
+    "manchete": "Radioterapia parada e hospitais sem material pesam no Orçamento de 2027",
     "destaques_capa": [
-      "Orçamento de 2027 prevê défice de 4,6%",
-      "FMI regressa a Maputo em Novembro",
-      "Chuva fraca ameaça colheita até Fevereiro"
+      "Único aparelho de radioterapia parado",
+      "Orçamento de 2027 prevê 598 médicos e técnicos",
+      "Cabo Delgado passa de 205.000 deslocados"
     ],
-    "legenda": "O Governo propõe um Orçamento para 2027 com défice de 4,6% do PIB e corte gradual dos salários do Estado. O FMI volta em Novembro e a chuva fraca preocupa o campo. Veja o que fazer já.",
+    "legenda": "O único aparelho de radioterapia do país está parado, o Provedor de Justiça aponta falta de material nos hospitais e o Orçamento de 2027 prevê 598 profissionais de saúde novos. Veja o que fazer já.",
     "hashtags": [
       "#Moçambique",
-      "#Orçamento2027"
+      "#Saúde"
     ],
     "fontes_usadas": [
-      10,
-      11,
-      12
+      4,
+      5,
+      6,
+      7
     ]
   },
   "textos": {
-    "whatsapp": "*MUNDO*\n\nO FMI deverá enviar nova missão a Maputo em Novembro. O Governo quer o programa aprovado até ao fim do ano. A FEWS NET prevê chuva abaixo da média de Dezembro a Fevereiro na região.\n\n*MOÇAMBIQUE*\n\nO Governo propôs um Orçamento de 2027 com défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e inflação de 7%. Quer reduzir a massa salarial de 12% do PIB em 2027 para 10,7% em 2029, mas prevê 5.541 novas contratações. Em Sofala e no Centro, a chuva fraca preocupa quem semeia agora. O PAM só mantém a ajuda actual até Dezembro.\n\n*QUEM GANHA E QUEM PERDE*\n\nGanham o Governo, que cobra mais e gasta menos, e os fornecedores de energia e gás. Perdem a classe baixa e os pequenos agricultores, com comida cara e chuva fraca. As PMEs ficam a meio: têm contratos novos com a regra dos 20%, mas o crédito está caro e a encolher.\n\n*DIRECÇÃO*\n\nFamílias: comprar básicos aos poucos e guardar reserva antes de Dezembro. Agricultores: semear cedo e pedir apoio do Plano de Contingência. PMEs: juntar certidões e exigir prazos de pagamento escritos.\n\n*PRÓXIMA SEMANA*\n\nAtenção à votação do Orçamento, ao acordo técnico com o FMI e à inflação de Novembro.\n\nPartilhe com quem precisa de saber isto.",
-    "linkedin": "O Governo propõe para 2027 um défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e crescimento de 1,6%. A massa salarial do Estado deve descer de 12% do PIB em 2027 para 10,7% em 2029, embora o Orçamento preveja 5.541 novas contratações.\n\nOs números mostram um Estado que cobra mais e gasta menos: as receitas subiram 10,3% até Setembro e a despesa caiu 7%. O preço está em obras adiadas e em menos crédito para as empresas, que caiu três meses seguidos, com juros médios de 22,26% a um ano.\n\nNo campo, a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda até Dezembro. Quem vive da agricultura de sequeiro é o mais exposto.\n\nEm Novembro deverá chegar nova missão do FMI. O Governo quer o programa aprovado até ao fim do ano, o que ajudaria a libertar financiamento externo.\n\nDirecção. Fornecedores do Estado devem juntar certidões, registar-se quando a Autoridade de Conteúdo Local abrir e exigir prazos de pagamento escritos. Investidores devem esperar o acordo técnico com o FMI e a decisão final do Rovuma LNG.\n\nConclusão: o Orçamento de 2027 só convence se o FMI fechar o acordo e a receita cumprir. #Moçambique #Orçamento2027",
-    "instagram": "O Governo propõe um Orçamento de 2027 com défice de 4,6% do PIB. O FMI volta a Maputo em Novembro e a chuva fraca ameaça a colheita até Fevereiro. Veja o que fazer já. #Moçambique #Orçamento2027",
-    "facebook": "O Governo propôs um Orçamento para 2027 com défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e inflação de 7%. Quer também reduzir o peso dos salários do Estado, mas prevê 5.541 novas contratações.\n\nPara as famílias, o que pesa é a comida e o crédito. A inflação de Outubro foi de 6,32%, segundo o INE, e os juros médios a um ano estão em 22,26%.\n\nNo campo, a chuva deve ficar abaixo da média entre Dezembro e Fevereiro, segundo a FEWS NET. O PAM só mantém a ajuda actual até Dezembro. Em Sofala e no Centro, quem semeia agora deve escolher sementes de ciclo curto.\n\nO FMI deverá voltar a Maputo em Novembro e o Governo quer o programa aprovado até ao fim do ano.\n\nA direcção principal da semana: comprar básicos aos poucos, guardar reserva antes de Dezembro e, se vende ao Estado, exigir prazos de pagamento escritos. #Moçambique #Orçamento2027",
-    "analise_completa": "## Resumo da semana\n\nO Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher. A inflação de Outubro foi de 6,32%, segundo o INE, e o Banco de Moçambique manteve a taxa MIMO em 9,25%. O Governo aprovou a 13 de Outubro a proposta de Orçamento de 2027, com défice de 4,6% do PIB e receitas de 427,8 mil milhões de meticais.\n\n## O que mudou face às semanas anteriores\n\nO Orçamento de 2027 é o facto novo desta semana, com a meta de défice de 4,6% do PIB. O julgamento de Mondlane e o gás do Rovuma seguem sem decisão final. O FMI deverá enviar nova missão em Novembro, e o Governo quer o programa fechado até ao fim do ano.\n\n## Mundo\n\nA Tanzânia condenou Tundu Lissu a quatro anos por incitamento, mas absolveu-o de traição. O petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados. O El Niño forte deve estender-se até 2027 na África Austral, e o FMI prepara nova missão a Maputo.\n\n## Moçambique\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, crescimento de 1,6% e inflação de 7%. A massa salarial deve descer para 10,7% do PIB até 2029, com limites a contratações, mais provas de vida e redução de 50% nas diuturnidades. No julgamento de Venâncio Mondlane, a defesa pediu a anulação da acusação. O Presidente Chapo recebeu a ExxonMobil e a Eni, mas a decisão final do Rovuma LNG ainda não foi anunciada.\n\n## PESTAL\n\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.); Corte de subsídios a dirigentes (int.) | Julgamento de Mondlane sem transmissão (int.); Contratações sobem, salários pesam (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Abu Dhabi: 500 milhões de dólares (ext.); Orçamento 2027 com défice menor (int.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\n## Como chega ao seu bolso\n\nChuva abaixo da média: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sentem mais: Pequenos agricultores e classe baixa.\n\nCrédito em queda: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sentem mais: PMEs e jovens.\n\n## Cenários\n\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\n## Riscos\n\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3/3 | 3/3 |\n| Taxa dos combustíveis aprovada | 2/3 | 2/3 |\n| Crédito continua a cair | 2/3 | 2/3 |\n| Atraso no regulamento do conteúdo local | 2/3 | 2/3 |\n| Fim da ajuda do PAM em Dezembro | 2/3 | 3/3 |\n| Protestos após decisão do julgamento | 2/3 | 3/3 |\n\n## Horizonte\n\nImediato: Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\n\n3 meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\n\n1 ano: Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs.\n\n## Quem está mais exposto\n\nClasse baixa (exposição 3/3, margem 1/3): Gasta a maior parte do rendimento em comida e tem pouca poupança.\n\nClasse média (exposição 2/3, margem 2/3): Sente os juros e os preços, mas tem alguma poupança.\n\nTrabalhadores informais e agricultores (exposição 3/3, margem 1/3): Dependem da chuva e do mercado diário, sem rede de protecção.\n\nPMEs (exposição 2/3, margem 2/3): Juros altos, mas contratos novos podem compensar.\n\n## Quem ganha, quem perde\n\nGoverno (positivo): A proposta de Orçamento de 2027 reduz o défice para 4,6% do PIB e quer baixar a massa salarial para 10,7% do PIB até 2029, mas prevê 5.\n\nClasse baixa (negativo): Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM.\n\nClasse média (negativo): Os juros médios a um ano estão em 22,26% e a inflação anual em 6,32%, o que aperta prestações e compras.\n\nClasse alta e investidores (positivo): A ENH entra no Coral Norte e o Estado apoia a central de Temane, o que mantém negócios de energia e fornecimento.\n\nONGs e parceiros (negativo): O PAM só mantém a ajuda actual até Dezembro, enquanto o El Niño aumenta as necessidades.\n\nMacroeconomia (positivo): A inflação de 6,32% e a taxa MIMO estável em 9,25% dão estabilidade, apesar do petróleo caro e do crédito em queda.\n\nPMEs (misto): A regra dos 20% e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses seguidos e os juros são altos.\n\nRamos de negócio (misto): Energia, gás e fornecedores de obras públicas ganham; a agricultura de sequeiro e o transporte perdem com a seca e o combustível.\n\n## Direcção\n\nFamílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\n\nPequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\n\nPMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\n\nJovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\n\nInvestidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\n## Direcções anteriores: o que se confirmou\n\nDas direcções verificadas até agora, a maioria está pendente: a taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.\n\n## Sinal a acompanhar\n\nVotação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG.\n\n## Grau de confiança\n\nMédia. Base: documentos do Governo citados pela Forbes África Lusófona, RTP e Club of Mozambique.\n\n## Fontes\n\nOficiais e imprensa económica: [Forbes África Lusófona](https://forbesafricalusofona.com/?p=177705); [RTP/Lusa](https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403); [Club of Mozambique](https://clubofmozambique.com).",
+    "whatsapp": "*MUNDO*\n\nA SADC convocou os ministros da Saúde e do VIH/SIDA para Durban, de 9 a 13 de Novembro, para fixar prioridades regionais. O FMI deverá enviar nova missão a Maputo ainda em Novembro, e o Governo quer o programa aprovado até ao fim do ano. A FEWS NET prevê chuva abaixo da média de Dezembro a Fevereiro.\n\n*MOÇAMBIQUE*\n\nO ministro da Saúde, Ussene Isse, admitiu que o único aparelho de radioterapia do país continua parado por falta de peças. Os doentes vão tratar-se sobretudo à África do Sul e à Índia, com custos altos para as famílias. O Provedor de Justiça, Isaque Chande, disse no Parlamento que os hospitais têm falta de material e atrasos no pagamento de horas extraordinárias.\n\nO Orçamento de 2027 prevê 5.541 admissões na função pública: 598 na saúde e 2.978 na educação. Em Cabo Delgado, a OIM contou 7.029 deslocados entre 21 de Setembro e 27 de Outubro, e a província tem mais de 205.000.\n\n*QUEM GANHA E QUEM PERDE*\n\nPerdem a classe baixa e os doentes que dependem do hospital público, e os agricultores com chuva fraca. O Governo ganha com receitas a subir e despesa a descer. As PMEs têm contratos novos, mas crédito caro.\n\n*DIRECÇÃO*\n\nDoentes: pedir cedo a referência médica e guardar recibos. Famílias: comprar básicos aos poucos e guardar reserva antes de Dezembro. Agricultores: semear cedo e pedir apoio do Plano de Contingência.\n\n*PRÓXIMA SEMANA*\n\nVotação do Orçamento, acordo técnico com o FMI e inflação de Novembro.\n\nPartilhe com quem precisa de saber isto.",
+    "linkedin": "O único aparelho de radioterapia de Moçambique continua parado por falta de peças, admitiu o ministro da Saúde, Ussene Isse. O Governo tenta comprar outro, e entretanto os doentes vão tratar-se sobretudo à África do Sul e à Índia, com custos altos para as famílias e para o Estado.\n\nNo Parlamento, o Provedor de Justiça, Isaque Chande, descreveu hospitais com falta de material, excesso de trabalho e atrasos no pagamento de subsídios e horas extraordinárias.\n\nO Orçamento de 2027 responde só em parte. Entre as 5.541 admissões previstas na função pública, 598 são para a saúde, a um custo de 161 milhões de meticais, e 2.978 para a educação. A proposta fixa um défice de 4,6% do PIB, receitas de 427,8 mil milhões de meticais e inflação de 7%, e ainda tem de ser votada.\n\nA pressão não vem só da saúde. A chuva abaixo da média prevista pela FEWS NET entre Dezembro e Fevereiro ameaça a colheita, o crédito caiu três meses seguidos e Cabo Delgado já tem mais de 205.000 deslocados, segundo a OIM.\n\nDirecção\n\nFamílias e doentes: pedir cedo a referência médica, guardar recibos e comparar onde o tratamento está disponível. PMEs: calcular os juros antes de aceitar um subcontrato. Agricultores: semear cedo e pedir apoio do Plano de Contingência no distrito.\n\nEm 2027, a saúde só melhora se a compra do aparelho e as 598 admissões saírem do papel.\n\n#Moçambique #Saúde #Orçamento2027",
+    "instagram": "Único aparelho de radioterapia parado, hospitais sem material e 598 profissionais de saúde previstos em 2027. Veja o que fazer já. #Moçambique #Saúde",
+    "facebook": "O único aparelho de radioterapia de Moçambique está parado por falta de peças. O ministro da Saúde, Ussene Isse, diz que o Governo tenta comprar outro. Enquanto isso, os doentes vão tratar-se à África do Sul e à Índia, e as famílias pagam a conta.\n\nO Provedor de Justiça, Isaque Chande, disse no Parlamento que os hospitais têm falta de material e atrasos no pagamento de horas extraordinárias aos profissionais.\n\nO Orçamento de 2027 prevê 5.541 admissões na função pública, das quais 598 na saúde e 2.978 na educação. A proposta ainda tem de ser votada pelo Parlamento.\n\nEm Cabo Delgado, a OIM contou 7.029 pessoas deslocadas entre 21 de Setembro e 27 de Outubro, e a província tem mais de 205.000 deslocados. Quase 80% das chegadas recentes são mulheres e crianças.\n\nDirecção principal: se precisa de tratamento especializado, peça cedo a referência médica e guarde todos os recibos.\n\n#Moçambique #Saúde",
+    "analise_completa": "## Resumo da semana\n\nO Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher. A inflação de Outubro foi de 6,32%, segundo o INE, e o Banco de Moçambique manteve a taxa MIMO em 9,25%. O Governo aprovou a 13 de Outubro a proposta de Orçamento de 2027, com défice de 4,6% do PIB e receitas de 427,8 mil milhões de meticais.\n\n## O que mudou face às semanas anteriores\n\nO Orçamento de 2027 é o facto novo desta semana, com a meta de défice de 4,6% do PIB. O julgamento de Mondlane e o gás do Rovuma seguem sem decisão final. O FMI deverá enviar nova missão em Novembro, e o Governo quer o programa fechado até ao fim do ano.\n\n## Mundo\n\nA Tanzânia condenou Tundu Lissu a quatro anos por incitamento, mas absolveu-o de traição. O petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados. O El Niño forte deve estender-se até 2027 na África Austral, e o FMI prepara nova missão a Maputo.\n\n## Moçambique\n\nO Orçamento de 2027 prevê despesa de 511,2 mil milhões de meticais, crescimento de 1,6% e inflação de 7%. A massa salarial deve descer para 10,7% do PIB até 2029, com limites a contratações, mais provas de vida e redução de 50% nas diuturnidades. No julgamento de Venâncio Mondlane, a defesa pediu a anulação da acusação. O Presidente Chapo recebeu a ExxonMobil e a Eni, mas a decisão final do Rovuma LNG ainda não foi anunciada.\n\n### Saúde\n\nO ministro da Saúde, Ussene Isse, admitiu que o único aparelho de radioterapia do país continua parado por falta de peças, e que o Governo tenta comprar outro (RTP, Lusa). Os doentes são enviados sobretudo à África do Sul e à Índia. O Provedor de Justiça, Isaque Chande, apontou no Parlamento falta de material, excesso de trabalho e atrasos no pagamento de subsídios nos hospitais. O Orçamento de 2027 prevê 598 profissionais de saúde novos, a um custo de 161 milhões de meticais, contra 2.978 admissões na educação (Club of Mozambique). Em Cabo Delgado, a OIM contou 7.029 deslocados entre 21 de Setembro e 27 de Outubro (RTP, Lusa).\n\n## PESTAL\n\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.); Corte de subsídios a dirigentes (int.) | Julgamento de Mondlane sem transmissão (int.); Contratações sobem, salários pesam (int.) |\n| Económica | Receitas do Estado mais 10,3% (int.); Abu Dhabi: 500 milhões de dólares (ext.); Orçamento 2027 com défice menor (int.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\n## Como chega ao seu bolso\n\nChuva abaixo da média: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sentem mais: Pequenos agricultores e classe baixa.\n\nCrédito em queda: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sentem mais: PMEs e jovens.\n\n## Cenários\n\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\n## Riscos\n\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3/3 | 3/3 |\n| Taxa dos combustíveis aprovada | 2/3 | 2/3 |\n| Crédito continua a cair | 2/3 | 2/3 |\n| Atraso no regulamento do conteúdo local | 2/3 | 2/3 |\n| Fim da ajuda do PAM em Dezembro | 2/3 | 3/3 |\n| Protestos após decisão do julgamento | 2/3 | 3/3 |\n\n## Horizonte\n\nImediato: Votação da taxa dos combustíveis e inflação de Novembro, com preços de comida a subir devagar.\n\n3 meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\n\n1 ano: Colheita de 2027 e programa do FMI decidem o custo de vida e o crédito às PMEs.\n\n## Quem está mais exposto\n\nClasse baixa (exposição 3/3, margem 1/3): Gasta a maior parte do rendimento em comida e tem pouca poupança.\n\nClasse média (exposição 2/3, margem 2/3): Sente os juros e os preços, mas tem alguma poupança.\n\nTrabalhadores informais e agricultores (exposição 3/3, margem 1/3): Dependem da chuva e do mercado diário, sem rede de protecção.\n\nPMEs (exposição 2/3, margem 2/3): Juros altos, mas contratos novos podem compensar.\n\n## Quem ganha, quem perde\n\nGoverno (positivo): A proposta de Orçamento de 2027 reduz o défice para 4,6% do PIB e quer baixar a massa salarial para 10,7% do PIB até 2029, mas prevê 5.\n\nClasse baixa (negativo): Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM.\n\nClasse média (negativo): Os juros médios a um ano estão em 22,26% e a inflação anual em 6,32%, o que aperta prestações e compras.\n\nClasse alta e investidores (positivo): A ENH entra no Coral Norte e o Estado apoia a central de Temane, o que mantém negócios de energia e fornecimento.\n\nONGs e parceiros (negativo): O PAM só mantém a ajuda actual até Dezembro, enquanto o El Niño aumenta as necessidades.\n\nMacroeconomia (positivo): A inflação de 6,32% e a taxa MIMO estável em 9,25% dão estabilidade, apesar do petróleo caro e do crédito em queda.\n\nPMEs (misto): A regra dos 20% e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses seguidos e os juros são altos.\n\nRamos de negócio (misto): Energia, gás e fornecedores de obras públicas ganham; a agricultura de sequeiro e o transporte perdem com a seca e o combustível.\n\n## Direcção\n\nFamílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\n\nPequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\n\nPMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\n\nJovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\n\nInvestidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n\n## Direcções anteriores: o que se confirmou\n\nDas direcções verificadas até agora, a maioria está pendente: a taxa sobre os combustíveis continua por votar e a ARENE não anunciou novo preço.\n\n## Sinal a acompanhar\n\nVotação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG.\n\n## Grau de confiança\n\nMédia. Base: documentos do Governo citados pela Forbes África Lusófona, RTP e Club of Mozambique.\n\n## Fontes\n\nOficiais e imprensa económica: [Forbes África Lusófona](https://forbesafricalusofona.com/?p=177705); [RTP/Lusa](https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403); [Club of Mozambique](https://clubofmozambique.com).\n- Saúde e deslocados: [RTP, radioterapia](https://www.rtp.pt/noticias/mundo/unica-maquina-de-radioterapia-em-mocambique-continua-avariada_n1775049), [RTP, Provedor de Justiça](https://www.rtp.pt/noticias/mundo/provedor-de-justica-mocambicano-aponta-falta-de-material-e-indiferenca-nos-hospitais_n1775257), [Club of Mozambique, admissões 2027](https://clubofmozambique.com/news/mozambique-government-plans-to-recruit-2920-more-teachers-598-healthcare-workers-next-year/), [RTP, deslocados](https://www.rtp.pt/noticias/mundo/mocambique-mais-de-7-000-pessoas-fugiram-de-novos-ataques-num-mes_n1777017)",
     "verificar": [
-      "Défice de 4,6% e receitas de 427,8 mil milhões de meticais do Orçamento de 2027 (Conselho de Ministros, 13 de Outubro)",
-      "Massa salarial: 12% do PIB em 2027, 11,5% em 2028 e 10,7% em 2029",
-      "5.541 contratações previstas e custo de 1,399 mil milhões de meticais",
-      "Nova missão do FMI em Novembro (data não confirmada)"
+      "Datas exactas das notícias da radioterapia e do relatório do Provedor de Justiça (RTP não as indica)",
+      "598 profissionais de saúde e 2.978 na educação (Club of Mozambique)",
+      "7.029 deslocados em Cabo Delgado entre 21 de Setembro e 27 de Outubro (OIM, via Lusa)",
+      "Reunião de ministros da SADC em Durban, 9 a 13 de Novembro: confirmar se se realizou",
+      "⚠️ Categorias de fontes não consultadas hoje: analise_independente",
+      "⚠️ A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
     ],
     "duvidas": [],
     "conformidade": [
@@ -600,59 +731,5 @@
         "nota": "incluído"
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Teixant / Wikimedia Commons, CC BY-SA 3.0",
-      "Foto: Companhia de Moçambique / Wikimedia Commons, Public domain",
-      "Foto: AgnosticPreachersKid / Wikimedia Commons, CC BY-SA 3.0",
-      "Foto: Hannahlongole / Wikimedia Commons, CC BY-SA 4.0",
-      "Foto: United Kingdom Hydrographic Office / Wikimedia Commons, Public domain"
-    ],
-    "v": 1795408539188
   }
 }

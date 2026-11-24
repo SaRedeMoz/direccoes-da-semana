@@ -159,8 +159,8 @@
     "horizonte": "mes",
     "verificar_em": "2026-11-12",
     "resultado": "pendente",
-    "nota": "A inflação de Outubro ficou em 6,32%, mas faltam preços de milho por cidade.",
-    "verificada_em": "2026-11-18"
+    "nota": "Continuam a faltar preços de milho por cidade.",
+    "verificada_em": "2026-11-24"
   },
   {
     "id": "D14",
@@ -855,6 +855,30 @@
     "tema": "fmi_programa",
     "horizonte": "mes",
     "verificar_em": "2026-12-31",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D71",
+    "data": "2026-11-24",
+    "semana": "2026-S48",
+    "publico": "Doentes e famílias",
+    "accao": "Pedir cedo a referência médica e guardar recibos de tratamento.",
+    "tema": "saude_hospitais",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-24",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D72",
+    "data": "2026-11-24",
+    "semana": "2026-S48",
+    "publico": "Pequenos agricultores",
+    "accao": "Semear cedo e pedir apoio do Plano de Contingência no distrito.",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-24",
     "resultado": "pendente",
     "nota": ""
   }
