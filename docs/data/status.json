@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "Pesquisar notícias de 23 e 24 de Novembro",
-      "em": "2026-11-24T07:26:40.628Z"
+      "estado": "pronto",
+      "msg": "5 notícias novas, sobretudo saúde",
+      "em": "2026-11-24T07:27:59.648Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-24T07:27:59.648Z",
+      "agente": "fontes",
+      "msg": "5 notícias novas, sobretudo saúde"
+    },
     {
       "em": "2026-11-24T07:26:40.628Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-20T04:45:47.042Z",
       "agente": "design",
       "msg": "Capa e slides"
-    },
-    {
-      "em": "2026-11-20T04:45:34.110Z",
-      "agente": "analise",
-      "msg": "Análise e memória gravadas"
     }
   ],
-  "actualizado": "2026-11-24T07:26:40.628Z",
+  "actualizado": "2026-11-24T07:27:59.648Z",
   "semana": "2026-S48",
   "dia": "2026-11-24",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
