@@ -2,8 +2,8 @@
   "estagios": {
     "fontes": {
       "estado": "a trabalhar",
-      "msg": "A começar a pesquisa do dia…",
-      "em": "2026-11-24T07:26:14.701Z"
+      "msg": "Pesquisar notícias de 23 e 24 de Novembro",
+      "em": "2026-11-24T07:26:40.628Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-24T07:26:40.628Z",
+      "agente": "fontes",
+      "msg": "Pesquisar notícias de 23 e 24 de Novembro"
+    },
     {
       "em": "2026-11-24T07:26:14.701Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-20T04:45:34.110Z",
       "agente": "analise",
       "msg": "Análise e memória gravadas"
-    },
-    {
-      "em": "2026-11-20T04:45:33.057Z",
-      "agente": "fontes",
-      "msg": "1 notícia nova: gás do Rovuma"
     }
   ],
-  "actualizado": "2026-11-24T07:26:14.701Z",
+  "actualizado": "2026-11-24T07:26:40.628Z",
   "semana": "2026-S48",
   "dia": "2026-11-24",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
