@@ -520,12 +520,6 @@
       "desde": "2026-10-18",
       "ultimos": [
         {
-          "data": "2026-11-04",
-          "semana": "2026-S45",
-          "resumo": "A inflação anual está em 6,31% em Setembro, com alimentos a 8,69%; a de Outubro sai perto de 10 de Novembro. Continuam sem preços recentes de milho e arroz nas três capitais.",
-          "direccao": "Comprar básicos de longa duração aos poucos e comparar preços em dois mercados."
-        },
-        {
           "data": "2026-11-12",
           "semana": "2026-S46",
           "resumo": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. A alface, a cebola e o peixe fresco foram os que mais subiram.",
@@ -536,6 +530,12 @@
           "semana": "2026-S47",
           "resumo": "Os preços subiram 0,48% em Outubro e a inflação anual ficou em 6,32%, segundo o INE. Não há preços recentes de milho e arroz nas três capitais.",
           "direccao": "Comprar em pequenas quantidades e comparar mercados."
+        },
+        {
+          "data": "2026-11-25",
+          "semana": "2026-S48",
+          "resumo": "A inflação mensal subiu para 0,48% em Outubro e a homóloga ficou em 6,32%. Milho e arroz custavam em Setembro menos que um ano antes, mas o adubo subiu até 41%.",
+          "direccao": "Comprar básicos aos poucos e planear o adubo antes da campanha."
         }
       ]
     },
@@ -854,16 +854,16 @@
     "confirmada": 1,
     "parcial": 12,
     "nao_confirmada": 1,
-    "pendente": 58
+    "pendente": 60
   },
   "ultimas_licoes": [
-    "- 2026-11-16 (2026-S47): Às segundas a pesquisa devolve pouco material datado do próprio dia; o decreto das compras públicas de Agosto serviu de base ao assunto do dia.",
     "- 2026-11-17 (2026-S47): Os resultados de pesquisa trazem datas trocadas: confirmar sempre a data na página original antes de citar.",
     "- 2026-11-18 (2026-S47): Às quartas a pesquisa continua sem devolver preços datados de milho e arroz nas capitais.",
     "- 2026-11-19 (2026-S47): Os relatos da imprensa divergem no número de artigos da acusação (101 ou 107) e de mortos nos protestos de 2024 e 2025, por isso convém citar o jornal e a data.",
     "- 2026-11-20 (2026-S47): A pesquisa de sexta devolveu pouco material de 19 e 20 de Novembro; o gás do Rovuma foi o único facto datado desta ronda.",
     "- 2026-11-21 (2026-S47): A pesquisa de sábado devolve pouco material datado dos últimos dois dias; o decreto dos subsídios saiu em 17 de Novembro e só chegou à imprensa a 18.",
     "- 2026-11-23 (2026-S48): A pesquisa de segunda devolve pouco material datado de 21 a 23 de Novembro; os documentos do Orçamento de 2027 foram a base mais sólida.",
-    "- 2026-11-24 (2026-S48): A pesquisa de terça devolve pouco material datado de 23 e 24 de Novembro; as notícias de saúde chegam sem data exacta."
+    "- 2026-11-24 (2026-S48): A pesquisa de terça devolve pouco material datado de 23 e 24 de Novembro; as notícias de saúde chegam sem data exacta.",
+    "- 2026-11-25 (2026-S48): Às quartas os preços de milho e arroz por cidade continuam sem aparecer datados; o relatório da AGRA dá apenas a variação homóloga nacional."
   ]
 }

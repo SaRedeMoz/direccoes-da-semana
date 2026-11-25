@@ -881,5 +881,29 @@
     "verificar_em": "2026-12-24",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D73",
+    "data": "2026-11-25",
+    "semana": "2026-S48",
+    "publico": "Famílias",
+    "accao": "Comprar milho e arroz aos poucos e comparar mercados antes das compras de fim de ano.",
+    "tema": "inflacao_precos",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-23",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D74",
+    "data": "2026-11-25",
+    "semana": "2026-S48",
+    "publico": "Pequenos agricultores",
+    "accao": "Comprar adubo e sementes cedo e juntar-se a vizinhos para baixar o custo.",
+    "tema": "inflacao_precos",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-23",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

@@ -1,0 +1,275 @@
+{
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "manchete": "Milho e arroz custam menos que há um ano, mas o adubo sobe até 41%",
+  "resumo": "Em Setembro o milho estava 15,6% mais barato e o arroz 27,6% mais barato do que um ano antes, segundo a AGRA. O adubo NPK subiu 22,3% e a ureia 41,5%, e a inflação de Outubro subiu para 0,48% no mês.",
+  "indicadores": [
+    "gasolina",
+    "gasoleo",
+    "inflacao",
+    "mimo"
+  ],
+  "comparar": [
+    "chapa",
+    "inflacao"
+  ],
+  "regioes": [
+    {
+      "regiao": "maputo",
+      "destaque": "O chapa mantém-se a 15 meticais, com compensações por três meses.",
+      "direccao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, quando as compensações acabam."
+    },
+    {
+      "regiao": "beira",
+      "destaque": "Em Setembro a Beira teve a maior subida de preços entre as cidades do INE, com 0,43%.",
+      "direccao": "Compare preços em vários mercados antes das compras de fim de ano e compre básicos aos poucos."
+    },
+    {
+      "regiao": "nampula",
+      "destaque": "A tarifa do chapa foi aprovada em 20 meticais em Maio, segundo a Rádio Moçambique.",
+      "direccao": "Agricultores do Norte devem juntar-se em grupo para comprar adubo cedo, antes da época das chuvas."
+    }
+  ],
+  "o_que_mudou": [
+    {
+      "titulo": "Comida mais barata que há um ano",
+      "explicacao": "Milho 15,6% e arroz 27,6% abaixo do preço de Setembro de 2025, segundo a AGRA.",
+      "canal": "Menos gasto em comida nas famílias urbanas"
+    },
+    {
+      "titulo": "Adubo sobe até 41%",
+      "explicacao": "O NPK subiu 22,3% e a ureia 41,5% num ano, o que encarece semear.",
+      "canal": "Adubo caro, menos área semeada, colheita menor, comida mais cara"
+    },
+    {
+      "titulo": "Inflação mensal sobe para 0,48%",
+      "explicacao": "Alimentos, restauração e transportes puxaram os preços em Outubro, segundo o INE.",
+      "canal": "Transporte e comida fora de casa pesam mais no mês"
+    }
+  ],
+  "direccoes": [
+    {
+      "area": "Compras",
+      "classe": "ambas",
+      "accao": "Compre milho e arroz aos poucos e compare mercados. Os preços baixos podem não durar com o El Niño."
+    },
+    {
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Agricultores: compre adubo e sementes cedo, em grupo com vizinhos, para pagar menos por saco."
+    },
+    {
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, se a taxa dos combustíveis passar."
+    },
+    {
+      "area": "Poupança",
+      "classe": "media",
+      "accao": "Antes das compras de fim de ano, separe o dinheiro da comida, da renda e da escola."
+    },
+    {
+      "area": "Escola e saúde",
+      "classe": "baixa",
+      "accao": "Reserve já o dinheiro das matrículas e do material escolar, antes de gastar nas festas."
+    }
+  ],
+  "revisao": [],
+  "textos": {
+    "whatsapp": "*O SEU BOLSO*\n\n*Milho e arroz custam menos que há um ano, mas o adubo sobe até 41%*\n\nQuem compra comida está a ter um alívio que pouca gente nota. Segundo o relatório da AGRA, citado pela Lusa, em Setembro o milho estava 15,6% mais barato do que um ano antes e o arroz 27,6% mais barato.\n\nO problema está no campo. O adubo NPK subiu 22,3% num ano e a ureia 41,5%. Quem cultiva para comer ou para vender vai pagar mais para semear numa época em que a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro.\n\nOs preços em geral também mexeram. O INE registou 0,48% de inflação em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa de um ano ficou em 6,32%.\n\n*O QUE MUDOU*\n\nO Governo ainda não decidiu a taxa de 15 cêntimos de dólar por litro de combustível. Se passar, pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo, que está em 116,25 meticais desde Maio. Em Maputo, o chapa fica a 15 meticais, com compensações por três meses.\n\n*DIRECÇÃO*\n\nCompras: compre milho e arroz aos poucos e compare mercados. Os preços baixos de hoje podem não durar com o El Niño.\n\nAgricultura: compre adubo e sementes já e junte-se a vizinhos para comprar em grupo. Quem espera, paga mais.\n\nTransporte: pague a tarifa afixada e guarde uma folga para depois de Fevereiro, quando acabam as compensações.\n\nPoupança: antes das compras de fim de ano, separe o dinheiro da comida e da escola. O resto fica para depois.\n\nNegócio informal: não faça stock grande de produtos que dependem do transporte. Compre menos, mais vezes.\n\n*PRÓXIMA SEMANA*\n\nFique atento à votação da taxa dos combustíveis e ao anúncio da ARENE. Se o preço mexer, o chapa e a comida sentem primeiro.\n\nPartilhe esta mensagem com quem compra adubo ou faz as compras da casa.",
+    "instagram": "Milho 15,6% e arroz 27,6% mais baratos que há um ano. O adubo subiu até 41%. Compre cedo, junte-se a vizinhos e guarde folga para os combustíveis. Direcção no Seu Bolso. #SeuBolso #Moçambique",
+    "facebook": "O Seu Bolso desta quarta-feira traz uma boa e uma má notícia.\n\nA boa: segundo a AGRA, citada pela Lusa, em Setembro o milho custava 15,6% menos e o arroz 27,6% menos do que um ano antes.\n\nA má: o adubo NPK subiu 22,3% e a ureia 41,5% num ano. Quem vai semear nesta campanha paga mais, com chuva abaixo da média prevista pela FEWS NET para Dezembro a Fevereiro.\n\nOs preços em geral também aceleraram. O INE registou 0,48% de inflação em Outubro, contra 0,16% em Setembro, com a homóloga em 6,32%.\n\nO Governo ainda não votou a taxa de 15 cêntimos de dólar por litro de combustível. Se passar, o gasóleo pode subir 6,36 meticais. O chapa de Maputo mantém os 15 meticais, com compensações por três meses.\n\nPara as famílias, o alívio na comida é real, mas pode ser curto se a colheita falhar. Para quem cultiva, cada saco de adubo pesa mais no orçamento do que há um ano.\n\nO que fazer: compre milho e arroz aos poucos e compare mercados. Quem semeia deve comprar adubo e sementes já, em grupo, para pagar menos. E guarde folga no orçamento para depois de Fevereiro.\n\n#SeuBolso #Moçambique",
+    "linkedin": "Seu Bolso: comida mais barata, adubo mais caro\n\nSegundo o relatório de Setembro da AGRA, citado pela Lusa, o milho custava 15,6% menos e o arroz 27,6% menos do que um ano antes. Para as famílias urbanas, é um alívio real depois de meses de pressão nos preços.\n\nNo campo a conta é outra. O adubo NPK subiu 22,3% e a ureia 41,5% em termos homólogos. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda actual até Dezembro. Um agricultor que corta no adubo tende a colher menos, e uma colheita menor pode inverter os preços baixos de hoje.\n\nA inflação também mexeu. O INE registou 0,48% em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa de um ano ficou em 6,32%.\n\nPara quem vive de vender comida ou de a transportar, a margem é apertada: o custo de comprar sobe quando o transporte encarece, e o cliente nem sempre aceita pagar mais.\n\nHá ainda a taxa de 15 cêntimos de dólar por litro de combustível, proposta pelo Governo e por votar. Pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo, que está em 116,25 meticais desde Maio. Para quem transporta mercadoria, isso entra no preço final.\n\nDirecção\n\nFamílias: comprar básicos aos poucos e comparar mercados.\n\nPequenos agricultores e associações: comprar adubo e sementes cedo, em grupo.\n\nPequenos negócios: comprar menos e mais vezes, e rever preços quando o transporte subir.\n\nConclusão: o alívio na comida é real, mas depende da próxima colheita, e essa depende do adubo comprado agora.\n\n#SeuBolso #Moçambique"
+  },
+  "fontes": [
+    {
+      "fonte": "Lusa (RTP), relatório AGRA",
+      "url": "https://www.rtp.pt/noticias/mundo/inseguranca-alimentar-grave-afeta-184-milhoes-de-mocambicanos-apesar-de-melhorias_n1772019"
+    },
+    {
+      "fonte": "INE, via Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=178681"
+    },
+    {
+      "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
+    }
+  ],
+  "data": "2026-11-25",
+  "dia_semana": "quarta",
+  "semana": "2026-S48",
+  "versao": 1,
+  "aprovada": false,
+  "series": [
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          93.69
+        ]
+      ]
+    },
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-09",
+        "valor": 6.32,
+        "fonte": "INE, via Forbes África Lusófona",
+        "url": "https://forbesafricalusofona.com/?p=178681",
+        "nota": "Outubro de 2026, taxa homóloga; mensal 0,48%"
+      },
+      "var4": 0.2,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ],
+        [
+          "2026-11-09",
+          6.32
+        ]
+      ]
+    },
+    {
+      "id": "mimo",
+      "nome": "Taxa MIMO",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-04",
+        "valor": 9.25,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Mantida"
+      },
+      "var4": 0,
+      "var12": 0,
+      "pontos": [
+        [
+          "2026-05-25",
+          9.25
+        ],
+        [
+          "2026-09-30",
+          9.25
+        ],
+        [
+          "2026-11-04",
+          9.25
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
+    ],
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 15,
+            "data": "2026-11-06",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "inflacao",
+        "nome": "Inflação anual",
+        "unidade": "%",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
+}

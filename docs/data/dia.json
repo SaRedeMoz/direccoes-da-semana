@@ -1,317 +1,275 @@
 {
-  "tipo": "dia",
-  "area": "Saúde",
-  "tema": "Oncologia: o que muda para os doentes com o serviço do Hospital Central em ruínas",
-  "pergunta": "Cancro: quem trata os doentes enquanto a oncologia do país se reconstrói?",
-  "facto": {
-    "texto": "No domingo, 1 de Novembro, um incêndio atingiu o edifício do serviço de oncologia do Hospital Central de Maputo, o único do país. Os 22 doentes internados foram retirados e ninguém ficou ferido; o serviço mantém cerca de 90 doentes de consulta por dia. Os primeiros cálculos apontam para 35 milhões de dólares para reconstruir.",
-    "numeros": [
-      {
-        "valor": "35 M USD",
-        "legenda": "custo preliminar da reconstrução"
-      },
-      {
-        "valor": "90",
-        "legenda": "doentes de consulta por dia"
-      },
-      {
-        "valor": "15 meses",
-        "legenda": "paragem anterior da radioterapia"
-      }
-    ],
-    "fonte": "Club of Mozambique e RTP (Lusa), Novembro de 2026"
-  },
-  "linha_do_tempo": [
+  "tipo": "bolso",
+  "titulo": "O Seu Bolso",
+  "manchete": "Milho e arroz custam menos que há um ano, mas o adubo sobe até 41%",
+  "resumo": "Em Setembro o milho estava 15,6% mais barato e o arroz 27,6% mais barato do que um ano antes, segundo a AGRA. O adubo NPK subiu 22,3% e a ureia 41,5%, e a inflação de Outubro subiu para 0,48% no mês.",
+  "indicadores": [
+    "gasolina",
+    "gasoleo",
+    "inflacao",
+    "mimo"
+  ],
+  "comparar": [
+    "chapa",
+    "inflacao"
+  ],
+  "regioes": [
     {
-      "data": "2024",
-      "texto": "A única máquina de radioterapia avaria e o país fica sem tratamento",
-      "futuro": false
+      "regiao": "maputo",
+      "destaque": "O chapa mantém-se a 15 meticais, com compensações por três meses.",
+      "direccao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, quando as compensações acabam."
     },
     {
-      "data": "4 Ago 2025",
-      "texto": "O Hospital Central retoma a radioterapia após 15 meses",
-      "futuro": false
+      "regiao": "beira",
+      "destaque": "Em Setembro a Beira teve a maior subida de preços entre as cidades do INE, com 0,43%.",
+      "direccao": "Compare preços em vários mercados antes das compras de fim de ano e compre básicos aos poucos."
     },
     {
-      "data": "Nov 2025",
-      "texto": "O equipamento volta a avariar por falha eléctrica",
-      "futuro": false
-    },
-    {
-      "data": "1 Nov",
-      "texto": "Incêndio atinge o serviço de oncologia do Hospital Central",
-      "futuro": false
-    },
-    {
-      "data": "Nov",
-      "texto": "Ministros e deputados doam pelo menos um dia de salário",
-      "futuro": false
-    },
-    {
-      "data": "Sem data",
-      "texto": "Calendário da reconstrução ainda por anunciar",
-      "futuro": true
+      "regiao": "nampula",
+      "destaque": "A tarifa do chapa foi aprovada em 20 meticais em Maio, segundo a Rádio Moçambique.",
+      "direccao": "Agricultores do Norte devem juntar-se em grupo para comprar adubo cedo, antes da época das chuvas."
     }
   ],
-  "precedente": {
-    "quando": "2024 a Agosto de 2025",
-    "o_que_aconteceu": "A única máquina de radioterapia ficou 15 meses parada. A reparação custou cerca de 2 milhões de dólares e o serviço voltou a 4 de Agosto de 2025, com 170 a 200 doentes em espera. Dois meses depois avariou outra vez.",
-    "licao": "Reparar sem plano de manutenção dá meses de serviço, não anos.",
-    "fonte": "RTP, AIM e Club of Mozambique (2025)"
-  },
-  "porque_importa": "O Hospital Central é o único serviço público de oncologia do país. Quem precisa de radioterapia tem de ser tratado fora, sobretudo na África do Sul e na Índia, com custos altos para as famílias e para o Estado. As estimativas oficiais apontam para cerca de 26 mil casos novos de cancro por ano e pouco mais de 17 mil mortes.",
-  "canal": {
-    "passos": [
-      "Incêndio e aparelho parado",
-      "Sem radioterapia no país",
-      "Doentes referidos para fora",
-      "Famílias pagam viagem e estadia",
-      "Tratamento atrasa"
-    ],
-    "quem_sente": "Doentes com cancro e as suas famílias"
-  },
-  "conta": {
-    "titulo": "Quanto pesa a reconstrução no Orçamento",
-    "pressupostos": "Câmbio indicativo de 63,91 MT por dólar. Reconstrução de 35 M USD, reparação de 2025 de 2 M USD, 598 admissões de saúde a 161 M MT em 2027.",
-    "barras": [
-      {
-        "rotulo": "Reconstruir a oncologia",
-        "valor": 2237,
-        "texto": "2 237 M MT"
-      },
-      {
-        "rotulo": "598 admissões de saúde",
-        "valor": 161,
-        "texto": "161 M MT"
-      },
-      {
-        "rotulo": "Reparação de 2025",
-        "valor": 128,
-        "texto": "128 M MT"
-      }
-    ],
-    "unidade": "milhões de meticais",
-    "conclusao": "Reconstruir custa 14 vezes as admissões de saúde de 2027 e 0,44% da despesa total prevista."
-  },
-  "cenarios": [
+  "o_que_mudou": [
     {
-      "nome": "Doadores pagam um aparelho novo",
-      "tipo": "melhora",
-      "probabilidade": 20,
-      "porque_probabilidade": "Há ofertas de cinco países e acção do Governo, mas a reparação de 2025 demorou 15 meses com verba muito menor.",
-      "gatilho": "Anúncio de financiamento externo de pelo menos 20 milhões de dólares até Março de 2027",
-      "o_que_acontece": "Doadores financiam equipamento e obra, o Hospital Central compra um aparelho novo e a radioterapia volta a funcionar com contrato de manutenção.",
-      "numeros": "20 a 35 milhões de dólares; 12 a 18 meses de obra",
-      "quando": "até Dezembro de 2027",
-      "ganha": "Doentes e o Hospital Central",
-      "perde": "Orçamento de outras prioridades",
-      "se_acontecer": "Pedir ao hospital a lista de espera e a data de início do tratamento."
+      "titulo": "Comida mais barata que há um ano",
+      "explicacao": "Milho 15,6% e arroz 27,6% abaixo do preço de Setembro de 2025, segundo a AGRA.",
+      "canal": "Menos gasto em comida nas famílias urbanas"
     },
     {
-      "nome": "Remendo e referência de doentes",
-      "tipo": "fica_igual",
-      "probabilidade": 50,
-      "porque_probabilidade": "Foi o que aconteceu em 2024 e 2025: os doentes foram referidos para fora enquanto a máquina esperava peças.",
-      "gatilho": "Lista oficial de doentes referidos para o estrangeiro ou o privado até Janeiro de 2027",
-      "o_que_acontece": "O Estado paga parte do tratamento fora ou no privado, a consulta continua em Maputo e a radioterapia fica parada durante meses.",
-      "numeros": "Cerca de 90 consultas por dia; espera de 6 a 12 meses",
-      "quando": "até Setembro de 2027",
-      "ganha": "Clínicas privadas e estrangeiras",
-      "perde": "Famílias com pouco rendimento",
-      "se_acontecer": "Pedir a referência cedo e guardar todos os recibos para pedir reembolso."
+      "titulo": "Adubo sobe até 41%",
+      "explicacao": "O NPK subiu 22,3% e a ureia 41,5% num ano, o que encarece semear.",
+      "canal": "Adubo caro, menos área semeada, colheita menor, comida mais cara"
     },
     {
-      "nome": "Verba e peças atrasam tudo",
-      "tipo": "piora",
-      "probabilidade": 30,
-      "porque_probabilidade": "A máquina avariou duas vezes em 15 meses e a proposta de Orçamento de 2027 limita a despesa a 511,2 mil milhões de meticais.",
-      "gatilho": "Sem data de obra nem verba no Orçamento aprovado até Janeiro de 2027",
-      "o_que_acontece": "A reconstrução fica sem dinheiro garantido, o aparelho não chega e os doentes começam o tratamento tarde ou desistem.",
-      "numeros": "Radioterapia parada mais de 24 meses",
-      "quando": "durante 2027",
-      "ganha": "Ninguém",
-      "perde": "Doentes com cancro e as suas famílias",
-      "se_acontecer": "Procurar apoio de associações e do gabinete de apoio ao doente criado pelo Governo."
+      "titulo": "Inflação mensal sobe para 0,48%",
+      "explicacao": "Alimentos, restauração e transportes puxaram os preços em Outubro, segundo o INE.",
+      "canal": "Transporte e comida fora de casa pesam mais no mês"
     }
   ],
-  "sinais": [
+  "direccoes": [
     {
-      "o_que": "Verba para oncologia no Orçamento aprovado",
-      "limiar": "Rubrica própria acima de 1 000 M MT",
-      "quando": "até Dezembro de 2026",
-      "aponta_para": "melhora"
+      "area": "Compras",
+      "classe": "ambas",
+      "accao": "Compre milho e arroz aos poucos e compare mercados. Os preços baixos podem não durar com o El Niño."
     },
     {
-      "o_que": "Compromisso escrito de doadores",
-      "limiar": "Mais de 20 milhões de dólares anunciados",
-      "quando": "até Março de 2027",
-      "aponta_para": "melhora"
+      "area": "Negócio informal",
+      "classe": "baixa",
+      "accao": "Agricultores: compre adubo e sementes cedo, em grupo com vizinhos, para pagar menos por saco."
     },
     {
-      "o_que": "Lista oficial de doentes referidos",
-      "limiar": "Publicada com número de doentes",
-      "quando": "até Janeiro de 2027",
-      "aponta_para": "fica_igual"
+      "area": "Transporte",
+      "classe": "ambas",
+      "accao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, se a taxa dos combustíveis passar."
     },
     {
-      "o_que": "Data de início da obra",
-      "limiar": "Sem data anunciada",
-      "quando": "até Janeiro de 2027",
-      "aponta_para": "piora"
+      "area": "Poupança",
+      "classe": "media",
+      "accao": "Antes das compras de fim de ano, separe o dinheiro da comida, da renda e da escola."
+    },
+    {
+      "area": "Escola e saúde",
+      "classe": "baixa",
+      "accao": "Reserve já o dinheiro das matrículas e do material escolar, antes de gastar nas festas."
     }
   ],
-  "afectados": [
-    {
-      "grupo": "Doentes com cancro",
-      "saldo": -2,
-      "porque": "sem radioterapia no país"
-    },
-    {
-      "grupo": "Famílias de doentes",
-      "saldo": -2,
-      "porque": "viagem e estadia pagas por elas"
-    },
-    {
-      "grupo": "Profissionais do serviço",
-      "saldo": -1,
-      "porque": "trabalham sem instalações completas"
-    },
-    {
-      "grupo": "Governo",
-      "saldo": -1,
-      "porque": "conta alta e pressão pública"
-    },
-    {
-      "grupo": "Clínicas privadas",
-      "saldo": 1,
-      "porque": "o ministro pede mais investimento privado"
-    }
-  ],
-  "direccao": [
-    {
-      "publico": "Doentes e famílias",
-      "agora": "Pedir cedo a referência médica e guardar receitas e recibos de cada consulta e viagem.",
-      "se_piorar": "Procurar o gabinete de apoio ao doente e associações."
-    },
-    {
-      "publico": "Empresas e doadores",
-      "agora": "Doar só pelos canais oficiais do hospital e pedir recibo.",
-      "se_piorar": "Financiar tratamento de doentes referidos."
-    },
-    {
-      "publico": "Governo",
-      "agora": "Publicar o calendário da obra, a verba e a lista de referências.",
-      "se_piorar": "Contratar tratamento externo para os doentes em espera."
-    },
-    {
-      "publico": "Famílias em geral",
-      "agora": "Não adiar consultas por sintomas persistentes e pedir cedo o diagnóstico.",
-      "se_piorar": "Procurar diagnóstico noutra unidade de saúde sem esperar."
-    }
-  ],
-  "visao_contraria": "O ministério defende que o sector privado invista em cuidados especializados, o que pode chegar mais depressa do que a obra pública, e o incêndio poupou o piso da radioterapia, por isso a perda pode ser menor.",
-  "nao_sabemos": [
-    "A causa do incêndio ainda não foi apurada.",
-    "O Governo ainda não anunciou calendário nem verba para a reconstrução.",
-    "Os peritos ainda avaliam os danos no equipamento de radioterapia."
-  ],
-  "sinal": "Verba para oncologia no Orçamento de 2027 e anúncio de financiamento externo.",
-  "confianca": "media",
-  "base_confianca": "Notícias de imprensa (RTP, Lusa, Club of Mozambique); datas de algumas notícias de saúde são aproximadas; o valor de 35 milhões de dólares é preliminar",
+  "revisao": [],
   "textos": {
-    "whatsapp": "*A DIRECÇÃO DO DIA: SAÚDE*\n\n*Cancro: o que acontece agora que o único serviço do país arde e a radioterapia está parada?*\n\nNo domingo, 1 de Novembro, um incêndio atingiu o edifício do serviço de oncologia do Hospital Central de Maputo, o único do país. Os 22 doentes internados foram retirados e ninguém ficou ferido. O serviço mantém cerca de 90 doentes de consulta por dia. Os primeiros cálculos apontam para 35 milhões de dólares para reconstruir, segundo o Club of Mozambique.\n\n*O PRECEDENTE*\n\nA máquina de radioterapia já esteve 15 meses parada. A reparação custou cerca de 2 milhões de dólares e o serviço voltou a 4 de Agosto de 2025. Dois meses depois avariou outra vez.\n\n*A CONTA*\n\nReconstruir custa cerca de 2 237 milhões de meticais, a 63,91 por dólar. As 598 admissões de saúde no Orçamento de 2027 custam 161 milhões. A reconstrução vale quase 14 vezes mais.\n\n*TRÊS CAMINHOS*\n\n*Doadores pagam* (20%): os Estados Unidos, os Emirados, o Brasil, a Irlanda e a África do Sul ofereceram ajuda. Um aparelho novo pode chegar em 2027.\n\n*Remendo e referência* (50%): o Estado paga tratamento fora ou no privado, com lista de espera. Sinal: uma lista oficial de doentes referidos até Janeiro.\n\n*Novo atraso* (30%): falta verba ou peças e a radioterapia fica parada todo o 2027.\n\n*DIRECÇÃO*\n\nDoentes: pedir cedo a referência médica e guardar receitas e recibos. Empresas: apoiar através do fundo do hospital, com recibo. Governo: publicar o calendário e a verba.\n\nPartilhe com quem precisa de saber isto.",
-    "instagram": "O único serviço de oncologia do país arde e a radioterapia está parada. Reconstruir custa cerca de 35 milhões de dólares. Peça cedo a referência médica e guarde os recibos. #Moçambique #Saúde",
-    "facebook": "O serviço de oncologia do Hospital Central de Maputo, o único do país, foi atingido por um incêndio no domingo, 1 de Novembro. Os 22 doentes internados foram retirados e ninguém ficou ferido. Cerca de 90 doentes de consulta continuam a ser atendidos por dia.\n\nOs primeiros cálculos falam em 35 milhões de dólares para reconstruir. A radioterapia já estava parada por falta de peças, segundo o ministro da Saúde, Ussene Isse.\n\nNão é a primeira vez. A máquina ficou 15 meses parada, a reparação custou cerca de 2 milhões de dólares e o serviço voltou a 4 de Agosto de 2025. Dois meses depois avariou outra vez.\n\nO que pode acontecer: 50% de probabilidade de o Estado pagar tratamento fora ou no privado, com lista de espera. 30% de novo atraso durante todo o 2027. 20% de os doadores pagarem um aparelho novo. Os Estados Unidos, os Emirados, o Brasil, a Irlanda e a África do Sul ofereceram ajuda.\n\nDirecção principal: se a sua família tem um doente com cancro, peça cedo a referência médica e guarde receitas e recibos. Quem puder ajudar deve usar só os canais oficiais do hospital.\n\n#Moçambique #Saúde",
-    "linkedin": "O único serviço de oncologia de Moçambique arde e a radioterapia continua parada. Quem paga, e em quanto tempo?\n\nNo domingo, 1 de Novembro, um incêndio atingiu o edifício do serviço de oncologia do Hospital Central de Maputo. Os 22 doentes internados foram retirados e ninguém ficou ferido. O serviço mantém cerca de 90 doentes de consulta por dia. O ministro da Saúde, Ussene Isse, já admitira que o único aparelho de radioterapia estava parado por falta de peças.\n\nOs primeiros cálculos apontam para 35 milhões de dólares, ou cerca de 2 237 milhões de meticais a 63,91 por dólar, para reconstruir infra-estruturas, segurança e diagnóstico. É 0,44% da despesa prevista no Orçamento de 2027 e quase 14 vezes o que custam as 598 admissões de profissionais de saúde previstas para o ano.\n\nHá precedente. A máquina esteve 15 meses parada até 4 de Agosto de 2025, a reparação custou cerca de 2 milhões de dólares e dois meses depois avariou de novo. Por isso damos 50% a um cenário de remendo, com referência de doentes e lista de espera, 30% a um novo atraso até ao fim de 2027 e 20% a um financiamento externo que traga um aparelho novo. Os Estados Unidos, os Emirados, o Brasil, a Irlanda e a África do Sul ofereceram ajuda.\n\nA outra visão: o ministério defende que o sector privado invista em cuidados especializados, o que pode ser mais rápido, mas deixa de fora quem não paga.\n\nDirecção\n\nDoentes: pedir cedo a referência e guardar recibos. Empresas: apoiar com recibo, através do canal oficial. Governo: publicar o calendário e a verba até Janeiro de 2027.\n\nA reconstrução só se confirma com dinheiro depositado e uma data de arranque.\n\n#Moçambique #Saúde #Oncologia"
+    "whatsapp": "*O SEU BOLSO*\n\n*Milho e arroz custam menos que há um ano, mas o adubo sobe até 41%*\n\nQuem compra comida está a ter um alívio que pouca gente nota. Segundo o relatório da AGRA, citado pela Lusa, em Setembro o milho estava 15,6% mais barato do que um ano antes e o arroz 27,6% mais barato.\n\nO problema está no campo. O adubo NPK subiu 22,3% num ano e a ureia 41,5%. Quem cultiva para comer ou para vender vai pagar mais para semear numa época em que a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro.\n\nOs preços em geral também mexeram. O INE registou 0,48% de inflação em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa de um ano ficou em 6,32%.\n\n*O QUE MUDOU*\n\nO Governo ainda não decidiu a taxa de 15 cêntimos de dólar por litro de combustível. Se passar, pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo, que está em 116,25 meticais desde Maio. Em Maputo, o chapa fica a 15 meticais, com compensações por três meses.\n\n*DIRECÇÃO*\n\nCompras: compre milho e arroz aos poucos e compare mercados. Os preços baixos de hoje podem não durar com o El Niño.\n\nAgricultura: compre adubo e sementes já e junte-se a vizinhos para comprar em grupo. Quem espera, paga mais.\n\nTransporte: pague a tarifa afixada e guarde uma folga para depois de Fevereiro, quando acabam as compensações.\n\nPoupança: antes das compras de fim de ano, separe o dinheiro da comida e da escola. O resto fica para depois.\n\nNegócio informal: não faça stock grande de produtos que dependem do transporte. Compre menos, mais vezes.\n\n*PRÓXIMA SEMANA*\n\nFique atento à votação da taxa dos combustíveis e ao anúncio da ARENE. Se o preço mexer, o chapa e a comida sentem primeiro.\n\nPartilhe esta mensagem com quem compra adubo ou faz as compras da casa.",
+    "instagram": "Milho 15,6% e arroz 27,6% mais baratos que há um ano. O adubo subiu até 41%. Compre cedo, junte-se a vizinhos e guarde folga para os combustíveis. Direcção no Seu Bolso. #SeuBolso #Moçambique",
+    "facebook": "O Seu Bolso desta quarta-feira traz uma boa e uma má notícia.\n\nA boa: segundo a AGRA, citada pela Lusa, em Setembro o milho custava 15,6% menos e o arroz 27,6% menos do que um ano antes.\n\nA má: o adubo NPK subiu 22,3% e a ureia 41,5% num ano. Quem vai semear nesta campanha paga mais, com chuva abaixo da média prevista pela FEWS NET para Dezembro a Fevereiro.\n\nOs preços em geral também aceleraram. O INE registou 0,48% de inflação em Outubro, contra 0,16% em Setembro, com a homóloga em 6,32%.\n\nO Governo ainda não votou a taxa de 15 cêntimos de dólar por litro de combustível. Se passar, o gasóleo pode subir 6,36 meticais. O chapa de Maputo mantém os 15 meticais, com compensações por três meses.\n\nPara as famílias, o alívio na comida é real, mas pode ser curto se a colheita falhar. Para quem cultiva, cada saco de adubo pesa mais no orçamento do que há um ano.\n\nO que fazer: compre milho e arroz aos poucos e compare mercados. Quem semeia deve comprar adubo e sementes já, em grupo, para pagar menos. E guarde folga no orçamento para depois de Fevereiro.\n\n#SeuBolso #Moçambique",
+    "linkedin": "Seu Bolso: comida mais barata, adubo mais caro\n\nSegundo o relatório de Setembro da AGRA, citado pela Lusa, o milho custava 15,6% menos e o arroz 27,6% menos do que um ano antes. Para as famílias urbanas, é um alívio real depois de meses de pressão nos preços.\n\nNo campo a conta é outra. O adubo NPK subiu 22,3% e a ureia 41,5% em termos homólogos. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda actual até Dezembro. Um agricultor que corta no adubo tende a colher menos, e uma colheita menor pode inverter os preços baixos de hoje.\n\nA inflação também mexeu. O INE registou 0,48% em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa de um ano ficou em 6,32%.\n\nPara quem vive de vender comida ou de a transportar, a margem é apertada: o custo de comprar sobe quando o transporte encarece, e o cliente nem sempre aceita pagar mais.\n\nHá ainda a taxa de 15 cêntimos de dólar por litro de combustível, proposta pelo Governo e por votar. Pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo, que está em 116,25 meticais desde Maio. Para quem transporta mercadoria, isso entra no preço final.\n\nDirecção\n\nFamílias: comprar básicos aos poucos e comparar mercados.\n\nPequenos agricultores e associações: comprar adubo e sementes cedo, em grupo.\n\nPequenos negócios: comprar menos e mais vezes, e rever preços quando o transporte subir.\n\nConclusão: o alívio na comida é real, mas depende da próxima colheita, e essa depende do adubo comprado agora.\n\n#SeuBolso #Moçambique"
   },
   "fontes": [
     {
-      "fonte": "Club of Mozambique: Mozambique needs US$35 million to rebuild oncology services after fire",
-      "url": "https://clubofmozambique.com/news/mozambique-needs-us35-million-to-rebuild-oncology-services-after-fire/",
-      "data": "2026-11"
+      "fonte": "Lusa (RTP), relatório AGRA",
+      "url": "https://www.rtp.pt/noticias/mundo/inseguranca-alimentar-grave-afeta-184-milhoes-de-mocambicanos-apesar-de-melhorias_n1772019"
     },
     {
-      "fonte": "RTP (Lusa): deputados doam um dia de salário",
-      "url": "https://www.rtp.pt/noticias/mundo/deputados-mocambicanos-doam-um-dia-de-salario-para-apoiar-reposicao-de-servico-de-oncologia_n1776782",
-      "data": "2026-11"
+      "fonte": "INE, via Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=178681"
     },
     {
-      "fonte": "RTP (Lusa): única máquina de radioterapia continua avariada",
-      "url": "https://www.rtp.pt/noticias/mundo/unica-maquina-de-radioterapia-em-mocambique-continua-avariada_n1775049",
-      "data": "2026-10"
-    },
-    {
-      "fonte": "RTP (Lusa): radioterapia 15 meses após avaria",
-      "url": "https://www.rtp.pt/noticias/mundo/mocambique-volta-a-ter-tratamento-por-radioterapia-15-meses-apos-avaria_n1674026",
-      "data": "2025-08-04"
-    },
-    {
-      "fonte": "AllAfrica: Radiotherapy Equipment Once Again Damaged",
-      "url": "https://allafrica.com/stories/202511180626.html",
-      "data": "2025-11-18"
-    },
-    {
-      "fonte": "RTP: Cancro mata mais de 17 mil pessoas por ano",
-      "url": "https://www.rtp.pt/noticias/mundo/cancro-mata-mais-de-17-mil-pessoas-anualmente-em-mocambique_n1687843",
-      "data": "2025-10"
+      "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
     }
   ],
-  "data": "2026-11-24",
-  "dia_semana": "terca",
+  "data": "2026-11-25",
+  "dia_semana": "quarta",
   "semana": "2026-S48",
   "versao": 1,
   "aprovada": false,
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png",
-      "data/dia/feed/slide-07.png",
-      "data/dia/feed/slide-08.png",
-      "data/dia/feed/slide-09.png",
-      "data/dia/feed/slide-10.png",
-      "data/dia/feed/slide-11.png",
-      "data/dia/feed/slide-12.png",
-      "data/dia/feed/slide-13.png",
-      "data/dia/feed/slide-14.png"
+  "series": [
+    {
+      "id": "gasolina",
+      "nome": "Gasolina",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 93.69,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          93.69
+        ]
+      ]
+    },
+    {
+      "id": "gasoleo",
+      "nome": "Gasóleo",
+      "unidade": "MT/litro",
+      "ultimo": {
+        "data": "2026-05-07",
+        "valor": 116.25,
+        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
+        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
+        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
+      },
+      "var4": null,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-05-07",
+          116.25
+        ]
+      ]
+    },
+    {
+      "id": "inflacao",
+      "nome": "Inflação anual",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-09",
+        "valor": 6.32,
+        "fonte": "INE, via Forbes África Lusófona",
+        "url": "https://forbesafricalusofona.com/?p=178681",
+        "nota": "Outubro de 2026, taxa homóloga; mensal 0,48%"
+      },
+      "var4": 0.2,
+      "var12": null,
+      "pontos": [
+        [
+          "2026-10-09",
+          6.31
+        ],
+        [
+          "2026-11-09",
+          6.32
+        ]
+      ]
+    },
+    {
+      "id": "mimo",
+      "nome": "Taxa MIMO",
+      "unidade": "%",
+      "ultimo": {
+        "data": "2026-11-04",
+        "valor": 9.25,
+        "fonte": "Lusa, Banco de Moçambique",
+        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
+        "nota": "Mantida"
+      },
+      "var4": 0,
+      "var12": 0,
+      "pontos": [
+        [
+          "2026-05-25",
+          9.25
+        ],
+        [
+          "2026-09-30",
+          9.25
+        ],
+        [
+          "2026-11-04",
+          9.25
+        ]
+      ]
+    }
+  ],
+  "regional": {
+    "regioes": [
+      {
+        "id": "maputo",
+        "nome": "Maputo",
+        "zona": "Sul"
+      },
+      {
+        "id": "beira",
+        "nome": "Beira",
+        "zona": "Centro"
+      },
+      {
+        "id": "nampula",
+        "nome": "Nampula",
+        "zona": "Norte"
+      }
     ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png",
-      "data/dia/story/slide-07.png",
-      "data/dia/story/slide-08.png",
-      "data/dia/story/slide-09.png",
-      "data/dia/story/slide-10.png",
-      "data/dia/story/slide-11.png",
-      "data/dia/story/slide-12.png",
-      "data/dia/story/slide-13.png",
-      "data/dia/story/slide-14.png"
-    ],
-    "tipos": [
-      "capa-dia",
-      "facto",
-      "contexto",
-      "porque",
-      "conta",
-      "cenarios",
-      "cenario-1",
-      "cenario-2",
-      "cenario-3",
-      "sinais",
-      "afectados",
-      "direccao",
-      "contraria",
-      "sinal"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1795505512491
-  }
+    "linhas": [
+      {
+        "base": "chapa",
+        "nome": "Chapa urbano",
+        "unidade": "MT/viagem",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": 15,
+            "data": "2026-11-06",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": 20,
+            "data": "2026-05-13",
+            "var4": null
+          }
+        ]
+      },
+      {
+        "base": "inflacao",
+        "nome": "Inflação anual",
+        "unidade": "%",
+        "cidades": [
+          {
+            "regiao": "maputo",
+            "nome": "Maputo",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "beira",
+            "nome": "Beira",
+            "valor": null,
+            "data": "",
+            "var4": null
+          },
+          {
+            "regiao": "nampula",
+            "nome": "Nampula",
+            "valor": null,
+            "data": "",
+            "var4": null
+          }
+        ]
+      }
+    ]
+  },
+  "falhas": []
 }

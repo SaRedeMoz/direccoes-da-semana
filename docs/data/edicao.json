@@ -1,11 +1,11 @@
 {
   "semana": "2026-S48",
-  "dia": "2026-11-24",
-  "versao": 2,
+  "dia": "2026-11-25",
+  "versao": 3,
   "aprovada": false,
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
   "falhas_conformidade": [
-    "Categorias de fontes não consultadas hoje: analise_independente",
+    "Categorias de fontes não consultadas hoje: imprensa_nacional",
     "A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
   ],
   "itens": [
@@ -134,13 +134,40 @@
       "n": 9,
       "recolhida": "2026-11-24",
       "na_edicao": false
+    },
+    {
+      "titulo": "Milho e arroz custam menos que há um ano, mas adubo sobe até 41%",
+      "resumo": "Segundo o relatório de Setembro da AGRA, citado pela Lusa, o milho estava 15,6% mais barato e o arroz 27,6% mais barato do que um ano antes, enquanto o NPK subiu 22,3% e a ureia 41,5%. Cerca de 1,84 milhões de pessoas estavam em insegurança alimentar grave, menos 48% do que em Agosto.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "precos",
+      "fonte": "Lusa (RTP), relatório da AGRA",
+      "url": "https://www.rtp.pt/noticias/mundo/inseguranca-alimentar-grave-afeta-184-milhoes-de-mocambicanos-apesar-de-melhorias_n1772019",
+      "data": "2026-11-25",
+      "confianca": "media",
+      "n": 10,
+      "recolhida": "2026-11-25",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Inflação mensal sobe para 0,48% em Outubro e a homóloga fica em 6,32%",
+      "resumo": "O INE registou 0,48% de inflação mensal em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa homóloga manteve-se em 6,32%.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "oficiais",
+      "fonte": "INE, via Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=178681",
+      "data": "2026-11-09",
+      "confianca": "alta",
+      "n": 11,
+      "recolhida": "2026-11-25",
+      "na_edicao": false
     }
   ],
   "lacunas": [
     "Preços de milho, arroz e chapa na Beira e em Nampula",
-    "Data exacta da notícia da radioterapia e do relatório do Provedor",
-    "Resultado da missão do FMI de Novembro",
-    "Notícias datadas de 23 e 24 de Novembro: a pesquisa devolveu pouco material"
+    "Inflação de Outubro por cidade",
+    "Notícias datadas de 24 e 25 de Novembro: a pesquisa devolveu pouco material"
   ],
   "fontes_consultadas": [
     {
@@ -196,12 +223,30 @@
       "fonte": "MASA/SIMA",
       "url": "https://www.masa.gov.mz",
       "data": "2026-11-24"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "AGRA via Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/inseguranca-alimentar-grave-afeta-184-milhoes-de-mocambicanos-apesar-de-melhorias_n1772019",
+      "data": "2026-11-25"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "INE",
+      "url": "https://forbesafricalusofona.com/?p=178681",
+      "data": "2026-11-25"
+    },
+    {
+      "categoria": "humanitario",
+      "fonte": "ReliefWeb / OCHA Moçambique",
+      "url": "https://reliefweb.int/country/moz",
+      "data": "2026-11-25"
     }
   ],
   "memoria": {
-    "em": "2026-11-24",
+    "em": "2026-11-25",
     "indicadores": 0,
-    "temas": 3,
+    "temas": 1,
     "direccoes": 2
   },
   "analise": {
@@ -218,7 +263,8 @@
         "Chapo recebe ExxonMobil e Eni: gás do Rovuma entre a decisão e a obra",
         "Julgamento de Mondlane: defesa entrega 223 páginas e pede a anulação da acusação",
         "Governo suspende subsídios de viatura a dirigentes: poupança de 7,4 mil milhões",
-        "Inflação de 6,32% em Outubro e crédito a cair pelo terceiro mês"
+        "Inflação de 6,32% em Outubro e crédito a cair pelo terceiro mês",
+        "Milho e arroz mais baratos que há um ano, adubo até 41% mais caro"
       ]
     },
     "pestal": [
@@ -471,7 +517,7 @@
     ],
     "sinal": "Votação do Orçamento de 2027 no Parlamento, nova missão do FMI e acordo técnico, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, publicação do regulamento da Lei 9/2026 e decisão final de investimento do Rovuma LNG. Compra do novo aparelho de radioterapia e entrada dos 598 profissionais de saúde.",
     "sintese": "O Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%, com a inflação a 7%. O Estado cobra mais e gasta menos, mas o crédito caro e a chuva fraca de Dezembro a Fevereiro apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
-    "o_que_mudou_hoje": "A saúde entra na agenda: o ministro Ussene Isse admitiu que o único aparelho de radioterapia continua parado e o Provedor de Justiça descreveu falta de material nos hospitais. O Orçamento de 2027 prevê 598 profissionais de saúde novos, a um custo de 161 milhões de meticais.",
+    "o_que_mudou_hoje": "A inflação mensal de Outubro subiu para 0,48% e o milho e o arroz custavam em Setembro menos que um ano antes, mas o adubo ficou até 41% mais caro.",
     "canais": [
       {
         "choque": "Chuva abaixo da média",
@@ -660,7 +706,9 @@
       "598 profissionais de saúde e 2.978 na educação (Club of Mozambique)",
       "7.029 deslocados em Cabo Delgado entre 21 de Setembro e 27 de Outubro (OIM, via Lusa)",
       "Reunião de ministros da SADC em Durban, 9 a 13 de Novembro: confirmar se se realizou",
-      "⚠️ Categorias de fontes não consultadas hoje: analise_independente",
+      "Categorias de fontes não consultadas hoje: analise_independente",
+      "A edição só cobre 3 dimensões do PESTAL (mínimo 4)",
+      "⚠️ Categorias de fontes não consultadas hoje: imprensa_nacional",
       "⚠️ A edição só cobre 3 dimensões do PESTAL (mínimo 4)"
     ],
     "duvidas": [],
@@ -731,59 +779,5 @@
         "nota": "incluído"
       }
     ]
-  },
-  "imagens": {
-    "slides": [
-      "data/imagens/feed/slide-01.png",
-      "data/imagens/feed/slide-02.png",
-      "data/imagens/feed/slide-03.png",
-      "data/imagens/feed/slide-04.png",
-      "data/imagens/feed/slide-05.png",
-      "data/imagens/feed/slide-06.png",
-      "data/imagens/feed/slide-07.png",
-      "data/imagens/feed/slide-08.png",
-      "data/imagens/feed/slide-09.png",
-      "data/imagens/feed/slide-10.png",
-      "data/imagens/feed/slide-11.png",
-      "data/imagens/feed/slide-12.png"
-    ],
-    "stories": [
-      "data/imagens/story/slide-01.png",
-      "data/imagens/story/slide-02.png",
-      "data/imagens/story/slide-03.png",
-      "data/imagens/story/slide-04.png",
-      "data/imagens/story/slide-05.png",
-      "data/imagens/story/slide-06.png",
-      "data/imagens/story/slide-07.png",
-      "data/imagens/story/slide-08.png",
-      "data/imagens/story/slide-09.png",
-      "data/imagens/story/slide-10.png",
-      "data/imagens/story/slide-11.png",
-      "data/imagens/story/slide-12.png"
-    ],
-    "tipos": [
-      "capa",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "noticia",
-      "oportunidades",
-      "oportunidades",
-      "oportunidades",
-      "quem-ganha",
-      "direccao",
-      "sinal"
-    ],
-    "capa": "data/imagens/capa-linkedin.png",
-    "pdf": "data/imagens/linkedin-carrossel.pdf",
-    "creditos": [
-      "Foto: Hugh Bland / Wikimedia Commons, CC BY-SA 3.0",
-      "Foto: Mike Rosenberg from London, England / Wikimedia Commons, CC BY 2.0",
-      "Foto: Teixant / Wikimedia Commons, CC BY-SA 3.0",
-      "Foto: United Kingdom Hydrographic Office / Wikimedia Commons, Public domain",
-      "Foto: Hannahlongole / Wikimedia Commons, CC BY-SA 4.0"
-    ],
-    "v": 1795505485996
   }
 }
