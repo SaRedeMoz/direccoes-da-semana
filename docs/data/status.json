@@ -1,9 +1,9 @@
 {
   "estagios": {
     "fontes": {
-      "estado": "a trabalhar",
-      "msg": "A pesquisar notícias do dia",
-      "em": "2026-11-26T05:48:36.904Z"
+      "estado": "pronto",
+      "msg": "Notícias do FMI, Quelimane e supervisão recolhidas",
+      "em": "2026-11-26T05:49:21.333Z"
     },
     "analise": {
       "estado": "parado",
@@ -27,6 +27,11 @@
     }
   },
   "log": [
+    {
+      "em": "2026-11-26T05:49:21.333Z",
+      "agente": "fontes",
+      "msg": "Notícias do FMI, Quelimane e supervisão recolhidas"
+    },
     {
       "em": "2026-11-26T05:48:36.904Z",
       "agente": "fontes",
@@ -221,14 +226,9 @@
       "em": "2026-11-22T03:53:36.953Z",
       "agente": "editor",
       "msg": "Edição versão 7 montada"
-    },
-    {
-      "em": "2026-11-22T03:53:30.950Z",
-      "agente": "editor",
-      "msg": "Textos mantidos"
     }
   ],
-  "actualizado": "2026-11-26T05:48:36.904Z",
+  "actualizado": "2026-11-26T05:49:21.333Z",
   "semana": "2026-S48",
   "dia": "2026-11-26",
   "issueUrl": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
