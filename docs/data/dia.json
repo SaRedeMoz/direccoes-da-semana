@@ -1,303 +1,251 @@
 {
-  "tipo": "bolso",
-  "titulo": "O Seu Bolso",
-  "manchete": "Milho e arroz custam menos que há um ano, mas o adubo sobe até 41%",
-  "resumo": "Em Setembro o milho estava 15,6% mais barato e o arroz 27,6% mais barato do que um ano antes, segundo a AGRA. O adubo NPK subiu 22,3% e a ureia 41,5%, e a inflação de Outubro subiu para 0,48% no mês.",
-  "indicadores": [
-    "gasolina",
-    "gasoleo",
-    "inflacao",
-    "mimo"
-  ],
-  "comparar": [
-    "chapa",
-    "inflacao"
-  ],
-  "regioes": [
+  "tipo": "dia",
+  "area": "Região e mundo (SADC, comércio, doadores)",
+  "tema": "Programa do FMI: a decisão que ficou para Dezembro",
+  "pergunta": "FMI em Dezembro: o que muda para o crédito e para o seu bolso?",
+  "facto": {
+    "texto": "A 24 de Novembro o porta-voz do Conselho de Ministros, Inocêncio Impissa, disse que a decisão sobre o novo programa do FMI, prevista para este mês, passou para a primeira quinzena de Dezembro. Atribuiu o atraso a trâmites internos do Fundo e não a desacordo. As equipas técnicas já fecharam os principais entendimentos.",
+    "numeros": [
+      {
+        "valor": "1.ª quinzena",
+        "legenda": "de Dezembro, nova data"
+      },
+      {
+        "valor": "698,6 M USD",
+        "legenda": "pagos ao FMI em Março"
+      },
+      {
+        "valor": "343 de 468 M",
+        "legenda": "pagos no programa de 2022"
+      }
+    ],
+    "fonte": "Lusa, 24 de Novembro de 2026"
+  },
+  "linha_do_tempo": [
     {
-      "regiao": "maputo",
-      "destaque": "O chapa mantém-se a 15 meticais, com compensações por três meses.",
-      "direccao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, quando as compensações acabam."
+      "data": "Abr 2025",
+      "texto": "FMI e Moçambique encerram o programa de 2022",
+      "futuro": false
     },
     {
-      "regiao": "beira",
-      "destaque": "Em Setembro a Beira teve a maior subida de preços entre as cidades do INE, com 0,43%.",
-      "direccao": "Compare preços em vários mercados antes das compras de fim de ano e compre básicos aos poucos."
+      "data": "Mar 2026",
+      "texto": "Moçambique paga 698,6 milhões de dólares ao FMI",
+      "futuro": false
     },
     {
-      "regiao": "nampula",
-      "destaque": "A tarifa do chapa foi aprovada em 20 meticais em Maio, segundo a Rádio Moçambique.",
-      "direccao": "Agricultores do Norte devem juntar-se em grupo para comprar adubo cedo, antes da época das chuvas."
+      "data": "10 Set",
+      "texto": "Finanças apontam acordo técnico até ao fim do ano",
+      "futuro": false
+    },
+    {
+      "data": "24 Nov",
+      "texto": "Decisão passa para a primeira quinzena de Dezembro",
+      "futuro": false
+    },
+    {
+      "data": "19 Dez",
+      "texto": "Limite para o comunicado de acordo técnico",
+      "futuro": true
     }
   ],
-  "o_que_mudou": [
+  "precedente": {
+    "quando": "2022 a Abril de 2025",
+    "o_que_aconteceu": "O programa de 2022, de cerca de 468 milhões de dólares, parou em Abril de 2025 depois de quatro desembolsos, num total de 343 milhões.",
+    "licao": "Um programa só vale enquanto cada revisão é cumprida.",
+    "fonte": "FMI, comunicado 25/115, 18 de Abril de 2025"
+  },
+  "porque_importa": "Um programa do FMI funciona como selo para doadores e bancos. Sem ele, o Estado fica mais dependente de crédito interno caro e de uma tesouraria apertada, o que se sente nos juros e nos pagamentos a fornecedores. Para as PMEs, o crédito a 22,26% continua a ser o principal obstáculo.",
+  "canal": {
+    "passos": [
+      "Decisão do FMI",
+      "Confiança dos doadores",
+      "Menos pressão no crédito",
+      "Juros e contratos para PMEs"
+    ],
+    "quem_sente": "PMEs, fornecedores do Estado e famílias endividadas"
+  },
+  "conta": {
+    "titulo": "Juros de um crédito de 500.000 MT",
+    "pressupostos": "Crédito de 500.000 MT por um ano, juros simples, sem comissões. Taxas: 22,26% média, 20% e 15,5% prime.",
+    "barras": [
+      {
+        "rotulo": "Hoje, 22,26%",
+        "valor": 111300,
+        "texto": "111.300 MT"
+      },
+      {
+        "rotulo": "A 20%",
+        "valor": 100000,
+        "texto": "100.000 MT"
+      },
+      {
+        "rotulo": "À prime, 15,5%",
+        "valor": 77500,
+        "texto": "77.500 MT"
+      }
+    ],
+    "unidade": "meticais de juros por ano",
+    "conclusao": "Cada ponto percentual a menos poupa 5.000 MT por ano, se os juros descerem."
+  },
+  "cenarios": [
     {
-      "titulo": "Comida mais barata que há um ano",
-      "explicacao": "Milho 15,6% e arroz 27,6% abaixo do preço de Setembro de 2025, segundo a AGRA.",
-      "canal": "Menos gasto em comida nas famílias urbanas"
+      "nome": "Acordo técnico em Dezembro",
+      "tipo": "melhora",
+      "probabilidade": 50,
+      "porque_probabilidade": "A data de Novembro já escorregou, mas as equipas já fecharam os principais entendimentos e há reunião marcada.",
+      "gatilho": "Comunicado do FMI de acordo técnico até 19 de Dezembro",
+      "o_que_acontece": "O Conselho Executivo recebe o programa em Janeiro e os doadores reabrem a conversa sobre apoio ao Orçamento.",
+      "numeros": "Calendário do Conselho Executivo em Janeiro ou Fevereiro de 2027",
+      "quando": "até 31 de Dezembro de 2026",
+      "ganha": "Estado, PMEs com contratos públicos",
+      "perde": "Quem esperava Estado sem reformas",
+      "se_acontecer": "PMEs podem negociar crédito com mais confiança a partir de Janeiro; famílias mantêm a reserva."
     },
     {
-      "titulo": "Adubo sobe até 41%",
-      "explicacao": "O NPK subiu 22,3% e a ureia 41,5% num ano, o que encarece semear.",
-      "canal": "Adubo caro, menos área semeada, colheita menor, comida mais cara"
+      "nome": "Decisão escorrega para 2027",
+      "tipo": "fica_igual",
+      "probabilidade": 35,
+      "porque_probabilidade": "A data de Novembro já falhou uma vez e os trâmites internos do FMI podem repetir o atraso.",
+      "gatilho": "Sem comunicado do FMI até 31 de Dezembro",
+      "o_que_acontece": "A negociação continua sem data e o crédito mantém juros altos, com o Estado a gerir a tesouraria com folga curta.",
+      "numeros": "Juros médios entre 21% e 23% ao ano",
+      "quando": "até Março de 2027",
+      "ganha": "Quem não precisa de crédito",
+      "perde": "PMEs e agricultores",
+      "se_acontecer": "Adiar investimentos que dependam de crédito e manter reserva de caixa de um mês."
     },
     {
-      "titulo": "Inflação mensal sobe para 0,48%",
-      "explicacao": "Alimentos, restauração e transportes puxaram os preços em Outubro, segundo o INE.",
-      "canal": "Transporte e comida fora de casa pesam mais no mês"
+      "nome": "Impasse sobre dívida e tesouraria",
+      "tipo": "piora",
+      "probabilidade": 15,
+      "porque_probabilidade": "Nenhum dos lados fala de desacordo, mas a tesouraria apertada e a dívida são pontos difíceis.",
+      "gatilho": "Dólar acima de 65 MT ou comunicado de divergência até 31 de Dezembro",
+      "o_que_acontece": "O FMI pede medidas que o Governo recusa, o câmbio sobe e importados e combustíveis encarecem.",
+      "numeros": "Dólar entre 65 e 68 MT, face a 63,91 em Outubro",
+      "quando": "até Fevereiro de 2027",
+      "ganha": "Quem tem rendimentos em dólares",
+      "perde": "Famílias e importadores",
+      "se_acontecer": "Comprar básicos aos poucos, evitar dívida em dólares e rever preços de venda."
     }
   ],
-  "direccoes": [
+  "sinais": [
     {
-      "area": "Compras",
-      "classe": "ambas",
-      "accao": "Compre milho e arroz aos poucos e compare mercados. Os preços baixos podem não durar com o El Niño."
+      "o_que": "Comunicado do FMI sobre acordo técnico",
+      "limiar": "publicado até 19 de Dezembro",
+      "quando": "19 de Dezembro",
+      "aponta_para": "melhora"
     },
     {
-      "area": "Negócio informal",
-      "classe": "baixa",
-      "accao": "Agricultores: compre adubo e sementes cedo, em grupo com vizinhos, para pagar menos por saco."
+      "o_que": "Data do Conselho Executivo do FMI",
+      "limiar": "marcada para Janeiro ou Fevereiro",
+      "quando": "até 31 de Janeiro",
+      "aponta_para": "fica_igual"
     },
     {
-      "area": "Transporte",
-      "classe": "ambas",
-      "accao": "Pague a tarifa afixada e guarde folga para depois de Fevereiro, se a taxa dos combustíveis passar."
+      "o_que": "Taxa de câmbio do dólar",
+      "limiar": "acima de 65 meticais",
+      "quando": "até 31 de Dezembro",
+      "aponta_para": "piora"
     },
     {
-      "area": "Poupança",
-      "classe": "media",
-      "accao": "Antes das compras de fim de ano, separe o dinheiro da comida, da renda e da escola."
-    },
-    {
-      "area": "Escola e saúde",
-      "classe": "baixa",
-      "accao": "Reserve já o dinheiro das matrículas e do material escolar, antes de gastar nas festas."
+      "o_que": "Juros médios do crédito a um ano",
+      "limiar": "abaixo de 21%",
+      "quando": "primeiro trimestre de 2027",
+      "aponta_para": "melhora"
     }
   ],
-  "revisao": [],
+  "afectados": [
+    {
+      "grupo": "PMEs",
+      "saldo": 1,
+      "porque": "crédito pode ficar menos caro"
+    },
+    {
+      "grupo": "Governo",
+      "saldo": 1,
+      "porque": "ganha confiança e acesso a apoio"
+    },
+    {
+      "grupo": "Classe média",
+      "saldo": 0,
+      "porque": "juros só descem mais tarde"
+    },
+    {
+      "grupo": "Classe baixa",
+      "saldo": -1,
+      "porque": "dólar mais forte encarece comida"
+    },
+    {
+      "grupo": "ONGs e parceiros",
+      "saldo": 1,
+      "porque": "doadores têm sinal claro"
+    }
+  ],
+  "direccao": [
+    {
+      "publico": "PMEs",
+      "agora": "Calcule o custo do crédito a 22% e espere o comunicado do FMI antes de pedir empréstimos grandes.",
+      "se_piorar": "Corte despesas e guarde dois meses de caixa."
+    },
+    {
+      "publico": "Famílias",
+      "agora": "Guarde uma reserva de um mês de despesas e compre básicos aos poucos.",
+      "se_piorar": "Compare mercados e adie compras importadas."
+    },
+    {
+      "publico": "Transportadores e comerciantes",
+      "agora": "Acompanhe o dólar e o boletim da ARENE antes de fixar preços.",
+      "se_piorar": "Reveja preços e evite dívida em dólares."
+    },
+    {
+      "publico": "Investidores",
+      "agora": "Espere o comunicado do FMI e o regulamento da Lei 9/2026 antes de comprometer capital.",
+      "se_piorar": "Adie decisões até haver calendário."
+    }
+  ],
+  "visao_contraria": "O país já pagou ao FMI e a economia cresce, pouco mas cresce. Pode aguentar sem programa, mas sem o selo do Fundo os doadores esperam, e a tesouraria continua apertada.",
+  "nao_sabemos": [
+    "O valor do programa ainda não foi divulgado.",
+    "Ainda não há data para o Conselho Executivo do FMI.",
+    "O Governo não disse que medidas fiscais o Fundo exige."
+  ],
+  "sinal": "Comunicado do FMI sobre acordo técnico até 19 de Dezembro.",
+  "confianca": "media",
+  "base_confianca": "Uma fonte principal, a Lusa, com declarações do porta-voz do Governo, e dados do FMI de 2025; valor do programa desconhecido.",
   "textos": {
-    "whatsapp": "*O SEU BOLSO*\n\n*Milho e arroz custam menos que há um ano, mas o adubo sobe até 41%*\n\nQuem compra comida está a ter um alívio que pouca gente nota. Segundo o relatório da AGRA, citado pela Lusa, em Setembro o milho estava 15,6% mais barato do que um ano antes e o arroz 27,6% mais barato.\n\nO problema está no campo. O adubo NPK subiu 22,3% num ano e a ureia 41,5%. Quem cultiva para comer ou para vender vai pagar mais para semear numa época em que a FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro.\n\nOs preços em geral também mexeram. O INE registou 0,48% de inflação em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa de um ano ficou em 6,32%.\n\n*O QUE MUDOU*\n\nO Governo ainda não decidiu a taxa de 15 cêntimos de dólar por litro de combustível. Se passar, pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo, que está em 116,25 meticais desde Maio. Em Maputo, o chapa fica a 15 meticais, com compensações por três meses.\n\n*DIRECÇÃO*\n\nCompras: compre milho e arroz aos poucos e compare mercados. Os preços baixos de hoje podem não durar com o El Niño.\n\nAgricultura: compre adubo e sementes já e junte-se a vizinhos para comprar em grupo. Quem espera, paga mais.\n\nTransporte: pague a tarifa afixada e guarde uma folga para depois de Fevereiro, quando acabam as compensações.\n\nPoupança: antes das compras de fim de ano, separe o dinheiro da comida e da escola. O resto fica para depois.\n\nNegócio informal: não faça stock grande de produtos que dependem do transporte. Compre menos, mais vezes.\n\n*PRÓXIMA SEMANA*\n\nFique atento à votação da taxa dos combustíveis e ao anúncio da ARENE. Se o preço mexer, o chapa e a comida sentem primeiro.\n\nPartilhe esta mensagem com quem compra adubo ou faz as compras da casa.",
-    "instagram": "Milho 15,6% e arroz 27,6% mais baratos que há um ano. O adubo subiu até 41%. Compre cedo, junte-se a vizinhos e guarde folga para os combustíveis. Direcção no Seu Bolso. #SeuBolso #Moçambique",
-    "facebook": "O Seu Bolso desta quarta-feira traz uma boa e uma má notícia.\n\nA boa: segundo a AGRA, citada pela Lusa, em Setembro o milho custava 15,6% menos e o arroz 27,6% menos do que um ano antes.\n\nA má: o adubo NPK subiu 22,3% e a ureia 41,5% num ano. Quem vai semear nesta campanha paga mais, com chuva abaixo da média prevista pela FEWS NET para Dezembro a Fevereiro.\n\nOs preços em geral também aceleraram. O INE registou 0,48% de inflação em Outubro, contra 0,16% em Setembro, com a homóloga em 6,32%.\n\nO Governo ainda não votou a taxa de 15 cêntimos de dólar por litro de combustível. Se passar, o gasóleo pode subir 6,36 meticais. O chapa de Maputo mantém os 15 meticais, com compensações por três meses.\n\nPara as famílias, o alívio na comida é real, mas pode ser curto se a colheita falhar. Para quem cultiva, cada saco de adubo pesa mais no orçamento do que há um ano.\n\nO que fazer: compre milho e arroz aos poucos e compare mercados. Quem semeia deve comprar adubo e sementes já, em grupo, para pagar menos. E guarde folga no orçamento para depois de Fevereiro.\n\n#SeuBolso #Moçambique",
-    "linkedin": "Seu Bolso: comida mais barata, adubo mais caro\n\nSegundo o relatório de Setembro da AGRA, citado pela Lusa, o milho custava 15,6% menos e o arroz 27,6% menos do que um ano antes. Para as famílias urbanas, é um alívio real depois de meses de pressão nos preços.\n\nNo campo a conta é outra. O adubo NPK subiu 22,3% e a ureia 41,5% em termos homólogos. A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro e o PAM só mantém a ajuda actual até Dezembro. Um agricultor que corta no adubo tende a colher menos, e uma colheita menor pode inverter os preços baixos de hoje.\n\nA inflação também mexeu. O INE registou 0,48% em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa de um ano ficou em 6,32%.\n\nPara quem vive de vender comida ou de a transportar, a margem é apertada: o custo de comprar sobe quando o transporte encarece, e o cliente nem sempre aceita pagar mais.\n\nHá ainda a taxa de 15 cêntimos de dólar por litro de combustível, proposta pelo Governo e por votar. Pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo, que está em 116,25 meticais desde Maio. Para quem transporta mercadoria, isso entra no preço final.\n\nDirecção\n\nFamílias: comprar básicos aos poucos e comparar mercados.\n\nPequenos agricultores e associações: comprar adubo e sementes cedo, em grupo.\n\nPequenos negócios: comprar menos e mais vezes, e rever preços quando o transporte subir.\n\nConclusão: o alívio na comida é real, mas depende da próxima colheita, e essa depende do adubo comprado agora.\n\n#SeuBolso #Moçambique"
+    "whatsapp": "*DIRECÇÃO DO DIA: O FMI ficou para Dezembro. O que muda para si?*\n\nO Governo adiou para a primeira quinzena de Dezembro a decisão sobre o novo programa do Fundo Monetário Internacional. O porta-voz Inocêncio Impissa disse a 24 de Novembro que o atraso vem dos trâmites internos do FMI e não de um desacordo. As equipas técnicas já fecharam os principais entendimentos.\n\n*PORQUE IMPORTA*\nO programa anterior, de cerca de 468 milhões de dólares, parou em Abril de 2025 com 343 milhões pagos. Em Março deste ano o país pagou antecipadamente 698,6 milhões de dólares ao Fundo. Sem programa, os parceiros esperam sinais antes de emprestar, e o Estado continua com problemas de tesouraria.\n\n*TRÊS CENÁRIOS*\n1. Acordo técnico em Dezembro, 50%. Sai o comunicado do FMI até 31 de Dezembro e a confiança melhora. Ganham o Estado e as PMEs que dependem de contratos públicos.\n2. Decisão escorrega para 2027, 35%. Não há comunicado até ao fim do ano e o crédito continua a 22%. Perdem as PMEs e os agricultores.\n3. Impasse sobre dívida e tesouraria, 15%. O FMI e o Governo discordam das medidas e o câmbio sobe acima de 65 meticais por dólar. Perdem as famílias, com combustível e comida mais caros.\n\n*A CONTA*\nUma PME que peça 500.000 meticais por um ano paga hoje cerca de 111.300 de juros, a 22,26% ao ano. A 20% pagaria 100.000 e à taxa prime de 15,5% pagaria 77.500. Cada ponto percentual a menos poupa 5.000 meticais por ano.\n\n*A OUTRA VISÃO*\nHá quem defenda que o país aguenta sem programa, porque já pagou ao Fundo e a economia cresce pouco mas cresce. O risco é ficar sem o selo que os doadores procuram.\n\n*DIRECÇÃO*\nPMEs: não assine crédito grande antes do comunicado do FMI. Famílias: guarde uma reserva de um mês de despesas até Janeiro. Transportadores e comerciantes: acompanhem o câmbio, porque acima de 65 meticais por dólar os combustíveis ficam mais caros.\n\n*O QUE OBSERVAR*\nComunicado do FMI até 19 de Dezembro.\n\nPartilhe com quem trabalha com crédito.",
+    "instagram": "O FMI ficou para Dezembro. O Governo diz que o atraso é interno ao Fundo e que os entendimentos técnicos estão fechados. Três cenários: acordo até 31 de Dezembro (50%), decisão em 2027 (35%) ou impasse (15%). Uma PME com 500.000 meticais paga hoje cerca de 111.300 de juros por ano. Guarde uma reserva e espere o comunicado.",
+    "facebook": "O Governo adiou para a primeira quinzena de Dezembro a decisão sobre o novo programa do Fundo Monetário Internacional. A explicação, dada a 24 de Novembro pelo porta-voz Inocêncio Impissa, é que o atraso vem dos trâmites internos do FMI e não de um desacordo. As equipas técnicas já fecharam os principais entendimentos.\n\nPorque importa: o programa anterior, de cerca de 468 milhões de dólares, parou em Abril de 2025 com 343 milhões pagos. Em Março o país pagou antecipadamente 698,6 milhões de dólares. Sem programa, os parceiros esperam sinais antes de emprestar.\n\nO que pode acontecer: acordo técnico até 31 de Dezembro, com 50% de probabilidade; decisão só em 2027, com 35%; ou impasse sobre dívida e tesouraria, com 15%.\n\nA conta: uma PME que peça 500.000 meticais por um ano paga hoje cerca de 111.300 de juros, a 22,26%. A 20% pagaria 100.000. Cada ponto percentual a menos poupa 5.000 meticais por ano, mas a descida dos juros não está garantida.\n\nA direcção: quem pensa pedir crédito grande deve esperar o comunicado do FMI, previsto até meados de Dezembro. As famílias devem guardar uma reserva de um mês de despesas. #Moçambique #FMI",
+    "linkedin": "O Governo moçambicano adiou para a primeira quinzena de Dezembro a decisão sobre um novo programa com o FMI. O porta-voz do Conselho de Ministros disse a 24 de Novembro que o atraso resulta dos trâmites internos do Fundo e que os principais entendimentos técnicos estão fechados.\n\nO contexto pesa. O programa de 2022, de cerca de 468 milhões de dólares, terminou em Abril de 2025 com 343 milhões desembolsados. Em Março de 2026 o Estado pagou antecipadamente 698,6 milhões de dólares ao FMI, o que abriu a porta a uma nova negociação. A ministra das Finanças, Carla Louveira, reconhece problemas de tesouraria e promete um pacote de consolidação orçamental.\n\nCenários: acordo técnico até 31 de Dezembro, 50%, porque as equipas já fecharam os principais entendimentos; decisão em 2027, 35%, porque a data de Novembro já escorregou uma vez; impasse sobre dívida e tesouraria, 15%.\n\nA conta: com juros médios de 22,26%, uma PME que peça 500.000 meticais por um ano paga cerca de 111.300 de juros. Cada ponto percentual a menos vale 5.000 meticais por ano. A descida não está garantida, e o argumento contrário merece peso: o país pagou ao Fundo e pode aguentar sem programa, ao custo de menos confiança dos doadores.\n\nDirecção: gestores e PMEs devem adiar decisões de crédito grande até ao comunicado do FMI e testar o orçamento com o dólar acima de 65 meticais. O sinal a seguir, para toda a equipa financeira, é o comunicado de acordo técnico até 19 de Dezembro.\n\n#Moçambique #FMI #Economia"
   },
   "fontes": [
     {
-      "fonte": "Lusa (RTP), relatório AGRA",
-      "url": "https://www.rtp.pt/noticias/mundo/inseguranca-alimentar-grave-afeta-184-milhoes-de-mocambicanos-apesar-de-melhorias_n1772019"
+      "fonte": "Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/economia/3089433/mocambique-aguarda-decisao-sobre-novo-programa-do-fmi-ate-dezembro",
+      "data": "2026-11-24"
     },
     {
-      "fonte": "INE, via Forbes África Lusófona",
-      "url": "https://forbesafricalusofona.com/?p=178681"
+      "fonte": "360 Mozambique",
+      "url": "https://360mozambique.com/economy/mozambique-aims-to-finalise-imf-programme-by-end-of-2026/",
+      "data": "2026-09-11"
     },
     {
-      "fonte": "ARENE via Lusa (Notícias ao Minuto)",
-      "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1"
+      "fonte": "Africanews",
+      "url": "https://www.africanews.com/2026/04/02/mozambique-clears-imf-debt-early/",
+      "data": "2026-04-02"
+    },
+    {
+      "fonte": "FMI, comunicado 25/115",
+      "url": "https://www.imf.org/en/news/articles/2025/04/18/pr25115-mozambique-imf-statement-on-mozambique",
+      "data": "2025-04-18"
     }
   ],
-  "data": "2026-11-25",
-  "dia_semana": "quarta",
+  "data": "2026-11-26",
+  "dia_semana": "quinta",
   "semana": "2026-S48",
   "versao": 1,
   "aprovada": false,
-  "series": [
-    {
-      "id": "gasolina",
-      "nome": "Gasolina",
-      "unidade": "MT/litro",
-      "ultimo": {
-        "data": "2026-05-07",
-        "valor": 93.69,
-        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
-        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
-        "nota": "Preço fixado em Maio; sem revisão confirmada até 16 de Outubro"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-05-07",
-          93.69
-        ]
-      ]
-    },
-    {
-      "id": "gasoleo",
-      "nome": "Gasóleo",
-      "unidade": "MT/litro",
-      "ultimo": {
-        "data": "2026-05-07",
-        "valor": 116.25,
-        "fonte": "ARENE via Lusa (Notícias ao Minuto)",
-        "url": "https://www.noticiasaominuto.com/mundo/2985431/litro-de-gasoleo-vai-subir-em-mocambique-em-45-5-e-gasolina-em-12-1",
-        "nota": "Era 79,88; sem revisão confirmada até 16 de Outubro"
-      },
-      "var4": null,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-05-07",
-          116.25
-        ]
-      ]
-    },
-    {
-      "id": "inflacao",
-      "nome": "Inflação anual",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-11-09",
-        "valor": 6.32,
-        "fonte": "INE, via Forbes África Lusófona",
-        "url": "https://forbesafricalusofona.com/?p=178681",
-        "nota": "Outubro de 2026, taxa homóloga; mensal 0,48%"
-      },
-      "var4": 0.2,
-      "var12": null,
-      "pontos": [
-        [
-          "2026-10-09",
-          6.31
-        ],
-        [
-          "2026-11-09",
-          6.32
-        ]
-      ]
-    },
-    {
-      "id": "mimo",
-      "nome": "Taxa MIMO",
-      "unidade": "%",
-      "ultimo": {
-        "data": "2026-11-04",
-        "valor": 9.25,
-        "fonte": "Lusa, Banco de Moçambique",
-        "url": "https://www.noticiasaominuto.com/economia/3078151/credito-a-economia-mocambicana-cai-em-agosto",
-        "nota": "Mantida"
-      },
-      "var4": 0,
-      "var12": 0,
-      "pontos": [
-        [
-          "2026-05-25",
-          9.25
-        ],
-        [
-          "2026-09-30",
-          9.25
-        ],
-        [
-          "2026-11-04",
-          9.25
-        ]
-      ]
-    }
-  ],
-  "regional": {
-    "regioes": [
-      {
-        "id": "maputo",
-        "nome": "Maputo",
-        "zona": "Sul"
-      },
-      {
-        "id": "beira",
-        "nome": "Beira",
-        "zona": "Centro"
-      },
-      {
-        "id": "nampula",
-        "nome": "Nampula",
-        "zona": "Norte"
-      }
-    ],
-    "linhas": [
-      {
-        "base": "chapa",
-        "nome": "Chapa urbano",
-        "unidade": "MT/viagem",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": 15,
-            "data": "2026-11-06",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": 20,
-            "data": "2026-05-13",
-            "var4": null
-          }
-        ]
-      },
-      {
-        "base": "inflacao",
-        "nome": "Inflação anual",
-        "unidade": "%",
-        "cidades": [
-          {
-            "regiao": "maputo",
-            "nome": "Maputo",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "beira",
-            "nome": "Beira",
-            "valor": null,
-            "data": "",
-            "var4": null
-          },
-          {
-            "regiao": "nampula",
-            "nome": "Nampula",
-            "valor": null,
-            "data": "",
-            "var4": null
-          }
-        ]
-      }
-    ]
-  },
-  "falhas": [],
-  "imagens": {
-    "slides": [
-      "data/dia/feed/slide-01.png",
-      "data/dia/feed/slide-02.png",
-      "data/dia/feed/slide-03.png",
-      "data/dia/feed/slide-04.png",
-      "data/dia/feed/slide-05.png",
-      "data/dia/feed/slide-06.png"
-    ],
-    "stories": [
-      "data/dia/story/slide-01.png",
-      "data/dia/story/slide-02.png",
-      "data/dia/story/slide-03.png",
-      "data/dia/story/slide-04.png",
-      "data/dia/story/slide-05.png",
-      "data/dia/story/slide-06.png"
-    ],
-    "tipos": [
-      "capa-bolso",
-      "indicadores",
-      "regioes-precos",
-      "regioes-direccao",
-      "o-que-mudou",
-      "direccoes"
-    ],
-    "pdf": "data/dia/linkedin-carrossel.pdf",
-    "v": 1795586394264
-  }
+  "falhas": [
+    "Fala do processo interno: \"O sinal a seguir, para toda a equipa financeira, é o comunicado de acordo técnico até 19 d\""
+  ]
 }

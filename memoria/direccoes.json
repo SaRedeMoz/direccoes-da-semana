@@ -905,5 +905,29 @@
     "verificar_em": "2026-12-23",
     "resultado": "pendente",
     "nota": ""
+  },
+  {
+    "id": "D75",
+    "data": "2026-11-26",
+    "semana": "2026-S48",
+    "publico": "PMEs",
+    "accao": "Calcular o custo do crédito com juros de 22% e esperar o anúncio do FMI antes de grandes empréstimos.",
+    "tema": "fmi",
+    "horizonte": "mes",
+    "verificar_em": "2027-01-05",
+    "resultado": "pendente",
+    "nota": ""
+  },
+  {
+    "id": "D76",
+    "data": "2026-11-26",
+    "semana": "2026-S48",
+    "publico": "Famílias",
+    "accao": "Guardar uma reserva de um mês de despesas antes do fim da ajuda do PAM em Dezembro.",
+    "tema": "el_nino",
+    "horizonte": "mes",
+    "verificar_em": "2026-12-31",
+    "resultado": "pendente",
+    "nota": ""
   }
 ]

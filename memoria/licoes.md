@@ -44,3 +44,4 @@
 - 2026-11-23 (2026-S48): A pesquisa de segunda devolve pouco material datado de 21 a 23 de Novembro; os documentos do Orçamento de 2027 foram a base mais sólida.
 - 2026-11-24 (2026-S48): A pesquisa de terça devolve pouco material datado de 23 e 24 de Novembro; as notícias de saúde chegam sem data exacta.
 - 2026-11-25 (2026-S48): Às quartas os preços de milho e arroz por cidade continuam sem aparecer datados; o relatório da AGRA dá apenas a variação homóloga nacional.
+- 2026-11-26 (2026-S48): As datas do Governo para decisões do FMI escorregam: Novembro passou a Dezembro.

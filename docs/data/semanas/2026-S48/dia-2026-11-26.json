@@ -1,0 +1,848 @@
+{
+  "semana": "2026-S48",
+  "dia": "2026-11-26",
+  "versao": 4,
+  "aprovada": false,
+  "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
+  "falhas_conformidade": [
+    "Categorias de fontes não consultadas hoje: precos, analise_independente"
+  ],
+  "itens": [
+    {
+      "titulo": "Proposta de Orçamento para 2027 prevê défice de 4,6% do PIB e crescimento de 1,6%",
+      "resumo": "O Governo propõe mobilizar 511,2 mil milhões de meticais em 2027, com receitas de 427 mil milhões (23,5% do PIB) e um défice de cerca de 83 mil milhões. A inflação média prevista é de 7% e o crédito interno fica limitado a 1,9% do PIB; a proposta ainda tem de ser aprovada pela Assembleia da República.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_economica",
+      "fonte": "Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=177705",
+      "data": "2026-10-19",
+      "confianca": "alta",
+      "n": 1,
+      "recolhida": "2026-11-23",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Governo quer cortar a massa salarial do Estado para 10,7% do PIB até 2029",
+      "resumo": "O cenário fiscal de médio prazo prevê a massa salarial em 12% do PIB em 2027, 11,5% em 2028 e 10,7% em 2029. As medidas incluem limitar contratações, reforçar as provas de vida, acelerar reformas e reduzir em 50% a percentagem das diuturnidades.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-preve-cortar-massa-salarial-do-estado-para-107-do-pib-ate-2029_n1759403",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 2,
+      "recolhida": "2026-11-23",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Orçamento de 2027 prevê 5.541 novas contratações na função pública",
+      "resumo": "Segundo o Governo, as novas admissões custam 1,399 mil milhões de meticais e sobem 39,9% face ao ano anterior. Convive com a meta de reduzir o peso dos salários no PIB.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-govt-plans-5541-new-civil-service-hires-in-2027-with-a-budget-impact-of-1-399-billion-meticais/",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 3,
+      "recolhida": "2026-11-23",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Único aparelho de radioterapia do país continua parado e o Governo tenta comprar outro",
+      "resumo": "O ministro da Saúde, Ussene Isse, disse na segunda Mozambique Medical Expo, em Maputo, que o único equipamento de radioterapia do país está parado por falta de peças. Os doentes são enviados sobretudo para a África do Sul e a Índia, com custos altos para as famílias e para o Estado.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/unica-maquina-de-radioterapia-em-mocambique-continua-avariada_n1775049",
+      "data": "2026-10-28",
+      "confianca": "media",
+      "n": 4,
+      "recolhida": "2026-11-24",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Provedor de Justiça aponta falta de material e corrupção nos hospitais",
+      "resumo": "Ao apresentar no Parlamento o relatório de Abril de 2025 a Março de 2026, o Provedor Isaque Chande disse que os profissionais de saúde enfrentam falta de material, excesso de trabalho e atrasos no pagamento de subsídios e horas extraordinárias. As respostas das instituições às queixas subiram para 507, contra 321 no período anterior.",
+      "ambito": "nacional",
+      "dimensao": "Legal",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/provedor-de-justica-mocambicano-aponta-falta-de-material-e-indiferenca-nos-hospitais_n1775257",
+      "data": "2026-10-28",
+      "confianca": "media",
+      "n": 5,
+      "recolhida": "2026-11-24",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Orçamento de 2027 prevê 2.920 professores e 598 profissionais de saúde novos",
+      "resumo": "Dos 5.541 admissões previstas na função pública, a educação fica com a maior parte e a saúde com 598 técnicos, a um custo de 161 milhões de meticais. Saúde e educação continuam isentas das restrições de contratação.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com/news/mozambique-government-plans-to-recruit-2920-more-teachers-598-healthcare-workers-next-year/",
+      "data": "2026-10-20",
+      "confianca": "media",
+      "n": 6,
+      "recolhida": "2026-11-24",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Mais de 7.000 pessoas fugiram de ataques em Cabo Delgado em cinco semanas",
+      "resumo": "Segundo a OIM, 7.029 pessoas foram deslocadas entre 21 de Setembro e 27 de Outubro, quase 80% mulheres e crianças. A província tem mais de 205.000 deslocados e o Governo confirmou novos ataques em Muidumbe.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt/noticias/mundo/mocambique-mais-de-7-000-pessoas-fugiram-de-novos-ataques-num-mes_n1777017",
+      "data": "2026-10-28",
+      "confianca": "media",
+      "n": 7,
+      "recolhida": "2026-11-24",
+      "na_edicao": false
+    },
+    {
+      "titulo": "SADC reúne ministros da Saúde e do VIH em Durban de 9 a 13 de Novembro",
+      "resumo": "A SADC convocou os ministros da Saúde e do VIH/SIDA para definir prioridades regionais de saúde. Os resultados da reunião ainda não foram divulgados.",
+      "ambito": "mundo",
+      "dimensao": "Social",
+      "categoria": "regional",
+      "fonte": "SADC",
+      "url": "https://www.sadc.int/pt-pt/media-releases-and-statements",
+      "data": "2026-11-09",
+      "confianca": "baixa",
+      "n": 8,
+      "recolhida": "2026-11-24",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Incêndio atinge o serviço de oncologia do Hospital Central de Maputo, com reconstrução avaliada em 35 milhões de dólares",
+      "resumo": "O incêndio de 1 de Novembro obrigou a retirar 22 doentes internados, sem vítimas, e o serviço mantém cerca de 90 consultas por dia. Ministros e deputados doam pelo menos um dia de salário e os primeiros cálculos apontam para 35 milhões de dólares.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa) e Club of Mozambique",
+      "url": "https://www.rtp.pt/noticias/mundo/deputados-mocambicanos-doam-um-dia-de-salario-para-apoiar-reposicao-de-servico-de-oncologia_n1776782",
+      "data": "2026-11-01",
+      "confianca": "media",
+      "n": 9,
+      "recolhida": "2026-11-24",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Milho e arroz custam menos que há um ano, mas adubo sobe até 41%",
+      "resumo": "Segundo o relatório de Setembro da AGRA, citado pela Lusa, o milho estava 15,6% mais barato e o arroz 27,6% mais barato do que um ano antes, enquanto o NPK subiu 22,3% e a ureia 41,5%. Cerca de 1,84 milhões de pessoas estavam em insegurança alimentar grave, menos 48% do que em Agosto.",
+      "ambito": "nacional",
+      "dimensao": "Social",
+      "categoria": "precos",
+      "fonte": "Lusa (RTP), relatório da AGRA",
+      "url": "https://www.rtp.pt/noticias/mundo/inseguranca-alimentar-grave-afeta-184-milhoes-de-mocambicanos-apesar-de-melhorias_n1772019",
+      "data": "2026-11-25",
+      "confianca": "media",
+      "n": 10,
+      "recolhida": "2026-11-25",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Inflação mensal sobe para 0,48% em Outubro e a homóloga fica em 6,32%",
+      "resumo": "O INE registou 0,48% de inflação mensal em Outubro, contra 0,16% em Setembro, com alimentos, restauração e transportes a puxar. A taxa homóloga manteve-se em 6,32%.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "oficiais",
+      "fonte": "INE, via Forbes África Lusófona",
+      "url": "https://forbesafricalusofona.com/?p=178681",
+      "data": "2026-11-09",
+      "confianca": "alta",
+      "n": 11,
+      "recolhida": "2026-11-25",
+      "na_edicao": false
+    },
+    {
+      "titulo": "Governo adia para Dezembro a decisão sobre o novo programa do FMI",
+      "resumo": "O porta-voz do Conselho de Ministros, Inocêncio Impissa, disse que a decisão prevista para este mês passou para a primeira quinzena de Dezembro, por trâmites internos do FMI e não por desacordo. As equipas técnicas já fecharam os principais entendimentos e há reunião marcada para levar o processo aos órgãos de decisão do Fundo.",
+      "ambito": "mundo",
+      "dimensao": "Económica",
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/economia/3089433/mocambique-aguarda-decisao-sobre-novo-programa-do-fmi-ate-dezembro",
+      "data": "2026-11-24",
+      "confianca": "alta",
+      "n": 12,
+      "recolhida": "2026-11-26",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Conselho de Ministros aprova concessão para reactivar o porto de Quelimane",
+      "resumo": "O Governo aprovou os termos da concessão do porto de Quelimane, parado desde 2017, num investimento acima de 100 milhões de dólares em duas fases. A primeira, de cerca de 58 milhões, cobre reabilitação, dragagem dos canais e outras obras, com os CFM entre os sócios.",
+      "ambito": "nacional",
+      "dimensao": "Económica",
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/mundo/3089603/mocambique-aprova-concessao-para-reativar-porto-de-quelimane",
+      "data": "2026-11-24",
+      "confianca": "alta",
+      "n": 13,
+      "recolhida": "2026-11-26",
+      "na_edicao": true
+    },
+    {
+      "titulo": "Governo anuncia mais controlo do Estado sobre combustíveis, medicamentos e cereais",
+      "resumo": "Depois da 34.ª sessão do Conselho de Ministros, o Governo disse que vai acompanhar estes sectores da importação ao consumidor, sem nacionalizar empresas. O Banco de Moçambique registou 660,6 milhões de dólares em importações de combustíveis no primeiro semestre, mais 79,4% do segundo trimestre face ao primeiro.",
+      "ambito": "nacional",
+      "dimensao": "Política",
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa (Notícias ao Minuto)",
+      "url": "https://www.noticiasaominuto.com/mundo/3089483/mocambique-reforca-supervisao-de-combustiveis-medicamentos-e-cereais",
+      "data": "2026-11-24",
+      "confianca": "alta",
+      "n": 14,
+      "recolhida": "2026-11-26",
+      "na_edicao": true
+    }
+  ],
+  "lacunas": [
+    "Preços de milho, arroz e chapa na Beira",
+    "Valor do programa do FMI",
+    "Região: SADC e comércio"
+  ],
+  "fontes_consultadas": [
+    {
+      "categoria": "oficiais",
+      "fonte": "Banco de Moçambique",
+      "url": "https://www.bancomoc.mz",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "MASA/SIMA, INE",
+      "url": "https://www.masa.gov.mz",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "imprensa_economica",
+      "fonte": "Club of Mozambique",
+      "url": "https://clubofmozambique.com",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa / RTP",
+      "url": "https://www.rtp.pt",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "FMI",
+      "url": "https://www.imf.org",
+      "data": "2026-11-23"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "RTP (Lusa)",
+      "url": "https://www.rtp.pt",
+      "data": "2026-11-24"
+    },
+    {
+      "categoria": "regional",
+      "fonte": "SADC",
+      "url": "https://www.sadc.int",
+      "data": "2026-11-24"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "ARENE",
+      "url": "https://www.arene.gov.mz",
+      "data": "2026-11-24"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "MASA/SIMA",
+      "url": "https://www.masa.gov.mz",
+      "data": "2026-11-24"
+    },
+    {
+      "categoria": "precos",
+      "fonte": "AGRA via Lusa (RTP)",
+      "url": "https://www.rtp.pt/noticias/mundo/inseguranca-alimentar-grave-afeta-184-milhoes-de-mocambicanos-apesar-de-melhorias_n1772019",
+      "data": "2026-11-25"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "INE",
+      "url": "https://forbesafricalusofona.com/?p=178681",
+      "data": "2026-11-25"
+    },
+    {
+      "categoria": "humanitario",
+      "fonte": "ReliefWeb / OCHA Moçambique",
+      "url": "https://reliefweb.int/country/moz",
+      "data": "2026-11-25"
+    },
+    {
+      "categoria": "imprensa_nacional",
+      "fonte": "Lusa",
+      "url": "https://www.noticiasaominuto.com",
+      "data": "2026-11-26"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "360 Mozambique",
+      "url": "https://360mozambique.com/economy/mozambique-aims-to-finalise-imf-programme-by-end-of-2026/",
+      "data": "2026-11-26"
+    },
+    {
+      "categoria": "internacional",
+      "fonte": "Africanews",
+      "url": "https://www.africanews.com/2026/04/02/mozambique-clears-imf-debt-early/",
+      "data": "2026-11-26"
+    },
+    {
+      "categoria": "oficiais",
+      "fonte": "FMI",
+      "url": "https://www.imf.org/en/news/articles/2025/04/18/pr25115-mozambique-imf-statement-on-mozambique",
+      "data": "2026-11-26"
+    }
+  ],
+  "memoria": {
+    "em": "2026-11-26",
+    "indicadores": 0,
+    "temas": 2,
+    "direccoes": 2
+  },
+  "analise": {
+    "destaques": {
+      "mundo": [
+        "FMI: decisão sobre o novo programa passa para a primeira quinzena de Dezembro",
+        "Tanzânia condena Tundu Lissu a quatro anos, mas absolve-o de traição",
+        "El Niño forte até 2027 ameaça a época chuvosa na África Austral",
+        "Petróleo perto de 98 dólares o barril mantém pressão sobre os combustíveis importados"
+      ],
+      "nacional": [
+        "Quelimane: concessão de mais de 100 milhões de dólares para reactivar o porto",
+        "Governo vai acompanhar combustíveis, medicamentos e cereais da importação ao consumidor",
+        "Saúde: único aparelho de radioterapia parado e hospitais sem material",
+        "Orçamento de 2027: défice de 4,6% do PIB e 5.541 novas contratações",
+        "Chapo recebe ExxonMobil e Eni: gás do Rovuma entre a decisão e a obra",
+        "Inflação de 6,32% em Outubro e crédito a cair pelo terceiro mês"
+      ]
+    },
+    "pestal": [
+      {
+        "dimensao": "Política",
+        "oportunidades": [
+          {
+            "texto": "Regra dos 20% para PMEs",
+            "origem": "interna"
+          },
+          {
+            "texto": "Corte de subsídios a dirigentes",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Julgamento de Mondlane sem transmissão",
+            "origem": "interna"
+          },
+          {
+            "texto": "Contratações sobem, salários pesam",
+            "origem": "interna"
+          },
+          {
+            "texto": "Mais Estado em cereais e combustíveis",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Corte de subsídios a dirigentes",
+        "principal_ameaca": "Tensão em torno do julgamento de Mondlane"
+      },
+      {
+        "dimensao": "Económica",
+        "oportunidades": [
+          {
+            "texto": "Programa do FMI em Dezembro",
+            "origem": "externa"
+          },
+          {
+            "texto": "Receitas do Estado mais 10,3%",
+            "origem": "interna"
+          },
+          {
+            "texto": "Abu Dhabi: 500 milhões de dólares",
+            "origem": "externa"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Petróleo perto de 98 dólares",
+            "origem": "externa"
+          },
+          {
+            "texto": "Crédito em queda, juros a 22%",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Acordo com o FMI em Dezembro",
+        "principal_ameaca": "Crédito caro e em queda"
+      },
+      {
+        "dimensao": "Social",
+        "oportunidades": [
+          {
+            "texto": "Contingência de 39,8 mil milhões",
+            "origem": "interna"
+          },
+          {
+            "texto": "598 profissionais de saúde em 2027",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "65% dos jovens sem emprego",
+            "origem": "interna"
+          },
+          {
+            "texto": "Ajuda do PAM só até Dezembro",
+            "origem": "externa"
+          },
+          {
+            "texto": "Radioterapia parada, doentes vão ao estrangeiro",
+            "origem": "interna"
+          },
+          {
+            "texto": "Mais de 205.000 deslocados",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Plano de contingência aprovado",
+        "principal_ameaca": "Radioterapia parada, ajuda do PAM a acabar"
+      },
+      {
+        "dimensao": "Tecnológica",
+        "oportunidades": [
+          {
+            "texto": "Portal Emprego do INEP",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Plataformas de apostas sem licença",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 1,
+        "principal_oportunidade": "Portal Emprego do INEP",
+        "principal_ameaca": "Apostas online sem licença"
+      },
+      {
+        "dimensao": "Ambiental",
+        "oportunidades": [
+          {
+            "texto": "Campanha agrária lançada no Niassa",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Chuva abaixo da média até Fevereiro",
+            "origem": "externa"
+          },
+          {
+            "texto": "El Niño forte até 2027",
+            "origem": "externa"
+          }
+        ],
+        "peso_oportunidade": 1,
+        "peso_ameaca": 3,
+        "principal_oportunidade": "Campanha agrária em marcha",
+        "principal_ameaca": "Chuva abaixo da média até Fevereiro"
+      },
+      {
+        "dimensao": "Legal",
+        "oportunidades": [
+          {
+            "texto": "Lei 9/2026 do conteúdo local",
+            "origem": "interna"
+          },
+          {
+            "texto": "Primeiro julgamento gravado e transcrito",
+            "origem": "interna"
+          }
+        ],
+        "ameacas": [
+          {
+            "texto": "Regulamento ainda por publicar",
+            "origem": "interna"
+          },
+          {
+            "texto": "Julgamento longo, 36 testemunhas",
+            "origem": "interna"
+          }
+        ],
+        "peso_oportunidade": 2,
+        "peso_ameaca": 2,
+        "principal_oportunidade": "Preferência de 20% a nacionais",
+        "principal_ameaca": "Julgamento de Mondlane pode arrastar-se"
+      }
+    ],
+    "impacto": [
+      {
+        "grupo": "Governo",
+        "saldo": 1,
+        "porque": "receitas sobem, subsídios cortados",
+        "efeito": "positivo",
+        "explicacao": "A proposta de Orçamento de 2027 reduz o défice para 4,6% do PIB e quer baixar a massa salarial para 10,7% do PIB até 2029, mas prevê 5.541 contratações. Receitas subiram 10,3% até Setembro e a despesa caiu 7%. O decreto de 17 de Novembro suspende subsídios a dirigentes."
+      },
+      {
+        "grupo": "Classe baixa",
+        "saldo": -2,
+        "porque": "comida cara e chuva fraca",
+        "efeito": "negativo",
+        "explicacao": "Os preços subiram 0,48% em Outubro, com hortícolas e peixe à cabeça, e a chuva abaixo da média ameaça a colheita antes do fim da ajuda do PAM. Nos hospitais públicos faltam material e pessoal, segundo o Provedor de Justiça, e o único aparelho de radioterapia está parado."
+      },
+      {
+        "grupo": "Classe média",
+        "saldo": -1,
+        "porque": "crédito caro e preços a subir",
+        "efeito": "negativo",
+        "explicacao": "Os juros médios a um ano estão em 22,26% e a inflação anual em 6,32%, o que aperta prestações e compras."
+      },
+      {
+        "grupo": "Classe alta e investidores",
+        "saldo": 1,
+        "porque": "gás e contratos públicos avançam",
+        "efeito": "positivo",
+        "explicacao": "A ENH entra no Coral Norte e o Estado apoia a central de Temane, o que mantém negócios de energia e fornecimento. O Fundo de Abu Dhabi assinou um acordo de 500 milhões de dólares com Moçambique, mas o julgamento político pode pesar na confiança."
+      },
+      {
+        "grupo": "ONGs e parceiros",
+        "saldo": -1,
+        "porque": "mais procura e menos financiamento",
+        "efeito": "negativo",
+        "explicacao": "O PAM só mantém a ajuda actual até Dezembro, enquanto o El Niño aumenta as necessidades."
+      },
+      {
+        "grupo": "Macroeconomia",
+        "saldo": 1,
+        "porque": "receitas fortes, inflação contida",
+        "efeito": "positivo",
+        "explicacao": "A inflação de 6,32% e a taxa MIMO estável em 9,25% dão estabilidade, apesar do petróleo caro e do crédito em queda. Um programa do FMI traria disciplina e confiança, mas a decisão ficou para Dezembro."
+      },
+      {
+        "grupo": "PMEs",
+        "saldo": 0,
+        "porque": "contratos novos, crédito escasso",
+        "efeito": "misto",
+        "explicacao": "A regra dos 20% e o acordo do Standard Bank abrem contratos, mas o crédito caiu três meses seguidos e os juros são altos."
+      },
+      {
+        "grupo": "Ramos de negócio",
+        "saldo": 0,
+        "porque": "energia ganha, agricultura perde",
+        "efeito": "misto",
+        "explicacao": "Energia, gás, obras públicas e o porto de Quelimane ganham; a agricultura de sequeiro e o transporte perdem com a seca e o combustível."
+      }
+    ],
+    "direccao": [
+      {
+        "publico": "Famílias",
+        "accao": "Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro."
+      },
+      {
+        "publico": "Pequenos agricultores",
+        "accao": "Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito."
+      },
+      {
+        "publico": "PMEs",
+        "accao": "Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato."
+      },
+      {
+        "publico": "Jovens à procura de emprego",
+        "accao": "Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada."
+      },
+      {
+        "publico": "Investidores",
+        "accao": "Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital."
+      },
+      {
+        "publico": "Doentes e famílias",
+        "accao": "Pedir cedo a referência médica, guardar recibos e perguntar no hospital central onde o tratamento está disponível."
+      }
+    ],
+    "sinal": "Acordo técnico com o FMI até meados de Dezembro, votação da taxa dos combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, regulamento da Lei 9/2026 e decisão final do Rovuma LNG.",
+    "sintese": "O Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%. A decisão sobre o novo programa do FMI passou para a primeira quinzena de Dezembro, enquanto o crédito caro e a chuva fraca apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.",
+    "o_que_mudou_hoje": "O Governo adiou para a primeira quinzena de Dezembro a decisão sobre o novo programa do FMI, aprovou a concessão do porto de Quelimane e anunciou mais controlo sobre combustíveis, medicamentos e cereais.",
+    "canais": [
+      {
+        "choque": "Chuva abaixo da média",
+        "passos": [
+          "El Niño forte",
+          "Menos chuva até Fevereiro",
+          "Colheita fraca",
+          "Milho e arroz mais caros",
+          "Famílias gastam mais em comida"
+        ],
+        "quem_sente": "Pequenos agricultores e classe baixa",
+        "prazo": "meses"
+      },
+      {
+        "choque": "Crédito em queda",
+        "passos": [
+          "Bancos emprestam menos",
+          "Juros a 22%",
+          "PMEs adiam investimento",
+          "Menos emprego"
+        ],
+        "quem_sente": "PMEs e jovens",
+        "prazo": "meses"
+      }
+    ],
+    "cenarios": [
+      {
+        "nome": "Melhora",
+        "probabilidade": 20,
+        "descricao": "A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%.",
+        "sinal": "Chuva acima de 80% do normal em Janeiro"
+      },
+      {
+        "nome": "Fica igual",
+        "probabilidade": 45,
+        "descricao": "Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%.",
+        "sinal": "Inflação mensal abaixo de 0,6% em Novembro"
+      },
+      {
+        "nome": "Piora",
+        "probabilidade": 35,
+        "descricao": "A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro.",
+        "sinal": "Milho mais de 10% acima do mês anterior"
+      }
+    ],
+    "riscos": [
+      {
+        "risco": "Seca na época chuvosa",
+        "probabilidade": 3,
+        "impacto": 3,
+        "nota": "A FEWS NET prevê chuva abaixo da média entre Dezembro e Fevereiro."
+      },
+      {
+        "risco": "Taxa dos combustíveis aprovada",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Pode juntar 2,92 meticais à gasolina e 6,36 ao gasóleo."
+      },
+      {
+        "risco": "Crédito continua a cair",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Caiu em Agosto pelo terceiro mês seguido."
+      },
+      {
+        "risco": "Atraso no regulamento do conteúdo local",
+        "probabilidade": 2,
+        "impacto": 2,
+        "nota": "Sem regulamento publicado, as PMEs não se podem registar."
+      },
+      {
+        "risco": "Fim da ajuda do PAM em Dezembro",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Famílias já dependentes de ajuda ficam sem apoio na época de escassez."
+      },
+      {
+        "risco": "Protestos após decisão do julgamento",
+        "probabilidade": 2,
+        "impacto": 3,
+        "nota": "Os protestos de 2024 e 2025 deixaram a economia a recuar 4,87% no último trimestre de 2024."
+      }
+    ],
+    "horizonte": {
+      "imediato": "Decisão do FMI na primeira quinzena de Dezembro, inflação de Novembro e votação da taxa dos combustíveis.",
+      "tres_meses": "Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.",
+      "um_ano": "Programa do FMI e colheita de 2027 decidem o custo de vida e o crédito às PMEs."
+    },
+    "vulnerabilidade": [
+      {
+        "grupo": "Classe baixa",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Gasta a maior parte do rendimento em comida e tem pouca poupança."
+      },
+      {
+        "grupo": "Classe média",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Sente os juros e os preços, mas tem alguma poupança."
+      },
+      {
+        "grupo": "Trabalhadores informais e agricultores",
+        "exposicao": 3,
+        "margem": 1,
+        "nota": "Dependem da chuva e do mercado diário, sem rede de protecção."
+      },
+      {
+        "grupo": "PMEs",
+        "exposicao": 2,
+        "margem": 2,
+        "nota": "Juros altos, mas contratos novos podem compensar."
+      }
+    ],
+    "confianca": {
+      "grau": "media",
+      "base": "dados do Governo, do INE e de 6 órgãos de imprensa; o valor do programa do FMI não foi divulgado"
+    },
+    "continuidade": "O FMI continua a ser o assunto financeiro da semana: a decisão prevista para Novembro foi empurrada para Dezembro, sem desacordo declarado. Os combustíveis voltam apenas pela supervisão anunciada, sem novo preço da ARENE."
+  },
+  "design": {
+    "slides": [
+      {
+        "titulo": "Direcções da Semana",
+        "texto": "",
+        "tom": "neutro",
+        "imagem_termos": "Mozambique coast landscape"
+      },
+      {
+        "titulo": "FMI: decisão fica para Dezembro",
+        "texto": "O Governo diz que o atraso vem de trâmites internos do Fundo. As equipas técnicas já fecharam os principais entendimentos.",
+        "tom": "neutro",
+        "imagem_termos": "Maputo skyline"
+      },
+      {
+        "titulo": "Quelimane: porto reabre com concessão",
+        "texto": "O Governo aprovou a concessão do porto, parado desde 2017, com mais de 100 milhões de dólares em duas fases.",
+        "tom": "oportunidade",
+        "imagem_termos": "Quelimane Mozambique"
+      },
+      {
+        "titulo": "Estado vai vigiar cereais e medicamentos",
+        "texto": "O Governo promete acompanhar combustíveis, medicamentos e cereais da importação ao consumidor, sem nacionalizar empresas.",
+        "tom": "neutro",
+        "imagem_termos": "maize market Africa"
+      },
+      {
+        "titulo": "Radioterapia parada em Moçambique",
+        "texto": "O ministro da Saúde admite que o único aparelho do país está avariado. O Governo tenta comprar outro.",
+        "tom": "alerta",
+        "imagem_termos": "hospital corridor Africa"
+      },
+      {
+        "titulo": "Chuva fraca até Fevereiro",
+        "texto": "A FEWS NET prevê chuva abaixo da média e o PAM só mantém a ajuda até Dezembro.",
+        "tom": "alerta",
+        "imagem_termos": "maize field Africa drought"
+      }
+    ],
+    "manchete": "FMI fica para Dezembro, Quelimane reabre e Estado vigia cereais",
+    "destaques_capa": [
+      "Decisão do FMI passa para Dezembro",
+      "Porto de Quelimane volta com concessão",
+      "Estado vai vigiar cereais e combustíveis"
+    ],
+    "legenda": "O Governo adiou para a primeira quinzena de Dezembro a decisão sobre o novo programa do FMI, aprovou a concessão do porto de Quelimane e anunciou mais controlo sobre cereais, medicamentos e combustíveis. Veja o que fazer já.",
+    "hashtags": [
+      "#Moçambique",
+      "#FMI"
+    ],
+    "fontes_usadas": [
+      4,
+      5,
+      12,
+      13,
+      14
+    ]
+  },
+  "textos": {
+    "whatsapp": "*MUNDO*\nO Governo moçambicano disse a 24 de Novembro que a decisão sobre o novo programa do FMI passou para a primeira quinzena de Dezembro, por trâmites internos do Fundo. A chuva abaixo da média prevista pela FEWS NET até Fevereiro mantém o alerta sobre os preços dos cereais.\n\n*MOÇAMBIQUE*\nO Conselho de Ministros aprovou a concessão do porto de Quelimane, parado desde 2017, com mais de 100 milhões de dólares em duas fases. O Governo anunciou também mais controlo sobre combustíveis, medicamentos e cereais, sem nacionalizar empresas. A inflação de Outubro foi de 0,48% no mês e 6,32% no ano, segundo o INE. O único aparelho de radioterapia do país continua parado.\n\n*QUEM GANHA E QUEM PERDE*\nGanham o Estado, com receitas a subir, os investidores de gás e energia e os fornecedores de obras como Quelimane. Perdem as famílias de baixa renda, com comida cara e chuva fraca, e as PMEs, com crédito a 22,26% ao ano.\n\n*DIRECÇÃO*\nFamílias: comprar básicos aos poucos e guardar uma reserva antes do fim da ajuda do PAM em Dezembro. Agricultores: semear cedo, com sementes de ciclo curto. PMEs: calcular os juros antes de pedir crédito grande e esperar o comunicado do FMI. Doentes: pedir cedo a referência médica e guardar recibos.\n\n*PRÓXIMA SEMANA*\nAcompanhe o comunicado do FMI, a inflação de Novembro e a votação da taxa dos combustíveis.\n\nPartilhe esta mensagem com quem precisa de saber.",
+    "linkedin": "O Governo moçambicano adiou para a primeira quinzena de Dezembro a decisão sobre o novo programa com o FMI. O porta-voz do Conselho de Ministros disse a 24 de Novembro que o atraso vem de trâmites internos do Fundo e que as equipas técnicas já fecharam os principais entendimentos.\n\nNa mesma sessão, o Governo aprovou a concessão do porto de Quelimane, parado desde 2017, com mais de 100 milhões de dólares em duas fases, e anunciou mais acompanhamento de combustíveis, medicamentos e cereais, da importação ao consumidor.\n\nO quadro macroeconómico é de estabilidade frágil. A inflação anual de 6,32% em Outubro e a taxa MIMO a 9,25% contrastam com juros médios de 22,26% e crédito a cair há três meses. A chuva abaixo da média prevista até Fevereiro e o fim da ajuda do PAM em Dezembro pressionam os preços da comida.\n\nDirecção\n\nPMEs: calcular o custo do crédito e esperar o comunicado do FMI antes de pedir empréstimos grandes. Fornecedores do Centro: preparar certidões para os concursos de Quelimane. Investidores: aguardar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG.\n\nO ponto a seguir nas próximas duas semanas é o comunicado do FMI sobre o acordo técnico.\n\n#Moçambique #FMI #Economia",
+    "instagram": "Esta semana: o FMI ficou para Dezembro, o porto de Quelimane ganhou concessão e o Estado vai vigiar cereais, medicamentos e combustíveis. A chuva fraca até Fevereiro pede reserva de comida. Guarde um mês de despesas e compare preços antes de comprar.",
+    "facebook": "Esta semana, três decisões do Governo mexem com a vida de quem vive e trabalha em Moçambique.\n\nO Governo adiou para a primeira quinzena de Dezembro a decisão sobre o novo programa do FMI. Diz que o atraso vem de trâmites internos do Fundo, não de desacordo.\n\nO Conselho de Ministros aprovou a concessão do porto de Quelimane, parado desde 2017, com mais de 100 milhões de dólares em duas fases. Pode trazer trabalho e contratos ao Centro.\n\nO Governo anunciou ainda mais controlo sobre combustíveis, medicamentos e cereais, da importação ao consumidor, sem nacionalizar empresas.\n\nAo mesmo tempo, o crédito às empresas custa em média 22,26% ao ano e a chuva até Fevereiro deve ficar abaixo da média. A ajuda do PAM só está garantida até Dezembro.\n\nA direcção desta semana: guarde uma reserva de um mês de despesas, compre básicos aos poucos e compare dois mercados antes de pagar. #Moçambique #FMI",
+    "analise_completa": "# Resumo da semana\n\nO Governo propõe para 2027 um défice de 4,6% do PIB e crescimento de 1,6%. A decisão sobre o novo programa do FMI passou para a primeira quinzena de Dezembro, enquanto o crédito caro e a chuva fraca apertam famílias e pequenos agricultores. As PMEs ganham contratos com a regra dos 20%, mas precisam de crédito que está a encolher.\n\n## O que mudou face às semanas anteriores\n\nO FMI continua a ser o assunto financeiro da semana: a decisão prevista para Novembro foi empurrada para Dezembro, sem desacordo declarado. Os combustíveis voltam apenas pela supervisão anunciada, sem novo preço da ARENE.\n\n## Mundo\n\nO Governo moçambicano disse a 24 de Novembro que o novo programa do FMI será decidido na primeira quinzena de Dezembro. O programa de 2022, de cerca de 468 milhões de dólares, terminou em Abril de 2025 com 343 milhões pagos, e em Março de 2026 o Estado pagou antecipadamente 698,6 milhões de dólares. A FEWS NET prevê chuva abaixo da média de Dezembro a Fevereiro.\n\n## Moçambique\n\nO porto de Quelimane, parado desde 2017, vai ser reactivado com uma concessão de mais de 100 milhões de dólares em duas fases, a primeira de cerca de 58 milhões. O Governo diz que vai acompanhar combustíveis, medicamentos e cereais da importação ao consumidor, sem nacionalizar empresas.\n\n## PESTAL\n\n| Dimensão | Oportunidades | Ameaças |\n|---|---|---|\n| Política | Regra dos 20% para PMEs (int.); Corte de subsídios a dirigentes (int.) | Julgamento de Mondlane sem transmissão (int.); Contratações sobem, salários pesam (int.); Mais Estado em cereais e combustíveis (int.) |\n| Económica | Programa do FMI em Dezembro (ext.); Receitas do Estado mais 10,3% (int.); Abu Dhabi: 500 milhões de dólares (ext.) | Petróleo perto de 98 dólares (ext.); Crédito em queda, juros a 22% (int.) |\n| Social | Contingência de 39,8 mil milhões (int.); 598 profissionais de saúde em 2027 (int.) | 65% dos jovens sem emprego (int.); Ajuda do PAM só até Dezembro (ext.); Radioterapia parada, doentes vão ao estrangeiro (int.); Mais de 205.000 deslocados (int.) |\n| Tecnológica | Portal Emprego do INEP (int.) | Plataformas de apostas sem licença (int.) |\n| Ambiental | Campanha agrária lançada no Niassa (int.) | Chuva abaixo da média até Fevereiro (ext.); El Niño forte até 2027 (ext.) |\n| Legal | Lei 9/2026 do conteúdo local (int.); Primeiro julgamento gravado e transcrito (int.) | Regulamento ainda por publicar (int.); Julgamento longo, 36 testemunhas (int.) |\n\n## Como chega ao seu bolso\n\n**Chuva abaixo da média**: El Niño forte, Menos chuva até Fevereiro, Colheita fraca, Milho e arroz mais caros, Famílias gastam mais em comida. Sente mais: Pequenos agricultores e classe baixa. Prazo: meses.\n\n**Crédito em queda**: Bancos emprestam menos, Juros a 22%, PMEs adiam investimento, Menos emprego. Sente mais: PMEs e jovens. Prazo: meses.\n\n## Cenários\n\n| Cenário | Probabilidade | O que acontece | Sinal |\n|---|---|---|---|\n| Melhora | 20% | A chuva chega perto do normal em Janeiro e a inflação fica abaixo de 6,5%. | Chuva acima de 80% do normal em Janeiro |\n| Fica igual | 45% | Chuva fraca no Sul e no Centro, preços sobem devagar e a inflação fica entre 6% e 7%. | Inflação mensal abaixo de 0,6% em Novembro |\n| Piora | 35% | A seca atinge a sementeira e o milho sobe, com a ajuda do PAM a acabar em Dezembro. | Milho mais de 10% acima do mês anterior |\n\n## Riscos\n\n| Risco | Probabilidade | Impacto |\n|---|---|---|\n| Seca na época chuvosa | 3 | 3 |\n| Taxa dos combustíveis aprovada | 2 | 2 |\n| Crédito continua a cair | 2 | 2 |\n| Atraso no regulamento do conteúdo local | 2 | 2 |\n| Fim da ajuda do PAM em Dezembro | 2 | 3 |\n| Protestos após decisão do julgamento | 2 | 3 |\n\n## Horizonte\n\nImediato: Decisão do FMI na primeira quinzena de Dezembro, inflação de Novembro e votação da taxa dos combustíveis.\n\nTrês meses: Chuva abaixo da média e fim da ajuda do PAM pressionam os preços do milho e do arroz até Fevereiro.\n\nUm ano: Programa do FMI e colheita de 2027 decidem o custo de vida e o crédito às PMEs.\n\n## Quem está mais exposto\n\n- Classe baixa: exposição 3, margem 1. Gasta a maior parte do rendimento em comida e tem pouca poupança.\n- Classe média: exposição 2, margem 2. Sente os juros e os preços, mas tem alguma poupança.\n- Trabalhadores informais e agricultores: exposição 3, margem 1. Dependem da chuva e do mercado diário, sem rede de protecção.\n- PMEs: exposição 2, margem 2. Juros altos, mas contratos novos podem compensar.\n\n## Quem ganha, quem perde\n\n- Governo (+1): receitas sobem, subsídios cortados\n- Classe baixa (-2): comida cara e chuva fraca\n- Classe média (-1): crédito caro e preços a subir\n- Classe alta e investidores (+1): gás e contratos públicos avançam\n- ONGs e parceiros (-1): mais procura e menos financiamento\n- Macroeconomia (+1): receitas fortes, inflação contida\n- PMEs (0): contratos novos, crédito escasso\n- Ramos de negócio (0): energia ganha, agricultura perde\n\n## Direcção\n\n- Famílias: Comprar básicos aos poucos, comparar dois mercados e guardar uma reserva antes de Dezembro.\n- Pequenos agricultores: Semear cedo, escolher sementes de ciclo curto e pedir apoio do Plano de Contingência no distrito.\n- PMEs: Juntar certidões, registar a empresa e calcular os juros antes de aceitar um subcontrato.\n- Jovens à procura de emprego: Registar-se no Portal Emprego do INEP e juntar formação curta com experiência comprovada.\n- Investidores: Esperar o regulamento da Lei 9/2026 e a decisão final do Rovuma LNG antes de comprometer capital.\n- Doentes e famílias: Pedir cedo a referência médica, guardar recibos e perguntar no hospital central onde o tratamento está disponível.\n\n## Direcções anteriores: o que se confirmou\n\nAs direcções sobre combustíveis seguem pendentes: a taxa sobre os combustíveis ainda não foi votada e a ARENE não anunciou novo preço. Os preços de milho e arroz por cidade ainda não foram publicados.\n\n## Sinal a acompanhar\n\nAcordo técnico com o FMI até meados de Dezembro, votação da taxa dos combustíveis, inflação de Novembro, decisão do Banco de Moçambique sobre a MIMO, regulamento da Lei 9/2026 e decisão final do Rovuma LNG.\n\n## Grau de confiança\n\nMédia: dados do Governo, do INE e de 6 órgãos de imprensa; o valor do programa do FMI não foi divulgado.\n\n## Fontes\n\n- Oficiais: INE, Banco de Moçambique\n- Imprensa nacional: Lusa (Notícias ao Minuto, RTP), Forbes África Lusófona\n- Internacional: 360 Mozambique, Africanews, FMI\n- Preços: FEWS NET, AGRA",
+    "verificar": [
+      "Decisão do FMI na primeira quinzena de Dezembro (Lusa, 24 de Novembro)",
+      "Valor pago ao FMI em Março: 698,6 milhões de dólares (360 Mozambique), outra fonte indica mais de 630 milhões",
+      "Concessão de Quelimane: mais de 100 milhões de dólares, 58 milhões na primeira fase",
+      "⚠️ Categorias de fontes não consultadas hoje: precos, analise_independente"
+    ],
+    "duvidas": [],
+    "conformidade": [
+      {
+        "criterio": "Notícias do mundo",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Notícias de Moçambique",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "PESTAL completo",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Canais de transmissão",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Três cenários",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Riscos",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Horizonte",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Vulnerabilidade",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Impacto nos 8 grupos",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Direcção por público",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Sinal a acompanhar",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "Confiança e fontes",
+        "ok": true,
+        "nota": "incluído"
+      },
+      {
+        "criterio": "O que mudou",
+        "ok": true,
+        "nota": "incluído"
+      }
+    ]
+  }
+}

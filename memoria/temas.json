@@ -632,5 +632,33 @@
         "direccao": "Organizações e doadores devem reforçar comida, abrigo e saúde nos locais de acolhimento."
       }
     ]
+  },
+  {
+    "id": "fmi",
+    "nome": "Programa do FMI",
+    "estado": "activo",
+    "inicio": "2026-11-26",
+    "historial": [
+      {
+        "data": "2026-11-26",
+        "semana": "2026-S48",
+        "resumo": "A decisão prevista para Novembro passou para a primeira quinzena de Dezembro, por trâmites internos do FMI, segundo o Governo. As equipas técnicas já fecharam os principais entendimentos.",
+        "direccao": "Acompanhar o comunicado do FMI e proteger a folga de tesouraria até Janeiro."
+      }
+    ]
+  },
+  {
+    "id": "quelimane",
+    "nome": "Porto de Quelimane",
+    "estado": "activo",
+    "inicio": "2026-11-26",
+    "historial": [
+      {
+        "data": "2026-11-26",
+        "semana": "2026-S48",
+        "resumo": "O Governo aprovou a concessão para reactivar o porto, parado desde 2017, com mais de 100 milhões de dólares em duas fases.",
+        "direccao": "Fornecedores da Zambézia devem preparar certidões antes dos concursos."
+      }
+    ]
   }
 ]
