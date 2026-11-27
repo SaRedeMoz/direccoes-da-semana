@@ -1,31 +1,31 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-26",
+  "hoje": "2026-11-27",
   "semana": "2026-S48",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
-  "dia_semana": "quinta",
+  "dia_semana": "sexta",
   "post_do_dia": "dia",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "internacional",
-    "analise_independente"
+    "regional",
+    "humanitario"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
+    "2026-11-26 (dia): Programa do FMI: a decisão que ficou para Dezembro",
     "2026-11-25 (bolso): Milho e arroz custam menos que há um ano, mas o adubo sobe até 41%",
     "2026-11-24 (dia): Oncologia: o que muda para os doentes com o serviço do Hospital Central em ruínas",
     "2026-11-23 (dia): Orçamento de 2027: o Estado consegue cumprir o défice de 4,6%?",
-    "2026-11-20 (dia): Rovuma LNG: a decisão que falta e o que muda para quem vive de fornecer",
-    "2026-11-19 (dia): Julgamento de Venâncio Mondlane e o risco para a economia"
+    "2026-11-20 (dia): Rovuma LNG: a decisão que falta e o que muda para quem vive de fornecer"
   ],
   "ultimas_areas_dia": [
+    "Região e mundo (SADC, comércio, doadores)",
     "Saúde",
-    "Finanças públicas e impostos",
-    "Gás, minas e recursos naturais"
+    "Finanças públicas e impostos"
   ],
-  "area_sugerida": "Região e mundo (SADC, comércio, doadores)",
+  "area_sugerida": "Tecnologia e telecomunicações",
   "edicao_anterior": [
     "Estado cobra mais e gasta menos",
     "Mondlane: defesa pede anular acusação",
