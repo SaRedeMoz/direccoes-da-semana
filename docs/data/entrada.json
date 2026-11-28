@@ -1,16 +1,17 @@
 {
   "modo": "diario",
-  "hoje": "2026-11-27",
+  "hoje": "2026-11-28",
   "semana": "2026-S48",
   "issue": "https://github.com/SaRedeMoz/direccoes-da-semana/issues/10",
-  "dia_semana": "sexta",
-  "post_do_dia": "dia",
+  "dia_semana": "sabado",
+  "post_do_dia": "nenhum",
   "categorias_hoje": [
     "oficiais",
     "precos",
     "imprensa_nacional",
-    "regional",
-    "humanitario"
+    "imprensa_economica",
+    "analise_independente",
+    "internacional"
   ],
   "tema_pedido": "",
   "ultimos_temas_dia": [
@@ -25,7 +26,7 @@
     "Saúde",
     "Finanças públicas e impostos"
   ],
-  "area_sugerida": "Tecnologia e telecomunicações",
+  "area_sugerida": "",
   "edicao_anterior": [
     "Estado cobra mais e gasta menos",
     "Mondlane: defesa pede anular acusação",
